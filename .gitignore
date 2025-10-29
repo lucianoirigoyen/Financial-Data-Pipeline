@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Project Specific
+outputs/
+outputs_backup*/
+cache/
+logs/
+temp/
+
+# Keep structure with .gitkeep
+!outputs/.gitkeep
+!cache/.gitkeep
+!logs/.gitkeep

@@ -1,9 +1,0 @@
-{
-  "timestamp": "2025-10-29T00:05:48.154666",
-  "status": "critical",
-  "checks": {},
-  "html_snapshot": null,
-  "errors": [
-    "Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/institucional/estadisticas/entidad.php?mercado=V&rut=8052&grupo=0&tipoentidad=SAFMGENERAL&vig=VI&row=AAAw"
-  ]
-}
