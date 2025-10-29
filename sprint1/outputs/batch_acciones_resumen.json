@@ -1,0 +1,310 @@
+{
+  "exitosos": [
+    {
+      "symbol": "DIS",
+      "name": "Walt Disney Company",
+      "description_es": "The Walt Disney Company (DIS) es un conglomerado multinacional diversificado de entretenimiento y medios de comunicación con sede en Burbank, California, conocido por sus marcas icónicas como Disney, Pixar, Marvel, Lucasfilm y ESPN. La compañía opera en múltiples segmentos, incluyendo televisión, producción de películas, parques temáticos y servicios de streaming directo al consumidor, ejemplificados por sus plataformas insignia, Disney+ y ESPN+. Con una rica biblioteca de contenidos y una formidable presencia mundial, Disney está estratégicamente posicionada para aprovechar las tendencias emergentes en el consumo de medios y el entretenimiento familiar, reforzando su estatus como una fuerza vital en el panorama del entretenimiento en rápida evolución.",
+      "sector_es": "SERVICIOS DE COMUNICACIÓN",
+      "industry_es": "ENTRETENIMIENTO",
+      "market_cap": 201979871000.0,
+      "pe_ratio": 17.53,
+      "dividend_yield": 0.009,
+      "beta": 1.542,
+      "country": "USA",
+      "currency": "USD",
+      "exchange": "NYSE",
+      "roe": 0.115,
+      "profit_margin": 0.122,
+      "revenue_ttm": 94535000000.0,
+      "eps": 6.41,
+      "fecha_procesamiento": "2025-10-28 23:24:46",
+      "analisis_completo": {
+        "valoracion": {
+          "pe_ratio": 17.53,
+          "pe_trailing": 17.53,
+          "pe_forward": 17.61,
+          "peg_ratio": 0.889,
+          "price_to_book": 1.847,
+          "price_to_sales": 2.137,
+          "ev_to_revenue": 2.523,
+          "ev_to_ebitda": 13.21,
+          "valoracion_resumen": "Valoración Razonable"
+        },
+        "rentabilidad": {
+          "profit_margin": 0.122,
+          "operating_margin": 0.157,
+          "roa": 0.0452,
+          "roe": 0.115,
+          "eps": 6.41,
+          "diluted_eps": 6.41,
+          "revenue_per_share": 52.29,
+          "rentabilidad_clasificacion": "Rentabilidad Moderada"
+        },
+        "tecnico": {
+          "beta": 1.542,
+          "volatilidad_clasificacion": "Alta Volatilidad",
+          "precio_52w_alto": 124.69,
+          "precio_52w_bajo": 79.76,
+          "media_movil_50d": 114.53,
+          "media_movil_200d": 109.99
+        },
+        "analistas": {
+          "precio_objetivo": 134.14,
+          "strong_buy": 4.0,
+          "buy": 20.0,
+          "hold": 6.0,
+          "sell": 1.0,
+          "strong_sell": 0,
+          "total_analistas": 31.0,
+          "consenso": "Fuertemente Positivo"
+        }
+      }
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc",
+      "description_es": "Apple Inc. es una multinacional tecnológica estadounidense líder especializada en electrónica de consumo, software y servicios en línea innovadores. Con unos ingresos récord de 274.500 millones de dólares en 2020, ostenta el título de empresa cotizada más valiosa del mundo y es una fuerza dominante en el panorama tecnológico mundial. Sus productos estrella, como el iPhone, el iPad y el Mac, han cimentado su reputación como pionera en el sector, posicionándola como el cuarto mayor vendedor de PC y fabricante de smartphones del mundo. Como piedra angular de las \"cinco grandes\" empresas tecnológicas, Apple sigue marcando pautas en el sector e impulsando avances en tecnología y participación de los consumidores.",
+      "sector_es": "TECNOLOGÍA",
+      "industry_es": "ELECTRÓNICA DE CONSUMO",
+      "market_cap": 3989245002000.0,
+      "pe_ratio": 39.82,
+      "dividend_yield": 0.0038,
+      "beta": 1.094,
+      "country": "USA",
+      "currency": "USD",
+      "exchange": "NASDAQ",
+      "roe": 1.498,
+      "profit_margin": 0.243,
+      "revenue_ttm": 408624988000.0,
+      "eps": 6.75,
+      "fecha_procesamiento": "2025-10-28 23:25:01",
+      "analisis_completo": {
+        "valoracion": {
+          "pe_ratio": 39.82,
+          "pe_trailing": 39.82,
+          "pe_forward": 32.05,
+          "peg_ratio": 2.466,
+          "price_to_book": 57.97,
+          "price_to_sales": 9.76,
+          "ev_to_revenue": 9.45,
+          "ev_to_ebitda": 27.26,
+          "valoracion_resumen": "Posible Sobrevaloración"
+        },
+        "rentabilidad": {
+          "profit_margin": 0.243,
+          "operating_margin": 0.3,
+          "roa": 0.245,
+          "roe": 1.498,
+          "eps": 6.75,
+          "diluted_eps": 6.75,
+          "revenue_per_share": 27.17,
+          "rentabilidad_clasificacion": "Excelente Rentabilidad"
+        },
+        "tecnico": {
+          "beta": 1.094,
+          "volatilidad_clasificacion": "Volatilidad Moderada",
+          "precio_52w_alto": 269.12,
+          "precio_52w_bajo": 168.8,
+          "media_movil_50d": 244.89,
+          "media_movil_200d": 222.61
+        },
+        "analistas": {
+          "precio_objetivo": 253.57,
+          "strong_buy": 5.0,
+          "buy": 23.0,
+          "hold": 15.0,
+          "sell": 1.0,
+          "strong_sell": 3.0,
+          "total_analistas": 47.0,
+          "consenso": "Moderadamente Positivo"
+        }
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "description_es": "Microsoft Corporation es una importante multinacional tecnológica estadounidense conocida por su amplia cartera de productos, que incluye sistemas operativos, software de productividad y soluciones de hardware. Más conocida por su sistema operativo Microsoft Windows y la suite Microsoft Office, la empresa también ha establecido una presencia significativa en la industria del juego con su plataforma Xbox y en el mercado de hardware con la serie Surface. Demostrando un fuerte liderazgo en transformación digital, Microsoft aprovecha los servicios de computación en la nube, especialmente a través de su plataforma Azure, para mejorar la productividad e impulsar la innovación en numerosos sectores. Su sólida posición en el mercado y su compromiso con la investigación y el desarrollo subrayan su papel fundamental en la configuración del futuro de la tecnología a escala mundial.",
+      "sector_es": "TECNOLOGÍA",
+      "industry_es": "SOFTWARE - INFRAESTRUCTURA",
+      "market_cap": 3950834876000.0,
+      "pe_ratio": 38.46,
+      "dividend_yield": 0.0063,
+      "beta": 1.023,
+      "country": "USA",
+      "currency": "USD",
+      "exchange": "NASDAQ",
+      "roe": 0.333,
+      "profit_margin": 0.361,
+      "revenue_ttm": 281723994000.0,
+      "eps": 13.82,
+      "fecha_procesamiento": "2025-10-28 23:25:17",
+      "analisis_completo": {
+        "valoracion": {
+          "pe_ratio": 38.46,
+          "pe_trailing": 38.46,
+          "pe_forward": 33.33,
+          "peg_ratio": 2.259,
+          "price_to_book": 11.16,
+          "price_to_sales": 14.02,
+          "ev_to_revenue": 13.49,
+          "ev_to_ebitda": 23.72,
+          "valoracion_resumen": "Posible Sobrevaloración"
+        },
+        "rentabilidad": {
+          "profit_margin": 0.361,
+          "operating_margin": 0.449,
+          "roa": 0.142,
+          "roe": 0.333,
+          "eps": 13.82,
+          "diluted_eps": 13.82,
+          "revenue_per_share": 37.9,
+          "rentabilidad_clasificacion": "Excelente Rentabilidad"
+        },
+        "tecnico": {
+          "beta": 1.023,
+          "volatilidad_clasificacion": "Volatilidad Moderada",
+          "precio_52w_alto": 554.54,
+          "precio_52w_bajo": 343.59,
+          "media_movil_50d": 512.02,
+          "media_movil_200d": 458.9
+        },
+        "analistas": {
+          "precio_objetivo": 621.07,
+          "strong_buy": 13.0,
+          "buy": 44.0,
+          "hold": 1.0,
+          "sell": 0,
+          "strong_sell": 0,
+          "total_analistas": 58.0,
+          "consenso": "Fuertemente Positivo"
+        }
+      }
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc Class A",
+      "description_es": "Alphabet Inc. (GOOGL) es un importante conglomerado multinacional estadounidense con sede en Mountain View (California), constituido como sociedad matriz de Google y sus filiales tras una reestructuración estratégica en octubre de 2015. Es una de las mayores empresas tecnológicas del mundo por ingresos y opera en diversos segmentos, como la publicidad en línea, la computación en la nube, la electrónica de consumo y la inteligencia artificial. Los cofundadores Larry Page y Sergey Brin siguen influyendo en la dirección estratégica de la empresa como accionistas mayoritarios y miembros del consejo de administración. Con una sólida cartera y un compromiso con la innovación, Alphabet se mantiene a la vanguardia de los avances tecnológicos, generando un importante valor de mercado y potencial de crecimiento para los inversores institucionales.",
+      "sector_es": "SERVICIOS DE COMUNICACIÓN",
+      "industry_es": "CONTENIDOS E INFORMACIÓN DE INTERNET",
+      "market_cap": 3146675913000.0,
+      "pe_ratio": 27.7,
+      "dividend_yield": 0.0039,
+      "beta": 1.0,
+      "country": "USA",
+      "currency": "USD",
+      "exchange": "NASDAQ",
+      "roe": 0.348,
+      "profit_margin": 0.311,
+      "revenue_ttm": 371399000000.0,
+      "eps": 9.72,
+      "fecha_procesamiento": "2025-10-28 23:25:33",
+      "analisis_completo": {
+        "valoracion": {
+          "pe_ratio": 27.7,
+          "pe_trailing": 27.7,
+          "pe_forward": 23.31,
+          "peg_ratio": 1.671,
+          "price_to_book": 8.19,
+          "price_to_sales": 8.47,
+          "ev_to_revenue": 7.85,
+          "ev_to_ebitda": 18.48,
+          "valoracion_resumen": "Posible Sobrevaloración"
+        },
+        "rentabilidad": {
+          "profit_margin": 0.311,
+          "operating_margin": 0.324,
+          "roa": 0.168,
+          "roe": 0.348,
+          "eps": 9.72,
+          "diluted_eps": 9.72,
+          "revenue_per_share": 30.43,
+          "rentabilidad_clasificacion": "Excelente Rentabilidad"
+        },
+        "tecnico": {
+          "beta": 1.0,
+          "volatilidad_clasificacion": "Volatilidad Moderada",
+          "precio_52w_alto": 270.14,
+          "precio_52w_bajo": 140.23,
+          "media_movil_50d": 237.85,
+          "media_movil_200d": 191.05
+        },
+        "analistas": {
+          "precio_objetivo": 262.09,
+          "strong_buy": 12.0,
+          "buy": 42.0,
+          "hold": 11.0,
+          "sell": 0,
+          "strong_sell": 0,
+          "total_analistas": 65.0,
+          "consenso": "Fuertemente Positivo"
+        }
+      }
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla Inc",
+      "description_es": "Tesla, Inc. es una empresa estadounidense líder en vehículos eléctricos y energías limpias con sede en Palo Alto, California. Con una variada cartera de productos que incluye coches eléctricos, soluciones de almacenamiento de energía en baterías y productos de energía solar, Tesla está a la vanguardia de la innovación en transporte sostenible y energía. En 2020, Tesla se hizo con una parte significativa del mercado mundial, alcanzando una cuota del 16% en el segmento de vehículos enchufables y del 23% en el de vehículos eléctricos de batería, consolidando su posición como el mayor vendedor de vehículos eléctricos. Además, a través de su filial Tesla Energy, la empresa es un actor clave en el mercado de la energía solar y el almacenamiento en baterías, contribuyendo sustancialmente al panorama de las energías renovables. A medida que aumenta la producción y amplía su oferta de productos, Tesla sigue preparada para crecer a largo plazo y liderar la transición hacia un futuro más sostenible.",
+      "sector_es": "CONSUMO CÍCLICO",
+      "industry_es": "FABRICANTES DE AUTOMÓVILES",
+      "market_cap": 1504667107000.0,
+      "pe_ratio": 303.64,
+      "dividend_yield": null,
+      "beta": 2.086,
+      "country": "USA",
+      "currency": "USD",
+      "exchange": "NASDAQ",
+      "roe": 0.0679,
+      "profit_margin": 0.0531,
+      "revenue_ttm": 95632998000.0,
+      "eps": 1.49,
+      "fecha_procesamiento": "2025-10-28 23:25:49",
+      "analisis_completo": {
+        "valoracion": {
+          "pe_ratio": 303.64,
+          "pe_trailing": 303.64,
+          "pe_forward": 172.41,
+          "peg_ratio": 7.72,
+          "price_to_book": 18.75,
+          "price_to_sales": 15.73,
+          "ev_to_revenue": 15.38,
+          "ev_to_ebitda": 105.31,
+          "valoracion_resumen": "Altamente Sobrevalorada"
+        },
+        "rentabilidad": {
+          "profit_margin": 0.0531,
+          "operating_margin": 0.0663,
+          "roa": 0.0235,
+          "roe": 0.0679,
+          "eps": 1.49,
+          "diluted_eps": 1.49,
+          "revenue_per_share": 29.7,
+          "rentabilidad_clasificacion": "Baja Rentabilidad"
+        },
+        "tecnico": {
+          "beta": 2.086,
+          "volatilidad_clasificacion": "Muy Alta Volatilidad",
+          "precio_52w_alto": 488.54,
+          "precio_52w_bajo": 214.25,
+          "media_movil_50d": 400.44,
+          "media_movil_200d": 336.07
+        },
+        "analistas": {
+          "precio_objetivo": 390.53,
+          "strong_buy": 5.0,
+          "buy": 15.0,
+          "hold": 17.0,
+          "sell": 6.0,
+          "strong_sell": 2.0,
+          "total_analistas": 45.0,
+          "consenso": "Moderadamente Positivo"
+        }
+      }
+    }
+  ],
+  "fallidos": [],
+  "resumen": {
+    "total": 5,
+    "exitosos": 5,
+    "fallidos": 0
+  }
+}

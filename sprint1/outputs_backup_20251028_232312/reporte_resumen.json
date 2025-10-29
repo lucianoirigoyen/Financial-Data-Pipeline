@@ -1,0 +1,108 @@
+{
+  "timestamp": "2025-10-28 23:18:29",
+  "archivos_json": [
+    {
+      "nombre": "fondo_bci_balanceado_data.json",
+      "tamaño_kb": 3.79
+    },
+    {
+      "nombre": "test_dis_data.json",
+      "tamaño_kb": 2.25
+    },
+    {
+      "nombre": "aapl_data.json",
+      "tamaño_kb": 2.21
+    },
+    {
+      "nombre": "batch_fondos_resumen.json",
+      "tamaño_kb": 15.82
+    },
+    {
+      "nombre": "test_fondo_banchile_data.json",
+      "tamaño_kb": 4.94
+    },
+    {
+      "nombre": "fondo_santander_conservador_data.json",
+      "tamaño_kb": 3.64
+    },
+    {
+      "nombre": "fondo_security_crecimiento_data.json",
+      "tamaño_kb": 3.51
+    },
+    {
+      "nombre": "googl_data.json",
+      "tamaño_kb": 2.36
+    },
+    {
+      "nombre": "reporte_resumen.json",
+      "tamaño_kb": 1.9
+    },
+    {
+      "nombre": "tsla_data.json",
+      "tamaño_kb": 2.51
+    },
+    {
+      "nombre": "dis_data.json",
+      "tamaño_kb": 2.25
+    },
+    {
+      "nombre": "msft_data.json",
+      "tamaño_kb": 2.38
+    },
+    {
+      "nombre": "batch_acciones_resumen.json",
+      "tamaño_kb": 13.01
+    },
+    {
+      "nombre": "fondo_chile_ahorro_plus_data.json",
+      "tamaño_kb": 4.04
+    }
+  ],
+  "archivos_excel": [
+    {
+      "nombre": "analisis_completo_fondo_Chile_Ahorro_Plus.xlsx",
+      "tamaño_kb": 9.21
+    },
+    {
+      "nombre": "analisis_completo_fondo_FONDO_MUTUO_BANCHILE_DEPÓSITO_PLUS_XIV.xlsx",
+      "tamaño_kb": 9.19
+    },
+    {
+      "nombre": "analisis_COMPLETO_DIS.xlsx",
+      "tamaño_kb": 10.94
+    },
+    {
+      "nombre": "analisis_COMPLETO_TSLA.xlsx",
+      "tamaño_kb": 11.1
+    },
+    {
+      "nombre": "analisis_COMPLETO_AAPL.xlsx",
+      "tamaño_kb": 10.96
+    },
+    {
+      "nombre": "analisis_COMPLETO_MSFT.xlsx",
+      "tamaño_kb": 11.01
+    },
+    {
+      "nombre": "analisis_completo_fondo_Bci_Balanceado.xlsx",
+      "tamaño_kb": 9.13
+    },
+    {
+      "nombre": "analisis_COMPLETO_GOOGL.xlsx",
+      "tamaño_kb": 11.07
+    },
+    {
+      "nombre": "analisis_completo_fondo_Security_Crecimiento.xlsx",
+      "tamaño_kb": 9.0
+    },
+    {
+      "nombre": "analisis_completo_fondo_Santander_Conservador.xlsx",
+      "tamaño_kb": 9.0
+    }
+  ],
+  "estadisticas": {
+    "total_archivos": 24,
+    "acciones_procesadas": 5,
+    "fondos_procesados": 6
+  }
+}

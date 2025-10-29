@@ -1,0 +1,857 @@
+[
+  {
+    "pdf": "fondo_8517_B.pdf",
+    "campos_encontrados": 10,
+    "total_campos": 12,
+    "porcentaje_cobertura": 83.33333333333334,
+    "confianza": "high",
+    "datos": {
+      "tipo_fondo": "Liquidez",
+      "perfil_riesgo": "Alto",
+      "perfil_riesgo_escala": "R6",
+      "horizonte_inversion": "Largo Plazo",
+      "comision_administracion": 0.0184,
+      "comision_rescate": null,
+      "rentabilidad_12m": 0.17600000000000002,
+      "rentabilidad_24m": 0.1654,
+      "rentabilidad_36m": -0.0039000000000000003,
+      "patrimonio": null,
+      "composicion_portafolio": [
+        {
+          "activo": "Dólar",
+          "porcentaje": 1.0
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 1.0
+        },
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "China",
+          "porcentaje": 0.31170000000000003
+        },
+        {
+          "activo": "Taiwán",
+          "porcentaje": 0.21530000000000002
+        },
+        {
+          "activo": "India",
+          "porcentaje": 0.1959
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.18530000000000002
+        },
+        {
+          "activo": "Años",
+          "porcentaje": 0.1654
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "países que contribuyó positivamente fue Corea del Sur con un",
+          "porcentaje": 0.0984
+        },
+        {
+          "activo": "Corea Sur",
+          "porcentaje": 0.09179999999999999
+        },
+        {
+          "activo": "los mercados de Asia Emergente tuvieron un rendimiento de un",
+          "porcentaje": 0.06860000000000001
+        },
+        {
+          "activo": "Años",
+          "porcentaje": 0.0464
+        }
+      ],
+      "composicion_detallada": [
+        {
+          "activo": "Dólar",
+          "porcentaje": 1.0,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 1.0,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "China",
+          "porcentaje": 0.31170000000000003,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Taiwán",
+          "porcentaje": 0.21530000000000002,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "India",
+          "porcentaje": 0.1959,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.18530000000000002,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Años",
+          "porcentaje": 0.1654,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "países que contribuyó positivamente fue Corea del Sur con un",
+          "porcentaje": 0.0984,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Corea Sur",
+          "porcentaje": 0.09179999999999999,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "los mercados de Asia Emergente tuvieron un rendimiento de un",
+          "porcentaje": 0.06860000000000001,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Años",
+          "porcentaje": 0.0464,
+          "categoria": "Otros"
+        }
+      ]
+    }
+  },
+  {
+    "pdf": "fondo_10441_UNICA.pdf",
+    "campos_encontrados": 6,
+    "total_campos": 12,
+    "porcentaje_cobertura": 50.0,
+    "confianza": "medium",
+    "datos": {
+      "tipo_fondo": "Liquidez",
+      "perfil_riesgo": null,
+      "perfil_riesgo_escala": null,
+      "horizonte_inversion": "Corto Plazo",
+      "comision_administracion": 0.0113,
+      "comision_rescate": null,
+      "rentabilidad_12m": 0.0425,
+      "rentabilidad_24m": null,
+      "rentabilidad_36m": null,
+      "patrimonio": null,
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "El objeto del Fondo es invertir al menos un",
+          "porcentaje": 0.9
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.019299999999999998
+        },
+        {
+          "activo": "y tendrán un límite máximo anual de un",
+          "porcentaje": 0.012
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0095
+        },
+        {
+          "activo": "que a continuación se especifican y con un límite de hasta un",
+          "porcentaje": 0.002
+        }
+      ],
+      "composicion_detallada": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "El objeto del Fondo es invertir al menos un",
+          "porcentaje": 0.9,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.019299999999999998,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "y tendrán un límite máximo anual de un",
+          "porcentaje": 0.012,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0095,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "que a continuación se especifican y con un límite de hasta un",
+          "porcentaje": 0.002,
+          "categoria": "Otros"
+        }
+      ]
+    }
+  },
+  {
+    "pdf": "fondo_8248_A.pdf",
+    "campos_encontrados": 8,
+    "total_campos": 12,
+    "porcentaje_cobertura": 66.66666666666666,
+    "confianza": "medium",
+    "datos": {
+      "tipo_fondo": "Liquidez",
+      "perfil_riesgo": "Bajo",
+      "perfil_riesgo_escala": "R1",
+      "horizonte_inversion": "Corto Plazo",
+      "comision_administracion": 0.0095,
+      "comision_rescate": null,
+      "rentabilidad_12m": 0.1114,
+      "rentabilidad_24m": null,
+      "rentabilidad_36m": null,
+      "patrimonio": null,
+      "composicion_portafolio": [
+        {
+          "activo": "Dólar",
+          "porcentaje": 1.0
+        },
+        {
+          "activo": "Depósitos",
+          "porcentaje": 0.9788
+        },
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.223
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.1525
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.1244
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.04019999999999999
+        },
+        {
+          "activo": "el rango",
+          "porcentaje": 0.04
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0276
+        },
+        {
+          "activo": "Pagarés",
+          "porcentaje": 0.0212
+        }
+      ],
+      "composicion_detallada": [
+        {
+          "activo": "Dólar",
+          "porcentaje": 1.0,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Depósitos",
+          "porcentaje": 0.9788,
+          "categoria": "Renta Fija Corporativa"
+        },
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.223,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.1525,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.1244,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.04019999999999999,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "el rango",
+          "porcentaje": 0.04,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0276,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Pagarés",
+          "porcentaje": 0.0212,
+          "categoria": "Renta Fija Corporativa"
+        }
+      ]
+    }
+  },
+  {
+    "pdf": "fondo_8052_APVDIGITAL.pdf",
+    "campos_encontrados": 8,
+    "total_campos": 12,
+    "porcentaje_cobertura": 66.66666666666666,
+    "confianza": "medium",
+    "datos": {
+      "tipo_fondo": "Liquidez",
+      "perfil_riesgo": "Bajo",
+      "perfil_riesgo_escala": "R2",
+      "horizonte_inversion": "Corto Plazo",
+      "comision_administracion": 0.008,
+      "comision_rescate": null,
+      "rentabilidad_12m": 0.0048,
+      "rentabilidad_24m": null,
+      "rentabilidad_36m": null,
+      "patrimonio": null,
+      "composicion_portafolio": [
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 1.0
+        },
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Pagarés",
+          "porcentaje": 0.7725
+        },
+        {
+          "activo": "B. Tesorería",
+          "porcentaje": 0.2275
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.0821
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.0489
+        }
+      ],
+      "composicion_detallada": [
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 1.0,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Pagarés",
+          "porcentaje": 0.7725,
+          "categoria": "Renta Fija Corporativa"
+        },
+        {
+          "activo": "B. Tesorería",
+          "porcentaje": 0.2275,
+          "categoria": "Renta Fija Gobierno"
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.0821,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.0489,
+          "categoria": "Otros"
+        }
+      ]
+    }
+  },
+  {
+    "pdf": "fondo_8135_B.pdf",
+    "campos_encontrados": 10,
+    "total_campos": 12,
+    "porcentaje_cobertura": 83.33333333333334,
+    "confianza": "high",
+    "datos": {
+      "tipo_fondo": "Liquidez",
+      "perfil_riesgo": "Medio",
+      "perfil_riesgo_escala": "R3",
+      "horizonte_inversion": "Largo Plazo",
+      "comision_administracion": 0.0265,
+      "comision_rescate": null,
+      "rentabilidad_12m": 0.0252,
+      "rentabilidad_24m": 0.0333,
+      "rentabilidad_36m": 0.36979999999999996,
+      "patrimonio": null,
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "B. Bancario",
+          "porcentaje": 0.7281
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.6307
+        },
+        {
+          "activo": "La estrategia del fondo es invertir al menos un",
+          "porcentaje": 0.6
+        },
+        {
+          "activo": "años",
+          "porcentaje": 0.5062
+        },
+        {
+          "activo": "años",
+          "porcentaje": 0.36979999999999996
+        },
+        {
+          "activo": "B. Empresa",
+          "porcentaje": 0.16210000000000002
+        },
+        {
+          "activo": "B. Tesorería",
+          "porcentaje": 0.1067
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "años",
+          "porcentaje": 0.0987
+        },
+        {
+          "activo": "el Banco Central mantuvo la TPM en",
+          "porcentaje": 0.0475
+        },
+        {
+          "activo": "año y",
+          "porcentaje": 0.044000000000000004
+        },
+        {
+          "activo": "Años",
+          "porcentaje": 0.0333
+        },
+        {
+          "activo": "tomada por unanimidad ante riesgos inflacionarios y presiones de costos. El IPC del mes fue",
+          "porcentaje": 0.004
+        },
+        {
+          "activo": "Favorable Desfavorable Pagarés",
+          "porcentaje": 0.0031
+        }
+      ],
+      "composicion_detallada": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "B. Bancario",
+          "porcentaje": 0.7281,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.6307,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "La estrategia del fondo es invertir al menos un",
+          "porcentaje": 0.6,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "años",
+          "porcentaje": 0.5062,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "años",
+          "porcentaje": 0.36979999999999996,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "B. Empresa",
+          "porcentaje": 0.16210000000000002,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "B. Tesorería",
+          "porcentaje": 0.1067,
+          "categoria": "Renta Fija Gobierno"
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "años",
+          "porcentaje": 0.0987,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "el Banco Central mantuvo la TPM en",
+          "porcentaje": 0.0475,
+          "categoria": "Renta Fija Gobierno"
+        },
+        {
+          "activo": "año y",
+          "porcentaje": 0.044000000000000004,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Años",
+          "porcentaje": 0.0333,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "tomada por unanimidad ante riesgos inflacionarios y presiones de costos. El IPC del mes fue",
+          "porcentaje": 0.004,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Favorable Desfavorable Pagarés",
+          "porcentaje": 0.0031,
+          "categoria": "Renta Fija Corporativa"
+        }
+      ]
+    }
+  },
+  {
+    "pdf": "fondo_10059_APVDIGITAL.pdf",
+    "campos_encontrados": 9,
+    "total_campos": 12,
+    "porcentaje_cobertura": 75.0,
+    "confianza": "high",
+    "datos": {
+      "tipo_fondo": "Conservador",
+      "perfil_riesgo": "Medio",
+      "perfil_riesgo_escala": "R3",
+      "horizonte_inversion": "Largo Plazo",
+      "comision_administracion": 0.08199999999999999,
+      "comision_rescate": null,
+      "rentabilidad_12m": 0.051399999999999994,
+      "rentabilidad_24m": 0.0716,
+      "rentabilidad_36m": null,
+      "patrimonio": null,
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8288
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.7605
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.24
+        },
+        {
+          "activo": "APVDIGITAL BCH DIGITAL Renta Var.",
+          "porcentaje": 0.17120000000000002
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.1316
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.1225
+        },
+        {
+          "activo": "dicho commodity tuvo un alza de",
+          "porcentaje": 0.113
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "Años",
+          "porcentaje": 0.0716
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.0682
+        },
+        {
+          "activo": "Emergentes fue un contribuidor dado el retorno de",
+          "porcentaje": 0.067
+        },
+        {
+          "activo": "Irlanda",
+          "porcentaje": 0.030899999999999997
+        },
+        {
+          "activo": "exposición a Mercados Desarrollados fue un contribuidor dado el retorno de",
+          "porcentaje": 0.027999999999999997
+        },
+        {
+          "activo": "positivamente. El índice registró un retorno de",
+          "porcentaje": 0.01
+        }
+      ],
+      "composicion_detallada": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8288,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.7605,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.24,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "APVDIGITAL BCH DIGITAL Renta Var.",
+          "porcentaje": 0.17120000000000002,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.1316,
+          "categoria": "Acciones Internacionales"
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.1225,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "dicho commodity tuvo un alza de",
+          "porcentaje": 0.113,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Años",
+          "porcentaje": 0.0716,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.0682,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Emergentes fue un contribuidor dado el retorno de",
+          "porcentaje": 0.067,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Irlanda",
+          "porcentaje": 0.030899999999999997,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "exposición a Mercados Desarrollados fue un contribuidor dado el retorno de",
+          "porcentaje": 0.027999999999999997,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "positivamente. El índice registró un retorno de",
+          "porcentaje": 0.01,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Reino Unido",
+          "porcentaje": 0.0088,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "rentando un",
+          "porcentaje": 0.008,
+          "categoria": "Otros"
+        }
+      ]
+    }
+  },
+  {
+    "pdf": "folleto_8052_B.pdf",
+    "campos_encontrados": 10,
+    "total_campos": 12,
+    "porcentaje_cobertura": 83.33333333333334,
+    "confianza": "high",
+    "datos": {
+      "tipo_fondo": "Liquidez",
+      "perfil_riesgo": "Bajo",
+      "perfil_riesgo_escala": "R2",
+      "horizonte_inversion": "Corto Plazo",
+      "comision_administracion": 0.009000000000000001,
+      "comision_rescate": null,
+      "rentabilidad_12m": 0.0048,
+      "rentabilidad_24m": 0.011699999999999999,
+      "rentabilidad_36m": -0.009000000000000001,
+      "patrimonio": null,
+      "composicion_portafolio": [
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 1.0
+        },
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Pagarés",
+          "porcentaje": 0.7725
+        },
+        {
+          "activo": "B. Tesorería",
+          "porcentaje": 0.2275
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.0821
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.0489
+        },
+        {
+          "activo": "Años",
+          "porcentaje": 0.011699999999999999
+        }
+      ],
+      "composicion_detallada": [
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 1.0,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Pagarés",
+          "porcentaje": 0.7725,
+          "categoria": "Renta Fija Corporativa"
+        },
+        {
+          "activo": "B. Tesorería",
+          "porcentaje": 0.2275,
+          "categoria": "Renta Fija Gobierno"
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.0821,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "meses",
+          "porcentaje": 0.0489,
+          "categoria": "Otros"
+        },
+        {
+          "activo": "Años",
+          "porcentaje": 0.011699999999999999,
+          "categoria": "Otros"
+        }
+      ]
+    }
+  }
+]

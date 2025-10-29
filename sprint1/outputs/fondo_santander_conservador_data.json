@@ -1,0 +1,44 @@
+{
+  "fondo_id": "santander_conservador",
+  "nombre": "Santander Conservador",
+  "nombre_cmf": "",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo Santander Conservador es una opción de inversión que se enfoca en la preservación del capital a través de activos de bajo riesgo. Su estrategia de inversión se basa en la diversificación de activos seguros como bonos del Gobierno de Chile, depósitos a plazo y bonos corporativos. Esto brinda estabilidad y seguridad a los inversionistas, ideal para aquellos que buscan proteger su dinero y obtener rendimientos modestos a largo plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo bajo, es decir, aquellos que prefieren evitar grandes fluctuaciones en el valor de su inversión y priorizan la seguridad sobre la posibilidad de altas ganancias. Si eres un joven inversor que está comenzando a explorar el mundo de las inversiones y prefieres una estrategia conservadora, el Santander Conservador puede ser una excelente opción para ti.\n\nLos principales activos en los que invierte este fondo son bonos del Gobierno de Chile, que representan el 60.0% de su cartera, seguido de depósitos a plazo con un 25.0% y bonos corporativos con un 15.0%. Estos activos son considerados de bajo riesgo y ofrecen una rentabilidad estable a lo largo del tiempo.\n\nEn términos simples, el nivel de riesgo de este fondo es bajo, lo que significa que las posibilidades de pérdida son mínimas en comparación con fondos más agresivos. Si bien esto puede limitar el potencial de ganancias, también reduce la exposición a la volatilidad del mercado, lo que es ideal para aquellos que buscan estabilidad y tranquilidad en sus inversiones.\n\nEl horizonte de inversión recomendado para el Santander Conservador es a mediano y largo plazo. Dado su enfoque conservador, es importante mantener la inversión por un período prolongado para aprovechar al máximo los rendimientos constantes que ofrece. Además, es importante recordar que la rentabilidad pasada del 0.047 en los últimos 12 meses puede variar en el futuro, por lo que es crucial tener paciencia y mantener una visión a largo plazo en mente.\n\nEn resumen, el fondo Santander Conservador es una excelente opción para inversores jóvenes que buscan una estrategia segura y estable para hacer crecer su dinero. Si priorizas la seguridad y la consistencia en tus inversiones, este fondo podría ser el adecuado para ti. Recuerda siempre diversificar tu portafolio y consultar con un asesor financiero antes de tomar decisiones importantes en tu camino hacia la independencia financiera.",
+  "composicion_portafolio": [
+    {
+      "activo": "Bonos Gobierno Chile",
+      "porcentaje": 0.6
+    },
+    {
+      "activo": "Depósitos a Plazo",
+      "porcentaje": 0.25
+    },
+    {
+      "activo": "Bonos Corporativos",
+      "porcentaje": 0.15
+    }
+  ],
+  "rentabilidad_anual": 0.047,
+  "fuente_cmf": false,
+  "scraping_success": false,
+  "error": null,
+  "is_sample": true,
+  "classification_basis": "fund_name",
+  "fecha_analisis": "2025-10-28 23:25:58",
+  "resumen_ejecutivo_fondo": "Santander Conservador es un fondo mutuo de tipo conservador\ncon una rentabilidad anual estimada del 4.70%.\nEste fondo está diseñado para inversores con perfil de riesgo bajo\ny horizonte de inversión de 6 meses a 2 años.",
+  "puntos_clave_fondo": [
+    "Fondo de bajo riesgo ideal para preservación de capital"
+  ],
+  "riesgos_identificados_fondo": [
+    "Alta concentración en un activo (60.0%)"
+  ],
+  "oportunidades_fondo": [],
+  "recomendacion_final": "NEUTRO: Equilibrio adecuado entre riesgo y retorno",
+  "comparacion_alternativas": {
+    "deposito_plazo": "Menor rentabilidad (~3-4%) pero mayor seguridad",
+    "fondos_similares": "Comparar comisiones y historial de rentabilidad",
+    "inversion_directa": "Mayor control pero requiere más conocimiento",
+    "diversificacion": "Considerar combinar con otros tipos de fondos"
+  }
+}

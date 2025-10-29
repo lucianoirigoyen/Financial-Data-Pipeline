@@ -1,0 +1,65 @@
+{
+  "timestamp": "2025-10-29T00:16:01.728898",
+  "status": "critical",
+  "checks": {
+    "javascript_function": {},
+    "endpoint_available": {
+      "status": "ok",
+      "response_time_ms": 417.87,
+      "details": "Endpoint disponible, tiempo: 417.87ms"
+    },
+    "pdf_download": {
+      "status": "critical",
+      "file_size": null,
+      "is_valid": false,
+      "details": "PDF válido, tamaño: None bytes"
+    },
+    "structure_changes": {
+      "status": "ok",
+      "changes": [],
+      "details": "0 cambios detectados"
+    }
+  },
+  "recommendations": [
+    "ACCIÓN INMEDIATA REQUERIDA: Sistema de scraping puede no funcionar",
+    "Verificar manualmente la página de CMF",
+    "Contactar al equipo de desarrollo"
+  ],
+  "detailed_results": {
+    "structure": {
+      "timestamp": "2025-10-29T00:15:59.643221",
+      "status": "critical",
+      "checks": {},
+      "html_snapshot": null,
+      "errors": [
+        "Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND"
+      ]
+    },
+    "endpoint": {
+      "timestamp": "2025-10-29T00:16:00.578322",
+      "status": "ok",
+      "endpoint_url": "https://www.cmfchile.cl/603/pages/ver_folleto_fm.php",
+      "response_time_ms": 417.87,
+      "response_format": "pdf_path",
+      "errors": [],
+      "status_code": 404
+    },
+    "pdf": {
+      "timestamp": "2025-10-29T00:16:00.996684",
+      "status": "critical",
+      "pdf_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "errors": [
+        "Error descargando PDF: HTTPSConnectionPool(host='www.cmfchile.cl%3c!doctype%20html%20public%20%22-', port=443): Max retries exceeded with url: /W3C//DTD%20HTML%204.01//EN%22%20%22http://www.w3.org/TR/html4/strict.dtd%22%3E%0D%0A%3Chtml%3E%0D%0A%3Chead%3E%0D%0A%3Cmeta%20http-equiv=%22Content-Type%22%20content=%22text/html;%20charset=utf-8%22%3E%0D%0A%3Ctitle%3EP&aacute;gina%20no%20encontrada%20-%20Comisi%C3%B3n%20para%20el%20Mercado%20Financiero%20-%20CMF%3C/title%3E%0D%0A%3Clink%20href=%22https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap%22%20rel=%22stylesheet%22%3E%20%0D%0A%3Cstyle%20type=%22text/css%22%3E%0D%0A%3C!--%0D%0A%0D%0Ahtml%20%7B%0D%0A%09min-height:%20100%25%0D%0A%7D%0D%0A%0D%0A%0D%0Abody%20%7B%0D%0A%09font-family:%20%22Open%20Sans%22,%20sans-serif;%0D%0A%09text-align:center;%0D%0A%09margin:0;%0D%0A%09color:%20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x11016a0d0>: Failed to resolve 'www.cmfchile.cl%3c!doctype%20html%20public%20%22-' ([Errno 8] nodename nor servname provided, or not known)\"))"
+      ]
+    },
+    "baseline": {
+      "timestamp": "2025-10-29T00:16:01.728360",
+      "status": "ok",
+      "baseline_exists": true,
+      "changes_detected": [],
+      "new_baseline_created": false
+    }
+  }
+}

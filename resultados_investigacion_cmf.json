@@ -1,0 +1,51 @@
+{
+  "fondos_fintual": [],
+  "resultados_rut": [],
+  "resultados_formatos": [
+    {
+      "caso": "BanChile con guión",
+      "params": {
+        "runFondo": "96588120-7",
+        "serie": "A",
+        "rutAdmin": "96588120-7"
+      },
+      "status": 200,
+      "respuesta": "ERROR",
+      "success": false
+    },
+    {
+      "caso": "BanChile DV separado",
+      "params": {
+        "runFondo": "965881207",
+        "serie": "A",
+        "rutAdmin": "965881207"
+      },
+      "status": 200,
+      "respuesta": "ERROR",
+      "success": false
+    },
+    {
+      "caso": "BanChile acortado",
+      "params": {
+        "runFondo": "96588",
+        "serie": "A",
+        "rutAdmin": "96588"
+      },
+      "status": 200,
+      "respuesta": "ERROR",
+      "success": false
+    },
+    {
+      "caso": "Formato miles",
+      "params": {
+        "runFondo": "96.588.120",
+        "serie": "A",
+        "rutAdmin": "96.588.120"
+      },
+      "status": 200,
+      "respuesta": "ERROR",
+      "success": false
+    }
+  ],
+  "total_exitosos": 0
+}

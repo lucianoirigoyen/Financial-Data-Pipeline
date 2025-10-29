@@ -1,0 +1,60 @@
+{
+  "symbol": "GOOGL",
+  "name": "Alphabet Inc Class A",
+  "description_es": "Alphabet Inc. (GOOGL) es un importante conglomerado multinacional estadounidense con sede en Mountain View (California), constituido como sociedad matriz de Google y sus filiales tras una reestructuración estratégica en octubre de 2015. Es una de las mayores empresas tecnológicas del mundo por ingresos y opera en diversos segmentos, como la publicidad en línea, la computación en la nube, la electrónica de consumo y la inteligencia artificial. Los cofundadores Larry Page y Sergey Brin siguen influyendo en la dirección estratégica de la empresa como accionistas mayoritarios y miembros del consejo de administración. Con una sólida cartera y un compromiso con la innovación, Alphabet se mantiene a la vanguardia de los avances tecnológicos, generando un importante valor de mercado y potencial de crecimiento para los inversores institucionales.",
+  "sector_es": "SERVICIOS DE COMUNICACIÓN",
+  "industry_es": "CONTENIDOS E INFORMACIÓN DE INTERNET",
+  "market_cap": 3146675913000.0,
+  "pe_ratio": 27.7,
+  "dividend_yield": 0.0039,
+  "beta": 1.0,
+  "country": "USA",
+  "currency": "USD",
+  "exchange": "NASDAQ",
+  "roe": 0.348,
+  "profit_margin": 0.311,
+  "revenue_ttm": 371399000000.0,
+  "eps": 9.72,
+  "fecha_procesamiento": "2025-10-28 23:25:33",
+  "analisis_completo": {
+    "valoracion": {
+      "pe_ratio": 27.7,
+      "pe_trailing": 27.7,
+      "pe_forward": 23.31,
+      "peg_ratio": 1.671,
+      "price_to_book": 8.19,
+      "price_to_sales": 8.47,
+      "ev_to_revenue": 7.85,
+      "ev_to_ebitda": 18.48,
+      "valoracion_resumen": "Posible Sobrevaloración"
+    },
+    "rentabilidad": {
+      "profit_margin": 0.311,
+      "operating_margin": 0.324,
+      "roa": 0.168,
+      "roe": 0.348,
+      "eps": 9.72,
+      "diluted_eps": 9.72,
+      "revenue_per_share": 30.43,
+      "rentabilidad_clasificacion": "Excelente Rentabilidad"
+    },
+    "tecnico": {
+      "beta": 1.0,
+      "volatilidad_clasificacion": "Volatilidad Moderada",
+      "precio_52w_alto": 270.14,
+      "precio_52w_bajo": 140.23,
+      "media_movil_50d": 237.85,
+      "media_movil_200d": 191.05
+    },
+    "analistas": {
+      "precio_objetivo": 262.09,
+      "strong_buy": 12.0,
+      "buy": 42.0,
+      "hold": 11.0,
+      "sell": 0,
+      "strong_sell": 0,
+      "total_analistas": 65.0,
+      "consenso": "Fuertemente Positivo"
+    }
+  }
+}

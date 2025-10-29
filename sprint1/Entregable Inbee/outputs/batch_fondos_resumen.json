@@ -1,0 +1,192 @@
+{
+  "exitosos": [
+    {
+      "fondo_id": "santander_conservador",
+      "nombre": "Santander Conservador",
+      "nombre_cmf": "",
+      "tipo_fondo": "Conservador",
+      "perfil_riesgo": "Bajo",
+      "descripcion_amigable": "El fondo Santander Conservador es una excelente opción para aquellos inversores que buscan mantener un perfil de riesgo bajo en sus inversiones. Este fondo se caracteriza por invertir principalmente en Bonos del Gobierno de Chile, Depósitos a Plazo y Bonos Corporativos. Su estrategia de inversión se centra en preservar el capital y generar rendimientos estables a largo plazo.\n\nEste tipo de fondo es ideal para inversores conservadores que prefieren evitar grandes fluctuaciones en el valor de su inversión y priorizan la seguridad por sobre la posibilidad de obtener altas ganancias. Si buscas una inversión segura y con un riesgo controlado, el fondo Santander Conservador es una excelente opción para ti.\n\nEn cuanto a los activos en los que invierte, el fondo Santander Conservador destina el 60.0% de sus recursos a Bonos del Gobierno de Chile, lo cual proporciona una base sólida y segura para la cartera. Además, destina un 25.0% a Depósitos a Plazo, lo que brinda estabilidad y liquidez, y un 15.0% a Bonos Corporativos, diversificando la cartera y buscando un mayor rendimiento.\n\nEn términos simples, el nivel de riesgo de este fondo es bajo, ya que se enfoca en activos de bajo riesgo y estabilidad. Si bien esto puede limitar las posibles ganancias en comparación con fondos más arriesgados, también reduce la posibilidad de pérdidas significativas. Es importante tener en cuenta que, si bien la rentabilidad a 12 meses ha sido de 0.056999999999999995, esto refleja la naturaleza conservadora del fondo y su enfoque en la preservación del capital.\n\nEl horizonte de inversión recomendado para el fondo Santander Conservador es a medio-largo plazo, ya que su estrategia se basa en generar rendimientos estables a lo largo del tiempo. Es importante tener paciencia y no dejarse llevar por movimientos a corto plazo, ya que el verdadero potencial de este fondo se materializa en el tiempo.\n\nEn resumen, el fondo Santander Conservador es una opción sólida y segura para inversores conservadores que buscan estabilidad y tranquilidad en sus inversiones. Si valoras la seguridad y la estabilidad por sobre la posibilidad de ganancias más altas, este fondo puede ser el adecuado para ti. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+      "composicion_portafolio": [
+        {
+          "activo": "Bonos Gobierno Chile",
+          "porcentaje": 0.6
+        },
+        {
+          "activo": "Depósitos a Plazo",
+          "porcentaje": 0.25
+        },
+        {
+          "activo": "Bonos Corporativos",
+          "porcentaje": 0.15
+        }
+      ],
+      "rentabilidad_anual": 0.056999999999999995,
+      "fuente_cmf": false,
+      "scraping_success": false,
+      "error": null,
+      "is_sample": true,
+      "classification_basis": "fund_name",
+      "fecha_analisis": "2025-09-26 20:49:31",
+      "resumen_ejecutivo_fondo": "Santander Conservador es un fondo mutuo de tipo conservador\ncon una rentabilidad anual estimada del 5.70%.\nEste fondo está diseñado para inversores con perfil de riesgo bajo\ny horizonte de inversión de 6 meses a 2 años.",
+      "puntos_clave_fondo": [
+        "Fondo de bajo riesgo ideal para preservación de capital"
+      ],
+      "riesgos_identificados_fondo": [
+        "Alta concentración en un activo (60.0%)"
+      ],
+      "oportunidades_fondo": [],
+      "recomendacion_final": "NEUTRO: Equilibrio adecuado entre riesgo y retorno",
+      "comparacion_alternativas": {
+        "deposito_plazo": "Menor rentabilidad (~3-4%) pero mayor seguridad",
+        "fondos_similares": "Comparar comisiones y historial de rentabilidad",
+        "inversion_directa": "Mayor control pero requiere más conocimiento",
+        "diversificacion": "Considerar combinar con otros tipos de fondos"
+      }
+    },
+    {
+      "fondo_id": "bci_balanceado",
+      "nombre": "Bci Balanceado",
+      "nombre_cmf": "",
+      "tipo_fondo": "Conservador",
+      "perfil_riesgo": "Bajo",
+      "descripcion_amigable": "El fondo Bci Balanceado es una opción de inversión conservadora diseñada para aquellos inversores que buscan obtener un equilibrio entre seguridad y crecimiento a largo plazo. Este tipo de fondo se caracteriza por tener un perfil de riesgo bajo, lo que significa que busca preservar el capital invertido y generar rendimientos estables a lo largo del tiempo.\n\nLa estrategia de inversión del fondo Bci Balanceado se basa en una diversificación de activos que incluye una combinación de acciones chilenas, bonos del Gobierno de Chile, acciones extranjeras y bonos corporativos. Por ejemplo, al invertir un 35% en acciones chilenas, el fondo busca beneficiarse del potencial de crecimiento de empresas locales, mientras que el 30% en bonos del Gobierno de Chile proporciona estabilidad y seguridad a la cartera.\n\nEste fondo es adecuado para inversionistas con un perfil conservador que prefieren minimizar el riesgo y están dispuestos a aceptar retornos más moderados a cambio de una mayor seguridad en sus inversiones. Si eres un joven inversor que valora la estabilidad y la tranquilidad financiera, el fondo Bci Balanceado puede ser una buena opción para ti.\n\nEn términos simples, el nivel de riesgo de este fondo es bajo debido a su composición diversificada que incluye activos de baja volatilidad como bonos del Gobierno y bonos corporativos. Aunque no se espera obtener altas ganancias en el corto plazo, este enfoque conservador ayuda a proteger el capital invertido de posibles fluctuaciones del mercado.\n\nEl horizonte de inversión recomendado para el fondo Bci Balanceado es a medio y largo plazo, idealmente más de 3 años, ya que así se pueden aprovechar los beneficios de la diversificación y permitir que los activos crezcan de manera sostenida. Es importante recordar que la paciencia y la disciplina son clave en este tipo de inversiones para obtener resultados positivos a largo plazo.\n\nEn cuanto a ventajas, el fondo Bci Balanceado ofrece una combinación equilibrada de activos que reduce el riesgo y proporciona estabilidad a la cartera. Sin embargo, una posible desventaja es que, al ser un fondo conservador, los retornos esperados pueden ser menores en comparación con fondos más agresivos.\n\nEn resumen, el fondo Bci Balanceado es una excelente opción para jóvenes inversores chilenos que buscan proteger su capital a largo plazo y obtener rendimientos estables. Si prefieres la seguridad y la estabilidad en tus inversiones, este fondo conservador puede ser la elección perfecta para ti. Recuerda siempre consultar con un asesor financiero antes",
+      "composicion_portafolio": [
+        {
+          "activo": "Acciones Chilenas",
+          "porcentaje": 0.35
+        },
+        {
+          "activo": "Bonos Gobierno Chile",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Acciones Extranjeras",
+          "porcentaje": 0.2
+        },
+        {
+          "activo": "Bonos Corporativos",
+          "porcentaje": 0.15
+        }
+      ],
+      "rentabilidad_anual": 0.069,
+      "fuente_cmf": false,
+      "scraping_success": false,
+      "error": null,
+      "is_sample": true,
+      "classification_basis": "fund_name",
+      "fecha_analisis": "2025-09-26 20:49:39",
+      "resumen_ejecutivo_fondo": "Bci Balanceado es un fondo mutuo de tipo conservador\ncon una rentabilidad anual estimada del 6.90%.\nEste fondo está diseñado para inversores con perfil de riesgo bajo\ny horizonte de inversión de 6 meses a 2 años.",
+      "puntos_clave_fondo": [
+        "Fondo de bajo riesgo ideal para preservación de capital"
+      ],
+      "riesgos_identificados_fondo": [],
+      "oportunidades_fondo": [],
+      "recomendacion_final": "RECOMENDADO: El potencial de retorno justifica el riesgo asumido",
+      "comparacion_alternativas": {
+        "deposito_plazo": "Menor rentabilidad (~3-4%) pero mayor seguridad",
+        "fondos_similares": "Comparar comisiones y historial de rentabilidad",
+        "inversion_directa": "Mayor control pero requiere más conocimiento",
+        "diversificacion": "Considerar combinar con otros tipos de fondos"
+      }
+    },
+    {
+      "fondo_id": "security_crecimiento",
+      "nombre": "Security Crecimiento",
+      "nombre_cmf": "",
+      "tipo_fondo": "Conservador",
+      "perfil_riesgo": "Bajo",
+      "descripcion_amigable": "¡Claro! Aquí tienes una descripción amigable de Security Crecimiento para jóvenes inversores chilenos:\n\nSecurity Crecimiento es un fondo mutuo de tipo conservador, ideal para inversores que buscan un equilibrio entre seguridad y potencial de crecimiento. La estrategia de inversión de este fondo se enfoca en diversificar sus activos en diferentes clases, como acciones chilenas, bonos del gobierno chileno, acciones extranjeras y bonos corporativos. Por ejemplo, si inviertes en Security Crecimiento, estarás participando en el crecimiento de empresas locales, así como en la estabilidad de los bonos del gobierno de Chile y bonos corporativos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo bajo, ya que busca minimizar las fluctuaciones del mercado y ofrece una rentabilidad estable a largo plazo. Si prefieres evitar grandes riesgos y prefieres una inversión más segura con un potencial decente de crecimiento, este fondo podría ser una buena opción para ti.\n\nEn términos simples, el nivel de riesgo de Security Crecimiento es bajo, lo que significa que es menos probable que experimentes pérdidas significativas en comparación con fondos más arriesgados. Sin embargo, esto también puede limitar el potencial de ganancias en comparación con fondos de mayor riesgo.\n\nSe recomienda un horizonte de inversión a largo plazo para este fondo, ya que su enfoque conservador y diversificado tiende a dar frutos con el tiempo. Si estás buscando una inversión estable a mediano y largo plazo, Security Crecimiento podría ser una excelente opción para ti.\n\nUna ventaja de este fondo es su enfoque conservador y diversificado, que brinda estabilidad a tu cartera. Sin embargo, una posible desventaja es que, al ser conservador, su potencial de crecimiento puede ser menor en comparación con fondos más arriesgados.\n\nEn resumen, Security Crecimiento es ideal para jóvenes inversores chilenos que buscan una inversión segura con un potencial modesto de crecimiento a largo plazo. Si prefieres evitar grandes riesgos y valoras la estabilidad en tus inversiones, este fondo mutuo conservador podría ser una excelente opción para empezar a construir tu cartera financiera. ¡Espero que esta información te haya sido útil!",
+      "composicion_portafolio": [
+        {
+          "activo": "Acciones Chilenas",
+          "porcentaje": 0.35
+        },
+        {
+          "activo": "Bonos Gobierno Chile",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Acciones Extranjeras",
+          "porcentaje": 0.2
+        },
+        {
+          "activo": "Bonos Corporativos",
+          "porcentaje": 0.15
+        }
+      ],
+      "rentabilidad_anual": 0.075,
+      "fuente_cmf": false,
+      "scraping_success": false,
+      "error": null,
+      "is_sample": true,
+      "classification_basis": "fund_name",
+      "fecha_analisis": "2025-09-26 20:49:47",
+      "resumen_ejecutivo_fondo": "Security Crecimiento es un fondo mutuo de tipo conservador\ncon una rentabilidad anual estimada del 7.50%.\nEste fondo está diseñado para inversores con perfil de riesgo bajo\ny horizonte de inversión de 6 meses a 2 años.",
+      "puntos_clave_fondo": [
+        "Fondo de bajo riesgo ideal para preservación de capital"
+      ],
+      "riesgos_identificados_fondo": [],
+      "oportunidades_fondo": [],
+      "recomendacion_final": "RECOMENDADO: El potencial de retorno justifica el riesgo asumido",
+      "comparacion_alternativas": {
+        "deposito_plazo": "Menor rentabilidad (~3-4%) pero mayor seguridad",
+        "fondos_similares": "Comparar comisiones y historial de rentabilidad",
+        "inversion_directa": "Mayor control pero requiere más conocimiento",
+        "diversificacion": "Considerar combinar con otros tipos de fondos"
+      }
+    },
+    {
+      "fondo_id": "chile_ahorro_plus",
+      "nombre": "Chile Ahorro Plus",
+      "nombre_cmf": "",
+      "tipo_fondo": "Conservador",
+      "perfil_riesgo": "Bajo",
+      "descripcion_amigable": "El fondo \"Chile Ahorro Plus\" es una opción de inversión conservadora que busca generar un crecimiento estable a lo largo del tiempo. Su estrategia se enfoca en diversificar el riesgo a través de una combinación de activos como acciones chilenas, bonos del gobierno de Chile, acciones extranjeras y bonos corporativos. Con un rendimiento del 0.079 en los últimos 12 meses, este fondo ofrece una rentabilidad modesta pero constante.\n\nEste tipo de fondo es ideal para inversores que buscan proteger su capital y están dispuestos a asumir un bajo nivel de riesgo. Es adecuado para aquellos que prefieren una inversión segura y no están buscando altas ganancias en el corto plazo. Si eres un joven inversor que valora la estabilidad y la tranquilidad en tus inversiones, \"Chile Ahorro Plus\" puede ser una buena opción para ti.\n\nLos principales activos en los que invierte este fondo son las acciones chilenas, que representan el 35% de su cartera, seguidas por los bonos del gobierno de Chile con un 30%, las acciones extranjeras con un 20% y los bonos corporativos con un 15%. Esta diversificación ayuda a minimizar el riesgo y a mantener una cartera equilibrada.\n\nEn términos simples, el nivel de riesgo de este fondo es bajo, lo que significa que las fluctuaciones en su valor son menores en comparación con fondos de mayor riesgo. Aunque la rentabilidad puede no ser tan alta como la de fondos más agresivos, la estabilidad y seguridad que ofrece son sus principales ventajas. Por otro lado, una posible desventaja es que las ganancias potenciales pueden ser limitadas en comparación con fondos de mayor riesgo.\n\nEl horizonte de inversión recomendado para \"Chile Ahorro Plus\" es a mediano y largo plazo, ya que su enfoque conservador busca generar crecimiento de manera sostenida a lo largo del tiempo. Es importante tener paciencia y mantener una visión a largo plazo al invertir en este fondo.\n\nEn resumen, si eres un joven inversor en busca de estabilidad y seguridad en tus inversiones, el fondo \"Chile Ahorro Plus\" puede ser una excelente opción para ti. Recuerda que la diversificación y la paciencia son clave al invertir en este tipo de fondos conservadores. ¡Invertir de manera inteligente es el camino para alcanzar tus metas financieras!",
+      "composicion_portafolio": [
+        {
+          "activo": "Acciones Chilenas",
+          "porcentaje": 0.35
+        },
+        {
+          "activo": "Bonos Gobierno Chile",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Acciones Extranjeras",
+          "porcentaje": 0.2
+        },
+        {
+          "activo": "Bonos Corporativos",
+          "porcentaje": 0.15
+        }
+      ],
+      "rentabilidad_anual": 0.079,
+      "fuente_cmf": false,
+      "scraping_success": false,
+      "error": null,
+      "is_sample": true,
+      "classification_basis": "fund_name",
+      "fecha_analisis": "2025-09-26 20:49:59",
+      "resumen_ejecutivo_fondo": "Chile Ahorro Plus es un fondo mutuo de tipo conservador\ncon una rentabilidad anual estimada del 7.90%.\nEste fondo está diseñado para inversores con perfil de riesgo bajo\ny horizonte de inversión de 6 meses a 2 años.",
+      "puntos_clave_fondo": [
+        "Fondo de bajo riesgo ideal para preservación de capital"
+      ],
+      "riesgos_identificados_fondo": [],
+      "oportunidades_fondo": [],
+      "recomendacion_final": "RECOMENDADO: El potencial de retorno justifica el riesgo asumido",
+      "comparacion_alternativas": {
+        "deposito_plazo": "Menor rentabilidad (~3-4%) pero mayor seguridad",
+        "fondos_similares": "Comparar comisiones y historial de rentabilidad",
+        "inversion_directa": "Mayor control pero requiere más conocimiento",
+        "diversificacion": "Considerar combinar con otros tipos de fondos"
+      }
+    }
+  ],
+  "fallidos": [],
+  "resumen": {
+    "total": 4,
+    "exitosos": 4,
+    "fallidos": 0
+  }
+}

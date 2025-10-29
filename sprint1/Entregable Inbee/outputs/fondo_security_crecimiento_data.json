@@ -1,0 +1,46 @@
+{
+  "fondo_id": "security_crecimiento",
+  "nombre": "Security Crecimiento",
+  "nombre_cmf": "",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "¡Claro! Aquí tienes una descripción amigable de Security Crecimiento para jóvenes inversores chilenos:\n\nSecurity Crecimiento es un fondo mutuo de tipo conservador, ideal para inversores que buscan un equilibrio entre seguridad y potencial de crecimiento. La estrategia de inversión de este fondo se enfoca en diversificar sus activos en diferentes clases, como acciones chilenas, bonos del gobierno chileno, acciones extranjeras y bonos corporativos. Por ejemplo, si inviertes en Security Crecimiento, estarás participando en el crecimiento de empresas locales, así como en la estabilidad de los bonos del gobierno de Chile y bonos corporativos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo bajo, ya que busca minimizar las fluctuaciones del mercado y ofrece una rentabilidad estable a largo plazo. Si prefieres evitar grandes riesgos y prefieres una inversión más segura con un potencial decente de crecimiento, este fondo podría ser una buena opción para ti.\n\nEn términos simples, el nivel de riesgo de Security Crecimiento es bajo, lo que significa que es menos probable que experimentes pérdidas significativas en comparación con fondos más arriesgados. Sin embargo, esto también puede limitar el potencial de ganancias en comparación con fondos de mayor riesgo.\n\nSe recomienda un horizonte de inversión a largo plazo para este fondo, ya que su enfoque conservador y diversificado tiende a dar frutos con el tiempo. Si estás buscando una inversión estable a mediano y largo plazo, Security Crecimiento podría ser una excelente opción para ti.\n\nUna ventaja de este fondo es su enfoque conservador y diversificado, que brinda estabilidad a tu cartera. Sin embargo, una posible desventaja es que, al ser conservador, su potencial de crecimiento puede ser menor en comparación con fondos más arriesgados.\n\nEn resumen, Security Crecimiento es ideal para jóvenes inversores chilenos que buscan una inversión segura con un potencial modesto de crecimiento a largo plazo. Si prefieres evitar grandes riesgos y valoras la estabilidad en tus inversiones, este fondo mutuo conservador podría ser una excelente opción para empezar a construir tu cartera financiera. ¡Espero que esta información te haya sido útil!",
+  "composicion_portafolio": [
+    {
+      "activo": "Acciones Chilenas",
+      "porcentaje": 0.35
+    },
+    {
+      "activo": "Bonos Gobierno Chile",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Acciones Extranjeras",
+      "porcentaje": 0.2
+    },
+    {
+      "activo": "Bonos Corporativos",
+      "porcentaje": 0.15
+    }
+  ],
+  "rentabilidad_anual": 0.075,
+  "fuente_cmf": false,
+  "scraping_success": false,
+  "error": null,
+  "is_sample": true,
+  "classification_basis": "fund_name",
+  "fecha_analisis": "2025-09-26 20:49:47",
+  "resumen_ejecutivo_fondo": "Security Crecimiento es un fondo mutuo de tipo conservador\ncon una rentabilidad anual estimada del 7.50%.\nEste fondo está diseñado para inversores con perfil de riesgo bajo\ny horizonte de inversión de 6 meses a 2 años.",
+  "puntos_clave_fondo": [
+    "Fondo de bajo riesgo ideal para preservación de capital"
+  ],
+  "riesgos_identificados_fondo": [],
+  "oportunidades_fondo": [],
+  "recomendacion_final": "RECOMENDADO: El potencial de retorno justifica el riesgo asumido",
+  "comparacion_alternativas": {
+    "deposito_plazo": "Menor rentabilidad (~3-4%) pero mayor seguridad",
+    "fondos_similares": "Comparar comisiones y historial de rentabilidad",
+    "inversion_directa": "Mayor control pero requiere más conocimiento",
+    "diversificacion": "Considerar combinar con otros tipos de fondos"
+  }
+}

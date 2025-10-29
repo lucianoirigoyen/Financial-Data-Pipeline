@@ -1,0 +1,46 @@
+{
+  "fondo_id": "chile_ahorro_plus",
+  "nombre": "Chile Ahorro Plus",
+  "nombre_cmf": "",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo de inversión Chile Ahorro Plus es una excelente opción para aquellos inversores que buscan una estrategia conservadora con un bajo nivel de riesgo. Este fondo se enfoca en mantener un equilibrio entre distintos activos, como acciones chilenas, bonos del gobierno de Chile, acciones extranjeras y bonos corporativos. Por ejemplo, si tienes $100.000 invertidos en Chile Ahorro Plus, aproximadamente $35.000 estarían en acciones chilenas, $30.000 en bonos del gobierno chileno, $20.000 en acciones extranjeras y $15.000 en bonos corporativos.\n\nEste fondo es ideal para inversionistas que prefieren una estrategia segura y que no quieren asumir grandes riesgos en el mercado. Si eres un joven inversor en Chile que está comenzando a construir su cartera y valoras la estabilidad por encima de la posibilidad de altas ganancias, Chile Ahorro Plus puede ser una excelente elección.\n\nEn cuanto al nivel de riesgo, este fondo se considera de bajo riesgo debido a su composición conservadora y diversificada. Esto significa que, si bien las ganancias pueden ser moderadas, las pérdidas potenciales también son limitadas. Es como tener una caja fuerte donde guardas tus ahorros: es seguro, pero es poco probable que te haga rico de la noche a la mañana.\n\nEn términos de horizonte de inversión, se recomienda a los inversores mantener su dinero en Chile Ahorro Plus a medio y largo plazo, al menos de 3 a 5 años. Esto permite que las inversiones tengan tiempo de crecer y recuperarse de posibles fluctuaciones en el mercado. Es importante recordar que, en el mundo de las inversiones, la paciencia suele ser recompensada.\n\nUna ventaja de este fondo es su estabilidad y seguridad, lo que lo hace ideal para inversores conservadores. Sin embargo, una desventaja podría ser que, al ser un fondo conservador, las ganancias potenciales pueden ser menores en comparación con fondos de mayor riesgo.\n\nEn resumen, si eres un joven inversor en Chile que busca una opción segura y estable para hacer crecer tu dinero a largo plazo, el fondo Chile Ahorro Plus puede ser una excelente alternativa. Recuerda que la diversificación y la paciencia son clave en el mundo de las inversiones, ¡así que elige sabiamente y mantén la vista en tus metas financieras!",
+  "composicion_portafolio": [
+    {
+      "activo": "Acciones Chilenas",
+      "porcentaje": 0.35
+    },
+    {
+      "activo": "Bonos Gobierno Chile",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Acciones Extranjeras",
+      "porcentaje": 0.2
+    },
+    {
+      "activo": "Bonos Corporativos",
+      "porcentaje": 0.15
+    }
+  ],
+  "rentabilidad_anual": 0.076,
+  "fuente_cmf": false,
+  "scraping_success": false,
+  "error": null,
+  "is_sample": true,
+  "classification_basis": "fund_name",
+  "fecha_analisis": "2025-10-28 23:26:25",
+  "resumen_ejecutivo_fondo": "Chile Ahorro Plus es un fondo mutuo de tipo conservador\ncon una rentabilidad anual estimada del 7.60%.\nEste fondo está diseñado para inversores con perfil de riesgo bajo\ny horizonte de inversión de 6 meses a 2 años.",
+  "puntos_clave_fondo": [
+    "Fondo de bajo riesgo ideal para preservación de capital"
+  ],
+  "riesgos_identificados_fondo": [],
+  "oportunidades_fondo": [],
+  "recomendacion_final": "RECOMENDADO: El potencial de retorno justifica el riesgo asumido",
+  "comparacion_alternativas": {
+    "deposito_plazo": "Menor rentabilidad (~3-4%) pero mayor seguridad",
+    "fondos_similares": "Comparar comisiones y historial de rentabilidad",
+    "inversion_directa": "Mayor control pero requiere más conocimiento",
+    "diversificacion": "Considerar combinar con otros tipos de fondos"
+  }
+}
