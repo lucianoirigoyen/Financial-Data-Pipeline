@@ -7309,3 +7309,283 @@ Stacktrace:
 2025-12-02 14:42:32,314 - INFO - ============================================================
 2025-12-02 14:42:32,329 - ERROR -  Error procesando fondo europa estratégico: No se obtuvieron datos de Fintual
 2025-12-02 14:42:32,329 - WARNING - [84] ⚠️  Error: No se obtuvieron datos de Fintual (22.32s)
+2025-12-02 14:42:34,332 - INFO - 
+================================================================================
+2025-12-02 14:42:34,332 - INFO - [85/1176] Procesando: fm bci estruc. g.f.i
+2025-12-02 14:42:34,332 - INFO - ================================================================================
+2025-12-02 14:42:34,332 - INFO -  Iniciando procesamiento de fondo: fm bci estruc. g.f.i
+2025-12-02 14:42:34,400 - INFO - [CACHE] Directorio de caché inicializado: cache/pdfs
+2025-12-02 14:42:34,400 - INFO - [CACHE] Sistema de caché ya inicializado
+2025-12-02 14:42:34,456 - INFO - [STRUCTURE] Iniciando monitoreo de estructura CMF...
+2025-12-02 14:42:34,456 - INFO - [STRUCTURE] Accediendo a: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=8052&tipoentidad=RGFMU
+2025-12-02 14:42:36,187 - ERROR - [STRUCTURE] Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-02 14:42:36,188 - INFO - [ALERT] 2025-12-02 14:42:36 | CRITICAL | Error de conexión al monitorear estructura: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-02 14:42:36,188 - ERROR - [CMF HEALTH] Status: critical ✗ - Sistema puede no funcionar
+2025-12-02 14:42:36,188 - ERROR - [CMF HEALTH] ACCIÓN REQUERIDA: Ejecutar 'python run_cmf_monitor.py' para diagnóstico completo
+2025-12-02 14:42:36,188 - ERROR - [CMF HEALTH] Errores detectados:
+2025-12-02 14:42:36,188 - ERROR - [CMF HEALTH]   - Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-02 14:42:36,193 - INFO -  INICIANDO PROCESAMIENTO CON SCRAPING REAL para: fm bci estruc. g.f.i
+2025-12-02 14:42:36,193 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:42:36,193 - INFO -  Fase 1: Obteniendo datos de Fintual (3 CAPAS)...
+2025-12-02 14:42:36,193 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:42:36,193 - INFO - [FINTUAL CAPA 1] Buscando fondo: fm bci estruc. g.f.i
+2025-12-02 14:42:36,630 - WARNING - Fondo 'fm bci estruc. g.f.i' no encontrado en Fintual
+2025-12-02 14:42:36,633 - ERROR -  No se obtuvieron datos de Fintual - No hay datos reales disponibles
+2025-12-02 14:42:36,633 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:42:36,633 - INFO -  Fase 2: Buscando fondo en CMF usando RUT...
+2025-12-02 14:42:36,633 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:42:36,633 - INFO -  [ESTRATEGIA 2 - Fallback] Buscando por nombre: Fm Bci Estruc. G.F.I
+2025-12-02 14:42:36,633 - INFO - Obteniendo lista completa de fondos desde CMF...
+2025-12-02 14:42:38,318 - INFO - Encontrados 1304 fondos únicos en CMF
+2025-12-02 14:42:38,327 - INFO - Fondo encontrado en CMF: FM BCI ESTRUC. G.F.I (score: 100)
+2025-12-02 14:42:38,327 - INFO -   RUT Fondo: 9587-7, RUT Admin: 96767630
+2025-12-02 14:42:38,328 - INFO -  Fondo encontrado en CMF: FM BCI ESTRUC. G.F.I
+2025-12-02 14:42:38,328 - INFO -  RUT CMF: None, RUT completo: None
+2025-12-02 14:42:38,328 - INFO -  Intentando descargar PDF del folleto informativo...
+2025-12-02 14:42:38,328 - INFO - [CMF PDF SELENIUM] Iniciando descarga para RUT: 9587
+2025-12-02 14:42:38,329 - INFO - [CMF] Buscando página de entidad para RUT: 9587, pestaña: 68
+2025-12-02 14:42:39,972 - INFO - [CMF] RUT no encontrado en HTML, intentando acceso directo...
+2025-12-02 14:42:40,653 - INFO - [CMF] ✓ Acceso directo exitoso (sin row parameter)
+2025-12-02 14:42:40,654 - INFO - [CMF PDF] ✓ URL folletos: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=9587&ti...
+2025-12-02 14:42:40,654 - INFO - [SELENIUM] Iniciando navegador Chrome headless...
+2025-12-02 14:42:40,655 - INFO - ====== WebDriver manager ======
+2025-12-02 14:42:41,154 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-02 14:42:41,303 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-02 14:42:41,428 - INFO - Driver [/Users/lucianoleroi/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-x64/chromedriver] found in cache
+2025-12-02 14:42:42,869 - INFO - [SELENIUM] ✓ Chrome started
+2025-12-02 14:42:42,869 - INFO - [SELENIUM] Navegando a: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=9587&ti...
+2025-12-02 14:42:47,398 - INFO - [SELENIUM] ✓ Page loaded: - - CMF
+2025-12-02 14:42:47,404 - INFO - [SELENIUM] Waiting for JavaScript load...
+2025-12-02 14:42:47,416 - INFO - [SELENIUM] Looking for verFolleto links...
+2025-12-02 14:42:47,442 - INFO - [SELENIUM] ✓ Encontrados 25 enlaces potenciales
+2025-12-02 14:42:47,457 - INFO - [SELENIUM] onclick: javascript:void(0)...
+2025-12-02 14:42:47,471 - INFO - [SELENIUM] Executing click...
+2025-12-02 14:42:47,486 - INFO - [DOWNLOAD POLL] Waiting for download to complete (max 60s)...
+2025-12-02 14:42:48,490 - INFO - [DOWNLOAD POLL] ✅ PDF downloaded: folleto_9187.pdf (113.52 KB)
+2025-12-02 14:42:48,491 - INFO - [SELENIUM] ✅ PDF downloaded: /Users/lucianoleroi/Desktop/Fran/sprint/sprint1/temp/folleto_9587.pdf
+2025-12-02 14:42:48,645 - INFO - [SELENIUM] Navegador cerrado
+2025-12-02 14:42:48,646 - INFO - [CMF PDF] ✅ PDF descargado exitosamente
+2025-12-02 14:42:48,648 - INFO - [CACHE] PDF guardado en caché: 9587_UNICA (expira: 2026-01-01)
+2025-12-02 14:42:48,648 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:42:48,649 - INFO -  Fase 2.5: Extrayendo datos del PDF...
+2025-12-02 14:42:48,649 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:42:48,649 - INFO - [PDF EXTENDED] Extrayendo datos extendidos de: /Users/lucianoleroi/Desktop/Fran/sprint/sprint1/temp/folleto_9587.pdf
+2025-12-02 14:42:49,020 - WARNING - Cannot set gray non-stroke color because /'Pabc95' is an invalid float value
+2025-12-02 14:42:49,021 - WARNING - Cannot set gray non-stroke color because /'Pabc100' is an invalid float value
+2025-12-02 14:42:49,021 - WARNING - Cannot set gray non-stroke color because /'Pabc105' is an invalid float value
+2025-12-02 14:42:49,022 - WARNING - Cannot set gray non-stroke color because /'Pabc110' is an invalid float value
+2025-12-02 14:42:49,024 - WARNING - Cannot set gray non-stroke color because /'Pabc115' is an invalid float value
+2025-12-02 14:42:49,024 - WARNING - Cannot set gray non-stroke color because /'Pabc120' is an invalid float value
+2025-12-02 14:42:49,025 - WARNING - Cannot set gray non-stroke color because /'Pabc125' is an invalid float value
+2025-12-02 14:42:49,026 - WARNING - Cannot set gray non-stroke color because /'Pabc130' is an invalid float value
+2025-12-02 14:42:49,026 - WARNING - Cannot set gray non-stroke color because /'Pabc135' is an invalid float value
+2025-12-02 14:42:49,027 - WARNING - Cannot set gray non-stroke color because /'Pabc140' is an invalid float value
+2025-12-02 14:42:49,028 - WARNING - Cannot set gray non-stroke color because /'Pabc145' is an invalid float value
+2025-12-02 14:42:49,989 - INFO - [PDF EXTENDED] Tipo de fondo: Conservador
+2025-12-02 14:42:49,989 - INFO - [PDF EXTENDED] Perfil riesgo (keywords): Bajo
+2025-12-02 14:42:49,990 - INFO - [PDF EXTENDED] Horizonte: Mediano Plazo (24 meses)
+2025-12-02 14:42:49,990 - INFO - [PDF EXTENDED] Comisión admin: 0.0151 (1.51%)
+2025-12-02 14:42:49,990 - INFO - [PDF EXTENDED] Comisión rescate: 0.0050 (0.5%)
+2025-12-02 14:42:49,990 - INFO - [PDF EXTENDED] Rentabilidad 12m: 9.26%
+2025-12-02 14:42:50,009 - INFO - [PDF EXTENDED] Composición: 21 activos (suma: 447.66%)
+2025-12-02 14:42:50,009 - INFO - [PDF EXTENDED] Campos extraídos: 6/12 (50%) - Confianza: medium
+2025-12-02 14:42:50,009 - INFO -  Datos extraídos del PDF: Tipo=Conservador, Riesgo=Bajo, Activos=15
+2025-12-02 14:42:50,009 - INFO -  Fase 3: Generando descripción con IA...
+2025-12-02 14:42:55,153 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 14:42:55,156 - INFO -  Fase 4: Generando análisis de inversión...
+2025-12-02 14:42:55,156 - INFO -  Fase 5: Generando archivo Excel avanzado...
+2025-12-02 14:42:55,196 - INFO - ✓ Archivo Excel generado: outputs/analisis_completo_fondo_Fm_Bci_Estruc._G.F.I.xlsx
+2025-12-02 14:42:55,196 - INFO - ============================================================
+2025-12-02 14:42:55,196 - INFO - [CACHE] ESTADÍSTICAS DE CACHÉ DE PDFs
+2025-12-02 14:42:55,196 - INFO - ============================================================
+2025-12-02 14:42:55,196 - INFO - [CACHE] Cache Hits:        0
+2025-12-02 14:42:55,196 - INFO - [CACHE] Cache Misses:      1
+2025-12-02 14:42:55,196 - INFO - [CACHE] Nuevas Descargas:  1
+2025-12-02 14:42:55,196 - INFO - [CACHE] Total Consultas:   1
+2025-12-02 14:42:55,196 - INFO - [CACHE] Tasa de Aciertos:  0.0%
+2025-12-02 14:42:55,196 - INFO - ============================================================
+2025-12-02 14:42:55,197 - INFO - [CACHE] PDFs en caché:     54
+2025-12-02 14:42:55,198 - INFO - [CACHE] Tamaño total:      5.99 MB
+2025-12-02 14:42:55,198 - INFO - ============================================================
+2025-12-02 14:42:55,211 - ERROR -  Error procesando fondo fm bci estruc. g.f.i: No se obtuvieron datos de Fintual
+2025-12-02 14:42:55,211 - WARNING - [85] ⚠️  Error: No se obtuvieron datos de Fintual (20.88s)
+2025-12-02 14:42:57,217 - INFO - 
+================================================================================
+2025-12-02 14:42:57,217 - INFO - [86/1176] Procesando: ahorro mp
+2025-12-02 14:42:57,217 - INFO - ================================================================================
+2025-12-02 14:42:57,217 - INFO -  Iniciando procesamiento de fondo: ahorro mp
+2025-12-02 14:42:57,269 - INFO - [CACHE] Directorio de caché inicializado: cache/pdfs
+2025-12-02 14:42:57,269 - INFO - [CACHE] Sistema de caché ya inicializado
+2025-12-02 14:42:57,316 - INFO - [STRUCTURE] Iniciando monitoreo de estructura CMF...
+2025-12-02 14:42:57,316 - INFO - [STRUCTURE] Accediendo a: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=8052&tipoentidad=RGFMU
+2025-12-02 14:42:59,198 - ERROR - [STRUCTURE] Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-02 14:42:59,199 - INFO - [ALERT] 2025-12-02 14:42:59 | CRITICAL | Error de conexión al monitorear estructura: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-02 14:42:59,199 - ERROR - [CMF HEALTH] Status: critical ✗ - Sistema puede no funcionar
+2025-12-02 14:42:59,199 - ERROR - [CMF HEALTH] ACCIÓN REQUERIDA: Ejecutar 'python run_cmf_monitor.py' para diagnóstico completo
+2025-12-02 14:42:59,199 - ERROR - [CMF HEALTH] Errores detectados:
+2025-12-02 14:42:59,199 - ERROR - [CMF HEALTH]   - Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-02 14:42:59,205 - INFO -  INICIANDO PROCESAMIENTO CON SCRAPING REAL para: ahorro mp
+2025-12-02 14:42:59,205 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:42:59,205 - INFO -  Fase 1: Obteniendo datos de Fintual (3 CAPAS)...
+2025-12-02 14:42:59,205 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:42:59,205 - INFO - [FINTUAL CAPA 1] Buscando fondo: ahorro mp
+2025-12-02 14:42:59,876 - WARNING - Fondo 'ahorro mp' no encontrado en Fintual
+2025-12-02 14:42:59,880 - ERROR -  No se obtuvieron datos de Fintual - No hay datos reales disponibles
+2025-12-02 14:42:59,881 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:42:59,881 - INFO -  Fase 2: Buscando fondo en CMF usando RUT...
+2025-12-02 14:42:59,882 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:42:59,882 - INFO -  [ESTRATEGIA 2 - Fallback] Buscando por nombre: Ahorro Mp
+2025-12-02 14:42:59,882 - INFO - Obteniendo lista completa de fondos desde CMF...
+2025-12-02 14:43:01,625 - INFO - Encontrados 1304 fondos únicos en CMF
+2025-12-02 14:43:01,631 - INFO - Fondo encontrado en CMF: AHORRO MP (score: 100)
+2025-12-02 14:43:01,632 - INFO -   RUT Fondo: 9222-3, RUT Admin: 96767630
+2025-12-02 14:43:01,632 - INFO -  Fondo encontrado en CMF: AHORRO MP
+2025-12-02 14:43:01,632 - INFO -  RUT CMF: None, RUT completo: None
+2025-12-02 14:43:01,632 - INFO -  Intentando descargar PDF del folleto informativo...
+2025-12-02 14:43:01,632 - INFO - [CMF PDF SELENIUM] Iniciando descarga para RUT: 9222
+2025-12-02 14:43:01,633 - INFO - [CMF] Buscando página de entidad para RUT: 9222, pestaña: 68
+2025-12-02 14:43:03,188 - INFO - [CMF] ✓ URL encontrada con row ID: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=9222&tipoentidad=RGFMU&vig=...
+2025-12-02 14:43:03,188 - INFO - [CMF PDF] ✓ URL folletos: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=9222&ti...
+2025-12-02 14:43:03,189 - INFO - [SELENIUM] Iniciando navegador Chrome headless...
+2025-12-02 14:43:03,189 - INFO - ====== WebDriver manager ======
+2025-12-02 14:43:03,881 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-02 14:43:04,016 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-02 14:43:04,141 - INFO - Driver [/Users/lucianoleroi/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-x64/chromedriver] found in cache
+2025-12-02 14:43:05,652 - INFO - [SELENIUM] ✓ Chrome started
+2025-12-02 14:43:05,653 - INFO - [SELENIUM] Navegando a: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=9222&ti...
+2025-12-02 14:43:10,344 - INFO - [SELENIUM] ✓ Page loaded: FONDO MUTUO SANTANDER AHORRO MEDIANO PLAZO - Folleto Informativo - CMF
+2025-12-02 14:43:10,354 - INFO - [SELENIUM] Waiting for JavaScript load...
+2025-12-02 14:43:10,365 - INFO - [SELENIUM] Looking for verFolleto links...
+2025-12-02 14:43:10,413 - INFO - [SELENIUM] ✓ Encontrados 374 enlaces potenciales
+2025-12-02 14:43:10,431 - INFO - [SELENIUM] onclick: javascript:void(0)...
+2025-12-02 14:43:10,431 - INFO - [SELENIUM] Executing click...
+2025-12-02 14:43:10,446 - INFO - [DOWNLOAD POLL] Waiting for download to complete (max 60s)...
+2025-12-02 14:43:11,447 - INFO - [DOWNLOAD POLL] ✅ PDF downloaded: folleto_9587.pdf (113.52 KB)
+2025-12-02 14:43:11,447 - INFO - [SELENIUM] ✅ PDF downloaded: /Users/lucianoleroi/Desktop/Fran/sprint/sprint1/temp/folleto_9222.pdf
+2025-12-02 14:43:11,607 - INFO - [SELENIUM] Navegador cerrado
+2025-12-02 14:43:11,608 - INFO - [CMF PDF] ✅ PDF descargado exitosamente
+2025-12-02 14:43:11,611 - INFO - [CACHE] PDF guardado en caché: 9222_UNICA (expira: 2026-01-01)
+2025-12-02 14:43:11,611 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:43:11,611 - INFO -  Fase 2.5: Extrayendo datos del PDF...
+2025-12-02 14:43:11,611 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:43:11,611 - INFO - [PDF EXTENDED] Extrayendo datos extendidos de: /Users/lucianoleroi/Desktop/Fran/sprint/sprint1/temp/folleto_9222.pdf
+2025-12-02 14:43:11,929 - WARNING - Cannot set gray non-stroke color because /'Pabc95' is an invalid float value
+2025-12-02 14:43:11,931 - WARNING - Cannot set gray non-stroke color because /'Pabc100' is an invalid float value
+2025-12-02 14:43:11,932 - WARNING - Cannot set gray non-stroke color because /'Pabc105' is an invalid float value
+2025-12-02 14:43:11,933 - WARNING - Cannot set gray non-stroke color because /'Pabc110' is an invalid float value
+2025-12-02 14:43:11,934 - WARNING - Cannot set gray non-stroke color because /'Pabc115' is an invalid float value
+2025-12-02 14:43:11,935 - WARNING - Cannot set gray non-stroke color because /'Pabc120' is an invalid float value
+2025-12-02 14:43:11,936 - WARNING - Cannot set gray non-stroke color because /'Pabc125' is an invalid float value
+2025-12-02 14:43:11,937 - WARNING - Cannot set gray non-stroke color because /'Pabc130' is an invalid float value
+2025-12-02 14:43:11,938 - WARNING - Cannot set gray non-stroke color because /'Pabc135' is an invalid float value
+2025-12-02 14:43:11,940 - WARNING - Cannot set gray non-stroke color because /'Pabc140' is an invalid float value
+2025-12-02 14:43:11,941 - WARNING - Cannot set gray non-stroke color because /'Pabc145' is an invalid float value
+2025-12-02 14:43:12,739 - INFO - [PDF EXTENDED] Tipo de fondo: Conservador
+2025-12-02 14:43:12,740 - INFO - [PDF EXTENDED] Perfil riesgo (keywords): Bajo
+2025-12-02 14:43:12,741 - INFO - [PDF EXTENDED] Horizonte: Mediano Plazo (24 meses)
+2025-12-02 14:43:12,741 - INFO - [PDF EXTENDED] Comisión admin: 0.0151 (1.51%)
+2025-12-02 14:43:12,741 - INFO - [PDF EXTENDED] Comisión rescate: 0.0050 (0.5%)
+2025-12-02 14:43:12,741 - INFO - [PDF EXTENDED] Rentabilidad 12m: 9.26%
+2025-12-02 14:43:12,761 - INFO - [PDF EXTENDED] Composición: 21 activos (suma: 447.66%)
+2025-12-02 14:43:12,761 - INFO - [PDF EXTENDED] Campos extraídos: 6/12 (50%) - Confianza: medium
+2025-12-02 14:43:12,761 - INFO -  Datos extraídos del PDF: Tipo=Conservador, Riesgo=Bajo, Activos=15
+2025-12-02 14:43:12,761 - INFO -  Fase 3: Generando descripción con IA...
+2025-12-02 14:43:20,075 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-02 14:43:20,083 - INFO -  Fase 4: Generando análisis de inversión...
+2025-12-02 14:43:20,084 - INFO -  Fase 5: Generando archivo Excel avanzado...
+2025-12-02 14:43:20,126 - INFO - ✓ Archivo Excel generado: outputs/analisis_completo_fondo_Ahorro_Mp.xlsx
+2025-12-02 14:43:20,127 - INFO - ============================================================
+2025-12-02 14:43:20,127 - INFO - [CACHE] ESTADÍSTICAS DE CACHÉ DE PDFs
+2025-12-02 14:43:20,127 - INFO - ============================================================
+2025-12-02 14:43:20,127 - INFO - [CACHE] Cache Hits:        0
+2025-12-02 14:43:20,127 - INFO - [CACHE] Cache Misses:      1
+2025-12-02 14:43:20,127 - INFO - [CACHE] Nuevas Descargas:  1
+2025-12-02 14:43:20,127 - INFO - [CACHE] Total Consultas:   1
+2025-12-02 14:43:20,127 - INFO - [CACHE] Tasa de Aciertos:  0.0%
+2025-12-02 14:43:20,127 - INFO - ============================================================
+2025-12-02 14:43:20,128 - INFO - [CACHE] PDFs en caché:     55
+2025-12-02 14:43:20,129 - INFO - [CACHE] Tamaño total:      6.10 MB
+2025-12-02 14:43:20,129 - INFO - ============================================================
+2025-12-02 14:43:20,147 - ERROR -  Error procesando fondo ahorro mp: No se obtuvieron datos de Fintual
+2025-12-02 14:43:20,147 - WARNING - [86] ⚠️  Error: No se obtuvieron datos de Fintual (22.93s)
+2025-12-02 14:43:22,151 - INFO - 
+================================================================================
+2025-12-02 14:43:22,151 - INFO - [87/1176] Procesando: corto plazo dolar
+2025-12-02 14:43:22,151 - INFO - ================================================================================
+2025-12-02 14:43:22,151 - INFO -  Iniciando procesamiento de fondo: corto plazo dolar
+2025-12-02 14:43:22,215 - INFO - [CACHE] Directorio de caché inicializado: cache/pdfs
+2025-12-02 14:43:22,216 - INFO - [CACHE] Sistema de caché ya inicializado
+2025-12-02 14:43:22,275 - INFO - [STRUCTURE] Iniciando monitoreo de estructura CMF...
+2025-12-02 14:43:22,275 - INFO - [STRUCTURE] Accediendo a: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=8052&tipoentidad=RGFMU
+2025-12-02 14:43:24,086 - ERROR - [STRUCTURE] Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-02 14:43:24,087 - INFO - [ALERT] 2025-12-02 14:43:24 | CRITICAL | Error de conexión al monitorear estructura: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-02 14:43:24,087 - ERROR - [CMF HEALTH] Status: critical ✗ - Sistema puede no funcionar
+2025-12-02 14:43:24,088 - ERROR - [CMF HEALTH] ACCIÓN REQUERIDA: Ejecutar 'python run_cmf_monitor.py' para diagnóstico completo
+2025-12-02 14:43:24,088 - ERROR - [CMF HEALTH] Errores detectados:
+2025-12-02 14:43:24,088 - ERROR - [CMF HEALTH]   - Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-02 14:43:24,097 - INFO -  INICIANDO PROCESAMIENTO CON SCRAPING REAL para: corto plazo dolar
+2025-12-02 14:43:24,097 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:43:24,097 - INFO -  Fase 1: Obteniendo datos de Fintual (3 CAPAS)...
+2025-12-02 14:43:24,097 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:43:24,097 - INFO - [FINTUAL CAPA 1] Buscando fondo: corto plazo dolar
+2025-12-02 14:43:24,703 - WARNING - Fondo 'corto plazo dolar' no encontrado en Fintual
+2025-12-02 14:43:24,706 - ERROR -  No se obtuvieron datos de Fintual - No hay datos reales disponibles
+2025-12-02 14:43:24,706 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:43:24,706 - INFO -  Fase 2: Buscando fondo en CMF usando RUT...
+2025-12-02 14:43:24,706 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:43:24,706 - INFO -  [ESTRATEGIA 2 - Fallback] Buscando por nombre: Corto Plazo Dolar
+2025-12-02 14:43:24,706 - INFO - Obteniendo lista completa de fondos desde CMF...
+2025-12-02 14:43:26,474 - INFO - Encontrados 1304 fondos únicos en CMF
+2025-12-02 14:43:26,479 - INFO - Fondo encontrado en CMF: CORTO PLAZO DOLAR (score: 100)
+2025-12-02 14:43:26,479 - INFO -   RUT Fondo: 10720-4, RUT Admin: 96767630
+2025-12-02 14:43:26,479 - INFO -  Fondo encontrado en CMF: CORTO PLAZO DOLAR
+2025-12-02 14:43:26,479 - INFO -  RUT CMF: None, RUT completo: None
+2025-12-02 14:43:26,479 - INFO -  Intentando descargar PDF del folleto informativo...
+2025-12-02 14:43:26,480 - INFO - [CMF PDF SELENIUM] Iniciando descarga para RUT: 10720
+2025-12-02 14:43:26,480 - INFO - [CMF] Buscando página de entidad para RUT: 10720, pestaña: 68
+2025-12-02 14:43:28,507 - INFO - [CMF] ✓ URL encontrada con row ID: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=10720&tipoentidad=RGFMU&vig...
+2025-12-02 14:43:28,507 - INFO - [CMF PDF] ✓ URL folletos: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=10720&t...
+2025-12-02 14:43:28,507 - INFO - [SELENIUM] Iniciando navegador Chrome headless...
+2025-12-02 14:43:28,508 - INFO - ====== WebDriver manager ======
+2025-12-02 14:43:29,025 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-02 14:43:29,151 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-02 14:43:29,270 - INFO - Driver [/Users/lucianoleroi/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-x64/chromedriver] found in cache
+2025-12-02 14:43:30,667 - INFO - [SELENIUM] ✓ Chrome started
+2025-12-02 14:43:30,668 - INFO - [SELENIUM] Navegando a: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=10720&t...
+2025-12-02 14:43:35,148 - INFO - [SELENIUM] ✓ Page loaded: FONDO MUTUO SANTANDER RENTA CORTO PLAZO DÓLAR - Folleto Informativo - CMF
+2025-12-02 14:43:35,150 - INFO - [SELENIUM] Waiting for JavaScript load...
+2025-12-02 14:43:35,163 - INFO - [SELENIUM] Looking for verFolleto links...
+2025-12-02 14:43:35,190 - INFO - [SELENIUM] ✓ Encontrados 20 enlaces potenciales
+2025-12-02 14:43:35,204 - INFO - [SELENIUM] onclick: javascript:void(0)...
+2025-12-02 14:43:35,237 - INFO - [SELENIUM] Executing click...
+2025-12-02 14:43:35,298 - INFO - [DOWNLOAD POLL] Waiting for download to complete (max 60s)...
+2025-12-02 14:43:36,304 - INFO - [DOWNLOAD POLL] ✅ PDF downloaded: folleto_9222.pdf (113.52 KB)
+2025-12-02 14:43:36,304 - INFO - [SELENIUM] ✅ PDF downloaded: /Users/lucianoleroi/Desktop/Fran/sprint/sprint1/temp/folleto_10720.pdf
+2025-12-02 14:43:36,470 - INFO - [SELENIUM] Navegador cerrado
+2025-12-02 14:43:36,470 - INFO - [CMF PDF] ✅ PDF descargado exitosamente
+2025-12-02 14:43:36,473 - INFO - [CACHE] PDF guardado en caché: 10720_UNICA (expira: 2026-01-01)
+2025-12-02 14:43:36,473 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:43:36,473 - INFO -  Fase 2.5: Extrayendo datos del PDF...
+2025-12-02 14:43:36,473 - INFO - ════════════════════════════════════════════════════════════
+2025-12-02 14:43:36,473 - INFO - [PDF EXTENDED] Extrayendo datos extendidos de: /Users/lucianoleroi/Desktop/Fran/sprint/sprint1/temp/folleto_10720.pdf
+2025-12-02 14:43:36,797 - WARNING - Cannot set gray non-stroke color because /'Pabc95' is an invalid float value
+2025-12-02 14:43:36,798 - WARNING - Cannot set gray non-stroke color because /'Pabc100' is an invalid float value
+2025-12-02 14:43:36,798 - WARNING - Cannot set gray non-stroke color because /'Pabc105' is an invalid float value
+2025-12-02 14:43:36,799 - WARNING - Cannot set gray non-stroke color because /'Pabc110' is an invalid float value
+2025-12-02 14:43:36,800 - WARNING - Cannot set gray non-stroke color because /'Pabc115' is an invalid float value
+2025-12-02 14:43:36,801 - WARNING - Cannot set gray non-stroke color because /'Pabc120' is an invalid float value
+2025-12-02 14:43:36,801 - WARNING - Cannot set gray non-stroke color because /'Pabc125' is an invalid float value
+2025-12-02 14:43:36,802 - WARNING - Cannot set gray non-stroke color because /'Pabc130' is an invalid float value
+2025-12-02 14:43:36,802 - WARNING - Cannot set gray non-stroke color because /'Pabc135' is an invalid float value
+2025-12-02 14:43:36,803 - WARNING - Cannot set gray non-stroke color because /'Pabc140' is an invalid float value
+2025-12-02 14:43:36,804 - WARNING - Cannot set gray non-stroke color because /'Pabc145' is an invalid float value
+2025-12-02 14:43:37,540 - INFO - [PDF EXTENDED] Tipo de fondo: Conservador
+2025-12-02 14:43:37,541 - INFO - [PDF EXTENDED] Perfil riesgo (keywords): Bajo
+2025-12-02 14:43:37,541 - INFO - [PDF EXTENDED] Horizonte: Mediano Plazo (24 meses)
+2025-12-02 14:43:37,542 - INFO - [PDF EXTENDED] Comisión admin: 0.0151 (1.51%)
+2025-12-02 14:43:37,542 - INFO - [PDF EXTENDED] Comisión rescate: 0.0050 (0.5%)
+2025-12-02 14:43:37,542 - INFO - [PDF EXTENDED] Rentabilidad 12m: 9.26%
+2025-12-02 14:43:37,562 - INFO - [PDF EXTENDED] Composición: 21 activos (suma: 447.66%)
+2025-12-02 14:43:37,562 - INFO - [PDF EXTENDED] Campos extraídos: 6/12 (50%) - Confianza: medium
+2025-12-02 14:43:37,562 - INFO -  Datos extraídos del PDF: Tipo=Conservador, Riesgo=Bajo, Activos=15
+2025-12-02 14:43:37,563 - INFO -  Fase 3: Generando descripción con IA...
