@@ -223,19 +223,48 @@ class InBeePipeline:
         }
 
         for i, fondo_id in enumerate(fondos_ids):
-            logger.info(f" Procesando fondo {i+1}/{len(fondos_ids)}: {fondo_id}")
+            logger.info(f"\n{'='*80}")
+            logger.info(f"[{i+1}/{len(fondos_ids)}] Procesando: {fondo_id}")
+            logger.info(f"{'='*80}")
 
-            resultado = self.procesar_fondo(fondo_id)
+            try:
+                start_fund = time.time()
+                resultado = self.procesar_fondo(fondo_id)
+                elapsed = time.time() - start_fund
 
-            if resultado.get('error'):
-                resultados['fallidos'].append(resultado)
+                if resultado.get('error'):
+                    logger.warning(f"[{i+1}] ⚠️  Error: {resultado['error']} ({elapsed:.2f}s)")
+                    resultados['fallidos'].append(resultado)
+                    resultados['resumen']['fallidos'] += 1
+                else:
+                    logger.info(f"[{i+1}] ✅ SUCCESS ({elapsed:.2f}s)")
+                    resultados['exitosos'].append(resultado)
+                    resultados['resumen']['exitosos'] += 1
+
+            except KeyboardInterrupt:
+                logger.warning(f"\n[{i+1}] ⚠️  BATCH INTERRUPTED")
+                break
+
+            except Exception as e:
+                logger.error(f"[{i+1}] ❌ EXCEPTION: {type(e).__name__}: {e}")
+                resultados['fallidos'].append({
+                    'fondo_id': fondo_id,
+                    'error': str(e),
+                    'exception_type': type(e).__name__
+                })
                 resultados['resumen']['fallidos'] += 1
-            else:
-                resultados['exitosos'].append(resultado)
-                resultados['resumen']['exitosos'] += 1
+                continue
+
+            # Checkpoint every 10 funds
+            if (i + 1) % 10 == 0:
+                checkpoint_file = f'outputs/batch_checkpoint_{i+1}_of_{len(fondos_ids)}.json'
+                try:
+                    self._save_json(resultados, checkpoint_file)
+                    logger.info(f"[CHECKPOINT] ✓ Progress saved: {i+1}/{len(fondos_ids)}")
+                except Exception as e:
+                    logger.warning(f"[CHECKPOINT] ⚠️  Error: {e}")
 
             if i < len(fondos_ids) - 1:
-                logger.info(f" Esperando {delay} segundos...")
                 time.sleep(delay)
 
         self._save_json(resultados, 'outputs/batch_fondos_resumen.json')
@@ -316,7 +345,6 @@ def main():
 
         # Configuración de procesamiento expandida
         ejemplos_acciones = ['DIS', 'AAPL', 'MSFT', 'GOOGL', 'TSLA']  # Diversas empresas tecnológicas y entretenimiento
-        ejemplos_fondos = ['santander_conservador', 'bci_balanceado', 'security_crecimiento', 'chile_ahorro_plus']
 
         # Usar procesamiento batch para mejor eficiencia
         print(f"\n PROCESANDO {len(ejemplos_acciones)} ACCIONES EN BATCH:")
@@ -324,10 +352,21 @@ def main():
 
         resultados_acciones = pipeline.procesar_batch_acciones(ejemplos_acciones, delay=12.0)
 
-        print(f"\n PROCESANDO {len(ejemplos_fondos)} FONDOS EN BATCH:")
+        # Obtener TODOS los fondos desde CMF
+        print(f"\n OBTENIENDO LISTA COMPLETA DE FONDOS DESDE CMF...")
+        print("-" * 50)
+        from fondos_mutuos import FondosMutuosProcessor
+        processor = FondosMutuosProcessor()
+        todos_los_fondos = processor._scrape_cmf_funds_list()
+
+        # Extraer nombres únicos de fondos
+        fondos_unicos = list(set([f['nombre'].lower() for f in todos_los_fondos if 'nombre' in f]))
+        print(f" Encontrados {len(fondos_unicos)} fondos únicos en CMF")
+
+        print(f"\n PROCESANDO {len(fondos_unicos)} FONDOS EN BATCH:")
         print("-" * 50)
 
-        resultados_fondos = pipeline.procesar_batch_fondos(ejemplos_fondos, delay=2.0)
+        resultados_fondos = pipeline.procesar_batch_fondos(fondos_unicos, delay=2.0)
 
         # Mostrar resumen de resultados
         print("\n RESUMEN DE RESULTADOS:")

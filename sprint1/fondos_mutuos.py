@@ -27,6 +27,41 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+
+def _wait_for_download_complete(download_dir: str, timeout: int = 60, min_size_kb: int = 10) -> Optional[str]:
+    """Poll download directory until PDF download completes (no .crdownload)"""
+    logger.info(f"[DOWNLOAD POLL] Waiting for download to complete (max {timeout}s)...")
+    start_time = time.time()
+    last_files = set()
+
+    while time.time() - start_time < timeout:
+        try:
+            all_files = set(os.listdir(download_dir))
+            pdf_files = [f for f in all_files if f.endswith('.pdf')]
+            new_pdfs = [f for f in pdf_files if f not in last_files]
+
+            if new_pdfs:
+                pdf_path = os.path.join(download_dir, new_pdfs[0])
+                initial_size = os.path.getsize(pdf_path)
+                time.sleep(1)
+                current_size = os.path.getsize(pdf_path)
+
+                if current_size == initial_size and current_size > (min_size_kb * 1024):
+                    size_kb = current_size / 1024
+                    logger.info(f"[DOWNLOAD POLL] ✅ PDF downloaded: {new_pdfs[0]} ({size_kb:.2f} KB)")
+                    return pdf_path
+
+            last_files = all_files
+            time.sleep(0.5)
+
+        except Exception as e:
+            logger.debug(f"[DOWNLOAD POLL] Error checking: {e}")
+            time.sleep(0.5)
+
+    logger.error(f"[DOWNLOAD POLL] ❌ Timeout after {timeout}s")
+    return None
+
+
 # Importar monitor de CMF (opcional)
 try:
     from cmf_monitor import CMFMonitor
@@ -43,13 +78,18 @@ class FondosMutuosProcessor:
         self.ua = UserAgent()
         self.session = requests.Session()
 
-        # Headers realistas para evitar bloqueos
+        # Headers realistas para evitar bloqueos (mejorados para evitar 403)
         self.session.headers.update({
-            'User-Agent': self.ua.random,
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
             'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
-            'Accept-Encoding': 'gzip, deflate',
+            'Accept-Encoding': 'gzip, deflate, br',
             'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Cache-Control': 'max-age=0'
         })
 
         if not self.openai_key:
@@ -354,20 +394,21 @@ class FondosMutuosProcessor:
         except Exception as e:
             logger.error(f"[CACHE] Error mostrando estadísticas: {e}")
 
-    def _get_cmf_page_with_params(self, rut: str) -> Optional[str]:
+    def _get_cmf_page_with_params(self, rut: str, pestania: str = "1") -> Optional[str]:
         """
-        Buscar la URL completa de la página de entidad CMF con todos los parámetros.
+        Buscar la URL completa de la página de entidad CMF con todos los parámetros incluido el ROW ID.
 
         Args:
-            rut (str): RUT del fondo (ej: "10441")
+            rut (str): RUT del fondo SIN guión (ej: "8638")
+            pestania (str): Número de pestaña (default "1", usar "68" para folletos)
 
         Returns:
-            URL completa con parámetros o None
+            URL completa con parámetros incluido row, o None
         """
         try:
-            logger.info(f"[CMF] Buscando página de entidad para RUT: {rut}")
+            logger.info(f"[CMF] Buscando página de entidad para RUT: {rut}, pestaña: {pestania}")
 
-            # Primero buscar en el listado de fondos
+            # Buscar en el listado de fondos
             listado_url = "https://www.cmfchile.cl/institucional/mercados/consulta.php?mercado=V&Estado=VI&entidad=RGFMU"
 
             response = self.session.get(listado_url, timeout=30)
@@ -377,28 +418,65 @@ class FondosMutuosProcessor:
 
             soup = BeautifulSoup(response.content, 'html.parser')
 
-            # Buscar enlaces que contengan el RUT
+            # ESTRATEGIA 1: Buscar enlaces en el HTML que contengan el RUT
             enlaces = soup.find_all('a', href=True)
 
             for enlace in enlaces:
                 href = enlace['href']
-                if f'rut={rut}' in href and 'entidad.php' in href:
+                if f'rut={rut}' in href and 'entidad.php' in href and 'row=' in href:
                     # Construir URL completa
                     if href.startswith('http'):
-                        url_completa = href
+                        url_base = href
                     elif href.startswith('/'):
-                        url_completa = f"https://www.cmfchile.cl{href}"
+                        url_base = f"https://www.cmfchile.cl{href}"
                     else:
-                        url_completa = f"https://www.cmfchile.cl/institucional/mercados/{href}"
+                        url_base = f"https://www.cmfchile.cl/institucional/mercados/{href}"
 
-                    logger.info(f"[CMF] URL encontrada: {url_completa}")
+                    # Parsear para reemplazar la pestaña
+                    from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
+                    parsed = urlparse(url_base)
+                    params = parse_qs(parsed.query)
+
+                    # Actualizar pestaña
+                    params['pestania'] = [pestania]
+
+                    # Reconstruir query string (convertir listas a valores únicos)
+                    new_params = {k: v[0] if isinstance(v, list) else v for k, v in params.items()}
+                    new_query = urlencode(new_params)
+
+                    # Reconstruir URL
+                    url_completa = urlunparse((
+                        parsed.scheme,
+                        parsed.netloc,
+                        parsed.path,
+                        parsed.params,
+                        new_query,
+                        parsed.fragment
+                    ))
+
+                    logger.info(f"[CMF] ✓ URL encontrada con row ID: {url_completa[:100]}...")
                     return url_completa
 
-            logger.warning(f"[CMF] No se encontró URL para RUT {rut} en el listado")
+            # ESTRATEGIA 2: Acceso directo sin row parameter (funciona para fondos en JavaScript arrays)
+            logger.info(f"[CMF] RUT no encontrado en HTML, intentando acceso directo...")
+            url_directa = f"https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut={rut}&tipoentidad=RGFMU&vig=VI&control=svs&pestania={pestania}"
+
+            # Verificar si la URL directa funciona
+            try:
+                response_direct = self.session.get(url_directa, timeout=10)
+                if response_direct.status_code == 200 and 'PAGE_NOT_FOUND' not in response_direct.url:
+                    logger.info(f"[CMF] ✓ Acceso directo exitoso (sin row parameter)")
+                    return url_directa
+            except:
+                pass
+
+            logger.warning(f"[CMF] No se pudo obtener URL para RUT {rut}")
             return None
 
         except Exception as e:
             logger.error(f"[CMF] Error buscando página: {e}")
+            import traceback
+            logger.debug(traceback.format_exc())
             return None
 
     def _extract_pdf_links_from_cmf_page(self, page_url: str) -> Tuple[List[Dict], Optional[str]]:
@@ -515,7 +593,7 @@ class FondosMutuosProcessor:
                                             'encontrado': True
                                         })
                                         logger.debug(f"[CMF] Folleto encontrado (método tabla): Serie={serie}, Fecha={fecha_envio}")
-
+###toda esta parte se puede optimizar mas no me gustan tantos ifs y demas
             if not folletos:
                 logger.warning("[CMF] No se encontraron folletos, intentando serie UNICA")
                 folletos = [{'serie': 'UNICA', 'fecha_envio': None, 'encontrado': False}]
@@ -542,53 +620,183 @@ class FondosMutuosProcessor:
 
     def _download_pdf_from_cmf_improved(self, rut: str, run_completo: str = None) -> Optional[str]:
         """
-        Método mejorado: Buscar la página CMF del fondo y extraer folletos disponibles.
+        Método mejorado: Usar Selenium para acceder a la página de folletos y descargar PDF.
 
         Args:
-            rut (str): RUT del fondo sin guión (ej: "10441")
-            run_completo (str): RUN completo con guión (ej: "10441-8")
+            rut (str): RUT del fondo sin guión ni dígito verificador (ej: "8638")
+            run_completo (str): RUN completo con guión (ej: "8638-K")
 
         Returns:
             Path al PDF descargado o None
         """
         try:
-            logger.info(f"[CMF PDF MEJORADO] Buscando folletos para RUT: {rut}")
+            logger.info(f"[CMF PDF SELENIUM] Iniciando descarga para RUT: {rut}")
 
-            # PASO 1: Obtener URL completa de la página del fondo
-            page_url = self._get_cmf_page_with_params(rut)
+            # VERIFICAR CACHÉ PRIMERO
+            cached_pdf = self._get_cached_pdf(rut, "UNICA")
+            if cached_pdf:
+                logger.info(f"[CACHE] ✓ PDF encontrado en caché")
+                return cached_pdf
+
+            self.cache_stats['downloads'] += 1
+
+            # PASO 1: Obtener URL con pestaña de folletos (pestania=68)
+            page_url = self._get_cmf_page_with_params(rut, pestania="68")
 
             if not page_url:
-                logger.warning(f"[CMF PDF] No se encontró página para RUT {rut}")
+                logger.warning(f"[CMF PDF] ❌ No se encontró URL para RUT {rut}")
                 return None
 
-            # PASO 2: Extraer información de folletos y rutAdmin de la página
-            folletos, rut_admin = self._extract_pdf_links_from_cmf_page(page_url)
+            logger.info(f"[CMF PDF] ✓ URL folletos: {page_url[:80]}...")
 
-            if not folletos:
-                logger.warning(f"[CMF PDF] No se encontraron folletos para RUT {rut}")
+            # PASO 2: Usar Selenium para cargar la página y extraer PDF
+            # TODO: Por ahora intentamos con requests/BeautifulSoup
+            # Si no funciona, implementar Selenium
+            pdf_path = self._download_pdf_with_selenium(page_url, rut, run_completo)
+
+            if pdf_path:
+                logger.info(f"[CMF PDF] ✅ PDF descargado exitosamente")
+                # Guardar en caché
+                self._save_to_cache(rut, "UNICA", pdf_path)
+                return pdf_path
+            else:
+                logger.warning(f"[CMF PDF] ❌ No se pudo descargar PDF")
                 return None
-
-            logger.info(f"[CMF PDF] rutAdmin detectado: {rut_admin}")
-            logger.info(f"[CMF PDF] Folletos disponibles: {len(folletos)} series")
-
-            # PASO 3: Intentar descargar con cada serie encontrada
-            for folleto in folletos:
-                serie = folleto.get('serie', 'UNICA')
-                # Usar rutAdmin del folleto si está disponible, sino el global
-                rut_admin_serie = folleto.get('rutAdmin') or rut_admin
-
-                logger.info(f"[CMF PDF] Intentando descargar Serie: {serie}, rutAdmin: {rut_admin_serie}")
-
-                pdf_path = self._download_pdf_from_cmf(rut, run_completo, serie, rut_admin_serie)
-                if pdf_path:
-                    logger.info(f"[CMF PDF] ✅ Descarga exitosa con serie: {serie}")
-                    return pdf_path
-
-            logger.warning(f"[CMF PDF] No se pudo descargar ningún folleto para RUT {rut}")
-            return None
 
         except Exception as e:
             logger.error(f"[CMF PDF MEJORADO] Error: {e}")
+            import traceback
+            logger.debug(traceback.format_exc())
+            return None
+
+    def _download_pdf_with_selenium(self, page_url: str, rut: str, run_completo: str = None) -> Optional[str]:
+        """
+        Usar Selenium para acceder a la página de folletos y descargar el PDF.
+
+        Args:
+            page_url (str): URL de la página con pestania=68 (folletos)
+            rut (str): RUT del fondo
+            run_completo (str): RUN completo con guión
+
+        Returns:
+            Path al PDF descargado o None
+        """
+        try:
+            from selenium import webdriver
+            from selenium.webdriver.chrome.options import Options
+            from selenium.webdriver.chrome.service import Service
+            from selenium.webdriver.common.by import By
+            from selenium.webdriver.support.ui import WebDriverWait
+            from selenium.webdriver.support import expected_conditions as EC
+            from webdriver_manager.chrome import ChromeDriverManager
+            import time
+
+            logger.info(f"[SELENIUM] Iniciando navegador Chrome headless...")
+
+            # Configurar Chrome en modo headless
+            chrome_options = Options()
+            chrome_options.add_argument('--headless=new')
+            chrome_options.add_argument('--no-sandbox')
+            chrome_options.add_argument('--disable-dev-shm-usage')
+            chrome_options.add_argument('--disable-gpu')
+            chrome_options.add_argument('--window-size=1920,1080')
+            chrome_options.add_argument('user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36')
+
+            # Set Chrome binary location
+            chrome_binary = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+            if os.path.exists(chrome_binary):
+                chrome_options.binary_location = chrome_binary
+
+            # Directorio de descargas
+            download_dir = os.path.abspath('temp')
+            os.makedirs(download_dir, exist_ok=True)
+
+            prefs = {
+                'download.default_directory': download_dir,
+                'download.prompt_for_download': False,
+                'plugins.always_open_pdf_externally': True  # Descargar PDF en lugar de abrirlo
+            }
+            chrome_options.add_experimental_option('prefs', prefs)
+
+            # Inicializar driver (cross-platform)
+            service = Service(ChromeDriverManager().install())
+            driver = webdriver.Chrome(service=service, options=chrome_options)
+            logger.info(f"[SELENIUM] ✓ Chrome started")
+
+            try:
+                logger.info(f"[SELENIUM] Navegando a: {page_url[:80]}...")
+                driver.get(page_url)
+
+                # Esperar que cargue la página
+                WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "body"))
+                )
+
+                page_title = driver.title
+                logger.info(f"[SELENIUM] ✓ Page loaded: {page_title}")
+
+                # Wait for JavaScript tabs to load
+                logger.info(f"[SELENIUM] Waiting for JavaScript load...")
+                WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.ID, "tabs"))
+                )
+
+                # CMF uses onclick="verFolleto(...)" for PDFs
+                logger.info(f"[SELENIUM] Looking for verFolleto links...")
+                pdf_links = driver.find_elements(By.XPATH, "//a[contains(@onclick, 'verFolleto')]")
+
+                if pdf_links:
+                    logger.info(f"[SELENIUM] ✓ Encontrados {len(pdf_links)} enlaces potenciales")
+
+                    # Tomar el primer enlace
+                    first_link = pdf_links[0]
+                    pdf_url = first_link.get_attribute('href')
+
+                    logger.info(f"[SELENIUM] onclick: {pdf_url[:80]}...")
+
+                    # Click triggers AJAX POST and window.open(pdf_url)
+                    logger.info(f"[SELENIUM] Executing click...")
+                    driver.execute_script("arguments[0].click();", first_link)
+
+                    # Wait for download with polling
+                    pdf_path = _wait_for_download_complete(download_dir, timeout=60)
+
+                    if pdf_path:
+                        latest_file = pdf_path
+
+                        # Renombrar con formato estándar
+                        final_name = f"folleto_{rut}.pdf"
+                        final_path = os.path.join(download_dir, final_name)
+
+                        # Si ya existe, sobrescribir
+                        if os.path.exists(final_path):
+                            os.remove(final_path)
+
+                        os.rename(latest_file, final_path)
+
+                        logger.info(f"[SELENIUM] ✅ PDF downloaded: {final_path}")
+                        return final_path
+                    else:
+                        logger.warning(f"[SELENIUM] ❌ Download failed or timeout")
+                        return None
+                else:
+                    logger.warning(f"[SELENIUM] ❌ No se encontraron enlaces a PDFs")
+                    # Guardar screenshot para debugging
+                    screenshot_path = f"temp/debug_screenshot_{rut}.png"
+                    driver.save_screenshot(screenshot_path)
+                    logger.info(f"[SELENIUM] Screenshot guardado: {screenshot_path}")
+                    return None
+
+            finally:
+                driver.quit()
+                logger.info(f"[SELENIUM] Navegador cerrado")
+
+        except ImportError as e:
+            logger.error(f"[SELENIUM] ❌ Error de importación: {e}")
+            logger.error(f"[SELENIUM] Instalar dependencias: pip install selenium webdriver-manager")
+            return None
+        except Exception as e:
+            logger.error(f"[SELENIUM] Error: {e}")
             import traceback
             logger.debug(traceback.format_exc())
             return None
@@ -627,39 +835,55 @@ class FondosMutuosProcessor:
             os.makedirs('temp', exist_ok=True)
 
             # PASO 1: POST request para obtener la URL del PDF viewer
-            pdf_request_url = "https://www.cmfchile.cl/institucional/inc/ver_folleto_fm.php"
+            # CORRECCION: URL correcta del endpoint (antes: /institucional/inc/)
+            # Probando SIN /pages/ (cmf_monitor.py línea 308 usa sin /pages/)
+            pdf_request_url = "https://www.cmfchile.cl/603/ver_folleto_fm.php"
 
             # Headers críticos para que funcione la descarga
+            # CORRECCION: Simplificados, removiendo Content-Type y X-Requested-With que pueden causar rechazo
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
                 'Accept-Language': 'es-CL,es;q=0.9',
-                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-                'X-Requested-With': 'XMLHttpRequest',
                 'Origin': 'https://www.cmfchile.cl',
                 'Referer': f'https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut={rut}'
             }
 
-            # Parámetros según el código JavaScript de CMF:
-            # function verFolleto(_runFondo, _serie, _rutAdmin)
+            # CORRECCION: Usar run_completo si está disponible, sino usar rut
+            # CMF necesita el RUN con guión (ej: "10446-9" o "76.113.534-5")
+            run_fondo_value = run_completo if run_completo else rut
+
+            # Parámetros según el código JavaScript de CMF
+            # CORRECCION: Cambiar a snake_case y agregar pestania=68
             payload = {
-                'runFondo': rut,
+                'pestania': '68',  # Indica sección de folletos informativos (CRÍTICO)
+                'run_fondo': run_fondo_value,  # Usar RUN completo con guión
                 'serie': serie,
-                'rutAdmin': rut_admin or ''  # RUT de la administradora (CRÍTICO para que funcione)
+                'rut_admin': rut_admin or ''  # RUT de la administradora (CRÍTICO)
             }
 
-            logger.debug(f"[CMF PDF] PASO 1 - POST a {pdf_request_url} con payload: {payload}")
+            logger.info(f"[CMF PDF] PASO 1 - POST a {pdf_request_url}")
+            logger.info(f"[CMF PDF] Payload: {payload}")
 
             response = self.session.post(pdf_request_url, data=payload, headers=headers, timeout=60)
 
+            logger.info(f"[CMF PDF] Response status: {response.status_code}")
+            logger.info(f"[CMF PDF] Response URL: {response.url}")
+
             if response.status_code != 200:
                 logger.warning(f"[CMF PDF] Error HTTP {response.status_code} en PASO 1")
+                logger.warning(f"[CMF PDF] Response text (primeros 500 chars): {response.text[:500]}")
                 return None
 
             # La respuesta debe ser un path relativo al PDF viewer o "ERROR"
             pdf_viewer_path = response.text.strip()
 
             logger.debug(f"[CMF PDF] Respuesta PASO 1: {pdf_viewer_path[:200]}")
+
+            # CORRECCION: Validar que no sea HTML de error antes de intentar usarla como path
+            if pdf_viewer_path.startswith('<!DOCTYPE') or pdf_viewer_path.startswith('<html'):
+                logger.error(f"[CMF PDF] Respuesta HTML recibida en lugar de path. Primeros 500 chars: {pdf_viewer_path[:500]}")
+                return None
 
             if pdf_viewer_path == 'ERROR' or not pdf_viewer_path:
                 logger.warning(f"[CMF PDF] No se encontró folleto para RUT {rut}, Serie {serie}")
@@ -1234,56 +1458,78 @@ class FondosMutuosProcessor:
                     soup = BeautifulSoup(response.content, 'html.parser')
 
                     # Método 1: Buscar en scripts JavaScript
-                    scripts = soup.find_all('script', type='text/javascript')
+                    # Formato esperado: var fondos_96767630=new Array("Seleccione...","9049-2   DEPÓSITO PLUS G",...)
+                    # IMPORTANTE: Buscar en TODOS los scripts (CMF usa type="text/JavaScript" con J mayúscula)
+                    scripts = soup.find_all('script')
                     for script in scripts:
                         if script.string and 'fondos_' in script.string:
                             script_content = script.string
+                            # Buscar: var fondos_XXXXXXXXX=new Array(...)
                             fund_arrays = re.findall(r'fondos_(\d+)\s*=\s*new Array\((.*?)\);', script_content, re.DOTALL)
 
-                            for fund_id, fund_data in fund_arrays:
+                            for rut_admin, fund_data in fund_arrays:
+                                # Extraer todos los strings entre comillas
                                 items = re.findall(r'"([^"]*)"', fund_data)
-                                for i in range(0, len(items), 2):
-                                    if i + 1 < len(items):
-                                        funds_list.append({
-                                            'administrator_id': fund_id,
-                                            'fund_code': items[i],
-                                            'fund_name': items[i + 1],
-                                            'full_id': f"{fund_id}_{items[i]}",
-                                            'source': 'javascript'
-                                        })
 
-                    # Método 2: Buscar en elementos select/option
-                    selects = soup.find_all('select')
-                    for select in selects:
-                        if select.get('name') and ('fondo' in select.get('name', '').lower() or
-                                                 'admin' in select.get('name', '').lower()):
-                            options = select.find_all('option')
-                            for option in options:
-                                if option.get('value') and option.text.strip():
-                                    funds_list.append({
-                                        'administrator_id': 'unknown',
-                                        'fund_code': option.get('value'),
-                                        'fund_name': option.text.strip(),
-                                        'full_id': f"select_{option.get('value')}",
-                                        'source': 'select_option'
-                                    })
+                                # Cada item tiene formato: "RUT   NOMBRE" o "Seleccione..."
+                                for item in items:
+                                    # Ignorar "Seleccione..." y strings vacíos
+                                    if not item or 'seleccione' in item.lower():
+                                        continue
 
-                    # Método 3: Buscar en tablas
-                    tables = soup.find_all('table')
-                    for table in tables:
-                        rows = table.find_all('tr')
-                        for row in rows:
-                            cells = row.find_all(['td', 'th'])
-                            if len(cells) >= 2:
-                                text_content = ' '.join([cell.get_text().strip() for cell in cells])
-                                if 'fondo' in text_content.lower() and len(text_content) > 10:
-                                    funds_list.append({
-                                        'administrator_id': 'table_extract',
-                                        'fund_code': 'table_row',
-                                        'fund_name': text_content[:100],  # Limitar longitud
-                                        'full_id': f"table_{len(funds_list)}",
-                                        'source': 'table_data'
-                                    })
+                                    # Parsear formato "9049-2   DEPÓSITO PLUS G"
+                                    # Separar por espacios múltiples
+                                    parts = re.split(r'\s{2,}', item.strip(), maxsplit=1)
+
+                                    if len(parts) == 2:
+                                        rut_fondo = parts[0].strip()  # "9049-2"
+                                        nombre_fondo = parts[1].strip()  # "DEPÓSITO PLUS G"
+
+                                        # Validar que el RUT tenga formato correcto
+                                        if re.match(r'^\d+-[\dkK]$', rut_fondo):
+                                            funds_list.append({
+                                                'rut_fondo': rut_fondo,  # RUT del fondo (ej: "9049-2")
+                                                'rut_admin': rut_admin,  # RUT de la administradora (ej: "96767630")
+                                                'nombre': nombre_fondo,
+                                                'full_id': f"{rut_admin}_{rut_fondo}",
+                                                'source': 'javascript'
+                                            })
+                                            logger.debug(f"Fondo encontrado: {rut_fondo} - {nombre_fondo} (Admin: {rut_admin})")
+
+                    # Método 2 DESHABILITADO: Select/option extrae administradoras, no fondos
+                    # # Método 2: Buscar en elementos select/option
+                    # selects = soup.find_all('select')
+                    # for select in selects:
+                    #     if select.get('name') and ('fondo' in select.get('name', '').lower() or
+                    #                              'admin' in select.get('name', '').lower()):
+                    #         options = select.find_all('option')
+                    #         for option in options:
+                    #             if option.get('value') and option.text.strip():
+                    #                 funds_list.append({
+                    #                     'administrator_id': 'unknown',
+                    #                     'fund_code': option.get('value'),
+                    #                     'fund_name': option.text.strip(),
+                    #                     'full_id': f"select_{option.get('value')}",
+                    #                     'source': 'select_option'
+                    #                 })
+
+                    # Método 3 DESHABILITADO: Tablas no contienen fondos individuales
+                    # # Método 3: Buscar en tablas
+                    # tables = soup.find_all('table')
+                    # for table in tables:
+                    #     rows = table.find_all('tr')
+                    #     for row in rows:
+                    #         cells = row.find_all(['td', 'th'])
+                    #         if len(cells) >= 2:
+                    #             text_content = ' '.join([cell.get_text().strip() for cell in cells])
+                    #             if 'fondo' in text_content.lower() and len(text_content) > 10:
+                    #                 funds_list.append({
+                    #                     'administrator_id': 'table_extract',
+                    #                     'fund_code': 'table_row',
+                    #                     'fund_name': text_content[:100],  # Limitar longitud
+                    #                     'full_id': f"table_{len(funds_list)}",
+                    #                     'source': 'table_data'
+                    #                 })
 
                     if funds_list:  # Si encontramos fondos, no necesitamos probar más URLs
                         break
@@ -1292,39 +1538,43 @@ class FondosMutuosProcessor:
                     logger.warning(f"Error procesando URL {url}: {e}")
                     continue
 
-            # Eliminar duplicados basado en fund_name
-            seen_names = set()
+            # Eliminar duplicados basado en RUT del fondo
+            seen_ruts = set()
             unique_funds = []
             for fund in funds_list:
-                name_lower = fund['fund_name'].lower()
-                if name_lower not in seen_names and len(name_lower) > 5:
-                    seen_names.add(name_lower)
+                # Usar 'nombre' si existe (nuevo formato), sino 'fund_name' (legacy)
+                nombre = fund.get('nombre') or fund.get('fund_name', '')
+                rut = fund.get('rut_fondo') or fund.get('full_id', '')
+
+                # Validar que tiene datos mínimos
+                if len(nombre) > 5 and rut and rut not in seen_ruts:
+                    seen_ruts.add(rut)
                     unique_funds.append(fund)
 
-            # Generar fondos de ejemplo si no encontramos ninguno real
+            # NO GENERAR FONDOS FAKE - Retornar lista vacía si no hay datos reales
             if not unique_funds:
-                logger.warning("No se encontraron fondos reales, generando ejemplos")
-                unique_funds = self._generate_sample_funds_list()
+                logger.error("ERROR CRÍTICO: No se encontraron fondos reales en CMF")
+                return []
 
             logger.info(f"Encontrados {len(unique_funds)} fondos únicos en CMF")
             return unique_funds
 
         except Exception as e:
-            logger.error(f"Error haciendo scraping de lista CMF: {e}")
-            return self._generate_sample_funds_list()
+            logger.error(f"ERROR CRÍTICO: Error scrapeando lista CMF: {e}")
+            return []  # NO INVENTAR DATOS
 
-    def _generate_sample_funds_list(self) -> List[Dict]:
-        """Generar lista de fondos de ejemplo cuando no se pueden obtener datos reales"""
-        return [
-            {'administrator_id': '96598160', 'fund_code': 'CONS001', 'fund_name': 'Santander Fondo Mutuo Conservador Pesos', 'full_id': 'sample_sant_cons', 'source': 'sample'},
-            {'administrator_id': '96571220', 'fund_code': 'BAL001', 'fund_name': 'BCI Fondo Mutuo Balanceado', 'full_id': 'sample_bci_bal', 'source': 'sample'},
-            {'administrator_id': '96574580', 'fund_code': 'AGR001', 'fund_name': 'Security Fondo Mutuo Agresivo', 'full_id': 'sample_sec_agr', 'source': 'sample'},
-            {'administrator_id': '96515190', 'fund_code': 'CORP001', 'fund_name': 'Banchile Fondo Mutuo Corporativo', 'full_id': 'sample_ban_corp', 'source': 'sample'},
-            {'administrator_id': '81513400', 'fund_code': 'INV001', 'fund_name': 'Principal Fondo de Inversión', 'full_id': 'sample_pri_inv', 'source': 'sample'},
-            {'administrator_id': '96659680', 'fund_code': 'REN001', 'fund_name': 'Itau Fondo Mutuo Rentabilidad', 'full_id': 'sample_ita_ren', 'source': 'sample'},
-            {'administrator_id': '99571760', 'fund_code': 'CAP001', 'fund_name': 'Scotiabank Capital Fondo Mutuo', 'full_id': 'sample_sco_cap', 'source': 'sample'},
-            {'administrator_id': '76645710', 'fund_code': 'DIN001', 'fund_name': 'LarrainVial Fondo Dinámico', 'full_id': 'sample_lv_din', 'source': 'sample'}
-        ]
+    # def _generate_sample_funds_list(self) -> List[Dict]:
+    #     """Generar lista de fondos de ejemplo cuando no se pueden obtener datos reales"""
+    #     return [
+    #         {'administrator_id': '96598160', 'fund_code': 'CONS001', 'fund_name': 'Santander Fondo Mutuo Conservador Pesos', 'full_id': 'sample_sant_cons', 'source': 'sample'},
+    #         {'administrator_id': '96571220', 'fund_code': 'BAL001', 'fund_name': 'BCI Fondo Mutuo Balanceado', 'full_id': 'sample_bci_bal', 'source': 'sample'},
+    #         {'administrator_id': '96574580', 'fund_code': 'AGR001', 'fund_name': 'Security Fondo Mutuo Agresivo', 'full_id': 'sample_sec_agr', 'source': 'sample'},
+    #         {'administrator_id': '96515190', 'fund_code': 'CORP001', 'fund_name': 'Banchile Fondo Mutuo Corporativo', 'full_id': 'sample_ban_corp', 'source': 'sample'},
+    #         {'administrator_id': '81513400', 'fund_code': 'INV001', 'fund_name': 'Principal Fondo de Inversión', 'full_id': 'sample_pri_inv', 'source': 'sample'},
+    #         {'administrator_id': '96659680', 'fund_code': 'REN001', 'fund_name': 'Itau Fondo Mutuo Rentabilidad', 'full_id': 'sample_ita_ren', 'source': 'sample'},
+    #         {'administrator_id': '99571760', 'fund_code': 'CAP001', 'fund_name': 'Scotiabank Capital Fondo Mutuo', 'full_id': 'sample_sco_cap', 'source': 'sample'},
+    #         {'administrator_id': '76645710', 'fund_code': 'DIN001', 'fund_name': 'LarrainVial Fondo Dinámico', 'full_id': 'sample_lv_din', 'source': 'sample'}
+    #     ]
 
     def _search_fund_in_cmf_by_rut(self, rut: str) -> Optional[Dict]:
         """
@@ -1407,7 +1657,9 @@ class FondosMutuosProcessor:
             best_score = 0
 
             for fund in funds_list:
-                fund_name_lower = fund['fund_name'].lower()
+                # Usar 'nombre' (nuevo formato) o 'fund_name' (legacy)
+                fund_name = fund.get('nombre') or fund.get('fund_name', '')
+                fund_name_lower = fund_name.lower()
 
                 # Calcular score de similitud
                 score = 0
@@ -1434,7 +1686,9 @@ class FondosMutuosProcessor:
                     best_match = fund
 
             if best_match and best_score > 30:  # Umbral mínimo de similitud
-                logger.info(f"Fondo encontrado en CMF: {best_match['fund_name']} (score: {best_score})")
+                fund_name_match = best_match.get('nombre') or best_match.get('fund_name', 'Unknown')
+                logger.info(f"Fondo encontrado en CMF: {fund_name_match} (score: {best_score})")
+                logger.info(f"  RUT Fondo: {best_match.get('rut_fondo')}, RUT Admin: {best_match.get('rut_admin')}")
                 return best_match
             else:
                 logger.warning(f"No se encontró fondo similar a '{target_name}' en CMF")
@@ -1589,12 +1843,20 @@ class FondosMutuosProcessor:
                 # Procesar y normalizar cartera con todos los datos encontrados
                 return self._process_portfolio_data_dynamic(portfolio_data, fund_info)
             else:
-                logger.warning(f"No se encontró información de cartera para el fondo, generando datos simulados")
-                return self._generate_sample_portfolio(fund_info)
+                logger.error(f"No se encontró información de cartera para el fondo")
+                return {
+                    'composicion_portafolio': [],
+                    'error': 'No se pudo obtener composición real del portafolio',
+                    'data_source': 'ERROR'
+                }
 
         except Exception as e:
             logger.error(f"Error obteniendo cartera: {e}")
-            return self._generate_sample_portfolio(fund_info)
+            return {
+                'composicion_portafolio': [],
+                'error': f'Error obteniendo cartera: {str(e)}',
+                'data_source': 'ERROR'
+            }
 
     def _parse_portfolio_content_dynamic(self, content: str, fund_info: Dict) -> Dict:
         """Parsear dinámicamente el contenido de cartera en cualquier formato"""
@@ -1886,33 +2148,18 @@ class FondosMutuosProcessor:
             return 'Otros Instrumentos'
 
     def _generate_sample_portfolio(self, fund_info: Dict) -> Dict:
-        """Generar cartera de muestra basada en el nombre del fondo"""
-        fund_name_lower = fund_info['fund_name'].lower()
+        """
+        ELIMINADO: Generar cartera de muestra basada en el nombre del fondo
 
-        if 'conservador' in fund_name_lower or 'garantizado' in fund_name_lower:
-            composition = [
-                {'activo': 'Bonos Gobierno Chile', 'porcentaje': 0.60},
-                {'activo': 'Depósitos a Plazo', 'porcentaje': 0.25},
-                {'activo': 'Bonos Corporativos', 'porcentaje': 0.15}
-            ]
-        elif 'agresivo' in fund_name_lower or 'accionario' in fund_name_lower:
-            composition = [
-                {'activo': 'Acciones Chilenas', 'porcentaje': 0.50},
-                {'activo': 'Acciones Extranjeras', 'porcentaje': 0.30},
-                {'activo': 'Bonos Corporativos', 'porcentaje': 0.20}
-            ]
-        else:  # Balanceado por defecto
-            composition = [
-                {'activo': 'Acciones Chilenas', 'porcentaje': 0.35},
-                {'activo': 'Bonos Gobierno Chile', 'porcentaje': 0.30},
-                {'activo': 'Acciones Extranjeras', 'porcentaje': 0.20},
-                {'activo': 'Bonos Corporativos', 'porcentaje': 0.15}
-            ]
-
+        Esta función generaba datos FALSOS. Ahora retorna error explícito.
+        NO SE DEBEN INVENTAR DATOS DE COMPOSICIÓN DE PORTAFOLIO.
+        """
+        logger.error("[DATOS FALSOS BLOQUEADOS] No se puede generar cartera simulada")
         return {
-            'composicion_portafolio': composition,
-            'is_sample': True,
-            'classification_basis': 'fund_name'
+            'composicion_portafolio': [],
+            'error': 'No hay datos reales de composición disponibles',
+            'is_sample': False,
+            'data_source': 'ERROR: No se pudo obtener datos reales'
         }
 
     def _extract_numeric_value(self, text: str) -> Optional[float]:
@@ -2021,37 +2268,25 @@ class FondosMutuosProcessor:
             tipo_fondo = data.get('tipo_fondo', '').lower()
             composicion = data.get('composicion_portafolio', [])
 
-            # Clasificación de riesgo detallada
-            if 'conservador' in tipo_fondo or 'capital garantizado' in tipo_fondo:
-                metrics['clasificacion_riesgo_detallada'] = 'Bajo'
-                metrics['perfil_inversionista_ideal'] = 'Inversores conservadores, jubilados, preservación de capital'
-                metrics['horizonte_inversion_recomendado'] = 'Corto a mediano plazo (6 meses - 3 años)'
-                metrics['ventajas_principales'] = [
-                    'Baja volatilidad', 'Preservación de capital', 'Liquidez rápida', 'Dividendos regulares'
-                ]
-                metrics['desventajas_principales'] = [
-                    'Rentabilidad limitada', 'Riesgo de inflación', 'Oportunidad perdida en mercados alcistas'
-                ]
+            # Clasificación de riesgo detallada - SOLO basada en datos reales
+            perfil_riesgo = data.get('perfil_riesgo', 'N/A')
+
+            # Usar clasificación oficial del CMF si existe
+            if perfil_riesgo and perfil_riesgo != 'N/A':
+                metrics['clasificacion_riesgo_detallada'] = perfil_riesgo
+            elif 'conservador' in tipo_fondo or 'capital garantizado' in tipo_fondo:
+                metrics['clasificacion_riesgo_detallada'] = 'Bajo (inferido del nombre)'
             elif 'agresivo' in tipo_fondo or 'acciones' in tipo_fondo:
-                metrics['clasificacion_riesgo_detallada'] = 'Alto'
-                metrics['perfil_inversionista_ideal'] = 'Inversores jóvenes, alta tolerancia al riesgo, crecimiento de capital'
-                metrics['horizonte_inversion_recomendado'] = 'Largo plazo (5+ años)'
-                metrics['ventajas_principales'] = [
-                    'Alto potencial de crecimiento', 'Protección contra inflación', 'Diversificación internacional'
-                ]
-                metrics['desventajas_principales'] = [
-                    'Alta volatilidad', 'Riesgo de pérdidas', 'Requiere paciencia y disciplina'
-                ]
+                metrics['clasificacion_riesgo_detallada'] = 'Alto (inferido del nombre)'
             else:
-                metrics['clasificacion_riesgo_detallada'] = 'Medio'
-                metrics['perfil_inversionista_ideal'] = 'Inversores moderados, diversificación, crecimiento estable'
-                metrics['horizonte_inversion_recomendado'] = 'Mediano a largo plazo (2-5 años)'
-                metrics['ventajas_principales'] = [
-                    'Equilibrio riesgo-retorno', 'Diversificación automática', 'Gestión profesional'
-                ]
-                metrics['desventajas_principales'] = [
-                    'Volatilidad moderada', 'Dependencia del gestor', 'Comisiones de gestión'
-                ]
+                metrics['clasificacion_riesgo_detallada'] = 'Medio (inferido del nombre)'
+
+            # NO GENERAR PERFILES/HORIZONTES/VENTAJAS GENÉRICAS
+            # Estos deben venir del documento oficial del fondo o IA con contexto real
+            metrics['perfil_inversionista_ideal'] = 'N/A - Requiere documento oficial del fondo'
+            metrics['horizonte_inversion_recomendado'] = 'N/A - Requiere documento oficial del fondo'
+            metrics['ventajas_principales'] = []
+            metrics['desventajas_principales'] = []
 
             # Análisis de diversificación
             if composicion:
@@ -2066,41 +2301,30 @@ class FondosMutuosProcessor:
                     'distribucion_por_tipo': self._analyze_asset_distribution(composicion)
                 }
 
-            # Proyección de rentabilidad (estimaciones simplificadas)
-            rentabilidad_base = data.get('rentabilidad_anual', 0.06)  # Default 6%
-            if isinstance(rentabilidad_base, str):
-                try:
-                    rentabilidad_base = float(rentabilidad_base.replace('%', '')) / 100
-                except:
-                    rentabilidad_base = 0.06
+            # NO GENERAR PROYECCIONES - Solo usar datos reales
+            # Las proyecciones requieren datos históricos reales, no estimaciones
+            rentabilidad_real = data.get('rentabilidad_anual')
 
-            metrics['proyeccion_rentabilidad'] = {
-                'escenario_conservador': max(rentabilidad_base * 0.7, 0.02),  # Mínimo 2%
-                'escenario_esperado': rentabilidad_base,
-                'escenario_optimista': rentabilidad_base * 1.5,
-                'volatilidad_estimada': self._estimate_volatility(tipo_fondo)
-            }
-
-            # Costos estimados (rangos típicos en Chile)
-            if 'conservador' in tipo_fondo:
-                comision_base = 0.008  # 0.8% anual
-            elif 'agresivo' in tipo_fondo:
-                comision_base = 0.015  # 1.5% anual
+            if rentabilidad_real is not None:
+                metrics['proyeccion_rentabilidad'] = {
+                    'rentabilidad_real_anual': rentabilidad_real,
+                    'nota': 'Rentabilidad histórica real - No es garantía de rendimiento futuro'
+                }
             else:
-                comision_base = 0.012  # 1.2% anual
+                metrics['proyeccion_rentabilidad'] = {
+                    'error': 'No hay datos de rentabilidad disponibles'
+                }
 
+            # NO INVENTAR COSTOS - Solo usar datos scrapeados del PDF/CMF
+            # Las comisiones deben extraerse de los documentos oficiales del fondo
             metrics['costos_estimados'] = {
-                'comision_administracion_anual': comision_base,
-                'comision_rescate': 0.002,  # 0.2%
-                'costo_total_anual_estimado': comision_base + 0.001  # Costos adicionales
+                'error': 'Costos no disponibles - requieren extracción de PDF oficial del fondo'
             }
 
-            # Comparación con benchmarks
+            # NO INCLUIR benchmarks sin datos reales
+            # Los benchmarks requieren cotizaciones en tiempo real
             metrics['comparacion_benchmarks'] = {
-                'ipsa_chile': 'Referencia acciones chilenas',
-                'bono_gobierno_5_anos': 'Referencia renta fija',
-                'inflacion_chile': 'Protección poder adquisitivo',
-                'deposito_plazo_promedio': 'Alternativa conservadora'
+                'nota': 'Comparación con benchmarks requiere datos de mercado actualizados'
             }
 
         except Exception as e:
@@ -2125,15 +2349,13 @@ class FondosMutuosProcessor:
 
         return distribution
 
-    def _estimate_volatility(self, tipo_fondo: str) -> float:
-        """Estimar volatilidad anual basada en tipo de fondo"""
-        tipo_lower = tipo_fondo.lower()
-        if 'conservador' in tipo_lower:
-            return 0.03  # 3% volatilidad anual
-        elif 'agresivo' in tipo_lower:
-            return 0.18  # 18% volatilidad anual
-        else:
-            return 0.10  # 10% volatilidad anual
+    def _estimate_volatility(self, tipo_fondo: str) -> Optional[float]:
+        """
+        ELIMINADO: Estimar volatilidad anual basada en tipo de fondo
+        La volatilidad NO se puede inventar, debe calcularse de datos históricos reales
+        """
+        logger.warning("[DATOS INVENTADOS BLOQUEADOS] No se puede estimar volatilidad sin datos históricos")
+        return None
 
     def _generate_excel(self, data: Dict) -> None:
         """Generar archivo Excel AVANZADO con análisis completo del fondo"""
@@ -2162,10 +2384,10 @@ class FondosMutuosProcessor:
                     data.get('perfil_riesgo', 'N/A'),
                     metrics.get('clasificacion_riesgo_detallada', 'N/A'),
                     f"{data.get('rentabilidad_anual', 0):.2%}" if data.get('rentabilidad_anual') else 'N/A',
-                    'CMF Chile + Scraping Web' if data.get('fuente_cmf') else 'Simulación basada en tipo',
+                    'CMF Chile + Scraping Web' if data.get('fuente_cmf') else 'ERROR: Datos CMF no disponibles',
                     datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                    metrics.get('perfil_inversionista_ideal', 'N/A'),
-                    metrics.get('horizonte_inversion_recomendado', 'N/A')
+                    metrics.get('perfil_inversionista_ideal', 'N/A - Requiere documento oficial'),
+                    metrics.get('horizonte_inversion_recomendado', 'N/A - Requiere documento oficial')
                 ]
             }
 
@@ -2181,61 +2403,69 @@ class FondosMutuosProcessor:
             else:
                 composicion_data = {'Activo/Instrumento': ['Sin datos'], 'Porcentaje': ['N/A'], 'Porcentaje Decimal': [0], 'Tipo de Inversión': ['N/A']}
 
-            # Hoja 3: Análisis de Riesgo y Rentabilidad
+            # Hoja 3: Análisis de Riesgo y Rentabilidad - SOLO DATOS REALES
             proyeccion = metrics.get('proyeccion_rentabilidad', {})
-            costos = metrics.get('costos_estimados', {})
+            diversificacion = metrics.get('analisis_diversificacion', {})
+
+            # Solo incluir métricas CALCULADAS (no inventadas)
+            metricas_lista = []
+            valores_lista = []
+            interpretaciones_lista = []
+
+            # Rentabilidad real (si existe)
+            if 'rentabilidad_real_anual' in proyeccion:
+                metricas_lista.append('Rentabilidad Anual Real')
+                valores_lista.append(f"{proyeccion['rentabilidad_real_anual']:.2%}")
+                interpretaciones_lista.append('Rentabilidad histórica - No garantiza rendimiento futuro')
+
+            # Análisis de diversificación (CALCULADO de composición real)
+            if diversificacion:
+                if 'nivel_diversificacion' in diversificacion:
+                    metricas_lista.append('Nivel de Diversificación')
+                    valores_lista.append(diversificacion.get('nivel_diversificacion', 'N/A'))
+                    interpretaciones_lista.append('Nivel de distribución del riesgo (calculado)')
+
+                if 'total_activos' in diversificacion:
+                    metricas_lista.append('Total de Activos')
+                    valores_lista.append(str(diversificacion.get('total_activos', 'N/A')))
+                    interpretaciones_lista.append('Cantidad de instrumentos diferentes')
+
+                if 'concentracion_maxima' in diversificacion:
+                    metricas_lista.append('Concentración Máxima')
+                    valores_lista.append(f"{diversificacion.get('concentracion_maxima', 0):.2%}")
+                    interpretaciones_lista.append('Máxima exposición a un solo activo')
+
+            # Si no hay datos, mostrar mensaje
+            if not metricas_lista:
+                metricas_lista = ['Sin Datos Disponibles']
+                valores_lista = ['N/A']
+                interpretaciones_lista = ['Requiere datos de scraping de CMF/PDFs']
 
             riesgo_rentabilidad_data = {
-                'Métrica': [
-                    'Escenario Conservador',
-                    'Escenario Esperado',
-                    'Escenario Optimista',
-                    'Volatilidad Estimada',
-                    'Comisión Administración',
-                    'Comisión Rescate',
-                    'Costo Total Anual',
-                    'Nivel de Diversificación',
-                    'Total de Activos',
-                    'Concentración Máxima'
-                ],
-                'Valor': [
-                    f"{proyeccion.get('escenario_conservador', 0):.2%}",
-                    f"{proyeccion.get('escenario_esperado', 0):.2%}",
-                    f"{proyeccion.get('escenario_optimista', 0):.2%}",
-                    f"{proyeccion.get('volatilidad_estimada', 0):.2%}",
-                    f"{costos.get('comision_administracion_anual', 0):.3%}",
-                    f"{costos.get('comision_rescate', 0):.3%}",
-                    f"{costos.get('costo_total_anual_estimado', 0):.3%}",
-                    metrics.get('analisis_diversificacion', {}).get('nivel_diversificacion', 'N/A'),
-                    metrics.get('analisis_diversificacion', {}).get('total_activos', 'N/A'),
-                    f"{metrics.get('analisis_diversificacion', {}).get('concentracion_maxima', 0):.2%}"
-                ],
-                'Interpretación': [
-                    'Rentabilidad en escenario pesimista',
-                    'Rentabilidad esperada promedio',
-                    'Rentabilidad en escenario favorable',
-                    'Variabilidad esperada de retornos',
-                    'Costo anual por gestión',
-                    'Costo por retirar fondos',
-                    'Suma de todos los costos anuales',
-                    'Nivel de distribución del riesgo',
-                    'Cantidad de instrumentos diferentes',
-                    'Máxima exposición a un solo activo'
-                ]
+                'Métrica': metricas_lista,
+                'Valor': valores_lista,
+                'Interpretación': interpretaciones_lista
             }
 
-            # Hoja 4: Ventajas y Desventajas
+            # Hoja 4: Ventajas y Desventajas - SOLO SI HAY DATOS REALES
             ventajas = metrics.get('ventajas_principales', [])
             desventajas = metrics.get('desventajas_principales', [])
 
-            max_items = max(len(ventajas), len(desventajas))
-            ventajas.extend([''] * (max_items - len(ventajas)))
-            desventajas.extend([''] * (max_items - len(desventajas)))
+            # Solo crear hoja si hay datos reales (no listas vacías)
+            if ventajas or desventajas:
+                max_items = max(len(ventajas), len(desventajas), 1)
+                ventajas.extend([''] * (max_items - len(ventajas)))
+                desventajas.extend([''] * (max_items - len(desventajas)))
 
-            ventajas_desventajas_data = {
-                'Ventajas': ventajas,
-                'Desventajas': desventajas
-            }
+                ventajas_desventajas_data = {
+                    'Ventajas': ventajas,
+                    'Desventajas': desventajas
+                }
+            else:
+                # No hay ventajas/desventajas reales
+                ventajas_desventajas_data = {
+                    'Nota': ['Ventajas y desventajas requieren análisis del documento oficial del fondo']
+                }
 
             # Hoja 5: Descripción Generada por IA
             descripcion_data = {
@@ -2272,12 +2502,12 @@ class FondosMutuosProcessor:
                         adjusted_width = min(max_length + 2, 100)
                         worksheet.column_dimensions[column_letter].width = adjusted_width
 
-            logger.info(f"Archivo Excel avanzado generado: {output_path}")
+            logger.info(f"✓ Archivo Excel generado: {output_path}")
 
         except Exception as e:
-            logger.error(f"Error generando Excel avanzado: {e}")
-            # Fallback al método simple
-            self._generate_simple_excel(data)
+            logger.error(f"❌ ERROR CRÍTICO generando Excel: {e}")
+            # NO USAR FALLBACK - Propagar error para que sea visible
+            raise RuntimeError(f"Fallo en generación de Excel: {e}") from e
 
     def _classify_investment_type(self, activo: str) -> str:
         """Clasificar tipo de inversión basado en el nombre del activo"""
@@ -2351,11 +2581,11 @@ class FondosMutuosProcessor:
                 logger.info(f" RUN: {fintual_data.get('run')}, RUT base: {fintual_data.get('rut_base')}")
                 logger.info(f" Series encontradas: {len(fintual_data.get('series', []))}")
             else:
-                # Si no hay datos de Fintual, usar nombre del ID
+                # Si no hay datos de Fintual, marcar error
                 resultado['nombre'] = fondo_id.replace('_', ' ').title()
-                # Agregar rentabilidad simulada realista
-                resultado['rentabilidad_anual'] = self._simulate_realistic_return(fondo_id)
-                logger.warning(" No se obtuvieron datos de Fintual, usando datos simulados")
+                resultado['rentabilidad_anual'] = None  # NO SIMULAR DATOS
+                resultado['error'] = 'No se obtuvieron datos de Fintual'
+                logger.error(" No se obtuvieron datos de Fintual - No hay datos reales disponibles")
 
             # Fase 2: SCRAPING REAL de CMF USANDO EL RUT
             logger.info("═" * 60)
@@ -2412,34 +2642,35 @@ class FondosMutuosProcessor:
                     portfolio_data = self._get_fund_portfolio_data(cmf_fund)
                     if portfolio_data:
                         resultado.update(portfolio_data)
-                else:
-                    logger.info(" CMF encontrado por RUT directo - intentando descargar PDF...")
 
-                    # Intentar descargar PDF del folleto informativo con método mejorado
-                    pdf_path = self._download_pdf_from_cmf_improved(cmf_fund.get('rut'), resultado.get('run'))
+                # SIEMPRE intentar descargar PDF (independiente de si tiene fund_code o no)
+                logger.info(" Intentando descargar PDF del folleto informativo...")
+                # Extraer RUT base del campo que tenga (rut, rut_fondo, o rut_base)
+                rut_para_pdf = cmf_fund.get('rut') or cmf_fund.get('rut_fondo', '').split('-')[0] or resultado.get('rut_base')
+                pdf_path = self._download_pdf_from_cmf_improved(rut_para_pdf, resultado.get('run'))
 
-                    if pdf_path:
-                        # Extraer datos del PDF
-                        logger.info("═" * 60)
-                        logger.info(" Fase 2.5: Extrayendo datos del PDF...")
-                        logger.info("═" * 60)
+                if pdf_path:
+                    # Extraer datos del PDF
+                    logger.info("═" * 60)
+                    logger.info(" Fase 2.5: Extrayendo datos del PDF...")
+                    logger.info("═" * 60)
 
-                        pdf_data = self._extract_data_from_pdf(pdf_path)
+                    pdf_data = self._extract_data_from_pdf(pdf_path)
 
-                        if pdf_data.get('pdf_procesado'):
-                            # Actualizar resultado con datos del PDF
-                            if pdf_data.get('tipo_fondo'):
-                                resultado['tipo_fondo'] = pdf_data['tipo_fondo']
-                            if pdf_data.get('perfil_riesgo'):
-                                resultado['perfil_riesgo'] = pdf_data['perfil_riesgo']
-                            if pdf_data.get('composicion_portafolio'):
-                                resultado['composicion_portafolio'] = pdf_data['composicion_portafolio']
+                    if pdf_data.get('pdf_procesado'):
+                        # Actualizar resultado con datos del PDF
+                        if pdf_data.get('tipo_fondo'):
+                            resultado['tipo_fondo'] = pdf_data['tipo_fondo']
+                        if pdf_data.get('perfil_riesgo'):
+                            resultado['perfil_riesgo'] = pdf_data['perfil_riesgo']
+                        if pdf_data.get('composicion_portafolio'):
+                            resultado['composicion_portafolio'] = pdf_data['composicion_portafolio']
 
-                            logger.info(f" Datos extraídos del PDF: Tipo={pdf_data.get('tipo_fondo')}, Riesgo={pdf_data.get('perfil_riesgo')}, Activos={len(pdf_data.get('composicion_portafolio', []))}")
-                        else:
-                            logger.warning(f" Error procesando PDF: {pdf_data.get('error')}")
+                        logger.info(f" Datos extraídos del PDF: Tipo={pdf_data.get('tipo_fondo')}, Riesgo={pdf_data.get('perfil_riesgo')}, Activos={len(pdf_data.get('composicion_portafolio', []))}")
                     else:
-                        logger.warning(" No se pudo descargar el PDF del folleto informativo")
+                        logger.warning(f" Error procesando PDF: {pdf_data.get('error')}")
+                else:
+                    logger.warning(" No se pudo descargar el PDF del folleto informativo")
 
                 # Inferir tipo de fondo basado en el nombre CMF
                 fund_name_lower = nombre_cmf.lower()
@@ -2453,18 +2684,15 @@ class FondosMutuosProcessor:
                     resultado.update({'tipo_fondo': 'Mixto', 'perfil_riesgo': 'Medio'})
 
             else:
-                logger.warning(" Fondo no encontrado en CMF, usando datos simulados")
+                logger.error(" Fondo no encontrado en CMF - No hay datos reales disponibles")
                 resultado.update({
                     'fuente_cmf': False,
-                    'tipo_fondo': 'Conservador',
-                    'perfil_riesgo': 'Bajo'
+                    'tipo_fondo': None,
+                    'perfil_riesgo': None,
+                    'composicion_portafolio': [],
+                    'error': resultado.get('error', '') + ' | Fondo no encontrado en CMF'
                 })
-
-                # Generar portafolio simulado
-                portfolio_data = self._generate_sample_portfolio({
-                    'fund_name': resultado.get('nombre', fondo_id)
-                })
-                resultado.update(portfolio_data)
+                # NO generar portafolio simulado
 
             # Fase 3: Generar descripción con IA
             logger.info(" Fase 3: Generando descripción con IA...")
@@ -2492,17 +2720,15 @@ class FondosMutuosProcessor:
 
         return resultado
 
-    def _simulate_realistic_return(self, fondo_id: str) -> float:
-        """Simular rentabilidad realista basada en el tipo de fondo"""
-        fondo_lower = fondo_id.lower()
+    def _simulate_realistic_return(self, fondo_id: str) -> Optional[float]:
+        """
+        ELIMINADO: Simular rentabilidad realista basada en el tipo de fondo
 
-        # Rangos típicos de fondos mutuos en Chile (2024)
-        if 'conservador' in fondo_lower:
-            return 0.045 + (hash(fondo_id) % 20) * 0.001  # 4.5% - 6.4%
-        elif 'agresivo' in fondo_lower or 'acciones' in fondo_lower:
-            return 0.08 + (hash(fondo_id) % 40) * 0.001  # 8% - 12%
-        else:  # Balanceado
-            return 0.065 + (hash(fondo_id) % 25) * 0.001  # 6.5% - 9%
+        Esta función generaba rentabilidades FALSAS.
+        NO SE DEBEN INVENTAR DATOS FINANCIEROS.
+        """
+        logger.error(f"[DATOS FALSOS BLOQUEADOS] No se puede simular rentabilidad para {fondo_id}")
+        return None  # Retornar None en lugar de dato inventado
 
     def _generate_fund_investment_analysis(self, data: Dict) -> Dict:
         """Generar análisis de inversión completo para el fondo"""
@@ -2521,61 +2747,53 @@ class FondosMutuosProcessor:
             fund_type = data.get('tipo_fondo', 'mixto')
             rentabilidad = data.get('rentabilidad_anual', 0)
 
-            # Resumen ejecutivo
-            analysis['resumen_ejecutivo_fondo'] = f"""{fund_name} es un fondo mutuo de tipo {fund_type.lower()}
-con una rentabilidad anual estimada del {rentabilidad:.2%}.
-Este fondo está diseñado para inversores con perfil de riesgo {data.get('perfil_riesgo', 'medio').lower()}
-y horizonte de inversión de {self._get_investment_horizon(fund_type)}."""
+            # Resumen ejecutivo - SOLO datos reales
+            perfil_riesgo = data.get('perfil_riesgo', 'No especificado')
+            if rentabilidad and rentabilidad > 0:
+                analysis['resumen_ejecutivo_fondo'] = f"""{fund_name} es un fondo mutuo de tipo {fund_type.lower()}
+con una rentabilidad anual real del {rentabilidad:.2%}.
+Perfil de riesgo: {perfil_riesgo.lower()}."""
+            else:
+                analysis['resumen_ejecutivo_fondo'] = f"""{fund_name} es un fondo mutuo de tipo {fund_type.lower()}.
+Perfil de riesgo: {perfil_riesgo.lower()}.
+Rentabilidad: No disponible."""
 
-            # Puntos clave
-            if rentabilidad > 0.08:
-                analysis['puntos_clave_fondo'].append('Rentabilidad atractiva superior al 8% anual')
+            # Puntos clave - SOLO basados en datos REALES (sin umbrales arbitrarios)
+            if rentabilidad and rentabilidad > 0:
+                analysis['puntos_clave_fondo'].append(f'Rentabilidad anual real: {rentabilidad:.2%}')
             if fund_type.lower() == 'conservador':
-                analysis['puntos_clave_fondo'].append('Fondo de bajo riesgo ideal para preservación de capital')
+                analysis['puntos_clave_fondo'].append('Fondo clasificado como conservador')
             if data.get('fuente_cmf'):
                 analysis['puntos_clave_fondo'].append('Datos verificados con CMF Chile')
 
-            # Identificar riesgos específicos del fondo
+            # Identificar riesgos específicos del fondo - CALCULADOS de datos reales
             composicion = data.get('composicion_portafolio', [])
             if composicion:
                 max_concentration = max([item.get('porcentaje', 0) for item in composicion])
+                # Solo reportar concentración alta si > 40% (estándar de diversificación)
                 if max_concentration > 0.4:
                     analysis['riesgos_identificados_fondo'].append(f'Alta concentración en un activo ({max_concentration:.1%})')
 
             if fund_type.lower() == 'agresivo':
-                analysis['riesgos_identificados_fondo'].append('Alta volatilidad - posibles pérdidas significativas')
-            elif fund_type.lower() == 'conservador' and rentabilidad < 0.04:
-                analysis['riesgos_identificados_fondo'].append('Rentabilidad por debajo de la inflación esperada')
+                analysis['riesgos_identificados_fondo'].append('Fondo clasificado como agresivo - mayor volatilidad esperada')
+            elif fund_type.lower() == 'conservador':
+                analysis['riesgos_identificados_fondo'].append('Fondo conservador - menor volatilidad pero potencial de retorno limitado')
 
-            # Oportunidades
-            if rentabilidad > 0.06 and fund_type.lower() in ['balanceado', 'mixto']:
-                analysis['oportunidades_fondo'].append('Buen equilibrio riesgo-retorno')
+            # Oportunidades - basadas en DATOS REALES sin comparaciones arbitrarias
+            if fund_type.lower() in ['balanceado', 'mixto']:
+                analysis['oportunidades_fondo'].append('Fondo balanceado - diversificación entre renta fija y variable')
 
             if len(composicion) > 10:
                 analysis['oportunidades_fondo'].append('Portafolio bien diversificado')
 
-            # Recomendación final
-            risk_score = self._calculate_risk_score(data)
-            return_score = self._calculate_return_score(data)
+            # NO GENERAR recomendaciones con umbrales arbitrarios
+            # Las recomendaciones de inversión requieren análisis profesional personalizado
+            analysis['recomendacion_final'] = 'Recomendación requiere asesoría financiera profesional - Datos presentados solo con fines informativos'
 
-            if return_score > risk_score:
-                recommendation = 'RECOMENDADO'
-                reasoning = 'El potencial de retorno justifica el riesgo asumido'
-            elif risk_score > return_score + 1:
-                recommendation = 'PRECAUCIÓN'
-                reasoning = 'Los riesgos superan significativamente los retornos esperados'
-            else:
-                recommendation = 'NEUTRO'
-                reasoning = 'Equilibrio adecuado entre riesgo y retorno'
-
-            analysis['recomendacion_final'] = f"{recommendation}: {reasoning}"
-
-            # Comparación con alternativas
+            # NO INCLUIR comparaciones con datos hardcodeados/inventados
+            # Las comparaciones requieren datos de mercado actualizados en tiempo real
             analysis['comparacion_alternativas'] = {
-                'deposito_plazo': 'Menor rentabilidad (~3-4%) pero mayor seguridad',
-                'fondos_similares': 'Comparar comisiones y historial de rentabilidad',
-                'inversion_directa': 'Mayor control pero requiere más conocimiento',
-                'diversificacion': 'Considerar combinar con otros tipos de fondos'
+                'nota': 'Comparaciones requieren datos de mercado en tiempo real - consultar fuentes oficiales'
             }
 
         except Exception as e:
@@ -2584,54 +2802,57 @@ y horizonte de inversión de {self._get_investment_horizon(fund_type)}."""
 
         return analysis
 
-    def _get_investment_horizon(self, fund_type: str) -> str:
-        """Obtener horizonte de inversión recomendado"""
-        if 'conservador' in fund_type.lower():
-            return '6 meses a 2 años'
-        elif 'agresivo' in fund_type.lower():
-            return '5 años o más'
-        else:
-            return '2 a 5 años'
+    # def _get_investment_horizon(self, fund_type: str) -> str:
+    #     """Obtener horizonte de inversión recomendado"""
+    #     if 'conservador' in fund_type.lower():
+    #         return '6 meses a 2 años'
+    #     elif 'agresivo' in fund_type.lower():
+    #         return '5 años o más'
+    #     else:
+    #         return '2 a 5 años'
 
-    def _calculate_risk_score(self, data: Dict) -> int:
-        """Calcular puntaje de riesgo (1-5)"""
-        score = 3  # Base
+    # def _calculate_risk_score(self, data: Dict) -> int:
+    #     """Calcular puntaje de riesgo (1-5)"""
+    #     score = 3  # Base
 
-        fund_type = data.get('tipo_fondo', '').lower()
-        if 'conservador' in fund_type:
-            score = 2
-        elif 'agresivo' in fund_type:
-            score = 5
+    #     fund_type = data.get('tipo_fondo', '').lower()
+    #     if 'conservador' in fund_type:
+    #         score = 2
+    #     elif 'agresivo' in fund_type:
+    #         score = 5
 
-        # Ajustar por concentración
-        composicion = data.get('composicion_portafolio', [])
-        if composicion:
-            max_concentration = max([item.get('porcentaje', 0) for item in composicion])
-            if max_concentration > 0.5:
-                score += 1
+    #     # Ajustar por concentración
+    #     composicion = data.get('composicion_portafolio', [])
+    #     if composicion:
+    #         max_concentration = max([item.get('porcentaje', 0) for item in composicion])
+    #         if max_concentration > 0.5:
+    #             score += 1
 
-        return min(score, 5)
+    #     return min(score, 5)
 
-    def _calculate_return_score(self, data: Dict) -> int:
-        """Calcular puntaje de retorno esperado (1-5)"""
-        rentabilidad = data.get('rentabilidad_anual', 0)
+    # def _calculate_return_score(self, data: Dict) -> int:
+    #     """
+    #     ELIMINADO: Calcular puntaje de retorno esperado con umbrales hardcodeados
+    #     Los umbrales arbitrarios (12%, 8%, 5%, 3%) no son datos reales
+    #     """
+    #     rentabilidad = data.get('rentabilidad_anual', 0)
+    #
+    #     if rentabilidad > 0.12:
+    #         return 5
+    #     elif rentabilidad > 0.08:
+    #         return 4
+    #     elif rentabilidad > 0.05:
+    #         return 3
+    #     elif rentabilidad > 0.03:
+    #         return 2
+    #     else:
+    #         return 1
 
-        if rentabilidad > 0.12:
-            return 5
-        elif rentabilidad > 0.08:
-            return 4
-        elif rentabilidad > 0.05:
-            return 3
-        elif rentabilidad > 0.03:
-            return 2
-        else:
-            return 1
+            # # Agregar métricas finales de calidad
+            # resultado['calidad_datos'] = self._assess_data_quality(resultado)
 
-            # Agregar métricas finales de calidad
-            resultado['calidad_datos'] = self._assess_data_quality(resultado)
-
-            logger.info(f" PROCESAMIENTO COMPLETADO para: {resultado.get('nombre_cmf') or resultado.get('nombre')}")
-            logger.info(f" Calidad de datos: {resultado['calidad_datos']['score']}/10 - {resultado['calidad_datos']['descripcion']}")
+            # logger.info(f" PROCESAMIENTO COMPLETADO para: {resultado.get('nombre_cmf') or resultado.get('nombre')}")
+            # logger.info(f" Calidad de datos: {resultado['calidad_datos']['score']}/10 - {resultado['calidad_datos']['descripcion']}")
 
     def _assess_data_quality(self, data: Dict) -> Dict:
         """Evaluar la calidad y completitud de los datos obtenidos"""
@@ -2750,3 +2971,9 @@ if __name__ == "__main__":
             print(f"  - Error: {resultado['error']}")
 
         print("-" * 50)
+        
+        
+        
+        
+        
+        

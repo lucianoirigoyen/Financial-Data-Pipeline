@@ -137,13 +137,36 @@ class AlphaVantageCompleteProcessor:
         if not self.translator:
             return data
 
+        # CAMPOS PROHIBIDOS: No traducir identificadores técnicos críticos
+        FORBIDDEN_TRANSLATION_FIELDS = {
+            'Symbol', 'symbol', 'SYMBOL',
+            'Exchange', 'exchange', 'EXCHANGE',
+            'Currency', 'currency', 'CURRENCY',
+            'AssetType', 'assettype', 'ASSETTYPE',
+            'CIK', 'cik',
+            'FiscalYearEnd', 'fiscalyearend',
+            'Ticker', 'ticker', 'TICKER',
+            'ISIN', 'isin',
+            'CUSIP', 'cusip'
+        }
+
         logger.info("Identificando y traduciendo campos de texto...")
 
         text_fields = self._identify_text_fields(data)
 
-        logger.info(f"Campos de texto identificados: {text_fields}")
+        # Filtrar campos prohibidos
+        text_fields_to_translate = [
+            field for field in text_fields
+            if field not in FORBIDDEN_TRANSLATION_FIELDS
+        ]
 
-        for field in text_fields:
+        filtered_count = len(text_fields) - len(text_fields_to_translate)
+        if filtered_count > 0:
+            logger.info(f"Campos técnicos protegidos (NO traducir): {filtered_count}")
+
+        logger.info(f"Campos a traducir: {text_fields_to_translate}")
+
+        for field in text_fields_to_translate:
             if field in data and data[field]:
                 original = data[field]
                 try:

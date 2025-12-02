@@ -1,4 +1,4 @@
-# 📊 inBee Financial Data Pipeline
+sourc# 📊 inBee Financial Data Pipeline
 
 **Automated multi-source financial data processing system for Chilean fintech**
 
@@ -75,12 +75,14 @@ sprint1/
 ## 🛠️ Technical Stack
 
 **Core:**
+
 - Python 3.9+
 - Pandas, OpenPyXL (data processing)
 - Requests, BeautifulSoup4 (web scraping)
 - PDFPlumber (document parsing)
 
 **APIs:**
+
 - Alpha Vantage (stock market data)
 - DeepL (EN→ES translation)
 - Fintual (Chilean mutual funds)
@@ -88,6 +90,7 @@ sprint1/
 - OpenAI GPT-4 (content generation)
 
 **Architecture:**
+
 - Modular processors
 - Intelligent caching (30-day expiration)
 - Robust error handling
@@ -99,6 +102,7 @@ sprint1/
 ## 📊 Performance & Results
 
 ### Pipeline Metrics
+
 - ✅ **100% PDF download success** (6/6 Chilean funds tested)
 - ⚡ **2.23x faster** with intelligent caching
 - 📈 **4x more data** per PDF (12 fields vs 3)
@@ -106,6 +110,7 @@ sprint1/
 - 📦 **25 output files** per run
 
 ### Processed Data
+
 - 5 stocks (DIS, TSLA, AAPL, MSFT, GOOGL)
 - 4 mutual funds
 - 11 Excel reports (multi-sheet analysis)
@@ -143,6 +148,7 @@ PDF_CACHE_EXPIRATION_DAYS=30  # Optional
 ```
 
 ### Get API Keys
+
 - [Alpha Vantage](https://www.alphavantage.co/support/#api-key) (free tier: 25 requests/day)
 - [DeepL](https://www.deepl.com/pro-api) (free tier: 500K chars/month)
 - [OpenAI](https://platform.openai.com/api-keys) (pay-as-you-go)
@@ -152,9 +158,11 @@ PDF_CACHE_EXPIRATION_DAYS=30  # Optional
 ## 💡 Technical Highlights
 
 ### 1. CMF PDF Download Solution
+
 **Challenge:** CMF endpoint returned "ERROR" for all requests.
 
 **Solution:** Reverse-engineered JavaScript to discover:
+
 - Missing `rutAdmin` parameter (administrator's tax ID)
 - Required specific HTTP headers
 - Proper page navigation (`pestania=68`)
@@ -163,13 +171,16 @@ PDF_CACHE_EXPIRATION_DAYS=30  # Optional
 **Result:** 100% success rate
 
 ### 2. Intelligent Caching System
+
 - JSON index with metadata
 - 30-day automatic expiration
 - Cache hit/miss statistics
 - 2.23x performance boost
 
 ### 3. Advanced PDF Extraction
+
 8 regex patterns extracting:
+
 - Risk profile (R1-R7 scale)
 - Investment horizon
 - Management fees
@@ -178,6 +189,7 @@ PDF_CACHE_EXPIRATION_DAYS=30  # Optional
 - Automatic confidence scoring
 
 ### 4. Proactive Monitoring
+
 - 4 automated health checks
 - HTML structure baseline
 - Endpoint availability validation
@@ -189,13 +201,16 @@ PDF_CACHE_EXPIRATION_DAYS=30  # Optional
 ## 📈 Output Examples
 
 ### Stock Data (Excel - 8 sheets)
+
 - Overview, Financials, Valuation, Technical Analysis
 - Dividends, Performance, Recommendations, Risks
 
 ### Mutual Funds (Excel - 4 sheets)
+
 - Overview, Portfolio Composition, Historical Performance, Fees & Analysis
 
 ### JSON Outputs
+
 - Structured data for each asset
 - Batch summary reports
 - Consolidated statistics
@@ -232,6 +247,7 @@ User Input → main.py
 ## 🎯 Use Cases
 
 ### Process Stock Data
+
 ```python
 from alpha_vantage import procesar_alpha_vantage
 
@@ -242,6 +258,7 @@ print(f"P/E Ratio: {result['pe_ratio']}")
 ```
 
 ### Process Mutual Fund
+
 ```python
 from fondos_mutuos import FondosMutuosProcessor
 
@@ -253,6 +270,7 @@ print(f"Risk: {result['perfil_riesgo']}")
 ```
 
 ### Monitor CMF Health
+
 ```python
 from cmf_monitor import CMFMonitor
 
@@ -266,16 +284,19 @@ print(f"Status: {report['status']}")
 ## 🚨 Troubleshooting
 
 ### PDF Download Issues
+
 1. Check CMF availability: `python3 run_cmf_monitor.py`
 2. Review logs: `tail -f pipeline.log`
 3. System uses cache for resilience
 
 ### API Key Issues
+
 1. Verify `.env` configuration
 2. Check API key validity
 3. Monitor rate limits (Alpha Vantage: 25/day free)
 
 ### Translation Failures
+
 1. Confirm DeepL API key
 2. Check character quota (500K/month free)
 3. System can operate without translations
@@ -285,6 +306,7 @@ print(f"Status: {report['status']}")
 ## 📝 Documentation
 
 For detailed information:
+
 - **PORTFOLIO_SUMMARY.md** - Complete project overview for portfolio
 - **CLAUDE.md** - Original project specifications
 
@@ -293,6 +315,7 @@ For detailed information:
 ## 💼 Skills Demonstrated
 
 **Technical:**
+
 - Python (pandas, requests, BeautifulSoup, pdfplumber)
 - API Integration (4+ REST APIs)
 - Web Scraping (HTML/JavaScript analysis)
@@ -301,6 +324,7 @@ For detailed information:
 - Performance Optimization (2.23x improvement)
 
 **Problem Solving:**
+
 - Reverse engineering undocumented APIs
 - Complex PDF format variations
 - Multi-source data integration
@@ -310,16 +334,16 @@ For detailed information:
 
 ## 📈 Project Stats
 
-| Metric | Value |
-|--------|-------|
-| Lines of Code | ~3,500 |
-| Functions | 50+ |
-| APIs Integrated | 4 |
-| PDF Success Rate | 100% |
-| Performance Gain | 2.23x |
-| Extraction Coverage | 72.6% |
-| Tests | 15+ |
-| Documentation | Complete |
+| Metric              | Value    |
+| ------------------- | -------- |
+| Lines of Code       | ~3,500   |
+| Functions           | 50+      |
+| APIs Integrated     | 4        |
+| PDF Success Rate    | 100%     |
+| Performance Gain    | 2.23x    |
+| Extraction Coverage | 72.6%    |
+| Tests               | 15+      |
+| Documentation       | Complete |
 
 ---
 
@@ -348,6 +372,7 @@ For detailed information:
 ## 👤 Author
 
 **Luciano Leroi**
+
 - **Role:** Full-Stack Data Engineer
 - **Client:** inBee (Chilean Fintech)
 - **Date:** October 2025
