@@ -2344,7 +2344,7 @@ class FondosMutuosProcessor:
     def _calculate_fund_metrics(self, data: Dict) -> Dict:
         """Calcular métricas avanzadas del fondo mutuo"""
         metrics = {
-            'clasificacion_riesgo_detallada': 'Medio',
+            'clasificacion_riesgo_detallada': '', # Antes salia "medio" ( lo cual estaba generado por ia) ver en los logs si cambio algo dejarlo vacio
             'perfil_inversionista_ideal': '',
             'horizonte_inversion_recomendado': '',
             'ventajas_principales': [],
@@ -2785,7 +2785,7 @@ class FondosMutuosProcessor:
                     logger.info("═" * 60)
 
                     pdf_data = self._extract_data_from_pdf(pdf_path)
-
+#### Tener cuidado y revisar si esta cadena de ifs, esta muy hardcodeada y los pdf's estan construidos diferentemenete
                     if pdf_data.get('pdf_procesado'):
                         # Actualizar resultado con datos del PDF
                         if pdf_data.get('tipo_fondo'):
@@ -2827,7 +2827,7 @@ class FondosMutuosProcessor:
                         logger.warning(f" Error procesando PDF: {pdf_data.get('error')}")
                 else:
                     logger.warning(" No se pudo descargar el PDF del folleto informativo")
-
+### Hasta que punto es pertinente poner estos adjetivos ?
                 # Inferir tipo de fondo basado en el nombre CMF
                 fund_name_lower = nombre_cmf.lower()
                 if any(word in fund_name_lower for word in ['conservador', 'garantizado', 'capital']):
@@ -2838,7 +2838,7 @@ class FondosMutuosProcessor:
                     resultado.update({'tipo_fondo': 'Balanceado', 'perfil_riesgo': 'Medio'})
                 else:
                     resultado.update({'tipo_fondo': 'Mixto', 'perfil_riesgo': 'Medio'})
-
+ # NO generar portafolio simulado
             else:
                 logger.error(" Fondo no encontrado en CMF - No hay datos reales disponibles")
                 resultado.update({
@@ -2848,20 +2848,20 @@ class FondosMutuosProcessor:
                     'composicion_portafolio': [],
                     'error': resultado.get('error', '') + ' | Fondo no encontrado en CMF'
                 })
-                # NO generar portafolio simulado
+               
 
             # Fase 3: Generar descripción con IA
             logger.info(" Fase 3: Generando descripción con IA...")
             descripcion = self._generate_ai_description(resultado)
             resultado['descripcion_amigable'] = descripcion
 
-            # Fase 4: Enriquecer con análisis adicional
-            logger.info(" Fase 4: Generando análisis de inversión...")
-            try:
-                additional_analysis = self._generate_fund_investment_analysis(resultado)
-                resultado.update(additional_analysis)
-            except Exception as e:
-                logger.warning(f"Error en análisis adicional: {e}")
+            # # Fase 4: Enriquecer con análisis adicional
+            # logger.info(" Fase 4: Generando análisis de inversión...")
+            # try:
+            #     additional_analysis = self._generate_fund_investment_analysis(resultado)
+            #     resultado.update(additional_analysis)
+            # except Exception as e:
+            #     logger.warning(f"Error en análisis adicional: {e}")
 
             # Fase 5: Generar Excel avanzado
             logger.info(" Fase 5: Generando archivo Excel avanzado...")
@@ -2875,16 +2875,6 @@ class FondosMutuosProcessor:
         self._log_cache_statistics()
 
         return resultado
-
-    def _simulate_realistic_return(self, fondo_id: str) -> Optional[float]:
-        """
-        ELIMINADO: Simular rentabilidad realista basada en el tipo de fondo
-
-        Esta función generaba rentabilidades FALSAS.
-        NO SE DEBEN INVENTAR DATOS FINANCIEROS.
-        """
-        logger.error(f"[DATOS FALSOS BLOQUEADOS] No se puede simular rentabilidad para {fondo_id}")
-        return None  # Retornar None en lugar de dato inventado
 
     def _generate_fund_investment_analysis(self, data: Dict) -> Dict:
         """Generar análisis de inversión completo para el fondo"""
