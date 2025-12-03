@@ -406,6 +406,11 @@ class FondosMutuosProcessor:
             URL completa con parámetros incluido row, o None
         """
         try:
+            # FIX: Validate RUT parameter to prevent NoneType errors
+            if not rut or not isinstance(rut, str):
+                logger.warning(f"[CMF] RUT inválido recibido: {rut}")
+                return None
+
             logger.info(f"[CMF] Buscando página de entidad para RUT: {rut}, pestaña: {pestania}")
 
             # Buscar en el listado de fondos
@@ -630,6 +635,11 @@ class FondosMutuosProcessor:
             Path al PDF descargado o None
         """
         try:
+            # FIX: Validate RUT parameter to prevent NoneType errors
+            if not rut or not isinstance(rut, str):
+                logger.warning(f"[CMF PDF] RUT inválido recibido: {rut}")
+                return None
+
             logger.info(f"[CMF PDF SELENIUM] Iniciando descarga para RUT: {rut}")
 
             # VERIFICAR CACHÉ PRIMERO
@@ -1301,6 +1311,92 @@ class FondosMutuosProcessor:
 
         return 'Otros'
 
+    def _scrape_fund_status_from_cmf(self, rut: str) -> Dict:
+        """
+        Scrape fund status from CMF detail page to extract fecha_valor_cuota and fund status.
+
+        This addresses the critical issue where 96.8% of funds lack current status information
+        because they're not in Fintual API.
+
+        Args:
+            rut (str): RUT del fondo sin guión (ej: "8638")
+
+        Returns:
+            Dict with fecha_valor_cuota, valor_cuota, estado_fondo
+        """
+        resultado = {
+            'fecha_valor_cuota': None,
+            'valor_cuota': None,
+            'estado_fondo': 'Desconocido'
+        }
+
+        try:
+            # FIX: Validate RUT parameter
+            if not rut or not isinstance(rut, str):
+                logger.warning(f"[CMF STATUS] RUT inválido: {rut}")
+                return resultado
+
+            # Build CMF fund detail URL (pestania=7 typically shows fund values)
+            url = f"https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut={rut}&tipoentidad=RGFMU&pestania=7"
+            logger.info(f"[CMF STATUS] Scraping status from: {url}")
+
+            response = self.session.get(url, timeout=15)
+            if response.status_code != 200:
+                logger.warning(f"[CMF STATUS] HTTP {response.status_code} para RUT {rut}")
+                return resultado
+
+            soup = BeautifulSoup(response.content, 'html.parser')
+            texto_completo = soup.get_text()
+
+            # Pattern 1: Extract most recent date (formato DD-MM-YYYY or DD/MM/YYYY)
+            fecha_regex = r'(\d{2}[-/]\d{2}[-/]\d{4})'
+            fechas_encontradas = re.findall(fecha_regex, response.text)
+
+            if fechas_encontradas:
+                # Convert to ISO format and get most recent
+                from datetime import datetime
+                fechas_parsed = []
+                for fecha_str in fechas_encontradas:
+                    try:
+                        fecha = datetime.strptime(fecha_str.replace('/', '-'), '%d-%m-%Y')
+                        fechas_parsed.append(fecha)
+                    except ValueError:
+                        continue
+
+                if fechas_parsed:
+                    fecha_mas_reciente = max(fechas_parsed)
+                    resultado['fecha_valor_cuota'] = fecha_mas_reciente.strftime('%Y-%m-%d')
+                    logger.info(f"[CMF STATUS] Fecha valor cuota: {resultado['fecha_valor_cuota']}")
+
+            # Pattern 2: Extract fund status (Vigente, Liquidado, Fusionado)
+            texto_lower = texto_completo.lower()
+            if 'vigente' in texto_lower:
+                resultado['estado_fondo'] = 'Vigente'
+            elif 'liquidado' in texto_lower or 'liquidación' in texto_lower:
+                resultado['estado_fondo'] = 'Liquidado'
+            elif 'fusionado' in texto_lower:
+                resultado['estado_fondo'] = 'Fusionado'
+
+            logger.info(f"[CMF STATUS] Estado fondo: {resultado['estado_fondo']}")
+
+            # Pattern 3: Try to extract valor_cuota (current share value)
+            # Look for patterns like "Valor cuota: $1.234,56" or similar
+            valor_pattern = r'valor\s+cuota[:\s]+\$?\s*([\d.,]+)'
+            valor_match = re.search(valor_pattern, texto_lower)
+            if valor_match:
+                try:
+                    valor_str = valor_match.group(1).replace('.', '').replace(',', '.')
+                    resultado['valor_cuota'] = float(valor_str)
+                    logger.info(f"[CMF STATUS] Valor cuota: {resultado['valor_cuota']}")
+                except ValueError:
+                    pass
+
+            return resultado
+
+        except Exception as e:
+            logger.error(f"[CMF STATUS] Error scraping status for RUT {rut}: {e}")
+            return resultado
+
     def _extract_data_from_pdf(self, pdf_path: str) -> Dict:
         """
         Extraer datos estructurados de un PDF de Folleto Informativo
@@ -1322,14 +1418,9 @@ class FondosMutuosProcessor:
         # Llamar a la función extendida
         resultado_extendido = self._extract_extended_data_from_pdf(pdf_path)
 
-        # Retornar formato compatible con código existente
-        return {
-            'tipo_fondo': resultado_extendido.get('tipo_fondo'),
-            'perfil_riesgo': resultado_extendido.get('perfil_riesgo'),
-            'composicion_portafolio': resultado_extendido.get('composicion_portafolio', []),
-            'texto_completo': resultado_extendido.get('texto_completo', ''),
-            'pdf_procesado': resultado_extendido.get('pdf_procesado', True)
-        }
+        # FIX: Return ALL extracted fields including rentabilidad_12m, composicion_detallada, etc.
+        # The old version was losing critical data by only returning a subset of fields
+        return resultado_extendido
 
     def _get_fintual_data(self, fondo_id: str) -> Optional[Dict]:
         """
@@ -2577,6 +2668,15 @@ class FondosMutuosProcessor:
 
             if fintual_data:
                 resultado.update(fintual_data)
+
+                # FIX: Extract fecha_valor_cuota from first series if available
+                series = fintual_data.get('series', [])
+                if series and len(series) > 0:
+                    primera_serie = series[0]
+                    if primera_serie.get('fecha_valor_cuota'):
+                        resultado['fecha_valor_cuota'] = primera_serie['fecha_valor_cuota']
+                        logger.info(f" Fecha valor cuota desde Fintual: {resultado['fecha_valor_cuota']}")
+
                 logger.info(f" Datos de Fintual obtenidos para: {fintual_data.get('nombre', fondo_id)}")
                 logger.info(f" RUN: {fintual_data.get('run')}, RUT base: {fintual_data.get('rut_base')}")
                 logger.info(f" Series encontradas: {len(fintual_data.get('series', []))}")
@@ -2620,6 +2720,27 @@ class FondosMutuosProcessor:
                     'cmf_fund_info': cmf_fund
                 })
 
+                # FIX: Clear Fintual error if CMF data is successfully obtained
+                # A fund is successful if we have CMF data, even without Fintual
+                if resultado.get('error') == 'No se obtuvieron datos de Fintual':
+                    resultado['error'] = None
+                    logger.info(" Error de Fintual eliminado - Datos CMF válidos obtenidos")
+
+                # FIX: Scrape fund status from CMF to get fecha_valor_cuota
+                # This addresses the critical missing data for 96.8% of funds
+                logger.info(" Extrayendo estado y fecha_valor_cuota desde CMF...")
+                rut_para_status = cmf_fund.get('rut') or resultado.get('rut_base')
+                if rut_para_status:
+                    status_data = self._scrape_fund_status_from_cmf(rut_para_status)
+                    if status_data.get('fecha_valor_cuota'):
+                        # Only update if not already set by Fintual
+                        if not resultado.get('fecha_valor_cuota'):
+                            resultado['fecha_valor_cuota'] = status_data['fecha_valor_cuota']
+                        resultado['estado_fondo'] = status_data['estado_fondo']
+                        if status_data.get('valor_cuota'):
+                            resultado['valor_cuota_cmf'] = status_data['valor_cuota']
+                        logger.info(f" Datos de estado obtenidos: fecha={status_data['fecha_valor_cuota']}, estado={status_data['estado_fondo']}")
+
                 # Verificar que el RUT de Fintual coincide con el RUT de CMF
                 if resultado.get('rut_base') and cmf_fund.get('rut'):
                     if resultado['rut_base'] == cmf_fund['rut']:
@@ -2646,8 +2767,16 @@ class FondosMutuosProcessor:
                 # SIEMPRE intentar descargar PDF (independiente de si tiene fund_code o no)
                 logger.info(" Intentando descargar PDF del folleto informativo...")
                 # Extraer RUT base del campo que tenga (rut, rut_fondo, o rut_base)
-                rut_para_pdf = cmf_fund.get('rut') or cmf_fund.get('rut_fondo', '').split('-')[0] or resultado.get('rut_base')
-                pdf_path = self._download_pdf_from_cmf_improved(rut_para_pdf, resultado.get('run'))
+                # FIX: Null-safe extraction of RUT for PDF download
+                rut_fondo_split = cmf_fund.get('rut_fondo', '').split('-')[0] if cmf_fund.get('rut_fondo') else ''
+                rut_para_pdf = cmf_fund.get('rut') or rut_fondo_split or resultado.get('rut_base')
+
+                # Only attempt PDF download if we have a valid RUT
+                pdf_path = None
+                if rut_para_pdf:
+                    pdf_path = self._download_pdf_from_cmf_improved(rut_para_pdf, resultado.get('run'))
+                else:
+                    logger.warning(" No se encontró RUT válido para descargar PDF")
 
                 if pdf_path:
                     # Extraer datos del PDF
@@ -2665,6 +2794,33 @@ class FondosMutuosProcessor:
                             resultado['perfil_riesgo'] = pdf_data['perfil_riesgo']
                         if pdf_data.get('composicion_portafolio'):
                             resultado['composicion_portafolio'] = pdf_data['composicion_portafolio']
+
+                        # FIX: Map rentabilidad_12m to rentabilidad_anual if not already set
+                        if pdf_data.get('rentabilidad_12m') and not resultado.get('rentabilidad_anual'):
+                            resultado['rentabilidad_anual'] = pdf_data['rentabilidad_12m']
+                            logger.info(f" Rentabilidad anual mapeada desde PDF: {resultado['rentabilidad_anual']:.2%}")
+
+                        # FIX: Map composicion_detallada if composicion_portafolio is empty
+                        if pdf_data.get('composicion_detallada') and not resultado.get('composicion_portafolio'):
+                            resultado['composicion_portafolio'] = pdf_data['composicion_detallada']
+                            logger.info(f" Composición mapeada desde composicion_detallada: {len(resultado['composicion_portafolio'])} activos")
+
+                        # Also map other useful fields from PDF
+                        if pdf_data.get('horizonte_inversion'):
+                            resultado['horizonte_inversion'] = pdf_data['horizonte_inversion']
+                        if pdf_data.get('comision_administracion'):
+                            resultado['comision_administracion'] = pdf_data['comision_administracion']
+                        if pdf_data.get('rentabilidad_24m'):
+                            resultado['rentabilidad_24m'] = pdf_data['rentabilidad_24m']
+                        if pdf_data.get('rentabilidad_36m'):
+                            resultado['rentabilidad_36m'] = pdf_data['rentabilidad_36m']
+
+                        # FIX: Clear error if we have extracted meaningful data from PDF
+                        if (pdf_data.get('tipo_fondo') or pdf_data.get('rentabilidad_12m') or
+                            len(pdf_data.get('composicion_portafolio', [])) > 0):
+                            if resultado.get('error') == 'No se obtuvieron datos de Fintual':
+                                resultado['error'] = None
+                                logger.info(" Error de Fintual eliminado - Datos PDF válidos obtenidos")
 
                         logger.info(f" Datos extraídos del PDF: Tipo={pdf_data.get('tipo_fondo')}, Riesgo={pdf_data.get('perfil_riesgo')}, Activos={len(pdf_data.get('composicion_portafolio', []))}")
                     else:

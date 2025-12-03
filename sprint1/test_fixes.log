@@ -1,0 +1,438 @@
+2025-12-03 15:28:27,040 - INFO - ================================================================================
+2025-12-03 15:28:27,040 - INFO - INICIANDO TEST DE CORRECCIONES DE PIPELINE
+2025-12-03 15:28:27,040 - INFO - ================================================================================
+2025-12-03 15:28:27,111 - INFO - [CACHE] Directorio de caché inicializado: cache/pdfs
+2025-12-03 15:28:27,111 - INFO - [CACHE] Sistema de caché ya inicializado
+2025-12-03 15:28:27,176 - INFO - [STRUCTURE] Iniciando monitoreo de estructura CMF...
+2025-12-03 15:28:27,176 - INFO - [STRUCTURE] Accediendo a: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=8052&tipoentidad=RGFMU
+2025-12-03 15:28:29,771 - ERROR - [STRUCTURE] Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-03 15:28:29,773 - INFO - [ALERT] 2025-12-03 15:28:29 | CRITICAL | Error de conexión al monitorear estructura: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-03 15:28:29,774 - ERROR - [CMF HEALTH] Status: critical ✗ - Sistema puede no funcionar
+2025-12-03 15:28:29,774 - ERROR - [CMF HEALTH] ACCIÓN REQUERIDA: Ejecutar 'python run_cmf_monitor.py' para diagnóstico completo
+2025-12-03 15:28:29,774 - ERROR - [CMF HEALTH] Errores detectados:
+2025-12-03 15:28:29,774 - ERROR - [CMF HEALTH]   - Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-03 15:28:29,780 - INFO - 
+================================================================================
+2025-12-03 15:28:29,780 - INFO - [1/5] PROCESANDO: BOOSTER CHINA STOCKS
+2025-12-03 15:28:29,780 - INFO - ================================================================================
+2025-12-03 15:28:29,780 - INFO -  INICIANDO PROCESAMIENTO CON SCRAPING REAL para: BOOSTER CHINA STOCKS
+2025-12-03 15:28:29,781 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:29,781 - INFO -  Fase 1: Obteniendo datos de Fintual (3 CAPAS)...
+2025-12-03 15:28:29,781 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:29,781 - INFO - [FINTUAL CAPA 1] Buscando fondo: BOOSTER CHINA STOCKS
+2025-12-03 15:28:30,344 - INFO - [FINTUAL CAPA 1] Fondo encontrado: FONDO MUTUO BOOSTER CHINA STOCKS, RUN: 8985-0, RUT: 8985
+2025-12-03 15:28:30,344 - INFO - [FINTUAL CAPA 3] Obteniendo series del fondo ID: 2224
+2025-12-03 15:28:30,834 - INFO - [FINTUAL CAPA 3] Encontradas 1 series del fondo
+2025-12-03 15:28:30,838 - INFO -  Fecha valor cuota desde Fintual: 2014-10-13
+2025-12-03 15:28:30,838 - INFO -  Datos de Fintual obtenidos para: FONDO MUTUO BOOSTER CHINA STOCKS
+2025-12-03 15:28:30,839 - INFO -  RUN: 8985-0, RUT base: 8985
+2025-12-03 15:28:30,839 - INFO -  Series encontradas: 1
+2025-12-03 15:28:30,839 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:30,839 - INFO -  Fase 2: Buscando fondo en CMF usando RUT...
+2025-12-03 15:28:30,839 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:30,839 - INFO -  [ESTRATEGIA 1] Buscando por RUT: 8985
+2025-12-03 15:28:30,839 - INFO - [CMF] Buscando fondo con RUT: 8985
+2025-12-03 15:28:33,550 - WARNING - [CMF] No se pudo acceder a la página del fondo RUT 8985: 404
+2025-12-03 15:28:33,551 - INFO -  [ESTRATEGIA 2 - Fallback] Buscando por nombre: FONDO MUTUO BOOSTER CHINA STOCKS
+2025-12-03 15:28:33,551 - INFO - Obteniendo lista completa de fondos desde CMF...
+2025-12-03 15:28:35,303 - INFO - Encontrados 1304 fondos únicos en CMF
+2025-12-03 15:28:35,309 - INFO - Fondo encontrado en CMF: BOOSTER CHINA STOCKS (score: 36.0)
+2025-12-03 15:28:35,309 - INFO -   RUT Fondo: 8985-0, RUT Admin: 96767630
+2025-12-03 15:28:35,310 - INFO -  Fondo encontrado en CMF: BOOSTER CHINA STOCKS
+2025-12-03 15:28:35,310 - INFO -  RUT CMF: None, RUT completo: None
+2025-12-03 15:28:35,310 - INFO -  Extrayendo estado y fecha_valor_cuota desde CMF...
+2025-12-03 15:28:35,310 - INFO - [CMF STATUS] Scraping status from: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=8985&tipoentidad=RGFMU&pestania=7
+2025-12-03 15:28:36,043 - WARNING - [CMF STATUS] HTTP 404 para RUT 8985
+2025-12-03 15:28:36,044 - INFO -  Intentando descargar PDF del folleto informativo...
+2025-12-03 15:28:36,044 - INFO - [CMF PDF SELENIUM] Iniciando descarga para RUT: 8985
+2025-12-03 15:28:36,046 - INFO - [CACHE] HIT - PDF encontrado en caché: 8985_UNICA
+2025-12-03 15:28:36,046 - INFO - [CACHE] ✓ PDF encontrado en caché
+2025-12-03 15:28:36,047 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:36,047 - INFO -  Fase 2.5: Extrayendo datos del PDF...
+2025-12-03 15:28:36,047 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:36,047 - INFO - [PDF EXTENDED] Extrayendo datos extendidos de: cache/pdfs/8985_UNICA.pdf
+2025-12-03 15:28:36,362 - WARNING - Cannot set gray non-stroke color because /'Pabc95' is an invalid float value
+2025-12-03 15:28:36,363 - WARNING - Cannot set gray non-stroke color because /'Pabc100' is an invalid float value
+2025-12-03 15:28:36,363 - WARNING - Cannot set gray non-stroke color because /'Pabc105' is an invalid float value
+2025-12-03 15:28:36,364 - WARNING - Cannot set gray non-stroke color because /'Pabc110' is an invalid float value
+2025-12-03 15:28:36,365 - WARNING - Cannot set gray non-stroke color because /'Pabc115' is an invalid float value
+2025-12-03 15:28:36,365 - WARNING - Cannot set gray non-stroke color because /'Pabc120' is an invalid float value
+2025-12-03 15:28:36,366 - WARNING - Cannot set gray non-stroke color because /'Pabc125' is an invalid float value
+2025-12-03 15:28:36,367 - WARNING - Cannot set gray non-stroke color because /'Pabc130' is an invalid float value
+2025-12-03 15:28:36,367 - WARNING - Cannot set gray non-stroke color because /'Pabc135' is an invalid float value
+2025-12-03 15:28:36,368 - WARNING - Cannot set gray non-stroke color because /'Pabc140' is an invalid float value
+2025-12-03 15:28:36,369 - WARNING - Cannot set gray non-stroke color because /'Pabc145' is an invalid float value
+2025-12-03 15:28:37,005 - INFO - [PDF EXTENDED] Tipo de fondo: Conservador
+2025-12-03 15:28:37,005 - INFO - [PDF EXTENDED] Perfil riesgo (keywords): Bajo
+2025-12-03 15:28:37,006 - INFO - [PDF EXTENDED] Horizonte: Mediano Plazo (24 meses)
+2025-12-03 15:28:37,006 - INFO - [PDF EXTENDED] Comisión admin: 0.0151 (1.51%)
+2025-12-03 15:28:37,006 - INFO - [PDF EXTENDED] Comisión rescate: 0.0050 (0.5%)
+2025-12-03 15:28:37,007 - INFO - [PDF EXTENDED] Rentabilidad 12m: 9.26%
+2025-12-03 15:28:37,026 - INFO - [PDF EXTENDED] Composición: 21 activos (suma: 447.66%)
+2025-12-03 15:28:37,026 - INFO - [PDF EXTENDED] Campos extraídos: 6/12 (50%) - Confianza: medium
+2025-12-03 15:28:37,027 - INFO -  Rentabilidad anual mapeada desde PDF: 9.26%
+2025-12-03 15:28:37,027 - INFO -  Datos extraídos del PDF: Tipo=Conservador, Riesgo=Bajo, Activos=15
+2025-12-03 15:28:37,027 - INFO -  Fase 3: Generando descripción con IA...
+2025-12-03 15:28:45,210 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 15:28:45,225 - INFO -  Fase 4: Generando análisis de inversión...
+2025-12-03 15:28:45,226 - INFO -  Fase 5: Generando archivo Excel avanzado...
+2025-12-03 15:28:45,272 - INFO - ✓ Archivo Excel generado: outputs/analisis_completo_fondo_FONDO_MUTUO_BOOSTER_CHINA_STOCKS.xlsx
+2025-12-03 15:28:45,272 - INFO - ============================================================
+2025-12-03 15:28:45,272 - INFO - [CACHE] ESTADÍSTICAS DE CACHÉ DE PDFs
+2025-12-03 15:28:45,272 - INFO - ============================================================
+2025-12-03 15:28:45,272 - INFO - [CACHE] Cache Hits:        1
+2025-12-03 15:28:45,272 - INFO - [CACHE] Cache Misses:      0
+2025-12-03 15:28:45,272 - INFO - [CACHE] Nuevas Descargas:  0
+2025-12-03 15:28:45,273 - INFO - [CACHE] Total Consultas:   1
+2025-12-03 15:28:45,273 - INFO - [CACHE] Tasa de Aciertos:  100.0%
+2025-12-03 15:28:45,273 - INFO - ============================================================
+2025-12-03 15:28:45,275 - INFO - [CACHE] PDFs en caché:     648
+2025-12-03 15:28:45,281 - INFO - [CACHE] Tamaño total:      71.84 MB
+2025-12-03 15:28:45,281 - INFO - ============================================================
+2025-12-03 15:28:45,282 - INFO - 
+[ANALISIS RESULTADO 1]
+2025-12-03 15:28:45,282 - INFO -   Nombre: FONDO MUTUO BOOSTER CHINA STOCKS
+2025-12-03 15:28:45,282 - INFO -   Error: NO - None
+2025-12-03 15:28:45,282 - INFO -   Fuente CMF: SI
+2025-12-03 15:28:45,282 - INFO -   Rentabilidad anual: SI - 0.0926
+2025-12-03 15:28:45,282 - INFO -   Composición portafolio: SI - 15 activos
+2025-12-03 15:28:45,282 - INFO -   Fecha valor cuota: SI - 2014-10-13
+2025-12-03 15:28:45,282 - INFO -   Estado fondo: N/A
+2025-12-03 15:28:45,282 - INFO -   Tiempo procesamiento: 15.50s
+2025-12-03 15:28:45,282 - INFO - [1] ✅ EXITOSO
+2025-12-03 15:28:46,287 - INFO - 
+================================================================================
+2025-12-03 15:28:46,287 - INFO - [2/5] PROCESANDO: BONOS UF PLUS II
+2025-12-03 15:28:46,287 - INFO - ================================================================================
+2025-12-03 15:28:46,287 - INFO -  INICIANDO PROCESAMIENTO CON SCRAPING REAL para: BONOS UF PLUS II
+2025-12-03 15:28:46,287 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:46,287 - INFO -  Fase 1: Obteniendo datos de Fintual (3 CAPAS)...
+2025-12-03 15:28:46,288 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:46,288 - INFO - [FINTUAL CAPA 1] Buscando fondo: BONOS UF PLUS II
+2025-12-03 15:28:46,831 - INFO - [FINTUAL CAPA 1] Fondo encontrado: FONDO MUTUO ESTRUCTURADO BONOS UF PLUS II, RUN: 9484-6, RUT: 9484
+2025-12-03 15:28:46,831 - INFO - [FINTUAL CAPA 3] Obteniendo series del fondo ID: 1790
+2025-12-03 15:28:47,359 - INFO - [FINTUAL CAPA 3] Encontradas 1 series del fondo
+2025-12-03 15:28:47,364 - INFO -  Fecha valor cuota desde Fintual: 2019-07-01
+2025-12-03 15:28:47,364 - INFO -  Datos de Fintual obtenidos para: FONDO MUTUO ESTRUCTURADO BONOS UF PLUS II
+2025-12-03 15:28:47,364 - INFO -  RUN: 9484-6, RUT base: 9484
+2025-12-03 15:28:47,364 - INFO -  Series encontradas: 1
+2025-12-03 15:28:47,364 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:47,364 - INFO -  Fase 2: Buscando fondo en CMF usando RUT...
+2025-12-03 15:28:47,364 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:47,364 - INFO -  [ESTRATEGIA 1] Buscando por RUT: 9484
+2025-12-03 15:28:47,365 - INFO - [CMF] Buscando fondo con RUT: 9484
+2025-12-03 15:28:49,006 - WARNING - [CMF] No se pudo acceder a la página del fondo RUT 9484: 404
+2025-12-03 15:28:49,006 - INFO -  [ESTRATEGIA 2 - Fallback] Buscando por nombre: FONDO MUTUO ESTRUCTURADO BONOS UF PLUS II
+2025-12-03 15:28:49,006 - INFO - Obteniendo lista completa de fondos desde CMF...
+2025-12-03 15:28:50,270 - INFO - Encontrados 1304 fondos únicos en CMF
+2025-12-03 15:28:50,277 - INFO - Fondo encontrado en CMF: BONOS UF PLUS II (score: 34.285714285714285)
+2025-12-03 15:28:50,277 - INFO -   RUT Fondo: 9484-6, RUT Admin: 96767630
+2025-12-03 15:28:50,278 - INFO -  Fondo encontrado en CMF: BONOS UF PLUS II
+2025-12-03 15:28:50,278 - INFO -  RUT CMF: None, RUT completo: None
+2025-12-03 15:28:50,278 - INFO -  Extrayendo estado y fecha_valor_cuota desde CMF...
+2025-12-03 15:28:50,278 - INFO - [CMF STATUS] Scraping status from: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=9484&tipoentidad=RGFMU&pestania=7
+2025-12-03 15:28:51,086 - WARNING - [CMF STATUS] HTTP 404 para RUT 9484
+2025-12-03 15:28:51,087 - INFO -  Intentando descargar PDF del folleto informativo...
+2025-12-03 15:28:51,087 - INFO - [CMF PDF SELENIUM] Iniciando descarga para RUT: 9484
+2025-12-03 15:28:51,089 - INFO - [CACHE] HIT - PDF encontrado en caché: 9484_UNICA
+2025-12-03 15:28:51,090 - INFO - [CACHE] ✓ PDF encontrado en caché
+2025-12-03 15:28:51,090 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:51,090 - INFO -  Fase 2.5: Extrayendo datos del PDF...
+2025-12-03 15:28:51,090 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:28:51,090 - INFO - [PDF EXTENDED] Extrayendo datos extendidos de: cache/pdfs/9484_UNICA.pdf
+2025-12-03 15:28:51,363 - WARNING - Cannot set gray non-stroke color because /'Pabc95' is an invalid float value
+2025-12-03 15:28:51,364 - WARNING - Cannot set gray non-stroke color because /'Pabc100' is an invalid float value
+2025-12-03 15:28:51,364 - WARNING - Cannot set gray non-stroke color because /'Pabc105' is an invalid float value
+2025-12-03 15:28:51,365 - WARNING - Cannot set gray non-stroke color because /'Pabc110' is an invalid float value
+2025-12-03 15:28:51,366 - WARNING - Cannot set gray non-stroke color because /'Pabc115' is an invalid float value
+2025-12-03 15:28:51,366 - WARNING - Cannot set gray non-stroke color because /'Pabc120' is an invalid float value
+2025-12-03 15:28:51,367 - WARNING - Cannot set gray non-stroke color because /'Pabc125' is an invalid float value
+2025-12-03 15:28:51,367 - WARNING - Cannot set gray non-stroke color because /'Pabc130' is an invalid float value
+2025-12-03 15:28:51,368 - WARNING - Cannot set gray non-stroke color because /'Pabc135' is an invalid float value
+2025-12-03 15:28:51,369 - WARNING - Cannot set gray non-stroke color because /'Pabc140' is an invalid float value
+2025-12-03 15:28:51,370 - WARNING - Cannot set gray non-stroke color because /'Pabc145' is an invalid float value
+2025-12-03 15:28:52,129 - INFO - [PDF EXTENDED] Tipo de fondo: Conservador
+2025-12-03 15:28:52,130 - INFO - [PDF EXTENDED] Perfil riesgo (keywords): Bajo
+2025-12-03 15:28:52,130 - INFO - [PDF EXTENDED] Horizonte: Mediano Plazo (24 meses)
+2025-12-03 15:28:52,130 - INFO - [PDF EXTENDED] Comisión admin: 0.0151 (1.51%)
+2025-12-03 15:28:52,130 - INFO - [PDF EXTENDED] Comisión rescate: 0.0050 (0.5%)
+2025-12-03 15:28:52,130 - INFO - [PDF EXTENDED] Rentabilidad 12m: 9.26%
+2025-12-03 15:28:52,149 - INFO - [PDF EXTENDED] Composición: 21 activos (suma: 447.66%)
+2025-12-03 15:28:52,149 - INFO - [PDF EXTENDED] Campos extraídos: 6/12 (50%) - Confianza: medium
+2025-12-03 15:28:52,150 - INFO -  Rentabilidad anual mapeada desde PDF: 9.26%
+2025-12-03 15:28:52,150 - INFO -  Datos extraídos del PDF: Tipo=Conservador, Riesgo=Bajo, Activos=15
+2025-12-03 15:28:52,150 - INFO -  Fase 3: Generando descripción con IA...
+2025-12-03 15:29:01,438 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 15:29:01,439 - INFO -  Fase 4: Generando análisis de inversión...
+2025-12-03 15:29:01,440 - INFO -  Fase 5: Generando archivo Excel avanzado...
+2025-12-03 15:29:01,467 - INFO - ✓ Archivo Excel generado: outputs/analisis_completo_fondo_FONDO_MUTUO_ESTRUCTURADO_BONOS_UF_PLUS_II.xlsx
+2025-12-03 15:29:01,467 - INFO - ============================================================
+2025-12-03 15:29:01,467 - INFO - [CACHE] ESTADÍSTICAS DE CACHÉ DE PDFs
+2025-12-03 15:29:01,467 - INFO - ============================================================
+2025-12-03 15:29:01,467 - INFO - [CACHE] Cache Hits:        2
+2025-12-03 15:29:01,468 - INFO - [CACHE] Cache Misses:      0
+2025-12-03 15:29:01,468 - INFO - [CACHE] Nuevas Descargas:  0
+2025-12-03 15:29:01,468 - INFO - [CACHE] Total Consultas:   2
+2025-12-03 15:29:01,468 - INFO - [CACHE] Tasa de Aciertos:  100.0%
+2025-12-03 15:29:01,468 - INFO - ============================================================
+2025-12-03 15:29:01,470 - INFO - [CACHE] PDFs en caché:     648
+2025-12-03 15:29:01,476 - INFO - [CACHE] Tamaño total:      71.84 MB
+2025-12-03 15:29:01,476 - INFO - ============================================================
+2025-12-03 15:29:01,476 - INFO - 
+[ANALISIS RESULTADO 2]
+2025-12-03 15:29:01,476 - INFO -   Nombre: FONDO MUTUO ESTRUCTURADO BONOS UF PLUS II
+2025-12-03 15:29:01,476 - INFO -   Error: NO - None
+2025-12-03 15:29:01,476 - INFO -   Fuente CMF: SI
+2025-12-03 15:29:01,476 - INFO -   Rentabilidad anual: SI - 0.0926
+2025-12-03 15:29:01,476 - INFO -   Composición portafolio: SI - 15 activos
+2025-12-03 15:29:01,476 - INFO -   Fecha valor cuota: SI - 2019-07-01
+2025-12-03 15:29:01,477 - INFO -   Estado fondo: N/A
+2025-12-03 15:29:01,477 - INFO -   Tiempo procesamiento: 15.19s
+2025-12-03 15:29:01,477 - INFO - [2] ✅ EXITOSO
+2025-12-03 15:29:02,482 - INFO - 
+================================================================================
+2025-12-03 15:29:02,483 - INFO - [3/5] PROCESANDO: DEUDA PESOS 1-5 AÑOS
+2025-12-03 15:29:02,483 - INFO - ================================================================================
+2025-12-03 15:29:02,483 - INFO -  INICIANDO PROCESAMIENTO CON SCRAPING REAL para: DEUDA PESOS 1-5 AÑOS
+2025-12-03 15:29:02,483 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:02,483 - INFO -  Fase 1: Obteniendo datos de Fintual (3 CAPAS)...
+2025-12-03 15:29:02,483 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:02,483 - INFO - [FINTUAL CAPA 1] Buscando fondo: DEUDA PESOS 1-5 AÑOS
+2025-12-03 15:29:03,012 - INFO - [FINTUAL CAPA 1] Fondo encontrado: FONDO MUTUO DEUDA PESOS 1-5 AÑOS, RUN: 8134-5, RUT: 8134
+2025-12-03 15:29:03,012 - INFO - [FINTUAL CAPA 3] Obteniendo series del fondo ID: 2308
+2025-12-03 15:29:03,590 - INFO - [FINTUAL CAPA 3] Encontradas 7 series del fondo
+2025-12-03 15:29:03,594 - INFO -  Fecha valor cuota desde Fintual: 2018-10-24
+2025-12-03 15:29:03,594 - INFO -  Datos de Fintual obtenidos para: FONDO MUTUO DEUDA PESOS 1-5 AÑOS
+2025-12-03 15:29:03,594 - INFO -  RUN: 8134-5, RUT base: 8134
+2025-12-03 15:29:03,594 - INFO -  Series encontradas: 7
+2025-12-03 15:29:03,594 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:03,594 - INFO -  Fase 2: Buscando fondo en CMF usando RUT...
+2025-12-03 15:29:03,594 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:03,595 - INFO -  [ESTRATEGIA 1] Buscando por RUT: 8134
+2025-12-03 15:29:03,595 - INFO - [CMF] Buscando fondo con RUT: 8134
+2025-12-03 15:29:05,217 - WARNING - [CMF] No se pudo acceder a la página del fondo RUT 8134: 404
+2025-12-03 15:29:05,217 - INFO -  [ESTRATEGIA 2 - Fallback] Buscando por nombre: FONDO MUTUO DEUDA PESOS 1-5 AÑOS
+2025-12-03 15:29:05,217 - INFO - Obteniendo lista completa de fondos desde CMF...
+2025-12-03 15:29:05,957 - INFO - Encontrados 1304 fondos únicos en CMF
+2025-12-03 15:29:05,964 - INFO - Fondo encontrado en CMF: DEUDA PESOS 1-5 AÑOS (score: 40.0)
+2025-12-03 15:29:05,964 - INFO -   RUT Fondo: 8134-5, RUT Admin: 96767630
+2025-12-03 15:29:05,964 - INFO -  Fondo encontrado en CMF: DEUDA PESOS 1-5 AÑOS
+2025-12-03 15:29:05,964 - INFO -  RUT CMF: None, RUT completo: None
+2025-12-03 15:29:05,964 - INFO -  Extrayendo estado y fecha_valor_cuota desde CMF...
+2025-12-03 15:29:05,964 - INFO - [CMF STATUS] Scraping status from: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=8134&tipoentidad=RGFMU&pestania=7
+2025-12-03 15:29:11,575 - WARNING - [CMF STATUS] HTTP 404 para RUT 8134
+2025-12-03 15:29:11,576 - INFO -  Intentando descargar PDF del folleto informativo...
+2025-12-03 15:29:11,576 - INFO - [CMF PDF SELENIUM] Iniciando descarga para RUT: 8134
+2025-12-03 15:29:11,578 - INFO - [CACHE] HIT - PDF encontrado en caché: 8134_UNICA
+2025-12-03 15:29:11,578 - INFO - [CACHE] ✓ PDF encontrado en caché
+2025-12-03 15:29:11,578 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:11,578 - INFO -  Fase 2.5: Extrayendo datos del PDF...
+2025-12-03 15:29:11,578 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:11,578 - INFO - [PDF EXTENDED] Extrayendo datos extendidos de: cache/pdfs/8134_UNICA.pdf
+2025-12-03 15:29:11,842 - WARNING - Cannot set gray non-stroke color because /'Pabc95' is an invalid float value
+2025-12-03 15:29:11,843 - WARNING - Cannot set gray non-stroke color because /'Pabc100' is an invalid float value
+2025-12-03 15:29:11,844 - WARNING - Cannot set gray non-stroke color because /'Pabc105' is an invalid float value
+2025-12-03 15:29:11,844 - WARNING - Cannot set gray non-stroke color because /'Pabc110' is an invalid float value
+2025-12-03 15:29:11,845 - WARNING - Cannot set gray non-stroke color because /'Pabc115' is an invalid float value
+2025-12-03 15:29:11,846 - WARNING - Cannot set gray non-stroke color because /'Pabc120' is an invalid float value
+2025-12-03 15:29:11,847 - WARNING - Cannot set gray non-stroke color because /'Pabc125' is an invalid float value
+2025-12-03 15:29:11,847 - WARNING - Cannot set gray non-stroke color because /'Pabc130' is an invalid float value
+2025-12-03 15:29:11,848 - WARNING - Cannot set gray non-stroke color because /'Pabc135' is an invalid float value
+2025-12-03 15:29:11,849 - WARNING - Cannot set gray non-stroke color because /'Pabc140' is an invalid float value
+2025-12-03 15:29:11,849 - WARNING - Cannot set gray non-stroke color because /'Pabc145' is an invalid float value
+2025-12-03 15:29:12,455 - INFO - [PDF EXTENDED] Tipo de fondo: Conservador
+2025-12-03 15:29:12,455 - INFO - [PDF EXTENDED] Perfil riesgo (keywords): Bajo
+2025-12-03 15:29:12,455 - INFO - [PDF EXTENDED] Horizonte: Mediano Plazo (24 meses)
+2025-12-03 15:29:12,455 - INFO - [PDF EXTENDED] Comisión admin: 0.0151 (1.51%)
+2025-12-03 15:29:12,456 - INFO - [PDF EXTENDED] Comisión rescate: 0.0050 (0.5%)
+2025-12-03 15:29:12,456 - INFO - [PDF EXTENDED] Rentabilidad 12m: 9.26%
+2025-12-03 15:29:12,474 - INFO - [PDF EXTENDED] Composición: 21 activos (suma: 447.66%)
+2025-12-03 15:29:12,474 - INFO - [PDF EXTENDED] Campos extraídos: 6/12 (50%) - Confianza: medium
+2025-12-03 15:29:12,474 - INFO -  Rentabilidad anual mapeada desde PDF: 9.26%
+2025-12-03 15:29:12,475 - INFO -  Datos extraídos del PDF: Tipo=Conservador, Riesgo=Bajo, Activos=15
+2025-12-03 15:29:12,475 - INFO -  Fase 3: Generando descripción con IA...
+2025-12-03 15:29:17,310 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 15:29:17,312 - INFO -  Fase 4: Generando análisis de inversión...
+2025-12-03 15:29:17,312 - INFO -  Fase 5: Generando archivo Excel avanzado...
+2025-12-03 15:29:17,340 - INFO - ✓ Archivo Excel generado: outputs/analisis_completo_fondo_FONDO_MUTUO_DEUDA_PESOS_1-5_AÑOS.xlsx
+2025-12-03 15:29:17,340 - INFO - ============================================================
+2025-12-03 15:29:17,340 - INFO - [CACHE] ESTADÍSTICAS DE CACHÉ DE PDFs
+2025-12-03 15:29:17,340 - INFO - ============================================================
+2025-12-03 15:29:17,340 - INFO - [CACHE] Cache Hits:        3
+2025-12-03 15:29:17,340 - INFO - [CACHE] Cache Misses:      0
+2025-12-03 15:29:17,340 - INFO - [CACHE] Nuevas Descargas:  0
+2025-12-03 15:29:17,340 - INFO - [CACHE] Total Consultas:   3
+2025-12-03 15:29:17,341 - INFO - [CACHE] Tasa de Aciertos:  100.0%
+2025-12-03 15:29:17,341 - INFO - ============================================================
+2025-12-03 15:29:17,342 - INFO - [CACHE] PDFs en caché:     648
+2025-12-03 15:29:17,349 - INFO - [CACHE] Tamaño total:      71.84 MB
+2025-12-03 15:29:17,349 - INFO - ============================================================
+2025-12-03 15:29:17,349 - INFO - 
+[ANALISIS RESULTADO 3]
+2025-12-03 15:29:17,349 - INFO -   Nombre: FONDO MUTUO DEUDA PESOS 1-5 AÑOS
+2025-12-03 15:29:17,349 - INFO -   Error: NO - None
+2025-12-03 15:29:17,349 - INFO -   Fuente CMF: SI
+2025-12-03 15:29:17,349 - INFO -   Rentabilidad anual: SI - 0.0926
+2025-12-03 15:29:17,350 - INFO -   Composición portafolio: SI - 15 activos
+2025-12-03 15:29:17,350 - INFO -   Fecha valor cuota: SI - 2018-10-24
+2025-12-03 15:29:17,350 - INFO -   Estado fondo: N/A
+2025-12-03 15:29:17,350 - INFO -   Tiempo procesamiento: 14.87s
+2025-12-03 15:29:17,350 - INFO - [3] ✅ EXITOSO
+2025-12-03 15:29:18,354 - INFO - 
+================================================================================
+2025-12-03 15:29:18,354 - INFO - [4/5] PROCESANDO: FONDO MUTUO CONSERVADOR
+2025-12-03 15:29:18,354 - INFO - ================================================================================
+2025-12-03 15:29:18,354 - INFO -  INICIANDO PROCESAMIENTO CON SCRAPING REAL para: FONDO MUTUO CONSERVADOR
+2025-12-03 15:29:18,354 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:18,354 - INFO -  Fase 1: Obteniendo datos de Fintual (3 CAPAS)...
+2025-12-03 15:29:18,354 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:18,354 - INFO - [FINTUAL CAPA 1] Buscando fondo: FONDO MUTUO CONSERVADOR
+2025-12-03 15:29:18,926 - WARNING - Fondo 'FONDO MUTUO CONSERVADOR' no encontrado en Fintual
+2025-12-03 15:29:18,928 - ERROR -  No se obtuvieron datos de Fintual - No hay datos reales disponibles
+2025-12-03 15:29:18,928 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:18,928 - INFO -  Fase 2: Buscando fondo en CMF usando RUT...
+2025-12-03 15:29:18,928 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:18,929 - INFO -  [ESTRATEGIA 2 - Fallback] Buscando por nombre: Fondo Mutuo Conservador
+2025-12-03 15:29:18,929 - INFO - Obteniendo lista completa de fondos desde CMF...
+2025-12-03 15:29:20,342 - INFO - Encontrados 1304 fondos únicos en CMF
+2025-12-03 15:29:20,347 - INFO - Fondo encontrado en CMF: FONDO CONSERVADOR (score: 40.0)
+2025-12-03 15:29:20,347 - INFO -   RUT Fondo: 9810-8, RUT Admin: 96767630
+2025-12-03 15:29:20,347 - INFO -  Fondo encontrado en CMF: FONDO CONSERVADOR
+2025-12-03 15:29:20,347 - INFO -  RUT CMF: None, RUT completo: None
+2025-12-03 15:29:20,347 - INFO -  Error de Fintual eliminado - Datos CMF válidos obtenidos
+2025-12-03 15:29:20,347 - INFO -  Extrayendo estado y fecha_valor_cuota desde CMF...
+2025-12-03 15:29:20,347 - INFO -  Intentando descargar PDF del folleto informativo...
+2025-12-03 15:29:20,347 - INFO - [CMF PDF SELENIUM] Iniciando descarga para RUT: 9810
+2025-12-03 15:29:20,349 - INFO - [CACHE] HIT - PDF encontrado en caché: 9810_UNICA
+2025-12-03 15:29:20,350 - INFO - [CACHE] ✓ PDF encontrado en caché
+2025-12-03 15:29:20,350 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:20,350 - INFO -  Fase 2.5: Extrayendo datos del PDF...
+2025-12-03 15:29:20,350 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:20,350 - INFO - [PDF EXTENDED] Extrayendo datos extendidos de: cache/pdfs/9810_UNICA.pdf
+2025-12-03 15:29:20,620 - WARNING - Cannot set gray non-stroke color because /'Pabc95' is an invalid float value
+2025-12-03 15:29:20,620 - WARNING - Cannot set gray non-stroke color because /'Pabc100' is an invalid float value
+2025-12-03 15:29:20,621 - WARNING - Cannot set gray non-stroke color because /'Pabc105' is an invalid float value
+2025-12-03 15:29:20,622 - WARNING - Cannot set gray non-stroke color because /'Pabc110' is an invalid float value
+2025-12-03 15:29:20,623 - WARNING - Cannot set gray non-stroke color because /'Pabc115' is an invalid float value
+2025-12-03 15:29:20,623 - WARNING - Cannot set gray non-stroke color because /'Pabc120' is an invalid float value
+2025-12-03 15:29:20,624 - WARNING - Cannot set gray non-stroke color because /'Pabc125' is an invalid float value
+2025-12-03 15:29:20,624 - WARNING - Cannot set gray non-stroke color because /'Pabc130' is an invalid float value
+2025-12-03 15:29:20,625 - WARNING - Cannot set gray non-stroke color because /'Pabc135' is an invalid float value
+2025-12-03 15:29:20,626 - WARNING - Cannot set gray non-stroke color because /'Pabc140' is an invalid float value
+2025-12-03 15:29:20,626 - WARNING - Cannot set gray non-stroke color because /'Pabc145' is an invalid float value
+2025-12-03 15:29:21,393 - INFO - [PDF EXTENDED] Tipo de fondo: Conservador
+2025-12-03 15:29:21,393 - INFO - [PDF EXTENDED] Perfil riesgo (keywords): Bajo
+2025-12-03 15:29:21,394 - INFO - [PDF EXTENDED] Horizonte: Mediano Plazo (24 meses)
+2025-12-03 15:29:21,394 - INFO - [PDF EXTENDED] Comisión admin: 0.0151 (1.51%)
+2025-12-03 15:29:21,394 - INFO - [PDF EXTENDED] Comisión rescate: 0.0050 (0.5%)
+2025-12-03 15:29:21,394 - INFO - [PDF EXTENDED] Rentabilidad 12m: 9.26%
+2025-12-03 15:29:21,413 - INFO - [PDF EXTENDED] Composición: 21 activos (suma: 447.66%)
+2025-12-03 15:29:21,413 - INFO - [PDF EXTENDED] Campos extraídos: 6/12 (50%) - Confianza: medium
+2025-12-03 15:29:21,414 - INFO -  Rentabilidad anual mapeada desde PDF: 9.26%
+2025-12-03 15:29:21,414 - INFO -  Datos extraídos del PDF: Tipo=Conservador, Riesgo=Bajo, Activos=15
+2025-12-03 15:29:21,414 - INFO -  Fase 3: Generando descripción con IA...
+2025-12-03 15:29:26,703 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 15:29:26,710 - INFO -  Fase 4: Generando análisis de inversión...
+2025-12-03 15:29:26,710 - INFO -  Fase 5: Generando archivo Excel avanzado...
+2025-12-03 15:29:26,738 - INFO - ✓ Archivo Excel generado: outputs/analisis_completo_fondo_Fondo_Mutuo_Conservador.xlsx
+2025-12-03 15:29:26,738 - INFO - ============================================================
+2025-12-03 15:29:26,738 - INFO - [CACHE] ESTADÍSTICAS DE CACHÉ DE PDFs
+2025-12-03 15:29:26,738 - INFO - ============================================================
+2025-12-03 15:29:26,738 - INFO - [CACHE] Cache Hits:        4
+2025-12-03 15:29:26,738 - INFO - [CACHE] Cache Misses:      0
+2025-12-03 15:29:26,738 - INFO - [CACHE] Nuevas Descargas:  0
+2025-12-03 15:29:26,738 - INFO - [CACHE] Total Consultas:   4
+2025-12-03 15:29:26,739 - INFO - [CACHE] Tasa de Aciertos:  100.0%
+2025-12-03 15:29:26,739 - INFO - ============================================================
+2025-12-03 15:29:26,740 - INFO - [CACHE] PDFs en caché:     648
+2025-12-03 15:29:26,747 - INFO - [CACHE] Tamaño total:      71.84 MB
+2025-12-03 15:29:26,747 - INFO - ============================================================
+2025-12-03 15:29:26,747 - INFO - 
+[ANALISIS RESULTADO 4]
+2025-12-03 15:29:26,747 - INFO -   Nombre: Fondo Mutuo Conservador
+2025-12-03 15:29:26,747 - INFO -   Error: NO - None
+2025-12-03 15:29:26,747 - INFO -   Fuente CMF: SI
+2025-12-03 15:29:26,747 - INFO -   Rentabilidad anual: SI - 0.0926
+2025-12-03 15:29:26,747 - INFO -   Composición portafolio: SI - 15 activos
+2025-12-03 15:29:26,748 - INFO -   Fecha valor cuota: NO - None
+2025-12-03 15:29:26,748 - INFO -   Estado fondo: N/A
+2025-12-03 15:29:26,748 - INFO -   Tiempo procesamiento: 8.39s
+2025-12-03 15:29:26,748 - INFO - [4] ✅ EXITOSO
+2025-12-03 15:29:27,750 - INFO - 
+================================================================================
+2025-12-03 15:29:27,750 - INFO - [5/5] PROCESANDO: FONDO MUTUO AGRESIVO
+2025-12-03 15:29:27,751 - INFO - ================================================================================
+2025-12-03 15:29:27,751 - INFO -  INICIANDO PROCESAMIENTO CON SCRAPING REAL para: FONDO MUTUO AGRESIVO
+2025-12-03 15:29:27,751 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:27,751 - INFO -  Fase 1: Obteniendo datos de Fintual (3 CAPAS)...
+2025-12-03 15:29:27,751 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:27,751 - INFO - [FINTUAL CAPA 1] Buscando fondo: FONDO MUTUO AGRESIVO
+2025-12-03 15:29:28,011 - WARNING - Fondo 'FONDO MUTUO AGRESIVO' no encontrado en Fintual
+2025-12-03 15:29:28,013 - ERROR -  No se obtuvieron datos de Fintual - No hay datos reales disponibles
+2025-12-03 15:29:28,013 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:28,013 - INFO -  Fase 2: Buscando fondo en CMF usando RUT...
+2025-12-03 15:29:28,014 - INFO - ════════════════════════════════════════════════════════════
+2025-12-03 15:29:28,014 - INFO -  [ESTRATEGIA 2 - Fallback] Buscando por nombre: Fondo Mutuo Agresivo
+2025-12-03 15:29:28,014 - INFO - Obteniendo lista completa de fondos desde CMF...
+2025-12-03 15:29:29,338 - INFO - Encontrados 1304 fondos únicos en CMF
+2025-12-03 15:29:29,342 - WARNING - No se encontró fondo similar a 'Fondo Mutuo Agresivo' en CMF
+2025-12-03 15:29:29,343 - ERROR -  Fondo no encontrado en CMF - No hay datos reales disponibles
+2025-12-03 15:29:29,343 - INFO -  Fase 3: Generando descripción con IA...
+2025-12-03 15:29:34,706 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-03 15:29:34,708 - INFO -  Fase 4: Generando análisis de inversión...
+2025-12-03 15:29:34,708 - WARNING - Error generando análisis de inversión del fondo: 'NoneType' object has no attribute 'lower'
+2025-12-03 15:29:34,708 - INFO -  Fase 5: Generando archivo Excel avanzado...
+2025-12-03 15:29:34,708 - WARNING - Error calculando métricas del fondo: 'NoneType' object has no attribute 'lower'
+2025-12-03 15:29:34,734 - INFO - ✓ Archivo Excel generado: outputs/analisis_completo_fondo_Fondo_Mutuo_Agresivo.xlsx
+2025-12-03 15:29:34,734 - INFO - ============================================================
+2025-12-03 15:29:34,734 - INFO - [CACHE] ESTADÍSTICAS DE CACHÉ DE PDFs
+2025-12-03 15:29:34,734 - INFO - ============================================================
+2025-12-03 15:29:34,734 - INFO - [CACHE] Cache Hits:        4
+2025-12-03 15:29:34,735 - INFO - [CACHE] Cache Misses:      0
+2025-12-03 15:29:34,735 - INFO - [CACHE] Nuevas Descargas:  0
+2025-12-03 15:29:34,735 - INFO - [CACHE] Total Consultas:   4
+2025-12-03 15:29:34,735 - INFO - [CACHE] Tasa de Aciertos:  100.0%
+2025-12-03 15:29:34,735 - INFO - ============================================================
+2025-12-03 15:29:34,737 - INFO - [CACHE] PDFs en caché:     648
+2025-12-03 15:29:34,743 - INFO - [CACHE] Tamaño total:      71.84 MB
+2025-12-03 15:29:34,743 - INFO - ============================================================
+2025-12-03 15:29:34,743 - INFO - 
+[ANALISIS RESULTADO 5]
+2025-12-03 15:29:34,744 - INFO -   Nombre: Fondo Mutuo Agresivo
+2025-12-03 15:29:34,744 - INFO -   Error: SI - No se obtuvieron datos de Fintual | Fondo no encontrado en CMF
+2025-12-03 15:29:34,744 - INFO -   Fuente CMF: NO
+2025-12-03 15:29:34,744 - INFO -   Rentabilidad anual: NO - None
+2025-12-03 15:29:34,744 - INFO -   Composición portafolio: NO - 0 activos
+2025-12-03 15:29:34,744 - INFO -   Fecha valor cuota: NO - None
+2025-12-03 15:29:34,744 - INFO -   Estado fondo: N/A
+2025-12-03 15:29:34,744 - INFO -   Tiempo procesamiento: 6.99s
+2025-12-03 15:29:34,744 - WARNING - [5] ⚠️  FALLIDO: No se obtuvieron datos de Fintual | Fondo no encontrado en CMF
+2025-12-03 15:29:34,747 - INFO - 
+================================================================================
+2025-12-03 15:29:34,747 - INFO - RESUMEN DE TEST DE CORRECCIONES
+2025-12-03 15:29:34,747 - INFO - ================================================================================
+2025-12-03 15:29:34,747 - INFO - Total fondos procesados: 5
+2025-12-03 15:29:34,747 - INFO - Exitosos: 4 (80.0%)
+2025-12-03 15:29:34,747 - INFO - Fallidos: 1 (20.0%)
+2025-12-03 15:29:34,747 - INFO - 
+MÉTRICAS DE CALIDAD:
+2025-12-03 15:29:34,747 - INFO -   Con rentabilidad_anual: 4 (80.0%)
+2025-12-03 15:29:34,747 - INFO -   Con composición_portafolio: 4 (80.0%)
+2025-12-03 15:29:34,747 - INFO -   Con fecha_valor_cuota: 3 (60.0%)
+2025-12-03 15:29:34,748 - INFO -   Con CMF sin error Fintual: 4 (80.0%)
+2025-12-03 15:29:34,748 - INFO - 
+================================================================================
+2025-12-03 15:29:34,748 - INFO - COMPARACIÓN CON AUDIT FINDINGS:
+2025-12-03 15:29:34,748 - INFO - ================================================================================
+2025-12-03 15:29:34,748 - INFO - ANTES: Tasa de éxito: 3.2% (8/250 fondos)
+2025-12-03 15:29:34,748 - INFO - AHORA: Tasa de éxito: 80.0% (4/5 fondos)
+2025-12-03 15:29:34,748 - INFO - 
+ANTES: Rentabilidad anual: 0% (0/8 fondos exitosos)
+2025-12-03 15:29:34,748 - INFO - AHORA: Rentabilidad anual: 100.0% (4/4 fondos exitosos)
+2025-12-03 15:29:34,748 - INFO - 
+ANTES: Fecha valor cuota: 8% (solo 8 fondos con Fintual)
+2025-12-03 15:29:34,748 - INFO - AHORA: Fecha valor cuota: 60.0% (3/5 fondos)
+2025-12-03 15:29:34,748 - INFO - 
+================================================================================
+2025-12-03 15:29:34,748 - INFO - TEST COMPLETADO - Ver outputs/test_fixes/ para resultados detallados
+2025-12-03 15:29:34,748 - INFO - ================================================================================
