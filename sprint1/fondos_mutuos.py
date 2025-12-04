@@ -127,11 +127,25 @@ def request_with_retry(session: requests.Session, url: str, max_retries: int = 3
     return None
 
 
-def _wait_for_download_complete(download_dir: str, timeout: int = 60, min_size_kb: int = 10) -> Optional[str]:
-    """Poll download directory until PDF download completes (no .crdownload)"""
+def _wait_for_download_complete(download_dir: str, timeout: int = 60, min_size_kb: int = 10, existing_files: set = None) -> Optional[str]:
+    """Poll download directory until PDF download completes (no .crdownload)
+
+    Args:
+        download_dir: Directory to monitor for downloads
+        timeout: Maximum seconds to wait
+        min_size_kb: Minimum file size in KB to consider valid
+        existing_files: Set of files that existed before download started (to ignore old files)
+    """
     logger.info(f"[DOWNLOAD POLL] Waiting for download to complete (max {timeout}s)...")
     start_time = time.time()
-    last_files = set()
+
+    # FIX CRITICO: Si no se pasa existing_files, capturar el estado ACTUAL del directorio
+    # Esto evita detectar PDFs viejos como "nuevos"
+    if existing_files is None:
+        existing_files = set(os.listdir(download_dir))
+        logger.warning(f"[DOWNLOAD POLL] No se pasó existing_files - usando estado actual ({len(existing_files)} archivos)")
+
+    last_files = existing_files.copy()
 
     while time.time() - start_time < timeout:
         try:
@@ -822,6 +836,19 @@ class FondosMutuosProcessor:
             download_dir = os.path.abspath('temp')
             os.makedirs(download_dir, exist_ok=True)
 
+            # FIX CRITICO: Limpiar archivos .crdownload antiguos que pueden interferir
+            try:
+                crdownload_files = [f for f in os.listdir(download_dir) if f.endswith('.crdownload')]
+                if crdownload_files:
+                    logger.warning(f"[SELENIUM] Limpiando {len(crdownload_files)} archivos .crdownload antiguos...")
+                    for f in crdownload_files:
+                        try:
+                            os.remove(os.path.join(download_dir, f))
+                        except:
+                            pass
+            except Exception as e:
+                logger.debug(f"[SELENIUM] Error limpiando .crdownload: {e}")
+
             prefs = {
                 'download.default_directory': download_dir,
                 'download.prompt_for_download': False,
@@ -895,12 +922,28 @@ class FondosMutuosProcessor:
 
                     logger.info(f"[SELENIUM] onclick: {pdf_url[:80]}...")
 
+                    # FIX CRITICO: Eliminar PDF anterior del mismo RUT si existe
+                    # Esto evita conflictos y asegura que siempre tenemos la versión más reciente
+                    expected_final_name = f"folleto_{rut}.pdf"
+                    expected_final_path = os.path.join(download_dir, expected_final_name)
+                    if os.path.exists(expected_final_path):
+                        logger.warning(f"[SELENIUM] Eliminando PDF anterior: {expected_final_name}")
+                        try:
+                            os.remove(expected_final_path)
+                        except Exception as e:
+                            logger.error(f"[SELENIUM] No se pudo eliminar PDF anterior: {e}")
+
+                    # FIX CRITICO: Capturar estado del directorio ANTES del click
+                    # Esto permite detectar solo archivos NUEVOS descargados
+                    files_before_download = set(os.listdir(download_dir))
+                    logger.info(f"[SELENIUM] Archivos existentes antes del click: {len(files_before_download)}")
+
                     # Click triggers AJAX POST and window.open(pdf_url)
                     logger.info(f"[SELENIUM] Executing click...")
                     driver.execute_script("arguments[0].click();", first_link)
 
-                    # Wait for download with polling
-                    pdf_path = _wait_for_download_complete(download_dir, timeout=60)
+                    # Wait for download with polling - PASAR existing_files para evitar detectar PDFs viejos
+                    pdf_path = _wait_for_download_complete(download_dir, timeout=60, existing_files=files_before_download)
 
                     if pdf_path:
                         latest_file = pdf_path
@@ -909,11 +952,18 @@ class FondosMutuosProcessor:
                         final_name = f"folleto_{rut}.pdf"
                         final_path = os.path.join(download_dir, final_name)
 
-                        # Si ya existe, sobrescribir
-                        if os.path.exists(final_path):
-                            os.remove(final_path)
+                        # FIX: Solo renombrar si el archivo descargado NO es el archivo final
+                        # Esto evita errores cuando latest_file == final_path
+                        if latest_file != final_path:
+                            # Si el destino ya existe, sobrescribir
+                            if os.path.exists(final_path):
+                                logger.warning(f"[SELENIUM] Sobrescribiendo PDF existente: {final_name}")
+                                os.remove(final_path)
 
-                        os.rename(latest_file, final_path)
+                            os.rename(latest_file, final_path)
+                            logger.info(f"[SELENIUM] PDF renombrado: {os.path.basename(latest_file)} -> {final_name}")
+                        else:
+                            logger.info(f"[SELENIUM] PDF ya tiene el nombre correcto: {final_name}")
 
                         logger.info(f"[SELENIUM] ✅ PDF downloaded: {final_path}")
                         return final_path
