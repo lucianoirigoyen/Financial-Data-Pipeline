@@ -27,6 +27,105 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# FIX 4.4: Regex compilados module-level para performance
+REGEX_COMISION = re.compile(r'(\d*[\.,]?\d+)\s*%?')
+REGEX_RENT_1ANO = re.compile(r'1\s+año\s+([-]?\d*[\.,]?\d+)\s*%', re.IGNORECASE)
+REGEX_RENT_2ANOS = re.compile(r'2\s+años?\s+([-]?\d*[\.,]?\d+)\s*%', re.IGNORECASE)
+REGEX_RENT_3ANOS = re.compile(r'[35]\s+años?\s+([-]?\d*[\.,]?\d+)\s*%', re.IGNORECASE)
+REGEX_FECHA_CMF = re.compile(r'(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})')
+REGEX_VALOR_CUOTA = re.compile(r'valor\s+cuota[:\s]+\$?\s*([\d.,]+)', re.IGNORECASE)
+REGEX_PERFIL_RIESGO = re.compile(r'\bR([1-7])\b')
+
+
+# FIX 1.3: Función utilitaire pour éviter NoneType+str concatenation
+def safe_str_concat(*args, separator: str = '') -> str:
+    """
+    Concatenar strings de forma segura, filtrando valores None.
+
+    Args:
+        *args: Valores a concatenar (strings, int, o None)
+        separator: Separador entre valores (default: '')
+
+    Returns:
+        String concatenado, convirtiendo None a string vacío
+
+    Ejemplos:
+        >>> safe_str_concat('https://example.com?rut=', None)
+        'https://example.com?rut='
+        >>> safe_str_concat('base_', 10446, '_suffix')
+        'base_10446_suffix'
+    """
+    safe_values = [str(arg) if arg is not None else '' for arg in args]
+    return separator.join(safe_values)
+
+
+# FIX 2.1: Función HTTP GET con retry y backoff exponencial
+def request_with_retry(session: requests.Session, url: str, max_retries: int = 3, backoff: float = 2, **kwargs) -> Optional[requests.Response]:
+    """
+    Realizar HTTP GET con retry automático y backoff exponencial.
+
+    Args:
+        session: Sesión requests.Session a utilizar
+        url: URL a consultar
+        max_retries: Número máximo de intentos (default: 3)
+        backoff: Factor de backoff exponencial en segundos (default: 2)
+        **kwargs: Argumentos adicionales para session.get() (timeout, headers, etc.)
+
+    Returns:
+        requests.Response si exitoso, None si falla tras todos los retries
+
+    Ejemplos:
+        >>> response = request_with_retry(session, 'https://cmf.cl/api/...', timeout=30)
+        >>> if response and response.status_code == 200: ...
+    """
+    for attempt in range(max_retries):
+        try:
+            response = session.get(url, **kwargs)
+
+            # FIX 2.3: Logger redirects para detectar cambios de URL
+            if response.history:
+                logger.info(f"[HTTP RETRY] Redirects detectados: {len(response.history)} → {response.url}")
+                for i, resp in enumerate(response.history):
+                    logger.debug(f"[HTTP RETRY]   Redirect {i+1}: {resp.status_code} {resp.url}")
+
+            # Éxito: status 200
+            if response.status_code == 200:
+                if attempt > 0:
+                    logger.info(f"[HTTP RETRY] ✓ Éxito en intento {attempt + 1}/{max_retries}")
+                return response
+
+            # 404 o 503: intentar retry
+            elif response.status_code in [404, 503] and attempt < max_retries - 1:
+                wait_time = backoff ** attempt
+                logger.warning(f"[HTTP RETRY] HTTP {response.status_code} en {url[:80]}, retry {attempt + 1}/{max_retries} en {wait_time}s")
+                time.sleep(wait_time)
+
+            # Otros errores: no retry
+            else:
+                logger.warning(f"[HTTP RETRY] HTTP {response.status_code} para {url[:80]} - no retry")
+                return response
+
+        except requests.exceptions.Timeout as e:
+            if attempt < max_retries - 1:
+                wait_time = backoff ** attempt
+                logger.warning(f"[HTTP RETRY] Timeout en {url[:80]}, retry {attempt + 1}/{max_retries} en {wait_time}s")
+                time.sleep(wait_time)
+            else:
+                logger.error(f"[HTTP RETRY] Timeout tras {max_retries} intentos: {url[:80]}")
+                return None
+
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                wait_time = backoff ** attempt
+                logger.warning(f"[HTTP RETRY] Exception {type(e).__name__} en {url[:80]}, retry {attempt + 1}/{max_retries} en {wait_time}s")
+                time.sleep(wait_time)
+            else:
+                logger.error(f"[HTTP RETRY] Falló tras {max_retries} intentos: {type(e).__name__}: {e}")
+                return None
+
+    logger.error(f"[HTTP RETRY] Agotados {max_retries} intentos para {url[:80]}")
+    return None
+
 
 def _wait_for_download_complete(download_dir: str, timeout: int = 60, min_size_kb: int = 10) -> Optional[str]:
     """Poll download directory until PDF download completes (no .crdownload)"""
@@ -416,9 +515,10 @@ class FondosMutuosProcessor:
             # Buscar en el listado de fondos
             listado_url = "https://www.cmfchile.cl/institucional/mercados/consulta.php?mercado=V&Estado=VI&entidad=RGFMU"
 
-            response = self.session.get(listado_url, timeout=30)
-            if response.status_code != 200:
-                logger.warning(f"[CMF] No se pudo acceder al listado: {response.status_code}")
+            # FIX 2.2: Usar request_with_retry en lugar de session.get directo
+            response = request_with_retry(self.session, listado_url, timeout=30)
+            if not response or response.status_code != 200:
+                logger.warning(f"[CMF] No se pudo acceder al listado: {response.status_code if response else 'None'}")
                 return None
 
             soup = BeautifulSoup(response.content, 'html.parser')
@@ -515,9 +615,10 @@ class FondosMutuosProcessor:
                 'Accept-Language': 'es-CL,es;q=0.9',
             }
 
-            response = self.session.get(page_url, headers=headers, timeout=30)
-            if response.status_code != 200:
-                logger.warning(f"[CMF] Error accediendo a página: {response.status_code}")
+            # FIX 2.2: Usar request_with_retry para folletos
+            response = request_with_retry(self.session, page_url, headers=headers, timeout=30)
+            if not response or response.status_code != 200:
+                logger.warning(f"[CMF] Error accediendo a página: {response.status_code if response else 'None'}")
                 return [], None
 
             soup = BeautifulSoup(response.content, 'html.parser')
@@ -745,15 +846,45 @@ class FondosMutuosProcessor:
                 page_title = driver.title
                 logger.info(f"[SELENIUM] ✓ Page loaded: {page_title}")
 
-                # Wait for JavaScript tabs to load
+                # FIX 3.3: Wait for JavaScript tabs to load (aumentado de 10s a 20s)
                 logger.info(f"[SELENIUM] Waiting for JavaScript load...")
-                WebDriverWait(driver, 10).until(
-                    EC.presence_of_element_located((By.ID, "tabs"))
-                )
+                try:
+                    WebDriverWait(driver, 20).until(
+                        EC.presence_of_element_located((By.ID, "tabs"))
+                    )
+                except:
+                    logger.warning(f"[SELENIUM] Timeout waiting for tabs, continuando...")
 
-                # CMF uses onclick="verFolleto(...)" for PDFs
-                logger.info(f"[SELENIUM] Looking for verFolleto links...")
-                pdf_links = driver.find_elements(By.XPATH, "//a[contains(@onclick, 'verFolleto')]")
+                # FIX 3.2: Scroll page para cargar lazy-loaded content
+                logger.info(f"[SELENIUM] Scrolling page para lazy-load content...")
+                driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(2)  # Esperar que cargue contenido lazy-loaded
+
+                # FIX 3.1: Élargir selectors con fallbacks múltiples
+                logger.info(f"[SELENIUM] Looking for PDF links (múltiples selectors)...")
+
+                # Lista de selectores en orden de prioridad
+                selectors = [
+                    "//a[contains(@onclick, 'verFolleto') or contains(@onclick, 'abrirFolleto')]",
+                    "//button[contains(@onclick, 'verFolleto') or contains(@onclick, 'abrirFolleto')]",
+                    "//a[contains(@href, '.pdf')]",
+                    "//*[contains(text(), 'Folleto') or contains(text(), 'FOLLETO')]/ancestor::a",
+                    "//a[contains(@class, 'folleto')]"
+                ]
+
+                pdf_links = []
+                selector_usado = None
+
+                for selector in selectors:
+                    try:
+                        pdf_links = driver.find_elements(By.XPATH, selector)
+                        if pdf_links:
+                            selector_usado = selector
+                            logger.info(f"[SELENIUM] ✓ Encontrados {len(pdf_links)} enlaces con selector: {selector[:60]}...")
+                            break
+                    except Exception as e:
+                        logger.debug(f"[SELENIUM] Selector falló: {selector[:60]}... - {e}")
+                        continue
 
                 if pdf_links:
                     logger.info(f"[SELENIUM] ✓ Encontrados {len(pdf_links)} enlaces potenciales")
@@ -790,7 +921,40 @@ class FondosMutuosProcessor:
                         logger.warning(f"[SELENIUM] ❌ Download failed or timeout")
                         return None
                 else:
-                    logger.warning(f"[SELENIUM] ❌ No se encontraron enlaces a PDFs")
+                    # FIX 3.4: Fallback BeautifulSoup si XPath falla
+                    logger.warning(f"[SELENIUM] ❌ XPath no encontró enlaces, intentando fallback BeautifulSoup...")
+
+                    try:
+                        page_source = driver.page_source
+                        soup = BeautifulSoup(page_source, 'html.parser')
+
+                        # Buscar enlaces con onclick que contenga 'folleto' o 'verFolleto'
+                        links_onclick = soup.find_all(['a', 'button'], onclick=re.compile(r'(ver|abrir)?[Ff]olleto', re.IGNORECASE))
+
+                        if links_onclick:
+                            logger.info(f"[SELENIUM BEAUTIFULSOUP] ✓ Encontrados {len(links_onclick)} enlaces con BeautifulSoup")
+
+                            # Intentar extraer parámetros del onclick
+                            for link in links_onclick:
+                                onclick = link.get('onclick', '')
+                                logger.debug(f"[SELENIUM BEAUTIFULSOUP] onclick encontrado: {onclick[:100]}...")
+
+                                # Patrón para extraer parámetros verFolleto('run', 'serie', 'rutAdmin')
+                                match = re.search(r"verFolleto\('([^']*)',\s*'([^']*)',\s*'([^']*)'\)", onclick)
+                                if match:
+                                    logger.info(f"[SELENIUM BEAUTIFULSOUP] Parámetros extraídos, pero descarga directa no implementada")
+                                    # TODO: Implementar descarga directa con parámetros extraídos
+                                    break
+
+                        # También buscar enlaces directos a PDF
+                        links_pdf = soup.find_all('a', href=re.compile(r'\.pdf$', re.IGNORECASE))
+                        if links_pdf:
+                            logger.info(f"[SELENIUM BEAUTIFULSOUP] ✓ Encontrados {len(links_pdf)} enlaces directos PDF")
+                            # TODO: Implementar descarga de enlaces directos
+
+                    except Exception as e:
+                        logger.error(f"[SELENIUM BEAUTIFULSOUP] Error en fallback: {e}")
+
                     # Guardar screenshot para debugging
                     screenshot_path = f"temp/debug_screenshot_{rut}.png"
                     driver.save_screenshot(screenshot_path)
@@ -851,12 +1015,13 @@ class FondosMutuosProcessor:
 
             # Headers críticos para que funcione la descarga
             # CORRECCION: Simplificados, removiendo Content-Type y X-Requested-With que pueden causar rechazo
+            # FIX 1.1: Proteger concatenation RUT en Referer header (evitar NoneType crash)
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
                 'Accept-Language': 'es-CL,es;q=0.9',
                 'Origin': 'https://www.cmfchile.cl',
-                'Referer': f'https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut={rut}'
+                'Referer': f'https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut={rut or ""}'
             }
 
             # CORRECCION: Usar run_completo si está disponible, sino usar rut
@@ -901,6 +1066,11 @@ class FondosMutuosProcessor:
 
             # PASO 2: Descargar el PDF desde la URL del viewer
             logger.debug(f"[CMF PDF] PASO 2 - Descargando PDF desde viewer: {pdf_viewer_path}")
+
+            # FIX 1.2: Validar pdf_viewer_path antes de construir URL (evitar NoneType crash)
+            if not pdf_viewer_path or pdf_viewer_path == 'ERROR':
+                logger.warning(f"[CMF PDF] Path de viewer inválido: {pdf_viewer_path}")
+                return None
 
             # Construir URL completa (siempre es un path relativo que comienza con /)
             if pdf_viewer_path.startswith('/'):
@@ -994,11 +1164,56 @@ class FondosMutuosProcessor:
                 for page in pdf.pages:
                     texto_completo += page.extract_text() or ""
 
+                logger.debug(f"[PDF EXTENDED] Extraídas {len(pdf.pages)} páginas, {len(texto_completo)} caracteres")
+
+                # FIX 5.2 & 5.4: OCR fallback si extracción text es muy pobre
+                if len(texto_completo.strip()) < 100:
+                    logger.warning(f"[PDF OCR] Text extraction pobre ({len(texto_completo)} chars), intentando OCR fallback...")
+
+                    # FIX 5.1: Verificar si pytesseract está instalado
+                    try:
+                        from pdf2image import convert_from_path
+                        import pytesseract
+
+                        # FIX 5.3: Convertir solo primeras 3 páginas con dpi=300
+                        logger.info(f"[PDF OCR] Convirtiendo primeras 3 páginas (dpi=300)...")
+                        images = convert_from_path(
+                            pdf_path,
+                            dpi=300,
+                            first_page=1,
+                            last_page=min(3, len(pdf.pages))
+                        )
+
+                        texto_ocr = ""
+                        for i, img in enumerate(images):
+                            logger.debug(f"[PDF OCR] Procesando página {i+1}/{len(images)}...")
+                            page_text = pytesseract.image_to_string(img, lang='spa')
+                            texto_ocr += f"\n--- OCR PÁGINA {i+1} ---\n{page_text}"
+
+                        if len(texto_ocr.strip()) > len(texto_completo.strip()):
+                            texto_completo = texto_ocr
+                            logger.info(f"[PDF OCR] ✅ OCR exitoso: {len(texto_completo)} chars extraídos")
+                            resultado['extraction_method'] = 'OCR'
+                        else:
+                            logger.warning(f"[PDF OCR] OCR no mejoró extracción ({len(texto_ocr)} vs {len(texto_completo)})")
+                            resultado['extraction_method'] = 'pdfplumber (poor)'
+
+                    except ImportError:
+                        logger.warning(f"[PDF OCR] pytesseract/pdf2image no instalados - install: pip install pytesseract pdf2image")
+                        logger.warning(f"[PDF OCR] También instalar Tesseract: brew install tesseract poppler (macOS)")
+                        resultado['extraction_method'] = 'pdfplumber (poor, OCR unavailable)'
+
+                    except Exception as e:
+                        logger.error(f"[PDF OCR] Error en OCR fallback: {type(e).__name__}: {e}")
+                        resultado['extraction_method'] = 'pdfplumber (poor, OCR failed)'
+                else:
+                    # FIX 5.4: Logger método de extracción
+                    logger.info(f"[PDF EXTRACTION] ✅ pdfplumber exitoso: {len(texto_completo)} chars")
+                    resultado['extraction_method'] = 'pdfplumber'
+
                 resultado['texto_completo'] = texto_completo
                 texto_lower = texto_completo.lower()
                 lineas = texto_completo.split('\n')
-
-                logger.debug(f"[PDF EXTENDED] Extraídas {len(pdf.pages)} páginas, {len(texto_completo)} caracteres")
 
                 # Contador de campos extraídos para calcular confianza
                 campos_extraidos = 0
@@ -1110,11 +1325,16 @@ class FondosMutuosProcessor:
                 # ============================================================
                 for linea in lineas:
                     if 'remun' in linea.lower() or 'tac serie' in linea.lower():
-                        # Buscar "Remun. Anual Máx. (%) 0,6500" o "TAC Serie 0,50%"
-                        match_comision = re.search(r'(\d+[\.,]\d+)\s*%?', linea)
+                        # FIX 4.1 & 4.4: Usar regex compilado module-level
+                        match_comision = REGEX_COMISION.search(linea)
                         if match_comision:
                             try:
                                 comision_str = match_comision.group(1).replace(',', '.')
+
+                                # FIX 4.2: Validar que no sea string vacío o solo punto
+                                if not comision_str or comision_str == '.' or comision_str == '':
+                                    continue
+
                                 comision_num = float(comision_str)
 
                                 # Si es mayor a 10, probablemente está en porcentaje
@@ -1126,7 +1346,8 @@ class FondosMutuosProcessor:
                                 campos_extraidos += 1
                                 logger.info(f"[PDF EXTENDED] Comisión admin: {resultado['comision_administracion']:.4f} ({comision_num}%)")
                                 break
-                            except ValueError:
+                            except ValueError as e:
+                                logger.debug(f"[PDF EXTENDED] Error parseando comisión: {e}")
                                 continue
 
                 # ============================================================
@@ -1152,43 +1373,51 @@ class FondosMutuosProcessor:
                 # ============================================================
                 # PATRÓN 6: RENTABILIDAD HISTÓRICA
                 # ============================================================
+                # FIX 4.3: Regex robustificado para rentabilidades (acepta ".5", "9.5", "-2.3")
                 for i, linea in enumerate(lineas):
                     if 'rentabilidades anualizadas' in linea.lower() or '1 año' in linea.lower():
                         # Buscar en las siguientes 10 líneas
                         for j in range(i, min(i + 10, len(lineas))):
                             linea_busqueda = lineas[j]
 
-                            # Patrón: "1 Año 0,48%"
-                            match_1ano = re.search(r'1\s+año\s+([-]?\d+[\.,]?\d*)\s*%', linea_busqueda, re.IGNORECASE)
+                            # Patrón: "1 Año 0,48%" - FIX 4.4: usar regex compilado
+                            match_1ano = REGEX_RENT_1ANO.search(linea_busqueda)
                             if match_1ano:
                                 try:
                                     rent_str = match_1ano.group(1).replace(',', '.')
-                                    resultado['rentabilidad_12m'] = float(rent_str) / 100
-                                    campos_extraidos += 1
-                                    logger.info(f"[PDF EXTENDED] Rentabilidad 12m: {resultado['rentabilidad_12m']:.2%}")
-                                except ValueError:
+                                    # FIX 4.2: Validar no vacío
+                                    if rent_str and rent_str not in ['.', '-', '-.']:
+                                        resultado['rentabilidad_12m'] = float(rent_str) / 100
+                                        campos_extraidos += 1
+                                        logger.info(f"[PDF EXTENDED] Rentabilidad 12m: {resultado['rentabilidad_12m']:.2%}")
+                                except ValueError as e:
+                                    logger.debug(f"[PDF EXTENDED] Error parseando rent 12m: {e}")
                                     pass
 
-                            # Patrón: "2 Años 5,5%"
-                            match_2anos = re.search(r'2\s+años?\s+([-]?\d+[\.,]?\d*)\s*%', linea_busqueda, re.IGNORECASE)
+                            # Patrón: "2 Años 5,5%" - FIX 4.4: usar regex compilado
+                            match_2anos = REGEX_RENT_2ANOS.search(linea_busqueda)
                             if match_2anos:
                                 try:
                                     rent_str = match_2anos.group(1).replace(',', '.')
-                                    resultado['rentabilidad_24m'] = float(rent_str) / 100
-                                    campos_extraidos += 1
-                                    logger.info(f"[PDF EXTENDED] Rentabilidad 24m: {resultado['rentabilidad_24m']:.2%}")
-                                except ValueError:
+                                    if rent_str and rent_str not in ['.', '-', '-.']:
+                                        resultado['rentabilidad_24m'] = float(rent_str) / 100
+                                        campos_extraidos += 1
+                                        logger.info(f"[PDF EXTENDED] Rentabilidad 24m: {resultado['rentabilidad_24m']:.2%}")
+                                except ValueError as e:
+                                    logger.debug(f"[PDF EXTENDED] Error parseando rent 24m: {e}")
                                     pass
 
-                            # Patrón: "3 Años" o "5 Años"
-                            match_3anos = re.search(r'[35]\s+años?\s+([-]?\d+[\.,]?\d*)\s*%', linea_busqueda, re.IGNORECASE)
+                            # Patrón: "3 Años" o "5 Años" - FIX 4.4: usar regex compilado
+                            match_3anos = REGEX_RENT_3ANOS.search(linea_busqueda)
                             if match_3anos:
                                 try:
                                     rent_str = match_3anos.group(1).replace(',', '.')
-                                    resultado['rentabilidad_36m'] = float(rent_str) / 100
-                                    campos_extraidos += 1
-                                    logger.info(f"[PDF EXTENDED] Rentabilidad 36m: {resultado['rentabilidad_36m']:.2%}")
-                                except ValueError:
+                                    if rent_str and rent_str not in ['.', '-', '-.']:
+                                        resultado['rentabilidad_36m'] = float(rent_str) / 100
+                                        campos_extraidos += 1
+                                        logger.info(f"[PDF EXTENDED] Rentabilidad 36m: {resultado['rentabilidad_36m']:.2%}")
+                                except ValueError as e:
+                                    logger.debug(f"[PDF EXTENDED] Error parseando rent 36m: {e}")
                                     pass
 
                 # ============================================================
@@ -1340,16 +1569,17 @@ class FondosMutuosProcessor:
             url = f"https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut={rut}&tipoentidad=RGFMU&pestania=7"
             logger.info(f"[CMF STATUS] Scraping status from: {url}")
 
-            response = self.session.get(url, timeout=15)
-            if response.status_code != 200:
-                logger.warning(f"[CMF STATUS] HTTP {response.status_code} para RUT {rut}")
+            # FIX 2.2: Usar request_with_retry para scraping status
+            response = request_with_retry(self.session, url, timeout=15)
+            if not response or response.status_code != 200:
+                logger.warning(f"[CMF STATUS] HTTP {response.status_code if response else 'None'} para RUT {rut}")
                 return resultado
 
             soup = BeautifulSoup(response.content, 'html.parser')
             texto_completo = soup.get_text()
 
-            # Pattern 1: Extract most recent date (formato DD-MM-YYYY or DD/MM/YYYY)
-            fecha_regex = r'(\d{2}[-/]\d{2}[-/]\d{4})'
+            # FIX 6.1: Pattern 1: Extract most recent date (formato DD-MM-YYYY, DD/MM/YYYY, DD-MM-YY, DD/MM/YY)
+            fecha_regex = r'(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})'
             fechas_encontradas = re.findall(fecha_regex, response.text)
 
             if fechas_encontradas:
@@ -1358,7 +1588,13 @@ class FondosMutuosProcessor:
                 fechas_parsed = []
                 for fecha_str in fechas_encontradas:
                     try:
-                        fecha = datetime.strptime(fecha_str.replace('/', '-'), '%d-%m-%Y')
+                        # FIX 6.1: Intentar formato largo (YYYY) primero, luego corto (YY)
+                        fecha_normalizada = fecha_str.replace('/', '-')
+                        try:
+                            fecha = datetime.strptime(fecha_normalizada, '%d-%m-%Y')
+                        except ValueError:
+                            # Intentar formato corto DD-MM-YY
+                            fecha = datetime.strptime(fecha_normalizada, '%d-%m-%y')
                         fechas_parsed.append(fecha)
                     except ValueError:
                         continue
@@ -1390,6 +1626,81 @@ class FondosMutuosProcessor:
                     logger.info(f"[CMF STATUS] Valor cuota: {resultado['valor_cuota']}")
                 except ValueError:
                     pass
+
+            # FIX 6.2: Fallback pestania=1 si no se encontró fecha en pestania=7
+            if not resultado['fecha_valor_cuota']:
+                logger.info(f"[CMF STATUS] No se encontró fecha en pestania=7, intentando fallback pestania=1...")
+                url_fallback = f"https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut={rut}&tipoentidad=RGFMU&pestania=1"
+
+                response_fallback = request_with_retry(self.session, url_fallback, timeout=15)
+                if response_fallback and response_fallback.status_code == 200:
+                    fechas_encontradas_fb = re.findall(fecha_regex, response_fallback.text)
+
+                    if fechas_encontradas_fb:
+                        from datetime import datetime
+                        fechas_parsed_fb = []
+                        for fecha_str in fechas_encontradas_fb:
+                            try:
+                                fecha_normalizada = fecha_str.replace('/', '-')
+                                try:
+                                    fecha = datetime.strptime(fecha_normalizada, '%d-%m-%Y')
+                                except ValueError:
+                                    fecha = datetime.strptime(fecha_normalizada, '%d-%m-%y')
+                                fechas_parsed_fb.append(fecha)
+                            except ValueError:
+                                continue
+
+                        if fechas_parsed_fb:
+                            fecha_mas_reciente_fb = max(fechas_parsed_fb)
+                            resultado['fecha_valor_cuota'] = fecha_mas_reciente_fb.strftime('%Y-%m-%d')
+                            logger.info(f"[CMF STATUS] Fecha valor cuota (fallback pestania=1): {resultado['fecha_valor_cuota']}")
+
+            # FIX 6.3: Fallback extracción desde tables HTML si regex falló en ambas pestañas
+            if not resultado['fecha_valor_cuota']:
+                logger.info(f"[CMF STATUS] Regex falló, intentando extraer fecha desde tables HTML...")
+                try:
+                    # Intentar con pestania=7 primero
+                    url_table = f"https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut={rut}&tipoentidad=RGFMU&pestania=7"
+                    response_table = request_with_retry(self.session, url_table, timeout=15)
+
+                    if response_table and response_table.status_code == 200:
+                        soup_table = BeautifulSoup(response_table.content, 'html.parser')
+
+                        # Buscar tables con class="tabla" o cualquier table
+                        tables = soup_table.find_all('table')
+
+                        for table in tables:
+                            # Buscar celdas que contengan "fecha" y extraer valor adyacente
+                            rows = table.find_all('tr')
+                            for row in rows:
+                                cells = row.find_all(['td', 'th'])
+                                for i, cell in enumerate(cells):
+                                    cell_text = cell.get_text(strip=True).lower()
+                                    if 'fecha' in cell_text and i + 1 < len(cells):
+                                        # La siguiente celda podría contener la fecha
+                                        next_cell = cells[i + 1].get_text(strip=True)
+                                        fecha_match = re.search(fecha_regex, next_cell)
+                                        if fecha_match:
+                                            from datetime import datetime
+                                            try:
+                                                fecha_str = fecha_match.group(1)
+                                                fecha_normalizada = fecha_str.replace('/', '-')
+                                                try:
+                                                    fecha = datetime.strptime(fecha_normalizada, '%d-%m-%Y')
+                                                except ValueError:
+                                                    fecha = datetime.strptime(fecha_normalizada, '%d-%m-%y')
+                                                resultado['fecha_valor_cuota'] = fecha.strftime('%Y-%m-%d')
+                                                logger.info(f"[CMF STATUS] Fecha valor cuota (table HTML): {resultado['fecha_valor_cuota']}")
+                                                break
+                                            except Exception:
+                                                continue
+                                if resultado['fecha_valor_cuota']:
+                                    break
+                            if resultado['fecha_valor_cuota']:
+                                break
+
+                except Exception as e:
+                    logger.warning(f"[CMF STATUS] Error extrayendo fecha desde tables HTML: {e}")
 
             return resultado
 
@@ -2764,19 +3075,28 @@ class FondosMutuosProcessor:
                     if portfolio_data:
                         resultado.update(portfolio_data)
 
-                # SIEMPRE intentar descargar PDF (independiente de si tiene fund_code o no)
-                logger.info(" Intentando descargar PDF del folleto informativo...")
-                # Extraer RUT base del campo que tenga (rut, rut_fondo, o rut_base)
-                # FIX: Null-safe extraction of RUT for PDF download
-                rut_fondo_split = cmf_fund.get('rut_fondo', '').split('-')[0] if cmf_fund.get('rut_fondo') else ''
-                rut_para_pdf = cmf_fund.get('rut') or rut_fondo_split or resultado.get('rut_base')
+                # FIX: Skip PDF download if fund is closed (Liquidado/Fusionado)
+                # This saves time and resources for inactive funds
+                estado_fondo = resultado.get('estado_fondo', 'Desconocido')
+                skip_pdf = estado_fondo in ['Liquidado', 'Fusionado']
 
-                # Only attempt PDF download if we have a valid RUT
-                pdf_path = None
-                if rut_para_pdf:
-                    pdf_path = self._download_pdf_from_cmf_improved(rut_para_pdf, resultado.get('run'))
+                if skip_pdf:
+                    logger.info(f" ⏭️  SKIPPING PDF download - Fondo {estado_fondo} (inactivo)")
+                    pdf_path = None
                 else:
-                    logger.warning(" No se encontró RUT válido para descargar PDF")
+                    # SIEMPRE intentar descargar PDF (independiente de si tiene fund_code o no)
+                    logger.info(" Intentando descargar PDF del folleto informativo...")
+                    # Extraer RUT base del campo que tenga (rut, rut_fondo, o rut_base)
+                    # FIX: Null-safe extraction of RUT for PDF download
+                    rut_fondo_split = cmf_fund.get('rut_fondo', '').split('-')[0] if cmf_fund.get('rut_fondo') else ''
+                    rut_para_pdf = cmf_fund.get('rut') or rut_fondo_split or resultado.get('rut_base')
+
+                    # Only attempt PDF download if we have a valid RUT
+                    pdf_path = None
+                    if rut_para_pdf:
+                        pdf_path = self._download_pdf_from_cmf_improved(rut_para_pdf, resultado.get('run'))
+                    else:
+                        logger.warning(" No se encontró RUT válido para descargar PDF")
 
                 if pdf_path:
                     # Extraer datos del PDF

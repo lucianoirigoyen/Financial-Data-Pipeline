@@ -436,3 +436,62 @@ ANTES: Fecha valor cuota: 8% (solo 8 fondos con Fintual)
 ================================================================================
 2025-12-03 15:29:34,748 - INFO - TEST COMPLETADO - Ver outputs/test_fixes/ para resultados detallados
 2025-12-03 15:29:34,748 - INFO - ================================================================================
+2025-12-04 09:41:40,551 - INFO - ================================================================================
+2025-12-04 09:41:40,552 - INFO - INICIANDO TEST DE CORRECCIONES DE PIPELINE
+2025-12-04 09:41:40,552 - INFO - ================================================================================
+2025-12-04 09:41:40,619 - INFO - [CACHE] Directorio de caché inicializado: cache/pdfs
+2025-12-04 09:41:40,620 - INFO - [CACHE] Sistema de caché ya inicializado
+2025-12-04 09:41:40,683 - INFO - [STRUCTURE] Iniciando monitoreo de estructura CMF...
+2025-12-04 09:41:40,683 - INFO - [STRUCTURE] Accediendo a: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=8052&tipoentidad=RGFMU
+2025-12-04 09:41:43,385 - ERROR - [STRUCTURE] Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-04 09:41:43,387 - INFO - [ALERT] 2025-12-04 09:41:43 | CRITICAL | Error de conexión al monitorear estructura: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-04 09:41:43,388 - ERROR - [CMF HEALTH] Status: critical ✗ - Sistema puede no funcionar
+2025-12-04 09:41:43,388 - ERROR - [CMF HEALTH] ACCIÓN REQUERIDA: Ejecutar 'python run_cmf_monitor.py' para diagnóstico completo
+2025-12-04 09:41:43,388 - ERROR - [CMF HEALTH] Errores detectados:
+2025-12-04 09:41:43,388 - ERROR - [CMF HEALTH]   - Error de conexión: 404 Client Error: Not Found for url: https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-04 09:41:43,394 - INFO - 
+================================================================================
+2025-12-04 09:41:43,394 - INFO - [1/5] PROCESANDO: BOOSTER CHINA STOCKS
+2025-12-04 09:41:43,394 - INFO - ================================================================================
+2025-12-04 09:41:43,394 - INFO -  INICIANDO PROCESAMIENTO CON SCRAPING REAL para: BOOSTER CHINA STOCKS
+2025-12-04 09:41:43,394 - INFO - ════════════════════════════════════════════════════════════
+2025-12-04 09:41:43,394 - INFO -  Fase 1: Obteniendo datos de Fintual (3 CAPAS)...
+2025-12-04 09:41:43,394 - INFO - ════════════════════════════════════════════════════════════
+2025-12-04 09:41:43,394 - INFO - [FINTUAL CAPA 1] Buscando fondo: BOOSTER CHINA STOCKS
+2025-12-04 09:41:44,040 - INFO - [FINTUAL CAPA 1] Fondo encontrado: FONDO MUTUO BOOSTER CHINA STOCKS, RUN: 8985-0, RUT: 8985
+2025-12-04 09:41:44,040 - INFO - [FINTUAL CAPA 3] Obteniendo series del fondo ID: 2224
+2025-12-04 09:41:44,551 - INFO - [FINTUAL CAPA 3] Encontradas 1 series del fondo
+2025-12-04 09:41:44,556 - INFO -  Fecha valor cuota desde Fintual: 2014-10-13
+2025-12-04 09:41:44,556 - INFO -  Datos de Fintual obtenidos para: FONDO MUTUO BOOSTER CHINA STOCKS
+2025-12-04 09:41:44,556 - INFO -  RUN: 8985-0, RUT base: 8985
+2025-12-04 09:41:44,556 - INFO -  Series encontradas: 1
+2025-12-04 09:41:44,556 - INFO - ════════════════════════════════════════════════════════════
+2025-12-04 09:41:44,556 - INFO -  Fase 2: Buscando fondo en CMF usando RUT...
+2025-12-04 09:41:44,556 - INFO - ════════════════════════════════════════════════════════════
+2025-12-04 09:41:44,556 - INFO -  [ESTRATEGIA 1] Buscando por RUT: 8985
+2025-12-04 09:41:44,556 - INFO - [CMF] Buscando fondo con RUT: 8985
+2025-12-04 09:41:46,322 - WARNING - [CMF] No se pudo acceder a la página del fondo RUT 8985: 404
+2025-12-04 09:41:46,322 - INFO -  [ESTRATEGIA 2 - Fallback] Buscando por nombre: FONDO MUTUO BOOSTER CHINA STOCKS
+2025-12-04 09:41:46,322 - INFO - Obteniendo lista completa de fondos desde CMF...
+2025-12-04 09:41:47,322 - INFO - Encontrados 1304 fondos únicos en CMF
+2025-12-04 09:41:47,329 - INFO - Fondo encontrado en CMF: BOOSTER CHINA STOCKS (score: 36.0)
+2025-12-04 09:41:47,329 - INFO -   RUT Fondo: 8985-0, RUT Admin: 96767630
+2025-12-04 09:41:47,329 - INFO -  Fondo encontrado en CMF: BOOSTER CHINA STOCKS
+2025-12-04 09:41:47,330 - INFO -  RUT CMF: None, RUT completo: None
+2025-12-04 09:41:47,330 - INFO -  Extrayendo estado y fecha_valor_cuota desde CMF...
+2025-12-04 09:41:47,330 - INFO - [CMF STATUS] Scraping status from: https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=8985&tipoentidad=RGFMU&pestania=7
+2025-12-04 09:41:48,057 - INFO - [HTTP RETRY] Redirects detectados: 2 → https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-04 09:41:48,058 - WARNING - [HTTP RETRY] HTTP 404 en https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=8985&ti, retry 1/3 en 1s
+2025-12-04 09:41:49,875 - INFO - [HTTP RETRY] Redirects detectados: 2 → https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-04 09:41:49,876 - WARNING - [HTTP RETRY] HTTP 404 en https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=8985&ti, retry 2/3 en 2s
+2025-12-04 09:41:52,613 - INFO - [HTTP RETRY] Redirects detectados: 2 → https://www.cmfchile.cl/PAGE_NOT_FOUND
+2025-12-04 09:41:52,614 - WARNING - [HTTP RETRY] HTTP 404 para https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=8985&ti - no retry
+2025-12-04 09:41:52,614 - WARNING - [CMF STATUS] HTTP None para RUT 8985
+2025-12-04 09:41:52,614 - INFO -  Intentando descargar PDF del folleto informativo...
+2025-12-04 09:41:52,614 - INFO - [CMF PDF SELENIUM] Iniciando descarga para RUT: 8985
+2025-12-04 09:41:52,617 - INFO - [CACHE] HIT - PDF encontrado en caché: 8985_UNICA
+2025-12-04 09:41:52,617 - INFO - [CACHE] ✓ PDF encontrado en caché
+2025-12-04 09:41:52,617 - INFO - ════════════════════════════════════════════════════════════
+2025-12-04 09:41:52,618 - INFO -  Fase 2.5: Extrayendo datos del PDF...
+2025-12-04 09:41:52,618 - INFO - ════════════════════════════════════════════════════════════
+2025-12-04 09:41:52,618 - INFO - [PDF EXTENDED] Extrayendo datos extendidos de: cache/pdfs/8985_UNICA.pdf
