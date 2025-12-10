@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bci europa garant ii",
+  "nombre": "Bci Europa Garant Ii",
+  "nombre_cmf": "BCI EUROPA GARANT II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Bci Europa Garant II es un fondo mutuo mixto que combina inversiones en diferentes activos para buscar un equilibrio entre rentabilidad y riesgo. Su estrategia de inversión se enfoca en diversificar el portafolio entre acciones, bonos y otros instrumentos financieros, principalmente en empresas europeas. Esto significa que parte de tu dinero se destinará a compañías que cotizan en la bolsa de valores europea, así como a bonos emitidos por entidades de la región.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su dinero y la posibilidad de obtener una rentabilidad superior a la ofrecida por instrumentos de ahorro tradicionales. Si estás dispuesto a asumir cierto nivel de riesgo para potencialmente obtener mayores ganancias, este fondo puede ser una buena opción para ti.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Esto significa que, si bien existe la posibilidad de obtener rendimientos superiores a la media, también conlleva un grado de incertidumbre y volatilidad en el valor de tus inversiones. Por ejemplo, si las empresas europeas en las que invierte el fondo atraviesan un período de dificultades económicas, es probable que el valor de tus participaciones disminuya.\n\nEl horizonte de inversión recomendado para el Bci Europa Garant II es a medio y largo plazo. Esto significa que debes estar dispuesto a mantener tu dinero invertido durante al menos varios años para poder aprovechar el potencial de crecimiento de tus inversiones. Si necesitas liquidez en el corto plazo, este fondo puede no ser la mejor opción, ya que su rendimiento puede fluctuar en el corto plazo.\n\nUna ventaja de este fondo es la diversificación que ofrece al invertir en diferentes activos, lo que puede ayudar a reducir el riesgo de pérdida significativa en caso de que una parte del portafolio no tenga un desempeño favorable. Sin embargo, una posible desventaja es que al invertir en empresas europeas, estás expuesto a los riesgos asociados con la economía de la región, como cambios políticos o fluctuaciones en los mercados financieros.\n\nEn resumen, el Bci Europa Garant II es adecuado para jóvenes inversores chilenos con un perfil de riesgo medio que buscan diversificar sus inversiones y están dispuestos a asumir cierto nivel de riesgo a cambio de potenciales rendimientos. Si estás buscando una opción para invertir a mediano y largo plazo, este",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9197-9",
+    "rut_admin": "96767630",
+    "nombre": "BCI EUROPA GARANT II",
+    "full_id": "96767630_9197-9",
+    "source": "javascript"
+  }
+}

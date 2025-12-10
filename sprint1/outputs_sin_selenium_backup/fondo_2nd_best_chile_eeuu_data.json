@@ -1,0 +1,86 @@
+{
+  "fondo_id": "2nd best chile eeuu",
+  "nombre": "2Nd Best Chile Eeuu",
+  "nombre_cmf": "2ND BEST CHILE EEUU",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo 2Nd Best Chile Eeuu es una opción mixta que combina inversiones en Chile y Estados Unidos con un enfoque en deuda. Su estrategia busca obtener rendimientos a través de una cartera diversificada, donde la mayor parte de los activos se concentra en Chile (83.4%) y en instrumentos de deuda (80.1%). Además, se aplicará un porcentaje del fondo sobre otro activo en un 50%, manteniendo como máximo un 30% de la inversión total en este último.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio que buscan diversificación y un equilibrio entre seguridad y potencial de crecimiento. Si bien existe una exposición a la deuda y a un activo específico, la diversificación en distintos mercados permite reducir el riesgo asociado a la inversión.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Al invertir en una combinación de activos en Chile y Estados Unidos, así como en deuda, se busca equilibrar la posibilidad de obtener ganancias con cierto nivel de seguridad.\n\nEl horizonte de inversión recomendado para el fondo 2Nd Best Chile Eeuu es a medio-largo plazo, ya que permite aprovechar las oportunidades de crecimiento de los mercados en los que invierte y mitigar posibles fluctuaciones a corto plazo.\n\nEn cuanto a ventajas, este fondo ofrece una diversificación geográfica y de activos que puede reducir el impacto de eventos negativos en un mercado específico. Sin embargo, como desventaja, la concentración en Chile y en deuda puede limitar el potencial de crecimiento en comparación con fondos más arriesgados.\n\nEn resumen, el fondo 2Nd Best Chile Eeuu es ideal para inversores con un perfil de riesgo medio que buscan diversificación y un equilibrio entre seguridad y potencial de crecimiento a medio-largo plazo. Es importante tener en cuenta que, si bien el fondo ha tenido una rentabilidad positiva en los últimos 12 meses, es crucial monitorear el rendimiento y ajustar la estrategia según las condiciones del mercado.",
+  "composicion_portafolio": [
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 0.8343
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.8009999999999999
+    },
+    {
+      "activo": "aplicará sobre el",
+      "porcentaje": 0.5
+    },
+    {
+      "activo": "manteniendo invertido como máximo el",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Dólar",
+      "porcentaje": 0.2477
+    },
+    {
+      "activo": "Peso chileno",
+      "porcentaje": 0.20329999999999998
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.1852
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "EEUU",
+      "porcentaje": 0.0667
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0537
+    },
+    {
+      "activo": "Otros",
+      "porcentaje": 0.050499999999999996
+    },
+    {
+      "activo": "Brasil",
+      "porcentaje": 0.0332
+    },
+    {
+      "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+      "porcentaje": 0.033
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0329
+    }
+  ],
+  "rentabilidad_anual": 0.0926,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8963-K",
+    "rut_admin": "96767630",
+    "nombre": "2ND BEST CHILE EEUU",
+    "full_id": "96767630_8963-K",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Mediano Plazo",
+  "comision_administracion": 0.0151
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "eficiente",
+  "nombre": "Eficiente",
+  "nombre_cmf": "EFICIENTE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Eficiente\" es una opción ideal para aquellos inversores chilenos que buscan un equilibrio entre rendimiento y riesgo. Este fondo pertenece a la categoría mixta, lo que significa que combina activos de renta variable y renta fija para diversificar su cartera y potenciar la rentabilidad a largo plazo. Su estrategia de inversión se enfoca en obtener ganancias a través de la combinación de distintos tipos de activos, lo que permite mitigar los riesgos asociados a la volatilidad del mercado.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, para aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener mayores rendimientos. Si eres un joven inversor chileno que está dispuesto a asumir un nivel moderado de riesgo en busca de un crecimiento gradual de tu patrimonio, \"Eficiente\" puede ser una excelente opción para diversificar tu portafolio.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo \"Eficiente\" no está disponible públicamente, pero se espera que contenga una combinación de acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como otros instrumentos financieros. Esta diversificación contribuye a reducir la exposición a riesgos específicos de cada mercado y sector, lo que puede ser beneficioso para los inversores.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de los instrumentos de renta fija y el potencial de crecimiento de la renta variable. Si bien existe la posibilidad de que el valor de tu inversión fluctúe en el corto plazo debido a los movimientos del mercado, en el largo plazo se espera que este fondo genere rendimientos superiores a los instrumentos más conservadores.\n\nEl horizonte de inversión recomendado para el fondo \"Eficiente\" es a mediano y largo plazo, ya que permite aprovechar los beneficios de la diversificación y superar posibles fluctuaciones del mercado a lo largo del tiempo. Es importante tener en cuenta que, como cualquier inversión, es fundamental mantener una visión a largo plazo y no dejarse llevar por la volatilidad del mercado en el corto plazo.\n\nEn resumen, el fondo mutuo \"Eficiente\" es una opción atractiva para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rendimiento. Sus ventajas radican en la diversificación de activos, su enfoque en el equilibrio entre renta fija y variable, y su potencial",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8730-0",
+    "rut_admin": "96767630",
+    "nombre": "EFICIENTE",
+    "full_id": "96767630_8730-0",
+    "source": "javascript"
+  }
+}

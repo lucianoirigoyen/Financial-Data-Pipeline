@@ -1,0 +1,23 @@
+{
+  "fondo_id": "toescamm",
+  "nombre": "Toescamm",
+  "nombre_cmf": "TOESCAMM",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Toescamm es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable, buscando maximizar el rendimiento a través de una estrategia diversificada. Este fondo se caracteriza por tener un perfil de riesgo medio, lo que significa que puede experimentar ciertas fluctuaciones en su valor, pero con la posibilidad de obtener mayores retornos a largo plazo.\n\nToescamm está diseñado para inversores que buscan un equilibrio entre riesgo y retorno, es decir, aquellos que no quieren asumir riesgos extremos pero que tampoco desean limitar su potencial de crecimiento. Es ideal para jóvenes que buscan comenzar a invertir de manera más activa, diversificando su cartera y participando en los mercados financieros.\n\nEn cuanto a los activos en los que invierte, la composición exacta de Toescamm no está disponible públicamente, pero se sabe que diversifica su cartera entre acciones, bonos y otros instrumentos financieros. Esto le permite aprovechar las oportunidades de crecimiento del mercado de valores, al tiempo que se protege frente a posibles caídas en el mercado de renta fija.\n\nEn términos simples, el nivel de riesgo de Toescamm se puede comparar con la idea de caminar por un sendero con algunas piedras en el camino: hay cierto riesgo de tropezar, pero si se camina con precaución y se eligen bien los pasos, se puede avanzar de manera segura. Es importante tener en cuenta que, al tratarse de un fondo mixto, la volatilidad del mercado puede influir en su desempeño.\n\nEn cuanto al horizonte de inversión recomendado, Toescamm es ideal para aquellos inversores que tienen un horizonte a medio y largo plazo, es decir, que están dispuestos a mantener su inversión durante varios años para aprovechar al máximo su potencial de crecimiento. Aunque puede haber fluctuaciones a corto plazo, la estrategia diversificada del fondo busca generar rendimientos atractivos en el largo plazo.\n\nEn resumen, Toescamm es una opción atractiva para jóvenes inversores chilenos que buscan diversificar su cartera y obtener un equilibrio entre riesgo y retorno. Si bien presenta la posibilidad de obtener rendimientos interesantes, es importante mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones del mercado. Como recomendación, se sugiere a los inversores analizar su tolerancia al riesgo y objetivos financieros antes de invertir en este fondo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9421-8",
+    "rut_admin": "96767630",
+    "nombre": "TOESCAMM",
+    "full_id": "96767630_9421-8",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm cc deuda latam ig",
+  "nombre": "Fm Cc Deuda Latam Ig",
+  "nombre_cmf": "FM CC DEUDA LATAM IG",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Credicorp Capital Deuda Latam Ig es una alternativa de inversión mixta que busca combinar activos de renta fija y renta variable de países de América Latina, con el objetivo de obtener un rendimiento atractivo. Su estrategia de inversión se centra en aprovechar las oportunidades que ofrecen los mercados latinoamericanos, diversificando el riesgo a través de diferentes instrumentos financieros.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan obtener un equilibrio entre rentabilidad y seguridad en sus inversiones. Es importante tener en cuenta que, al tratarse de un fondo mixto, la volatilidad de los mercados puede influir en su desempeño, por lo que se recomienda tener una visión a mediano plazo y una tolerancia moderada al riesgo.\n\nEn cuanto a los activos en los que invierte, este fondo principalmente destina sus recursos a bonos y acciones de empresas latinoamericanas, así como a instrumentos de deuda emitidos por gobiernos de la región. Esto le otorga una diversificación geográfica que puede beneficiar la cartera del inversor, al tiempo que expone a los movimientos de los mercados regionales.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, ya que combina activos de renta fija y renta variable que pueden fluctuar en valor en función de las condiciones del mercado. Si bien esto implica cierto grado de incertidumbre, también ofrece la posibilidad de obtener rendimientos superiores en comparación con opciones más conservadoras.\n\nEl horizonte de inversión recomendado para este fondo es a mediano o largo plazo, ya que permite aprovechar las oportunidades de crecimiento de los mercados latinoamericanos a lo largo del tiempo. Es importante tener en cuenta que, como cualquier inversión, es fundamental mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones a corto plazo del mercado.\n\nEn resumen, el Fondo Mutuo Credicorp Capital Deuda Latam Ig es una opción atractiva para inversionistas con un perfil de riesgo moderado que buscan diversificar su cartera con activos latinoamericanos. Si bien ofrece la posibilidad de obtener rendimientos interesantes, es importante tener en cuenta la volatilidad inherente a este tipo de fondos y mantener una estrategia de inversión a largo plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9365-3",
+    "rut_admin": "96767630",
+    "nombre": "FM CC DEUDA LATAM IG",
+    "full_id": "96767630_9365-3",
+    "source": "javascript"
+  }
+}

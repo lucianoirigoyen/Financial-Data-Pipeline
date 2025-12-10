@@ -1,0 +1,23 @@
+{
+  "fondo_id": "imperial ii",
+  "nombre": "Imperial Ii",
+  "nombre_cmf": "IMPERIAL II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Imperial II es una opción de inversión mixta que busca combinar activos de renta fija y renta variable para diversificar el riesgo y potenciar la rentabilidad a mediano plazo. Su estrategia de inversión se centra en aprovechar las oportunidades del mercado tanto en bonos como en acciones, manteniendo un equilibrio entre seguridad y potencial de crecimiento. Aunque la composición exacta del fondo no está disponible, su enfoque diversificado sugiere una gestión activa y flexible para adaptarse a las condiciones del mercado.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan obtener rendimientos superiores a los instrumentos de renta fija tradicionales, pero que están dispuestos a asumir cierto grado de volatilidad en su cartera. Ideal para aquellos que buscan un equilibrio entre seguridad y rendimiento, el fondo Imperial II ofrece la oportunidad de participar en el crecimiento de los mercados de acciones y bonos, sin exponerse completamente a los vaivenes del mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se ubica en un punto intermedio, ya que al combinar activos de renta fija y renta variable, se logra una diversificación que ayuda a mitigar las fluctuaciones del mercado. Si bien no se dispone de datos específicos sobre los activos en los que invierte, se espera que el fondo mantenga una cartera equilibrada entre instrumentos de deuda y acciones, lo que puede ofrecer una protección relativa frente a posibles caídas bruscas en un solo tipo de activo.\n\nEl horizonte de inversión recomendado para el fondo Imperial II es a mediano plazo, lo que significa que los inversionistas deben estar dispuestos a mantener su inversión por un período de al menos 3 a 5 años para aprovechar al máximo su potencial de crecimiento. Es importante tener en cuenta que, aunque este fondo puede experimentar fluctuaciones en el corto plazo, a largo plazo se espera que genere rendimientos sólidos gracias a su enfoque diversificado.\n\nEn cuanto a ventajas, el fondo Imperial II ofrece la posibilidad de obtener rendimientos atractivos gracias a su exposición tanto a la renta fija como a la renta variable, lo que puede resultar en un equilibrio entre seguridad y potencial de crecimiento. Sin embargo, como desventaja, la falta de transparencia en la composición del fondo puede generar incertidumbre en los inversionistas que prefieren conocer en detalle en qué activos están invirtiendo.\n\nEn resumen, el fondo Imperial II es una opción atractiva para inversionistas con",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8535-9",
+    "rut_admin": "96767630",
+    "nombre": "IMPERIAL II",
+    "full_id": "96767630_8535-9",
+    "source": "javascript"
+  }
+}

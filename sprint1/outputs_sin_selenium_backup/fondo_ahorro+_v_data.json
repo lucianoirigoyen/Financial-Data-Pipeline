@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ahorro+ v",
+  "nombre": "Ahorro+ V",
+  "nombre_cmf": "AHORRO+ V",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Ahorro+ V es una excelente opción para aquellos inversores chilenos que buscan una alternativa de inversión mixta con un perfil de riesgo medio. Este tipo de fondo combina tanto activos de renta fija como de renta variable, lo que le brinda cierta diversificación a la cartera. Su estrategia de inversión se enfoca en buscar un equilibrio entre la generación de rentabilidad y la protección del capital, lo que lo convierte en una opción atractiva para aquellos que buscan un crecimiento moderado pero constante de sus inversiones.\n\nEste fondo es adecuado para inversores que estén dispuestos a asumir un nivel de riesgo moderado en busca de mayores rendimientos que los que ofrecen las inversiones más conservadoras. Si eres un joven inversor que está dispuesto a aceptar cierto grado de volatilidad en el corto plazo a cambio de potencialmente obtener mejores retornos a largo plazo, Ahorro+ V podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, la composición principal del fondo no está disponible, lo cual puede dificultar la evaluación detallada de sus inversiones. Sin embargo, generalmente los fondos mixtos como Ahorro+ V suelen invertir en una combinación de bonos, acciones y otros instrumentos financieros, lo que les permite diversificar el riesgo de la cartera.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que existe la posibilidad de experimentar cierta volatilidad en el valor de las inversiones, pero también se espera obtener rendimientos moderadamente superiores a los activos de renta fija tradicionales. Es importante tener en cuenta que, si bien el riesgo es moderado, siempre existe la posibilidad de que el valor de las inversiones fluctúe en función de las condiciones del mercado.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores que opten por Ahorro+ V tengan un enfoque a medio y largo plazo. Dado el perfil de riesgo medio del fondo, es importante mantener una perspectiva a largo plazo para permitir que las inversiones se desarrollen y se recuperen de posibles fluctuaciones a corto plazo.\n\nEn resumen, Ahorro+ V es una opción atractiva para inversores jóvenes con un perfil de riesgo moderado que buscan diversificar su cartera y obtener rendimientos superiores a los activos de renta fija tradicionales. Sin embargo, es importante recordar que, como en cualquier inversión, existen riesgos asociados y es fundamental realizar un",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10737-9",
+    "rut_admin": "96767630",
+    "nombre": "AHORRO+ V",
+    "full_id": "96767630_10737-9",
+    "source": "javascript"
+  }
+}

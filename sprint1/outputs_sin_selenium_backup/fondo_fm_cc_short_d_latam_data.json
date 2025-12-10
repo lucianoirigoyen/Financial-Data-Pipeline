@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm cc short d latam",
+  "nombre": "Fm Cc Short D Latam",
+  "nombre_cmf": "FM CC SHORT D LATAM",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Credicorp Capital Short Duration Latam es una opción de inversión mixta que busca obtener rendimientos a través de una combinación de instrumentos de renta fija y renta variable en Latinoamérica. Su estrategia de inversión se enfoca en aprovechar las oportunidades de corto plazo en la región, manteniendo una exposición equilibrada tanto a activos de mayor riesgo como a activos más seguros.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan diversificar sus inversiones en la región latinoamericana. Si bien no se especifica la composición principal del fondo, se espera que invierta en una variedad de instrumentos financieros, como bonos corporativos, acciones de empresas latinoamericanas y potencialmente derivados financieros.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Esto significa que, si bien puede ofrecer rendimientos atractivos, también conlleva un nivel de volatilidad moderado. Es importante que los inversionistas comprendan que en el corto plazo pueden experimentar fluctuaciones en el valor de su inversión, pero en el largo plazo se espera que se vean beneficiados por el potencial de crecimiento de los activos en los que invierte el fondo.\n\nEn cuanto al horizonte de inversión recomendado, este fondo es más adecuado para inversionistas que tengan un plazo de inversión a medio plazo, es decir, de al menos 2 a 5 años. Esto se debe a que la estrategia del fondo está diseñada para aprovechar oportunidades en el corto plazo, pero también para beneficiarse de tendencias a más largo plazo en la región.\n\nEntre las ventajas de este fondo se encuentran la posibilidad de diversificar la cartera con activos latinoamericanos, lo que puede proporcionar exposición a mercados emergentes con potencial de crecimiento. Sin embargo, una posible desventaja podría ser la volatilidad que puede experimentar en periodos de incertidumbre económica en la región.\n\nEn resumen, el Fondo Mutuo Credicorp Capital Short Duration Latam es una opción a considerar para inversionistas con un perfil de riesgo medio que buscan diversificar sus inversiones en Latinoamérica. Se recomienda tener un horizonte de inversión a medio plazo y estar preparado para enfrentar cierto nivel de volatilidad en el corto plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10087-0",
+    "rut_admin": "96767630",
+    "nombre": "FM CC SHORT D LATAM",
+    "full_id": "96767630_10087-0",
+    "source": "javascript"
+  }
+}

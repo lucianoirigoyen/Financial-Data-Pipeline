@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci dc estr",
+  "nombre": "Fm Bci Dc Estr",
+  "nombre_cmf": "FM BCI DC ESTR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Diversificado Estratégico es una alternativa de inversión mixta que busca combinar activos de renta fija y renta variable para diversificar el riesgo y potencializar las ganancias. Su estrategia se basa en adaptarse a diferentes condiciones del mercado, buscando obtener un equilibrio entre rentabilidad y seguridad.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre obtener rendimientos atractivos y mantener cierto nivel de protección de su capital. Si eres un joven inversor que está dispuesto a asumir un nivel moderado de riesgo en busca de mayores retornos, este fondo podría ser una opción adecuada para ti.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible públicamente, pero se espera que incluya una combinación de bonos, acciones y otros instrumentos financieros. Esto le permite al fondo aprovechar las oportunidades tanto en el mercado de renta fija como en el de renta variable, diversificando así el riesgo y buscando maximizar los rendimientos.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Aunque puede experimentar cierta volatilidad en su valoración, la combinación de activos busca mitigar los impactos negativos en momentos de turbulencia del mercado. Es importante tener en cuenta que, como todo fondo de inversión, existen riesgos asociados a las fluctuaciones del mercado y a la gestión de los activos por parte de los administradores.\n\nEl horizonte de inversión recomendado para este fondo es a mediano plazo, es decir, al menos unos 3 a 5 años. Esto se debe a que, al ser un fondo mixto, puede tomar cierto tiempo para que la estrategia de inversión se desarrolle completamente y se alcancen los objetivos planteados. Además, un plazo más amplio permite suavizar las posibles fluctuaciones a corto plazo y aprovechar las oportunidades de crecimiento a largo plazo.\n\nEn cuanto a ventajas, este fondo ofrece la posibilidad de obtener rendimientos atractivos con un nivel de riesgo controlado, ideal para jóvenes inversores que buscan diversificar su cartera. Sin embargo, es importante tener en cuenta que, al ser un fondo mixto, no está exento de posibles fluctuaciones en su valoración, por lo que se recomienda tener una visión a largo plazo y ser paciente en momentos de volatilidad.\n\nEn resumen, el Fondo Mutuo Bci Diversificado Estratégico es una opción a considerar para jóvenes inversores ch",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9226-6",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI DC ESTR",
+    "full_id": "96767630_9226-6",
+    "source": "javascript"
+  }
+}

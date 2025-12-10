@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bonos internacional",
+  "nombre": "Bonos Internacional",
+  "nombre_cmf": "BONOS INTERNACIONAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Bonos Internacional es una alternativa mixta que combina tanto activos de renta fija como de renta variable, buscando diversificar el riesgo y aprovechar oportunidades en distintos mercados a nivel global. Su estrategia de inversión se enfoca en obtener rendimientos atractivos a mediano plazo, manteniendo un equilibrio entre estabilidad y potencial de crecimiento.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan obtener un retorno superior al de instrumentos tradicionales como depósitos a plazo, pero sin asumir una exposición excesiva a movimientos bruscos del mercado. Es ideal para aquellos que desean diversificar su cartera y no están dispuestos a asumir un riesgo elevado.\n\nLos principales activos en los que invierte el fondo Bonos Internacional incluyen bonos corporativos y gubernamentales de distintas economías internacionales, así como acciones de empresas globales con un enfoque en solidez financiera y potencial de crecimiento a largo plazo. Esta diversificación geográfica y sectorial contribuye a reducir la volatilidad y aumentar la estabilidad del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de los bonos y la potencial rentabilidad de las acciones. Si bien existe la posibilidad de variaciones en el valor de la inversión en el corto plazo, a largo plazo se espera que la combinación de activos en el fondo genere un retorno adecuado para el riesgo asumido.\n\nEl horizonte de inversión recomendado para el fondo Bonos Internacional es de al menos 3 a 5 años, ya que permite aprovechar mejor los ciclos económicos y minimizar los efectos de la volatilidad a corto plazo. Es importante tener en cuenta que, si bien la rentabilidad pasada no garantiza resultados futuros, la estrategia diversificada del fondo puede contribuir a un desempeño sólido a lo largo del tiempo.\n\nEntre las ventajas de este fondo se encuentran la diversificación global, la gestión profesional de los activos y la posibilidad de acceder a mercados internacionales de manera sencilla. Sin embargo, es importante tener en cuenta que las fluctuaciones del mercado pueden afectar el valor de la inversión en el corto plazo, por lo que es fundamental mantener una visión a largo plazo y no dejarse llevar por movimientos temporales.\n\nEn resumen, el fondo Bonos Internacional es una opción atractiva para inversionistas chilenos con un perfil de riesgo medio que buscan diversificar su cartera y obtener un retorno",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8279-1",
+    "rut_admin": "96767630",
+    "nombre": "BONOS INTERNACIONAL",
+    "full_id": "96767630_8279-1",
+    "source": "javascript"
+  }
+}

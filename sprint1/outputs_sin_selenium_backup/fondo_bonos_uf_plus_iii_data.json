@@ -1,0 +1,57 @@
+{
+  "fondo_id": "bonos uf plus iii",
+  "nombre": "FONDO MUTUO ESTRUCTURADO BONOS UF PLUS III",
+  "nombre_cmf": "BONOS UF PLUS III",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Estructurado Bonos UF Plus III es una alternativa de inversión mixta que busca combinar la estabilidad de los bonos en Unidades de Fomento (UF) con la posibilidad de obtener rendimientos adicionales a través de estrategias diversificadas. Su objetivo principal es generar un equilibrio entre la seguridad y el potencial de crecimiento a mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan obtener un retorno superior al de productos de renta fija tradicionales, pero sin asumir un nivel de riesgo elevado. Por lo tanto, es una opción atractiva para jóvenes que desean invertir parte de sus ahorros con la intención de obtener un rendimiento superior al de una cuenta de ahorro tradicional, sin exponerse a grandes fluctuaciones en el valor de sus inversiones.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente, pero suele incluir bonos en UF emitidos por entidades públicas y privadas, así como otros instrumentos financieros que buscan diversificar el riesgo y maximizar los rendimientos. Esto proporciona a los inversionistas una cartera equilibrada que puede adaptarse a diferentes condiciones del mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la renta fija y la renta variable. Esto significa que si bien existe la posibilidad de obtener mayores ganancias que con bonos tradicionales, también se asume un riesgo mayor en comparación con fondos conservadores. Es importante tener en cuenta que, aunque el riesgo es moderado, siempre existe la posibilidad de que el valor de las inversiones fluctúe en función de las condiciones del mercado.\n\nEn cuanto al horizonte de inversión recomendado, este fondo es más adecuado para aquellos inversores que tienen un horizonte a mediano plazo, es decir, que están dispuestos a mantener sus inversiones por un período de al menos tres a cinco años. Esto se debe a que, en el corto plazo, el valor de las inversiones puede verse afectado por la volatilidad del mercado, pero a medida que pasa el tiempo, se espera que el fondo pueda generar rendimientos más consistentes.\n\nEn resumen, el Fondo Mutuo Estructurado Bonos UF Plus III ofrece a los jóvenes inversionistas chilenos la oportunidad de diversificar sus inversiones y obtener un rendimiento atractivo sin asumir un nivel de riesgo excesivo. Es importante tener en cuenta que, si bien este fondo presenta ventajas en términos de equ",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "symbol": "FFMM-BANCHILE-9733",
+  "category": "mutual_fund",
+  "currency": null,
+  "run": "9733-0",
+  "rut_base": "9733",
+  "conceptual_asset_id": "2644",
+  "data_source": "http://www.cmfchile.cl",
+  "series": [
+    {
+      "serie": "A",
+      "name": "FONDO MUTUO ESTRUCTURADO BONOS UF PLUS III",
+      "symbol": "FFMM-BANCHILE-9733-A",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2021-06-01",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    },
+    {
+      "serie": "BCH",
+      "name": "FONDO MUTUO ESTRUCTURADO BONOS UF PLUS III",
+      "symbol": "FFMM-BANCHILE-9733-BCH",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2021-06-01",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    }
+  ],
+  "fecha_valor_cuota": "2021-06-01",
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9733-0",
+    "rut_admin": "96767630",
+    "nombre": "BONOS UF PLUS III",
+    "full_id": "96767630_9733-0",
+    "source": "javascript"
+  }
+}

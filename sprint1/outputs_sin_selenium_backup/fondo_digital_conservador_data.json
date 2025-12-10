@@ -1,0 +1,23 @@
+{
+  "fondo_id": "digital conservador",
+  "nombre": "Digital Conservador",
+  "nombre_cmf": "DIGITAL CONSERVADOR",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo de inversión Digital Conservador es una excelente opción para aquellos inversionistas que buscan proteger su capital y obtener rendimientos estables a lo largo del tiempo. Este fondo se caracteriza por su enfoque conservador, lo que significa que busca minimizar el riesgo al invertir en activos de bajo riesgo, como bonos del gobierno y depósitos a plazo. Su estrategia de inversión se centra en preservar el capital y generar un retorno modesto pero constante en el largo plazo.\n\nEste fondo es ideal para inversionistas con un perfil de riesgo bajo, es decir, aquellos que prefieren evitar la volatilidad del mercado y priorizan la seguridad de su inversión por sobre la posibilidad de obtener altas ganancias en el corto plazo. Si eres un joven inversionista que valora la estabilidad y la tranquilidad financiera, el Digital Conservador podría ser la opción perfecta para ti.\n\nEn cuanto a los activos en los que invierte este fondo, su composición exacta no está disponible públicamente. Sin embargo, es probable que esté compuesto principalmente por bonos del gobierno, certificados de depósito y otros instrumentos de renta fija de bajo riesgo. Estos activos suelen ofrecer un rendimiento moderado pero constante, lo que se alinea con la estrategia conservadora del fondo.\n\nEn términos simples, el nivel de riesgo del Digital Conservador es bajo, lo que significa que las fluctuaciones en el valor de la inversión son mínimas y es poco probable que se experimenten pérdidas significativas en el corto plazo. Si bien esto puede limitar el potencial de ganancias, también ofrece una mayor seguridad y estabilidad en momentos de incertidumbre en los mercados financieros.\n\nEl horizonte de inversión recomendado para el Digital Conservador es a medio y largo plazo. Dado su enfoque conservador, este fondo es ideal para inversionistas que buscan mantener su capital a salvo y obtener un retorno estable a lo largo de los años. Si tienes metas financieras a largo plazo, como la compra de una casa o la jubilación, este fondo podría ser una pieza clave en tu cartera de inversión.\n\nEn resumen, el Digital Conservador es una opción sólida para inversionistas jóvenes que buscan proteger su capital y obtener rendimientos estables a lo largo del tiempo. Si valoras la seguridad y la estabilidad por sobre la posibilidad de altas ganancias, este fondo podría ser el complemento perfecto para tu cartera de inversión. ¡Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión!",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10480-9",
+    "rut_admin": "96767630",
+    "nombre": "DIGITAL CONSERVADOR",
+    "full_id": "96767630_10480-9",
+    "source": "javascript"
+  }
+}

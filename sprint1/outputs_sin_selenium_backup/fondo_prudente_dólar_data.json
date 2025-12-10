@@ -1,0 +1,86 @@
+{
+  "fondo_id": "prudente dólar",
+  "nombre": "Prudente Dólar",
+  "nombre_cmf": "PRUDENTE DÓLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Prudente Dólar es una opción de inversión mixta que busca un equilibrio entre seguridad y potencial de crecimiento. Su estrategia se centra en invertir principalmente en activos de renta fija, como bonos y deuda chilena, con una exposición limitada a activos de riesgo, como acciones. Esto significa que el fondo busca generar ganancias principalmente a través de la estabilidad de los mercados de deuda, con un pequeño porcentaje destinado a inversiones más arriesgadas que podrían brindar mayores retornos.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, que buscan un equilibrio entre seguridad y potencial de crecimiento. Es ideal para aquellos que desean obtener rendimientos estables a largo plazo sin asumir un riesgo excesivo en sus inversiones. Si bien no ofrece la posibilidad de altas ganancias como fondos de renta variable, proporciona una mayor seguridad y estabilidad en momentos de volatilidad del mercado.\n\nEn cuanto a los activos en los que invierte, el Prudente Dólar concentra aproximadamente el 95% de sus inversiones en Chile, principalmente en activos de deuda, lo que lo hace menos expuesto a fluctuaciones abruptas de precios en comparación con fondos que invierten en acciones de empresas. Además, mantiene un porcentaje limitado de inversión en activos de mayor riesgo, como acciones, para diversificar su cartera y buscar potenciales retornos adicionales.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de un viaje en automóvil por una carretera conocida y en buenas condiciones. Si bien existen ciertos riesgos inherentes a cualquier inversión, como la posibilidad de que los bonos emisores no cumplan con sus obligaciones, el fondo Prudente Dólar busca minimizar estos riesgos al invertir en activos de alta calidad y diversificar su cartera.\n\nEl horizonte de inversión recomendado para el Prudente Dólar es a medio y largo plazo, ya que su estrategia se basa en generar ganancias de forma consistente a lo largo del tiempo. Se recomienda a los inversores mantener sus posiciones en el fondo durante al menos 3 a 5 años para poder beneficiarse de su enfoque de inversión a largo plazo y minimizar el impacto de posibles fluctuaciones a corto plazo en los mercados.\n\nEn resumen, el fondo mutuo Prudente Dólar es una opción sólida para inversores con un perfil de riesgo medio que buscan estabilidad y crecimiento moderado en sus",
+  "composicion_portafolio": [
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 0.8343
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.8009999999999999
+    },
+    {
+      "activo": "aplicará sobre el",
+      "porcentaje": 0.5
+    },
+    {
+      "activo": "manteniendo invertido como máximo el",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Dólar",
+      "porcentaje": 0.2477
+    },
+    {
+      "activo": "Peso chileno",
+      "porcentaje": 0.20329999999999998
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.1852
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "EEUU",
+      "porcentaje": 0.0667
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0537
+    },
+    {
+      "activo": "Otros",
+      "porcentaje": 0.050499999999999996
+    },
+    {
+      "activo": "Brasil",
+      "porcentaje": 0.0332
+    },
+    {
+      "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+      "porcentaje": 0.033
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0329
+    }
+  ],
+  "rentabilidad_anual": 0.0926,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10147-8",
+    "rut_admin": "96767630",
+    "nombre": "PRUDENTE DÓLAR",
+    "full_id": "96767630_10147-8",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Mediano Plazo",
+  "comision_administracion": 0.0151
+}

@@ -1,0 +1,45 @@
+{
+  "fondo_id": "twin win usa",
+  "nombre": "FONDO MUTUO TWIN WIN USA",
+  "nombre_cmf": "TWIN WIN USA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Twin Win USA es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable en el mercado estadounidense. Su estrategia busca obtener rendimientos atractivos a través de la diversificación de su cartera, aprovechando las oportunidades que ofrecen tanto acciones como bonos en el mercado norteamericano.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la obtención de retornos interesantes y la preservación del capital invertido. Si eres un joven inversor en Chile que desea invertir en el mercado internacional sin asumir un riesgo extremo, el Fondo Mutuo Twin Win USA puede ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte este fondo, su composición exacta no está disponible públicamente, pero se sabe que tiene exposición tanto a acciones de empresas estadounidenses como a bonos del gobierno y corporativos de ese país. Esta diversificación sectorial y geográfica contribuye a reducir la volatilidad de la cartera y a minimizar el impacto de eventos adversos en un solo mercado.\n\nEn términos simples, el nivel de riesgo del Fondo Mutuo Twin Win USA se encuentra en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Aunque puede experimentar fluctuaciones en su valor, la diversificación de activos busca mitigar estos movimientos bruscos, ofreciendo una inversión más estable que invertir directamente en acciones individuales.\n\nEl horizonte de inversión recomendado para este fondo es a medio y largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Si estás dispuesto a mantener tu inversión durante varios años y no te dejas llevar por las fluctuaciones a corto plazo del mercado, el Fondo Mutuo Twin Win USA podría ser adecuado para ti.\n\nUna ventaja de este fondo es su diversificación, que reduce el riesgo de concentrar tu dinero en un solo tipo de activo. Sin embargo, una posible desventaja es la falta de transparencia en la composición exacta de la cartera, lo que puede dificultar la evaluación detallada de los activos en los que estás invirtiendo.\n\nEn resumen, el Fondo Mutuo Twin Win USA es una alternativa interesante para jóvenes inversores chilenos que buscan diversificar su cartera con activos internacionales, asumiendo un nivel de riesgo moderado. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "symbol": "FFMM-BANCHILE-8936",
+  "category": "mutual_fund",
+  "currency": null,
+  "run": "8936-2",
+  "rut_base": "8936",
+  "conceptual_asset_id": "2620",
+  "data_source": "http://www.cmfchile.cl",
+  "series": [
+    {
+      "serie": "UNICA",
+      "name": "FONDO MUTUO TWIN WIN USA",
+      "symbol": "FFMM-BANCHILE-8936-UNICA",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2013-11-22",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    }
+  ],
+  "fecha_valor_cuota": "2013-11-22",
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8936-2",
+    "rut_admin": "96767630",
+    "nombre": "TWIN WIN USA",
+    "full_id": "96767630_8936-2",
+    "source": "javascript"
+  }
+}

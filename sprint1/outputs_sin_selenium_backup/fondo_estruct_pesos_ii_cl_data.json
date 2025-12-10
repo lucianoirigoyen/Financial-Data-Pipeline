@@ -1,0 +1,23 @@
+{
+  "fondo_id": "estruct pesos ii cl",
+  "nombre": "Estruct Pesos Ii Cl",
+  "nombre_cmf": "ESTRUCT PESOS II CL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Estruct Pesos II Cl es una alternativa de inversión mixta que busca combinar activos de renta fija y renta variable para diversificar riesgos y potenciar rendimientos. Su estrategia de inversión se enfoca en aprovechar las oportunidades que ofrecen los distintos mercados, adaptándose a las condiciones económicas y financieras del momento.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener mayores ganancias a largo plazo. Si bien no se dispone de información específica sobre su composición principal, se espera que invierta en una combinación de bonos, acciones y otros instrumentos financieros.\n\nEn términos simples, el nivel de riesgo asociado a este fondo mixto se encuentra en un punto intermedio. Esto significa que, si bien existe la posibilidad de obtener rendimientos más atractivos que con fondos conservadores, también se asume un mayor nivel de volatilidad en el valor de la inversión. Es importante tener en cuenta que el riesgo está presente en cualquier inversión, y la clave está en comprenderlo y gestionarlo de manera adecuada.\n\nEn cuanto al horizonte de inversión recomendado, este fondo es más adecuado para aquellos inversionistas que buscan mantener su dinero invertido por un periodo de tiempo medio a largo plazo, generalmente más de un año. Esto se debe a que la combinación de activos en los que invierte puede necesitar tiempo para madurar y mostrar su potencial de rentabilidad.\n\nUna ventaja de este fondo es su capacidad para diversificar la cartera de inversiones, lo que puede ayudar a mitigar riesgos y maximizar oportunidades. Por otro lado, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de sus activos, lo que puede dificultar la toma de decisiones informadas por parte del inversionista.\n\nEn resumen, el fondo mutuo Estruct Pesos II Cl es una opción atractiva para inversionistas con un perfil moderado que buscan diversificar su cartera y obtener rendimientos competitivos a mediano y largo plazo. Se recomienda a los jóvenes inversionistas chilenos interesados en este fondo que analicen su tolerancia al riesgo y sus objetivos financieros antes de invertir, y que consulten con un asesor financiero si es necesario.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10314-4",
+    "rut_admin": "96767630",
+    "nombre": "ESTRUCT PESOS II CL",
+    "full_id": "96767630_10314-4",
+    "source": "javascript"
+  }
+}

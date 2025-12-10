@@ -1,0 +1,23 @@
+{
+  "fondo_id": "deuda susten.dólar",
+  "nombre": "Deuda Susten.Dólar",
+  "nombre_cmf": "DEUDA SUSTEN.DÓLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Deuda Susten.Dólar es una opción de inversión mixta en el mercado chileno, diseñada para aquellos inversionistas con un perfil de riesgo medio. Este fondo busca combinar activos de renta fija y variable, con el objetivo de obtener un equilibrio entre crecimiento y estabilidad en el largo plazo.\n\nEste tipo de fondo es adecuado para inversionistas jóvenes que buscan un crecimiento moderado de su capital sin exponerse a riesgos extremos. Si bien no disponemos de información específica sobre la composición principal del fondo, es probable que invierta en una combinación de bonos corporativos, bonos del gobierno y posiblemente algunas acciones locales o extranjeras.\n\nEn términos simples, el nivel de riesgo de Deuda Susten.Dólar se puede comparar con el de caminar por una calle bien iluminada en comparación con una calle oscura. Aunque siempre existe un riesgo inherente en cualquier inversión, este fondo busca minimizarlo a través de una diversificación cuidadosa de activos.\n\nEl horizonte de inversión recomendado para este fondo es a medio y largo plazo, lo que significa que es importante tener una visión a futuro y no dejarse llevar por fluctuaciones a corto plazo en el mercado. Si estás pensando en invertir en Deuda Susten.Dólar, es importante tener en cuenta que los resultados pueden variar en el corto plazo, pero la estrategia a largo plazo puede ofrecer buenos rendimientos.\n\nUna ventaja de este fondo es su enfoque equilibrado entre riesgo y rendimiento, lo que lo hace atractivo para aquellos que desean crecimiento con cierta estabilidad. Sin embargo, una posible desventaja es la falta de transparencia en la composición exacta de los activos, lo que podría generar incertidumbre en algunos inversionistas.\n\nEn resumen, Deuda Susten.Dólar es una opción interesante para jóvenes inversionistas chilenos con un perfil de riesgo medio que buscan un equilibrio entre crecimiento y estabilidad. Si estás dispuesto a asumir cierto riesgo a cambio de potenciales rendimientos a largo plazo, este fondo podría ser adecuado para ti. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10393-4",
+    "rut_admin": "96767630",
+    "nombre": "DEUDA SUSTEN.DÓLAR",
+    "full_id": "96767630_10393-4",
+    "source": "javascript"
+  }
+}

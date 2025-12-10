@@ -1,0 +1,23 @@
+{
+  "fondo_id": "lv ahorro activo",
+  "nombre": "Lv Ahorro Activo",
+  "nombre_cmf": "LV AHORRO ACTIVO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Lv Ahorro Activo es una opción de inversión mixta que combina activos de renta fija y renta variable. Su estrategia busca aprovechar las oportunidades de ambos mercados para obtener un crecimiento moderado a mediano plazo. Aunque la composición principal del fondo no está disponible públicamente, se puede inferir que diversifica su cartera para reducir el riesgo y maximizar las oportunidades de rendimiento.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, para aquellos que buscan un equilibrio entre la seguridad de su capital y el potencial de obtener mayores retornos. Si eres un joven inversor que está dispuesto a asumir cierto nivel de riesgo en busca de crecimiento, Lv Ahorro Activo podría ser una opción a considerar.\n\nEn términos simples, Lv Ahorro Activo invierte en una variedad de activos, que pueden incluir bonos corporativos, acciones de empresas locales e internacionales, y otros instrumentos financieros. Esta diversificación ayuda a mitigar el riesgo inherente a cada tipo de activo, ya que si uno no tiene un desempeño óptimo, otros pueden compensarlo.\n\nEl nivel de riesgo de este fondo se ubica en un punto intermedio, lo que significa que existe la posibilidad de enfrentar fluctuaciones en el valor de la inversión, pero con un potencial de retorno superior al de fondos conservadores. Es importante recordar que todo inversor debe estar preparado para ver variaciones en el valor de su inversión a corto plazo, pero manteniendo la visión de obtener ganancias a largo plazo.\n\nEn cuanto al horizonte de inversión recomendado, Lv Ahorro Activo es ideal para quienes buscan mantener su inversión por un período de al menos 3 a 5 años. Esto permite que el fondo tenga el tiempo necesario para sortear posibles periodos de volatilidad en los mercados y maximizar el potencial de crecimiento de sus activos.\n\nEntre las ventajas de este fondo se encuentran la diversificación de la cartera, que reduce el riesgo individual de cada activo, y la posibilidad de obtener retornos superiores a los de fondos más conservadores. Sin embargo, una posible desventaja podría ser que, al ser un fondo mixto, su desempeño puede variar dependiendo de las condiciones del mercado.\n\nEn resumen, Lv Ahorro Activo es una opción atractiva para inversores jóvenes con un perfil de riesgo medio que buscan un equilibrio entre seguridad y potencial de crecimiento. Si estás dispuesto a asumir cierto riesgo a cambio de mayores rendimientos, este fondo mixto podría",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10260-1",
+    "rut_admin": "96767630",
+    "nombre": "LV AHORRO ACTIVO",
+    "full_id": "96767630_10260-1",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "temático global",
+  "nombre": "Temático Global",
+  "nombre_cmf": "TEMÁTICO GLOBAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes una descripción amigable del fondo mutuo \"Temático Global\":\n\nEl fondo mutuo \"Temático Global\" es una opción de inversión mixta que busca diversificar tu dinero en diferentes activos a nivel internacional. Su estrategia de inversión combina tanto acciones como bonos, lo que le permite adaptarse a distintas condiciones del mercado. Aunque la composición exacta del fondo no está disponible públicamente, su enfoque temático le permite invertir en sectores específicos, como tecnología, salud o energía, según las tendencias globales del momento.\n\nEste fondo es ideal para inversionistas con un perfil de riesgo medio, que buscan obtener rendimientos atractivos sin asumir una exposición excesiva al mercado. Si estás dispuesto a aceptar cierto nivel de volatilidad en tus inversiones a cambio de potenciales ganancias, \"Temático Global\" puede ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, \"Temático Global\" puede tener participaciones en empresas tecnológicas líderes a nivel mundial, bonos emitidos por gobiernos de países desarrollados, o incluso en fondos cotizados (ETFs) especializados en sectores específicos. Esto le brinda una diversificación geográfica y sectorial, reduciendo el riesgo asociado a la concentración en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Si bien puede experimentar fluctuaciones en su valor, el enfoque diversificado ayuda a mitigar parte de este riesgo. Es importante recordar que toda inversión conlleva cierto grado de riesgo, y es fundamental tener claro cuánto estás dispuesto a tolerar antes de tomar una decisión de inversión.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas mantengan su dinero en \"Temático Global\" a mediano o largo plazo, al menos por un período de 3 a 5 años. Esto permite que el fondo se beneficie de las tendencias a largo plazo, amortiguando posibles caídas temporales en el corto plazo.\n\nUna de las ventajas de este fondo es su enfoque global, que te permite acceder a oportunidades de inversión en diferentes partes del mundo sin la necesidad de seleccionar activos individualmente. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del fondo, lo que limita la visibilidad sobre las inversiones específicas.\n\nEn resumen, el fondo mutuo \"Temático Global\" puede ser una alternativa atractiva para inversionistas con un perfil de riesgo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10009-9",
+    "rut_admin": "96767630",
+    "nombre": "TEMÁTICO GLOBAL",
+    "full_id": "96767630_10009-9",
+    "source": "javascript"
+  }
+}

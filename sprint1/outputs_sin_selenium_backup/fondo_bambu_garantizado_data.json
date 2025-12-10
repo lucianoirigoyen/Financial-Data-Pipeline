@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bambu garantizado",
+  "nombre": "Bambu Garantizado",
+  "nombre_cmf": "BAMBU GARANTIZADO",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo Bambu Garantizado es una excelente opción para aquellos inversores que buscan preservar su capital y obtener rendimientos seguros a lo largo del tiempo. Este fondo, clasificado como conservador, se caracteriza por su bajo nivel de riesgo, lo que lo convierte en una alternativa atractiva para quienes prefieren una estrategia de inversión más cautelosa.\n\nEste tipo de fondo conservador se enfoca en la protección del capital y en minimizar los riesgos asociados a la volatilidad del mercado. Por lo general, los fondos conservadores suelen invertir en activos de bajo riesgo, como bonos del Estado o instrumentos de renta fija de alta calidad crediticia. Aunque la composición exacta del Bambu Garantizado no está disponible, es probable que se base en este tipo de activos seguros.\n\nEl perfil de riesgo bajo de este fondo lo hace adecuado para inversores que no están dispuestos a asumir grandes riesgos en sus inversiones y prefieren la estabilidad y la seguridad. Por ejemplo, si eres un joven inversor chileno que está comenzando a invertir y desea proteger tus ahorros sin exponerte a fluctuaciones bruscas en el mercado, el Bambu Garantizado podría ser una opción adecuada para ti.\n\nEn términos simples, el nivel de riesgo de este fondo es comparable a guardar tu dinero en una caja fuerte en lugar de arriesgarlo en inversiones más arriesgadas como acciones de empresas emergentes. Si bien esto significa que es poco probable que experimentes grandes ganancias, también es poco probable que pierdas una cantidad significativa de dinero.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondos suele ser más adecuado para inversiones a corto y mediano plazo, ya que su enfoque en la preservación del capital puede limitar el potencial de crecimiento a largo plazo. Si estás buscando una inversión a largo plazo con mayores posibilidades de rendimiento, es posible que desees considerar otras opciones de fondos con perfiles de riesgo más altos.\n\nEn resumen, el fondo Bambu Garantizado es una alternativa segura y estable para los inversores que priorizan la protección de su capital sobre la búsqueda de altos rendimientos. Sin embargo, es importante recordar que, si bien este tipo de fondos ofrecen seguridad, también pueden limitar el potencial de ganancias a largo plazo. Antes de invertir, asegúrate de evaluar tu perfil de riesgo y tus objetivos financieros para determinar si este fondo se ajusta a tus necesidades como joven inversor chileno.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8418-2",
+    "rut_admin": "96767630",
+    "nombre": "BAMBU GARANTIZADO",
+    "full_id": "96767630_8418-2",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci estruc 120 ii",
+  "nombre": "Fm Bci Estruc 120 Ii",
+  "nombre_cmf": "FM BCI ESTRUC 120 II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Estruc 120 II es una alternativa de inversión mixta que combina activos de renta fija y renta variable. Esta estrategia busca aprovechar las oportunidades de ambos mercados para obtener un rendimiento equilibrado. Aunque la composición principal del fondo no está disponible, su perfil de riesgo se clasifica como medio, lo que significa que puede experimentar fluctuaciones moderadas en su valor.\n\nEste fondo es adecuado para inversionistas que buscan un equilibrio entre riesgo y retorno. Si tienes un horizonte de inversión a mediano plazo y estás dispuesto a asumir cierto nivel de volatilidad en busca de mayores rendimientos, este fondo podría ser una opción a considerar. Es importante tener en cuenta que, al tratarse de un fondo mixto, la diversificación de activos puede ayudar a mitigar parte del riesgo inherente.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, es probable que incluya bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos de deuda gubernamental. Esta diversificación puede brindar exposición a diferentes clases de activos y geografías, lo que ayuda a reducir la concentración de riesgos en un solo tipo de inversión.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Esto significa que, si bien existe la posibilidad de obtener rendimientos más atractivos en comparación con fondos más conservadores, también se asume un nivel de volatilidad mayor. Es importante tener en cuenta tu tolerancia personal al riesgo y tu horizonte de inversión al considerar este tipo de fondo.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bci Estruc 120 II es a mediano plazo, generalmente entre 3 a 5 años. Esto se debe a que, al combinar activos de renta fija y renta variable, el fondo puede necesitar tiempo para mostrar su verdadero potencial de rentabilidad. Por lo tanto, es importante mantener una visión a largo plazo y no dejarse llevar por fluctuaciones a corto plazo.\n\nEn resumen, el Fondo Mutuo Bci Estruc 120 II es una opción interesante para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera. Aunque ofrece la posibilidad de obtener rendimientos atractivos, es importante tener en cuenta la volatilidad asociada con este tipo de fondos mixtos. Antes de invertir, asegúrate de comprender tus objetivos financieros y consultar con un asesor para determinar si este fondo se ajusta a tus necesidades",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9457-9",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI ESTRUC 120 II",
+    "full_id": "96767630_9457-9",
+    "source": "javascript"
+  }
+}

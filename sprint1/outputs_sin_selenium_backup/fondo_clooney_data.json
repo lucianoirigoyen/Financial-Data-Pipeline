@@ -1,0 +1,23 @@
+{
+  "fondo_id": "clooney",
+  "nombre": "Clooney",
+  "nombre_cmf": "CLOONEY",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Clooney es una excelente opción para aquellos inversionistas que buscan un equilibrio entre riesgo y rendimiento. Se trata de un fondo mixto, lo que significa que invierte tanto en acciones como en bonos u otros instrumentos financieros, diversificando así su cartera y buscando obtener ganancias a través de diferentes fuentes.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en sus inversiones a cambio de la posibilidad de obtener mayores retornos. Por lo tanto, se recomienda para personas que buscan un crecimiento moderado de su capital a mediano plazo, sin exponerse a riesgos extremos.\n\nAunque la composición principal del fondo no está disponible, generalmente los fondos mixtos como Clooney suelen invertir en una variedad de activos como acciones de empresas consolidadas, bonos de gobierno o corporativos, y otros instrumentos financieros diversificados. Esta diversificación ayuda a reducir el riesgo y a maximizar las oportunidades de rendimiento.\n\nEn términos simples, el nivel de riesgo de este fondo podría compararse con conducir a una velocidad moderada en una carretera bien pavimentada. Existe cierta posibilidad de que el camino se ponga un poco irregular, pero en general, se espera que el viaje sea suave y seguro. Es importante recordar que todos los fondos de inversión conllevan cierto grado de riesgo, por lo que es fundamental entender y estar cómodo con el nivel de riesgo asociado a cada fondo en el que se invierte.\n\nPara aquellos interesados en invertir en el fondo Clooney, se recomienda tener un horizonte de inversión a mediano o largo plazo, idealmente de al menos 3 a 5 años. Esto se debe a que los fondos mixtos como este suelen necesitar tiempo para que sus estrategias se materialicen y para superar posibles periodos de volatilidad en los mercados.\n\nEn cuanto a ventajas, Clooney ofrece una diversificación de activos que puede ayudar a reducir el riesgo de pérdida en comparación con invertir directamente en acciones individuales. Sin embargo, una posible desventaja podría ser que, al ser un fondo mixto, su rendimiento pueda estar limitado en comparación con fondos más agresivos que invierten únicamente en acciones.\n\nEn resumen, el fondo de inversión Clooney es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener un crecimiento moderado a mediano plazo. Es importante siempre analizar detenidamente tus objetivos",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9568-0",
+    "rut_admin": "96767630",
+    "nombre": "CLOONEY",
+    "full_id": "96767630_9568-0",
+    "source": "javascript"
+  }
+}

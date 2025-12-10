@@ -1,0 +1,23 @@
+{
+  "fondo_id": "retail dólar",
+  "nombre": "Retail Dólar",
+  "nombre_cmf": "RETAIL DÓLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Retail Dólar es una opción de inversión mixta que combina activos tanto de renta fija como de renta variable, buscando diversificar el riesgo y maximizar el rendimiento. Su estrategia de inversión se enfoca en aprovechar las oportunidades tanto del mercado local como del mercado internacional, especialmente en dólares. Aunque la composición exacta del fondo no está disponible, se espera que contenga una combinación de bonos, acciones, y posiblemente otros instrumentos financieros.\n\nEste fondo está dirigido a inversores con un perfil de riesgo medio, lo que significa que están dispuestos a asumir cierto grado de volatilidad en busca de mayores retornos a largo plazo. Es importante destacar que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de sus activos. Por lo tanto, es fundamental que los inversionistas comprendan y estén cómodos con la posibilidad de ver variaciones en el valor de su inversión a lo largo del tiempo.\n\nEn términos simples, el nivel de riesgo del fondo Retail Dólar se encuentra en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Esto significa que, si bien puede ofrecer rendimientos superiores a los instrumentos de renta fija tradicionales, también conlleva un grado de incertidumbre en comparación con opciones más conservadoras.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo es más adecuado para inversores a largo plazo que buscan construir un portafolio diversificado y están dispuestos a mantener su inversión durante al menos varios años. Dado que las fluctuaciones en el mercado pueden influir en el desempeño del fondo en el corto plazo, es importante tener una visión a largo plazo y no dejarse llevar por movimientos temporales del mercado.\n\nUna ventaja de invertir en el fondo Retail Dólar es la posibilidad de acceder a diferentes clases de activos y mercados a través de una sola inversión, lo que puede ayudar a reducir el riesgo y aumentar la rentabilidad potencial. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición del fondo, lo que dificulta una evaluación precisa de los riesgos asociados.\n\nEn resumen, el fondo mutuo Retail Dólar es una opción atractiva para inversores con un perfil de riesgo medio que buscan diversificar su portafolio y acceder a oportunidades tanto locales como internacionales. Para sacar el máximo provecho de este fondo, se recomienda tener una visión a largo plazo, estar",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8367-4",
+    "rut_admin": "96767630",
+    "nombre": "RETAIL DÓLAR",
+    "full_id": "96767630_8367-4",
+    "source": "javascript"
+  }
+}

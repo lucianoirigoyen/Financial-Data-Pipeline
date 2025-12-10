@@ -1,0 +1,23 @@
+{
+  "fondo_id": "portafolio mixto-25",
+  "nombre": "Portafolio Mixto-25",
+  "nombre_cmf": "PORTAFOLIO MIXTO-25",
+  "tipo_fondo": "Balanceado",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Portafolio Mixto-25 es una opción de inversión balanceada diseñada para aquellos inversores que buscan un equilibrio entre riesgo y rendimiento. Su estrategia de inversión combina tanto activos de renta fija como de renta variable, lo que le permite diversificar su cartera y potencialmente obtener ganancias a largo plazo. \n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, para aquellos que están dispuestos a asumir cierto grado de volatilidad en busca de mayores retornos. Si eres un joven inversor chileno que desea invertir de manera prudente pero con la posibilidad de obtener rendimientos interesantes, el Portafolio Mixto-25 puede ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible, pero se puede esperar que el fondo tenga una combinación de bonos, acciones y otros instrumentos financieros. Esta diversificación ayuda a mitigar el riesgo asociado con la volatilidad de los mercados, ya que si un tipo de activo se desempeña mal, otros pueden compensar esas pérdidas.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que existe la posibilidad de enfrentar fluctuaciones en el valor de tus inversiones, pero también la oportunidad de obtener mayores rendimientos en comparación con opciones más conservadoras. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles pérdidas en el corto plazo.\n\nEl horizonte de inversión recomendado para el Portafolio Mixto-25 es a mediano a largo plazo, idealmente más de cinco años. Esto se debe a que, al tener una combinación de activos de diferentes clases, el fondo está diseñado para crecer y adaptarse a las condiciones del mercado a lo largo del tiempo, permitiendo que las inversiones maduren y se beneficien de eventuales recuperaciones.\n\nEn resumen, el Portafolio Mixto-25 es una alternativa atractiva para jóvenes inversores chilenos que desean diversificar su cartera de forma equilibrada y obtener rendimientos potenciales a mediano y largo plazo. Si bien ofrece la posibilidad de obtener ganancias, es importante recordar que todo inversión conlleva cierto nivel de riesgo, por lo que es fundamental entender tus objetivos financieros y tolerancia al riesgo antes de invertir en este fondo mutuo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8148-5",
+    "rut_admin": "96767630",
+    "nombre": "PORTAFOLIO MIXTO-25",
+    "full_id": "96767630_8148-5",
+    "source": "javascript"
+  }
+}

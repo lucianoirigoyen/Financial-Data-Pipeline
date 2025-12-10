@@ -1,0 +1,23 @@
+{
+  "fondo_id": "esg deuda latam",
+  "nombre": "Esg Deuda Latam",
+  "nombre_cmf": "ESG DEUDA LATAM",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Esg Deuda Latam es una excelente opción para aquellos inversores chilenos que buscan una combinación equilibrada de riesgo y rentabilidad. Este fondo se clasifica como mixto, lo que significa que invierte tanto en activos de renta fija como de renta variable en América Latina, con un enfoque en criterios ambientales, sociales y de gobierno corporativo (ESG por sus siglas en inglés). A través de esta estrategia, el fondo busca maximizar el rendimiento financiero a la vez que promueve prácticas sostenibles en las empresas en las que invierte.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en sus inversiones a cambio de obtener mayores rendimientos a largo plazo. Si eres un joven inversor que busca diversificar tu portafolio y contribuir al desarrollo sostenible, el Esg Deuda Latam puede ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte este fondo, lamentablemente la composición principal no está disponible públicamente. Sin embargo, es probable que el fondo tenga una combinación de bonos y acciones de empresas latinoamericanas que cumplen con los criterios ESG. Esto puede incluir compañías comprometidas con la protección del medio ambiente, la equidad de género y la transparencia en sus operaciones.\n\nEn términos de riesgo, el Esg Deuda Latam se sitúa en un nivel medio. Esto significa que si bien existe la posibilidad de experimentar fluctuaciones en el valor de la inversión en el corto plazo, a largo plazo se esperaría obtener rendimientos superiores a los de una inversión conservadora. Es importante tener en cuenta que, como en cualquier inversión, el valor de tus participaciones puede variar y es fundamental mantener una visión a largo plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas consideren mantener su dinero invertido en el Esg Deuda Latam por un periodo de al menos 3 a 5 años. Esto permitirá aprovechar al máximo el potencial de crecimiento de las empresas en las que invierte el fondo, así como mitigar posibles fluctuaciones a corto plazo.\n\nEn resumen, el fondo mutuo Esg Deuda Latam ofrece a los jóvenes inversores chilenos la oportunidad de diversificar su portafolio, contribuir a prácticas sostenibles y obtener rendimientos atractivos a mediano y largo plazo. Si estás dispuesto a asumir un nivel moderado de riesgo y tienes un horizonte de invers",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8946-K",
+    "rut_admin": "96767630",
+    "nombre": "ESG DEUDA LATAM",
+    "full_id": "96767630_8946-K",
+    "source": "javascript"
+  }
+}

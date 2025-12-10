@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci est estra dp",
+  "nombre": "Fm Bci Est Estra Dp",
+  "nombre_cmf": "FM BCI EST ESTRA DP",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Estilo Estratégico Dólar Peso es una opción de inversión mixta que busca combinar diferentes activos para lograr un equilibrio entre rentabilidad y riesgo. Su estrategia de inversión se basa en diversificar el portafolio entre distintos instrumentos financieros, como acciones, bonos y otros activos, con el objetivo de maximizar las ganancias a largo plazo.\n\nEste fondo está diseñado para un perfil de inversor con un nivel de tolerancia al riesgo medio, es decir, para aquellos que buscan obtener un rendimiento superior al de inversiones conservadoras, pero sin asumir un riesgo excesivo. Es ideal para personas que desean invertir a mediano plazo y están dispuestas a aceptar cierta volatilidad en el valor de sus inversiones.\n\nEn cuanto a los activos en los que invierte, el Fondo Mutuo Bci Estilo Estratégico Dólar Peso puede incluir acciones de empresas locales e internacionales, bonos corporativos, instrumentos del mercado monetario y otros activos financieros. Esta diversificación contribuye a reducir el riesgo asociado a la inversión en un solo tipo de activo y a aprovechar oportunidades de crecimiento en diferentes mercados.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de inversiones conservadoras como los depósitos a plazo y la volatilidad de inversiones más arriesgadas como las acciones individuales. Si bien puede experimentar fluctuaciones en su valor, el objetivo es generar un rendimiento atractivo a largo plazo sin comprometer la estabilidad de la inversión.\n\nPara obtener los mejores resultados, se recomienda un horizonte de inversión a mediano o largo plazo, ya que esto permite al fondo superar eventuales fluctuaciones del mercado y capitalizar oportunidades de crecimiento a lo largo del tiempo. Es importante recordar que las inversiones en fondos mutuos no garantizan rentabilidades positivas y es fundamental mantener una visión a largo plazo para lograr los objetivos financieros deseados.\n\nEntre las ventajas de este fondo se encuentran la diversificación de riesgos, la posibilidad de acceder a diferentes clases de activos y la gestión profesional por parte del equipo de expertos de Bci. Sin embargo, es importante tener en cuenta que las comisiones asociadas a este tipo de fondos pueden afectar la rentabilidad final de la inversión.\n\nEn resumen, el Fondo Mutuo Bci Estilo Estratégico Dólar Peso es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su portafolio y obtener",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9727-6",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI EST ESTRA DP",
+    "full_id": "96767630_9727-6",
+    "source": "javascript"
+  }
+}

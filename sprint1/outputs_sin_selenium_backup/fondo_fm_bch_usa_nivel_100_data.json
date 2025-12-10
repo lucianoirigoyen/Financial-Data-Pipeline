@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch usa nivel 100",
+  "nombre": "Fm Bch Usa Nivel 100",
+  "nombre_cmf": "FM BCH USA NIVEL 100",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch Usa Nivel 100 es una opción de inversión mixta que combina activos de renta fija y renta variable en el mercado estadounidense. Su estrategia busca obtener rendimientos a mediano plazo, manteniendo un equilibrio entre seguridad y potencial de crecimiento. Aunque la composición exacta de sus inversiones no está disponible, su enfoque diversificado puede ofrecer beneficios tanto en momentos de estabilidad como de volatilidad en los mercados financieros.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, para quienes buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener mayores rendimientos. Si bien no es tan conservador como un fondo de renta fija pura, tampoco asume el nivel de riesgo asociado a fondos de renta variable pura. Por lo tanto, es una opción atractiva para aquellos que desean diversificar su cartera sin exponerse a niveles extremos de volatilidad.\n\nEn cuanto a los activos en los que invierte, al tratarse de un fondo mixto con enfoque en Estados Unidos, es probable que incluya acciones de empresas americanas, bonos del gobierno o corporativos, así como instrumentos del mercado monetario. Esta diversificación sectorial y geográfica contribuye a reducir el riesgo asociado a la concentración en un solo tipo de activo o región.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Aunque no está exento de posibles fluctuaciones en su valor, la combinación de activos de renta fija y variable tiende a suavizar los impactos de los movimientos del mercado. Es importante recordar que toda inversión conlleva cierto grado de riesgo, por lo que es fundamental tener claridad sobre las expectativas de rendimiento y la tolerancia a posibles pérdidas.\n\nEn cuanto al horizonte de inversión recomendado, este fondo suele ser más adecuado para inversionistas que tengan un plazo de al menos tres a cinco años. Dado su enfoque en la diversificación y la estabilidad a mediano plazo, puede ser una opción interesante para aquellos que buscan construir un patrimonio de forma progresiva sin asumir riesgos excesivos.\n\nEn resumen, el Fondo Mutuo Bch Usa Nivel 100 ofrece una combinación equilibrada de seguridad y potencial de crecimiento para inversores con un perfil de riesgo medio. Su diversificación y enfoque a mediano plazo lo convierten en una alternativa atractiva para aquellos",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10433-7",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH USA NIVEL 100",
+    "full_id": "96767630_10433-7",
+    "source": "javascript"
+  }
+}

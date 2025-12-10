@@ -1,0 +1,23 @@
+{
+  "fondo_id": "oportunidad dolar",
+  "nombre": "Oportunidad Dolar",
+  "nombre_cmf": "OPORTUNIDAD DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro, estaré encantado de ayudarte con eso! Aquí tienes la descripción del fondo mutuo \"Oportunidad Dólar\" para jóvenes inversores chilenos:\n\nEl fondo mutuo \"Oportunidad Dólar\" es una alternativa de inversión mixta que busca combinar activos en pesos y dólares para diversificar el portafolio y aprovechar oportunidades en ambos mercados. Su estrategia de inversión se enfoca en generar rendimientos atractivos a mediano plazo, manteniendo un nivel de riesgo moderado. Esto significa que, si bien existe la posibilidad de obtener ganancias interesantes, también se busca proteger el capital invertido en un horizonte de tiempo razonable.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener retornos superiores a los ofrecidos por instrumentos más conservadores. Si estás dispuesto a asumir cierto nivel de riesgo para potencialmente obtener mayores ganancias, \"Oportunidad Dólar\" podría ser una opción a considerar.\n\nLos principales activos en los que invierte este fondo no están disponibles públicamente, pero se sabe que combina posiciones en moneda extranjera, bonos corporativos y acciones locales, entre otros. Esta diversificación permite reducir la exposición a un solo tipo de activo y aumentar las posibilidades de obtener rendimientos consistentes en diferentes escenarios de mercado.\n\nEn términos simples, el nivel de riesgo de \"Oportunidad Dólar\" se encuentra en un punto intermedio entre fondos más conservadores y aquellos de mayor riesgo. Esto significa que, si bien no es tan seguro como un fondo monetario, tampoco es tan volátil como un fondo de renta variable pura. Es importante tener en cuenta que, como en cualquier inversión, existe la posibilidad de que el valor de las participaciones varíe en el tiempo, tanto al alza como a la baja.\n\nEl horizonte de inversión recomendado para este fondo es a mediano plazo, idealmente de al menos 2 a 5 años. Esto se debe a que las estrategias de inversión mixtas suelen requerir un tiempo suficiente para mostrar resultados consistentes y superar posibles fluctuaciones a corto plazo en los mercados financieros. Es importante tener paciencia y mantener una visión a largo plazo para aprovechar al máximo las oportunidades de crecimiento.\n\nEn resumen, \"Oportunidad Dólar\" puede ser una opción interesante para jóvenes inversores chilenos que buscan diversificar su portafolio y obtener rendimientos",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8648-7",
+    "rut_admin": "96767630",
+    "nombre": "OPORTUNIDAD DOLAR",
+    "full_id": "96767630_8648-7",
+    "source": "javascript"
+  }
+}

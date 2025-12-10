@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bi dinamico",
+  "nombre": "Bi Dinamico",
+  "nombre_cmf": "BI DINAMICO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Bi Dinámico es una excelente opción para aquellos inversores que buscan un equilibrio entre riesgo y rentabilidad. Se trata de un fondo mixto, lo que significa que combina tanto activos de renta variable como de renta fija en su cartera. Su estrategia de inversión se enfoca en aprovechar las oportunidades de crecimiento en el mercado, manteniendo al mismo tiempo una cierta estabilidad a través de la diversificación de sus inversiones.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores rendimientos a largo plazo. Si bien el fondo Bi Dinámico no revela su composición principal, es probable que invierta en una variedad de activos como acciones, bonos y otros instrumentos financieros, buscando maximizar los beneficios para sus partícipes.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, ya que al combinar diferentes tipos de activos, se busca mitigar las posibles pérdidas que podrían derivarse de la volatilidad del mercado. Es importante tener en cuenta que, si bien este tipo de fondos puede ofrecer mayores rendimientos, también conlleva un cierto grado de incertidumbre.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores consideren mantener su posición en el fondo Bi Dinámico a medio o largo plazo, ya que esto permitirá aprovechar al máximo las oportunidades de crecimiento y recuperar posibles fluctuaciones a lo largo del tiempo.\n\nUna de las ventajas de este fondo es su potencial para generar rendimientos atractivos, gracias a su estrategia diversificada. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición de sus inversiones, lo que podría generar incertidumbre en los inversores más conservadores.\n\nEn resumen, el fondo Bi Dinámico es una opción interesante para inversionistas con un perfil de riesgo medio que buscan obtener rendimientos atractivos a través de una estrategia diversificada. Se recomienda a los inversores que comprendan y estén dispuestos a asumir cierto nivel de riesgo, y que tengan un horizonte de inversión a medio o largo plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9693-8",
+    "rut_admin": "96767630",
+    "nombre": "BI DINAMICO",
+    "full_id": "96767630_9693-8",
+    "source": "javascript"
+  }
+}

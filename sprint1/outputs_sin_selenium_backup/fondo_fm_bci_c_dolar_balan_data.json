@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci c dolar balan",
+  "nombre": "Fm Bci C Dolar Balan",
+  "nombre_cmf": "FM BCI C DOLAR BALAN",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Dólar Balanceado es una opción de inversión mixta dirigida a aquellos inversores que desean diversificar su cartera con un nivel medio de riesgo. Este tipo de fondo combina inversiones en instrumentos de renta fija y variable, buscando obtener rendimientos estables a largo plazo.\n\nEste fondo es adecuado para inversionistas que buscan un equilibrio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Si eres un joven inversor con un perfil moderado que está dispuesto a asumir un cierto nivel de riesgo en busca de mayores rendimientos, este fondo podría ser adecuado para ti.\n\nEn términos generales, el Fondo Mutuo Bci Dólar Balanceado invierte en una variedad de activos, como bonos, acciones y otros instrumentos financieros, tanto locales como internacionales. Al diversificar su cartera de esta manera, el fondo busca minimizar el impacto de posibles fluctuaciones en los mercados financieros y maximizar el potencial de rendimiento.\n\nEn cuanto al nivel de riesgo, este fondo se considera de riesgo medio, lo que significa que existe la posibilidad de obtener tanto rendimientos positivos como negativos. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de volatilidad y es posible que haya periodos en los que el valor de la inversión pueda disminuir.\n\nEn términos de horizonte de inversión, se recomienda que los inversores mantengan su dinero invertido en este fondo a mediano o largo plazo, con un horizonte temporal de al menos 3 a 5 años. Esto se debe a que, en el corto plazo, los movimientos del mercado pueden afectar el valor de la inversión, pero a medida que el tiempo avanza, el fondo tiene más oportunidades de recuperarse de posibles caídas y generar rendimientos positivos.\n\nUna ventaja de este tipo de fondo es su capacidad para ofrecer una diversificación global, lo que puede ayudar a reducir el riesgo de concentrar demasiado la inversión en un solo tipo de activo o mercado. Sin embargo, una posible desventaja es que, al combinar diferentes clases de activos, la rentabilidad del fondo puede no ser tan alta como la de fondos más agresivos que invierten exclusivamente en renta variable.\n\nEn resumen, el Fondo Mutuo Bci Dólar Balanceado es una opción atractiva para jóvenes inversores con un perfil moderado que buscan diversificar su cartera y obtener rendimientos estables a mediano y largo plazo. Es importante recordar que toda inversión conlleva",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10071-4",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI C DOLAR BALAN",
+    "full_id": "96767630_10071-4",
+    "source": "javascript"
+  }
+}

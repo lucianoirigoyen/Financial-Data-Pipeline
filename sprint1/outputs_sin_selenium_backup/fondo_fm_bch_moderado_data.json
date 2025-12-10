@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch moderado",
+  "nombre": "Fm Bch Moderado",
+  "nombre_cmf": "FM BCH MODERADO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch Moderado es una alternativa de inversión mixta que busca equilibrar la rentabilidad y el riesgo para los inversionistas. Su estrategia se basa en invertir en una combinación de activos de renta fija y renta variable, lo que le otorga cierta diversificación a la cartera. Esto significa que parte de los recursos se destinan a instrumentos como bonos y depósitos a plazo, mientras que otra parte se invierte en acciones de empresas. Esta diversificación busca reducir la volatilidad de los retornos, manteniendo un potencial de crecimiento moderado.\n\nEste fondo está dirigido a inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los instrumentos tradicionales de renta fija. Es importante destacar que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de la inversión, especialmente en períodos de alta volatilidad en los mercados financieros.\n\nEn cuanto a los activos en los que invierte, la composición exacta del Fondo Mutuo Bch Moderado no está disponible públicamente. Sin embargo, se puede esperar que incluya una combinación de bonos corporativos, bonos gubernamentales, acciones de empresas locales e internacionales, entre otros activos. Esta diversificación sectorial y geográfica contribuye a reducir la exposición a riesgos específicos y a potenciar la estabilidad de la cartera en diferentes escenarios de mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre inversiones conservadoras y más arriesgadas. Si bien no es tan seguro como un depósito a plazo, tampoco es tan volátil como invertir directamente en acciones de alta riesgo. Los inversionistas deben estar preparados para asumir cierta volatilidad en sus inversiones, pero con la expectativa de obtener rendimientos superiores a largo plazo.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bch Moderado es de mediano a largo plazo, idealmente más de 3 años. Esto se debe a que la estrategia de inversión mixta requiere tiempo para que los activos maduren y generen retornos consistentes. Además, un horizonte de inversión más prolongado permite mitigar posibles fluctuaciones a corto plazo y aprovechar el potencial de crecimiento de los activos de renta variable.\n\nEn resumen, el Fondo Mutuo Bch Moderado ofrece una opción equilibrada para inversionistas con",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10060-9",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH MODERADO",
+    "full_id": "96767630_10060-9",
+    "source": "javascript"
+  }
+}

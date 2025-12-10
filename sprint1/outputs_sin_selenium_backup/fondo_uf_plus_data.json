@@ -1,0 +1,45 @@
+{
+  "fondo_id": "uf plus",
+  "nombre": "FONDO MUTUO ESTRUCTURADO BONOS UF PLUS I",
+  "nombre_cmf": "BONOS UF PLUS I",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Estructurado Bonos UF Plus I es una alternativa de inversión mixta que combina activos tanto de renta fija como variable. Su estrategia se enfoca en buscar un equilibrio entre la estabilidad que ofrecen los bonos y la posibilidad de obtener mayores retornos a través de inversiones en instrumentos de renta variable. Aunque la composición exacta no está disponible, se puede inferir que el fondo diversifica su cartera para mitigar riesgos y aprovechar oportunidades en diferentes mercados.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, que buscan un equilibrio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de la inversión, especialmente en entornos económicos volátiles.\n\nEn cuanto a los activos en los que invierte, el Fondo Mutuo Estructurado Bonos UF Plus I puede incluir bonos emitidos en Unidades de Fomento (UF), acciones de empresas locales e internacionales, y posiblemente otros instrumentos financieros. Esta diversificación busca maximizar los rendimientos y reducir la exposición a riesgos específicos de cada tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de la renta fija y la volatilidad de la renta variable. Aunque no es tan arriesgado como invertir solo en acciones, los movimientos del mercado pueden afectar su desempeño, por lo que es importante tener una visión a largo plazo y estar preparado para posibles fluctuaciones en el valor de la inversión.\n\nPara los jóvenes inversores chilenos que buscan diversificar su portafolio y están dispuestos a asumir un riesgo moderado, el Fondo Mutuo Estructurado Bonos UF Plus I puede ser una opción atractiva. Se recomienda un horizonte de inversión a mediano o largo plazo, ya que esto permite aprovechar el potencial de crecimiento de los activos de renta variable y superar posibles bajadas del mercado a lo largo del tiempo.\n\nEn resumen, este fondo ofrece una combinación equilibrada entre seguridad y potencial de crecimiento, ideal para inversores con perfil moderado que buscan diversificar su cartera. Es importante conocer las características y objetivos de cada fondo antes de invertir, y siempre consultar con un asesor financiero para tomar decisiones informadas.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "symbol": "FFMM-BANCHILE-9400",
+  "category": "mutual_fund",
+  "currency": null,
+  "run": "9400-5",
+  "rut_base": "9400",
+  "conceptual_asset_id": "2311",
+  "data_source": "http://www.cmfchile.cl",
+  "series": [
+    {
+      "serie": "UNICA",
+      "name": "FONDO MUTUO ESTRUCTURADO BONOS UF PLUS I",
+      "symbol": "FFMM-BANCHILE-9400-UNICA",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2018-07-01",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    }
+  ],
+  "fecha_valor_cuota": "2018-07-01",
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9400-5",
+    "rut_admin": "96767630",
+    "nombre": "BONOS UF PLUS I",
+    "full_id": "96767630_9400-5",
+    "source": "javascript"
+  }
+}

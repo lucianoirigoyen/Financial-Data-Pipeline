@@ -1,0 +1,44 @@
+{
+  "fondo_id": "euro money market",
+  "nombre": "FONDO MUTUO EURO MONEY MARKET",
+  "nombre_cmf": "EURO MONEY MARKET",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Euro Money Market es una opción de inversión mixta diseñada para aquellos inversionistas que buscan un equilibrio entre riesgo y rentabilidad. Este fondo tiene como objetivo principal preservar el capital y obtener rendimientos a corto plazo invirtiendo en instrumentos financieros de alta liquidez en euros.\n\nEste tipo de fondo es ideal para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de riesgo para obtener potencialmente mayores retornos que los depósitos a plazo, pero que también valoran la estabilidad de su inversión.\n\nEl Fondo Mutuo Euro Money Market invierte principalmente en instrumentos del mercado monetario europeo, como bonos del gobierno, certificados de depósito y letras del tesoro. Estos activos suelen ser considerados de bajo riesgo, ya que tienen vencimientos cortos y una alta capacidad de pago.\n\nEn términos simples, el nivel de riesgo de este fondo es moderado. Si bien invierte en activos de bajo riesgo, existen variables que pueden afectar su rentabilidad, como cambios en las tasas de interés o situaciones económicas adversas en Europa. Sin embargo, en comparación con fondos de renta variable, el riesgo es menor.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Euro Money Market es a corto y mediano plazo, ya que su estrategia se centra en obtener rendimientos a corto plazo. Es importante tener en cuenta que, al ser un fondo mixto, la rentabilidad puede variar dependiendo de las condiciones del mercado y de la economía europea.\n\nEntre las ventajas de este fondo se encuentran la diversificación de la cartera, la liquidez de los activos en los que invierte y la posibilidad de obtener rendimientos superiores a los depósitos a plazo. Sin embargo, es importante considerar que, al ser un fondo mixto, la rentabilidad no está garantizada y puede fluctuar en el corto plazo.\n\nEn resumen, el Fondo Mutuo Euro Money Market es una opción adecuada para inversionistas con un perfil de riesgo medio que buscan obtener rendimientos a corto plazo invirtiendo en activos de alta liquidez en euros. Se recomienda mantener una visión a corto y mediano plazo y estar al tanto de las condiciones del mercado europeo para tomar decisiones informadas sobre la inversión en este fondo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "symbol": "FFMM-BANCHILE-8272",
+  "category": "mutual_fund",
+  "currency": null,
+  "run": "8272-4",
+  "rut_base": "8272",
+  "conceptual_asset_id": "2316",
+  "data_source": "http://www.cmfchile.cl",
+  "series": [
+    {
+      "serie": "UNICA",
+      "name": "FONDO MUTUO EURO MONEY MARKET",
+      "symbol": "FFMM-BANCHILE-8272-UNICA",
+      "valor_cuota": null,
+      "fecha_valor_cuota": null,
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    }
+  ],
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8272-4",
+    "rut_admin": "96767630",
+    "nombre": "EURO MONEY MARKET",
+    "full_id": "96767630_8272-4",
+    "source": "javascript"
+  }
+}

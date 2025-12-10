@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ahorro total",
+  "nombre": "Ahorro Total",
+  "nombre_cmf": "AHORRO TOTAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Ahorro Total\" es una excelente opción para aquellos inversores chilenos que buscan un equilibrio entre riesgo y rentabilidad. Este fondo pertenece a la categoría mixta, lo que significa que combina diferentes activos en su cartera para diversificar el riesgo y maximizar el potencial de ganancias a largo plazo.\n\nLa estrategia de inversión de \"Ahorro Total\" se enfoca en invertir en una combinación de instrumentos de renta fija y renta variable, lo que le permite adaptarse a las condiciones del mercado y aprovechar oportunidades en distintos tipos de activos. Si bien la composición principal del fondo no está disponible públicamente, se puede esperar que contenga una mezcla diversificada de bonos, acciones y posiblemente otros instrumentos financieros.\n\nEn términos de perfil de riesgo, \"Ahorro Total\" se clasifica como un fondo de riesgo medio. Esto significa que, si bien existe la posibilidad de obtener rendimientos atractivos, también se asume un nivel moderado de volatilidad en el valor de la inversión. Es importante tener en cuenta que, a pesar de este nivel de riesgo, la diversificación de activos en el fondo contribuye a mitigar posibles pérdidas significativas.\n\nEste fondo es adecuado para inversionistas que buscan un equilibrio entre riesgo y rendimiento, y que tienen un horizonte de inversión a mediano o largo plazo. Idealmente, se recomienda a aquellos inversores que están dispuestos a asumir cierto nivel de riesgo en busca de mayores ganancias, sin comprometer la estabilidad de su cartera de inversión.\n\nUna de las ventajas de invertir en \"Ahorro Total\" es la diversificación automática que ofrece a través de su cartera mixta, lo que reduce el riesgo de concentrar la inversión en un solo tipo de activo. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del fondo, lo que puede dificultar la evaluación precisa de su desempeño.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores consideren mantener su posición en \"Ahorro Total\" por al menos 3 a 5 años para permitir que la estrategia de inversión del fondo se desarrolle y se refleje en los rendimientos.\n\nEn resumen, el fondo mutuo \"Ahorro Total\" es una opción atractiva para inversores chilenos con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos atractivos a mediano y largo plazo. Es importante recordar que",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8394-1",
+    "rut_admin": "96767630",
+    "nombre": "AHORRO TOTAL",
+    "full_id": "96767630_8394-1",
+    "source": "javascript"
+  }
+}

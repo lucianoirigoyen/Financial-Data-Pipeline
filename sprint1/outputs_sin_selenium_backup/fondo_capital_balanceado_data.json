@@ -1,0 +1,23 @@
+{
+  "fondo_id": "capital balanceado",
+  "nombre": "Capital Balanceado",
+  "nombre_cmf": "CAPITAL BALANCEADO",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo de inversión Capital Balanceado es una opción conservadora que busca mantener un equilibrio entre la seguridad y la rentabilidad a largo plazo. Este tipo de fondo se caracteriza por invertir en una combinación de activos de bajo riesgo, como bonos y acciones de empresas estables, con el objetivo de obtener un crecimiento moderado pero constante de los fondos invertidos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo bajo que prefieren una estrategia de inversión más segura y estable en el tiempo. Si eres un joven inversor chileno que busca proteger tu capital y obtener un rendimiento modesto pero constante, el fondo Capital Balanceado puede ser una excelente opción para ti.\n\nEn términos simples, los principales activos en los que invierte este fondo son bonos gubernamentales, bonos corporativos de empresas sólidas y acciones de compañías con historial de estabilidad financiera. Estos activos están seleccionados cuidadosamente para minimizar el riesgo y ofrecer una diversificación adecuada a los inversionistas conservadores.\n\nEn cuanto al nivel de riesgo, el fondo Capital Balanceado se considera de bajo riesgo, ya que la mayoría de sus inversiones están orientadas a activos seguros y estables. Si bien no ofrece el potencial de ganancias tan alto como fondos más agresivos, también presenta menos posibilidades de pérdidas significativas en periodos de volatilidad del mercado.\n\nPara este fondo, se recomienda un horizonte de inversión a medio y largo plazo, ya que su estrategia se enfoca en obtener rendimientos consistentes a lo largo del tiempo. Si tienes un objetivo financiero a largo plazo, como la compra de una vivienda o la jubilación, invertir en el fondo Capital Balanceado puede ser una buena opción para alcanzar tus metas de manera gradual y segura.\n\nVentajas del fondo incluyen la estabilidad de su cartera y la protección del capital invertido, mientras que una posible desventaja podría ser un menor potencial de crecimiento en comparación con fondos más arriesgados. En resumen, si eres un inversor joven con un perfil conservador y buscas una inversión segura y estable a largo plazo, el fondo Capital Balanceado podría ser una excelente alternativa para ti. ¡Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión importantes!",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9016-6",
+    "rut_admin": "96767630",
+    "nombre": "CAPITAL BALANCEADO",
+    "full_id": "96767630_9016-6",
+    "source": "javascript"
+  }
+}

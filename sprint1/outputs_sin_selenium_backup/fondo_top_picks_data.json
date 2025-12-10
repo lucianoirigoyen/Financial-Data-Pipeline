@@ -1,0 +1,86 @@
+{
+  "fondo_id": "top picks",
+  "nombre": "Top Picks",
+  "nombre_cmf": "TOP PICKS",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Top Picks es una excelente opción para aquellos inversores que buscan una combinación equilibrada de rentabilidad y seguridad. Este fondo se clasifica como mixto, lo que significa que invierte tanto en acciones como en bonos, buscando diversificar el riesgo y maximizar el potencial de ganancias a largo plazo.\n\nLa estrategia de inversión de Top Picks se centra en mantener un alto porcentaje de su cartera en activos chilenos, especialmente en el mercado de deuda. Esto implica que aproximadamente el 95% de los fondos se invierten en Chile, con un enfoque significativo en bonos gubernamentales y corporativos. Además, el fondo aplica un porcentaje considerable en el sector de la deuda, llegando hasta el 80.1%. Esto brinda estabilidad a la cartera y reduce la exposición a la volatilidad del mercado de acciones.\n\nEn términos simples, el nivel de riesgo de este fondo se considera medio. Aunque la inversión en bonos puede proporcionar cierta estabilidad, la exposición a activos de renta variable como acciones implica un grado de riesgo inherente. Sin embargo, al mantener un enfoque equilibrado y diversificado, el Top Picks busca mitigar este riesgo y ofrecer un rendimiento atractivo en el largo plazo.\n\nEste fondo es adecuado para inversionistas que buscan un equilibrio entre riesgo y rentabilidad. Idealmente, se recomienda para aquellos inversores con un horizonte de inversión a medio y largo plazo, ya que la estrategia diversificada y las inversiones en bonos pueden tardar en generar resultados significativos.\n\nAlgunas de las ventajas de invertir en el fondo Top Picks incluyen su enfoque diversificado, que ayuda a reducir el riesgo asociado con la volatilidad del mercado de acciones. Por otro lado, una posible desventaja podría ser que, al tener una exposición limitada a activos internacionales, el fondo podría perder oportunidades de crecimiento en mercados extranjeros.\n\nEn resumen, el fondo mutuo Top Picks es una opción atractiva para inversionistas que buscan un equilibrio entre riesgo y rentabilidad. Su estrategia de inversión diversificada y su enfoque en activos locales lo hacen adecuado para aquellos con un perfil de riesgo medio y un horizonte de inversión a largo plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 0.8343
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.8009999999999999
+    },
+    {
+      "activo": "aplicará sobre el",
+      "porcentaje": 0.5
+    },
+    {
+      "activo": "manteniendo invertido como máximo el",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Dólar",
+      "porcentaje": 0.2477
+    },
+    {
+      "activo": "Peso chileno",
+      "porcentaje": 0.20329999999999998
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.1852
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "EEUU",
+      "porcentaje": 0.0667
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0537
+    },
+    {
+      "activo": "Otros",
+      "porcentaje": 0.050499999999999996
+    },
+    {
+      "activo": "Brasil",
+      "porcentaje": 0.0332
+    },
+    {
+      "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+      "porcentaje": 0.033
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0329
+    }
+  ],
+  "rentabilidad_anual": 0.0926,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8787-4",
+    "rut_admin": "96767630",
+    "nombre": "TOP PICKS",
+    "full_id": "96767630_8787-4",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Mediano Plazo",
+  "comision_administracion": 0.0151
+}

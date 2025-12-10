@@ -1,0 +1,23 @@
+{
+  "fondo_id": "liquidez ix",
+  "nombre": "Liquidez Ix",
+  "nombre_cmf": "LIQUIDEZ IX",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Liquidez Ix es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable. Su estrategia busca obtener un equilibrio entre la estabilidad de los instrumentos de renta fija y el potencial de crecimiento de los activos de renta variable. Esta combinación permite diversificar el riesgo y aprovechar oportunidades en distintos mercados.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener rendimientos más atractivos que los ofrecidos por instrumentos de renta fija tradicionales. Si bien presenta un nivel de riesgo mayor que los fondos de renta fija pura, también ofrece la posibilidad de obtener mayores ganancias a largo plazo.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo Liquidez Ix no está disponible públicamente, pero se espera que incluya bonos, acciones y otros instrumentos financieros de diversa naturaleza. Esta diversificación puede ayudar a reducir la exposición a riesgos específicos de un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se ubica en un punto intermedio entre la seguridad de la renta fija y la volatilidad de la renta variable. Esto significa que, si bien existe la posibilidad de obtener rendimientos más altos que los de un fondo puramente conservador, también hay un riesgo asociado a la fluctuación de los mercados.\n\nEl horizonte de inversión recomendado para el fondo Liquidez Ix es a medio plazo, es decir, entre 3 a 5 años. Esto se debe a que, al tratarse de un fondo mixto, es importante permitir que la estrategia de inversión se desarrolle a lo largo del tiempo y se adapte a las condiciones del mercado.\n\nEntre las ventajas de este fondo se encuentra la posibilidad de diversificar la cartera de inversiones y obtener rendimientos atractivos sin asumir un riesgo excesivo. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del fondo, lo que puede dificultar la evaluación precisa de los activos en los que se invierte.\n\nEn resumen, el fondo Liquidez Ix es una opción interesante para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos atractivos a medio plazo. Es importante tener en cuenta que, como en cualquier inversión, es fundamental realizar un análisis detallado de sus objetivos financieros y tolerancia al ries",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10544-9",
+    "rut_admin": "96767630",
+    "nombre": "LIQUIDEZ IX",
+    "full_id": "96767630_10544-9",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "btg pactual audaz",
+  "nombre": "Btg Pactual Audaz",
+  "nombre_cmf": "BTG PACTUAL AUDAZ",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Btg Pactual Audaz es una opción mixta que combina distintos activos para buscar un equilibrio entre rentabilidad y riesgo. Su estrategia de inversión se centra en diversificar el portafolio a través de la combinación de instrumentos de renta fija y variable, permitiendo así aprovechar oportunidades en diferentes mercados. \n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan obtener un rendimiento superior al de inversiones conservadoras sin asumir un nivel de riesgo excesivo. Si bien no se dispone de información detallada sobre la composición principal de sus activos, se espera que incluya una combinación de bonos, acciones y otros instrumentos financieros.\n\nEn términos simples, el nivel de riesgo del Btg Pactual Audaz se encuentra en un punto intermedio. Si lo comparáramos con un plato de comida, sería como un almuerzo donde hay platos más arriesgados como un ceviche picante y otros más seguros como un arroz con pollo. En este caso, la mezcla de activos del fondo busca equilibrar la posibilidad de obtener ganancias con un cierto nivel de seguridad.\n\nEn cuanto al horizonte de inversión recomendado, se aconseja a los inversores jóvenes chilenos que piensen a largo plazo considerar este fondo como parte de una cartera diversificada. Es importante recordar que el tiempo es un aliado en el mundo de las inversiones, ya que permite amortiguar posibles pérdidas a lo largo del camino.\n\nComo ventaja, el Btg Pactual Audaz ofrece la posibilidad de obtener rendimientos superiores a los depósitos a plazo sin exponerse a un riesgo demasiado alto. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta de los activos del fondo, lo que dificulta una evaluación más detallada de su desempeño.\n\nEn resumen, el fondo mutuo Btg Pactual Audaz es una alternativa interesante para inversionistas jóvenes con un perfil de riesgo medio que buscan diversificar su cartera. Aunque no se disponga de información detallada sobre sus activos principales, su estrategia mixta puede ofrecer una oportunidad para obtener rendimientos atractivos a largo plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10030-7",
+    "rut_admin": "96767630",
+    "nombre": "BTG PACTUAL AUDAZ",
+    "full_id": "96767630_10030-7",
+    "source": "javascript"
+  }
+}

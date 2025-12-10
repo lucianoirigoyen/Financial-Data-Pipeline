@@ -1,0 +1,23 @@
+{
+  "fondo_id": "monetario ix",
+  "nombre": "Monetario Ix",
+  "nombre_cmf": "MONETARIO IX",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Monetario Ix es una alternativa de inversión mixta que busca combinar la estabilidad de activos monetarios con el potencial de crecimiento de otros instrumentos financieros. Su estrategia se centra en diversificar el portafolio en diferentes clases de activos para buscar un equilibrio entre la generación de rentabilidad y la gestión del riesgo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener mayores rendimientos. Es importante tener en cuenta que, si bien el riesgo en este tipo de fondos es moderado, no está exento de variaciones en su valor, por lo que se requiere cierto nivel de tolerancia a la volatilidad del mercado.\n\nSi bien la composición principal del fondo no está disponible, se espera que Monetario Ix invierta en una combinación de instrumentos financieros como bonos, acciones, y activos monetarios. Esta diversificación puede ayudar a mitigar el riesgo y aprovechar las oportunidades de crecimiento en diferentes mercados.\n\nEn términos simples, el nivel de riesgo del fondo Monetario Ix se puede comparar con mantener el equilibrio en una cuerda floja: existe la posibilidad de fluctuaciones en el valor de la inversión, pero se busca minimizar esos movimientos bruscos a través de una gestión cuidadosa de los activos.\n\nEl horizonte de inversión recomendado para este fondo es a medio plazo, lo que significa que es ideal para aquellos inversores que no necesitan el dinero de inmediato y están dispuestos a esperar para obtener potenciales ganancias. Es importante tener en cuenta que la rentabilidad a corto plazo puede variar, por lo que la paciencia y la visión a largo plazo son clave.\n\nEn cuanto a ventajas, Monetario Ix ofrece la posibilidad de diversificar la cartera de inversiones de manera sencilla y accesible para jóvenes inversores chilenos. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del fondo, lo que podría generar incertidumbre en algunos inversores.\n\nEn resumen, Monetario Ix es una opción atractiva para jóvenes inversionistas chilenos con un perfil de riesgo medio que buscan diversificar su cartera y obtener un equilibrio entre seguridad y potencial de crecimiento a medio plazo. Es importante siempre consultar con un asesor financiero antes de tomar decisiones de inversión y mantenerse informado sobre el comportamiento del fondo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8892-7",
+    "rut_admin": "96767630",
+    "nombre": "MONETARIO IX",
+    "full_id": "96767630_8892-7",
+    "source": "javascript"
+  }
+}

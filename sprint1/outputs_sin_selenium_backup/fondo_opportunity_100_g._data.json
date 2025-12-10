@@ -1,0 +1,23 @@
+{
+  "fondo_id": "opportunity 100 g.",
+  "nombre": "Opportunity 100 G.",
+  "nombre_cmf": "OPPORTUNITY 100 G.",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Opportunity 100 G es una opción mixta de inversión que busca combinar la estabilidad de activos de renta fija con el potencial de crecimiento de activos de renta variable. Su estrategia de inversión diversificada lo convierte en una alternativa atractiva para aquellos inversores que desean un balance entre riesgo y rendimiento. Este fondo se enfoca en obtener ganancias a largo plazo, por lo que es importante tener paciencia y mantener una visión a futuro al invertir en él.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de riesgo en busca de mayores rendimientos, pero que también valoran la estabilidad de su inversión. Si eres un joven inversor que está dispuesto a mantener su dinero invertido por un periodo de tiempo prolongado y que busca diversificar su cartera, el Opportunity 100 G podría ser una buena opción para ti.\n\nEn términos simples, el Opportunity 100 G invierte en una variedad de activos, que pueden incluir bonos, acciones, instrumentos de deuda, entre otros. Esta diversificación ayuda a reducir el riesgo asociado con la volatilidad de un solo tipo de activo. Al tener una combinación de activos de renta fija y renta variable, el fondo busca maximizar el rendimiento mientras se minimiza el riesgo.\n\nEn cuanto al nivel de riesgo, este fondo se considera de riesgo medio debido a su composición mixta. Aunque puede experimentar fluctuaciones en su valor, el Opportunity 100 G busca mantener un equilibrio entre riesgo y rendimiento que sea adecuado para inversores con un perfil moderado. Es importante recordar que todo tipo de inversión conlleva cierto nivel de riesgo, por lo que es fundamental estar informado y consciente de las posibles variaciones en el valor de la inversión.\n\nEl horizonte de inversión recomendado para el Opportunity 100 G es a largo plazo, idealmente más de cinco años. Esto se debe a que la estrategia del fondo se enfoca en obtener rendimientos sostenidos a lo largo del tiempo, por lo que es importante tener una visión a largo plazo y no dejarse llevar por fluctuaciones a corto plazo en el mercado.\n\nEn resumen, el fondo mutuo Opportunity 100 G es una opción atractiva para inversores jóvenes que buscan un equilibrio entre riesgo y rendimiento a través de una estrategia de inversión diversificada. Si estás dispuesto a asumir un riesgo moderado y a mantener tu inversión a largo plazo, este fondo podría ser una",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8362-3",
+    "rut_admin": "96767630",
+    "nombre": "OPPORTUNITY 100 G.",
+    "full_id": "96767630_8362-3",
+    "source": "javascript"
+  }
+}

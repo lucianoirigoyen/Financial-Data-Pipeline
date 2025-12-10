@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch estr dolar",
+  "nombre": "Fm Bch Estr Dolar",
+  "nombre_cmf": "FM BCH ESTR DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Fm Bch Estr Dolar es una opción de inversión mixta que combina activos tanto de renta fija como de renta variable, con el objetivo de buscar un equilibrio entre rendimiento y riesgo. Su estrategia de inversión se centra en diversificar el portafolio para mitigar posibles fluctuaciones en el mercado. Aunque la composición exacta de sus activos principales no está disponible públicamente, se puede inferir que incluye tanto instrumentos de deuda como acciones en dólares.\n\nEste fondo está dirigido a inversores con un perfil de riesgo medio, es decir, aquellos que buscan un rendimiento superior al de instrumentos más conservadores, pero que están dispuestos a asumir cierto nivel de volatilidad en su inversión. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles pérdidas en el corto plazo debido a la naturaleza del mercado financiero.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, puede tener una variedad de instrumentos como bonos, acciones, y otros productos financieros en dólares. Esto le brinda una diversificación adicional que puede ayudar a reducir el impacto de eventos específicos en un determinado sector o mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de los instrumentos de renta fija y el potencial de crecimiento de las acciones. Si bien existe la posibilidad de obtener mayores rendimientos en comparación con instrumentos conservadores, también se debe tener en cuenta que existe un riesgo asociado a la volatilidad del mercado.\n\nPara los jóvenes inversores chilenos que buscan diversificar su portafolio y están dispuestos a asumir un riesgo moderado, el fondo mutuo Fm Bch Estr Dolar puede ser una opción a considerar. Se recomienda tener un horizonte de inversión a mediano o largo plazo, ya que esto permitirá aprovechar el potencial de crecimiento de las inversiones y superar posibles fluctuaciones del mercado a lo largo del tiempo.\n\nEn resumen, este fondo ofrece una combinación equilibrada de activos en dólares que puede resultar atractiva para aquellos inversores que buscan un rendimiento superior al de instrumentos conservadores, sin exponerse a un nivel de riesgo demasiado alto. Sin embargo, es importante tener en cuenta que, como en cualquier inversión, es fundamental realizar un análisis detallado de su perfil y objetivos financieros antes de tomar una decisión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10319-5",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH ESTR DOLAR",
+    "full_id": "96767630_10319-5",
+    "source": "javascript"
+  }
+}

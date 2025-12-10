@@ -1,0 +1,23 @@
+{
+  "fondo_id": "diversificacion",
+  "nombre": "Diversificacion",
+  "nombre_cmf": "DIVERSIFICACION",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Diversificación es una alternativa de inversión que combina activos de distintas clases, como acciones, bonos y efectivo, con el objetivo de obtener un equilibrio entre rentabilidad y riesgo. Su estrategia se basa en diversificar el portafolio para reducir la exposición a eventos adversos en un solo mercado o activo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener ganancias y la tolerancia a posibles pérdidas. Ideal para jóvenes que desean invertir a mediano plazo y que buscan una opción que les permita participar en los mercados financieros de manera diversificada.\n\nEn términos simples, el Fondo Mutuo Diversificación invierte en una variedad de activos, como acciones de empresas locales e internacionales, bonos emitidos por el gobierno o empresas, y efectivo. Esta diversificación ayuda a mitigar el riesgo asociado a la volatilidad de un solo tipo de activo.\n\nEl nivel de riesgo de este fondo se considera medio, lo que significa que existe la posibilidad de obtener rendimientos más altos que un fondo conservador, pero también implica la posibilidad de tener pérdidas en momentos de turbulencia en los mercados financieros. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de la inversión.\n\nSe recomienda tener un horizonte de inversión a mediano o largo plazo al considerar el Fondo Mutuo Diversificación. Esto se debe a que, al invertir en activos diversos, se espera que el fondo pueda recuperarse de posibles caídas a lo largo del tiempo y generar rendimientos más estables.\n\nUna ventaja de este fondo es la posibilidad de participar en diferentes mercados y sectores, lo que puede ayudar a reducir la exposición a riesgos específicos. Sin embargo, una desventaja es que, al diversificar, es posible que se pierda la oportunidad de obtener ganancias significativas en un mercado o activo específico que tenga un rendimiento excepcional.\n\nEn resumen, el Fondo Mutuo Diversificación es una opción interesante para jóvenes inversores que buscan diversificar su portafolio y obtener un equilibrio entre riesgo y rentabilidad a mediano plazo. Es importante recordar que, como en cualquier inversión, es fundamental realizar un análisis personalizado de acuerdo a tus objetivos financieros y capacidades de tolerancia al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8298-8",
+    "rut_admin": "96767630",
+    "nombre": "DIVERSIFICACION",
+    "full_id": "96767630_8298-8",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "mbi deuda chilena",
+  "nombre": "Mbi Deuda Chilena",
+  "nombre_cmf": "MBI DEUDA CHILENA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Mbi Deuda Chilena es una excelente opción para los inversionistas que buscan un equilibrio entre riesgo y rentabilidad. Este fondo pertenece a la categoría mixta, lo que significa que combina inversiones en deuda chilena con otros instrumentos financieros para diversificar el riesgo y maximizar los rendimientos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan obtener un retorno superior al de una inversión conservadora sin exponerse a riesgos extremadamente altos. Si eres un joven inversor que está dispuesto a asumir cierto nivel de riesgo en busca de mayores ganancias, el Mbi Deuda Chilena puede ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte este fondo, la información disponible no especifica la composición principal. Sin embargo, dado su nombre, es probable que tenga una considerable exposición a bonos y otros instrumentos de deuda emitidos por entidades chilenas, lo que podría brindar estabilidad a la cartera.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Aunque no es tan conservador como un fondo de renta fija pura, tampoco tiene la volatilidad de un fondo de renta variable. Esto significa que puedes esperar cierta fluctuación en el valor de tu inversión, pero sin los sobresaltos extremos que pueden experimentarse en mercados más arriesgados.\n\nEn cuanto al horizonte de inversión recomendado, es importante tener en cuenta que los fondos mixtos suelen ser más adecuados para inversiones a mediano y largo plazo. Si tienes un plazo de inversión de al menos tres a cinco años, podrás aprovechar al máximo el potencial de crecimiento de este fondo y mitigar los efectos de posibles fluctuaciones a corto plazo.\n\nEn resumen, el fondo Mbi Deuda Chilena puede ser una opción atractiva para jóvenes inversores que buscan un equilibrio entre riesgo y rendimiento. Su enfoque mixto brinda diversificación y estabilidad, aunque es importante recordar que no está exento de riesgos. Antes de invertir, asegúrate de entender tus objetivos financieros y tu tolerancia al riesgo, y considera consultar con un asesor financiero para tomar decisiones informadas.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10198-2",
+    "rut_admin": "96767630",
+    "nombre": "MBI DEUDA CHILENA",
+    "full_id": "96767630_10198-2",
+    "source": "javascript"
+  }
+}

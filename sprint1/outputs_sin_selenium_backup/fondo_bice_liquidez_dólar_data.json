@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bice liquidez dólar",
+  "nombre": "Bice Liquidez Dólar",
+  "nombre_cmf": "BICE LIQUIDEZ DÓLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Bice Liquidez Dólar es una opción de inversión mixta que busca combinar la estabilidad del dólar con la posibilidad de obtener rendimientos atractivos. Su estrategia de inversión se enfoca en diversificar el portafolio para minimizar riesgos y maximizar oportunidades de crecimiento a corto y mediano plazo. Aunque la composición principal del fondo no está disponible, su enfoque en el dólar como activo principal sugiere una estrategia conservadora.\n\nEste fondo es adecuado para aquellos inversores con un perfil de riesgo medio que buscan un equilibrio entre seguridad y potencial de ganancias. Si eres un joven inversionista en Chile que desea proteger tu capital y obtener algún retorno, el Bice Liquidez Dólar puede ser una opción a considerar. Es importante tener en cuenta que, al invertir en este tipo de fondos, es necesario ser paciente y consciente de que los rendimientos pueden variar en el corto plazo.\n\nEn términos simples, el Bice Liquidez Dólar invierte principalmente en instrumentos financieros denominados en dólares, como bonos, letras y otros activos de renta fija. Esto proporciona estabilidad al fondo, ya que el dólar tiende a ser menos volátil que otras monedas. Sin embargo, es importante tener en cuenta que los movimientos en el tipo de cambio pueden afectar la rentabilidad del fondo.\n\nEn cuanto al nivel de riesgo, este fondo se considera de riesgo medio debido a su enfoque en activos de renta fija en dólares. Si bien ofrece cierta estabilidad, también implica un riesgo de mercado y tipo de cambio que puede influir en los retornos. Es importante recordar que todo tipo de inversión conlleva un riesgo, por lo que es fundamental diversificar tu cartera y mantener un horizonte de inversión a largo plazo.\n\nEl horizonte de inversión recomendado para el Bice Liquidez Dólar es a mediano plazo, generalmente entre uno y tres años. Esto permite aprovechar las oportunidades de crecimiento y minimizar los efectos de la volatilidad a corto plazo. Es importante tener en cuenta que, si bien este fondo ofrece estabilidad, los retornos pueden no ser tan altos como en fondos de mayor riesgo, por lo que es importante ajustar las expectativas de acuerdo con tus objetivos financieros.\n\nEn resumen, el Bice Liquidez Dólar es una opción atractiva para inversores jóvenes en Chile que buscan un equilibrio entre seguridad y potencial de ganancias. Si estás dispuesto a asumir un riesgo moderado y tienes un",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8506-5",
+    "rut_admin": "96767630",
+    "nombre": "BICE LIQUIDEZ DÓLAR",
+    "full_id": "96767630_8506-5",
+    "source": "javascript"
+  }
+}

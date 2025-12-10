@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bi liquidez",
+  "nombre": "Bi Liquidez",
+  "nombre_cmf": "BI LIQUIDEZ",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Bi Liquidez es una excelente opción para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rentabilidad. Se trata de un fondo mixto, lo que significa que combina distintos tipos de activos en su cartera para diversificar el riesgo y maximizar las oportunidades de ganancias. \n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto grado de volatilidad en busca de mayores rendimientos, pero que también valoran la estabilidad a mediano plazo. Por ejemplo, si eres un joven profesional que está empezando a invertir y buscas una alternativa que te permita crecer tus ahorros de forma controlada, Bi Liquidez podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, la composición específica del fondo no está disponible públicamente, pero generalmente los fondos mixtos como Bi Liquidez suelen invertir en una combinación de acciones, bonos y otros instrumentos financieros. Esto le brinda al fondo la flexibilidad necesaria para adaptarse a diferentes condiciones del mercado y aprovechar oportunidades de inversión en distintos sectores.\n\nEn términos de riesgo, Bi Liquidez se encuentra en un nivel medio, lo que implica que puede experimentar fluctuaciones en su valor, pero sin llegar a ser tan volátil como fondos de mayor riesgo. Es importante tener en cuenta que, como en toda inversión, existe la posibilidad de que el valor de tus participaciones pueda disminuir en el corto plazo, aunque históricamente los fondos mixtos han demostrado ser una opción relativamente estable a largo plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas consideren Bi Liquidez como una alternativa de mediano a largo plazo, ya que así se pueden aprovechar mejor las estrategias de diversificación y gestión de riesgos del fondo. Si estás buscando invertir tus ahorros para metas a corto plazo, como un viaje o la compra de un bien pronto, es posible que otros productos financieros más conservadores sean más adecuados para ti.\n\nEn resumen, Bi Liquidez es una opción atractiva para jóvenes inversores chilenos que buscan una combinación equilibrada entre riesgo y rendimiento. Si valoras la diversificación, la estabilidad y estás dispuesto a asumir cierto grado de volatilidad, este fondo mixto puede ser una excelente alternativa para hacer crecer tus ahorros a mediano y largo plazo. Recuerda siempre consultar con un asesor financiero antes de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9690-3",
+    "rut_admin": "96767630",
+    "nombre": "BI LIQUIDEZ",
+    "full_id": "96767630_9690-3",
+    "source": "javascript"
+  }
+}

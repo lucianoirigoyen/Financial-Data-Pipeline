@@ -1,0 +1,23 @@
+{
+  "fondo_id": "confianza dolar",
+  "nombre": "Confianza Dolar",
+  "nombre_cmf": "CONFIANZA DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Confianza Dólar es una alternativa mixta que busca combinar activos de renta fija y variable para generar rendimientos atractivos en el mercado. Su estrategia se enfoca en diversificar el portafolio con el objetivo de reducir riesgos y maximizar oportunidades de crecimiento a mediano plazo. Esto significa que, al invertir en Confianza Dólar, estás colocando tu dinero en una cartera variada que puede incluir bonos, acciones y otros instrumentos financieros.\n\nEste fondo se considera de perfil de riesgo medio, lo que implica que, si bien existe la posibilidad de obtener ganancias interesantes, también se debe estar preparado para enfrentar cierta volatilidad en el valor de la inversión. Por lo tanto, es importante que los inversionistas que elijan Confianza Dólar tengan un horizonte de inversión a mediano plazo y estén dispuestos a asumir cierto grado de incertidumbre en el corto plazo.\n\nEn cuanto al tipo de inversionista al que se recomienda este fondo, podría resultar adecuado para aquellos jóvenes con un perfil moderado que buscan un equilibrio entre riesgo y rendimiento. Si estás dispuesto a mantener tu dinero invertido durante al menos unos años y comprendes que los movimientos del mercado pueden afectar el valor de tu inversión, Confianza Dólar podría ser una opción a considerar.\n\nEn términos simples, el nivel de riesgo de Confianza Dólar se puede comparar con conducir un automóvil en una autopista: es probable que encuentres algunos baches en el camino, pero si mantienes la calma y sigues las indicaciones, llegarás a tu destino con éxito. Es decir, este fondo puede experimentar altibajos en su valor, pero con una gestión adecuada, se espera que genere retornos atractivos a mediano plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener tu dinero invertido en Confianza Dólar por al menos 3 a 5 años para darle tiempo a la estrategia del fondo de dar frutos y superar posibles fluctuaciones de corto plazo en el mercado.\n\nEntre las ventajas de este fondo se encuentran su diversificación, que ayuda a reducir riesgos, y su potencial de rendimiento atractivo a mediano plazo. Sin embargo, es importante tener en cuenta que la rentabilidad pasada no garantiza resultados futuros, y que en momentos de volatilidad en el mercado, el valor de la inversión puede fluctuar.\n\nEn resumen, Confianza Dólar es una opción mixta de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8664-9",
+    "rut_admin": "96767630",
+    "nombre": "CONFIANZA DOLAR",
+    "full_id": "96767630_8664-9",
+    "source": "javascript"
+  }
+}

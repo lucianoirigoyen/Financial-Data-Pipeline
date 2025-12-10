@@ -1,0 +1,23 @@
+{
+  "fondo_id": "super interes",
+  "nombre": "Super Interes",
+  "nombre_cmf": "SUPER INTERES",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Super Interes es una opción de inversión mixta que combina activos de renta fija y variable, buscando un equilibrio entre la estabilidad y el potencial de crecimiento. Su estrategia de inversión se centra en diversificar el portafolio, invirtiendo en una variedad de instrumentos financieros que pueden incluir bonos, acciones y otros activos, aunque la composición exacta no está disponible públicamente.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan obtener rendimientos superiores a los de una inversión conservadora, pero que están dispuestos a asumir cierto nivel de volatilidad en el corto plazo. Ideal para jóvenes que buscan un equilibrio entre seguridad y potencial de crecimiento en sus inversiones a mediano plazo.\n\nEn cuanto a los activos en los que invierte, Super Interes puede tener una diversificación que incluya bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos del mercado monetario. Esta diversificación ayuda a reducir el riesgo asociado a la inversión en un solo tipo de activo, proporcionando una mayor estabilidad al portafolio.\n\nEn términos simples, el nivel de riesgo del fondo se encuentra en un punto intermedio, donde se busca obtener un equilibrio entre la generación de retornos y la preservación del capital invertido. Si bien existe la posibilidad de obtener rendimientos superiores a una inversión conservadora, también se debe tener en cuenta que hay un nivel de incertidumbre asociado a las fluctuaciones del mercado.\n\nSe recomienda un horizonte de inversión a mediano plazo para este fondo, ya que permite aprovechar el potencial de crecimiento de los activos de renta variable, sin exponerse a riesgos excesivos en el corto plazo. Es importante tener en cuenta que, si bien la rentabilidad a 12 meses no está disponible, es fundamental evaluar el desempeño histórico del fondo y considerar factores como la coyuntura económica y el comportamiento del mercado al momento de tomar decisiones de inversión.\n\nEn resumen, el fondo mutuo Super Interes ofrece una alternativa atractiva para inversionistas jóvenes con un perfil de riesgo medio, que buscan diversificar su portafolio y obtener rendimientos competitivos a mediano plazo. Si bien presenta la posibilidad de obtener retornos interesantes, es importante tener en cuenta el nivel de riesgo asociado y mantener una visión a largo plazo para aprovechar al máximo su potencial de crecimiento.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8191-4",
+    "rut_admin": "96767630",
+    "nombre": "SUPER INTERES",
+    "full_id": "96767630_8191-4",
+    "source": "javascript"
+  }
+}

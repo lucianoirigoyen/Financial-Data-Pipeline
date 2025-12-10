@@ -1,0 +1,23 @@
+{
+  "fondo_id": "us advantage",
+  "nombre": "Us Advantage",
+  "nombre_cmf": "US ADVANTAGE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Us Advantage es una excelente opción para aquellos inversionistas que buscan un equilibrio entre riesgo y potencial de retorno. Este fondo, de tipo mixto, combina activos de renta variable y renta fija, lo que significa que invierte tanto en acciones como en bonos. Su estrategia de inversión está diseñada para aprovechar las oportunidades de crecimiento en el mercado de valores, al tiempo que busca proteger el capital invertido mediante la inclusión de activos de menor riesgo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores rendimientos. Si eres un joven inversor que busca diversificar tu cartera sin exponerte a un riesgo extremo, Us Advantage podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente, pero en general, los fondos mixtos como este suelen invertir en una variedad de sectores y regiones para reducir el riesgo y aumentar la estabilidad. Por ejemplo, el fondo podría tener posiciones en empresas chilenas de sectores como tecnología, energía o consumo, así como en bonos emitidos por el gobierno o empresas locales.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Aunque la combinación de activos de renta variable y fija puede ayudar a mitigar algunas fluctuaciones del mercado, es importante recordar que cualquier inversión conlleva cierto nivel de riesgo. Por lo tanto, es fundamental estar preparado para posibles variaciones en el valor de la inversión en el corto plazo.\n\nEn cuanto al horizonte de inversión recomendado, Us Advantage es ideal para aquellos inversores que tienen un horizonte de inversión a medio y largo plazo. Dado que los fondos mixtos suelen ofrecer un equilibrio entre crecimiento y estabilidad, es importante mantener la inversión durante un periodo suficiente para permitir que la estrategia de inversión del fondo dé sus frutos.\n\nEn resumen, Us Advantage es un fondo mutuo mixto con un perfil de riesgo medio, adecuado para inversores jóvenes que buscan diversificar su cartera y obtener un equilibrio entre riesgo y retorno. Si estás dispuesto a asumir cierta volatilidad a cambio de mayores oportunidades de crecimiento, este fondo podría ser una opción a considerar. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9932-5",
+    "rut_admin": "96767630",
+    "nombre": "US ADVANTAGE",
+    "full_id": "96767630_9932-5",
+    "source": "javascript"
+  }
+}

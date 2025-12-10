@@ -1,0 +1,23 @@
+{
+  "fondo_id": "est usd ii",
+  "nombre": "Est Usd Ii",
+  "nombre_cmf": "EST USD II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Est Usd II es una opción de inversión mixta que busca combinar activos de renta fija y renta variable para diversificar el riesgo y buscar un equilibrio entre seguridad y potencial de ganancias. Su estrategia de inversión se centra en aprovechar las oportunidades tanto en el mercado de valores como en instrumentos de deuda, con el objetivo de obtener rendimientos atractivos a mediano plazo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su inversión y la posibilidad de obtener ganancias atractivas. Si estás dispuesto a asumir cierto nivel de riesgo en busca de mayores retornos, pero prefieres no exponerte a fluctuaciones extremas del mercado, este fondo puede ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, la composición principal del fondo no está disponible públicamente. Sin embargo, es probable que incluya una combinación de acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como otros instrumentos financieros diversificados.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Esto significa que, si bien existe la posibilidad de que el valor de tus inversiones pueda fluctuar en el corto plazo, también puedes esperar obtener rendimientos interesantes a lo largo del tiempo si mantienes tu inversión a mediano o largo plazo.\n\nSe recomienda un horizonte de inversión de al menos 3 a 5 años para este fondo, ya que esto te permitirá beneficiarte de las estrategias de diversificación implementadas y dar tiempo a que tus inversiones se desarrollen y generen rendimientos consistentes.\n\nEntre las ventajas de este fondo se encuentran la diversificación de activos que ofrece, lo que ayuda a reducir el riesgo de pérdida y aumenta las posibilidades de obtener ganancias atractivas. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que puede limitar tu capacidad de seguimiento y comprensión de tus inversiones.\n\nEn resumen, el fondo Est Usd II es una opción a considerar para inversionistas chilenos con un perfil de riesgo medio que buscan diversificar sus inversiones y obtener rendimientos atractivos a mediano plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y asegurarte de entender completamente los riesgos y beneficios asociados a este tipo de productos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10638-0",
+    "rut_admin": "96767630",
+    "nombre": "EST USD II",
+    "full_id": "96767630_10638-0",
+    "source": "javascript"
+  }
+}

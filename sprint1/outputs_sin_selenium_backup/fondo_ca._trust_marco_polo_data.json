@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ca. trust marco polo",
+  "nombre": "Ca. Trust Marco Polo",
+  "nombre_cmf": "CA. TRUST MARCO POLO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Ca. Trust Marco Polo es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable. Su estrategia busca obtener un equilibrio entre la estabilidad de los bonos y el potencial de crecimiento de las acciones, con el objetivo de generar rendimientos atractivos a mediano plazo. \n\nEste fondo está dirigido a inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su inversión y la posibilidad de obtener mayores ganancias. Es ideal para jóvenes inversores que desean diversificar su cartera y están dispuestos a asumir un nivel moderado de riesgo en busca de mayores rendimientos.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente, pero probablemente incluye una combinación de bonos corporativos, bonos soberanos, acciones de empresas locales e internacionales, y posiblemente otros instrumentos financieros. Esta diversificación ayuda a reducir el riesgo asociado a la volatilidad de un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con conducir a una velocidad moderada en una carretera bien mantenida. Existe la posibilidad de encontrar baches en el camino, pero en general, se espera un viaje suave y sin sobresaltos. Es importante tener en cuenta que, como en cualquier inversión, existen riesgos inherentes y es crucial monitorear el desempeño del fondo de manera regular.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores mantengan su dinero en el fondo por al menos 3 a 5 años para permitir que la estrategia de inversión se desarrolle y se materialicen los rendimientos esperados. A largo plazo, este tipo de fondo puede brindar beneficios significativos a aquellos que tengan paciencia y mantengan una visión a largo plazo.\n\nEntre las ventajas de invertir en el fondo Ca. Trust Marco Polo se encuentran la diversificación de activos, la posibilidad de obtener rendimientos superiores a los instrumentos de renta fija tradicionales y la gestión profesional de los activos. Sin embargo, es importante tener en cuenta que los rendimientos pasados no garantizan rendimientos futuros y que la rentabilidad del fondo puede fluctuar en función de las condiciones del mercado.\n\nEn resumen, el fondo mutuo Ca. Trust Marco Polo es una opción atractiva para jóvenes inversores chilenos con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos atractivos a mediano plazo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8478-6",
+    "rut_admin": "96767630",
+    "nombre": "CA. TRUST MARCO POLO",
+    "full_id": "96767630_8478-6",
+    "source": "javascript"
+  }
+}

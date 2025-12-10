@@ -1,0 +1,23 @@
+{
+  "fondo_id": "clever agresivo",
+  "nombre": "Clever Agresivo",
+  "nombre_cmf": "CLEVER AGRESIVO",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo mutuo Clever Agresivo es una alternativa de inversión diseñada para aquellos inversores que buscan obtener altos rendimientos a través de una estrategia agresiva. Este fondo se caracteriza por invertir en activos de mayor riesgo, como acciones de empresas con potencial de crecimiento acelerado o instrumentos financieros más volátiles. Su objetivo principal es maximizar la rentabilidad a largo plazo, aunque esto conlleva un nivel de riesgo considerablemente alto.\n\nEste tipo de fondo es adecuado para inversionistas jóvenes y con un horizonte de inversión a largo plazo, que estén dispuestos a asumir un mayor nivel de riesgo en busca de mayores rendimientos. Es importante tener en cuenta que, si bien la posibilidad de obtener ganancias significativas es alta, también existe la posibilidad de sufrir pérdidas significativas en periodos de turbulencia en los mercados.\n\nEn cuanto a los activos en los que invierte el fondo Clever Agresivo, generalmente se incluyen acciones de empresas con alto potencial de crecimiento, bonos corporativos de empresas emergentes o instrumentos financieros derivados. Estos activos suelen estar expuestos a mayores oscilaciones en su valor, lo que puede generar oportunidades de ganancias, pero también implica un mayor riesgo de pérdida.\n\nEn términos simples, el nivel de riesgo de este fondo puede compararse con subir una montaña rusa: las emociones pueden ser intensas y los resultados pueden ser muy gratificantes o decepcionantes. Por lo tanto, es fundamental que los inversionistas comprendan y estén preparados para asumir la volatilidad que conlleva este tipo de inversión.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas consideren mantener su dinero invertido en el fondo Clever Agresivo durante al menos cinco años o más. Esto se debe a que la estrategia agresiva de este fondo puede requerir tiempo para materializarse y superar posibles periodos de bajo desempeño.\n\nEn resumen, el fondo mutuo Clever Agresivo puede ser una opción atractiva para inversionistas jóvenes y con un alto apetito por el riesgo, que buscan maximizar sus rendimientos a largo plazo. Sin embargo, es importante recordar que este tipo de inversión conlleva un mayor nivel de riesgo, por lo que se recomienda una evaluación cuidadosa del perfil de riesgo y objetivos financieros antes de invertir en este fondo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9964-3",
+    "rut_admin": "96767630",
+    "nombre": "CLEVER AGRESIVO",
+    "full_id": "96767630_9964-3",
+    "source": "javascript"
+  }
+}

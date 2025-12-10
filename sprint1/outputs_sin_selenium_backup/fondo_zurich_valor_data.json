@@ -1,0 +1,23 @@
+{
+  "fondo_id": "zurich valor",
+  "nombre": "Zurich Valor",
+  "nombre_cmf": "ZURICH VALOR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Zurich Valor es una opción mixta que combina activos de renta fija y renta variable, con el objetivo de lograr un equilibrio entre rendimiento y riesgo. Su estrategia de inversión busca diversificar el portafolio para aprovechar oportunidades en diferentes sectores del mercado, lo que puede ofrecer una mayor estabilidad a lo largo del tiempo.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la posibilidad de obtener buenas ganancias y la tolerancia a posibles fluctuaciones en el valor de su inversión. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de volatilidad, por lo que se recomienda a aquellos inversores que estén dispuestos a mantener su inversión a mediano plazo.\n\nLos activos en los que invierte el Zurich Valor no están específicamente detallados, pero se espera una distribución entre instrumentos de deuda y acciones de empresas, lo que le brinda una diversificación que puede ayudar a reducir el riesgo asociado a la inversión en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con conducir un automóvil a una velocidad moderada en una carretera bien pavimentada: existe la posibilidad de encontrarse con baches en el camino, pero la velocidad controlada ayuda a evitar accidentes graves. Es decir, aunque podría haber fluctuaciones en el valor de la inversión, se espera que sean manejables en el contexto de un horizonte de inversión adecuado.\n\nEl horizonte de inversión recomendado para el Zurich Valor es a mediano plazo, lo que significa que los inversores deberían mantener su dinero invertido por un periodo de al menos tres a cinco años. Esto permite que el fondo pueda superar posibles fluctuaciones a corto plazo y potencialmente generar un rendimiento más sólido a lo largo del tiempo.\n\nEn cuanto a las ventajas, Zurich Valor ofrece una diversificación de activos que puede ayudar a reducir el riesgo de la inversión y la posibilidad de obtener rendimientos competitivos. Sin embargo, es importante tener en cuenta que, al tratarse de un fondo mixto, su rendimiento puede verse afectado por movimientos en los mercados de renta fija y renta variable, lo que podría implicar cierta volatilidad en su valor.\n\nEn resumen, el Zurich Valor es una alternativa atractiva para inversores chilenos con un perfil de riesgo moderado que buscan diversificar su portafolio. Se recomienda mantener una visión a mediano plazo y estar preparados para",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9426-9",
+    "rut_admin": "96767630",
+    "nombre": "ZURICH VALOR",
+    "full_id": "96767630_9426-9",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "monetario xix",
+  "nombre": "Monetario Xix",
+  "nombre_cmf": "MONETARIO XIX",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Monetario XIX es una excelente opción para aquellos inversores chilenos que buscan un equilibrio entre rendimiento y riesgo moderado. Se trata de un fondo mixto que combina distintos tipos de activos, aunque la composición exacta no está disponible públicamente. \n\nEste fondo se caracteriza por tener un perfil de riesgo medio, lo que implica que puede ofrecer un rendimiento superior a la renta fija tradicional, pero con un nivel de riesgo controlado. En términos simples, esto significa que, si bien existe la posibilidad de obtener ganancias, también se asume un cierto grado de volatilidad en el valor de la inversión.\n\nEl perfil de inversionista ideal para el fondo Monetario XIX sería aquel que busca obtener un retorno por encima de la inflación, pero sin exponerse a niveles de riesgo extremadamente altos. Este fondo puede ser adecuado para jóvenes inversores que buscan diversificar su cartera y obtener un rendimiento superior al de una cuenta de ahorro tradicional, sin asumir un riesgo excesivo.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, es probable que incluya una combinación de instrumentos de renta fija, como bonos y letras de crédito, así como posiblemente inversiones en renta variable, como acciones de empresas locales o extranjeras. Esta diversificación de activos busca mitigar el riesgo y potenciar el rendimiento del fondo.\n\nEs importante tener en cuenta que, si bien el riesgo de este fondo es moderado, no está exento de posibles fluctuaciones en su valor. Por lo tanto, es fundamental tener un horizonte de inversión a mediano o largo plazo para permitir que el fondo pueda superar eventuales períodos de volatilidad.\n\nUna ventaja de este fondo es su potencial para ofrecer un rendimiento superior al de la renta fija tradicional, sin asumir un riesgo excesivo. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de sus activos, lo que dificulta la evaluación detallada de su estrategia de inversión.\n\nEn resumen, el fondo Monetario XIX es una opción atractiva para inversores jóvenes que buscan un equilibrio entre rendimiento y riesgo moderado. Se recomienda mantener una visión a mediano o largo plazo y diversificar la cartera de inversiones para optimizar los resultados. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9166-9",
+    "rut_admin": "96767630",
+    "nombre": "MONETARIO XIX",
+    "full_id": "96767630_9166-9",
+    "source": "javascript"
+  }
+}

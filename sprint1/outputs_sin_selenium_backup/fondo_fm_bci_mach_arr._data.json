@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci mach arr.",
+  "nombre": "Fm Bci Mach Arr.",
+  "nombre_cmf": "FM BCI MACH ARR.",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Mach Arr es una opción de inversión mixta que combina diferentes activos para buscar un equilibrio entre rentabilidad y riesgo. Este fondo busca diversificar su cartera invirtiendo en una variedad de instrumentos financieros, como acciones, bonos y otros activos, con el objetivo de obtener ganancias a mediano plazo. Su estrategia se centra en aprovechar las oportunidades del mercado y gestionar los riesgos de manera prudente.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la posibilidad de obtener mayores ganancias y la protección de su capital. Si estás dispuesto a asumir un cierto nivel de riesgo para obtener mayores rendimientos que los instrumentos de renta fija, el Fondo Mutuo Bci Mach Arr podría ser una opción interesante para ti.\n\nEn cuanto a sus principales activos, la composición exacta del fondo no está disponible públicamente, pero se espera que invierta en una combinación de acciones y bonos, tanto locales como internacionales. Esta diversificación podría ayudar a reducir el impacto de la volatilidad en un solo mercado y aumentar las posibilidades de obtener rendimientos positivos.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que existe la posibilidad de enfrentar fluctuaciones en el valor de la inversión a corto plazo, pero con la expectativa de obtener rendimientos superiores a los activos de menor riesgo a lo largo del tiempo. Es importante recordar que, como en cualquier inversión, el valor de tu dinero puede variar y es fundamental tener un horizonte de inversión adecuado.\n\nEn cuanto al horizonte de inversión recomendado, este fondo suele ser más adecuado para inversionistas que mantienen una visión a mediano plazo, es decir, que están dispuestos a mantener su inversión durante al menos tres a cinco años. Esto les permitirá aprovechar las fluctuaciones del mercado y dar tiempo a que la estrategia del fondo genere resultados.\n\nEn resumen, el Fondo Mutuo Bci Mach Arr es una opción mixta para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos a mediano plazo. Si bien ofrece la posibilidad de obtener ganancias superiores a la renta fija, es importante tener en cuenta los riesgos asociados y mantener un horizonte de inversión adecuado para maximizar los beneficios a largo plazo. Si estás considerando invertir en este fondo, asegúrate de comprender tus objetivos financieros y consultar con un asesor",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10578-3",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI MACH ARR.",
+    "full_id": "96767630_10578-3",
+    "source": "javascript"
+  }
+}

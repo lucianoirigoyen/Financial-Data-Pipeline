@@ -1,0 +1,23 @@
+{
+  "fondo_id": "mi futuro moderado",
+  "nombre": "Mi Futuro Moderado",
+  "nombre_cmf": "MI FUTURO MODERADO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí te dejo la descripción del fondo de inversión \"Mi Futuro Moderado\":\n\n1. \"Mi Futuro Moderado\" es un fondo mutuo mixto que busca combinar inversiones tanto en renta fija como en renta variable, con el objetivo de obtener un equilibrio entre riesgo y retorno. Su estrategia de inversión se centra en diversificar el portafolio para reducir la volatilidad y maximizar los rendimientos a mediano plazo.\n\n2. Este fondo es adecuado para aquellos inversores con un perfil de riesgo medio, es decir, que están dispuestos a asumir cierto nivel de volatilidad en sus inversiones, pero buscan un equilibrio entre seguridad y potencial de crecimiento. Es ideal para jóvenes que buscan una inversión a largo plazo para cumplir metas como la compra de una vivienda o la jubilación.\n\n3. Los principales activos en los que invierte \"Mi Futuro Moderado\" pueden incluir bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos de corto plazo. Esta diversificación permite aprovechar las oportunidades de crecimiento de distintos mercados, reduciendo el impacto de posibles caídas en un solo sector.\n\n4. En términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Aunque puede experimentar fluctuaciones en el corto plazo debido a la volatilidad de los mercados, su enfoque diversificado ayuda a mitigar el riesgo a largo plazo. Es importante entender que toda inversión conlleva un riesgo, por lo que es fundamental tener una visión a largo plazo y no dejarse llevar por las fluctuaciones del mercado.\n\n5. El horizonte de inversión recomendado para \"Mi Futuro Moderado\" es a mediano y largo plazo, idealmente de al menos 3 a 5 años. Esto permite aprovechar el potencial de crecimiento de las inversiones y compensar posibles pérdidas a corto plazo. Es importante recordar que la paciencia y la disciplina son clave en la inversión a largo plazo.\n\nEn resumen, \"Mi Futuro Moderado\" ofrece una opción equilibrada para inversores jóvenes con un perfil de riesgo medio que buscan un crecimiento constante de su patrimonio a través de una estrategia diversificada. Aunque puede presentar fluctuaciones en el corto plazo, su enfoque a mediano y largo plazo puede ser beneficioso para alcanzar metas financieras a futuro. Es recomendable consultar con un asesor financiero para determinar si este fondo se ajusta a",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9768-3",
+    "rut_admin": "96767630",
+    "nombre": "MI FUTURO MODERADO",
+    "full_id": "96767630_9768-3",
+    "source": "javascript"
+  }
+}

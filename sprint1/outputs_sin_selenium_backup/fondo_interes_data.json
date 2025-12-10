@@ -1,0 +1,23 @@
+{
+  "fondo_id": "interes",
+  "nombre": "Interes",
+  "nombre_cmf": "INTERES",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo mutuo \"Interes\":\n\n1. **¿Qué es este fondo y su estrategia de inversión?**\nEl fondo mutuo \"Interes\" es un fondo mixto que invierte en una combinación de activos de renta fija y renta variable. Su principal objetivo es obtener un rendimiento atractivo a través de la diversificación de la cartera, aprovechando las oportunidades tanto en el mercado de valores como en instrumentos de deuda.\n\n2. **Para qué perfil de inversionista es adecuado**\nEste fondo es adecuado para inversores con un perfil de riesgo medio que buscan un equilibrio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Es ideal para aquellos que desean diversificar su cartera sin asumir un riesgo excesivo.\n\n3. **Principales activos en los que invierte**\nAunque la composición detallada del fondo \"Interes\" no está disponible, generalmente los fondos mixtos invierten en una variedad de instrumentos financieros como bonos, acciones, y otros activos, buscando maximizar el rendimiento y minimizar el riesgo.\n\n4. **Nivel de riesgo en términos simples**\nEn términos simples, el nivel de riesgo de este fondo es considerado medio. Esto significa que si bien existe la posibilidad de obtener rendimientos más altos que la renta fija, también conlleva un nivel de riesgo mayor. Es importante recordar que todas las inversiones tienen riesgos, y es fundamental entender y aceptar el nivel de riesgo asociado antes de invertir.\n\n5. **Horizonte de inversión recomendado**\nEl horizonte de inversión recomendado para el fondo \"Interes\" es a medio y largo plazo, generalmente de al menos 3 a 5 años. Esto se debe a que los activos del fondo pueden experimentar fluctuaciones a corto plazo, pero tienden a generar mejores rendimientos a lo largo del tiempo.\n\n**Ventajas y desventajas:**\n- **Ventajas:** Ofrece diversificación, potencial de crecimiento y gestión profesional de la cartera.\n- **Desventajas:** Puede tener costos asociados, riesgo de mercado y rentabilidad variable.\n\n**Recomendación para el perfil del inversionista ideal:**\nEl fondo \"Interes\" es ideal para jóvenes inversores chilenos con un perfil moderado de riesgo que buscan diversificar su cartera y obtener rendimientos atractivos a mediano y largo plazo. Es importante tener en cuenta los objetivos financieros personales y la tolerancia al riesgo al considerar este fondo.\n\nEspero que esta",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8071-3",
+    "rut_admin": "96767630",
+    "nombre": "INTERES",
+    "full_id": "96767630_8071-3",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "estructura pesos iv",
+  "nombre": "Estructura Pesos Iv",
+  "nombre_cmf": "ESTRUCTURA PESOS IV",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Estructura Pesos IV es una opción de inversión mixta que combina activos de renta fija y variable, diseñada para inversores con un perfil de riesgo medio. Su estrategia de inversión busca maximizar los rendimientos a través de una diversificación en distintos instrumentos financieros. Aunque la composición principal del fondo no está disponible públicamente, se puede inferir que invierte en una variedad de activos para buscar un equilibrio entre seguridad y potencial de crecimiento.\n\nEste fondo es adecuado para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y retorno. Aquellos que desean invertir en el mercado financiero, pero prefieren no asumir un riesgo extremo, pueden encontrar en Estructura Pesos IV una opción atractiva. Es importante tener en cuenta que, al tratarse de un fondo mixto, la rentabilidad puede variar dependiendo de las condiciones del mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Esto significa que, si bien existe la posibilidad de obtener ganancias significativas, también se asume un cierto nivel de riesgo. Es fundamental recordar que todas las inversiones conllevan riesgos, y en el caso de Estructura Pesos IV, este se encuentra en un nivel moderado.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere a los inversores tener una visión a mediano o largo plazo. Dado que este fondo busca maximizar los rendimientos a través de la diversificación, es importante ser paciente y permitir que la estrategia de inversión se desarrolle en el tiempo. Los jóvenes inversores que estén dispuestos a mantener su inversión a largo plazo pueden beneficiarse más plenamente de las potenciales ganancias que ofrece Estructura Pesos IV.\n\nUna ventaja de este fondo es su capacidad para adaptarse a diferentes condiciones del mercado, gracias a su diversificación en distintos activos. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del portafolio, lo que puede dificultar la evaluación detallada de los activos en los que se invierte.\n\nEn resumen, el Fondo Mutuo Estructura Pesos IV es una opción adecuada para jóvenes inversores chilenos con un perfil de riesgo medio, que buscan equilibrar seguridad y potencial de crecimiento. Se recomienda mantener una visión a largo plazo y ser conscientes de los riesgos asociados a este tipo de inversión. Es importante siempre buscar asesoramiento financiero profesional antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10421-3",
+    "rut_admin": "96767630",
+    "nombre": "ESTRUCTURA PESOS IV",
+    "full_id": "96767630_10421-3",
+    "source": "javascript"
+  }
+}

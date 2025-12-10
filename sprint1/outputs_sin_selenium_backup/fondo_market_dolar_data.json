@@ -1,0 +1,23 @@
+{
+  "fondo_id": "market dolar",
+  "nombre": "Market Dolar",
+  "nombre_cmf": "MARKET DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Market Dolar es una excelente opción para aquellos inversionistas que buscan un equilibrio entre riesgo y rentabilidad. Este fondo, de tipo mixto, combina diferentes clases de activos para maximizar las oportunidades de crecimiento. Aunque la composición principal del fondo no está disponible públicamente, su enfoque diversificado puede incluir acciones, bonos, y otros instrumentos financieros.\n\nMarket Dolar está diseñado para inversionistas con un perfil de riesgo medio, lo que significa que están dispuestos a asumir cierto grado de volatilidad en busca de mayores retornos a largo plazo. Este fondo puede ser adecuado para jóvenes inversores que buscan hacer crecer su patrimonio de forma gradual y constante, sin exponerse a riesgos extremos.\n\nEn cuanto a los activos en los que invierte, Market Dolar puede tener una distribución diversa que busca maximizar la rentabilidad y reducir el riesgo. Por ejemplo, podría invertir en acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como en instrumentos del mercado monetario. Esta diversificación ayuda a mitigar los riesgos asociados con la volatilidad de un solo mercado o sector.\n\nEn términos simples, el nivel de riesgo de Market Dolar se encuentra en un punto intermedio. Aunque puede experimentar fluctuaciones en el corto plazo, la diversificación de sus activos tiende a suavizar los impactos negativos y a ofrecer un potencial de crecimiento sostenido a largo plazo.\n\nSe recomienda un horizonte de inversión a mediano o largo plazo para este fondo, ya que permite aprovechar al máximo su estrategia diversificada y superar posibles fluctuaciones a corto plazo. Los inversores deben ser pacientes y estar dispuestos a mantener sus posiciones a lo largo del tiempo para obtener los mejores resultados.\n\nEntre las ventajas de Market Dolar se encuentran su diversificación, que puede reducir el riesgo global de la cartera, y su potencial de crecimiento constante a lo largo del tiempo. Sin embargo, es importante tener en cuenta que, al tratarse de un fondo de riesgo medio, las ganancias pueden no ser tan altas como en fondos de mayor riesgo, pero tampoco tan bajas como en fondos conservadores.\n\nEn resumen, Market Dolar es una opción atractiva para jóvenes inversionistas chilenos que buscan un equilibrio entre riesgo y rentabilidad. Con una estrategia diversificada y un enfoque a mediano y largo plazo, este fondo puede ser una herramienta útil para construir un patrimonio sólido y estable a lo largo del",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8230-9",
+    "rut_admin": "96767630",
+    "nombre": "MARKET DOLAR",
+    "full_id": "96767630_8230-9",
+    "source": "javascript"
+  }
+}

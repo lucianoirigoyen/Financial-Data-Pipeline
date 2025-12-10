@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta alianza pacífi",
+  "nombre": "Renta Alianza Pacífi",
+  "nombre_cmf": "RENTA ALIANZA PACÍFI",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Renta Alianza Pacífico es una opción de inversión mixta que combina instrumentos de renta fija y variable, buscando un equilibrio entre la estabilidad y el crecimiento. Su estrategia se enfoca en diversificar la cartera de activos para reducir el riesgo y aprovechar oportunidades de rendimiento en mercados internacionales de la región del Pacífico, como Asia y Oceanía.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los de instrumentos conservadores. Si eres un joven inversor chileno que está dispuesto a asumir cierto nivel de riesgo en busca de un mayor potencial de rentabilidad, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, el fondo Renta Alianza Pacífico puede incluir acciones de empresas asiáticas, bonos corporativos de la región, e incluso instrumentos de mercados emergentes. Esta diversificación geográfica y sectorial contribuye a mitigar el riesgo y aprovechar las oportunidades de crecimiento en economías en desarrollo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Si bien existe la posibilidad de fluctuaciones en el valor de la inversión, la diversificación de la cartera busca reducir la volatilidad y proteger el capital a largo plazo. Es importante tener en cuenta que, como en cualquier inversión en instrumentos de renta variable, los rendimientos pueden variar y no están garantizados.\n\nEl horizonte de inversión recomendado para el fondo Renta Alianza Pacífico es a medio y largo plazo, ya que permite aprovechar el potencial de crecimiento de los mercados internacionales del Pacífico. Si tienes un horizonte temporal de al menos 3 a 5 años y estás dispuesto a mantener tu inversión durante ese período, podrás beneficiarte de la estrategia de diversificación y crecimiento del fondo.\n\nAl considerar este fondo, es importante tener en cuenta que, si bien ofrece la oportunidad de obtener rendimientos superiores a los de instrumentos más conservadores, también implica un nivel de riesgo mayor. Como recomendación, es fundamental que los inversores jóvenes diversifiquen su cartera y mantengan una visión a largo plazo, evitando decisiones impulsivas basadas en la volatilidad a corto plazo de los mercados.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9328-9",
+    "rut_admin": "96767630",
+    "nombre": "RENTA ALIANZA PACÍFI",
+    "full_id": "96767630_9328-9",
+    "source": "javascript"
+  }
+}

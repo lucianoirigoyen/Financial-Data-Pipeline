@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bice est mas conserv",
+  "nombre": "Bice Est Mas Conserv",
+  "nombre_cmf": "BICE EST MAS CONSERV",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Bice Est Mas Conserv es una opción de inversión mixta que combina activos de renta fija y variable, buscando un equilibrio entre seguridad y potencial de crecimiento. Su estrategia de inversión se enfoca en mantener un nivel de riesgo medio, lo que significa que puede tener una volatilidad controlada en comparación con fondos más arriesgados.\n\nEste fondo es adecuado para inversionistas que buscan un balance entre la seguridad de la renta fija y la posibilidad de obtener rendimientos superiores a través de la renta variable. Es ideal para aquellos que prefieren no asumir riesgos extremos pero desean mantener cierto potencial de crecimiento en sus inversiones a mediano plazo.\n\nAunque la composición principal del fondo no está disponible, se espera que Bice Est Mas Conserv invierta en instrumentos financieros como bonos corporativos, acciones de empresas sólidas y posiblemente algunos instrumentos derivados. Estos activos pueden provenir tanto del mercado local como internacional, diversificando así el portafolio y reduciendo el riesgo asociado a la concentración en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio entre la seguridad de la renta fija y la volatilidad de la renta variable. Aunque no es tan conservador como un fondo exclusivamente de renta fija, tampoco se expone a los mismos niveles de riesgo que un fondo de renta variable pura. Es importante tener en cuenta que, si bien el riesgo es medio, aún existe la posibilidad de pérdidas en momentos de turbulencia en los mercados.\n\nEl horizonte de inversión recomendado para el fondo Bice Est Mas Conserv es a mediano plazo, lo que significa que se espera que los inversionistas mantengan su dinero invertido durante al menos unos años para poder beneficiarse de las fluctuaciones naturales del mercado y obtener potenciales ganancias a largo plazo.\n\nEn resumen, este fondo mixto ofrece una oportunidad equilibrada para aquellos inversionistas que buscan diversificar su portafolio y obtener un rendimiento moderado con un nivel de riesgo controlado. Sin embargo, es importante que los inversionistas comprendan que, aunque el riesgo es medio, pueden enfrentar pérdidas en ciertas circunstancias. Se recomienda este fondo para aquellos inversionistas que buscan un equilibrio entre riesgo y potencial de crecimiento, y que tienen un horizonte de inversión a mediano plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8933-8",
+    "rut_admin": "96767630",
+    "nombre": "BICE EST MAS CONSERV",
+    "full_id": "96767630_8933-8",
+    "source": "javascript"
+  }
+}

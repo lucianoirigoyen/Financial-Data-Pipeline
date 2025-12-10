@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci estruc. g.f.i",
+  "nombre": "Fm Bci Estruc. G.F.I",
+  "nombre_cmf": "FM BCI ESTRUC. G.F.I",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Estructurado Global Flexible Inversiones (Fm Bci Estruc. G.F.I) es una opción de inversión mixta que busca combinar la estabilidad de activos de renta fija con el potencial de crecimiento de activos de renta variable a nivel global. Esto significa que el fondo invierte tanto en bonos y otros instrumentos de deuda como en acciones de distintas empresas en diversos mercados internacionales. \n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre obtener rendimientos atractivos y proteger su capital de las fluctuaciones del mercado. Si eres un joven inversor chileno que busca diversificar tu cartera y estás dispuesto a asumir un cierto nivel de riesgo en busca de mayores ganancias, este fondo podría ser adecuado para ti.\n\nEn términos simples, el Fm Bci Estruc. G.F.I invierte en una combinación de activos de renta fija y variable a nivel global. Esto significa que tu dinero estará distribuido en bonos emitidos por gobiernos y empresas, así como en acciones de compañías de distintos sectores y países. Al diversificar así tu inversión, se busca reducir el impacto de posibles caídas en un mercado específico y aprovechar oportunidades de crecimiento en diferentes regiones.\n\nEn cuanto al riesgo, al ser un fondo mixto, el nivel de riesgo se considera medio. Esto implica que, si bien existe la posibilidad de obtener rendimientos más altos que con un fondo puramente conservador, también se asume un mayor riesgo de pérdida en momentos de volatilidad en los mercados financieros. Es importante tener en cuenta que, a medida que se invierte en acciones, los precios pueden fluctuar más que en bonos, lo que puede generar ganancias o pérdidas.\n\nEn cuanto al horizonte de inversión, se recomienda mantener una perspectiva a mediano a largo plazo al invertir en el Fm Bci Estruc. G.F.I. Esto significa que es conveniente tener un horizonte temporal de al menos tres a cinco años, ya que de esta forma se pueden aprovechar mejor las fluctuaciones del mercado y permitir que las inversiones alcancen su potencial de rendimiento.\n\nEn resumen, el Fondo Mutuo Bci Estructurado Global Flexible Inversiones es una opción interesante para jóvenes inversores chilenos que buscan diversificar su cartera y están dispuestos a asumir un nivel moderado de riesgo en busca de mayores retornos. Es importante recordar que, como cualquier inversión, este fondo conllev",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9587-7",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI ESTRUC. G.F.I",
+    "full_id": "96767630_9587-7",
+    "source": "javascript"
+  }
+}

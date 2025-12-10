@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm cc mediano plazo",
+  "nombre": "Fm Cc Mediano Plazo",
+  "nombre_cmf": "FM CC MEDIANO PLAZO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Cencosud Mediano Plazo es una opción de inversión que combina tanto activos de renta fija como de renta variable, lo que lo clasifica como un fondo mixto. Su objetivo principal es lograr un equilibrio entre la generación de rendimientos y la gestión del riesgo a mediano plazo. A través de esta estrategia, busca aprovechar las oportunidades de inversión tanto en bonos, acciones y otros instrumentos financieros. Sin embargo, la composición exacta de sus inversiones no está disponible públicamente.\n\nEste fondo suele ser adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la generación de rendimientos y la preservación del capital invertido. Si bien presenta un nivel de riesgo mayor que los fondos conservadores, también ofrece la posibilidad de obtener rendimientos más atractivos a cambio.\n\nEn términos simples, el Fondo Mutuo Cencosud Mediano Plazo puede invertir en bonos corporativos, acciones de empresas nacionales e internacionales, instrumentos de deuda pública y otros activos financieros. Esta diversificación de activos busca reducir la volatilidad del fondo y maximizar las oportunidades de rendimiento a mediano plazo.\n\nEn cuanto al nivel de riesgo, se puede decir que este fondo se sitúa en un punto intermedio. Aunque presenta cierta exposición a activos de mayor riesgo, como las acciones, también mantiene una porción de su cartera en activos de renta fija más seguros, lo que contribuye a su perfil equilibrado.\n\nEn términos de horizonte de inversión recomendado, este fondo suele ser más adecuado para inversores con un plazo de inversión de al menos 3 a 5 años. Esto se debe a que, al tratarse de un fondo mixto con una estrategia a mediano plazo, es importante permitir que las inversiones se desarrollen y se ajusten a lo largo del tiempo para obtener los mejores resultados.\n\nEntre las ventajas de este fondo se encuentran la diversificación de activos, que ayuda a reducir el riesgo, y la posibilidad de obtener rendimientos atractivos a mediano plazo. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de sus inversiones.\n\nEn resumen, el Fondo Mutuo Cencosud Mediano Plazo es una opción adecuada para inversores con un perfil de riesgo medio que buscan diversificar sus inversiones y obtener rendimientos atractivos a mediano plazo. Es importante tener en cuenta el horizonte de inversión recomendado y mantener",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9108-1",
+    "rut_admin": "96767630",
+    "nombre": "FM CC MEDIANO PLAZO",
+    "full_id": "96767630_9108-1",
+    "source": "javascript"
+  }
+}

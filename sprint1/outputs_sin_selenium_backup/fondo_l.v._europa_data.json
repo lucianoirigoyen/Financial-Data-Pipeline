@@ -1,0 +1,23 @@
+{
+  "fondo_id": "l.v. europa",
+  "nombre": "L.V. Europa",
+  "nombre_cmf": "L.V. EUROPA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo L.V. Europa es una alternativa de inversión mixta diseñada para quienes buscan un equilibrio entre riesgo y rendimiento. Su estrategia de inversión combina tanto activos de renta fija como de renta variable, lo que le permite diversificar y potenciar las posibilidades de obtener ganancias a mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en sus inversiones con el objetivo de obtener un rendimiento superior al promedio. Si buscas una opción que ofrezca un potencial de crecimiento moderado, el L.V. Europa podría ser una buena elección para ti.\n\nAunque la composición exacta del fondo no está disponible, se espera que invierta principalmente en empresas europeas, bonos corporativos y gubernamentales de la región, así como en otros instrumentos financieros que permitan diversificar el riesgo. Esto le brinda al fondo una exposición diversificada a diferentes sectores y geografías, lo que puede ayudar a mitigar posibles pérdidas.\n\nEn términos simples, el nivel de riesgo del L.V. Europa se sitúa en un punto intermedio, lo que implica que podría experimentar fluctuaciones en su valor, pero sin llegar a ser tan volátil como otros fondos de mayor riesgo. Es importante tener en cuenta que, si bien el riesgo es moderado, siempre existe la posibilidad de que el valor de tus inversiones pueda disminuir en el corto plazo.\n\nEn cuanto al horizonte de inversión recomendado, se aconseja a los inversionistas mantener su dinero en el fondo por al menos un período de tiempo razonable, idealmente de al menos 3 a 5 años. Esto permite que el fondo tenga el tiempo suficiente para desplegar su estrategia de inversión y superar posibles periodos de volatilidad a corto plazo.\n\nEn resumen, el fondo mutuo L.V. Europa ofrece una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener un rendimiento potencialmente superior al promedio. Aunque presenta cierta incertidumbre en términos de rentabilidad a corto plazo, su enfoque diversificado y equilibrado lo convierte en una opción interesante para aquellos que buscan un equilibrio entre riesgo y rendimiento. Es importante recordar que toda inversión conlleva riesgos, por lo que es fundamental contar con un plan de inversión sólido y estar preparado para afrontar posibles fluctuaciones en el valor de tus",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8497-2",
+    "rut_admin": "96767630",
+    "nombre": "L.V. EUROPA",
+    "full_id": "96767630_8497-2",
+    "source": "javascript"
+  }
+}

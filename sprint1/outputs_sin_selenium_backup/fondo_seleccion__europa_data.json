@@ -1,0 +1,23 @@
+{
+  "fondo_id": "seleccion  europa",
+  "nombre": "Seleccion  Europa",
+  "nombre_cmf": "SELECCION  EUROPA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Seleccion Europa es una excelente opción para aquellos inversores que desean diversificar su cartera a través de la inversión en activos europeos. Se trata de un fondo mixto, lo que significa que combina tanto activos de renta fija como de renta variable, ofreciendo así una estrategia de inversión equilibrada. Aunque la composición principal del fondo no está disponible públicamente, se sabe que se enfoca en el mercado europeo, lo cual puede brindar una exposición diversificada a diferentes sectores y países de la región.\n\nEn cuanto al perfil de riesgo, Seleccion Europa se considera de riesgo medio, lo que implica que los inversores podrían experimentar cierta volatilidad en sus inversiones, pero con la posibilidad de obtener rendimientos competitivos a largo plazo. Es importante tener en cuenta que el nivel de riesgo está relacionado con la posibilidad de obtener mayores ganancias, pero también con la probabilidad de sufrir pérdidas en el corto plazo.\n\nEste fondo es adecuado para inversores con un horizonte de inversión a medio o largo plazo, ya que la volatilidad del mercado europeo puede requerir paciencia y una visión a largo plazo para obtener los mejores resultados. Si estás dispuesto a mantener tus inversiones durante varios años y tolerar cierto grado de incertidumbre, Seleccion Europa puede ser una excelente opción para diversificar tu cartera y potencialmente obtener buenos rendimientos.\n\nEn términos simples, los activos en los que invierte este fondo pueden incluir acciones de empresas europeas, bonos corporativos o gubernamentales de la región, así como otros instrumentos financieros relacionados con el mercado europeo. Al invertir en una variedad de activos, el fondo busca maximizar los rendimientos ajustados al riesgo, aprovechando las oportunidades que ofrece el mercado europeo.\n\nEs importante recordar que, si bien Seleccion Europa ofrece la posibilidad de obtener rendimientos atractivos, también conlleva cierto nivel de riesgo. Por lo tanto, es fundamental que los inversores comprendan y estén cómodos con la volatilidad propia de este tipo de fondos antes de tomar una decisión de inversión.\n\nEn resumen, Seleccion Europa es un fondo mixto con enfoque europeo, ideal para inversores con un perfil de riesgo medio y un horizonte de inversión a medio o largo plazo. Si estás buscando diversificar tu cartera y estás dispuesto a asumir cierta volatilidad en busca de rendimientos potenciales, este fondo podría ser una opción a considerar. ¡Recuerda siempre consultar con un asesor",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8487-5",
+    "rut_admin": "96767630",
+    "nombre": "SELECCION  EUROPA",
+    "full_id": "96767630_8487-5",
+    "source": "javascript"
+  }
+}

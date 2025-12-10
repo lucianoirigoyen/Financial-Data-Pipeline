@@ -1,0 +1,23 @@
+{
+  "fondo_id": "gestión conservadora",
+  "nombre": "Gestión Conservadora",
+  "nombre_cmf": "GESTIÓN CONSERVADORA",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo de inversión Gestión Conservadora es una alternativa diseñada para aquellos inversores que buscan preservar su capital y obtener un rendimiento estable en el tiempo. Este fondo se caracteriza por su enfoque conservador, lo que significa que prioriza la seguridad de las inversiones por sobre la búsqueda de altos rendimientos a corto plazo. Su estrategia de inversión se basa en seleccionar activos de bajo riesgo, como bonos de gobierno o instrumentos financieros de renta fija, que ofrecen una rentabilidad moderada pero constante.\n\nEste tipo de fondo es ideal para inversionistas con un perfil de riesgo bajo, es decir, aquellos que prefieren no asumir grandes riesgos en sus inversiones y valoran la estabilidad por sobre la posibilidad de obtener altas ganancias. Si eres un joven inversor que está comenzando a adentrarse en el mundo de las finanzas y buscas una opción segura para hacer crecer tu dinero a largo plazo, el fondo Gestión Conservadora puede ser una excelente alternativa para ti.\n\nEn cuanto a los activos en los que invierte este fondo, la información específica sobre su composición principal no está disponible públicamente. Sin embargo, dado su enfoque conservador, es probable que invierta en bonos corporativos de empresas sólidas, bonos de gobierno o instrumentos financieros de bajo riesgo. Estos activos proporcionan estabilidad a la cartera y reducen la exposición a fluctuaciones del mercado.\n\nEn términos simples, el nivel de riesgo asociado a este fondo es bajo, lo que significa que las posibilidades de sufrir pérdidas significativas son menores en comparación con fondos más arriesgados. Si bien la rentabilidad esperada puede ser moderada, la principal ventaja de este tipo de fondos es la preservación del capital y la tranquilidad que brindan a los inversores que prefieren una estrategia conservadora.\n\nEl horizonte de inversión recomendado para el fondo Gestión Conservadora es a medio y largo plazo, ya que su enfoque conservador busca generar rendimientos estables y sostenidos en el tiempo. Para aquellos inversionistas que buscan proteger su capital y obtener una rentabilidad segura a lo largo de los años, este fondo puede ser una excelente opción.\n\nEn resumen, el fondo Gestión Conservadora es una alternativa adecuada para jóvenes inversores chilenos que valoran la seguridad y la estabilidad en sus inversiones. Si buscas preservar tu capital, obtener rendimientos constantes y no estás dispuesto a asumir grandes riesgos, este fondo puede ser una buena opción para comenzar a construir tu patrimonio financiero",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9872-8",
+    "rut_admin": "96767630",
+    "nombre": "GESTIÓN CONSERVADORA",
+    "full_id": "96767630_9872-8",
+    "source": "javascript"
+  }
+}

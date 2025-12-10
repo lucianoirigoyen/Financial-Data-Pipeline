@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci 108 iii",
+  "nombre": "Fm Bci 108 Iii",
+  "nombre_cmf": "FM BCI 108 III",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci 108 III es una opción de inversión mixta, lo que significa que combina inversiones tanto en renta fija como en renta variable. Su estrategia de inversión busca obtener rendimientos atractivos a largo plazo, aprovechando las oportunidades que ofrece el mercado financiero. Aunque la composición principal del fondo no está disponible públicamente, se puede inferir que diversifica sus inversiones para reducir el riesgo y maximizar los rendimientos.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener ganancias atractivas. Si bien no garantiza retornos fijos, ofrece la oportunidad de participar en el crecimiento de distintos activos financieros. Es importante que el inversionista comprenda que, al tratarse de un fondo mixto, puede experimentar fluctuaciones en su valor en el corto plazo.\n\nEn términos simples, el nivel de riesgo del Fondo Mutuo Bci 108 III se encuentra en un punto intermedio entre la prudencia de la renta fija y la volatilidad de la renta variable. Esto implica que, si bien existe la posibilidad de obtener mayores rendimientos que con un fondo puramente conservador, también se asume un cierto grado de incertidumbre en el mercado. Es importante tener en cuenta que, en caso de que los mercados financieros se vean afectados negativamente, el valor de las inversiones en el fondo podría disminuir.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para aquellos inversores que tienen un plazo de inversión a medio o largo plazo. Dado que las inversiones en renta variable pueden requerir tiempo para madurar y generar rendimientos consistentes, se aconseja mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones del mercado en el corto plazo.\n\nEn resumen, el Fondo Mutuo Bci 108 III ofrece una alternativa interesante para inversores con un perfil de riesgo medio que buscan diversificar sus inversiones y obtener rendimientos atractivos a largo plazo. Si bien presenta la posibilidad de enfrentar volatilidad en el corto plazo, su enfoque equilibrado entre renta fija y renta variable puede ser una opción atractiva para quienes buscan un equilibrio entre seguridad y potencial de crecimiento. Es fundamental que cada inversor evalúe su tolerancia al riesgo y su horizonte de inversión antes de tomar decisiones financieras.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9262-2",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI 108 III",
+    "full_id": "96767630_9262-2",
+    "source": "javascript"
+  }
+}

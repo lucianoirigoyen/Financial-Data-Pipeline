@@ -1,0 +1,23 @@
+{
+  "fondo_id": "pru acciones chile",
+  "nombre": "Pru Acciones Chile",
+  "nombre_cmf": "PRU ACCIONES CHILE",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo de inversión Pru Acciones Chile es una alternativa agresiva para quienes buscan maximizar su potencial de ganancias a través de inversiones en el mercado chileno de acciones. Su estrategia se enfoca en seleccionar empresas con alto potencial de crecimiento en sectores diversos, lo que puede implicar un mayor nivel de riesgo pero también mayores oportunidades de rentabilidad a largo plazo.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo alto, es decir, aquellos dispuestos a asumir fluctuaciones significativas en el valor de sus inversiones con el objetivo de obtener rendimientos superiores a la media del mercado. Si eres un joven inversor con una mentalidad audaz y un horizonte de inversión a largo plazo, este fondo podría ser una opción interesante para diversificar tu cartera y potenciar tus ganancias.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente, pero se espera que esté principalmente compuesto por acciones de empresas chilenas con alto potencial de crecimiento. Ejemplos de sectores en los que podría invertir incluyen tecnología, energía, salud o retail, entre otros. Esta diversificación sectorial busca reducir el riesgo asociado a la concentración en un solo sector, aunque el riesgo general del fondo sigue siendo alto.\n\nEn términos simples, el nivel de riesgo de este fondo se traduce en la posibilidad de experimentar fuertes variaciones en su valor en el corto plazo debido a la volatilidad del mercado de acciones. Es importante tener en cuenta que, si bien un mayor riesgo puede conllevar mayores ganancias, también implica la posibilidad de sufrir pérdidas significativas en momentos de turbulencia en el mercado.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversores con un horizonte a largo plazo, es decir, aquellos que planean mantener sus inversiones durante al menos cinco años o más. Esto se debe a que, a pesar de las fluctuaciones a corto plazo, las inversiones en acciones tienden a generar mejores rendimientos en el largo plazo, permitiendo así que los inversionistas se beneficien del potencial de crecimiento de las empresas en las que invierten.\n\nEn resumen, el fondo Pru Acciones Chile puede ser una opción interesante para inversionistas jóvenes en busca de altas rentabilidades a largo plazo, siempre y cuando estén dispuestos a asumir un nivel de riesgo alto en sus inversiones. Es importante recordar que diversificar la cartera y tener una estrategia de inversión clara son clave para maxim",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10331-4",
+    "rut_admin": "96767630",
+    "nombre": "PRU ACCIONES CHILE",
+    "full_id": "96767630_10331-4",
+    "source": "javascript"
+  }
+}

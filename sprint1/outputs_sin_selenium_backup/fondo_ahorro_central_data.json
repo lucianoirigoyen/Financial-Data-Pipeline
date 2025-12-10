@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ahorro central",
+  "nombre": "Ahorro Central",
+  "nombre_cmf": "AHORRO CENTRAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Ahorro Central es una opción mixta que combina activos de renta variable y fija, lo que le otorga un perfil de riesgo medio. Su estrategia de inversión se centra en diversificar el portafolio para buscar un equilibrio entre la rentabilidad y la seguridad de la inversión. Esto significa que el fondo busca maximizar las ganancias aprovechando las oportunidades del mercado, pero también proteger el capital de posibles caídas.\n\nEste tipo de fondo es adecuado para inversores con un perfil moderado, que buscan un equilibrio entre riesgo y retorno. Es ideal para aquellos que desean obtener rendimientos superiores a los de una cuenta de ahorro tradicional, pero sin asumir un nivel de riesgo alto. Si eres un joven inversor que busca crecer tu dinero a mediano plazo sin exponerte a grandes fluctuaciones, Ahorro Central podría ser una buena alternativa.\n\nAunque la composición exacta del fondo no está disponible, es probable que invierta en una variedad de activos, como acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como instrumentos del mercado monetario. Esta diversificación contribuye a reducir el riesgo inherente a cada tipo de activo y a mejorar la estabilidad del fondo en diferentes condiciones del mercado.\n\nEn términos simples, el nivel de riesgo de Ahorro Central se sitúa en un punto intermedio. Esto significa que, si bien puede haber fluctuaciones en el valor de la inversión en el corto plazo, a largo plazo se espera que genere retornos superiores a una inversión conservadora. Es importante recordar que, en el mundo de las inversiones, el riesgo y la rentabilidad suelen estar estrechamente relacionados, por lo que siempre es crucial entender y estar cómodo con el nivel de riesgo asumido.\n\nSe recomienda un horizonte de inversión a mediano o largo plazo para este fondo, ya que permite aprovechar al máximo el potencial de crecimiento de los activos en los que invierte. Es importante tener en cuenta que, si bien la rentabilidad a corto plazo puede ser variable, a medida que se mantiene la inversión a lo largo del tiempo, se tiende a suavizar el impacto de las fluctuaciones del mercado.\n\nEn resumen, Ahorro Central es una alternativa atractiva para jóvenes inversores que buscan un equilibrio entre riesgo y retorno en sus inversiones. Si bien no se dispone de información específica sobre su composición y rentabilidad a corto plazo, su estrategia mixta y perfil de riesgo medio lo convierten en una opción interesante para",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8241-4",
+    "rut_admin": "96767630",
+    "nombre": "AHORRO CENTRAL",
+    "full_id": "96767630_8241-4",
+    "source": "javascript"
+  }
+}

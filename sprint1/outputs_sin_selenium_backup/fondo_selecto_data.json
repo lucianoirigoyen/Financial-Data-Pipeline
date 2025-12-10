@@ -1,0 +1,23 @@
+{
+  "fondo_id": "selecto",
+  "nombre": "Selecto",
+  "nombre_cmf": "SELECTO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Selecto es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable, con el objetivo de lograr un equilibrio entre la estabilidad y el potencial de crecimiento. Su estrategia se enfoca en diversificar la cartera de inversiones para mitigar riesgos y aprovechar oportunidades en diferentes clases de activos.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre obtener rendimientos atractivos y no asumir riesgos excesivos en su cartera. Es ideal para jóvenes inversores que deseen comenzar a invertir con un enfoque a mediano plazo, sin comprometer su capital de forma significativa.\n\nEn cuanto a los activos en los que invierte, el fondo Selecto no especifica una composición principal, lo que puede ser tanto una ventaja como una desventaja. Por un lado, la flexibilidad en la selección de activos le permite adaptarse a diferentes condiciones del mercado. Por otro lado, la falta de transparencia puede generar incertidumbre en los inversionistas.\n\nEn términos simples, el nivel de riesgo del fondo Selecto se encuentra en un punto intermedio. Esto significa que, si bien existe la posibilidad de obtener ganancias atractivas, también se deben considerar fluctuaciones en el valor de la inversión en el corto plazo. Es importante tener en cuenta que el riesgo está asociado a la volatilidad del mercado y que, a largo plazo, las inversiones tienden a equilibrarse.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas mantengan su dinero invertido en el fondo Selecto por al menos 3 a 5 años. Este plazo permite que la estrategia de inversión se desarrolle y se materialicen los rendimientos esperados, evitando decisiones impulsivas basadas en movimientos a corto plazo del mercado.\n\nEn resumen, el fondo mutuo Selecto es una opción equilibrada para jóvenes inversores chilenos que buscan diversificar su cartera de forma segura, pero con potencial de crecimiento. Se recomienda a aquellos que estén dispuestos a asumir un nivel moderado de riesgo y tengan un horizonte de inversión a medio plazo. Es importante recordar que la inversión conlleva riesgos, por lo que es fundamental contar con un asesor financiero que pueda brindar orientación personalizada.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8109-4",
+    "rut_admin": "96767630",
+    "nombre": "SELECTO",
+    "full_id": "96767630_8109-4",
+    "source": "javascript"
+  }
+}

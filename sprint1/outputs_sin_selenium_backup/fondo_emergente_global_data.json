@@ -1,0 +1,23 @@
+{
+  "fondo_id": "emergente global",
+  "nombre": "Emergente Global",
+  "nombre_cmf": "EMERGENTE GLOBAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión \"Emergente Global\" es una opción de inversión mixta que combina activos de renta variable y renta fija, permitiendo diversificar el riesgo de forma equilibrada. Su estrategia de inversión se enfoca en capturar oportunidades de crecimiento en economías emergentes a nivel global, buscando obtener rendimientos atractivos a mediano y largo plazo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener mayores retornos y la exposición a cierto nivel de riesgo. Si bien no se dispone de información específica sobre la composición principal del fondo, se espera que invierta en empresas de mercados emergentes y en bonos de países en desarrollo.\n\nEn términos simples, el nivel de riesgo asociado a este fondo puede compararse con el de dar un paseo en bicicleta por terreno variado. Aunque puede haber fluctuaciones en el valor de la inversión en el corto plazo, a largo plazo se espera que pueda generar rendimientos atractivos. Es importante tener en cuenta que, como en toda inversión, existen riesgos inherentes que pueden afectar el desempeño del fondo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere una visión a mediano o largo plazo, ya que las inversiones en mercados emergentes suelen requerir tiempo para madurar y mostrar su verdadero potencial de crecimiento. Es importante tener paciencia y mantener una visión a largo plazo para aprovechar las oportunidades de crecimiento que ofrecen estos mercados.\n\nEntre las ventajas de invertir en el fondo \"Emergente Global\" se encuentran la posibilidad de diversificar la cartera a nivel internacional, acceder a economías en crecimiento y obtener potenciales retornos atractivos. Sin embargo, es importante tener en cuenta que la volatilidad de los mercados emergentes puede implicar movimientos bruscos en el valor de la inversión, por lo que es fundamental contar con un adecuado perfil de riesgo y una estrategia de inversión bien definida.\n\nEn resumen, el fondo \"Emergente Global\" es una alternativa atractiva para aquellos inversores con un perfil de riesgo medio que buscan diversificar su cartera a nivel internacional y acceder a oportunidades de crecimiento en economías emergentes. Se recomienda tener una visión a mediano o largo plazo, mantenerse informado sobre los mercados emergentes y contar con asesoramiento financiero adecuado para tomar decisiones informadas.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8625-8",
+    "rut_admin": "96767630",
+    "nombre": "EMERGENTE GLOBAL",
+    "full_id": "96767630_8625-8",
+    "source": "javascript"
+  }
+}

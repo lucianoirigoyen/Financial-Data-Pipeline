@@ -1,0 +1,23 @@
+{
+  "fondo_id": "tendencias globales",
+  "nombre": "Tendencias Globales",
+  "nombre_cmf": "TENDENCIAS GLOBALES",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Tendencias Globales es una opción de inversión mixta que busca combinar distintos activos para lograr un equilibrio entre riesgo y rentabilidad. Su estrategia de inversión se basa en diversificar el portafolio a nivel global, aprovechando oportunidades en diferentes mercados y sectores. Esto permite a los inversores participar en distintas tendencias económicas y geográficas, lo que puede ofrecer una mayor protección ante la volatilidad del mercado local.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio que buscan obtener un rendimiento atractivo a largo plazo sin asumir una exposición excesiva a riesgos extremos. Es importante tener en cuenta que, al ser un fondo mixto, la combinación de activos puede variar en función de las condiciones del mercado, lo que puede influir en la rentabilidad final.\n\nEn términos simples, el fondo Tendencias Globales invierte en una variedad de activos, como acciones, bonos, y posiblemente otros instrumentos financieros, tanto en Chile como en el extranjero. Esto brinda a los inversionistas la oportunidad de diversificar sus inversiones y participar en diferentes clases de activos, lo que puede reducir el impacto de eventos adversos en un solo mercado.\n\nEn cuanto al nivel de riesgo, este fondo se considera de riesgo medio, lo que significa que existe la posibilidad de pérdidas en el corto plazo, pero también la oportunidad de obtener rendimientos superiores a la media en el largo plazo. Es importante entender que, si bien el riesgo es moderado, siempre existe la posibilidad de que el valor de la inversión disminuya en ciertos momentos.\n\nSe recomienda un horizonte de inversión a medio o largo plazo para el fondo Tendencias Globales, ya que esto permite aprovechar el potencial de crecimiento de las inversiones a lo largo del tiempo y superar posibles fluctuaciones a corto plazo en los mercados financieros.\n\nEn resumen, el fondo mutuo Tendencias Globales puede ser una opción atractiva para jóvenes inversores chilenos que buscan diversificar su portafolio y obtener un equilibrio entre riesgo y rendimiento. Sin embargo, es importante tener en cuenta que, como cualquier inversión, existen riesgos asociados que deben ser evaluados en función del perfil de cada inversionista. Siempre es recomendable consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9986-4",
+    "rut_admin": "96767630",
+    "nombre": "TENDENCIAS GLOBALES",
+    "full_id": "96767630_9986-4",
+    "source": "javascript"
+  }
+}

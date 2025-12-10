@@ -1,0 +1,23 @@
+{
+  "fondo_id": "pru renta uf",
+  "nombre": "Pru Renta Uf",
+  "nombre_cmf": "PRU RENTA UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Pru Renta UF es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable, con el objetivo de obtener un equilibrio entre seguridad y potencial de crecimiento. Su estrategia de inversión busca diversificar el riesgo al invertir en una variedad de instrumentos financieros, lo que puede ofrecer una mayor estabilidad a lo largo del tiempo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la posibilidad de obtener rendimientos superiores al promedio y la preservación del capital invertido. Si eres un joven inversor chileno que busca una alternativa que no sea ni demasiado conservadora ni demasiado arriesgada, el Pru Renta UF podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte este fondo, la información detallada sobre su composición principal no está disponible públicamente. Sin embargo, es probable que incluya una combinación de bonos, acciones y otros instrumentos financieros que estén indexados a la Unidad de Fomento (UF), lo que puede proporcionar cierta protección contra la inflación.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Esto significa que, si bien puede haber fluctuaciones en el valor de la inversión en el corto plazo, a largo plazo se espera que brinde un equilibrio entre seguridad y potencial de crecimiento. Es importante tener en cuenta que, como cualquier inversión, existen riesgos inherentes y es fundamental estar preparado para posibles cambios en el mercado.\n\nEl horizonte de inversión recomendado para el Pru Renta UF es a medio y largo plazo. Esto significa que, si tienes la intención de mantener tu inversión durante varios años, es más probable que puedas beneficiarte de la estrategia de diversificación del fondo y superar posibles periodos de volatilidad en los mercados financieros.\n\nEn resumen, el fondo Pru Renta UF puede ser una opción atractiva para jóvenes inversores chilenos con un perfil de riesgo medio que buscan una inversión diversificada que combine seguridad y potencial de crecimiento. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y asegurarte de entender completamente los riesgos y beneficios de cualquier fondo en el que estés interesado.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10329-2",
+    "rut_admin": "96767630",
+    "nombre": "PRU RENTA UF",
+    "full_id": "96767630_10329-2",
+    "source": "javascript"
+  }
+}

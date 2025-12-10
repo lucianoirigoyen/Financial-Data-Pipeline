@@ -1,0 +1,23 @@
+{
+  "fondo_id": "desarrollados",
+  "nombre": "Desarrollados",
+  "nombre_cmf": "DESARROLLADOS",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Desarrollados es una alternativa de inversión mixta que combina activos de renta fija y variable, diseñada para inversores con un perfil de riesgo medio. Su estrategia busca obtener rendimientos atractivos a largo plazo, manteniendo un equilibrio entre la estabilidad de la renta fija y el potencial de crecimiento de la renta variable. \n\nEste tipo de fondo es adecuado para aquellos inversores que buscan un equilibrio entre la seguridad de la inversión y la posibilidad de obtener mayores retornos en comparación con productos de renta fija pura. Por lo tanto, es ideal para jóvenes inversores chilenos que deseen diversificar su cartera y obtener un crecimiento moderado de su capital a lo largo del tiempo.\n\nEn cuanto a los activos en los que invierte, Desarrollados puede tener una diversificación tanto a nivel nacional como internacional, invirtiendo en acciones de empresas consolidadas y bonos emitidos por entidades reconocidas. Esta diversificación contribuye a reducir el riesgo asociado a la volatilidad de los mercados financieros.\n\nEn términos simples, el nivel de riesgo de este fondo es considerado medio, lo que significa que existe la posibilidad de fluctuaciones en el valor de la inversión a corto plazo, pero con la expectativa de obtener mayores ganancias a largo plazo. Es importante tener en cuenta que, a pesar de ser un fondo mixto, el riesgo está presente y es fundamental tener una visión a largo plazo para maximizar los beneficios.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores mantengan su posición en el fondo durante al menos 3 a 5 años para aprovechar al máximo el potencial de crecimiento y minimizar los efectos de la volatilidad a corto plazo.\n\nEntre las ventajas de invertir en el fondo Desarrollados se encuentran la diversificación de la cartera, la posibilidad de obtener rendimientos atractivos y la gestión profesional del fondo. Por otro lado, una posible desventaja podría ser la volatilidad del mercado, que puede afectar el valor de la inversión en el corto plazo.\n\nEn resumen, el fondo mutuo Desarrollados es una opción atractiva para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rendimiento a largo plazo, siempre teniendo en cuenta la importancia de la diversificación y la paciencia en el horizonte de inversión. Recuerda consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8565-0",
+    "rut_admin": "96767630",
+    "nombre": "DESARROLLADOS",
+    "full_id": "96767630_8565-0",
+    "source": "javascript"
+  }
+}

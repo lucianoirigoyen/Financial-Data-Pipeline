@@ -1,0 +1,60 @@
+{
+  "symbol": "TSLA",
+  "name": "Tesla Inc",
+  "description_es": "Tesla, Inc. es una empresa estadounidense líder en vehículos eléctricos y energías limpias con sede en Palo Alto (California), famosa por sus revolucionarias innovaciones en transporte sostenible y soluciones energéticas. Como líder del mercado, Tesla contaba con una cuota del 16% del mercado mundial de vehículos enchufables y del 23% del sector de vehículos eléctricos de batería en 2020, lo que refleja su compromiso de ampliar los límites de la movilidad eléctrica. La diversa cartera de la empresa incluye vehículos eléctricos, tecnología avanzada de baterías y soluciones de energía solar, con Tesla Energy centrada en el almacenamiento de baterías y productos solares que mejoran la integración de las energías renovables. Con inversiones estratégicas en capacidad de producción y continuos avances tecnológicos, Tesla está bien posicionada para capitalizar la acelerada transición mundial hacia la energía sostenible.",
+  "sector_es": "CONSUMO CÍCLICO",
+  "industry_es": "FABRICANTES DE AUTOMÓVILES",
+  "market_cap": 1485776355000.0,
+  "pe_ratio": 293.91,
+  "dividend_yield": null,
+  "beta": 1.872,
+  "country": "USA",
+  "currency": "USD",
+  "exchange": "NASDAQ",
+  "roe": 0.0679,
+  "profit_margin": 0.0531,
+  "revenue_ttm": 95632998000.0,
+  "eps": 1.52,
+  "fecha_procesamiento": "2025-12-04 21:43:16",
+  "analisis_completo": {
+    "valoracion": {
+      "pe_ratio": 293.91,
+      "pe_trailing": 293.91,
+      "pe_forward": 192.31,
+      "peg_ratio": 8.57,
+      "price_to_book": 17.85,
+      "price_to_sales": 15.54,
+      "ev_to_revenue": 14.64,
+      "ev_to_ebitda": 107.91,
+      "valoracion_resumen": "Altamente Sobrevalorada"
+    },
+    "rentabilidad": {
+      "profit_margin": 0.0531,
+      "operating_margin": 0.0663,
+      "roa": 0.0235,
+      "roe": 0.0679,
+      "eps": 1.52,
+      "diluted_eps": 1.52,
+      "revenue_per_share": 29.7,
+      "rentabilidad_clasificacion": "Baja Rentabilidad"
+    },
+    "tecnico": {
+      "beta": 1.872,
+      "volatilidad_clasificacion": "Alta Volatilidad",
+      "precio_52w_alto": 488.54,
+      "precio_52w_bajo": 214.25,
+      "media_movil_50d": 433.93,
+      "media_movil_200d": 341.15
+    },
+    "analistas": {
+      "precio_objetivo": 392.93,
+      "strong_buy": 5.0,
+      "buy": 15.0,
+      "hold": 17.0,
+      "sell": 7.0,
+      "strong_sell": 3.0,
+      "total_analistas": 47.0,
+      "consenso": "Moderadamente Positivo"
+    }
+  }
+}

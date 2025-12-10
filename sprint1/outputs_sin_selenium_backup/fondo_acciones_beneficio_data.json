@@ -1,0 +1,23 @@
+{
+  "fondo_id": "acciones beneficio",
+  "nombre": "Acciones Beneficio",
+  "nombre_cmf": "ACCIONES BENEFICIO",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo Acciones Beneficio es una opción de inversión agresiva dirigida a jóvenes inversores chilenos que buscan maximizar su potencial de ganancias a largo plazo. La estrategia de inversión de este fondo se centra en la adquisición de acciones de empresas con alto potencial de crecimiento, lo que implica asumir un nivel de riesgo alto en busca de mayores rendimientos.\n\nEste fondo es ideal para aquellos inversionistas que tienen un perfil de riesgo alto y están dispuestos a soportar la volatilidad del mercado a cambio de la posibilidad de obtener mayores ganancias. Es importante tener en cuenta que, si bien este tipo de fondos puede ofrecer mayores retornos, también conlleva un mayor riesgo de pérdida. Por lo tanto, es fundamental que el inversionista tenga una tolerancia adecuada al riesgo y un horizonte de inversión a largo plazo.\n\nEn cuanto a los activos en los que invierte el fondo Acciones Beneficio, su composición exacta no está disponible, pero se espera que se concentre principalmente en acciones de empresas con alto potencial de crecimiento y que operen en sectores dinámicos de la economía. Esto puede incluir empresas tecnológicas innovadoras, compañías de biotecnología en crecimiento o empresas disruptivas en otros sectores.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con subir una montaña rusa: emocionante y con la posibilidad de obtener grandes ganancias, pero también con la posibilidad de sufrir caídas bruscas. Es importante entender que, si bien el riesgo es alto, también lo son las posibles recompensas.\n\nEl horizonte de inversión recomendado para el fondo Acciones Beneficio es a largo plazo, ya que el enfoque agresivo de su estrategia de inversión requiere paciencia y perseverancia para superar las fluctuaciones del mercado a lo largo del tiempo. Por lo tanto, este fondo es más adecuado para inversionistas jóvenes que tienen un horizonte de inversión a largo plazo y que pueden permitirse asumir un mayor nivel de riesgo en busca de mayores retornos.\n\nEn resumen, el fondo Acciones Beneficio ofrece la oportunidad de invertir en acciones de empresas con alto potencial de crecimiento, pero a cambio de asumir un nivel de riesgo alto. Es importante que los inversionistas comprendan los riesgos asociados con este tipo de fondos y que estén dispuestos a mantener sus inversiones a largo plazo para maximizar su potencial de ganancias.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8282-1",
+    "rut_admin": "96767630",
+    "nombre": "ACCIONES BENEFICIO",
+    "full_id": "96767630_8282-1",
+    "source": "javascript"
+  }
+}

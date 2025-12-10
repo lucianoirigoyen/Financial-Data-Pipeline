@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm empresas europeas",
+  "nombre": "Fm Empresas Europeas",
+  "nombre_cmf": "FM EMPRESAS EUROPEAS",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Empresas Europeas es una opción de inversión mixta que combina activos de renta fija y renta variable centrados en empresas europeas. Su estrategia busca obtener rendimientos a través de la diversificación geográfica y sectorial en el mercado europeo. Aunque la composición exacta de sus activos principales no está disponible, se puede inferir que se enfoca en compañías europeas con potencial de crecimiento y estabilidad.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los de instrumentos conservadores. Si bien presenta un nivel de riesgo moderado, es importante tener en cuenta que las inversiones en empresas europeas pueden verse afectadas por factores económicos y políticos propios de la región.\n\nEn términos simples, el riesgo de este fondo podría compararse con conducir a una velocidad moderada en una carretera bien mantenida: existe la posibilidad de encontrar obstáculos en el camino, pero se espera que el viaje sea relativamente seguro y cómodo en general. Los movimientos del mercado europeo y la situación particular de las empresas en las que invierte pueden influir en la rentabilidad del fondo, por lo que se recomienda un horizonte de inversión a medio o largo plazo para aprovechar su potencial de crecimiento.\n\nUna de las ventajas de invertir en el Fondo Mutuo Empresas Europeas es la oportunidad de diversificar el portafolio con activos internacionales, lo que puede ayudar a mitigar el riesgo asociado a la economía chilena. Sin embargo, una posible desventaja podría ser la volatilidad del mercado europeo, que puede impactar la rentabilidad del fondo en el corto plazo. Por lo tanto, es importante que el inversionista ideal tenga una visión a largo plazo y esté dispuesto a asumir cierto nivel de riesgo en busca de mayores ganancias.\n\nEn resumen, el Fondo Mutuo Empresas Europeas es una opción atractiva para inversores chilenos con un perfil de riesgo medio que desean diversificar su cartera con activos internacionales. Aunque presenta riesgos inherentes a las inversiones en el mercado europeo, su enfoque de diversificación y potencial de crecimiento a largo plazo lo convierten en una alternativa interesante para aquellos que buscan expandir sus horizontes de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9210-K",
+    "rut_admin": "96767630",
+    "nombre": "FM EMPRESAS EUROPEAS",
+    "full_id": "96767630_9210-K",
+    "source": "javascript"
+  }
+}

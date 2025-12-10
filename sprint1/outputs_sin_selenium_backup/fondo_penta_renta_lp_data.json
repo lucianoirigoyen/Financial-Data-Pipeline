@@ -1,0 +1,23 @@
+{
+  "fondo_id": "penta renta lp",
+  "nombre": "Penta Renta Lp",
+  "nombre_cmf": "PENTA RENTA LP",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Penta Renta Lp es una opción de inversión mixta que combina tanto activos de renta fija como variable. Su estrategia busca maximizar rendimientos con un nivel de riesgo moderado, ofreciendo así un equilibrio entre ganancias potenciales y seguridad. Este tipo de fondos suelen ser atractivos para inversores que buscan diversificar su cartera sin asumir riesgos extremos.\n\nEste fondo es adecuado para un perfil de inversionista con una tolerancia al riesgo intermedia, es decir, para aquellos que buscan un equilibrio entre estabilidad y potencial de crecimiento. Si eres un joven inversor chileno que busca crecimiento a mediano plazo sin exponerte a riesgos excesivos, el Penta Renta Lp podría ser una buena opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible, pero suele incluir una combinación de bonos, acciones y otros instrumentos financieros. Esto permite diversificar el riesgo y aprovechar oportunidades en distintos mercados, lo que puede ser beneficioso para la rentabilidad a largo plazo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Aunque no es tan conservador como un fondo de renta fija pura, tampoco es tan arriesgado como un fondo de renta variable pura. En resumen, se puede decir que el Penta Renta Lp ofrece un equilibrio entre riesgo y potencial de ganancias.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondos mixtos suelen ser más adecuados para inversiones a mediano o largo plazo, es decir, de al menos 3 a 5 años. Esto se debe a que la combinación de activos busca beneficiarse de las tendencias a largo plazo en los mercados, por lo que es importante tener una perspectiva de inversión a largo plazo.\n\nEntre las ventajas de este fondo se encuentra su capacidad para diversificar el riesgo, lo que puede ayudar a mitigar posibles pérdidas en momentos de volatilidad. Sin embargo, es importante tener en cuenta que, al tener una parte de su cartera en activos de renta variable, el fondo podría experimentar fluctuaciones en su valor en el corto plazo.\n\nEn resumen, el Penta Renta Lp es un fondo mixto adecuado para inversores jóvenes en Chile que buscan un equilibrio entre riesgo y rentabilidad a mediano plazo. Si tienes una tolerancia al riesgo moderada y un horizonte de inversión a largo plazo, este fondo podría ser",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8308-9",
+    "rut_admin": "96767630",
+    "nombre": "PENTA RENTA LP",
+    "full_id": "96767630_8308-9",
+    "source": "javascript"
+  }
+}

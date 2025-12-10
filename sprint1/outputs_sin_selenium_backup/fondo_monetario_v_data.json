@@ -1,0 +1,23 @@
+{
+  "fondo_id": "monetario v",
+  "nombre": "Monetario V",
+  "nombre_cmf": "MONETARIO V",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí te dejo una descripción del fondo Monetario V para jóvenes inversores chilenos:\n\nEl fondo Monetario V es una excelente opción para aquellos inversionistas que buscan un equilibrio entre seguridad y rentabilidad. Este fondo, de tipo mixto y perfil de riesgo medio, tiene como principal objetivo invertir en una combinación de activos que le permita obtener ganancias a corto y mediano plazo. Aunque la composición exacta de sus inversiones no está disponible, su estrategia se enfoca en mantener un equilibrio entre activos de bajo riesgo y otros con potencial de crecimiento.\n\nEste fondo es adecuado para inversionistas jóvenes que buscan un rendimiento superior al de un depósito a plazo, sin asumir un riesgo excesivo. Su perfil de riesgo medio significa que, si bien existen riesgos asociados a la inversión, estos son controlados y no tan elevados como en fondos de mayor riesgo. Por lo tanto, es ideal para aquellos que desean obtener un rendimiento superior al de instrumentos de ahorro tradicionales, sin comprometer su capital de forma significativa.\n\nEn cuanto a los activos en los que invierte, el fondo Monetario V puede incluir una variedad de instrumentos financieros como bonos, acciones, y otros valores de renta fija y variable. Esto le brinda una diversificación que reduce el riesgo de pérdida y aumenta las oportunidades de obtener ganancias. Al combinar diferentes tipos de activos, el fondo busca maximizar el potencial de retorno sin exponerse en exceso a un solo tipo de inversión.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio entre la seguridad de un depósito a plazo y la volatilidad de acciones individuales. Si bien existe la posibilidad de que el valor de la inversión fluctúe en el corto plazo, el enfoque diversificado del fondo ayuda a mitigar este riesgo y a preservar el capital invertido a largo plazo.\n\nPara aquellos jóvenes inversores que buscan crecer sus ahorros a mediano plazo, se recomienda un horizonte de inversión de al menos 2 a 5 años. Esto permite al fondo Monetario V aprovechar las oportunidades de mercado a lo largo del tiempo y superar posibles fluctuaciones a corto plazo. Es importante recordar que la paciencia y la disciplina son clave al invertir, ya que los retornos pueden variar en el corto plazo, pero tienden a ser más consistentes a medida que se prolonga el horizonte de inversión.\n\nEn resumen,",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8875-7",
+    "rut_admin": "96767630",
+    "nombre": "MONETARIO V",
+    "full_id": "96767630_8875-7",
+    "source": "javascript"
+  }
+}

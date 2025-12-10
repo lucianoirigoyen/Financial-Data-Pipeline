@@ -1,0 +1,23 @@
+{
+  "fondo_id": "garantizado lockin",
+  "nombre": "Garantizado Lockin",
+  "nombre_cmf": "GARANTIZADO LOCKIN",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo mutuo Garantizado Lockin es una opción de inversión conservadora diseñada para aquellos inversores que buscan proteger su capital y obtener rendimientos estables a lo largo del tiempo. Su estrategia de inversión se centra en preservar el capital de los inversionistas al invertir en activos de bajo riesgo, como bonos del Estado o instrumentos de renta fija de alta calidad crediticia.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo bajo, que prefieren la seguridad y la estabilidad en sus inversiones por sobre la búsqueda de altos retornos. Si eres un joven inversor que está comenzando a construir su cartera y desea minimizar el riesgo de pérdida de capital, el Garantizado Lockin podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente, pero suele estar compuesto por instrumentos financieros de bajo riesgo y alta liquidez. Esto significa que la mayor parte de los recursos se destinan a activos seguros que ofrecen una rentabilidad predecible en el tiempo, aunque generalmente inferior a la que se obtendría con inversiones más arriesgadas.\n\nEn términos simples, el nivel de riesgo del Garantizado Lockin es bajo, lo que implica que las fluctuaciones en el valor de la inversión son mínimas en comparación con fondos más agresivos. Aunque la rentabilidad esperada puede ser menor que la de fondos de mayor riesgo, la principal ventaja es la estabilidad y seguridad que ofrece, lo que lo convierte en una opción atractiva para inversores que priorizan la preservación del capital.\n\nPara jóvenes inversores chilenos que buscan una inversión segura a largo plazo, se recomienda un horizonte de inversión de al menos 3 a 5 años para el Garantizado Lockin. Esto permitirá que el fondo genere rendimientos estables y se beneficie de la estrategia de inversión a largo plazo diseñada para minimizar los riesgos.\n\nEn resumen, el Garantizado Lockin es una alternativa adecuada para jóvenes inversores con un perfil conservador que valoran la seguridad y la estabilidad en sus inversiones. Si buscas proteger tu capital y obtener rendimientos predecibles a lo largo del tiempo, este fondo mutuo podría ser una opción a considerar en tu cartera de inversiones.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8571-5",
+    "rut_admin": "96767630",
+    "nombre": "GARANTIZADO LOCKIN",
+    "full_id": "96767630_8571-5",
+    "source": "javascript"
+  }
+}

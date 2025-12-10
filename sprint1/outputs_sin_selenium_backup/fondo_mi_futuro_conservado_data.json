@@ -1,0 +1,83 @@
+{
+  "fondo_id": "mi futuro conservado",
+  "nombre": "Mi Futuro Conservado",
+  "nombre_cmf": "MI FUTURO CONSERVADO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión \"Mi Futuro Conservado\" es una excelente opción para aquellos inversores que buscan un equilibrio entre seguridad y rendimiento. Este fondo se clasifica como mixto, lo que significa que combina diferentes tipos de activos en su cartera para diversificar el riesgo. Su perfil de riesgo es considerado medio, lo que implica que puede experimentar ciertas fluctuaciones en el valor de sus activos, pero en general busca preservar el capital del inversionista.\n\nLa estrategia de inversión de \"Mi Futuro Conservado\" se enfoca en invertir principalmente en activos de renta fija, como bonos del gobierno chileno y otros instrumentos de deuda. Además, destina una parte de sus recursos a inversiones en otros activos para potencialmente aumentar la rentabilidad de la cartera. Esto le brinda al fondo una estabilidad relativa, ya que los activos de renta fija suelen tener un menor nivel de riesgo en comparación con otros activos más volátiles, como acciones.\n\nEste fondo es adecuado para inversores jóvenes que buscan un crecimiento moderado de su capital a mediano plazo, sin asumir grandes riesgos. Es ideal para aquellos que valoran la seguridad de su inversión y están dispuestos a aceptar cierta volatilidad en busca de rendimientos superiores a los ofrecidos por instrumentos de renta fija tradicionales.\n\nEn cuanto a los activos en los que invierte, \"Mi Futuro Conservado\" tiene una composición principal que incluye activos en Chile y en otros mercados, así como una porción significativa de su cartera en instrumentos de deuda. Esto le brinda al fondo una diversificación adecuada para mitigar el riesgo y aprovechar oportunidades de crecimiento en distintos sectores y geografías.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de caminar por una acera bien mantenida: puede haber pequeños obstáculos en el camino, pero en general, el camino es seguro y predecible. El horizonte de inversión recomendado para \"Mi Futuro Conservado\" es a mediano plazo, generalmente entre 3 y 5 años, para permitir que la cartera se desarrolle y potencialmente genere rendimientos consistentes.\n\nEn resumen, \"Mi Futuro Conservado\" es un fondo mixto con un enfoque conservador que busca ofrecer un equilibrio entre seguridad y rendimiento para inversores jóvenes con un perfil de riesgo medio. Su estrategia de inversión diversificada y su horizonte de inversión a mediano plazo lo convierten en una opción atractiva",
+  "composicion_portafolio": [
+    {
+      "activo": "Otros",
+      "porcentaje": 1.0
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 1.0
+    },
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.9273
+    },
+    {
+      "activo": "originarán que la Administradora deba girar a la Tesorería General de la República un monto equivalente al",
+      "porcentaje": 0.15
+    },
+    {
+      "activo": "estarán afectos a una retención del",
+      "porcentaje": 0.15
+    },
+    {
+      "activo": "de un",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.07150000000000001
+    },
+    {
+      "activo": "Años",
+      "porcentaje": 0.0579
+    },
+    {
+      "activo": "mientras que el IPSA cerró octubre con un alza de",
+      "porcentaje": 0.051
+    },
+    {
+      "activo": "pese a la leve baja de",
+      "porcentaje": 0.019
+    },
+    {
+      "activo": "de un",
+      "porcentaje": 0.01
+    },
+    {
+      "activo": "Mixto",
+      "porcentaje": 0.0012
+    }
+  ],
+  "rentabilidad_anual": 0.0431,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9766-7",
+    "rut_admin": "96767630",
+    "nombre": "MI FUTURO CONSERVADO",
+    "full_id": "96767630_9766-7",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Largo Plazo",
+  "comision_administracion": 0.03,
+  "rentabilidad_24m": 0.0579
+}

@@ -1,0 +1,60 @@
+{
+  "symbol": "MSFT",
+  "name": "Microsoft Corporation",
+  "description_es": "Microsoft Corporation es una multinacional estadounidense líder en tecnología, famosa por su variada cartera de productos que abarca sistemas operativos, software de productividad y soluciones de hardware. Conocida por su sistema operativo Windows y la suite Office, Microsoft también mantiene una fuerte presencia en el sector de los juegos con la marca Xbox y en el hardware a través de sus dispositivos Surface. La empresa, un actor clave en la transformación digital, aprovecha sus servicios de computación en la nube Azure para impulsar la productividad y fomentar la innovación en diversos sectores. Con una sólida posición en el mercado y un firme compromiso con la investigación y el desarrollo, Microsoft sigue desempeñando un papel crucial en el avance del panorama tecnológico mundial.",
+  "sector_es": "TECNOLOGÍA",
+  "industry_es": "SOFTWARE - INFRAESTRUCTURA",
+  "market_cap": 3551046664000.0,
+  "pe_ratio": 34.85,
+  "dividend_yield": 0.0069,
+  "beta": 1.065,
+  "country": "USA",
+  "currency": "USD",
+  "exchange": "NASDAQ",
+  "roe": 0.322,
+  "profit_margin": 0.357,
+  "revenue_ttm": 293812011000.0,
+  "eps": 13.71,
+  "fecha_procesamiento": "2025-12-04 21:42:45",
+  "analisis_completo": {
+    "valoracion": {
+      "pe_ratio": 34.85,
+      "pe_trailing": 34.85,
+      "pe_forward": 31.06,
+      "peg_ratio": 2.067,
+      "price_to_book": 9.96,
+      "price_to_sales": 12.09,
+      "ev_to_revenue": 12.17,
+      "ev_to_ebitda": 21.04,
+      "valoracion_resumen": "Posible Sobrevaloración"
+    },
+    "rentabilidad": {
+      "profit_margin": 0.357,
+      "operating_margin": 0.489,
+      "roa": 0.147,
+      "roe": 0.322,
+      "eps": 13.71,
+      "diluted_eps": 13.71,
+      "revenue_per_share": 39.53,
+      "rentabilidad_clasificacion": "Excelente Rentabilidad"
+    },
+    "tecnico": {
+      "beta": 1.065,
+      "volatilidad_clasificacion": "Volatilidad Moderada",
+      "precio_52w_alto": 553.5,
+      "precio_52w_bajo": 342.95,
+      "media_movil_50d": 509.48,
+      "media_movil_200d": 468.79
+    },
+    "analistas": {
+      "precio_objetivo": 625.41,
+      "strong_buy": 12.0,
+      "buy": 44.0,
+      "hold": 1.0,
+      "sell": 0,
+      "strong_sell": 0,
+      "total_analistas": 57.0,
+      "consenso": "Fuertemente Positivo"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "estruc ahorro+ uf ii",
+  "nombre": "Estruc Ahorro+ Uf Ii",
+  "nombre_cmf": "ESTRUC AHORRO+ UF II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Estruc Ahorro+ Uf II es una alternativa de inversión mixta que combina diferentes tipos de activos para buscar un equilibrio entre rentabilidad y riesgo. Su estrategia de inversión se basa en diversificar el portafolio entre instrumentos de renta fija y renta variable, con el objetivo de aprovechar oportunidades de crecimiento y proteger el capital de los inversionistas.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores retornos, pero que también valoran la estabilidad de su inversión. Por lo tanto, se recomienda a jóvenes que buscan un balance entre crecimiento y seguridad en sus inversiones a mediano plazo.\n\nEn cuanto a los activos en los que invierte, la composición principal del fondo Estruc Ahorro+ Uf II no está disponible públicamente. Sin embargo, es probable que incluya bonos, acciones, y posiblemente otros instrumentos financieros, con el objetivo de diversificar el riesgo y maximizar el potencial de retorno.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de la renta fija y la volatilidad de la renta variable. Esto significa que, si bien puede experimentar fluctuaciones en su valor, se espera que brinde rendimientos superiores a los de una inversión conservadora a largo plazo.\n\nEl horizonte de inversión recomendado para el fondo Estruc Ahorro+ Uf II es a mediano plazo, generalmente entre 3 a 5 años. Esto se debe a que, al ser un fondo mixto, requiere tiempo para que su estrategia se desarrolle y pueda mostrar resultados significativos. Es importante tener en cuenta que las inversiones a corto plazo pueden no reflejar completamente el potencial de crecimiento del fondo.\n\nEn resumen, el fondo Estruc Ahorro+ Uf II ofrece a los inversionistas jóvenes la oportunidad de diversificar su cartera y buscar un equilibrio entre riesgo y retorno. Si bien presenta ventajas como la posibilidad de obtener rendimientos atractivos, también puede tener como desventaja la volatilidad en el corto plazo. Se recomienda a aquellos inversionistas que buscan crecimiento moderado a mediano plazo y están dispuestos a asumir cierto nivel de riesgo en su cartera.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10424-8",
+    "rut_admin": "96767630",
+    "nombre": "ESTRUC AHORRO+ UF II",
+    "full_id": "96767630_10424-8",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch p moderado lp",
+  "nombre": "Fm Bch P Moderado Lp",
+  "nombre_cmf": "FM BCH P Moderado LP",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch P Moderado Largo Plazo es una opción de inversión mixta que combina activos de renta fija y renta variable, buscando un equilibrio entre la seguridad y el potencial de crecimiento. Su estrategia de inversión se enfoca en diversificar el portafolio para mitigar riesgos y aprovechar oportunidades en el mercado, lo que lo convierte en una alternativa atractiva para aquellos inversores que buscan un rendimiento moderado con un nivel de riesgo medio.\n\nEste fondo es adecuado para aquellos inversionistas que desean obtener un retorno superior al de instrumentos de renta fija tradicionales, sin asumir un riesgo excesivo en sus inversiones. Si bien no se dispone de información detallada sobre la composición principal del fondo, suele invertir en una combinación de bonos, acciones y otros instrumentos financieros, lo que le otorga una mayor flexibilidad para adaptarse a las condiciones del mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Esto significa que si bien existe la posibilidad de obtener rendimientos más atractivos que los depósitos a plazo, también se asume un cierto grado de volatilidad en el valor de la inversión. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el mercado.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversionistas con un horizonte a medio y largo plazo, es decir, aquellos que pueden permitirse mantener su inversión durante varios años para aprovechar al máximo el potencial de crecimiento. Es importante tener en cuenta que, en el corto plazo, el valor de la inversión puede verse afectado por la volatilidad del mercado, pero a medida que se amplía el horizonte temporal, se reduce el impacto de estas fluctuaciones.\n\nEn resumen, el Fondo Mutuo Bch P Moderado Largo Plazo ofrece a los inversores la oportunidad de diversificar su portafolio de manera equilibrada, buscando un rendimiento moderado con un nivel de riesgo medio. Si bien presenta ventajas en términos de potencial de crecimiento y diversificación, es importante considerar las fluctuaciones del mercado y el horizonte de inversión recomendado antes de tomar una decisión de inversión. Recomendamos este fondo para inversionistas jóvenes que buscan un equilibrio entre seguridad y crecimiento a mediano y largo plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9043-3",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH P Moderado LP",
+    "full_id": "96767630_9043-3",
+    "source": "javascript"
+  }
+}

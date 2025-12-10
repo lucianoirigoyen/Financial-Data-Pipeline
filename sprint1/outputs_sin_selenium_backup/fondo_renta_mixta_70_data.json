@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta mixta 70",
+  "nombre": "Renta Mixta 70",
+  "nombre_cmf": "RENTA MIXTA 70",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Renta Mixta 70 es una opción de inversión mixta que combina tanto activos de renta fija como variable. Su estrategia se basa en diversificar la cartera de inversiones, asignando aproximadamente un 70% a instrumentos de renta fija y un 30% a activos de renta variable. Esta combinación busca aprovechar potenciales ganancias de la bolsa de valores, mientras se mantiene un nivel de seguridad gracias a la presencia de activos de menor riesgo.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, lo que significa que están dispuestos a asumir cierto grado de volatilidad en busca de mayores rendimientos a largo plazo. Es ideal para aquellos jóvenes inversores que desean diversificar su cartera y buscan un equilibrio entre seguridad y potencial de crecimiento.\n\nLa composición principal del fondo Renta Mixta 70 no está disponible públicamente, pero suele incluir bonos corporativos, acciones de empresas locales e internacionales, y posiblemente instrumentos de deuda emitidos por el gobierno chileno. Estos activos permiten al fondo obtener ingresos tanto por intereses como por incrementos en el valor de las acciones.\n\nEn cuanto al nivel de riesgo, es importante destacar que al tener una proporción significativa de activos de renta fija, el fondo Renta Mixta 70 tiende a ser menos volátil que fondos de renta variable pura. Sin embargo, al invertir en acciones, sigue estando expuesto a fluctuaciones del mercado, por lo que el riesgo es moderado en comparación con otros fondos más agresivos.\n\nPara obtener los mejores resultados con este fondo, se recomienda un horizonte de inversión a mediano o largo plazo, ya que así se puede aprovechar al máximo el potencial de crecimiento de los activos de renta variable. Es importante recordar que las inversiones a corto plazo pueden estar sujetas a mayores fluctuaciones y no reflejar verdaderamente el desempeño del fondo a lo largo del tiempo.\n\nUna ventaja de este fondo es su capacidad de diversificación, lo que ayuda a reducir el riesgo específico de cada activo y puede generar rendimientos más estables en el tiempo. Sin embargo, una posible desventaja es que al tener una exposición limitada a renta variable, es posible que no capture todas las oportunidades de crecimiento en el mercado de acciones.\n\nEn resumen, el fondo Renta Mixta 70 es una excelente opción para jóvenes inversionistas chilenos que buscan un equilibrio entre seguridad y potencial de crecimiento. Con una estrategia diversificada y un perfil",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8145-0",
+    "rut_admin": "96767630",
+    "nombre": "RENTA MIXTA 70",
+    "full_id": "96767630_8145-0",
+    "source": "javascript"
+  }
+}

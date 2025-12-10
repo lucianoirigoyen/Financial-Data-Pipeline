@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bice renta largo pla",
+  "nombre": "Bice Renta Largo Pla",
+  "nombre_cmf": "BICE RENTA LARGO PLA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Bice Renta Largo Plazo es una alternativa de inversión mixta que busca combinar la rentabilidad de diferentes activos, adaptándose a un perfil de riesgo medio. Su estrategia de inversión se centra en diversificar el portafolio en distintos instrumentos financieros, como acciones, bonos y otros activos, con el objetivo de obtener un rendimiento atractivo a largo plazo.\n\nEste fondo es adecuado para inversores que buscan un equilibrio entre riesgo y retorno, es decir, aquellos que están dispuestos a asumir cierto grado de volatilidad en busca de mayores ganancias. Si estás dispuesto a aceptar fluctuaciones en el valor de tu inversión a cambio de la posibilidad de obtener rendimientos más altos que los productos de renta fija, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible, lo que puede ser una limitación en términos de transparencia para algunos inversores. Sin embargo, en términos generales, los fondos mixtos suelen invertir en una combinación de acciones y bonos, lo que les permite diversificar el riesgo y aprovechar las oportunidades de diferentes mercados.\n\nEn cuanto al nivel de riesgo, este fondo se clasifica como de riesgo medio. Esto significa que, si bien existe la posibilidad de obtener rendimientos más altos que productos de menor riesgo, también se asume un nivel moderado de volatilidad en el valor de la inversión. Es importante tener en cuenta que el riesgo es una parte inherente de cualquier inversión, y diversificar tu portafolio puede ayudar a mitigar los impactos de posibles fluctuaciones del mercado.\n\nEn términos de horizonte de inversión recomendado, se sugiere un enfoque a largo plazo para maximizar los beneficios potenciales de este fondo. Dado que su estrategia se basa en generar rendimientos a lo largo del tiempo, es importante tener paciencia y mantener la inversión durante un período prolongado para aprovechar al máximo las oportunidades de crecimiento.\n\nEn resumen, el fondo Bice Renta Largo Plazo es una opción atractiva para inversores con un perfil moderado de riesgo que buscan diversificar su portafolio y obtener rendimientos atractivos a largo plazo. Sin embargo, la falta de información detallada sobre la composición del fondo puede ser una limitación. Es importante evaluar tus objetivos financieros, tolerancia al riesgo y horizonte de inversión antes de tomar una decisión de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9238-K",
+    "rut_admin": "96767630",
+    "nombre": "BICE RENTA LARGO PLA",
+    "full_id": "96767630_9238-K",
+    "source": "javascript"
+  }
+}

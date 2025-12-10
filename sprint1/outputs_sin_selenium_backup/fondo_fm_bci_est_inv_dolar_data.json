@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci est inv dolar",
+  "nombre": "Fm Bci Est Inv Dolar",
+  "nombre_cmf": "FM BCI EST INV DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Fm Bci Est Inv Dolar es una alternativa de inversión mixta que combina activos de renta fija y variable, buscando obtener rendimientos atractivos en el mediano plazo. Su estrategia de inversión se enfoca en diversificar el portafolio para mitigar riesgos y aprovechar oportunidades en distintos mercados. Aunque no se dispone de información detallada sobre su composición principal, se puede inferir que tiene una exposición tanto al mercado local como al mercado internacional.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener mayores retornos. Si eres un joven inversor que está dispuesto a asumir cierto nivel de riesgo en busca de crecimiento de tu patrimonio a mediano plazo, este fondo podría ser una opción a considerar.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de caminar sobre una cuerda floja con una red de seguridad debajo. Aunque hay cierta incertidumbre en cuanto a los rendimientos que se pueden obtener, la diversificación de activos ayuda a suavizar los vaivenes del mercado y a proteger tu inversión en cierta medida.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondos suelen ser más adecuados para quienes tienen un plazo de inversión de al menos 3 a 5 años. Esto se debe a que, al combinar activos de distintas clases, se busca maximizar los retornos a mediano plazo, por lo que es importante contar con un horizonte temporal que permita aprovechar al máximo el potencial de crecimiento del fondo.\n\nUna ventaja de este fondo es la posibilidad de diversificar tu portafolio de inversión de manera sencilla, ya que al invertir en un solo producto accedes a una cartera diversificada. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta del fondo, lo cual puede generar cierta incertidumbre en los inversionistas.\n\nEn resumen, el fondo mutuo Fm Bci Est Inv Dolar es una opción interesante para jóvenes inversionistas con un perfil de riesgo medio que buscan diversificar su portafolio y obtener rendimientos atractivos a mediano plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y asegurarte de que este fondo se alinea con tus objetivos financieros y tolerancia al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10317-9",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI EST INV DOLAR",
+    "full_id": "96767630_10317-9",
+    "source": "javascript"
+  }
+}

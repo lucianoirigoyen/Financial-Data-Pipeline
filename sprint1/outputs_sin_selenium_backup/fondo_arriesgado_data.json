@@ -1,0 +1,23 @@
+{
+  "fondo_id": "arriesgado",
+  "nombre": "Arriesgado",
+  "nombre_cmf": "ARRIESGADO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Arriesgado\" es una alternativa de inversión mixta diseñada para aquellos inversores que buscan un equilibrio entre riesgo y rentabilidad. Este fondo combina activos de renta fija y renta variable, lo que significa que invierte tanto en bonos como en acciones, con el objetivo de diversificar el portafolio y maximizar los rendimientos a largo plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores ganancias. Si eres un joven inversor que busca crecimiento a largo plazo y estás dispuesto a tolerar fluctuaciones en el valor de tus inversiones, \"Arriesgado\" podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente. Sin embargo, en términos generales, puede incluir bonos corporativos, acciones de empresas nacionales e internacionales, así como otros instrumentos financieros. Esta diversificación contribuye a mitigar el riesgo y a potenciar el rendimiento del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Esto significa que, si bien existe la posibilidad de obtener rendimientos atractivos, también se corre el riesgo de sufrir pérdidas en momentos de alta volatilidad en los mercados financieros. Es importante tener presente que, como todo fondo de inversión, \"Arriesgado\" está expuesto a fluctuaciones del mercado y su valor puede variar con el tiempo.\n\nEl horizonte de inversión recomendado para el fondo \"Arriesgado\" es a largo plazo, idealmente más de cinco años. Esto se debe a que la estrategia de inversión mixta requiere tiempo para que los activos del fondo puedan madurar y generar rendimientos consistentes. Si tienes un objetivo financiero a largo plazo, como la compra de una vivienda o la jubilación, este fondo puede ser una pieza clave en tu portafolio de inversiones.\n\nEn resumen, el fondo mutuo \"Arriesgado\" ofrece una combinación equilibrada de riesgo y potencial de rentabilidad para inversores con un perfil medio. Aunque puede brindar oportunidades de crecimiento, es importante tener en cuenta la posibilidad de pérdidas temporales. Antes de invertir, es recomendable analizar tu tolerancia al riesgo y tus objetivos financieros a largo plazo para determinar si este fondo se ajusta a tus necesidades.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8116-7",
+    "rut_admin": "96767630",
+    "nombre": "ARRIESGADO",
+    "full_id": "96767630_8116-7",
+    "source": "javascript"
+  }
+}

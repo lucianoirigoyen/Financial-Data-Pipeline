@@ -1,0 +1,23 @@
+{
+  "fondo_id": "deuda corp dolar",
+  "nombre": "Deuda Corp Dolar",
+  "nombre_cmf": "DEUDA CORP DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Deuda Corp Dólar es una opción de inversión mixta que combina activos de renta fija y variable en dólares, ofreciendo un equilibrio entre potencial de retorno y riesgo. Su estrategia de inversión se enfoca en buscar oportunidades tanto en bonos corporativos como en otros instrumentos financieros denominados en dólares, lo que puede brindar diversificación y protección ante fluctuaciones cambiarias.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan obtener rendimientos superiores a los de instrumentos de renta fija tradicionales, sin asumir un nivel de riesgo elevado. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de la inversión, especialmente en un contexto de volatilidad cambiaria o de mercado.\n\nEn cuanto a los activos en los que invierte, la composición principal del fondo no está disponible públicamente, pero se espera que tenga una proporción significativa de bonos corporativos en dólares, así como posiblemente inversiones en instrumentos de renta variable también denominados en esta moneda.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con caminar por una senda con ciertas piedras en el camino: hay obstáculos que sortear, pero no se trata de un terreno extremadamente complicado de navegar. En otras palabras, puede haber momentos de volatilidad, pero se espera que el fondo tenga una capacidad razonable para gestionar esos riesgos.\n\nEl horizonte de inversión recomendado para el fondo Deuda Corp Dólar es a medio y largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Si bien es importante estar preparado para posibles fluctuaciones en el corto plazo, mantener una visión a largo plazo puede ayudar a suavizar el impacto de la volatilidad en la inversión.\n\nEntre las ventajas de este fondo se encuentran la diversificación internacional que ofrece al invertir en activos en dólares, lo cual puede actuar como un colchón frente a eventos locales que afecten al mercado nacional. Sin embargo, una posible desventaja podría ser la exposición a fluctuaciones cambiarias, que podrían afectar el valor de la inversión en caso de depreciación del dólar.\n\nEn resumen, el fondo Deuda Corp Dólar es una opción interesante para inversionistas chilenos con un perfil de riesgo medio que buscan diversificar sus inversiones en dólares y están dispuestos a asumir cierto nivel de volatilidad.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8264-3",
+    "rut_admin": "96767630",
+    "nombre": "DEUDA CORP DOLAR",
+    "full_id": "96767630_8264-3",
+    "source": "javascript"
+  }
+}

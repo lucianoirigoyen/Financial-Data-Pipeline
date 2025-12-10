@@ -1,0 +1,23 @@
+{
+  "fondo_id": "liquidez x",
+  "nombre": "Liquidez X",
+  "nombre_cmf": "LIQUIDEZ X",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "Liquidez X es un fondo mutuo mixto que combina inversiones en diferentes clases de activos, como acciones, bonos y efectivo, con el objetivo de obtener un equilibrio entre rendimiento y seguridad. Su estrategia de inversión busca maximizar la rentabilidad a mediano plazo, manteniendo un nivel de riesgo moderado. Aunque la composición exacta del fondo no está disponible, se espera que diversifique sus inversiones para reducir la exposición a riesgos específicos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener retornos mayores que la inversión en activos más seguros, como depósitos a plazo, y la tolerancia a posibles fluctuaciones en el valor de su inversión. Si estás dispuesto a asumir cierto nivel de riesgo a cambio de potencialmente mayores ganancias, Liquidez X podría ser una opción a considerar.\n\nLiquidez X invierte en una variedad de activos, incluyendo acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como instrumentos de mercado monetario. Esta diversificación ayuda a mitigar el riesgo asociado con la volatilidad de los mercados financieros, ya que las distintas clases de activos pueden comportarse de manera diferente en diferentes condiciones del mercado.\n\nEn términos simples, el nivel de riesgo de Liquidez X se sitúa en un punto intermedio entre la seguridad de las inversiones conservadoras y el potencial de mayores ganancias de las inversiones más arriesgadas. Aunque no se puede descartar la posibilidad de pérdidas temporales debido a las fluctuaciones del mercado, el objetivo principal es mantener un equilibrio entre riesgo y retorno.\n\nPara este fondo, se recomienda un horizonte de inversión a mediano plazo, idealmente de al menos tres a cinco años. Esto se debe a que las inversiones a corto plazo pueden verse afectadas por la volatilidad del mercado, mientras que a largo plazo, el fondo tiene la oportunidad de recuperarse de posibles caídas y beneficiarse de un crecimiento sostenido en el tiempo.\n\nEn resumen, Liquidez X ofrece a los inversionistas la oportunidad de diversificar sus inversiones en distintas clases de activos, con un enfoque en el equilibrio entre riesgo y rendimiento a mediano plazo. Si estás dispuesto a asumir un nivel moderado de riesgo y tienes un horizonte de inversión a mediano plazo, este fondo podría ser una opción adecuada para ti. Recuerda siempre consultar con un as",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10584-8",
+    "rut_admin": "96767630",
+    "nombre": "LIQUIDEZ X",
+    "full_id": "96767630_10584-8",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "security usa",
+  "nombre": "Security Usa",
+  "nombre_cmf": "SECURITY USA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Security Usa es una opción de inversión mixta que combina una variedad de activos para ofrecer un equilibrio entre riesgo y rentabilidad. Su estrategia de inversión se enfoca en diversificar el portafolio a través de inversiones tanto en instrumentos de renta fija como en renta variable, lo que busca aprovechar las oportunidades del mercado estadounidense.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener mayores rendimientos y la exposición a un nivel moderado de riesgo. Para quienes desean obtener un retorno potencialmente superior al de una inversión conservadora, pero sin asumir un riesgo excesivo, este fondo puede ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, aunque la composición principal no está disponible, es probable que Security Usa tenga una diversificación en sectores como tecnología, salud, energía u otros sectores clave de la economía estadounidense. Esta diversificación sectorial puede ayudar a mitigar el riesgo asociado con la concentración en un solo sector.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Si lo comparamos con un fondo de renta fija, Security Usa presenta un mayor riesgo debido a su exposición a acciones, pero si lo comparamos con un fondo de renta variable pura, su riesgo es menor al incluir activos de renta fija. Es importante tener en cuenta que, si bien este fondo tiene un nivel de riesgo medio, toda inversión conlleva cierto grado de riesgo y es crucial diversificar para reducirlo.\n\nEl horizonte de inversión recomendado para el fondo Security Usa es a mediano a largo plazo, idealmente más de tres años. Esto se debe a que, al tratarse de un fondo mixto con exposición a diferentes tipos de activos, puede experimentar fluctuaciones en el corto plazo, pero tiende a ofrecer mejores resultados a medida que se mantiene la inversión a lo largo del tiempo.\n\nEn resumen, el fondo mutuo Security Usa ofrece una opción equilibrada para inversionistas con un perfil de riesgo medio que buscan diversificar su portafolio. Si bien su rentabilidad pasada no está disponible, su estrategia de inversión mixta puede ser atractiva para aquellos que desean participar en el mercado estadounidense de manera diversificada. Es fundamental que los inversionistas comprendan el nivel de riesgo asociado con este fondo y estén dispuestos a mantener su inversión a largo plazo para aprovechar su potencial.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8425-5",
+    "rut_admin": "96767630",
+    "nombre": "SECURITY USA",
+    "full_id": "96767630_8425-5",
+    "source": "javascript"
+  }
+}

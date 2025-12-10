@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci d.l. hy",
+  "nombre": "Fm Bci D.L. Hy",
+  "nombre_cmf": "FM BCI D.L. HY",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci D.L. Hy es una alternativa de inversión mixta que combina activos de renta fija y renta variable, buscando obtener un equilibrio entre rendimiento y riesgo. Su estrategia de inversión se enfoca en diversificar el portafolio para mitigar posibles fluctuaciones del mercado, lo que lo convierte en una opción atractiva para inversores con un perfil de riesgo medio que buscan crecimiento a largo plazo.\n\nEste fondo es adecuado para jóvenes inversores chilenos que desean invertir en un producto financiero que les permita participar en el mercado de valores sin asumir un riesgo excesivo. Al combinar distintos tipos de activos, el Fm Bci D.L. Hy ofrece la posibilidad de obtener retornos atractivos, aunque moderados, en un horizonte de inversión a medio y largo plazo.\n\nEn cuanto a los principales activos en los que invierte, al no contar con información específica sobre la composición principal del fondo, se puede inferir que podría incluir bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos de deuda pública. Esta diversificación contribuye a reducir la volatilidad y a potenciar el rendimiento del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que implica que existe la posibilidad tanto de obtener ganancias como de sufrir pérdidas en el valor de la inversión. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones del mercado, por lo que se aconseja mantener una visión a largo plazo y no dejarse llevar por movimientos a corto plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los jóvenes inversores consideren mantener su posición en el Fm Bci D.L. Hy por al menos tres a cinco años, permitiendo que el fondo se consolide y pueda mostrar su verdadero potencial de crecimiento. Es fundamental tener paciencia y no dejarse influenciar por la volatilidad a corto plazo, ya que los retornos más significativos suelen materializarse con el tiempo.\n\nEn resumen, el Fondo Mutuo Bci D.L. Hy ofrece una opción atractiva para jóvenes inversores con un perfil de riesgo medio que buscan diversificar su cartera y obtener retornos atractivos a largo plazo. Si bien presenta cierta incertidumbre inherente al mercado, su estrategia de inversión equilibrada lo convierte en una alternativa interesante para aquellos que desean participar",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8967-2",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI D.L. HY",
+    "full_id": "96767630_8967-2",
+    "source": "javascript"
+  }
+}

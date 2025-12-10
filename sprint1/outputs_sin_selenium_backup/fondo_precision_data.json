@@ -1,0 +1,23 @@
+{
+  "fondo_id": "precision",
+  "nombre": "Precision",
+  "nombre_cmf": "PRECISION",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Precision es una opción atractiva para aquellos inversores chilenos que buscan un equilibrio entre riesgo y rentabilidad. Este fondo pertenece a la categoría mixta, lo que significa que combina tanto activos de renta fija como de renta variable en su cartera. Su estrategia de inversión se enfoca en diversificar el riesgo a través de la inversión en distintos instrumentos financieros, lo que puede ayudar a minimizar las fluctuaciones del mercado y potencialmente generar retornos atractivos a largo plazo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la preservación del capital y la posibilidad de obtener rendimientos superiores a la inflación. Si eres un joven inversor que está dispuesto a asumir cierto nivel de riesgo en busca de mayores ganancias, el fondo Precision podría ser una opción a considerar en tu cartera de inversiones.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente, pero se espera que tenga una combinación de bonos, acciones y otros instrumentos financieros. Esta diversificación puede ayudar a reducir la volatilidad del fondo y a mitigar el riesgo asociado con un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Esto significa que, si bien existe la posibilidad de pérdidas en el corto plazo debido a la exposición a activos de mayor riesgo, también se espera que el fondo brinde un potencial de crecimiento de capital a lo largo del tiempo.\n\nEl horizonte de inversión recomendado para el fondo Precision es a mediano y largo plazo. Esto se debe a que, al ser un fondo mixto, su desempeño puede variar en el corto plazo debido a las fluctuaciones del mercado, pero tiende a mostrar resultados más consistentes y favorables a medida que pasa el tiempo. Por lo tanto, si estás dispuesto a mantener tu inversión durante varios años, es probable que puedas beneficiarte de los retornos potenciales que este fondo puede ofrecer.\n\nEn resumen, el fondo mutuo Precision es una opción interesante para jóvenes inversores chilenos que buscan una combinación de seguridad y potencial de crecimiento en sus inversiones. Si estás dispuesto a aceptar un nivel moderado de riesgo y tienes un horizonte de inversión a largo plazo, este fondo podría ser una pieza clave en tu estrategia de inversión. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones importantes",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8419-0",
+    "rut_admin": "96767630",
+    "nombre": "PRECISION",
+    "full_id": "96767630_8419-0",
+    "source": "javascript"
+  }
+}

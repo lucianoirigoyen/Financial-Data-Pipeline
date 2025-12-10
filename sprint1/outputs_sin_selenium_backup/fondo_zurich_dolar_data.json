@@ -1,0 +1,23 @@
+{
+  "fondo_id": "zurich dolar",
+  "nombre": "Zurich Dolar",
+  "nombre_cmf": "ZURICH DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Zurich Dolar es una opción mixta que combina activos de renta fija y variable en dólares, buscando generar rendimientos atractivos a través de una estrategia diversificada. Este tipo de fondo es ideal para inversionistas con un perfil de riesgo medio, que buscan un equilibrio entre seguridad y potencial de crecimiento en sus inversiones.\n\nEn cuanto a los activos en los que invierte, la composición exacta del Zurich Dolar no está disponible públicamente, pero generalmente los fondos mixtos pueden incluir bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos financieros derivados que buscan mitigar riesgos y maximizar ganancias.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Esto significa que existe la posibilidad de ver fluctuaciones en el valor de la inversión, pero con un riesgo controlado en comparación con fondos más agresivos. Es importante recordar que toda inversión conlleva cierto grado de riesgo, por lo que es fundamental tener una estrategia de diversificación adecuada.\n\nEl horizonte de inversión recomendado para el Zurich Dolar es a mediano a largo plazo, ya que permite aprovechar al máximo el potencial de crecimiento de los activos en los que invierte. Es importante tener paciencia y mantener una visión a largo plazo para obtener los mejores resultados.\n\nEn cuanto a ventajas, este tipo de fondo ofrece la posibilidad de diversificar la cartera de inversión, acceder a mercados internacionales y potencialmente obtener rendimientos atractivos. Sin embargo, es importante tener en cuenta que las fluctuaciones del mercado pueden afectar el valor de la inversión, por lo que se recomienda tener una estrategia de inversión sólida y estar informado sobre los movimientos del mercado.\n\nEn resumen, el fondo Zurich Dolar es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos atractivos a mediano y largo plazo. Es importante siempre consultar con un asesor financiero antes de tomar decisiones de inversión y tener en cuenta los objetivos financieros personales al elegir un fondo de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8629-0",
+    "rut_admin": "96767630",
+    "nombre": "ZURICH DOLAR",
+    "full_id": "96767630_8629-0",
+    "source": "javascript"
+  }
+}

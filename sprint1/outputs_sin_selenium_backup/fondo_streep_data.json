@@ -1,0 +1,86 @@
+{
+  "fondo_id": "streep",
+  "nombre": "Streep",
+  "nombre_cmf": "STREEP",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Streep es una excelente opción para aquellos inversores que buscan una combinación equilibrada de activos en su cartera. Se trata de un fondo mixto, lo que significa que invierte tanto en acciones como en bonos, permitiendo diversificar el riesgo y buscar oportunidades de crecimiento en diferentes mercados.\n\nLa estrategia de inversión de Streep se centra en mantener una proporción diversificada de activos, con un enfoque predominante en Chile y en instrumentos de deuda. Por ejemplo, el fondo destina un 95% de sus inversiones a diferentes activos, principalmente en el mercado chileno, con un peso significativo en bonos de deuda (80.1%). Además, aplica un límite del 50% en una inversión específica y nunca invierte más del 30% en un solo activo, lo que ayuda a mitigar el riesgo.\n\nEn términos de riesgo, Streep se considera un fondo de perfil medio. Esto significa que, si bien existe una posibilidad moderada de pérdidas en el corto plazo, también hay oportunidades de obtener rendimientos superiores a la media. Es importante tener en cuenta que el riesgo está relacionado con la volatilidad del mercado y la posibilidad de que el valor de las inversiones fluctúe.\n\nPara invertir en el fondo Streep, es recomendable tener un horizonte de inversión a medio o largo plazo. Dado su enfoque diversificado y equilibrado, los resultados suelen ser más favorables cuando se mantiene la inversión durante un periodo prolongado, permitiendo que las fluctuaciones del mercado se suavicen a lo largo del tiempo.\n\nEn cuanto al perfil del inversionista ideal, Streep es adecuado para aquellos que buscan un equilibrio entre riesgo y rendimiento, sin asumir una exposición excesiva a activos de alto riesgo. Es una buena opción para inversores que desean diversificar su cartera y están dispuestos a mantener sus inversiones a largo plazo.\n\nEn resumen, el fondo mutuo Streep ofrece una estrategia de inversión equilibrada, con un enfoque en el mercado chileno y en bonos de deuda. Aunque presenta un riesgo moderado, puede proporcionar rendimientos atractivos en el tiempo. Se recomienda a inversores con un horizonte de inversión a largo plazo y que buscan diversificar su cartera de manera prudente.",
+  "composicion_portafolio": [
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 0.8343
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.8009999999999999
+    },
+    {
+      "activo": "aplicará sobre el",
+      "porcentaje": 0.5
+    },
+    {
+      "activo": "manteniendo invertido como máximo el",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Dólar",
+      "porcentaje": 0.2477
+    },
+    {
+      "activo": "Peso chileno",
+      "porcentaje": 0.20329999999999998
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.1852
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "EEUU",
+      "porcentaje": 0.0667
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0537
+    },
+    {
+      "activo": "Otros",
+      "porcentaje": 0.050499999999999996
+    },
+    {
+      "activo": "Brasil",
+      "porcentaje": 0.0332
+    },
+    {
+      "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+      "porcentaje": 0.033
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0329
+    }
+  ],
+  "rentabilidad_anual": 0.0926,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9730-6",
+    "rut_admin": "96767630",
+    "nombre": "STREEP",
+    "full_id": "96767630_9730-6",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Mediano Plazo",
+  "comision_administracion": 0.0151
+}

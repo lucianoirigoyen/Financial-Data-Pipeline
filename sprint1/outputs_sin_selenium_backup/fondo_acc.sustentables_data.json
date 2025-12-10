@@ -1,0 +1,23 @@
+{
+  "fondo_id": "acc.sustentables",
+  "nombre": "Acc.Sustentables",
+  "nombre_cmf": "ACC.SUSTENTABLES",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión \"Acc.Sustentables\" es una opción atractiva para aquellos inversores jóvenes en Chile que buscan combinar rentabilidad con responsabilidad social. Se trata de un fondo mixto, lo que significa que invierte tanto en acciones como en bonos u otros instrumentos financieros, con el objetivo de lograr un equilibrio entre riesgo y retorno. Su estrategia se centra en seleccionar empresas que promuevan prácticas sustentables y éticas, lo que puede resultar atractivo para quienes valoran la sostenibilidad en sus inversiones.\n\nEn términos de perfil de riesgo, este fondo se considera de nivel medio. Esto implica que si bien existe la posibilidad de obtener rendimientos interesantes, también conlleva cierto grado de volatilidad en el corto plazo. Para un joven inversor que esté dispuesto a asumir un riesgo moderado en busca de mayores ganancias, este fondo podría ser una opción adecuada.\n\nEn cuanto a los activos en los que invierte, la composición específica no está disponible públicamente. Sin embargo, dado su enfoque en empresas sustentables, es probable que tenga una presencia significativa en sectores como energías renovables, tecnología verde o compañías con políticas ambientales y sociales sólidas. Estos activos suelen ser atractivos para aquellos que desean alinear sus inversiones con sus valores personales.\n\nEn términos simples, el nivel de riesgo de este fondo se asemeja a un viaje en un automóvil por una carretera sinuosa: puede haber algunas curvas pronunciadas, pero en general se espera llegar a destino con un retorno atractivo. Es importante recordar que, en el mundo de las inversiones, el riesgo y la rentabilidad suelen estar estrechamente relacionados, por lo que es fundamental estar preparado para posibles altibajos en el valor de la inversión.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores jóvenes consideren mantener su dinero en este fondo durante al menos tres a cinco años. Esto permitirá aprovechar el potencial de crecimiento a largo plazo de las empresas sustentables en las que invierte el fondo, sin preocuparse por las fluctuaciones normales del mercado a corto plazo.\n\nEn resumen, el fondo \"Acc.Sustentables\" ofrece la oportunidad de invertir de manera responsable, buscando un equilibrio entre riesgo y retorno. Para un joven inversor en Chile que valore la sostenibilidad y esté dispuesto a asumir un riesgo moderado, este fondo podría ser una opción atractiva. Sin embargo, es importante recordar",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8822-6",
+    "rut_admin": "96767630",
+    "nombre": "ACC.SUSTENTABLES",
+    "full_id": "96767630_8822-6",
+    "source": "javascript"
+  }
+}

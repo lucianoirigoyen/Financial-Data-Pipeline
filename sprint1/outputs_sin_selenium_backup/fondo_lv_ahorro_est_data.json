@@ -1,0 +1,23 @@
+{
+  "fondo_id": "lv ahorro est",
+  "nombre": "Lv Ahorro Est",
+  "nombre_cmf": "LV AHORRO EST",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Lv Ahorro Est es una opción de inversión mixta diseñada para aquellos inversionistas que buscan un equilibrio entre riesgo y rentabilidad. Este fondo combina activos de renta fija y renta variable, lo que le permite diversificar su cartera y aprovechar las oportunidades de crecimiento en el mercado financiero.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de riesgo a cambio de mayores posibilidades de rentabilidad. Si eres un joven inversor que busca crecimiento a mediano plazo y no temes asumir un riesgo moderado, Lv Ahorro Est podría ser una opción a considerar.\n\nAunque la composición principal del fondo no está disponible, se espera que invierta en una variedad de activos como bonos, acciones y otros instrumentos financieros. Esta diversificación ayuda a reducir el riesgo total de la cartera, ya que las pérdidas en un activo pueden ser compensadas por ganancias en otros.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Esto significa que, si bien existe la posibilidad de enfrentar ciertas fluctuaciones en el valor de la inversión a corto plazo, a largo plazo se espera obtener rendimientos atractivos. Es importante tener en cuenta que, como en cualquier inversión, existen riesgos inherentes que deben ser evaluados cuidadosamente.\n\nEl horizonte de inversión recomendado para el fondo Lv Ahorro Est es a mediano o largo plazo. Esto significa que los inversionistas deben estar dispuestos a mantener su inversión por un período de al menos 3 a 5 años para poder beneficiarse de las potenciales ganancias y permitir que la cartera se ajuste a las condiciones del mercado.\n\nEntre las ventajas de este fondo se encuentran la diversificación de activos, que reduce el riesgo total de la cartera, y la posibilidad de obtener rendimientos atractivos a mediano plazo. Sin embargo, es importante tener en cuenta que el rendimiento pasado no garantiza resultados futuros y que el valor de la inversión puede fluctuar.\n\nEn resumen, el fondo Lv Ahorro Est es una opción adecuada para jóvenes inversionistas con un perfil de riesgo medio que buscan crecimiento a mediano plazo. Es importante analizar detenidamente tu tolerancia al riesgo y tus objetivos financieros antes de invertir en este fondo. Recuerda que la diversificación y la paciencia son clave en el mundo de las inversiones.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9928-7",
+    "rut_admin": "96767630",
+    "nombre": "LV AHORRO EST",
+    "full_id": "96767630_9928-7",
+    "source": "javascript"
+  }
+}

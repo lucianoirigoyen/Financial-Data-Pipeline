@@ -1,0 +1,23 @@
+{
+  "fondo_id": "yield dolar",
+  "nombre": "Yield Dolar",
+  "nombre_cmf": "YIELD DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Yield Dolar\" es una opción de inversión mixta que combina tanto activos de renta fija como variable, buscando un equilibrio entre seguridad y potencial de ganancias. Su estrategia de inversión apunta a diversificar el portafolio para minimizar riesgos y aprovechar oportunidades en el mercado financiero local e internacional.\n\nEste fondo es adecuado para aquellos inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre seguridad y rentabilidad. Si bien no se dispone de información detallada sobre la composición principal del fondo, se puede inferir que invierte en una variedad de instrumentos financieros que pueden incluir bonos, acciones, divisas y otros activos.\n\nEn términos simples, el nivel de riesgo de \"Yield Dolar\" se sitúa en un punto intermedio. Esto significa que si bien existe la posibilidad de obtener ganancias atractivas, también se asume un cierto grado de volatilidad en el valor de la inversión. Es importante tener en cuenta que, en el mundo de las finanzas, el riesgo y la rentabilidad suelen estar directamente relacionados: a mayor riesgo, mayor potencial de ganancias pero también de pérdidas.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores consideren mantener su dinero en este fondo por un periodo de tiempo suficiente para permitir que la estrategia de inversión dé frutos. En general, los fondos mixtos como \"Yield Dolar\" son adecuados para inversiones a medio y largo plazo, ya que permiten aprovechar el potencial de crecimiento de diferentes clases de activos.\n\nUna ventaja de este fondo es su capacidad para adaptarse a diferentes condiciones del mercado, gracias a su naturaleza mixta que le brinda flexibilidad en la asignación de activos. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del portafolio, lo que podría generar incertidumbre en los inversionistas.\n\nEn resumen, el fondo mutuo \"Yield Dolar\" es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener potenciales ganancias a largo plazo. Se recomienda a aquellos que estén dispuestos a asumir cierto grado de volatilidad en busca de rendimientos superiores a los ofrecidos por inversiones más conservadoras. Es importante recordar que antes de invertir, es aconsejable buscar asesoramiento financiero para asegurarse de que la inversión sea adecuada para tus objetivos y tolerancia al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8370-4",
+    "rut_admin": "96767630",
+    "nombre": "YIELD DOLAR",
+    "full_id": "96767630_8370-4",
+    "source": "javascript"
+  }
+}

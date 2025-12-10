@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ahorro capital",
+  "nombre": "Ahorro Capital",
+  "nombre_cmf": "AHORRO CAPITAL",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo mutuo Ahorro Capital es una alternativa de inversión conservadora que busca proteger el capital y generar rendimientos estables a lo largo del tiempo. Su estrategia se basa en invertir en instrumentos financieros de bajo riesgo, como bonos del Estado o depósitos a plazo, lo que brinda seguridad a los inversionistas sin sacrificar completamente la posibilidad de obtener ganancias.\n\nEste fondo es ideal para aquellos inversionistas que buscan preservar su capital y no están dispuestos a asumir grandes riesgos en el mercado financiero. Su perfil de riesgo es bajo, lo que significa que las fluctuaciones en el valor de sus inversiones son mínimas, proporcionando tranquilidad y estabilidad a quienes lo eligen.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo Ahorro Capital no está disponible públicamente. Sin embargo, es probable que esté compuesto principalmente por bonos de bajo riesgo emitidos por entidades sólidas y líquidas, lo que contribuye a mantener la estabilidad del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo es similar a guardar el dinero en una cuenta de ahorros, donde la prioridad es conservar el capital y obtener un rendimiento modesto pero constante. Aunque las ganancias pueden ser menores en comparación con fondos más arriesgados, la seguridad que ofrece es su principal fortaleza.\n\nEl horizonte de inversión recomendado para el fondo Ahorro Capital es a mediano y largo plazo, ya que su enfoque conservador requiere tiempo para generar resultados significativos. Es importante tener en cuenta que, si bien la rentabilidad a corto plazo puede ser limitada, a largo plazo puede ser una opción sólida para construir un patrimonio estable y seguro.\n\nEn resumen, el fondo mutuo Ahorro Capital es adecuado para jóvenes inversores chilenos que buscan un equilibrio entre seguridad y rendimiento. Aunque su rentabilidad puede ser más modesta que la de fondos más arriesgados, su enfoque conservador es una excelente opción para aquellos que valoran la estabilidad y la protección de su capital a lo largo del tiempo. ¡Recuerda siempre diversificar tus inversiones y consultar con un asesor financiero antes de tomar decisiones importantes!",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8263-5",
+    "rut_admin": "96767630",
+    "nombre": "AHORRO CAPITAL",
+    "full_id": "96767630_8263-5",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "est uf iii",
+  "nombre": "Est Uf Iii",
+  "nombre_cmf": "EST UF III",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Est Uf III es una opción de inversión mixta que combina activos de renta fija y renta variable para buscar un equilibrio entre rendimiento y riesgo. Su estrategia se centra en diversificar la cartera de inversiones para minimizar los posibles impactos negativos en caso de fluctuaciones en los mercados. Aunque la información sobre su composición principal no está disponible, se espera que incluya una variedad de instrumentos financieros para cumplir con su enfoque mixto.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio que buscan obtener rendimientos superiores a los ofrecidos por instrumentos de renta fija tradicionales, como depósitos a plazo, pero que no están dispuestos a asumir un riesgo elevado en el mercado de acciones. Es importante tener en cuenta que, si bien el riesgo asociado a este tipo de fondos es moderado, aún existe la posibilidad de pérdidas en el capital invertido, especialmente en periodos de volatilidad del mercado.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, Est Uf III puede incluir bonos corporativos, bonos del gobierno, acciones de empresas locales e internacionales, entre otros instrumentos financieros. Esta diversificación de activos busca proporcionar estabilidad a la cartera y aprovechar las oportunidades de crecimiento en diferentes sectores y mercados.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Si bien no es tan arriesgado como invertir directamente en acciones, tampoco es tan conservador como optar solo por bonos de bajo rendimiento. Es una opción equilibrada para quienes desean un rendimiento superior al de instrumentos de bajo riesgo, pero sin exponerse a grandes fluctuaciones en el valor de su inversión.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversionistas de largo plazo, ya que permite aprovechar el potencial de crecimiento de los mercados a lo largo del tiempo. Se recomienda mantener la inversión por un período de al menos cinco años para mitigar posibles impactos negativos a corto plazo y permitir que la estrategia del fondo pueda dar frutos.\n\nEn resumen, el fondo Est Uf III ofrece a los inversores una alternativa equilibrada entre riesgo y rendimiento, ideal para aquellos que buscan diversificar su cartera y obtener un crecimiento moderado a mediano plazo. Es importante tener en cuenta que, si bien ofrece la",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10315-2",
+    "rut_admin": "96767630",
+    "nombre": "EST UF III",
+    "full_id": "96767630_10315-2",
+    "source": "javascript"
+  }
+}

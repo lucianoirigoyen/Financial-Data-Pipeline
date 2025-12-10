@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bnp paribas acc. des",
+  "nombre": "Bnp Paribas Acc. Des",
+  "nombre_cmf": "BNP PARIBAS ACC. DES",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Bnp Paribas Acc. Des es una alternativa de inversión mixta que combina tanto activos de renta fija como de renta variable en su cartera. Su estrategia busca obtener un equilibrio entre la estabilidad de los bonos y el potencial de crecimiento de las acciones, lo que lo convierte en una opción adecuada para inversores con un perfil de riesgo medio, que buscan un rendimiento moderado.\n\nEste fondo es ideal para jóvenes inversores chilenos que desean diversificar su cartera y no asumir un nivel de riesgo extremo. Al combinar diferentes tipos de activos, como bonos y acciones, brinda la oportunidad de obtener ganancias a través de la variedad de instrumentos financieros en los que invierte.\n\nEn cuanto a los activos en los que invierte, la composición específica no está disponible, pero se puede esperar que incluya tanto bonos corporativos y gubernamentales como acciones de empresas nacionales e internacionales. Esta diversificación contribuye a reducir el riesgo y aumentar la estabilidad del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo es moderado, lo que significa que existe la posibilidad de obtener ganancias interesantes, pero también de enfrentar cierta volatilidad en el corto plazo. Es importante tener en cuenta que, si bien el riesgo no es tan alto como en fondos de renta variable pura, sigue siendo necesario estar preparado para posibles fluctuaciones en el valor de la inversión.\n\nPara los jóvenes inversores chilenos que elijan este fondo, se recomienda un horizonte de inversión a medio-largo plazo, de al menos 3 a 5 años. Esto permitirá aprovechar al máximo las ventajas de la diversificación y dar tiempo a que las fluctuaciones del mercado se equilibren en el tiempo.\n\nEntre las ventajas de este fondo se encuentran la diversificación de la cartera, que ayuda a reducir el riesgo total, y la posibilidad de obtener rendimientos superiores a los de una inversión exclusivamente en bonos. Sin embargo, una posible desventaja podría ser que, en periodos de alta volatilidad en los mercados, el valor de la inversión pueda fluctuar más de lo deseado.\n\nEn resumen, el fondo Bnp Paribas Acc. Des es una opción interesante para jóvenes inversores chilenos con un perfil de riesgo medio, que buscan diversificar su portafolio y obtener un rendimiento equilibrado a través de una combinación de bonos y acciones. Es importante recordar que, aunque el riesgo no es tan alto como en otros fondos más agresivos, es fundamental tener claro el",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8744-0",
+    "rut_admin": "96767630",
+    "nombre": "BNP PARIBAS ACC. DES",
+    "full_id": "96767630_8744-0",
+    "source": "javascript"
+  }
+}

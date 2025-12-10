@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bonos dolar",
+  "nombre": "Bonos Dolar",
+  "nombre_cmf": "BONOS DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Bonos Dólar es una opción atractiva para aquellos inversores que buscan diversificar su portafolio con una exposición al mercado de bonos en dólares. Este fondo pertenece a la categoría mixta, lo que significa que combina inversiones en bonos con otras clases de activos para buscar un equilibrio entre rentabilidad y riesgo.\n\nEl perfil de riesgo de este fondo se clasifica como medio, lo que implica que, si bien puede ofrecer rendimientos atractivos, también conlleva cierta volatilidad en el corto plazo. Es importante tener en cuenta que, si bien el nivel de riesgo es moderado, no está exento de fluctuaciones en el valor de las inversiones.\n\nEn términos simples, la estrategia de inversión de Bonos Dólar se centra en adquirir bonos denominados en dólares emitidos por entidades públicas y privadas, lo que brinda una exposición a la moneda extranjera y a los movimientos de las tasas de interés internacionales. Esta diversificación puede ayudar a mitigar el impacto de factores locales en el mercado chileno.\n\nPara los jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rentabilidad, este fondo puede ser una opción interesante. Es ideal para aquellos que desean diversificar su portafolio más allá de las inversiones locales y están dispuestos a asumir un nivel moderado de riesgo en busca de mayores rendimientos a mediano y largo plazo.\n\nEl horizonte de inversión recomendado para el fondo Bonos Dólar es a medio y largo plazo, ya que las inversiones en bonos suelen requerir tiempo para madurar y ofrecer rendimientos consistentes. Es importante tener paciencia y mantener una visión a largo plazo para aprovechar al máximo los beneficios de este tipo de activos.\n\nEntre las ventajas de este fondo se encuentra la diversificación internacional que ofrece, lo que puede reducir la exposición a eventos específicos del mercado local. Sin embargo, es importante tener en cuenta que las fluctuaciones en el tipo de cambio y en las tasas de interés internacionales pueden afectar el desempeño del fondo.\n\nEn resumen, el fondo Bonos Dólar es una opción atractiva para jóvenes inversores chilenos que buscan diversificar su portafolio con bonos en dólares y están dispuestos a asumir un nivel moderado de riesgo. Se recomienda consultar con un asesor financiero para determinar si este fondo se adapta a tus objetivos y perfil de riesgo antes de invertir.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8231-7",
+    "rut_admin": "96767630",
+    "nombre": "BONOS DOLAR",
+    "full_id": "96767630_8231-7",
+    "source": "javascript"
+  }
+}

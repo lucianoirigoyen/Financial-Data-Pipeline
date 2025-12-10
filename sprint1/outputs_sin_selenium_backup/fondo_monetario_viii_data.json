@@ -1,0 +1,23 @@
+{
+  "fondo_id": "monetario viii",
+  "nombre": "Monetario Viii",
+  "nombre_cmf": "MONETARIO VIII",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Monetario VIII es una excelente opción para aquellos inversores que buscan un equilibrio entre seguridad y potencial de crecimiento. Su estrategia de inversión se enfoca en combinar activos de renta fija y renta variable, lo que le otorga una naturaleza mixta. Esto significa que, si bien puede tener exposición a activos más riesgosos, también mantiene una porción significativa en activos más conservadores, buscando así mantener un nivel de riesgo medio.\n\nEste fondo es adecuado para inversionistas con un perfil moderado, que estén dispuestos a asumir un cierto nivel de riesgo en busca de mayores rendimientos, pero que al mismo tiempo valoren la estabilidad de su inversión. Por ejemplo, un joven profesional que está empezando a invertir y busca un crecimiento gradual de su capital a mediano plazo podría considerar este fondo como una opción atractiva.\n\nEn cuanto a los activos en los que invierte, la composición principal del Monetario VIII no está disponible públicamente. Sin embargo, es común que este tipo de fondos inviertan en bonos corporativos, bonos del Estado, acciones de empresas locales e internacionales, entre otros. Esta diversificación puede ayudar a reducir la exposición a riesgos específicos y a potenciar la rentabilidad del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que implica que existe la posibilidad de obtener ganancias interesantes, pero también de experimentar pérdidas en determinadas circunstancias del mercado. Es importante tener en cuenta que, aunque el riesgo es moderado, no está exento de fluctuaciones en el valor de la inversión.\n\nEn cuanto al horizonte de inversión recomendado, se aconseja a los inversores considerar un plazo de al menos 2 a 5 años para maximizar el potencial de retorno. Esto se debe a que, al tratarse de un fondo mixto, puede haber periodos de volatilidad en los que la paciencia y la visión a largo plazo son clave para obtener resultados positivos.\n\nEn resumen, el Fondo Mutuo Monetario VIII es una opción interesante para inversionistas con perfil moderado que buscan un equilibrio entre riesgo y rendimiento. Si bien presenta la posibilidad de obtener ganancias atractivas, es importante mantener expectativas realistas y estar preparado para posibles fluctuaciones en el valor de la inversión. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8889-7",
+    "rut_admin": "96767630",
+    "nombre": "MONETARIO VIII",
+    "full_id": "96767630_8889-7",
+    "source": "javascript"
+  }
+}

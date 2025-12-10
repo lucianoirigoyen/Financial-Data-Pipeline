@@ -1,0 +1,86 @@
+{
+  "fondo_id": "futuro",
+  "nombre": "Futuro",
+  "nombre_cmf": "FUTURO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo \"Futuro\" es una opción mixta que combina activos de renta fija y variable, con el objetivo de diversificar y buscar un equilibrio entre riesgo y rentabilidad. Su estrategia de inversión se centra en invertir principalmente en activos chilenos, tanto en renta fija como variable, con un enfoque en la deuda y aplicando un porcentaje significativo en el mercado local.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, que buscan obtener un rendimiento potencialmente superior al de una inversión conservadora, pero sin asumir un riesgo excesivo. Es importante destacar que, si bien el riesgo es moderado, existe la posibilidad de fluctuaciones en el valor de la inversión debido a la variabilidad de los mercados.\n\nLos principales activos en los que invierte el fondo \"Futuro\" incluyen bonos emitidos por entidades chilenas, acciones de empresas locales y otros instrumentos de deuda del país. Al tener una exposición significativa al mercado chileno, los movimientos económicos y políticos en Chile pueden tener un impacto directo en la rentabilidad del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se podría comparar con el de caminar por una calle con algunas piedras sueltas. Existe la posibilidad de tropezar, pero si se camina con precaución y se mantienen los ojos abiertos, se puede avanzar de manera segura. Es importante recordar que, en el mundo de las inversiones, el riesgo siempre está presente, pero con una estrategia adecuada y una visión a largo plazo, se pueden minimizar sus efectos.\n\nEl horizonte de inversión recomendado para el fondo \"Futuro\" es a medio y largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Se aconseja a los inversores que mantengan una visión a largo plazo y eviten decisiones impulsivas basadas en movimientos a corto plazo del mercado.\n\nEn resumen, el fondo \"Futuro\" ofrece una oportunidad para los inversores con un perfil de riesgo moderado que buscan diversificar su cartera y obtener un rendimiento competitivo. Sin embargo, es importante tener en cuenta que, como cualquier inversión, existen riesgos inherentes que deben ser considerados. Se recomienda a los inversores jóvenes que buscan un equilibrio entre riesgo y rentabilidad considerar este fondo como parte de su estrategia de inversión a largo plazo.",
+  "composicion_portafolio": [
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 0.8343
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.8009999999999999
+    },
+    {
+      "activo": "aplicará sobre el",
+      "porcentaje": 0.5
+    },
+    {
+      "activo": "manteniendo invertido como máximo el",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Dólar",
+      "porcentaje": 0.2477
+    },
+    {
+      "activo": "Peso chileno",
+      "porcentaje": 0.20329999999999998
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.1852
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "EEUU",
+      "porcentaje": 0.0667
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0537
+    },
+    {
+      "activo": "Otros",
+      "porcentaje": 0.050499999999999996
+    },
+    {
+      "activo": "Brasil",
+      "porcentaje": 0.0332
+    },
+    {
+      "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+      "porcentaje": 0.033
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0329
+    }
+  ],
+  "rentabilidad_anual": 0.0926,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8105-1",
+    "rut_admin": "96767630",
+    "nombre": "FUTURO",
+    "full_id": "96767630_8105-1",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Mediano Plazo",
+  "comision_administracion": 0.0151
+}

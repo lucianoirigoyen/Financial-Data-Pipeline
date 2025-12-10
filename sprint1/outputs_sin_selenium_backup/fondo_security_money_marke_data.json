@@ -1,0 +1,23 @@
+{
+  "fondo_id": "security money marke",
+  "nombre": "Security Money Marke",
+  "nombre_cmf": "SECURITY MONEY MARKE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Security Money Market es una opción de inversión mixta que combina activos de renta fija y variable, con el objetivo de brindar a los inversionistas un equilibrio entre seguridad y potencial de crecimiento. Su estrategia de inversión se centra en mantener una parte de sus activos en instrumentos de bajo riesgo, como bonos o depósitos a plazo, y otra parte en acciones o instrumentos de mayor potencial de rentabilidad, buscando así diversificar el riesgo y maximizar los rendimientos a largo plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan obtener un retorno superior al de los instrumentos de renta fija tradicionales, pero que están dispuestos a asumir cierto nivel de riesgo en su cartera. Si eres un joven inversor que busca un equilibrio entre seguridad y crecimiento, el Security Money Market puede ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente. Sin embargo, es probable que incluya una combinación de bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos del mercado monetario. Esta diversificación puede ayudar a mitigar el riesgo asociado con la volatilidad del mercado.\n\nEn términos simples, el nivel de riesgo de este fondo podría compararse con el de caminar por una acera mojada en lugar de por un sendero rocoso. Aunque existen riesgos inherentes a cualquier inversión, el Security Money Market busca minimizarlos a través de una gestión activa de sus activos y una diversificación adecuada.\n\nPara este tipo de fondo mixto, se recomienda un horizonte de inversión a medio y largo plazo, idealmente de al menos tres a cinco años. Esto se debe a que las fluctuaciones del mercado a corto plazo pueden afectar la rentabilidad del fondo, pero a medida que se extiende el plazo, se tiende a suavizar el impacto de dichas variaciones.\n\nEn cuanto a ventajas, este fondo ofrece la posibilidad de obtener rendimientos superiores a los de los instrumentos de renta fija tradicionales, sin asumir un riesgo excesivo. Sin embargo, como desventaja, es importante tener en cuenta que la rentabilidad no está garantizada y puede verse afectada por las condiciones del mercado.\n\nEn resumen, el Security Money Market es una opción atractiva para jóvenes inversores con un perfil de riesgo medio que buscan diversificar su cartera y obtener un equilibrio entre seguridad y potencial de crecimiento a largo plazo. Recuerda siempre",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8311-9",
+    "rut_admin": "96767630",
+    "nombre": "SECURITY MONEY MARKE",
+    "full_id": "96767630_8311-9",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "protección uf ii",
+  "nombre": "Protección Uf Ii",
+  "nombre_cmf": "PROTECCIÓN UF II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Protección UF II es una excelente opción para aquellos inversionistas que buscan un equilibrio entre riesgo y potencial de retorno. Este fondo, clasificado como mixto, combina activos de renta fija y variable en su cartera, lo que le permite diversificar sus inversiones y adaptarse a diferentes condiciones del mercado. Su estrategia de inversión se enfoca en obtener un rendimiento atractivo a mediano plazo, manteniendo un nivel de riesgo moderado.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en sus inversiones a cambio de mayores oportunidades de rentabilidad. Si eres un joven inversor en Chile que busca un crecimiento gradual de tu capital sin exponerte a riesgos extremos, Protección UF II podría ser una buena alternativa para ti.\n\nEn términos simples, Protección UF II invierte en una combinación de instrumentos de renta fija y renta variable, como bonos, acciones y otros activos financieros. Esto le brinda una mayor diversificación a su cartera, reduciendo el impacto de posibles fluctuaciones en un solo tipo de activo. Al diversificar, el fondo busca minimizar el riesgo y maximizar el potencial de retorno para sus inversionistas.\n\nEn cuanto al nivel de riesgo, es importante destacar que, si bien Protección UF II se considera de riesgo medio, toda inversión conlleva un cierto nivel de incertidumbre. Aunque este fondo busca mantener un equilibrio entre riesgo y rentabilidad, es importante recordar que existen factores externos que pueden influir en su desempeño, como cambios en las tasas de interés, fluctuaciones en los mercados internacionales o eventos económicos inesperados.\n\nEl horizonte de inversión recomendado para Protección UF II es a mediano plazo, generalmente entre 3 a 5 años. Esto se debe a que la estrategia del fondo está diseñada para generar rendimientos consistentes a lo largo del tiempo, por lo que es importante que los inversionistas tengan una visión a largo plazo y no se dejen llevar por fluctuaciones a corto plazo en el mercado.\n\nEn resumen, Protección UF II es una opción atractiva para jóvenes inversionistas chilenos que buscan diversificar su cartera, obtener un equilibrio entre riesgo y retorno, y mantener una visión a mediano plazo en sus inversiones. Es fundamental recordar que, aunque este fondo ofrece oportunidades de crecimiento, siempre es importante consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10200-8",
+    "rut_admin": "96767630",
+    "nombre": "PROTECCIÓN UF II",
+    "full_id": "96767630_10200-8",
+    "source": "javascript"
+  }
+}

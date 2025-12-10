@@ -1,0 +1,23 @@
+{
+  "fondo_id": "select global",
+  "nombre": "Select Global",
+  "nombre_cmf": "SELECT GLOBAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Select Global es una opción de inversión mixta que busca combinar la rentabilidad de distintos activos a nivel global. Su estrategia de inversión se enfoca en diversificar el riesgo al invertir en una variedad de instrumentos financieros, como acciones, bonos y otros activos, tanto en Chile como en el extranjero. Aunque la composición principal del fondo no está disponible públicamente, su enfoque diversificado suele ofrecer una mayor estabilidad en comparación con fondos más especializados.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener rendimientos superiores y la protección del capital invertido. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de las inversiones, especialmente en entornos económicos volátiles.\n\nEn cuanto a los activos en los que invierte, el fondo Select Global puede incluir acciones de empresas locales e internacionales, bonos de gobierno, instrumentos del mercado monetario y otros tipos de activos. Esta diversificación geográfica y sectorial permite aprovechar oportunidades de crecimiento en diferentes mercados, lo que puede contribuir a reducir la exposición a riesgos específicos.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de un viaje en automóvil: es más seguro que viajar en motocicleta, pero aún así requiere atención y precaución para evitar posibles contratiempos en el camino. Para jóvenes inversores con un horizonte a largo plazo y una tolerancia moderada al riesgo, el fondo Select Global puede ser una opción atractiva para diversificar su cartera y potencialmente obtener rendimientos competitivos.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener una visión a largo plazo, considerando que los movimientos del mercado a corto plazo pueden influir en el desempeño del fondo. Idealmente, se recomienda invertir en Select Global con un horizonte temporal de al menos cinco años, permitiendo que las inversiones se desarrollen y se beneficien de las oportunidades a largo plazo que ofrece el mercado global.\n\nEn resumen, el fondo mutuo Select Global ofrece a los jóvenes inversores chilenos la oportunidad de diversificar su cartera de inversiones de manera global, con un enfoque equilibrado entre riesgo y rentabilidad. Si bien presenta ventajas como la diversificación y la estabilidad relativa, es importante tener en cuenta que su desempeño puede variar en función de las condiciones del mercado. Por lo tanto, se recom",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8621-5",
+    "rut_admin": "96767630",
+    "nombre": "SELECT GLOBAL",
+    "full_id": "96767630_8621-5",
+    "source": "javascript"
+  }
+}

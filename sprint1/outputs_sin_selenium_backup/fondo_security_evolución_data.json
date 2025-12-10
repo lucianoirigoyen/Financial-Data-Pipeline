@@ -1,0 +1,23 @@
+{
+  "fondo_id": "security evolución",
+  "nombre": "Security Evolución",
+  "nombre_cmf": "SECURITY EVOLUCIÓN",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Security Evolución es una alternativa de inversión mixta diseñada para aquellos inversores que buscan un equilibrio entre riesgo y rendimiento. Este fondo combina tanto activos de renta fija como de renta variable, lo que le permite diversificar su cartera y potencialmente obtener ganancias a largo plazo. Su estrategia de inversión se basa en aprovechar las oportunidades del mercado para maximizar los retornos, manteniendo un nivel de riesgo moderado.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en busca de mayores rendimientos, pero que buscan evitar exposiciones excesivas a riesgos extremos. Si eres un joven inversor en Chile que está dispuesto a mantener su inversión a mediano plazo y que busca un equilibrio entre seguridad y potencial de crecimiento, el Security Evolución puede ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible, pero se puede esperar que incluya una combinación de bonos, acciones y otros instrumentos financieros. Esto proporciona una diversificación adecuada para reducir el impacto de posibles fluctuaciones en el mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que puede experimentar cierta volatilidad en su valor, pero se espera que ofrezca rendimientos superiores a los de una inversión conservadora a largo plazo. Es importante recordar que el riesgo y el rendimiento siempre van de la mano en el mundo de las inversiones, por lo que es fundamental entender y aceptar el nivel de riesgo asociado con este tipo de fondo.\n\nPara obtener los mejores resultados, se recomienda mantener una inversión en Security Evolución a mediano o largo plazo. Esto permitirá aprovechar las fluctuaciones del mercado y dar tiempo a que la estrategia de inversión del fondo produzca los resultados deseados. Es importante recordar que las inversiones a corto plazo pueden verse afectadas por la volatilidad del mercado, por lo que la paciencia y la consistencia son clave para obtener buenos resultados.\n\nEn resumen, el fondo mutuo Security Evolución es una opción atractiva para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rendimiento a mediano o largo plazo. Si estás dispuesto a asumir cierta volatilidad en busca de mayores ganancias, este fondo mixto puede ser una excelente opción para diversificar tu cartera y buscar crecimiento a lo largo del tiempo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8958-3",
+    "rut_admin": "96767630",
+    "nombre": "SECURITY EVOLUCIÓN",
+    "full_id": "96767630_8958-3",
+    "source": "javascript"
+  }
+}

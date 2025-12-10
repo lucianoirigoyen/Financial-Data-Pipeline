@@ -1,0 +1,23 @@
+{
+  "fondo_id": "norris",
+  "nombre": "Norris",
+  "nombre_cmf": "NORRIS",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Norris es una excelente opción para aquellos jóvenes inversores chilenos que buscan combinar la diversificación de activos con un nivel de riesgo medio en su cartera. Este fondo, clasificado como mixto, tiene como objetivo principal maximizar los rendimientos a través de una estrategia de inversión que combina tanto activos de renta fija como de renta variable.\n\nEl perfil de riesgo medio de Norris lo hace ideal para inversores que buscan un equilibrio entre la seguridad y el potencial de crecimiento. Si bien no se disponen de detalles específicos sobre la composición principal del fondo, podemos inferir que invierte en una variedad de activos como bonos, acciones y otros instrumentos financieros, lo que contribuye a una mayor diversificación y, por ende, a una reducción del riesgo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que existe la posibilidad de obtener retornos significativos, pero también hay un cierto nivel de incertidumbre asociado. Para ilustrarlo de manera más clara, imagine que invertir en Norris es como caminar por un sendero mixto: puede haber terrenos más complicados, pero también tramos más llanos y seguros.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores mantengan una visión a medio-largo plazo, idealmente de al menos 3 a 5 años. Esto se debe a que, dado el enfoque mixto del fondo, pueden existir fluctuaciones en el corto plazo que se suavizan con el tiempo, permitiendo aprovechar al máximo las oportunidades de crecimiento.\n\nEntre las ventajas de invertir en Norris se encuentran la diversificación de la cartera, la gestión profesional de los activos y la posibilidad de obtener rendimientos atractivos. Sin embargo, es importante tener en cuenta que, al tratarse de un fondo mixto, las fluctuaciones del mercado pueden impactar en el valor de la inversión, lo que podría generar cierta volatilidad en el corto plazo.\n\nEn resumen, el fondo de inversión Norris es una opción interesante para aquellos jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rentabilidad. Se recomienda a aquellos con un perfil de riesgo moderado, dispuestos a mantener su inversión a mediano-largo plazo y que buscan diversificar su cartera de manera eficiente. ¡Invertir en Norris puede ser el paso perfecto para construir un futuro financiero sólido y diversificado!",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9570-2",
+    "rut_admin": "96767630",
+    "nombre": "NORRIS",
+    "full_id": "96767630_9570-2",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "santander-acciones",
+  "nombre": "Santander-Acciones",
+  "nombre_cmf": "SANTANDER-ACCIONES",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo Santander-Acciones es una opción de inversión agresiva que busca obtener altos rendimientos a través de la inversión en acciones de empresas chilenas e internacionales. Su estrategia se centra en aprovechar las oportunidades de crecimiento en el mercado de renta variable, lo que implica asumir un mayor nivel de riesgo en comparación con fondos más conservadores.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo alto, es decir, aquellos que están dispuestos a aceptar la posibilidad de pérdidas en el corto plazo a cambio de la búsqueda de mayores ganancias a largo plazo. Por lo tanto, es importante que los inversionistas comprendan y estén cómodos con la volatilidad inherente a este tipo de fondo.\n\nEn términos simples, el fondo Santander-Acciones invierte principalmente en acciones de empresas, lo que significa que el rendimiento de la inversión estará directamente relacionado con el desempeño de los mercados bursátiles. Esto implica que los inversionistas estarán expuestos a los movimientos del mercado y a la evolución de las compañías en las que se invierte.\n\nEn cuanto al nivel de riesgo, es importante tener en cuenta que al invertir en acciones, se pueden experimentar fluctuaciones significativas en el valor de la inversión en el corto plazo. Sin embargo, a largo plazo, las acciones tienden a ofrecer rendimientos superiores a otros activos, como bonos o depósitos a plazo. Por lo tanto, es fundamental tener una visión de inversión a largo plazo y ser capaz de soportar la volatilidad del mercado.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas tengan un horizonte a largo plazo, de al menos cinco años, para permitir que las inversiones se desarrollen y puedan superar posibles fluctuaciones temporales del mercado.\n\nEntre las ventajas de este fondo se encuentra el potencial de obtener altas rentabilidades a largo plazo, así como la diversificación de la cartera al invertir en diferentes empresas. Sin embargo, es importante tener en cuenta que también existen riesgos asociados, como la posibilidad de pérdidas significativas en el corto plazo debido a la volatilidad del mercado.\n\nEn resumen, el fondo Santander-Acciones es una opción adecuada para inversionistas jóvenes con un alto apetito por el riesgo y un horizonte de inversión a largo plazo. Es importante que los inversionistas comprendan los riesgos asociados y estén dispuestos a asumir la volatilidad del mercado en busca de mayores rendimientos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8042-K",
+    "rut_admin": "96767630",
+    "nombre": "SANTANDER-ACCIONES",
+    "full_id": "96767630_8042-K",
+    "source": "javascript"
+  }
+}

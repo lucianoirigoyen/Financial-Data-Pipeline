@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bi mas ahorro",
+  "nombre": "Bi Mas Ahorro",
+  "nombre_cmf": "BI MAS AHORRO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Hola jóvenes inversores chilenos! Hoy les hablaré sobre el fondo mutuo \"Bi Mas Ahorro\", una opción mixta con un perfil de riesgo medio, ideal para quienes buscan un equilibrio entre seguridad y crecimiento en sus inversiones.\n\n1. **¿Qué es Bi Mas Ahorro y su estrategia de inversión?**\nBi Mas Ahorro es un fondo mutuo que invierte en una combinación de activos de renta fija y renta variable. Esto significa que parte de su dinero se destina a instrumentos como bonos y depósitos a plazo, que suelen ofrecer menor riesgo pero también menores rendimientos, mientras que la otra parte se invierte en acciones u otros activos de mayor potencial de ganancia pero con mayor volatilidad.\n\n2. **¿Para qué perfil de inversionista es adecuado?**\nEste fondo es ideal para aquellos inversores que buscan un equilibrio entre seguridad y potencial de crecimiento en sus inversiones. Si estás dispuesto a asumir un riesgo moderado a cambio de la posibilidad de obtener rendimientos superiores a los de un depósito a plazo, Bi Mas Ahorro puede ser una buena opción para ti.\n\n3. **Principales activos en los que invierte**\nLamentablemente, la composición exacta de los activos en los que invierte Bi Mas Ahorro no está disponible públicamente. Sin embargo, podemos inferir que se trata de una combinación de bonos, acciones y otros instrumentos financieros que buscan diversificar el riesgo y maximizar los rendimientos en función de las condiciones del mercado.\n\n4. **Nivel de riesgo en términos simples**\nEl nivel de riesgo de Bi Mas Ahorro se considera medio, lo que significa que existe la posibilidad de que el valor de tu inversión fluctúe en el corto plazo debido a la volatilidad de los mercados. Es importante que estés preparado para posibles altibajos, pero recuerda que a largo plazo, históricamente, los mercados tienden a recuperarse y generar rendimientos positivos.\n\n5. **Horizonte de inversión recomendado**\nPara sacar el mayor provecho de un fondo mixto como Bi Mas Ahorro, es recomendable tener un horizonte de inversión a mediano o largo plazo, de al menos 3 a 5 años. Esto te permitirá superar posibles fluctuaciones del mercado y beneficiarte de la diversificación de tus inversiones.\n\nEn resumen, Bi Mas Ahorro es una opción atractiva para aquellos inversores que buscan un equilibrio entre seguridad y potencial de crecimiento en sus inversiones. Si estás dispuesto a asumir un ries",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9692-K",
+    "rut_admin": "96767630",
+    "nombre": "BI MAS AHORRO",
+    "full_id": "96767630_9692-K",
+    "source": "javascript"
+  }
+}

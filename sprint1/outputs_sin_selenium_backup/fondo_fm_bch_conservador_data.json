@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch conservador",
+  "nombre": "Fm Bch Conservador",
+  "nombre_cmf": "FM BCH CONSERVADOR",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El Fondo Mutuo Bch Conservador es una alternativa de inversión diseñada para aquellas personas que buscan preservar su capital de forma segura y estable. Este fondo pertenece a la categoría conservadora, lo que significa que su principal objetivo es generar un retorno constante con un nivel bajo de riesgo. Su estrategia de inversión se enfoca en colocar los recursos en instrumentos financieros considerados de bajo riesgo, como bonos de deuda soberana o depósitos a plazo, con el fin de minimizar la exposición a fluctuaciones del mercado.\n\nEste fondo es ideal para inversionistas con un perfil conservador que prefieren evitar grandes riesgos y priorizan la seguridad de su inversión por sobre la posibilidad de obtener altas ganancias en el corto plazo. Si eres una persona que valora la estabilidad y la tranquilidad financiera, el Fondo Mutuo Bch Conservador puede ser una opción adecuada para ti.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible, pero es probable que se concentre en instrumentos de renta fija de alta calidad crediticia, como bonos emitidos por el Estado o por empresas sólidas. Estos activos suelen ofrecer un rendimiento estable y predecible, aunque moderado en comparación con activos de mayor riesgo como acciones.\n\nEn términos simples, el nivel de riesgo de este fondo es bajo, lo que significa que las fluctuaciones en su valor son mínimas y la posibilidad de pérdida de capital es reducida en comparación con fondos de mayor riesgo. Si bien esto implica que las ganancias potenciales pueden ser más limitadas, también brinda una mayor tranquilidad y seguridad al inversor.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bch Conservador es a mediano o largo plazo, ya que su enfoque conservador busca generar rendimientos estables a lo largo del tiempo. Si buscas obtener ganancias rápidas o altas rentabilidades en el corto plazo, este fondo puede no ser la mejor opción para ti.\n\nEn resumen, el Fondo Mutuo Bch Conservador es una alternativa segura y estable para inversionistas conservadores que buscan preservar su capital a largo plazo. Si valoras la seguridad por sobre la posibilidad de altas ganancias y estás dispuesto a sacrificar un poco de rentabilidad a cambio de estabilidad, este fondo puede ser una buena opción para diversificar tu cartera de inversiones. Recuerda siempre consultar con un asesor financiero antes de realizar cualquier inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10059-5",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH CONSERVADOR",
+    "full_id": "96767630_10059-5",
+    "source": "javascript"
+  }
+}

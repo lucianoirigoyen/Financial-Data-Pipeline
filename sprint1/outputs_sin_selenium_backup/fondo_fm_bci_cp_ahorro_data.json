@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci cp ahorro",
+  "nombre": "Fm Bci Cp Ahorro",
+  "nombre_cmf": "FM BCI CP AHORRO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Cp Ahorro es una excelente opción para quienes buscan una inversión equilibrada y con un nivel de riesgo medio. Este tipo de fondo, clasificado como mixto, combina distintos activos en su cartera con el objetivo de obtener rendimientos atractivos a largo plazo. Su estrategia de inversión se enfoca en diversificar el riesgo a través de la combinación de acciones, bonos y otros instrumentos financieros, lo que puede ofrecer un mayor potencial de rentabilidad que una inversión conservadora, pero con un riesgo moderado en comparación con fondos más agresivos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo moderado, es decir, personas que buscan un equilibrio entre la rentabilidad potencial y la seguridad de su inversión. Si eres un joven inversor que está dispuesto a asumir cierto nivel de riesgo a cambio de la posibilidad de obtener rendimientos superiores a los productos de renta fija tradicionales, el Fondo Mutuo Bci Cp Ahorro puede ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible, pero suele incluir una combinación de acciones de empresas, bonos corporativos y/o gubernamentales, así como otros instrumentos financieros. Esta diversificación busca reducir la exposición a riesgos específicos de cada activo, lo que puede ser beneficioso para su desempeño en diferentes condiciones del mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de los instrumentos de renta fija y el potencial de crecimiento de las acciones. Si bien existe la posibilidad de enfrentar pérdidas en el corto plazo debido a fluctuaciones en los mercados, la diversificación de la cartera busca mitigar este riesgo y ofrecer un equilibrio entre seguridad y rentabilidad.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bci Cp Ahorro es a medio o largo plazo, ya que esto permite aprovechar al máximo la estrategia de diversificación y obtener rendimientos más consistentes a lo largo del tiempo. Es importante tener en cuenta que, como en cualquier inversión, es fundamental mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones del mercado a corto plazo.\n\nEn resumen, el Fondo Mutuo Bci Cp Ahorro puede ser una opción atractiva para jóvenes inversores con un perfil de riesgo moderado que buscan una inversión equilibrada y diversificada. Si estás dispuesto a asumir cierto riesgo en busca de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9061-1",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI CP AHORRO",
+    "full_id": "96767630_9061-1",
+    "source": "javascript"
+  }
+}

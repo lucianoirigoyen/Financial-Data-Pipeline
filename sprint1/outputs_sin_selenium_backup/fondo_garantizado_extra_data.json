@@ -1,0 +1,23 @@
+{
+  "fondo_id": "garantizado extra",
+  "nombre": "Garantizado Extra",
+  "nombre_cmf": "GARANTIZADO EXTRA",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo Garantizado Extra es una opción de inversión conservadora diseñada para brindar estabilidad y protección del capital invertido. Su estrategia se centra en preservar el dinero de los inversionistas y obtener rendimientos moderados a través de la inversión en activos de bajo riesgo. \n\nEste fondo es ideal para aquellos inversionistas que buscan minimizar los riesgos y prefieren una estrategia de inversión más segura. Si eres una persona que valora la estabilidad y la tranquilidad financiera por encima de la posibilidad de altas ganancias, el Garantizado Extra puede ser la opción adecuada para ti.\n\nAunque la composición principal de los activos en los que invierte este fondo no está disponible públicamente, es común que los fondos conservadores como este inviertan en instrumentos de renta fija de alta calidad crediticia, como bonos del Estado o depósitos a plazo. Estos activos ofrecen menor riesgo pero también rendimientos más moderados en comparación con fondos más arriesgados.\n\nEl nivel de riesgo del Garantizado Extra es considerado bajo, lo que significa que las fluctuaciones en el valor de la inversión suelen ser menores en comparación con fondos de mayor riesgo. En términos simples, es como guardar tu dinero en una caja fuerte en lugar de arriesgarlo en el mercado de acciones.\n\nSe recomienda un horizonte de inversión a medio o largo plazo para este fondo, ya que su enfoque conservador tiende a ofrecer resultados más estables y predecibles a lo largo del tiempo. Si estás pensando en invertir para un objetivo a corto plazo, este fondo podría no ser la mejor opción, ya que su rentabilidad puede ser más modesta en el corto plazo.\n\nUna ventaja del Garantizado Extra es su capacidad para proteger el capital de los inversionistas en períodos de volatilidad del mercado, brindando una sensación de seguridad y tranquilidad. Sin embargo, una posible desventaja podría ser que, debido a su enfoque conservador, los rendimientos potenciales podrían ser limitados en comparación con fondos de mayor riesgo.\n\nEn resumen, el fondo Garantizado Extra es una opción adecuada para inversores que priorizan la seguridad y estabilidad de su capital sobre la búsqueda de altos rendimientos. Si buscas una inversión conservadora con riesgos controlados y estabilidad a largo plazo, este fondo podría ser una buena elección para ti. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8293-7",
+    "rut_admin": "96767630",
+    "nombre": "GARANTIZADO EXTRA",
+    "full_id": "96767630_8293-7",
+    "source": "javascript"
+  }
+}

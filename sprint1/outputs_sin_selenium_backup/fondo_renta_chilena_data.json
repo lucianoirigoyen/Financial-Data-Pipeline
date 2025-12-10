@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta chilena",
+  "nombre": "Renta Chilena",
+  "nombre_cmf": "RENTA CHILENA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Por supuesto! Aquí tienes la descripción del fondo de inversión \"Renta Chilena\":\n\nEl fondo \"Renta Chilena\" es un fondo mutuo de tipo mixto que busca combinar diferentes activos para obtener una rentabilidad equilibrada. Su estrategia de inversión se basa en diversificar el riesgo al invertir tanto en instrumentos de renta fija como variable, como bonos y acciones, respectivamente. Esto permite aprovechar las oportunidades de crecimiento del mercado sin exponerse a un riesgo excesivo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, para aquellos que están dispuestos a asumir un nivel moderado de riesgo a cambio de obtener una rentabilidad potencialmente mayor que la ofrecida por los instrumentos de renta fija tradicionales. Idealmente, el inversionista debe tener un horizonte de inversión a mediano o largo plazo, ya que esto le permitirá aprovechar al máximo el potencial de crecimiento del fondo.\n\nEn cuanto a los activos en los que invierte, \"Renta Chilena\" no especifica su composición principal, lo que puede dificultar la evaluación detallada de su cartera. Sin embargo, se espera que diversifique sus inversiones en distintos sectores y empresas para minimizar el riesgo asociado a la concentración en un solo activo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que implica que puede experimentar fluctuaciones en su valor, pero no tan extremas como un fondo de alto riesgo. Es importante recordar que toda inversión implica cierto grado de riesgo, por lo que es fundamental estar preparado para posibles altibajos en el valor de la inversión a corto plazo.\n\nEn cuanto al horizonte de inversión recomendado, se aconseja a los inversionistas mantener su dinero invertido en \"Renta Chilena\" durante al menos un par de años para permitir que la estrategia del fondo se desarrolle y se refleje en su rentabilidad. Si bien es posible retirar el dinero antes, hacerlo a corto plazo puede limitar las oportunidades de crecimiento y exponer a pérdidas potenciales.\n\nVentajas del fondo \"Renta Chilena\" incluyen la diversificación de activos, que puede ayudar a reducir el riesgo de pérdida, y la posibilidad de obtener una rentabilidad atractiva a mediano plazo. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición de la cartera, lo que puede dificultar la evaluación precisa",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8203-1",
+    "rut_admin": "96767630",
+    "nombre": "RENTA CHILENA",
+    "full_id": "96767630_8203-1",
+    "source": "javascript"
+  }
+}

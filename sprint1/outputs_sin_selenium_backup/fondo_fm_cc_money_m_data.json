@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm cc money m",
+  "nombre": "Fm Cc Money M",
+  "nombre_cmf": "FM CC MONEY M",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Fm Cc Money M es una opción de inversión mixta que combina activos de renta fija y renta variable con el objetivo de obtener un equilibrio entre crecimiento y estabilidad. Su estrategia de inversión busca diversificar el portafolio para reducir el riesgo y aprovechar oportunidades en distintos mercados.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la posibilidad de obtener buenos retornos y la preservación del capital invertido. Se recomienda a personas que estén dispuestas a asumir cierto nivel de riesgo en busca de mayores rendimientos, pero que también valoran la seguridad de su inversión.\n\nEn cuanto a los activos en los que invierte, la composición exacta del Fm Cc Money M no está disponible, pero se espera que tenga una combinación de bonos, acciones y posiblemente otros instrumentos financieros. Esto significa que el fondo puede tener exposición a diferentes sectores de la economía, tanto a nivel nacional como internacional.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio en comparación con otros fondos. Esto significa que, si bien existe la posibilidad de obtener mayores retornos que con inversiones más conservadoras, también se expone a ciertos riesgos de mercado que pueden impactar negativamente en el valor de la inversión.\n\nEl horizonte de inversión recomendado para el Fm Cc Money M es a medio y largo plazo, ya que permite que la estrategia de inversión se desarrolle y se puedan superar posibles fluctuaciones a corto plazo en los mercados. Idealmente, los inversionistas deberían mantener su inversión por al menos algunos años para dar tiempo a que el fondo alcance su potencial de rendimiento.\n\nEntre las ventajas de este fondo se encuentra su potencial de crecimiento moderado, la diversificación de activos que ofrece y la posibilidad de obtener retornos atractivos en el largo plazo. Sin embargo, una posible desventaja podría ser la volatilidad inherente a los mercados financieros, lo que podría causar fluctuaciones en el valor de la inversión.\n\nEn resumen, el Fondo Mutuo Fm Cc Money M es una opción interesante para inversionistas que buscan un equilibrio entre riesgo y retorno, dispuestos a mantener su inversión a mediano y largo plazo. Se recomienda a aquellos que desean diversificar su portafolio y están dispuestos a asumir cierto nivel de riesgo en busca de mayores rendimientos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8945-1",
+    "rut_admin": "96767630",
+    "nombre": "FM CC MONEY M",
+    "full_id": "96767630_8945-1",
+    "source": "javascript"
+  }
+}

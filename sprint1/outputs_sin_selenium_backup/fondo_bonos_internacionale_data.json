@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bonos internacionale",
+  "nombre": "Bonos Internacionale",
+  "nombre_cmf": "BONOS INTERNACIONALE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Bonos Internacionale es una opción de inversión mixta que combina diferentes activos financieros para buscar un equilibrio entre rentabilidad y riesgo. Su estrategia de inversión se enfoca en diversificar el portafolio a nivel internacional, invirtiendo en bonos emitidos por entidades extranjeras. Aunque no disponemos de información específica sobre su composición principal, se espera que este fondo contenga una variedad de bonos de distintos países y sectores.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan obtener rendimientos superiores a los de inversiones más conservadoras, sin asumir un riesgo excesivo. Si eres un joven inversor que está dispuesto a aceptar cierta volatilidad en busca de mayores ganancias, Bonos Internacionale podría ser una alternativa interesante para diversificar tu cartera.\n\nEn términos simples, el nivel de riesgo de este fondo mixto se sitúa en un punto intermedio entre la seguridad de los bonos de bajo riesgo y la volatilidad de acciones más especulativas. Aunque no se puede prever con certeza la rentabilidad futura, se espera que este tipo de fondo proporcione un equilibrio entre crecimiento y estabilidad a lo largo del tiempo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener una visión a medio o largo plazo. Dado que los bonos internacionales pueden estar sujetos a fluctuaciones del tipo de cambio y a condiciones económicas globales, es importante tener paciencia y no dejarse llevar por movimientos a corto plazo. Una inversión a largo plazo permite aprovechar el potencial de crecimiento de los mercados internacionales y amortiguar posibles impactos negativos en el corto plazo.\n\nEntre las ventajas de este fondo se encuentran la diversificación internacional, que ayuda a reducir el riesgo asociado a la inversión en un solo país o región. Por otro lado, una posible desventaja podría ser la exposición a cambios en las condiciones económicas globales, que pueden afectar el desempeño del fondo. Es importante que el inversor tenga en cuenta estos factores al considerar Bonos Internacionale como parte de su cartera.\n\nEn resumen, si eres un joven inversor con un perfil moderadamente arriesgado y estás buscando diversificar tu cartera con bonos internacionales, este fondo mixto podría ser una opción atractiva. Recuerda mantener una visión a largo plazo y estar preparado para posibles fluctuaciones en el valor de tus inversiones. Si tienes alguna duda, no dudes en consultar con un asesor financ",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8132-9",
+    "rut_admin": "96767630",
+    "nombre": "BONOS INTERNACIONALE",
+    "full_id": "96767630_8132-9",
+    "source": "javascript"
+  }
+}

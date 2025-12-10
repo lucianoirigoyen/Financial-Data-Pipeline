@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm estructurado clp",
+  "nombre": "Fm Estructurado Clp",
+  "nombre_cmf": "FM ESTRUCTURADO CLP",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo Fm Estructurado Clp:\n\nEl Fm Estructurado Clp es un fondo mutuo de tipo mixto que busca combinar diferentes clases de activos para lograr un equilibrio entre rentabilidad y riesgo. Su estrategia de inversión se enfoca en diversificar el portafolio, invirtiendo en una combinación de acciones, bonos y otros instrumentos financieros, con el objetivo de maximizar el rendimiento a mediano plazo.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan obtener un retorno superior al de los instrumentos tradicionales de ahorro, pero que están dispuestos a asumir cierto nivel de volatilidad en el valor de sus inversiones. Es importante destacar que el nivel de riesgo está en línea con la posible rentabilidad esperada.\n\nEn cuanto a los principales activos en los que invierte el Fm Estructurado Clp, la información específica no está disponible, pero se espera que el portafolio esté compuesto por una combinación de acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como otros instrumentos financieros diversificados.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que puede experimentar fluctuaciones en su valor, pero sin llegar a ser tan volátil como un fondo de renta variable pura. Los inversores deben estar preparados para posibles pérdidas temporales, pero con la expectativa de obtener un rendimiento superior al de instrumentos más conservadores a largo plazo.\n\nEl horizonte de inversión recomendado para el Fm Estructurado Clp es de al menos 3 a 5 años. Esto se debe a que, al tratarse de un fondo mixto, puede necesitar tiempo para que las diferentes clases de activos en las que invierte puedan mostrar su potencial de rentabilidad. A largo plazo, se espera que la diversificación del portafolio contribuya a su estabilidad y rendimiento.\n\nEn resumen, el Fm Estructurado Clp ofrece una oportunidad para inversores con un perfil de riesgo medio que buscan un equilibrio entre rentabilidad y seguridad. Al diversificar sus inversiones en diferentes clases de activos, este fondo puede proporcionar un rendimiento atractivo a largo plazo. Es importante que los inversores consideren su tolerancia al riesgo y horizonte de inversión antes de decidir si este fondo es adecuado para ellos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10345-4",
+    "rut_admin": "96767630",
+    "nombre": "FM ESTRUCTURADO CLP",
+    "full_id": "96767630_10345-4",
+    "source": "javascript"
+  }
+}

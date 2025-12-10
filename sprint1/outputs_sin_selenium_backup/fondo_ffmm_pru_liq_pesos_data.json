@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ffmm pru liq pesos",
+  "nombre": "Ffmm Pru Liq Pesos",
+  "nombre_cmf": "FFMM PRU LIQ PESOS",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Pru Liq Pesos es una alternativa de inversión mixta que combina activos de renta fija y renta variable. Su estrategia busca obtener un equilibrio entre la estabilidad de los bonos y el potencial de crecimiento de las acciones, lo que lo convierte en una opción atractiva para inversores que buscan un nivel de riesgo medio.\n\nEste fondo es adecuado para inversionistas con un perfil moderado, que estén dispuestos a asumir un cierto nivel de riesgo en busca de mayores retornos. Si bien no se dispone de información detallada sobre la composición principal del fondo, se espera que diversifique su cartera entre distintos instrumentos financieros para reducir el riesgo y maximizar las oportunidades de crecimiento.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que puede experimentar fluctuaciones en su valor, pero con la posibilidad de obtener rendimientos superiores a largo plazo. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de volatilidad en el corto plazo.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Pru Liq Pesos es a mediano o largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Es importante tener paciencia y mantener una visión a largo plazo para obtener los mejores resultados.\n\nEntre las ventajas de este fondo se encuentran la diversificación de la cartera, que ayuda a mitigar el riesgo, y la posibilidad de obtener rendimientos atractivos en comparación con instrumentos de renta fija tradicionales. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición de la cartera, lo que podría generar incertidumbre en algunos inversionistas.\n\nEn resumen, el Fondo Mutuo Pru Liq Pesos es una opción a considerar para inversores con un perfil moderado que buscan un equilibrio entre riesgo y retorno. Es importante tener en cuenta que, si bien el fondo puede experimentar fluctuaciones en el corto plazo, a largo plazo ofrece la posibilidad de obtener rendimientos atractivos. Si estás dispuesto a asumir un nivel de riesgo medio y tienes un horizonte de inversión a mediano o largo plazo, este fondo podría ser adecuado para ti. ¡Recuerda siempre diversificar tu cartera y consultar con un asesor financiero antes de tomar decisiones de inversión!",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10488-4",
+    "rut_admin": "96767630",
+    "nombre": "FFMM PRU LIQ PESOS",
+    "full_id": "96767630_10488-4",
+    "source": "javascript"
+  }
+}

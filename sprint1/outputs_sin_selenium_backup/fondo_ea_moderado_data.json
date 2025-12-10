@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ea moderado",
+  "nombre": "Ea Moderado",
+  "nombre_cmf": "EA MODERADO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Ea Moderado es una opción de inversión mixta diseñada para aquellos inversores chilenos que buscan un equilibrio entre riesgo y retorno. Su estrategia de inversión combina activos de renta fija y variable, lo que le permite diversificar el riesgo y potencializar las oportunidades de crecimiento a mediano plazo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores rendimientos que los ofrecidos por los instrumentos de renta fija tradicionales. Si eres un joven inversor que busca crecimiento moderado de tu capital, el fondo Ea Moderado podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, lamentablemente la composición principal no está disponible públicamente. Sin embargo, es probable que invierta en una combinación de bonos, acciones y otros instrumentos financieros, buscando obtener rendimientos consistentes en diferentes escenarios de mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Esto significa que, si bien existe la posibilidad de perder parte de tu inversión en el corto plazo debido a la volatilidad del mercado, también tienes la oportunidad de obtener rendimientos superiores a los ofrecidos por inversiones más conservadoras.\n\nEn cuanto al horizonte de inversión recomendado, se aconseja que los inversores consideren mantener su dinero invertido en el fondo Ea Moderado durante al menos 3 a 5 años. Esto se debe a que las inversiones en activos mixtos suelen requerir un plazo mayor para que las estrategias de diversificación y crecimiento puedan dar frutos.\n\nVentajas de este fondo incluyen la posibilidad de obtener rendimientos atractivos en comparación con inversiones más conservadoras, así como la diversificación automática que ofrece al combinar diferentes clases de activos. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que podría dificultar la evaluación detallada de los riesgos involucrados.\n\nEn resumen, si eres un joven inversor en Chile con un perfil de riesgo medio y un horizonte de inversión a mediano plazo, el fondo Ea Moderado podría ser una opción a considerar. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y mantener un enfoque a largo plazo para maximizar tus posibilidades de éxito en el mundo de las inversiones.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9577-K",
+    "rut_admin": "96767630",
+    "nombre": "EA MODERADO",
+    "full_id": "96767630_9577-K",
+    "source": "javascript"
+  }
+}

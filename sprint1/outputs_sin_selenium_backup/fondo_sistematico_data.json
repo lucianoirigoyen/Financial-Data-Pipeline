@@ -1,0 +1,23 @@
+{
+  "fondo_id": "sistematico",
+  "nombre": "Sistematico",
+  "nombre_cmf": "SISTEMATICO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo mutuo \"Sistematico\":\n\nEl fondo mutuo \"Sistematico\" es una alternativa de inversión mixta diseñada para ofrecer un equilibrio entre riesgo y rendimiento. Su estrategia de inversión combina activos de renta fija y renta variable, lo que le permite diversificar el portafolio y buscar oportunidades de crecimiento a largo plazo. Este enfoque sistemático busca maximizar los rendimientos en función de un análisis riguroso del mercado, sin depender de decisiones emocionales.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan obtener un retorno atractivo sin asumir una exposición excesiva a la volatilidad del mercado. Si estás dispuesto a aceptar cierto nivel de riesgo en pos de potenciales ganancias, el fondo \"Sistematico\" puede ser una opción interesante para diversificar tu cartera.\n\nEn cuanto a los activos en los que invierte, el fondo \"Sistematico\" no tiene una composición principal específica disponible, lo que indica una estrategia flexible que puede adaptarse a las condiciones del mercado. Esto brinda la oportunidad de aprovechar diferentes oportunidades de inversión, tanto en bonos como en acciones, según las tendencias económicas.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que implica una combinación de seguridad y potencial de crecimiento. Si bien no está exento de fluctuaciones, su enfoque diversificado ayuda a mitigar los riesgos asociados con la inversión en un solo tipo de activo.\n\nEl horizonte de inversión recomendado para el fondo \"Sistematico\" es a medio y largo plazo, ya que permite que las estrategias implementadas tengan el tiempo suficiente para generar resultados significativos. Si estás pensando en invertir en este fondo, es importante tener en cuenta que los movimientos del mercado a corto plazo pueden influir en el desempeño, por lo que la paciencia y la visión a largo plazo son clave.\n\nEn resumen, el fondo mutuo \"Sistematico\" ofrece una oportunidad para los inversionistas chilenos que buscan un equilibrio entre riesgo y rendimiento. Si bien su enfoque diversificado puede ser una ventaja en términos de mitigar riesgos, es importante considerar que las fluctuaciones del mercado pueden impactar en el corto plazo. Se recomienda a los inversionistas con un perfil de riesgo medio y un horizonte de inversión a mediano y largo plazo considerar este fondo como parte de su",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8067-5",
+    "rut_admin": "96767630",
+    "nombre": "SISTEMATICO",
+    "full_id": "96767630_8067-5",
+    "source": "javascript"
+  }
+}

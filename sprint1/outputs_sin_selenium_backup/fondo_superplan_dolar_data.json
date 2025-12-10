@@ -1,0 +1,23 @@
+{
+  "fondo_id": "superplan dolar",
+  "nombre": "Superplan Dolar",
+  "nombre_cmf": "SUPERPLAN DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Superplan Dólar es una opción de inversión mixta que combina activos de renta fija y variable, buscando un equilibrio entre seguridad y potencial de crecimiento. Su estrategia se centra en diversificar la cartera para reducir riesgos y aprovechar oportunidades en el mercado local e internacional. Aunque la composición principal del fondo no está disponible, se espera que contenga una combinación de bonos, acciones y otros instrumentos financieros.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los de productos tradicionales como los depósitos a plazo. Si bien no se dispone de información sobre la rentabilidad de los últimos 12 meses, se espera que mantenga un desempeño acorde a su nivel de riesgo.\n\nEn términos simples, el nivel de riesgo de Superplan Dólar se sitúa en un punto intermedio, lo que significa que existe la posibilidad de obtener ganancias superiores a las inversiones conservadoras, pero también se asume un nivel de volatilidad moderado. Es importante tener en cuenta que, si bien el riesgo es parte inherente de cualquier inversión, la diversificación de activos en este fondo busca mitigar posibles pérdidas.\n\nEl horizonte de inversión recomendado para este fondo es a medio o largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos a lo largo del tiempo, suavizando posibles fluctuaciones a corto plazo. Es importante tener paciencia y no dejarse llevar por movimientos bruscos del mercado, manteniendo una visión a largo plazo.\n\nEntre las ventajas de Superplan Dólar se encuentra la diversificación de la cartera, lo que reduce la exposición a riesgos específicos de un activo en particular. Además, al ser un fondo mixto, se pueden aprovechar oportunidades tanto en el mercado local como internacional. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del fondo, lo que limita la capacidad de los inversionistas para evaluar el riesgo de manera precisa.\n\nEn resumen, el fondo Superplan Dólar es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos potenciales a mediano y largo plazo. Es importante tener en cuenta el horizonte de inversión recomendado y mantener una visión a largo plazo para aprovechar al máximo las oportunidades del mercado.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8070-5",
+    "rut_admin": "96767630",
+    "nombre": "SUPERPLAN DOLAR",
+    "full_id": "96767630_8070-5",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "tecnologia global",
+  "nombre": "Tecnologia Global",
+  "nombre_cmf": "TECNOLOGIA GLOBAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Tecnología Global es una opción de inversión mixta que busca combinar crecimiento con estabilidad para los inversionistas. Su estrategia de inversión se centra en participar en empresas tecnológicas a nivel mundial, aprovechando el potencial de crecimiento de este sector. Aunque no se dispone de información detallada sobre la composición principal del fondo, se puede inferir que está orientado hacia compañías líderes en innovación y tecnología.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener mayores rendimientos y la necesidad de mantener cierta estabilidad en su cartera. Si bien la tecnología puede ofrecer oportunidades de crecimiento atractivas, también puede estar sujeta a la volatilidad del mercado, por lo que se recomienda a aquellos inversores que estén dispuestos a asumir cierto nivel de riesgo.\n\nLos principales activos en los que invierte el Fondo Tecnología Global son empresas del sector tecnológico a nivel global. Ejemplos de estas compañías incluyen gigantes como Apple, Amazon, Microsoft, entre otros. Estas empresas suelen destacarse por su capacidad de innovación, lo que puede traducirse en un potencial de crecimiento a largo plazo. Sin embargo, es importante tener en cuenta que el desempeño de estas compañías puede estar influenciado por factores macroeconómicos y tendencias del mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Si bien las inversiones en tecnología pueden ofrecer altas rentabilidades, también conllevan un mayor grado de incertidumbre. Por lo tanto, se recomienda a los inversionistas tener una visión a largo plazo y estar preparados para posibles fluctuaciones en el valor de sus inversiones.\n\nEl horizonte de inversión recomendado para el Fondo Tecnología Global es a medio y largo plazo. Dado que las inversiones en tecnología suelen requerir tiempo para madurar y materializar su potencial de crecimiento, es importante que los inversionistas tengan una perspectiva a largo plazo y no se dejen llevar por movimientos a corto plazo en el mercado.\n\nEn resumen, el Fondo Mutuo Tecnología Global ofrece a los inversionistas la oportunidad de participar en el sector tecnológico a nivel global, con un equilibrio entre riesgo y potencial de crecimiento. Si bien presenta ventajas en términos de diversificación y exposición a un sector en crecimiento, los inversionistas deben ser conscientes de los riesgos asociados y tener una estrategia de inversión",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8147-7",
+    "rut_admin": "96767630",
+    "nombre": "TECNOLOGIA GLOBAL",
+    "full_id": "96767630_8147-7",
+    "source": "javascript"
+  }
+}

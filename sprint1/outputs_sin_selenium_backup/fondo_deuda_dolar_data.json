@@ -1,0 +1,58 @@
+{
+  "fondo_id": "deuda dolar",
+  "nombre": "FONDO DE INVERSION BANCHILE DEUDA DOLAR CORTO PLAZO",
+  "nombre_cmf": "Información de Fiscalizados y otras instituciones registradas",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo de Inversión Banchile Deuda Dólar Corto Plazo es una opción mixta que combina inversiones en instrumentos de deuda denominados en dólares estadounidenses, con un enfoque en inversiones a corto plazo. Su estrategia de inversión se centra en obtener rendimientos atractivos a través de la inversión en bonos y otros instrumentos financieros de deuda con vencimientos más cercanos, lo que puede brindar mayor estabilidad en comparación con fondos de mayor riesgo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, que buscan una combinación de seguridad y rendimiento en sus inversiones. Si bien no se dispone de información detallada sobre la composición principal de sus activos, se puede inferir que se concentra en activos de deuda dolarizados de corto plazo, lo que puede implicar menor exposición a fluctuaciones del tipo de cambio y a menores riesgos de incumplimiento en comparación con activos de mayor plazo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, ya que si bien invierte en activos de deuda considerados más seguros en general, la volatilidad propia de los mercados financieros puede generar variaciones en su rentabilidad. Es importante tener en cuenta que, si bien se espera que este fondo ofrezca estabilidad, no está exento de riesgos inherentes a cualquier inversión en instrumentos financieros.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas consideren una perspectiva a mediano plazo, idealmente de al menos un año, para permitir que la estrategia del fondo se desarrolle y se materialice en rendimientos más consistentes. Es importante recordar que, en el mundo de las inversiones, la paciencia suele ser una virtud que puede recompensarse a lo largo del tiempo.\n\nVentajas del Fondo de Inversión Banchile Deuda Dólar Corto Plazo pueden incluir la estabilidad relativa que ofrece al invertir en deuda a corto plazo en dólares, así como la posibilidad de obtener rendimientos competitivos en un horizonte de tiempo moderado. Por otro lado, una posible desventaja podría ser que, al no contar con información detallada sobre su composición, los inversionistas pueden tener una visión limitada de los activos en los que invierte el fondo.\n\nEn resumen, este fondo podría ser una opción atractiva para inversionistas que buscan un equilibrio entre seguridad y rendimiento en el corto plazo, siempre y cuando estén dispuestos",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "symbol": "FINV-10120",
+  "category": "investment_fund",
+  "currency": null,
+  "run": "10120-6",
+  "rut_base": "10120",
+  "conceptual_asset_id": "3051",
+  "data_source": "http://www.cmfchile.cl",
+  "series": [
+    {
+      "serie": "BPLUS",
+      "name": "FONDO DE INVERSION BANCHILE DEUDA DOLAR CORTO PLAZO",
+      "symbol": "FINV-10120-BPLUS",
+      "valor_cuota": null,
+      "fecha_valor_cuota": null,
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    },
+    {
+      "serie": "A",
+      "name": "FONDO DE INVERSION BANCHILE DEUDA DOLAR CORTO PLAZO",
+      "symbol": "FINV-10120-A",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2024-08-28",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    }
+  ],
+  "rut_cmf": "10120",
+  "rut_completo_cmf": null,
+  "url_cmf": "https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=10120&tipoentidad=RGFMU",
+  "cmf_fund_info": {
+    "rut": "10120",
+    "rut_completo": null,
+    "nombre": "Información de Fiscalizados y otras instituciones registradas",
+    "url_cmf": "https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=10120&tipoentidad=RGFMU",
+    "fuente": "cmf_directo"
+  },
+  "fecha_valor_cuota": "2021-10-22",
+  "estado_fondo": "Desconocido"
+}

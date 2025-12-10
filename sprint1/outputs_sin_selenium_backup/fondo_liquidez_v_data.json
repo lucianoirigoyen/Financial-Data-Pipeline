@@ -1,0 +1,23 @@
+{
+  "fondo_id": "liquidez v",
+  "nombre": "Liquidez V",
+  "nombre_cmf": "LIQUIDEZ V",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Liquidez V es una opción mixta que combina activos de renta fija y renta variable, con el objetivo de generar rendimientos en un horizonte de tiempo mediano a largo plazo. Este fondo busca maximizar la rentabilidad manteniendo un nivel de riesgo moderado, lo que lo convierte en una alternativa atractiva para inversores que buscan un equilibrio entre seguridad y potencial de crecimiento.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en el corto plazo a cambio de mayores oportunidades de rendimiento a largo plazo. Si eres un joven inversor que busca diversificar tu cartera de manera equilibrada, Liquidez V podría ser una excelente opción para ti.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente. Sin embargo, es probable que incluya una combinación de bonos, acciones y otros instrumentos financieros, con el objetivo de diversificar el riesgo y aprovechar las oportunidades de crecimiento en diferentes mercados.\n\nEn términos simples, el nivel de riesgo de Liquidez V se podría comparar con el de un paseo en bicicleta por terreno llano: puede haber algunos baches en el camino, pero en general, es una experiencia controlada y manejable. Es importante tener en cuenta que, aunque el riesgo es moderado, no está exento de posibles fluctuaciones en el valor de las inversiones.\n\nEl horizonte de inversión recomendado para Liquidez V es de al menos tres a cinco años. Esto se debe a que, al ser un fondo mixto, su desempeño puede variar en el corto plazo debido a los movimientos del mercado. Por lo tanto, es importante mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones diarias.\n\nVentajas de este fondo incluyen la diversificación de la cartera, la posibilidad de obtener rendimientos atractivos y la gestión profesional de los activos. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición exacta del fondo, lo que puede generar incertidumbre en algunos inversionistas.\n\nEn resumen, Liquidez V es una opción interesante para jóvenes inversores chilenos con un perfil de riesgo medio que buscan una inversión equilibrada y diversificada. Si estás dispuesto a asumir cierta volatilidad a cambio de potencial de crecimiento a largo plazo, este fondo podría ser una excelente incorporación a tu cartera de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10451-5",
+    "rut_admin": "96767630",
+    "nombre": "LIQUIDEZ V",
+    "full_id": "96767630_10451-5",
+    "source": "javascript"
+  }
+}

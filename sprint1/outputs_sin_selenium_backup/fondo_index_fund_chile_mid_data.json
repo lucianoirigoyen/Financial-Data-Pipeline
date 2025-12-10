@@ -1,0 +1,23 @@
+{
+  "fondo_id": "index fund chile mid",
+  "nombre": "Index Fund Chile Mid",
+  "nombre_cmf": "INDEX FUND CHILE MID",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Index Fund Chile Mid es un fondo mutuo mixto que ofrece a los inversionistas la oportunidad de diversificar su cartera a través de una combinación de activos de renta fija y renta variable en el mercado chileno. La estrategia de inversión de este fondo se centra en replicar un índice de referencia específico, lo que significa que busca seguir el rendimiento de un conjunto predefinido de activos, en lugar de tratar de superar el mercado.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan un equilibrio entre la estabilidad de los activos de renta fija y el potencial de crecimiento de los activos de renta variable. Si eres un joven inversor chileno que está dispuesto a asumir un cierto nivel de riesgo en busca de mayores retornos, el Index Fund Chile Mid podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición principal del fondo no está disponible públicamente, pero suele incluir una combinación de bonos corporativos, acciones de empresas chilenas y posiblemente otros instrumentos financieros. Esta diversificación puede ayudar a reducir el impacto de la volatilidad del mercado en el rendimiento global del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que existe la posibilidad de experimentar fluctuaciones en el valor de la inversión, pero también se espera que ofrezca un rendimiento potencialmente superior al de opciones más conservadoras. Es importante recordar que, como en cualquier inversión, el valor de tus participaciones puede tanto aumentar como disminuir.\n\nEl horizonte de inversión recomendado para el Index Fund Chile Mid es a largo plazo, ya que esto permite a los inversores beneficiarse de la estrategia de replicación del índice a lo largo del tiempo. Si estás dispuesto a mantener tu inversión durante varios años, es más probable que puedas superar las posibles fluctuaciones a corto plazo del mercado y alcanzar tus objetivos financieros a largo plazo.\n\nEn resumen, el Index Fund Chile Mid ofrece a los jóvenes inversores chilenos la oportunidad de diversificar su cartera con un enfoque equilibrado entre renta fija y renta variable. Aunque presenta un nivel de riesgo medio, puede ser una opción atractiva para aquellos que buscan un crecimiento potencialmente superior al de las inversiones más conservadoras. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y asegúrate de comprender completamente los riesgos y beneficios",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8814-5",
+    "rut_admin": "96767630",
+    "nombre": "INDEX FUND CHILE MID",
+    "full_id": "96767630_8814-5",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "multi proteccion d.",
+  "nombre": "Multi Proteccion D.",
+  "nombre_cmf": "MULTI PROTECCION D.",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Multi Protección D es una opción de inversión mixta diseñada para aquellos inversores que buscan un equilibrio entre riesgo y retorno. Este tipo de fondos combina tanto instrumentos de renta fija como de renta variable, diversificando así el portafolio y buscando maximizar la rentabilidad a largo plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto grado de volatilidad en sus inversiones a cambio de la posibilidad de obtener mayores rendimientos. Si eres un joven inversor que busca crecimiento moderado de tu capital sin exponerte a riesgos extremos, este fondo podría ser una opción a considerar.\n\nAunque la composición exacta del fondo no está disponible, en general los fondos mixtos como Multi Protección D suelen invertir en una variedad de activos, como bonos corporativos, acciones de empresas locales e internacionales, instrumentos del mercado monetario, entre otros. Esta diversificación contribuye a reducir el riesgo al distribuir la inversión en diferentes clases de activos.\n\nEn términos simples, el nivel de riesgo de este fondo se podría comparar con el de conducir a una velocidad moderada en una carretera bien mantenida. Existe cierto riesgo de volatilidad en el corto plazo, pero en el largo plazo se espera que la combinación de activos genere un retorno positivo para los inversionistas.\n\nEl horizonte de inversión recomendado para este tipo de fondos suele ser a medio o largo plazo, ya que al tener una composición diversificada y estar expuesto a diferentes clases de activos, puede tomar tiempo para que el portafolio madure y muestre sus resultados. Por lo tanto, se sugiere a los inversores tener una visión a largo plazo y no dejarse llevar por fluctuaciones temporales en el mercado.\n\nEntre las ventajas de invertir en fondos mixtos como Multi Protección D se encuentran la diversificación automática que ofrecen, la gestión profesional de los activos por parte de la administradora del fondo y la posibilidad de acceder a diferentes mercados sin la necesidad de una gran cantidad de capital inicial. Sin embargo, es importante tener en cuenta que, al combinar diferentes tipos de activos, también se asume el riesgo de que algunos de ellos no cumplan con las expectativas, lo que podría afectar el desempeño global del fondo.\n\nEn resumen, Multi Protección D es una alternativa atractiva para jóvenes inversores chilenos que buscan equilibrar riesgo y retorno en sus inversiones a mediano y largo plazo. Es importante record",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8476-K",
+    "rut_admin": "96767630",
+    "nombre": "MULTI PROTECCION D.",
+    "full_id": "96767630_8476-K",
+    "source": "javascript"
+  }
+}

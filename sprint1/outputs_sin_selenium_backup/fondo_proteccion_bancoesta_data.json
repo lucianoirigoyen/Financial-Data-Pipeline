@@ -1,0 +1,23 @@
+{
+  "fondo_id": "proteccion bancoesta",
+  "nombre": "Proteccion Bancoesta",
+  "nombre_cmf": "PROTECCION BANCOESTA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Protección Bancoesta es una opción de inversión mixta que busca combinar activos de renta fija y renta variable para diversificar el riesgo y potencializar los retornos a mediano plazo. Su estrategia de inversión se centra en equilibrar la seguridad de instrumentos de deuda con el potencial de crecimiento de acciones en diversos sectores. Esto significa que, si bien puede tener cierta exposición a la volatilidad del mercado de acciones, también busca mantener un nivel de estabilidad a través de bonos y otros instrumentos de renta fija.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan un equilibrio entre seguridad y potencial de crecimiento en sus inversiones. Si bien no es tan conservador como un fondo de renta fija pura, tampoco es tan arriesgado como un fondo de renta variable pura. Ideal para aquellos que buscan diversificar su cartera y obtener rendimientos superiores a los de una cuenta de ahorros tradicional, sin asumir un riesgo excesivo.\n\nEn términos simples, el Fondo Mutuo Protección Bancoesta invierte en una combinación de bonos, acciones y otros instrumentos financieros, tanto locales como internacionales. Esto le permite aprovechar las oportunidades de crecimiento en diferentes mercados, al mismo tiempo que reduce el impacto de eventos adversos en un solo sector. Por ejemplo, puede invertir en bonos del gobierno chileno, acciones de empresas locales e internacionales, y quizás incluso en fondos de inversión extranjeros.\n\nEl nivel de riesgo de este fondo se considera medio, lo que significa que puede experimentar cierta volatilidad en su valor, especialmente en el corto plazo. Sin embargo, al diversificar sus inversiones, se busca mitigar este riesgo y ofrecer un potencial de crecimiento atractivo a lo largo del tiempo. Es importante tener en cuenta que, como en cualquier inversión, existen riesgos inherentes al mercado que pueden afectar el desempeño del fondo.\n\nSe recomienda un horizonte de inversión a mediano plazo para el Fondo Mutuo Protección Bancoesta, idealmente de al menos 3 a 5 años. Esto permite superar posibles fluctuaciones del mercado a corto plazo y aprovechar el potencial de crecimiento de los activos subyacentes. Es importante tener paciencia y mantener una visión a largo plazo al invertir en este tipo de fondos.\n\nEn resumen, el Fondo Mutuo Protección Bancoesta ofrece una opción equilibrada para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener rend",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8316-K",
+    "rut_admin": "96767630",
+    "nombre": "PROTECCION BANCOESTA",
+    "full_id": "96767630_8316-K",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "inversion chile 30",
+  "nombre": "Inversion Chile 30",
+  "nombre_cmf": "INVERSION CHILE 30",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Inversion Chile 30 es una excelente opción para aquellos inversores jóvenes que buscan una combinación equilibrada de riesgo y rendimiento. Se trata de un fondo mixto, lo que significa que invierte tanto en instrumentos de renta fija como variable, con el objetivo de maximizar los retornos a largo plazo. Su perfil de riesgo es considerado medio, lo que implica que puede experimentar cierta volatilidad en el corto plazo, pero ofrece la posibilidad de obtener mayores ganancias en el futuro.\n\nEste tipo de fondo es ideal para inversores que buscan diversificar su cartera y no quieren asumir un riesgo excesivo. Por ejemplo, si un joven profesional está buscando invertir sus ahorros para el futuro, el Inversion Chile 30 podría ser una opción atractiva, ya que combina la estabilidad de la renta fija con el potencial de crecimiento de la renta variable.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible, pero generalmente los fondos mixtos como este suelen tener una distribución diversificada entre bonos, acciones y otros instrumentos financieros. Esto permite reducir el riesgo asociado a la volatilidad de los mercados y aprovechar las oportunidades de crecimiento.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que podría experimentar fluctuaciones en su valor, pero no tan extremas como un fondo de renta variable pura. Es importante tener en cuenta que, aunque el riesgo es moderado, siempre existe la posibilidad de pérdida de capital, especialmente en el corto plazo.\n\nEl horizonte de inversión recomendado para el Inversion Chile 30 es a mediano y largo plazo, ya que así se pueden aprovechar al máximo los beneficios de la diversificación y la estrategia de inversión del fondo. Es importante tener paciencia y no dejarse llevar por las fluctuaciones a corto plazo, manteniendo una visión a largo plazo.\n\nEn resumen, el fondo Inversion Chile 30 es una opción atractiva para inversores jóvenes que buscan un equilibrio entre riesgo y rendimiento. Su estrategia de inversión diversificada y su perfil de riesgo medio lo hacen adecuado para aquellos que desean construir una cartera sólida a largo plazo. Sin embargo, es importante recordar que todo fondo de inversión conlleva riesgos, por lo que es fundamental realizar un análisis personalizado y contar con asesoramiento profesional antes de tomar decisiones financieras.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8355-0",
+    "rut_admin": "96767630",
+    "nombre": "INVERSION CHILE 30",
+    "full_id": "96767630_8355-0",
+    "source": "javascript"
+  }
+}

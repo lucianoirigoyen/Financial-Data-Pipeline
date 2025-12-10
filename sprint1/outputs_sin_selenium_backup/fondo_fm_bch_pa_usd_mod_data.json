@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch pa usd mod",
+  "nombre": "Fm Bch Pa Usd Mod",
+  "nombre_cmf": "FM BCH PA USD MOD",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch Pa Usd Mod es una opción de inversión mixta que combina activos de renta fija y renta variable con el objetivo de lograr un equilibrio entre riesgo y rendimiento. Su estrategia de inversión busca diversificar el portafolio para reducir la volatilidad y aumentar las probabilidades de obtener rendimientos atractivos a mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en su inversión a cambio de mayores posibilidades de obtener rendimientos superiores a los instrumentos de renta fija tradicionales. Si bien no se dispone de información detallada sobre la composición principal del fondo, suele incluir activos como bonos corporativos, acciones de empresas locales e internacionales, entre otros.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Esto significa que si bien puede experimentar fluctuaciones en su valor, también ofrece la oportunidad de obtener mayores ganancias a largo plazo en comparación con instrumentos de menor riesgo.\n\nSe recomienda un horizonte de inversión a mediano plazo para este fondo, ya que permite aprovechar el potencial de crecimiento de los activos de renta variable sin comprometer la estabilidad de la inversión a corto plazo. Idealmente, los inversionistas que buscan diversificar su cartera y están dispuestos a asumir cierto nivel de riesgo podrían encontrar en este fondo una opción atractiva.\n\nEntre las ventajas de este fondo se encuentran la posibilidad de obtener rendimientos superiores a los instrumentos de renta fija tradicionales, así como la diversificación del portafolio que ofrece al combinar diferentes tipos de activos. Sin embargo, es importante tener en cuenta que la rentabilidad no está garantizada, y en periodos de volatilidad del mercado, el valor de la inversión puede verse afectado negativamente.\n\nEn resumen, el Fondo Mutuo Bch Pa Usd Mod es una opción mixta con un nivel de riesgo medio, adecuada para inversionistas que buscan un equilibrio entre riesgo y rendimiento a mediano plazo. Es importante evaluar detenidamente su perfil de riesgo y objetivos de inversión antes de tomar una decisión, y siempre es recomendable consultar con un asesor financiero para recibir orientación personalizada.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10111-7",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH PA USD MOD",
+    "full_id": "96767630_10111-7",
+    "source": "javascript"
+  }
+}

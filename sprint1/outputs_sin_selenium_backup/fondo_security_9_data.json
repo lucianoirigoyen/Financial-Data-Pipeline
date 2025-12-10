@@ -1,0 +1,23 @@
+{
+  "fondo_id": "security 9",
+  "nombre": "Security 9",
+  "nombre_cmf": "SECURITY 9",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Security 9 es una opción de inversión mixta que combina activos de renta fija y variable, buscando así un equilibrio entre la estabilidad y el potencial de crecimiento. Su estrategia de inversión se basa en diversificar el riesgo al invertir en una variedad de instrumentos financieros, lo que puede ayudar a mitigar posibles pérdidas en momentos de volatilidad en el mercado.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un rendimiento superior al de una inversión conservadora, pero que están dispuestos a asumir cierto grado de volatilidad en pos de mayores ganancias a largo plazo. Idealmente, el inversionista joven que busca hacer crecer su patrimonio a lo largo de los años podría encontrar en Security 9 una alternativa atractiva.\n\nAunque la composición principal del fondo no está disponible, generalmente los fondos mixtos como este suelen invertir en una combinación de bonos, acciones y otros instrumentos financieros. Esta diversificación puede ayudar a reducir el riesgo asociado a la volatilidad de un solo tipo de activo, brindando una mayor estabilidad a la cartera.\n\nEn términos simples, el nivel de riesgo de Security 9 se ubica en un punto intermedio, lo que significa que puede experimentar fluctuaciones en su valor, pero también ofrece la posibilidad de obtener rendimientos superiores a los de una inversión conservadora. Es importante tener en cuenta que, si bien puede haber periodos de pérdidas temporales, la estrategia a largo plazo del fondo apunta a generar ganancias sostenidas.\n\nPara este tipo de fondo mixto, se recomienda un horizonte de inversión a mediano o largo plazo, ya que así se pueden aprovechar mejor las fluctuaciones del mercado y permitir que las inversiones se desarrollen y maduren. Es importante tener paciencia y mantener la calma durante periodos de volatilidad, confiando en que la estrategia diversificada del fondo puede conducir a resultados positivos a largo plazo.\n\nEn resumen, Security 9 ofrece la posibilidad de obtener un equilibrio entre rendimiento y estabilidad, adecuado para inversores con un perfil de riesgo medio que buscan hacer crecer su patrimonio a lo largo del tiempo. Si bien puede presentar cierta volatilidad en el corto plazo, su enfoque diversificado y su horizonte de inversión recomendado lo convierten en una opción atractiva para aquellos que buscan un crecimiento sostenible en el tiempo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8523-5",
+    "rut_admin": "96767630",
+    "nombre": "SECURITY 9",
+    "full_id": "96767630_8523-5",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "mid term",
+  "nombre": "Mid Term",
+  "nombre_cmf": "MID TERM",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Mid Term es una alternativa de inversión mixta diseñada para aquellos inversionistas que buscan un equilibrio entre riesgo y rendimiento a mediano plazo. Este fondo combina activos de renta fija y renta variable, diversificando así el riesgo y aprovechando oportunidades en distintos mercados.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto grado de volatilidad en busca de mayores retornos que los ofrecidos por instrumentos más conservadores, como los depósitos a plazo. Si bien el fondo Mid Term puede experimentar fluctuaciones en su valor, históricamente ha demostrado un desempeño competitivo en términos de rentabilidad.\n\nLos activos en los que invierte el fondo Mid Term pueden variar, ya que su composición exacta no está disponible públicamente. Sin embargo, es común que este tipo de fondos inviertan en bonos corporativos, acciones de empresas locales e internacionales, así como en instrumentos de deuda emitidos por entidades gubernamentales.\n\nEn términos simples, el nivel de riesgo asociado con el fondo Mid Term se encuentra en un punto intermedio entre la seguridad de los instrumentos de renta fija y la volatilidad de las acciones. Esto significa que si bien existe la posibilidad de obtener retornos más atractivos que los ofrecidos por inversiones conservadoras, también se corre el riesgo de enfrentar pérdidas temporales en momentos de turbulencia en los mercados.\n\nEn cuanto al horizonte de inversión recomendado, el fondo Mid Term está diseñado para ser una inversión a mediano plazo, generalmente entre 3 a 5 años. Este plazo permite al fondo aprovechar las oportunidades de crecimiento a largo plazo de los activos en los que invierte, sin incurrir en riesgos excesivos asociados con inversiones a corto plazo.\n\nEntre las ventajas de invertir en el fondo Mid Term se encuentran la diversificación de la cartera, el potencial de rendimiento superior al de instrumentos conservadores y la gestión profesional de los activos. Sin embargo, es importante tener en cuenta que, como cualquier inversión en el mercado financiero, existen riesgos asociados, como la posibilidad de pérdidas temporales en momentos de volatilidad.\n\nEn resumen, el fondo Mid Term es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan una combinación equilibrada de seguridad y rendimiento a mediano plazo. Se recomienda a los jóvenes inversores chilenos interesados en este fondo que consulten con",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8881-1",
+    "rut_admin": "96767630",
+    "nombre": "MID TERM",
+    "full_id": "96767630_8881-1",
+    "source": "javascript"
+  }
+}

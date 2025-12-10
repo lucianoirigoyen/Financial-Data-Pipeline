@@ -1,0 +1,23 @@
+{
+  "fondo_id": "garan. triple optimo",
+  "nombre": "Garan. Triple Optimo",
+  "nombre_cmf": "GARAN. TRIPLE OPTIMO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Garan Triple Optimo es una alternativa de inversión mixta diseñada para aquellos inversores chilenos que buscan un equilibrio entre rendimiento y riesgo moderado. Su estrategia de inversión combina activos de renta fija y renta variable, buscando maximizar los beneficios potenciales al tiempo que se controlan los riesgos.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores retornos a largo plazo. Si eres un joven inversor que desea diversificar tu cartera sin exponerte a riesgos excesivos, el Garan Triple Optimo puede ser una opción a considerar.\n\nSi bien la composición exacta de los activos en los que invierte este fondo no está disponible, se espera que tenga una combinación de bonos, acciones y otros instrumentos financieros. Esto proporciona una diversificación adicional, lo que puede reducir el impacto de movimientos bruscos en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Aunque puede experimentar fluctuaciones en su valor, la combinación de activos diversificados tiende a suavizar los movimientos extremos. Es importante recordar que todo tipo de inversión conlleva cierto riesgo, y el Garan Triple Optimo no es una excepción.\n\nPara maximizar los beneficios potenciales, se recomienda un horizonte de inversión a medio o largo plazo. Esto significa que debes estar preparado para mantener tu inversión durante al menos varios años para darle tiempo a crecer y recuperarse de posibles fluctuaciones a corto plazo.\n\nEntre las ventajas de este fondo se encuentran su diversificación, que puede ayudar a reducir el riesgo total de la cartera, y su potencial de rendimiento atractivo. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición exacta de sus activos, lo que puede dificultar la evaluación precisa de su desempeño.\n\nEn resumen, el Fondo Mutuo Garan Triple Optimo es una opción interesante para jóvenes inversores chilenos con un perfil de riesgo moderado que buscan diversificar su cartera y obtener rendimientos atractivos a largo plazo. Es importante recordar que toda inversión conlleva riesgos, por lo que es fundamental realizar un análisis cuidadoso y consultar con un asesor financiero antes de tomar decisiones.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8518-9",
+    "rut_admin": "96767630",
+    "nombre": "GARAN. TRIPLE OPTIMO",
+    "full_id": "96767630_8518-9",
+    "source": "javascript"
+  }
+}

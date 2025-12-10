@@ -1,0 +1,23 @@
+{
+  "fondo_id": "selectivo",
+  "nombre": "Selectivo",
+  "nombre_cmf": "SELECTIVO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Selectivo\" es una opción de inversión mixta que combina activos de renta fija y renta variable, buscando un equilibrio entre riesgo y rendimiento. Su estrategia de inversión se enfoca en diversificar el portafolio para reducir la exposición a movimientos bruscos del mercado, lo que lo hace ideal para inversionistas con un perfil de riesgo medio que buscan obtener rendimientos atractivos a largo plazo sin asumir un riesgo excesivo.\n\nEste fondo es adecuado para jóvenes inversores que buscan crecimiento moderado de su capital a través de una combinación de bonos, acciones y otros instrumentos financieros. Al diversificar en diferentes clases de activos, el fondo \"Selectivo\" busca aprovechar las oportunidades de distintos mercados, lo que puede generar un retorno más estable a lo largo del tiempo.\n\nEn términos simples, el nivel de riesgo del fondo \"Selectivo\" se encuentra en un punto intermedio, ya que al invertir en una variedad de activos, se minimiza el riesgo específico de cada uno, aunque aún se mantiene cierto grado de volatilidad inherente a los mercados financieros. Esto significa que el valor de la inversión puede fluctuar, pero se busca mitigar posibles pérdidas a través de la diversificación.\n\nPara invertir en el fondo \"Selectivo\", se recomienda tener un horizonte de inversión a mediano o largo plazo, ya que esto permite aprovechar al máximo la estrategia de diversificación y equilibrar posibles fluctuaciones del mercado a lo largo del tiempo. Es importante recordar que las inversiones en fondos mutuos no son recomendadas para personas que necesitan liquidez inmediata, ya que se basan en un enfoque de inversión a largo plazo.\n\nUna ventaja de este fondo es la diversificación que ofrece a los inversionistas, permitiéndoles acceder a diferentes clases de activos de forma sencilla y sin la necesidad de realizar una gestión activa de la cartera. Sin embargo, una posible desventaja podría ser que, al tener una estrategia equilibrada, el fondo podría no alcanzar los mismos niveles de rentabilidad que fondos más arriesgados en períodos de fuertes crecimientos del mercado.\n\nEn resumen, el fondo mutuo \"Selectivo\" es una opción atractiva para jóvenes inversores chilenos con un perfil de riesgo medio que buscan diversificar su portafolio y obtener rendimientos estables a largo plazo. Es importante evaluar tu situación financiera, objetivos y tolerancia al riesgo antes de invertir en este fondo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8490-5",
+    "rut_admin": "96767630",
+    "nombre": "SELECTIVO",
+    "full_id": "96767630_8490-5",
+    "source": "javascript"
+  }
+}

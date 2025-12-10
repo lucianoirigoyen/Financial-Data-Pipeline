@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch deuda int",
+  "nombre": "Fm Bch Deuda Int",
+  "nombre_cmf": "FM BCH DEUDA INT",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch Deuda Internacional es una opción de inversión mixta que combina activos de renta fija nacional e internacional. Su estrategia busca generar rendimientos a través de la diversificación en distintos mercados de deuda, tanto en Chile como en el extranjero. Aunque la composición exacta del fondo no está disponible, se puede inferir que invierte en bonos de gobiernos, corporativos y otros instrumentos de deuda.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la rentabilidad y la seguridad de su inversión. Es adecuado para quienes desean diversificar su cartera y están dispuestos a asumir un cierto nivel de riesgo para obtener mayores rendimientos que los ofrecidos por instrumentos de renta fija tradicionales.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Si bien la inversión en deuda suele ser menos volátil que otras clases de activos, existen riesgos asociados a los movimientos de los mercados de bonos y a los cambios en las tasas de interés. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de la inversión.\n\nEn cuanto al horizonte de inversión recomendado, este fondo es más adecuado para inversionistas que tengan un período de inversión a medio plazo, considerando que los activos de renta fija suelen tener plazos definidos. Por lo tanto, se sugiere que aquellos que inviertan en este fondo tengan una visión a largo plazo, al menos a un plazo de 2 a 5 años, para poder beneficiarse de su estrategia diversificada.\n\nEntre las ventajas de este fondo se encuentran la diversificación internacional, que puede ayudar a reducir el riesgo asociado a la concentración en un solo mercado, y la posibilidad de obtener rendimientos superiores a los bonos locales. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del fondo, lo que dificulta una evaluación precisa de los activos en los que se invierte.\n\nEn resumen, el Fondo Mutuo Bch Deuda Internacional es una alternativa interesante para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera a través de inversiones en deuda nacional e internacional. Se recomienda a aquellos que tengan un horizonte de inversión a medio plazo y estén dispuestos a asumir un cierto nivel de riesgo en busca de mayores rendimientos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9916-3",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH DEUDA INT",
+    "full_id": "96767630_9916-3",
+    "source": "javascript"
+  }
+}

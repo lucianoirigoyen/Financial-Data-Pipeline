@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta ahorro dólar",
+  "nombre": "Renta Ahorro Dólar",
+  "nombre_cmf": "RENTA AHORRO DÓLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Renta Ahorro Dólar es una alternativa de inversión mixta que combina activos de renta fija y renta variable, buscando un equilibrio entre estabilidad y potencial de crecimiento. Su estrategia de inversión se enfoca en aprovechar las oportunidades tanto en el mercado de valores como en instrumentos de deuda, diversificando el riesgo de la cartera para ofrecer posibles rendimientos atractivos en el largo plazo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre seguridad y potencial de retorno. Si buscas una inversión que ofrezca cierta estabilidad pero también la posibilidad de obtener ganancias adicionales, el Renta Ahorro Dólar podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, lamentablemente la composición principal no está disponible, pero generalmente los fondos mixtos como este pueden tener una diversificación que incluye bonos corporativos, acciones locales e internacionales, así como instrumentos de renta fija gubernamentales.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Esto significa que existe la posibilidad de enfrentar fluctuaciones en el valor de la inversión, pero se busca mitigar ese riesgo a través de una diversificación adecuada de activos. Como joven inversor, es importante entender que el riesgo está presente en cualquier inversión, pero en este caso se procura mantenerlo en un nivel moderado.\n\nEl horizonte de inversión recomendado para el Renta Ahorro Dólar es a mediano a largo plazo, es decir, más de 3 años. Esto se debe a que las estrategias de inversión mixta suelen necesitar tiempo para desarrollarse y obtener resultados significativos. Si tienes metas financieras a largo plazo, como la compra de una vivienda en el futuro o la jubilación, este fondo podría ser una opción interesante.\n\nEn cuanto a ventajas, la diversificación de activos puede ofrecer una protección adicional frente a la volatilidad del mercado, mientras que como desventaja, la rentabilidad no está garantizada y podría variar dependiendo de las condiciones económicas. Se recomienda a los jóvenes inversionistas que deseen participar en este fondo tener una actitud paciente y estar dispuestos a asumir cierto grado de riesgo en busca de mayores rendimientos a largo plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10125-7",
+    "rut_admin": "96767630",
+    "nombre": "RENTA AHORRO DÓLAR",
+    "full_id": "96767630_10125-7",
+    "source": "javascript"
+  }
+}

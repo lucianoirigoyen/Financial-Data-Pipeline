@@ -1,0 +1,23 @@
+{
+  "fondo_id": "digital chile activo",
+  "nombre": "Digital Chile Activo",
+  "nombre_cmf": "DIGITAL CHILE ACTIVO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Digital Chile Activo es una opción de inversión mixta que combina activos de renta fija y variable, buscando un equilibrio entre seguridad y potencial de crecimiento. Su estrategia de inversión se enfoca en aprovechar las oportunidades del mercado digital en Chile, invirtiendo en empresas tecnológicas locales con proyección de crecimiento a largo plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan diversificar su cartera y están dispuestos a asumir cierto nivel de volatilidad en busca de rendimientos superiores a los de instrumentos de renta fija tradicionales. Es ideal para jóvenes inversores que buscan participar en el crecimiento del sector tecnológico en Chile, sin exponerse a riesgos extremos.\n\nLos principales activos en los que invierte el fondo Digital Chile Activo son empresas chilenas del sector tecnológico, como start-ups en etapas de crecimiento, compañías de software y servicios digitales, así como plataformas de comercio electrónico. Estas inversiones ofrecen la posibilidad de obtener rendimientos atractivos a medida que el mercado digital en Chile continúa expandiéndose.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, ya que combina activos de distintas clases que pueden experimentar fluctuaciones en su valor en el corto plazo. Sin embargo, al estar enfocado en empresas con potencial de crecimiento, el riesgo se ve compensado por la posibilidad de obtener rendimientos superiores a la media del mercado.\n\nEl horizonte de inversión recomendado para el fondo Digital Chile Activo es a mediano y largo plazo, ya que las inversiones en el sector tecnológico suelen requerir tiempo para madurar y generar retornos significativos. Se aconseja a los inversionistas mantener una visión a largo plazo y ser pacientes ante posibles fluctuaciones en el valor de sus inversiones.\n\nEntre las ventajas de este fondo se encuentran la posibilidad de participar en el crecimiento del sector tecnológico en Chile, diversificar la cartera con activos innovadores y potencialmente obtener rendimientos atractivos. Como desventaja, se debe considerar el nivel de volatilidad asociado con las inversiones en empresas tecnológicas, que pueden verse afectadas por cambios en el entorno económico o tecnológico.\n\nEn resumen, el fondo mutuo Digital Chile Activo es una opción atractiva para jóvenes inversionistas con un perfil de riesgo medio que buscan participar en el crecimiento del mercado digital en Chile. Se recomienda tener una visión a largo plazo y estar prepar",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10369-1",
+    "rut_admin": "96767630",
+    "nombre": "DIGITAL CHILE ACTIVO",
+    "full_id": "96767630_10369-1",
+    "source": "javascript"
+  }
+}

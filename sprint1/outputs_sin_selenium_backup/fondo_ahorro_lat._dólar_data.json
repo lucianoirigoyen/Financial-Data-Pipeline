@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ahorro lat. dólar",
+  "nombre": "Ahorro Lat. Dólar",
+  "nombre_cmf": "AHORRO LAT. DÓLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Ahorro Lat. Dólar es una opción de inversión mixta, lo que significa que combina diferentes tipos de activos, como acciones y bonos, para buscar un equilibrio entre riesgo y rentabilidad. Su estrategia de inversión se centra en diversificar el portafolio para reducir el impacto de posibles fluctuaciones del mercado, con el objetivo de generar ganancias a largo plazo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los instrumentos de ahorro tradicionales. Si eres un joven inversor chileno que está dispuesto a asumir un cierto nivel de riesgo para potencialmente obtener mayores ganancias, este fondo podría ser una buena opción para diversificar tu cartera.\n\nEn cuanto a los activos en los que invierte, la información específica sobre la composición principal del fondo no está disponible, lo que puede dificultar evaluar su nivel de diversificación y exposición a diferentes sectores económicos. Sin embargo, en general, los fondos mixtos suelen invertir en una variedad de instrumentos financieros, lo que contribuye a reducir el riesgo asociado a la volatilidad de un solo mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que implica que existe la posibilidad de que el valor de tu inversión pueda fluctuar en el corto plazo, pero también la oportunidad de obtener mayores rendimientos en el largo plazo. Es importante tener en cuenta que la rentabilidad pasada no garantiza resultados futuros, por lo que es fundamental diversificar tu cartera y mantener un horizonte de inversión a largo plazo para mitigar posibles riesgos.\n\nEl horizonte de inversión recomendado para el fondo Ahorro Lat. Dólar es a largo plazo, lo que significa que deberías considerar mantener tu inversión por al menos varios años para permitir que los activos del fondo se desarrollen y potencialmente generen ganancias significativas. Es importante recordar que la paciencia y la disciplina son clave al invertir en fondos mutuos, ya que el mercado puede experimentar fluctuaciones a corto plazo que no deben afectar tu estrategia a largo plazo.\n\nEn resumen, el fondo mutuo Ahorro Lat. Dólar ofrece a los jóvenes inversores chilenos la oportunidad de diversificar su cartera y buscar un equilibrio entre riesgo y rentabilidad. Si estás dispuesto a asumir un nivel moderado de riesgo y tienes un horizonte de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8207-4",
+    "rut_admin": "96767630",
+    "nombre": "AHORRO LAT. DÓLAR",
+    "full_id": "96767630_8207-4",
+    "source": "javascript"
+  }
+}

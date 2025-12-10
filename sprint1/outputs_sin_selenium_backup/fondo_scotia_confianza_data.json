@@ -1,0 +1,23 @@
+{
+  "fondo_id": "scotia confianza",
+  "nombre": "Scotia Confianza",
+  "nombre_cmf": "SCOTIA CONFIANZA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo mutuo Scotia Confianza para jóvenes inversores chilenos:\n\nEl fondo mutuo Scotia Confianza es una opción mixta que combina inversiones en distintos activos, como acciones, bonos y otros instrumentos financieros. Su estrategia busca generar rendimientos atractivos a mediano plazo, manteniendo un nivel de riesgo moderado. Esto significa que, si bien existe la posibilidad de obtener ganancias interesantes, también se procura limitar las posibles pérdidas.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en sus inversiones a cambio de mayores oportunidades de rentabilidad. Si eres un joven inversor que busca un equilibrio entre riesgo y retorno, Scotia Confianza podría ser una buena opción para diversificar tu cartera.\n\nAunque la composición exacta del fondo no está disponible públicamente, se espera que invierta en una variedad de activos, lo que puede incluir acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como instrumentos de renta fija y variable. Esta diversificación contribuye a reducir el riesgo asociado con la volatilidad de un solo activo.\n\nEn términos simples, el nivel de riesgo de Scotia Confianza se sitúa en un punto intermedio. Esto significa que, si bien no es tan arriesgado como invertir únicamente en acciones, tampoco es tan conservador como optar únicamente por bonos de bajo riesgo. En resumen, se busca equilibrar la posibilidad de obtener ganancias con la protección del capital invertido.\n\nPara sacar el máximo provecho de Scotia Confianza, se recomienda tener un horizonte de inversión a mediano plazo, generalmente de al menos 3 a 5 años. Esto permite que el fondo se beneficie de las fluctuaciones del mercado a lo largo del tiempo, sin preocuparse por cambios a corto plazo que puedan afectar su desempeño.\n\nEn cuanto a ventajas, Scotia Confianza ofrece la posibilidad de diversificar tu cartera de inversiones de manera sencilla, sin necesidad de seleccionar individualmente cada activo. Sin embargo, como desventaja, es importante tener en cuenta que, al tratarse de un fondo mixto, su rendimiento puede ser afectado por la evolución de diferentes clases de activos.\n\nEn resumen, Scotia Confianza es ideal para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y retorno, con un horizonte de inversión a mediano plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9158-8",
+    "rut_admin": "96767630",
+    "nombre": "SCOTIA CONFIANZA",
+    "full_id": "96767630_9158-8",
+    "source": "javascript"
+  }
+}

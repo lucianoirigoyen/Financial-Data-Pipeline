@@ -1,0 +1,23 @@
+{
+  "fondo_id": "acciones usa",
+  "nombre": "Acciones Usa",
+  "nombre_cmf": "ACCIONES USA",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo mutuo Acciones Usa se caracteriza por ser una alternativa de inversión agresiva, orientada a obtener altas rentabilidades a largo plazo a través de la inversión en acciones de empresas estadounidenses. Su estrategia de inversión se enfoca en aprovechar el potencial de crecimiento de compañías líderes en sectores diversos como tecnología, salud, finanzas y consumo, buscando superar el rendimiento del mercado de valores de Estados Unidos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo alto, es decir, aquellos que están dispuestos a asumir la posibilidad de pérdidas significativas a cambio de la posibilidad de obtener ganancias substanciales. Si eres un joven inversor que busca maximizar tu capital a largo plazo y estás dispuesto a aceptar la volatilidad del mercado, Acciones Usa podría ser una opción a considerar.\n\nEn cuanto a la composición principal del fondo, al no estar disponible, se puede inferir que invierte mayormente en acciones de empresas estadounidenses. Esto implica que estás adquiriendo una participación en compañías como Apple, Amazon, Microsoft, entre otras, lo que te brinda exposición a la economía y el mercado bursátil más grande del mundo.\n\nEn términos simples, el nivel de riesgo de este fondo es alto debido a la naturaleza volátil de las inversiones en acciones. Las fluctuaciones en los precios de las acciones pueden ser más pronunciadas en comparación con otros tipos de activos, lo que significa que podrías experimentar ganancias considerables o pérdidas significativas en un corto período de tiempo.\n\nEl horizonte de inversión recomendado para Acciones Usa es a largo plazo, idealmente más de 5 años. Esto se debe a que las inversiones en acciones tienden a generar mejores resultados cuando se mantienen durante períodos prolongados, permitiendo superar posibles fluctuaciones del mercado a corto plazo.\n\nEntre las ventajas de invertir en este fondo se encuentran la posibilidad de obtener altas rentabilidades en el largo plazo, diversificación internacional y exposición a empresas líderes en sus respectivos sectores. No obstante, es importante tener en cuenta que, dada su naturaleza agresiva, también conlleva un mayor riesgo de pérdida de capital, especialmente en periodos de volatilidad.\n\nEn resumen, si eres un joven inversor con un perfil arriesgado, en busca de altas rentabilidades a largo plazo y dispuesto a tolerar la volatilidad del mercado, el fondo mutuo Acciones Usa podría ser una opción interesante para diversificar tu cartera. Recuerda siempre consultar con un",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8205-8",
+    "rut_admin": "96767630",
+    "nombre": "ACCIONES USA",
+    "full_id": "96767630_8205-8",
+    "source": "javascript"
+  }
+}

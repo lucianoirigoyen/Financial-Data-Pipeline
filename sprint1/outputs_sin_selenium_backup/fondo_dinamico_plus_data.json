@@ -1,0 +1,23 @@
+{
+  "fondo_id": "dinamico plus",
+  "nombre": "Dinamico Plus",
+  "nombre_cmf": "DINAMICO PLUS",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Dinámico Plus es una opción de inversión mixta, lo que significa que combina tanto activos de renta fija como de renta variable. Su estrategia de inversión busca obtener un equilibrio entre la estabilidad de los bonos y la potencial rentabilidad de las acciones, lo que lo convierte en una alternativa atractiva para aquellos inversores que buscan un mayor rendimiento sin asumir un riesgo excesivo.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto grado de volatilidad en busca de mayores retornos. Si prefieres no arriesgar demasiado tu capital pero tampoco conformarte con rendimientos conservadores, Dinámico Plus podría ser una buena elección para ti.\n\nEn cuanto a los activos en los que invierte, no disponemos de información detallada sobre la composición principal de este fondo. Sin embargo, podemos esperar que incluya una diversificación de bonos y acciones de diversas empresas y sectores para minimizar riesgos y maximizar oportunidades de crecimiento.\n\nEn términos simples, el nivel de riesgo de Dinámico Plus se sitúa en un punto intermedio. Esto significa que, si bien existen posibilidades de obtener rendimientos superiores a los de una inversión conservadora, también hay cierto grado de incertidumbre y fluctuación en el valor de los activos. Es importante tener en cuenta que, en el mundo de las inversiones, el rendimiento potencial está ligado al riesgo asumido.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas consideren mantener su dinero en Dinámico Plus por un período de al menos tres a cinco años. Esto permitirá aprovechar el potencial de crecimiento a largo plazo y mitigar los efectos de la volatilidad a corto plazo en el valor de los activos.\n\nEn resumen, Dinámico Plus es una alternativa mixta para inversores con un perfil moderado de riesgo que buscan equilibrar estabilidad y potencial de crecimiento en su cartera. Si valoras la diversificación y estás dispuesto a aceptar cierto grado de incertidumbre en busca de rendimientos superiores, este fondo podría ser una opción a considerar. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y mantener un enfoque a largo plazo para maximizar tus oportunidades de éxito.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9717-9",
+    "rut_admin": "96767630",
+    "nombre": "DINAMICO PLUS",
+    "full_id": "96767630_9717-9",
+    "source": "javascript"
+  }
+}

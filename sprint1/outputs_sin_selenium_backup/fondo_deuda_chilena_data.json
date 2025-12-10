@@ -1,0 +1,82 @@
+{
+  "fondo_id": "deuda chilena",
+  "nombre": "FONDO DE INVERSIÓN BANCHILE DEUDA CHILENA",
+  "nombre_cmf": "Información de Fiscalizados y otras instituciones registradas",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo de Inversión Banchile Deuda Chilena es una opción mixta que busca combinar activos de renta fija chilena para generar retornos atractivos a medio plazo. Este fondo invierte en una combinación de instrumentos financieros como bonos emitidos por entidades chilenas, lo que le permite diversificar el riesgo y potencialmente obtener rendimientos estables en el tiempo.\n\nEste tipo de fondo puede ser adecuado para inversores con un perfil de riesgo medio, que buscan un equilibrio entre la seguridad de la renta fija y la posibilidad de obtener mayores retornos que los depósitos a plazo. Si eres un joven inversor que está dispuesto a asumir un cierto nivel de riesgo para obtener mayores ganancias que las ofrecidas por instrumentos conservadores, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, el Fondo Banchile Deuda Chilena se enfoca principalmente en bonos emitidos por entidades chilenas, lo que le otorga una exposición directa al mercado local. Esta estrategia puede ofrecer estabilidad y previsibilidad en los rendimientos, aunque también limita la diversificación geográfica que otros fondos internacionales podrían proporcionar.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con caminar por un sendero bien marcado en un parque: es posible que encuentres algunos obstáculos en el camino, pero en general, se espera que el recorrido sea seguro y predecible. Sin embargo, es importante recordar que cualquier inversión conlleva cierto nivel de riesgo, por lo que es crucial estar informado y consciente de las posibles fluctuaciones del mercado.\n\nPara este tipo de fondo mixto, se recomienda un horizonte de inversión a medio plazo, generalmente entre 3 y 5 años. Esto se debe a que la naturaleza de los activos en los que invierte puede requerir tiempo para madurar y ofrecer los rendimientos esperados. Por lo tanto, es importante tener paciencia y mantener una visión a largo plazo para maximizar el potencial de crecimiento de tu inversión.\n\nEn resumen, el Fondo de Inversión Banchile Deuda Chilena ofrece una combinación equilibrada de renta fija local que puede ser atractiva para inversores jóvenes con un perfil de riesgo medio. Si buscas estabilidad en tus inversiones, sin renunciar completamente a la posibilidad de obtener mayores retornos, este fondo podría ser una opción interesante a considerar. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de invers",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "symbol": "FINV-9252",
+  "category": "investment_fund",
+  "currency": null,
+  "run": "9252-5",
+  "rut_base": "9252",
+  "conceptual_asset_id": "2830",
+  "data_source": "http://www.cmfchile.cl",
+  "series": [
+    {
+      "serie": "BPLUS",
+      "name": "FONDO DE INVERSIÓN BANCHILE DEUDA CHILENA",
+      "symbol": "FINV-9252-BPLUS",
+      "valor_cuota": null,
+      "fecha_valor_cuota": null,
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    },
+    {
+      "serie": "UNICA",
+      "name": "FONDO DE INVERSIÓN BANCHILE DEUDA CHILENA",
+      "symbol": "FINV-9252-UNICA",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2020-06-17",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    },
+    {
+      "serie": "A",
+      "name": "FONDO DE INVERSIÓN BANCHILE DEUDA CHILENA",
+      "symbol": "FINV-9252-A",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2025-12-03",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    },
+    {
+      "serie": "BCH",
+      "name": "FONDO DE INVERSIÓN BANCHILE DEUDA CHILENA",
+      "symbol": "FINV-9252-BCH",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2025-12-03",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    }
+  ],
+  "rut_cmf": "9252",
+  "rut_completo_cmf": null,
+  "url_cmf": "https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=9252&tipoentidad=RGFMU",
+  "cmf_fund_info": {
+    "rut": "9252",
+    "rut_completo": null,
+    "nombre": "Información de Fiscalizados y otras instituciones registradas",
+    "url_cmf": "https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=9252&tipoentidad=RGFMU",
+    "fuente": "cmf_directo"
+  },
+  "fecha_valor_cuota": "2021-10-22",
+  "estado_fondo": "Desconocido"
+}

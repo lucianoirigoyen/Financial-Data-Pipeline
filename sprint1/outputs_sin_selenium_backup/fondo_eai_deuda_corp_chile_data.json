@@ -1,0 +1,23 @@
+{
+  "fondo_id": "eai deuda corp chile",
+  "nombre": "Eai Deuda Corp Chile",
+  "nombre_cmf": "EAI DEUDA CORP CHILE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Eai Deuda Corp Chile es una excelente opción para aquellos inversores que buscan un equilibrio entre riesgo y rendimiento. Se clasifica como un fondo mixto, lo que significa que invierte en una combinación de instrumentos de renta fija y variable para diversificar su cartera y buscar un mayor potencial de retorno. \n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto grado de volatilidad en busca de mayores ganancias a largo plazo. Su estrategia de inversión se enfoca en el mercado de deuda corporativa chilena, lo que implica que gran parte de sus activos estarán compuestos por bonos emitidos por empresas locales.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Si bien la inversión en deuda corporativa puede ofrecer rendimientos atractivos, también conlleva cierto riesgo de impago por parte de las empresas emisoras. No obstante, al tratarse de bonos de empresas chilenas, se espera que el riesgo sea menor en comparación con otras inversiones más especulativas.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores consideren mantener su dinero en este fondo por un período de al menos 3 a 5 años. Esto les permitirá aprovechar al máximo el potencial de crecimiento de sus inversiones y minimizar el impacto de posibles fluctuaciones a corto plazo en el mercado de bonos corporativos.\n\nEntre las ventajas de invertir en el fondo Eai Deuda Corp Chile se encuentran la diversificación que ofrece a través de su exposición a diferentes emisores corporativos locales, lo que reduce el riesgo asociado a la inversión en un solo título. Por otro lado, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de la cartera del fondo, lo que dificulta la evaluación precisa de los activos subyacentes.\n\nEn resumen, este fondo mixto es adecuado para inversores chilenos con un perfil de riesgo medio que buscan una combinación equilibrada de rentabilidad y seguridad. Se recomienda mantener una visión a largo plazo y diversificar la cartera de inversiones para mitigar posibles riesgos. Si bien es importante tener en cuenta las fluctuaciones del mercado, la inversión en deuda corporativa chilena puede ser una opción atractiva para aquellos que buscan un rendimiento superior al de las inversiones más conservadoras.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9054-9",
+    "rut_admin": "96767630",
+    "nombre": "EAI DEUDA CORP CHILE",
+    "full_id": "96767630_9054-9",
+    "source": "javascript"
+  }
+}

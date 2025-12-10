@@ -1,0 +1,23 @@
+{
+  "fondo_id": "select",
+  "nombre": "Select",
+  "nombre_cmf": "SELECT",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Select es una opción de inversión que combina una variedad de activos, como acciones, bonos y otros instrumentos financieros, con el objetivo de obtener rendimientos atractivos a mediano plazo. Su estrategia de inversión se basa en diversificar el portafolio para reducir riesgos y aprovechar oportunidades en diferentes mercados.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener ganancias y la tolerancia a posibles fluctuaciones en el valor de su inversión. Si eres un joven inversor que está dispuesto a asumir cierto nivel de riesgo en busca de mayores rendimientos, el fondo Select podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, la composición principal del fondo no está disponible públicamente, lo que puede dificultar la evaluación detallada de su cartera. Sin embargo, es probable que incluya una combinación de acciones de empresas locales e internacionales, bonos gubernamentales y corporativos, y posiblemente otros instrumentos financieros diversificados.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que existe la posibilidad de experimentar ciertas fluctuaciones en el valor de la inversión, pero también la oportunidad de obtener rendimientos más atractivos que los productos financieros más conservadores. Es importante tener en cuenta que el riesgo siempre está presente en cualquier inversión, y la clave es diversificar y mantener una visión a largo plazo.\n\nEl horizonte de inversión recomendado para el fondo Select es a mediano plazo, lo que implica mantener la inversión durante al menos varios años para permitir que la estrategia del fondo se desarrolle y potencialmente genere rendimientos positivos. Es importante tener paciencia y no dejarse llevar por las fluctuaciones a corto plazo del mercado.\n\nEn cuanto a ventajas, la diversificación del portafolio del fondo Select puede ayudar a reducir el riesgo y aprovechar oportunidades en diferentes mercados. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición de los activos, lo que puede dificultar la evaluación precisa de la inversión.\n\nEn resumen, si eres un joven inversionista con un perfil de riesgo medio y estás dispuesto a mantener tu inversión a mediano plazo, el fondo mutuo Select podría ser una opción a considerar. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y mantener una visión a largo plazo para alcanzar tus objetivos financier",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8338-0",
+    "rut_admin": "96767630",
+    "nombre": "SELECT",
+    "full_id": "96767630_8338-0",
+    "source": "javascript"
+  }
+}

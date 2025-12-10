@@ -1,0 +1,23 @@
+{
+  "fondo_id": "explorer",
+  "nombre": "Explorer",
+  "nombre_cmf": "EXPLORER",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Explorer es una opción de inversión mixta que combina activos de renta fija y renta variable, con el objetivo de maximizar rendimientos a mediano plazo. Su estrategia se basa en diversificar el portafolio entre diferentes instrumentos financieros para reducir el impacto de posibles fluctuaciones del mercado. Aunque la composición exacta del fondo no está disponible, se espera que invierta en una combinación de bonos, acciones y otros instrumentos financieros.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener rendimientos más altos y la necesidad de limitar posibles pérdidas. Si eres un joven inversor con una tolerancia moderada al riesgo y un horizonte de inversión a mediano plazo, el fondo Explorer puede ser una opción a considerar.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Al invertir en una combinación de activos de renta fija y renta variable, el fondo Explorer es menos arriesgado que invertir solo en acciones, pero más arriesgado que optar únicamente por bonos. Esto significa que puedes esperar cierta volatilidad en los rendimientos, pero con la posibilidad de obtener mayores ganancias que con inversiones más conservadoras.\n\nEl horizonte de inversión recomendado para el fondo Explorer es a mediano plazo, lo que significa que deberías estar dispuesto a mantener tu inversión durante al menos varios años para poder beneficiarte de su estrategia de diversificación y potencial de crecimiento. Si tienes metas financieras a corto plazo, como ahorrar para un viaje el próximo año, este fondo puede no ser la mejor opción, ya que su rendimiento puede fluctuar en el corto plazo.\n\nEn cuanto a ventajas, el fondo Explorer ofrece la oportunidad de diversificar tu cartera de inversión de manera sencilla y accesible. Sin embargo, una posible desventaja es que al no conocer la composición exacta del fondo, puede ser difícil evaluar el nivel de riesgo de manera precisa.\n\nEn resumen, el fondo Explorer es ideal para jóvenes inversores chilenos con un perfil de riesgo medio, que buscan diversificar sus inversiones y obtener rendimientos a mediano plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y asegurarte de entender completamente los riesgos y beneficios de cualquier fondo en el que desees invertir.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8165-5",
+    "rut_admin": "96767630",
+    "nombre": "EXPLORER",
+    "full_id": "96767630_8165-5",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "corto plazo uf",
+  "nombre": "Corto Plazo Uf",
+  "nombre_cmf": "CORTO PLAZO UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Corto Plazo Uf es una alternativa de inversión mixta que busca obtener rendimientos a corto plazo mediante una combinación de activos financieros. Su estrategia de inversión se enfoca en la diversificación de cartera, invirtiendo en una variedad de instrumentos como bonos, acciones y otros activos de renta fija y variable. Aunque la información detallada sobre su composición principal no está disponible, se puede inferir que se orienta hacia activos de menor riesgo y liquidez, adecuados para un horizonte de inversión más breve.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la rentabilidad potencial y la volatilidad de sus inversiones. Si eres un joven inversor que está comenzando a explorar el mundo de las inversiones y prefieres no asumir riesgos excesivos, el Corto Plazo Uf puede ser una opción a considerar. Sin embargo, es importante tener en cuenta que, al tratarse de un fondo mixto, existen ciertos niveles de riesgo asociados a las fluctuaciones del mercado.\n\nEn términos simples, el riesgo de este fondo se encuentra en que, al invertir en una combinación de activos, está expuesto a las variaciones de precios de distintos mercados. Por ejemplo, si la economía experimenta cambios abruptos que afectan negativamente a ciertos sectores en los que el fondo tiene posiciones, la rentabilidad podría disminuir. Por otro lado, la diversificación de la cartera también puede actuar como un factor de protección en momentos de alta volatilidad.\n\nEn cuanto al horizonte de inversión recomendado, el Corto Plazo Uf se adapta mejor a aquellos inversores que buscan obtener ganancias en el corto y mediano plazo, generalmente entre 1 a 3 años. Es importante tener en cuenta que, aunque se busque una rentabilidad a corto plazo, es recomendable mantener una visión a largo plazo y diversificar las inversiones para reducir el riesgo.\n\nEn resumen, el fondo mutuo Corto Plazo Uf es una opción atractiva para inversores jóvenes con un perfil de riesgo medio que buscan obtener rendimientos a corto plazo, pero sin exponerse a riesgos demasiado elevados. Si bien ofrece la posibilidad de diversificación y liquidez, es importante monitorear su desempeño y ajustar la estrategia de inversión según las condiciones del mercado. Antes de invertir en este fondo, considera tu tolerancia al riesgo y tus objetivos financieros a fin de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8991-5",
+    "rut_admin": "96767630",
+    "nombre": "CORTO PLAZO UF",
+    "full_id": "96767630_8991-5",
+    "source": "javascript"
+  }
+}

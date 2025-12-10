@@ -1,0 +1,23 @@
+{
+  "fondo_id": "btg acciones chilena",
+  "nombre": "Btg Acciones Chilena",
+  "nombre_cmf": "BTG ACCIONES CHILENA",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo mutuo BTG Acciones Chilena es una opción de inversión agresiva dirigida a aquellos inversores que buscan un alto potencial de rentabilidad a cambio de asumir un nivel de riesgo significativamente mayor. Su estrategia de inversión se enfoca en la adquisición de acciones de empresas chilenas con un potencial de crecimiento sólido a largo plazo.\n\nEste tipo de fondo es adecuado para inversionistas jóvenes que buscan maximizar sus ganancias a largo plazo y que están dispuestos a tolerar la volatilidad inherente al mercado de acciones. Es importante tener en cuenta que, si bien la posibilidad de obtener ganancias sustanciales es alta, también se corre el riesgo de sufrir pérdidas significativas en el corto plazo.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con apostar por el rendimiento de un equipo en una competencia deportiva. Si el equipo tiene un desempeño excepcional, las ganancias pueden ser muy altas, pero si el rendimiento es decepcionante, las pérdidas también serán significativas.\n\nEl horizonte de inversión recomendado para el fondo BTG Acciones Chilena es a largo plazo, idealmente más de 5 años. Esto se debe a que las fluctuaciones del mercado a corto plazo pueden afectar negativamente el valor de las inversiones, pero a largo plazo, se espera que las empresas en las que invierte el fondo crezcan y generen retornos positivos.\n\nEntre las ventajas de este fondo se encuentran la posibilidad de obtener altas ganancias en el largo plazo, aprovechando el potencial de crecimiento de empresas chilenas exitosas. Sin embargo, una posible desventaja es la volatilidad del mercado de acciones, que puede llevar a pérdidas temporales que requieren paciencia para recuperarse.\n\nEn resumen, el fondo BTG Acciones Chilena es una opción adecuada para inversionistas jóvenes con un perfil de riesgo alto y un horizonte de inversión a largo plazo. Es importante tener en cuenta la volatilidad del mercado de acciones y la posibilidad de pérdidas temporales, pero si se mantiene una visión a largo plazo, se pueden obtener rendimientos atractivos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8204-K",
+    "rut_admin": "96767630",
+    "nombre": "BTG ACCIONES CHILENA",
+    "full_id": "96767630_8204-K",
+    "source": "javascript"
+  }
+}

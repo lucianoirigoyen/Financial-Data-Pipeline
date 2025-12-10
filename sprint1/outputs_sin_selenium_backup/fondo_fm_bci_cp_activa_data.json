@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci cp activa",
+  "nombre": "Fm Bci Cp Activa",
+  "nombre_cmf": "FM BCI CP ACTIVA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Cp Activa es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable, buscando maximizar los rendimientos a mediano plazo. Su estrategia de inversión se centra en diversificar el portafolio para reducir el riesgo y aprovechar las oportunidades de mercado. Aunque no conocemos su composición exacta, se espera que incluya una variedad de instrumentos financieros para lograr un equilibrio entre seguridad y potencial de crecimiento.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto grado de volatilidad en busca de mayores retornos. Si eres un joven inversor en Chile que busca una alternativa de inversión que combine seguridad y potencial de crecimiento, el Fondo Mutuo Bci Cp Activa podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, es probable que incluya bonos, acciones, instrumentos del mercado monetario y otros activos financieros. Esta diversificación ayuda a reducir el riesgo asociado con la volatilidad del mercado, ya que las ganancias en un tipo de activo pueden compensar las pérdidas en otro.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Aunque puede experimentar fluctuaciones en su valor, el enfoque diversificado de inversión busca mitigar los riesgos y maximizar los rendimientos a mediano plazo. Es importante recordar que todos los fondos mutuos conllevan cierto nivel de riesgo, por lo que es fundamental entender y estar cómodo con este aspecto antes de invertir.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bci Cp Activa es a mediano y largo plazo, idealmente más de 3 a 5 años. Esto se debe a que, al ser un fondo mixto, su estrategia está diseñada para generar retornos consistentes a lo largo del tiempo, por lo que se espera que los resultados sean más favorables a medida que se mantenga la inversión a largo plazo.\n\nEn resumen, el Fondo Mutuo Bci Cp Activa ofrece una combinación equilibrada de seguridad y potencial de crecimiento para inversionistas con un perfil de riesgo medio. Si buscas una alternativa diversificada y buscas maximizar tus inversiones a mediano y largo plazo, este fondo podría ser una opción a considerar. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión importantes.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9060-3",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI CP ACTIVA",
+    "full_id": "96767630_9060-3",
+    "source": "javascript"
+  }
+}

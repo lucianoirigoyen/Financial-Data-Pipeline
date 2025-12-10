@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fmlv ahorro dólar",
+  "nombre": "Fmlv Ahorro Dólar",
+  "nombre_cmf": "FMLV AHORRO DÓLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Fmlv Ahorro Dólar es una alternativa de inversión mixta diseñada para aquellos inversores que buscan un equilibrio entre riesgo y rentabilidad. Este tipo de fondo invierte en una combinación de activos de renta fija y renta variable, tanto en pesos chilenos como en dólares, lo que brinda una diversificación que puede ayudar a mitigar los riesgos asociados con la volatilidad de los mercados.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de riesgo en busca de mayores rendimientos, pero que también valoran la estabilidad de su inversión. Si eres un joven inversor chileno que tiene un horizonte de inversión a mediano plazo y buscas una opción que te permita diversificar tu cartera sin exponerte a un riesgo extremo, el Fmlv Ahorro Dólar podría ser una buena alternativa para ti.\n\nEn cuanto a los activos en los que invierte este fondo, lamentablemente la información sobre su composición principal no está disponible públicamente. Sin embargo, es probable que esté compuesto por una combinación de bonos, acciones y otros instrumentos financieros tanto en moneda local como extranjera.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio entre la alta rentabilidad potencial de los activos de renta variable y la estabilidad de los activos de renta fija. Esto significa que, si bien existe la posibilidad de obtener ganancias significativas, también hay un nivel de incertidumbre asociado a la fluctuación de los mercados que puede afectar el valor de tu inversión.\n\nSe recomienda un horizonte de inversión a mediano plazo para este fondo, ya que esto permite aprovechar al máximo las oportunidades de crecimiento a largo plazo que ofrece la combinación de activos en los que invierte. Es importante recordar que, en el mundo de las inversiones, la paciencia y la disciplina suelen ser clave para obtener resultados satisfactorios.\n\nEntre las ventajas de este fondo se encuentran la diversificación que ofrece al invertir en distintos tipos de activos, lo que puede reducir el riesgo total de la cartera. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a su composición principal, lo que podría dificultar la evaluación precisa de los riesgos asociados.\n\nEn resumen, el Fmlv Ahorro Dólar es una opción a considerar para jóvenes inversores chilenos con un perfil de riesgo medio que buscan",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9221-5",
+    "rut_admin": "96767630",
+    "nombre": "FMLV AHORRO DÓLAR",
+    "full_id": "96767630_9221-5",
+    "source": "javascript"
+  }
+}

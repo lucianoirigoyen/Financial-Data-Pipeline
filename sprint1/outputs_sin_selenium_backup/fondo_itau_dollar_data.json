@@ -1,0 +1,23 @@
+{
+  "fondo_id": "itau dollar",
+  "nombre": "Itau Dollar",
+  "nombre_cmf": "ITAU DOLLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Itau Dollar es una opción de inversión mixta que combina activos de renta fija y renta variable con el objetivo de obtener rendimientos atractivos. Su estrategia de inversión se basa en diversificar el portafolio para reducir el riesgo y aprovechar las oportunidades que ofrecen los mercados tanto locales como internacionales. Esto significa que el fondo invierte en una variedad de instrumentos financieros, como bonos, acciones, y otros activos, tanto en pesos chilenos como en dólares.\n\nEste fondo está dirigido a inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener rendimientos superiores a los instrumentos de renta fija tradicionales. Es ideal para aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores ganancias a mediano y largo plazo.\n\nEn cuanto a los activos en los que invierte, la composición principal específica del fondo Itau Dollar no está disponible públicamente. Sin embargo, como mencionamos anteriormente, se espera que diversifique su cartera entre distintos tipos de instrumentos financieros para maximizar los rendimientos y reducir el riesgo.\n\nEn términos simples, el nivel de riesgo de este fondo puede compararse con el de una cartera equilibrada. Aunque existe la posibilidad de que el valor de la inversión fluctúe en el corto plazo debido a los movimientos del mercado, a largo plazo se espera que genere retornos atractivos. Es importante tener en cuenta que, al tratarse de un fondo mixto, la volatilidad puede ser mayor que en fondos de renta fija, pero también se espera que los rendimientos potenciales sean más altos.\n\nEl horizonte de inversión recomendado para el fondo Itau Dollar es a mediano y largo plazo, ya que así se pueden aprovechar los ciclos económicos y permitir que la estrategia de diversificación alcance su máximo potencial. Es importante tener paciencia y estar preparado para mantener la inversión durante varios años para obtener los mejores resultados.\n\nEn resumen, el fondo Itau Dollar ofrece a los inversores la oportunidad de diversificar su cartera y acceder a distintos mercados con un nivel de riesgo medio. Aunque puede experimentar fluctuaciones en el corto plazo, se espera que a largo plazo genere retornos atractivos. Se recomienda a los inversores con un perfil moderado y un horizonte de inversión a mediano y largo plazo considerar este fondo como parte de su estrategia de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8236-8",
+    "rut_admin": "96767630",
+    "nombre": "ITAU DOLLAR",
+    "full_id": "96767630_8236-8",
+    "source": "javascript"
+  }
+}

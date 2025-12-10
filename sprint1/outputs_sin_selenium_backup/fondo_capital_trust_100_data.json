@@ -1,0 +1,23 @@
+{
+  "fondo_id": "capital trust 100",
+  "nombre": "Capital Trust 100",
+  "nombre_cmf": "CAPITAL TRUST 100",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo de inversión Capital Trust 100 es una excelente opción para aquellos inversores que buscan una estrategia conservadora con un bajo nivel de riesgo. Este fondo se enfoca en preservar el capital de los inversionistas a través de la inversión en activos de bajo riesgo, como bonos del gobierno o instrumentos de renta fija de alta calidad. Aunque la composición exacta del fondo no está disponible públicamente, su objetivo principal es generar rendimientos estables y predecibles a lo largo del tiempo.\n\nEste tipo de fondo es ideal para inversores con un perfil conservador que prefieren evitar grandes fluctuaciones en el valor de sus inversiones. Si eres un joven inversor que valora la seguridad y la estabilidad por encima de la posibilidad de altas ganancias a corto plazo, el Capital Trust 100 puede ser una excelente opción para ti. Es importante tener en cuenta que, si bien este fondo ofrece una menor rentabilidad potencial en comparación con fondos más arriesgados, también presenta un menor riesgo de pérdida de capital.\n\nEn términos simples, el Capital Trust 100 invierte principalmente en activos de bajo riesgo, como bonos del gobierno o instrumentos de renta fija de alta calidad. Estos activos suelen ser más estables y menos volátiles que otros tipos de inversiones, lo que contribuye a la baja exposición al riesgo de este fondo. Aunque la rentabilidad a corto plazo puede ser menor en comparación con fondos más agresivos, la estabilidad y seguridad que ofrece el Capital Trust 100 son sus principales ventajas.\n\nEn cuanto al horizonte de inversión recomendado, es importante tener en cuenta que este tipo de fondo está diseñado para un plazo a medio o largo plazo. Si tienes metas financieras a corto plazo, es posible que este fondo no sea la mejor opción, ya que su enfoque conservador puede limitar el potencial de ganancias a corto plazo. Sin embargo, si buscas una inversión segura y estable para el futuro, el Capital Trust 100 puede ser una excelente alternativa.\n\nEn resumen, el Capital Trust 100 es un fondo conservador con un bajo nivel de riesgo, ideal para inversores jóvenes que valoran la estabilidad y la seguridad en sus inversiones a largo plazo. Aunque su rentabilidad puede ser más modesta en comparación con fondos más arriesgados, su enfoque en la preservación del capital lo convierte en una opción atractiva para aquellos que buscan minimizar el riesgo en sus carteras de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8334-8",
+    "rut_admin": "96767630",
+    "nombre": "CAPITAL TRUST 100",
+    "full_id": "96767630_8334-8",
+    "source": "javascript"
+  }
+}

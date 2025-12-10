@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci est inv ufii",
+  "nombre": "Fm Bci Est Inv Ufii",
+  "nombre_cmf": "FM BCI EST INV UFII",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo BCI Estabilidad de Inversión en Unidades de Fomento II (Fm Bci Est Inv Ufii) es una opción de inversión mixta que combina activos de renta fija y variable. Su estrategia busca mantener un equilibrio entre la estabilidad proporcionada por los instrumentos de renta fija y el potencial de crecimiento de los activos de renta variable. Esto significa que, si bien puede obtenerse un rendimiento atractivo, se busca minimizar el riesgo al diversificar las inversiones en diferentes clases de activos.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener ganancias a mediano plazo. Si estás dispuesto a asumir un riesgo moderado para obtener un rendimiento potencialmente superior al de un instrumento de renta fija tradicional, este fondo puede ser una buena opción para ti.\n\nLa composición exacta de los activos en los que invierte el Fm Bci Est Inv Ufii no está disponible, pero típicamente incluirá bonos, acciones y otros instrumentos financieros. La diversificación de estos activos ayuda a mitigar el riesgo, ya que si un sector o empresa en particular experimenta dificultades, no afectará de manera significativa el rendimiento total del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. No es tan conservador como un fondo exclusivamente de renta fija, pero tampoco tan arriesgado como un fondo de renta variable pura. Esto significa que existe la posibilidad de obtener un rendimiento superior al de una inversión tradicional, pero también se asume un cierto nivel de volatilidad en el valor de la inversión.\n\nEl horizonte de inversión recomendado para el Fm Bci Est Inv Ufii es a mediano plazo, generalmente entre 3 a 5 años. Esto se debe a que la estrategia del fondo busca obtener ganancias a través de la combinación de activos de renta fija y variable, lo que puede llevar tiempo para madurar y ver los resultados.\n\nEn cuanto a ventajas, este fondo ofrece la posibilidad de obtener un rendimiento atractivo con un riesgo moderado, ideal para inversores que buscan equilibrar seguridad y potencial de crecimiento. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta de los activos, lo que puede dificultar la evaluación detallada de la cartera.\n\nEn resumen, el Fm Bci Est Inv Ufii es una opción interesante",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10499-K",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI EST INV UFII",
+    "full_id": "96767630_10499-K",
+    "source": "javascript"
+  }
+}

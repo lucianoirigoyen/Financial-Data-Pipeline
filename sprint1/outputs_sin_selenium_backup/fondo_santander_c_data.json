@@ -1,0 +1,23 @@
+{
+  "fondo_id": "santander c",
+  "nombre": "Santander C",
+  "nombre_cmf": "SANTANDER C",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Santander C es una excelente opción para los jóvenes inversores chilenos que buscan un equilibrio entre riesgo y retorno. Este fondo pertenece a la categoría mixta, lo que significa que combina inversiones tanto en renta variable como en renta fija, permitiendo diversificar el riesgo y aprovechar oportunidades en diferentes clases de activos. Su perfil de riesgo se considera medio, lo que implica que puede tener fluctuaciones en su valor, pero con potencial de obtener rendimientos atractivos a largo plazo.\n\nEste fondo es adecuado para inversionistas que buscan un equilibrio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Si eres un joven inversor que está dispuesto a asumir un nivel moderado de riesgo en busca de mayores retornos, Santander C puede ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, la composición principal del fondo no está disponible públicamente, pero se espera que esté diversificado en distintos sectores y regiones para reducir el riesgo específico. Esto significa que tu dinero estará distribuido en una variedad de empresas, bonos y otros instrumentos financieros, lo que ayuda a mitigar el impacto de posibles eventos adversos en un solo activo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Esto significa que, si bien puede experimentar ciertas fluctuaciones en su valor, no se espera que sea tan volátil como fondos de renta variable pura. Es importante recordar que ningún fondo está exento de riesgos, pero el nivel de riesgo de Santander C es considerado moderado.\n\nEl horizonte de inversión recomendado para este fondo es a medio o largo plazo, idealmente más de cinco años. Esto se debe a que las inversiones mixtas tienden a tener un mejor desempeño en el largo plazo, ya que el tiempo permite amortiguar posibles caídas del mercado y aprovechar el potencial de crecimiento de las inversiones en renta variable.\n\nEn cuanto a ventajas y desventajas, es importante tener en cuenta que el rendimiento pasado no garantiza resultados futuros, y en el caso de Santander C, al no contar con información sobre la rentabilidad de los últimos 12 meses, es fundamental evaluar otros aspectos como la reputación de la gestora y la diversificación del fondo. Una posible desventaja podría ser la falta de transparencia en la composición del portafolio, lo que dificulta conocer exactamente en qué activos se está invirtiendo.\n\nEn resumen, Santander C es un fondo mixto con un nivel",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8578-2",
+    "rut_admin": "96767630",
+    "nombre": "SANTANDER C",
+    "full_id": "96767630_8578-2",
+    "source": "javascript"
+  }
+}

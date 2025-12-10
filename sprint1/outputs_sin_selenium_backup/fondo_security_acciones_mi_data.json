@@ -1,0 +1,23 @@
+{
+  "fondo_id": "security acciones mi",
+  "nombre": "Security Acciones Mi",
+  "nombre_cmf": "SECURITY ACCIONES MI",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo Security Acciones Mi es una alternativa de inversión agresiva diseñada para aquellos inversores que buscan maximizar sus rendimientos a largo plazo asumiendo un riesgo elevado. Su estrategia de inversión se enfoca en adquirir principalmente acciones de empresas con alto potencial de crecimiento y rentabilidad en el mercado chileno. Esto significa que el fondo busca obtener ganancias significativas mediante la compra y venta de acciones de compañías con perspectivas de crecimiento sólidas.\n\nEste fondo es adecuado para inversionistas con un alto perfil de riesgo que buscan obtener rendimientos superiores a través de la inversión en acciones. Es importante tener en cuenta que, dada su naturaleza agresiva, este tipo de inversión puede experimentar fluctuaciones significativas en el corto plazo, por lo que se recomienda a aquellos inversores jóvenes con un horizonte de inversión a largo plazo y que estén dispuestos a tolerar la volatilidad del mercado.\n\nEn cuanto a los activos en los que invierte, el fondo Security Acciones Mi se enfoca principalmente en acciones de empresas chilenas con potencial de crecimiento. Por ejemplo, podría invertir en empresas líderes en sectores como tecnología, energía o servicios financieros, buscando capitalizar el crecimiento de dichas compañías en el mercado local.\n\nEn términos simples, el nivel de riesgo de este fondo se puede equiparar a montar una montaña rusa: las ganancias pueden ser emocionantes, pero también pueden haber caídas bruscas. Es importante tener en cuenta que, si bien el fondo tiene el potencial de generar altos rendimientos, también existe la posibilidad de sufrir pérdidas significativas en momentos de volatilidad del mercado.\n\nEl horizonte de inversión recomendado para el fondo Security Acciones Mi es a largo plazo, idealmente más de cinco años. Esto se debe a que, dado su enfoque agresivo, las inversiones en acciones requieren tiempo para madurar y generar rendimientos consistentes. Por lo tanto, es importante tener paciencia y mantener una visión a largo plazo al invertir en este tipo de fondos.\n\nEn resumen, el fondo Security Acciones Mi ofrece la oportunidad de obtener altos rendimientos a través de la inversión en acciones de empresas chilenas con potencial de crecimiento. Sin embargo, es importante tener en cuenta el alto nivel de riesgo asociado y estar preparado para enfrentar la volatilidad del mercado. Se recomienda a los inversores jóvenes con un alto perfil de riesgo y un horizonte de inversión a largo plazo considerar este fondo como parte de una cartera diversificada.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8307-0",
+    "rut_admin": "96767630",
+    "nombre": "SECURITY ACCIONES MI",
+    "full_id": "96767630_8307-0",
+    "source": "javascript"
+  }
+}

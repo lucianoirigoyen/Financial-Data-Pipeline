@@ -1,0 +1,23 @@
+{
+  "fondo_id": "seleccion japon",
+  "nombre": "Seleccion Japon",
+  "nombre_cmf": "SELECCION JAPON",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Seleccion Japon es una opción de inversión mixta que combina activos de renta fija y renta variable en el mercado japonés. Su estrategia busca obtener ganancias a través de la diversificación en diferentes sectores de la economía japonesa, aprovechando las oportunidades de crecimiento y estabilidad que ofrece este mercado.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, que buscan un equilibrio entre la seguridad de los activos de renta fija y el potencial de crecimiento de la renta variable. Es importante destacar que, si bien el riesgo es moderado, como en cualquier inversión en el mercado de capitales, existe la posibilidad de pérdidas.\n\nLos principales activos en los que invierte el fondo Seleccion Japon pueden incluir acciones de empresas japonesas, bonos del gobierno japonés y otros instrumentos financieros del mercado japonés. Esta diversificación contribuye a mitigar el riesgo y a maximizar los rendimientos a largo plazo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, ya que combina activos de distintas clases y sectores. Aunque no es tan arriesgado como invertir exclusivamente en acciones, tampoco es tan conservador como hacerlo solo en bonos. Es fundamental que los inversionistas comprendan que, si bien el riesgo es moderado, existen fluctuaciones en el valor de los activos que pueden afectar el rendimiento de la inversión.\n\nEl horizonte de inversión recomendado para el fondo Seleccion Japon es a mediano y largo plazo, ya que permite capitalizar el potencial de crecimiento de la economía japonesa y beneficiarse de la diversificación de activos a lo largo del tiempo. Es importante tener paciencia y mantener una visión a largo plazo para obtener los mejores resultados.\n\nUna ventaja de este fondo es su diversificación en el mercado japonés, que puede ofrecer oportunidades de crecimiento interesantes. Sin embargo, una posible desventaja es la falta de información detallada sobre la composición principal de sus activos, lo que puede dificultar la evaluación de su desempeño.\n\nEn resumen, el fondo Seleccion Japon es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar sus inversiones en el mercado japonés. Se recomienda a los inversores jóvenes que tengan un horizonte de inversión a mediano y largo plazo y que estén dispuestos a asumir cierto nivel de riesgo en busca de mayores rendimientos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8564-2",
+    "rut_admin": "96767630",
+    "nombre": "SELECCION JAPON",
+    "full_id": "96767630_8564-2",
+    "source": "javascript"
+  }
+}

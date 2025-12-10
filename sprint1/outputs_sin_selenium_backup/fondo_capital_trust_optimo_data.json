@@ -1,0 +1,23 @@
+{
+  "fondo_id": "capital trust optimo",
+  "nombre": "Capital Trust Optimo",
+  "nombre_cmf": "CAPITAL TRUST OPTIMO",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo de inversión Capital Trust Optimo se caracteriza por ser una alternativa conservadora para aquellos inversores que buscan preservar su capital y obtener rendimientos estables a lo largo del tiempo. Su estrategia de inversión se enfoca en activos financieros de bajo riesgo, como bonos del Estado chileno o depósitos a plazo, lo que le otorga una mayor estabilidad a la cartera.\n\nEste fondo es ideal para aquellos inversionistas que prefieren asumir un riesgo bajo en sus inversiones. Por lo tanto, se recomienda para personas que buscan una inversión segura y predecible, sin grandes fluctuaciones en el valor de su patrimonio. Si eres un joven inversor que valora la estabilidad y la tranquilidad en tus inversiones, el Capital Trust Optimo puede ser una excelente opción para ti.\n\nEn cuanto a los activos en los que invierte, el fondo no especifica su composición principal, pero se sabe que se orienta hacia activos de renta fija de bajo riesgo. Esto significa que gran parte de los recursos se destinan a bonos emitidos por entidades sólidas y seguras, lo que contribuye a la estabilidad de la cartera.\n\nEn términos simples, el nivel de riesgo asociado al Capital Trust Optimo es bajo, lo que implica que el potencial de pérdida es limitado, pero también lo es el potencial de ganancia en comparación con fondos más arriesgados. Es como guardar tu dinero en una alcancía en lugar de invertirlo en acciones de empresas, donde los movimientos del mercado pueden ser más volátiles.\n\nEl horizonte de inversión recomendado para este fondo es a mediano o largo plazo, ya que su estrategia conservadora busca generar rendimientos de manera sostenida en el tiempo. Si estás pensando en invertir en el Capital Trust Optimo, es importante tener una visión a largo plazo y no dejarse llevar por fluctuaciones a corto plazo en el mercado.\n\nEn resumen, el Capital Trust Optimo es una opción adecuada para inversionistas que buscan seguridad y estabilidad en sus inversiones, dispuestos a sacrificar potenciales altas ganancias a cambio de un menor riesgo. Si te identificas con este perfil de inversor y buscas una alternativa conservadora, este fondo puede ser una buena elección para formar parte de tu cartera de inversiones a largo plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8528-6",
+    "rut_admin": "96767630",
+    "nombre": "CAPITAL TRUST OPTIMO",
+    "full_id": "96767630_8528-6",
+    "source": "javascript"
+  }
+}

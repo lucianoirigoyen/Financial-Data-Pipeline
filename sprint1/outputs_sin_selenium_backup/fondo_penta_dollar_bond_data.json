@@ -1,0 +1,23 @@
+{
+  "fondo_id": "penta dollar bond",
+  "nombre": "Penta Dollar Bond",
+  "nombre_cmf": "PENTA DOLLAR BOND",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Penta Dollar Bond es una opción de inversión mixta que busca combinar la estabilidad de bonos con el potencial de crecimiento de acciones en el mercado estadounidense. Su estrategia se enfoca en diversificar el riesgo al invertir en una combinación de instrumentos de renta fija y variable en dólares, lo que puede ayudar a mitigar las fluctuaciones del mercado y brindar cierta estabilidad a la cartera.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la generación de rendimientos y la preservación del capital a mediano plazo. Si eres un joven inversor chileno que desea tener exposición al mercado internacional sin asumir un nivel alto de riesgo, el Penta Dollar Bond podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente, pero se espera que tenga una combinación de bonos corporativos, bonos del gobierno de EE. UU. y posiblemente acciones de empresas estadounidenses. Esto proporciona una diversificación geográfica y sectorial que puede ayudar a reducir el riesgo de concentración en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, ya que si bien las inversiones en bonos suelen ser menos volátiles que las acciones, la presencia de activos de renta variable puede introducir cierto grado de riesgo adicional. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles fluctuaciones en el valor de la inversión.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas mantengan sus fondos en el Penta Dollar Bond por al menos 3 a 5 años. Esto se debe a que, al tratarse de un fondo mixto con exposición a diferentes clases de activos, es probable que se requiera un período más prolongado para que la estrategia de inversión dé sus frutos y se puedan superar posibles fluctuaciones a corto plazo.\n\nEn resumen, el fondo Penta Dollar Bond ofrece a los jóvenes inversores chilenos una oportunidad para diversificar su cartera con una combinación de bonos y acciones en dólares, con un nivel de riesgo medio. Si bien presenta ventajas en términos de diversificación y estabilidad, es importante tener en cuenta que las fluctuaciones del mercado podrían afectar su rendimiento a corto plazo. Por lo tanto, se recomienda a aquellos con un",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8322-4",
+    "rut_admin": "96767630",
+    "nombre": "PENTA DOLLAR BOND",
+    "full_id": "96767630_8322-4",
+    "source": "javascript"
+  }
+}

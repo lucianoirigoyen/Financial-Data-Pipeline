@@ -1,0 +1,82 @@
+{
+  "fondo_id": "global investment",
+  "nombre": "FONDO DE INVERSION BANCHILE DEUDA GLOBAL INVESTMENT GRADE",
+  "nombre_cmf": "Información de Fiscalizados y otras instituciones registradas",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo de Inversión Banchile Deuda Global Investment Grade es una alternativa de inversión mixta que busca obtener rendimientos a través de la diversificación en instrumentos financieros de deuda global con calificación de inversión. En términos simples, este fondo invierte en bonos de empresas y gobiernos de países desarrollados, priorizando aquellos con una alta calificación crediticia, lo que reduce el riesgo de impago.\n\nEste tipo de fondo es adecuado para inversores con un perfil de riesgo medio que buscan un equilibrio entre la seguridad y la rentabilidad. Si eres un joven inversor chileno que busca mantener un nivel de riesgo controlado mientras buscas un retorno por encima del promedio de los instrumentos de renta fija locales, este fondo podría ser una opción interesante para ti.\n\nEn cuanto a los activos en los que invierte, el fondo se centra en bonos emitidos por empresas y gobiernos de países con alta solidez económica, como Estados Unidos o Alemania. Esto brinda una mayor estabilidad a la cartera, aunque también limita el potencial de ganancias en comparación con fondos más arriesgados.\n\nEn términos de riesgo, este fondo se considera de nivel medio porque, si bien invierte en instrumentos con calificación de inversión, no está exento de riesgos de mercado y de fluctuaciones en los tipos de interés. Sin embargo, al diversificar en bonos de diferentes emisores y sectores, se busca minimizar el impacto de posibles eventos adversos.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener una visión a mediano o largo plazo, ya que así se pueden aprovechar las oportunidades de crecimiento y recuperar posibles pérdidas a lo largo del tiempo. Es importante tener en cuenta que, como en toda inversión, pueden existir periodos de volatilidad que requieran paciencia y disciplina por parte del inversor.\n\nEntre las ventajas de este fondo se encuentra su enfoque en activos de bajo riesgo crediticio, lo que brinda cierta estabilidad a la cartera, así como la diversificación internacional que puede ayudar a reducir la exposición al riesgo local. Sin embargo, una posible desventaja podría ser la limitación en el potencial de ganancias en comparación con fondos de mayor riesgo.\n\nEn resumen, el Fondo de Inversión Banchile Deuda Global Investment Grade es una opción interesante para jóvenes inversores chilenos que buscan un equilibrio entre seguridad y rentabilidad, con un horizonte de inversión a mediano o largo plazo. Es importante recordar que, como en toda invers",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "symbol": "FINV-9318",
+  "category": "investment_fund",
+  "currency": null,
+  "run": "9318-1",
+  "rut_base": "9318",
+  "conceptual_asset_id": "2834",
+  "data_source": "http://www.cmfchile.cl",
+  "series": [
+    {
+      "serie": "UNICA",
+      "name": "FONDO DE INVERSION BANCHILE DEUDA GLOBAL INVESTMENT GRADE",
+      "symbol": "FINV-9318-UNICA",
+      "valor_cuota": null,
+      "fecha_valor_cuota": null,
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    },
+    {
+      "serie": "BCH",
+      "name": "FONDO DE INVERSION BANCHILE DEUDA GLOBAL INVESTMENT GRADE",
+      "symbol": "FINV-9318-BCH",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2025-12-03",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    },
+    {
+      "serie": "A",
+      "name": "FONDO DE INVERSION BANCHILE DEUDA GLOBAL INVESTMENT GRADE",
+      "symbol": "FINV-9318-A",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2025-12-03",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    },
+    {
+      "serie": "BPLUS",
+      "name": "FONDO DE INVERSION BANCHILE DEUDA GLOBAL INVESTMENT GRADE",
+      "symbol": "FINV-9318-BPLUS",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2025-12-03",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    }
+  ],
+  "rut_cmf": "9318",
+  "rut_completo_cmf": null,
+  "url_cmf": "https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=9318&tipoentidad=RGFMU",
+  "cmf_fund_info": {
+    "rut": "9318",
+    "rut_completo": null,
+    "nombre": "Información de Fiscalizados y otras instituciones registradas",
+    "url_cmf": "https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=9318&tipoentidad=RGFMU",
+    "fuente": "cmf_directo"
+  },
+  "fecha_valor_cuota": "2021-10-22",
+  "estado_fondo": "Desconocido"
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "consorcio ahorro nom",
+  "nombre": "Consorcio Ahorro Nom",
+  "nombre_cmf": "CONSORCIO AHORRO NOM",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Consorcio Ahorro Nom es una opción de inversión mixta que combina activos de renta fija y variable, buscando un equilibrio entre riesgo y retorno. Su estrategia de inversión se centra en diversificar el portafolio para maximizar ganancias a largo plazo, manteniendo un nivel de riesgo moderado. Esto significa que parte de los fondos se invierten en instrumentos de renta fija como bonos y depósitos a plazo, mientras que otra parte se destina a activos de renta variable como acciones.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, aquellos que buscan obtener rendimientos superiores a los de una cuenta de ahorro tradicional, sin asumir un nivel de riesgo elevado. Es ideal para quienes buscan un equilibrio entre seguridad y potencial de crecimiento en sus inversiones a mediano y largo plazo.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible, pero se puede esperar una diversificación en bonos, acciones y posiblemente otros instrumentos financieros. Esto permite al fondo aprovechar oportunidades en distintos mercados, minimizando el impacto de eventos adversos en un solo tipo de activo.\n\nEl nivel de riesgo de Consorcio Ahorro Nom se sitúa en un punto intermedio, lo que implica que existe la posibilidad de obtener mayores ganancias que con inversiones más conservadoras, pero también implica un riesgo moderado de pérdida de capital en periodos de volatilidad del mercado. Es importante recordar que todo tipo de inversión conlleva cierto nivel de riesgo, por lo que es esencial diversificar y tener una estrategia a largo plazo.\n\nEn términos simples, el horizonte de inversión recomendado para este fondo es a mediano y largo plazo, ya que la estrategia de inversión busca maximizar ganancias a lo largo del tiempo, aprovechando el potencial de crecimiento de los activos en los que invierte. Es importante tener paciencia y no dejarse llevar por movimientos temporales del mercado.\n\nEntre las ventajas de este fondo se encuentran la diversificación de activos, que ayuda a reducir el riesgo, y la posibilidad de obtener rendimientos superiores a una inversión conservadora. Sin embargo, una posible desventaja podría ser la falta de información detallada sobre la composición del portafolio, lo que puede dificultar la evaluación precisa de su desempeño.\n\nEn resumen, el Consorcio Ahorro Nom es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8532-4",
+    "rut_admin": "96767630",
+    "nombre": "CONSORCIO AHORRO NOM",
+    "full_id": "96767630_8532-4",
+    "source": "javascript"
+  }
+}

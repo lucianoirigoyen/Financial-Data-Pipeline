@@ -1,0 +1,23 @@
+{
+  "fondo_id": "deuda flexible",
+  "nombre": "Deuda Flexible",
+  "nombre_cmf": "DEUDA FLEXIBLE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Deuda Flexible es una opción de inversión mixta que combina activos de renta fija y variable, diseñado para inversores con un perfil de riesgo medio. Su estrategia se basa en adaptar la cartera a las condiciones del mercado, permitiendo flexibilidad en la asignación de activos. Esto significa que el fondo puede ajustar su composición para aprovechar oportunidades y gestionar riesgos de forma dinámica.\n\nEste fondo es adecuado para inversores que buscan un equilibrio entre riesgo y retorno, ya que combina la estabilidad de la renta fija con el potencial de crecimiento de la renta variable. Es ideal para aquellos que desean diversificar su cartera y están dispuestos a asumir un nivel moderado de riesgo en busca de mayores rendimientos a mediano plazo.\n\nEn términos simples, los principales activos en los que invierte el fondo Deuda Flexible pueden incluir bonos corporativos, bonos del gobierno, acciones de empresas locales e internacionales, entre otros. Esta diversificación contribuye a reducir la exposición a riesgos específicos de una sola clase de activo, brindando mayor estabilidad a la cartera.\n\nEn cuanto al nivel de riesgo, el fondo Deuda Flexible se considera de riesgo medio debido a su combinación de activos de distintas clases. Si bien no es tan conservador como un fondo de renta fija pura, tampoco es tan agresivo como un fondo de renta variable. Esto implica que, si bien existe una posibilidad de pérdida, se espera que sea moderada en comparación con fondos de mayor riesgo.\n\nSe recomienda un horizonte de inversión a mediano plazo para este fondo, ya que permite aprovechar el potencial de crecimiento de los activos de renta variable, sin comprometer la estabilidad que brindan los activos de renta fija. Es importante tener en cuenta que, como en cualquier inversión, los resultados a corto plazo pueden variar, por lo que la paciencia y la disciplina son clave.\n\nEntre las ventajas del fondo Deuda Flexible se encuentran la diversificación de la cartera, la posibilidad de obtener rendimientos superiores a la renta fija tradicional y la gestión activa por parte de profesionales especializados. No obstante, es importante considerar que el rendimiento no está garantizado y que las fluctuaciones del mercado pueden afectar el valor de la inversión.\n\nEn resumen, el fondo Deuda Flexible es una opción atractiva para inversores con un perfil de riesgo medio que buscan diversificar su cartera y obtener un equilibrio entre estabilidad y potencial de crecimiento. Se recomienda consultar con un",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8251-1",
+    "rut_admin": "96767630",
+    "nombre": "DEUDA FLEXIBLE",
+    "full_id": "96767630_8251-1",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "garant.seleccion con",
+  "nombre": "Garant.Seleccion Con",
+  "nombre_cmf": "GARANT.SELECCION CON",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Garant.Seleccion Con es una opción de inversión mixta dirigida a aquellos inversores chilenos que buscan un equilibrio entre riesgo y potencial retorno. Este tipo de fondo combina activos de renta fija y renta variable para diversificar la cartera y buscar rendimientos atractivos en diferentes escenarios del mercado.\n\nPara un perfil de riesgo medio, este fondo puede ser adecuado ya que ofrece la posibilidad de obtener ganancias superiores a las inversiones conservadoras, sin exponerse a riesgos extremadamente altos. Es ideal para inversores que buscan un crecimiento moderado de su capital a mediano plazo, sin asumir una volatilidad excesiva en su portafolio.\n\nEn cuanto a los activos en los que invierte el fondo, la información disponible no detalla la composición principal. Sin embargo, es probable que incluya una combinación de bonos, acciones y otros instrumentos financieros que permitan diversificar el riesgo y aprovechar oportunidades en distintos mercados.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con manejar un automóvil en una carretera conocida y en buenas condiciones. Si bien siempre existe la posibilidad de un imprevisto, se espera que el viaje sea tranquilo y sin sobresaltos significativos.\n\nEl horizonte de inversión recomendado para el fondo Garant.Seleccion Con es de al menos 3 a 5 años. Esto se debe a que la estrategia de inversión mixta requiere tiempo para que sus activos se desempeñen y generen rendimientos consistentes. Los inversores que elijan este fondo deben estar dispuestos a mantener su inversión a mediano plazo para aprovechar su potencial de crecimiento.\n\nEntre las ventajas de este fondo se encuentra la posibilidad de obtener rendimientos superiores a los productos de renta fija tradicionales, sin asumir un riesgo excesivo. Sin embargo, una posible desventaja podría ser que en períodos de alta volatilidad del mercado, la rentabilidad del fondo pueda fluctuar más de lo esperado, lo cual podría generar incertidumbre en algunos inversores.\n\nEn resumen, el fondo Garant.Seleccion Con es una alternativa atractiva para inversores con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos moderados a mediano plazo. Se recomienda a los inversores jóvenes que deseen dar sus primeros pasos en el mundo de las inversiones, siempre evaluando su tolerancia al riesgo y manteniendo un horizonte de inversión adecuado.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8810-2",
+    "rut_admin": "96767630",
+    "nombre": "GARANT.SELECCION CON",
+    "full_id": "96767630_8810-2",
+    "source": "javascript"
+  }
+}

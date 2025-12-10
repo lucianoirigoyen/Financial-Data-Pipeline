@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch deposito uf i",
+  "nombre": "Fm Bch Deposito Uf I",
+  "nombre_cmf": "FM BCH DEPOSITO UF I",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch Depósito UF I es una opción de inversión mixta que combina activos de renta fija y variable, buscando un equilibrio entre seguridad y potencial de crecimiento. Su estrategia se centra en invertir en instrumentos financieros que sigan la evolución de la Unidad de Fomento (UF) en Chile, ofreciendo así cierta estabilidad en un entorno de inflación.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener un rendimiento superior al de un depósito a plazo. Si eres un joven inversor que está dispuesto a asumir cierto grado de riesgo en busca de mayores retornos, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la información disponible no especifica la composición principal del fondo. Sin embargo, al tratarse de un fondo mixto, es probable que incluya bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos de deuda emitidos por el Estado chileno.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de caminar por una calle transitada en lugar de cruzar una autopista. Aunque no está exento de volatilidad, su enfoque diversificado y su exposición a diferentes tipos de activos ayudan a mitigar el riesgo en comparación con inversiones más agresivas.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bch Depósito UF I es a medio plazo, es decir, entre 3 y 5 años. Esto se debe a que, al combinar activos de renta fija y variable, el fondo puede necesitar tiempo para mostrar su verdadero potencial de crecimiento y recuperarse de posibles fluctuaciones a corto plazo.\n\nVentajas de este fondo incluyen la posibilidad de obtener rendimientos superiores a los depósitos a plazo, diversificación de la cartera y gestión profesional de los activos. Por otro lado, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de la cartera, lo que puede limitar la capacidad de los inversores para evaluar el riesgo.\n\nEn resumen, el Fondo Mutuo Bch Depósito UF I es una opción interesante para jóvenes inversores chilenos con un perfil de riesgo medio que buscan diversificar su cartera y obtener potencial de crecimiento a mediano plazo. Es importante recordar siempre consultar con un asesor financiero antes de tomar decisiones de inversión y mantenerse inform",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10377-2",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH DEPOSITO UF I",
+    "full_id": "96767630_10377-2",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "investis usa",
+  "nombre": "Investis Usa",
+  "nombre_cmf": "INVESTIS USA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Investis Usa es una opción de inversión mixta que combina activos de renta variable y renta fija en el mercado estadounidense. Su estrategia busca obtener rendimientos atractivos a través de la diversificación de su cartera, aprovechando las oportunidades que ofrece la economía de Estados Unidos. Aunque no se dispone de información detallada sobre su composición principal, se puede inferir que el fondo busca equilibrar el riesgo y la rentabilidad mediante una combinación de acciones y bonos.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la preservación del capital y la generación de retornos. Si eres un joven inversor chileno con un horizonte de inversión a mediano plazo y una tolerancia moderada al riesgo, Investis Usa podría ser una alternativa a considerar para diversificar tu cartera.\n\nLos principales activos en los que invierte este fondo mutuo probablemente incluyen acciones de empresas estadounidenses de diversos sectores, así como bonos del gobierno o corporativos emitidos en Estados Unidos. Esta diversificación sectorial y geográfica puede ayudar a mitigar el riesgo asociado a la volatilidad de los mercados.\n\nEn términos simples, el nivel de riesgo de Investis Usa se sitúa en un punto intermedio en comparación con otros fondos disponibles en el mercado. Esto significa que, si bien existe la posibilidad de obtener mayores retornos que con inversiones más conservadoras, también se asume un nivel de volatilidad mayor. Es importante tener en cuenta que el riesgo está presente en toda inversión, pero en este caso se busca mantenerlo en un rango aceptable para el perfil de riesgo medio del fondo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas consideren mantener su posición en Investis Usa a mediano plazo, con una perspectiva de al menos 3 a 5 años. Esto permite que el fondo tenga el tiempo suficiente para superar posibles fluctuaciones a corto plazo y capturar el potencial de crecimiento de las inversiones en el mercado estadounidense.\n\nAlgunas ventajas de este fondo pueden incluir la diversificación internacional que ofrece, la posibilidad de participar en el crecimiento de la economía estadounidense y la gestión profesional de la cartera por parte de expertos. Sin embargo, es importante tener en cuenta que la rentabilidad pasada no garantiza resultados futuros, y que el desconocimiento de la composición exacta del fondo puede limitar la capacidad de evaluar su desempeño.\n\nEn resumen, Investis",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8196-5",
+    "rut_admin": "96767630",
+    "nombre": "INVESTIS USA",
+    "full_id": "96767630_8196-5",
+    "source": "javascript"
+  }
+}

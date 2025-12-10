@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bonos latam",
+  "nombre": "Bonos Latam",
+  "nombre_cmf": "BONOS LATAM",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Bonos Latam es una opción de inversión mixta que combina activos de renta fija y variable en el mercado latinoamericano. Su estrategia busca diversificar el riesgo al invertir en bonos y acciones de empresas de la región, con el objetivo de obtener un rendimiento equilibrado a mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener ganancias atractivas. Si eres una persona que busca crecimiento moderado de tu dinero sin asumir riesgos extremos, Bonos Latam podría ser una opción a considerar.\n\nLos principales activos en los que invierte este fondo no están disponibles públicamente, pero en general se enfoca en bonos corporativos, bonos soberanos y acciones de empresas latinoamericanas. Esto proporciona una diversificación geográfica y sectorial que puede reducir la volatilidad de la inversión.\n\nEn términos simples, el nivel de riesgo de Bonos Latam se sitúa en un punto intermedio. Aunque las inversiones en bonos suelen ser menos volátiles que las acciones, la exposición a activos de renta variable latinoamericanos implica cierto grado de riesgo. Es importante tener en cuenta que el valor de las inversiones puede fluctuar en el corto plazo, pero se espera que, en el largo plazo, se obtenga un rendimiento positivo.\n\nEl horizonte de inversión recomendado para Bonos Latam es a mediano o largo plazo, ya que permite aprovechar el potencial de crecimiento de los mercados latinoamericanos. Si tienes un objetivo financiero a varios años vista, este fondo podría ser una opción interesante para diversificar tu cartera y potenciar tus inversiones.\n\nEn cuanto a sus ventajas, Bonos Latam ofrece la posibilidad de acceder a un portafolio diversificado de activos latinoamericanos, lo que puede reducir el riesgo asociado a la inversión en un solo país o sector. Sin embargo, una posible desventaja podría ser la volatilidad inherente a los mercados latinoamericanos, que pueden afectar temporalmente el valor de la inversión.\n\nEn resumen, Bonos Latam es un fondo mixto adecuado para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera con activos latinoamericanos. Si buscas un equilibrio entre seguridad y potencial de crecimiento a mediano o largo plazo, este fondo podría ser una opción a considerar. Recuerda siempre consultar con un asesor financiero antes de realizar cualquier inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8502-2",
+    "rut_admin": "96767630",
+    "nombre": "BONOS LATAM",
+    "full_id": "96767630_8502-2",
+    "source": "javascript"
+  }
+}

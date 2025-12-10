@@ -1,0 +1,23 @@
+{
+  "fondo_id": "garantizado panda ii",
+  "nombre": "Garantizado Panda Ii",
+  "nombre_cmf": "GARANTIZADO PANDA II",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo Garantizado Panda II es una opción de inversión conservadora diseñada para aquellos inversores que buscan proteger su capital y obtener rendimientos estables a lo largo del tiempo. Este tipo de fondo se caracteriza por tener un bajo nivel de riesgo, lo que significa que las fluctuaciones en su valor son menores en comparación con fondos de mayor riesgo. \n\nLa estrategia de inversión de este fondo se basa en priorizar la preservación del capital de los inversores, invirtiendo en activos de bajo riesgo como bonos del gobierno chileno o depósitos a plazo. Esto significa que, si bien las ganancias potenciales pueden ser más modestas en comparación con fondos de mayor riesgo, la estabilidad y seguridad de la inversión están garantizadas en mayor medida.\n\nEste tipo de fondo es ideal para inversores con un perfil conservador, es decir, aquellos que prefieren minimizar los riesgos y priorizan la seguridad de su capital por encima de la posibilidad de obtener altas ganancias a corto plazo. Por ejemplo, una persona cercana a la jubilación que busca proteger sus ahorros o un joven inversor que recién está comenzando a adentrarse en el mundo de las inversiones y prefiere una estrategia más segura.\n\nEn cuanto a los activos en los que invierte el fondo Garantizado Panda II, la composición exacta no está disponible, pero se puede esperar que esté compuesto principalmente por instrumentos financieros de bajo riesgo, como bonos soberanos o instrumentos de renta fija de alta calidad crediticia.\n\nEn términos simples, el nivel de riesgo de este fondo es bajo, lo que significa que las posibles pérdidas son mínimas en comparación con fondos de mayor riesgo. Por lo tanto, aunque las ganancias potenciales pueden ser más moderadas, la estabilidad de la inversión está garantizada en mayor medida.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo es ideal para inversores a largo plazo que buscan una estrategia de inversión segura y estable. Se recomienda mantener la inversión por un período prolongado para aprovechar al máximo la estabilidad y los rendimientos consistentes que ofrece este tipo de fondo.\n\nEn resumen, el fondo Garantizado Panda II es una excelente opción para inversores conservadores que buscan proteger su capital y obtener rendimientos estables a lo largo del tiempo. Aunque las ganancias potenciales pueden ser más modestas, la seguridad y estabilidad que ofrece este fondo son sus principales ventajas. Se recomienda este fondo para inversores con un perfil conservador y un horizonte de inversión a largo plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8624-K",
+    "rut_admin": "96767630",
+    "nombre": "GARANTIZADO PANDA II",
+    "full_id": "96767630_8624-K",
+    "source": "javascript"
+  }
+}

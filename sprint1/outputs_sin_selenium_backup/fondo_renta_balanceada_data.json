@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta balanceada",
+  "nombre": "Renta Balanceada",
+  "nombre_cmf": "RENTA BALANCEADA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Renta Balanceada es una alternativa de inversión mixta que combina activos de renta fija y variable para buscar un equilibrio entre riesgo y rentabilidad. Su estrategia se basa en diversificar el portafolio, invirtiendo en instrumentos financieros tanto de deuda como de acciones, lo que permite aprovechar oportunidades de crecimiento a la vez que se protege contra posibles caídas del mercado.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, personas que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los tradicionales depósitos a plazo o cuentas de ahorro. Si estás dispuesto a asumir un nivel moderado de riesgo a cambio de potencialmente mayores ganancias, el fondo Renta Balanceada podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, el fondo Renta Balanceada no especifica una composición principal, lo que indica que tiene flexibilidad para adaptarse a las condiciones del mercado y aprovechar oportunidades en diferentes sectores y tipos de activos. Esto brinda una mayor diversificación y potencial de crecimiento para los inversionistas.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre los fondos más conservadores (como los de renta fija) y los más arriesgados (como los de renta variable pura). Esto significa que podrías experimentar variaciones en el valor de tu inversión, pero con la expectativa de obtener mayores rendimientos a largo plazo.\n\nSe recomienda un horizonte de inversión a mediano o largo plazo para el fondo Renta Balanceada, ya que así se pueden aprovechar al máximo las fluctuaciones del mercado y permitir que la estrategia de inversión diversificada pueda dar frutos. Es importante recordar que, en el mundo de las inversiones, la paciencia y la constancia suelen ser clave para obtener buenos resultados.\n\nUna ventaja de este fondo es su capacidad para adaptarse a diferentes escenarios económicos, lo que brinda cierta protección ante la volatilidad del mercado. Sin embargo, una posible desventaja podría ser que, al buscar un equilibrio entre renta fija y variable, el fondo podría no destacar en momentos en los que un tipo específico de activo tenga un desempeño excepcional.\n\nEn resumen, el fondo Renta Balanceada es una opción atractiva para aquellos inversionistas que buscan un equilibrio entre riesgo y rendimiento. Si estás dispuesto a asumir un nivel moderado de riesgo, diversificar tu portaf",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8966-4",
+    "rut_admin": "96767630",
+    "nombre": "RENTA BALANCEADA",
+    "full_id": "96767630_8966-4",
+    "source": "javascript"
+  }
+}

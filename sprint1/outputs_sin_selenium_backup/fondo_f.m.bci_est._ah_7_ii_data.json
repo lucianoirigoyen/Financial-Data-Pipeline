@@ -1,0 +1,23 @@
+{
+  "fondo_id": "f.m.bci est. ah 7 ii",
+  "nombre": "F.M.Bci Est. Ah 7 Ii",
+  "nombre_cmf": "F.M.BCI EST. AH 7 II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo F.M.Bci Est. Ah 7 Ii es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable, lo que lo convierte en una alternativa equilibrada para aquellos inversores con un perfil de riesgo medio. Su estrategia de inversión busca aprovechar las oportunidades de crecimiento de la renta variable, al mismo tiempo que busca proteger el capital a través de la inversión en instrumentos de renta fija.\n\nEste fondo es adecuado para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y potencial de retorno. Al tener un perfil de riesgo medio, es ideal para aquellos que desean obtener rendimientos superiores a los de un fondo conservador, pero que no están dispuestos a asumir un riesgo excesivo en su cartera de inversiones.\n\nSi bien la composición principal del fondo no está disponible, se espera que invierta en una variedad de activos como bonos corporativos, acciones de empresas locales e internacionales, y posiblemente instrumentos del mercado monetario. Esta diversificación contribuye a reducir el riesgo inherente a la volatilidad de los mercados financieros.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio entre la prudencia de los fondos conservadores y el dinamismo de los fondos de renta variable pura. Esto significa que los movimientos del mercado pueden impactar su valor, pero de forma moderada en comparación con fondos más arriesgados.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores mantengan su posición en este fondo a mediano y largo plazo, permitiendo que la estrategia de inversión tenga tiempo para generar resultados positivos. Es importante tener en cuenta que, si bien la rentabilidad a 12 meses no está disponible, es fundamental evaluar el desempeño histórico del fondo antes de tomar una decisión de inversión.\n\nEn resumen, el fondo mutuo F.M.Bci Est. Ah 7 Ii ofrece una oportunidad equilibrada para jóvenes inversores chilenos que buscan diversificar su cartera y obtener rendimientos atractivos sin asumir un riesgo excesivo. Sin embargo, es importante recordar que toda inversión conlleva cierto nivel de riesgo y que es necesario evaluar constantemente el desempeño del fondo para asegurar que cumple con los objetivos de inversión establecidos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9699-7",
+    "rut_admin": "96767630",
+    "nombre": "F.M.BCI EST. AH 7 II",
+    "full_id": "96767630_9699-7",
+    "source": "javascript"
+  }
+}

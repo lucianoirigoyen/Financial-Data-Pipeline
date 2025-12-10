@@ -1,0 +1,23 @@
+{
+  "fondo_id": "circulante",
+  "nombre": "Circulante",
+  "nombre_cmf": "CIRCULANTE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Circulante\" es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable, buscando un equilibrio entre la seguridad y el potencial de crecimiento. Su estrategia de inversión se basa en diversificar el portafolio de manera inteligente para reducir el impacto de la volatilidad del mercado, ofreciendo así una alternativa interesante para aquellos inversores que buscan un nivel medio de riesgo.\n\nEste fondo resulta adecuado para inversionistas que tienen un horizonte de inversión a mediano plazo y que están dispuestos a asumir un cierto grado de riesgo en busca de rendimientos superiores a los de inversiones más conservadoras. Si bien no se dispone de información detallada sobre la composición principal del fondo, es probable que invierta en una variedad de instrumentos financieros como bonos, acciones y otros activos, lo que contribuye a su diversificación.\n\nEn términos simples, el nivel de riesgo de \"Circulante\" puede compararse a conducir a una velocidad moderada en una carretera bien mantenida: existe cierto riesgo de contratiempos, pero con una gestión adecuada y un enfoque a largo plazo, se pueden sortear los obstáculos y llegar a destino de manera satisfactoria. Es fundamental tener presente que, si bien el fondo ofrece la posibilidad de obtener ganancias superiores a las de una inversión conservadora, también conlleva la posibilidad de pérdidas en el corto plazo debido a la volatilidad inherente a los mercados financieros.\n\nPara aquellos inversionistas jóvenes que buscan construir un patrimonio a lo largo del tiempo y están preparados para mantener sus inversiones durante al menos algunos años, \"Circulante\" puede ser una opción atractiva. Sin embargo, es importante recordar que este tipo de fondos requiere paciencia y una actitud equilibrada frente a los altibajos del mercado.\n\nEn resumen, el fondo mutuo \"Circulante\" ofrece una combinación equilibrada de riesgo y potencial de rendimiento, adecuado para inversionistas con un perfil moderadamente arriesgado y un horizonte de inversión a mediano plazo. Al considerar esta alternativa, los inversionistas jóvenes deben tener en cuenta su tolerancia al riesgo, sus objetivos financieros y su capacidad para mantener sus inversiones a lo largo del tiempo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8083-7",
+    "rut_admin": "96767630",
+    "nombre": "CIRCULANTE",
+    "full_id": "96767630_8083-7",
+    "source": "javascript"
+  }
+}

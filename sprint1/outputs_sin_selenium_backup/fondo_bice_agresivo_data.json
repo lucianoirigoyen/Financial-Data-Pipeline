@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bice agresivo",
+  "nombre": "Bice Agresivo",
+  "nombre_cmf": "BICE AGRESIVO",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo Bice Agresivo es una opción de inversión diseñada para aquellos inversores que buscan obtener altas rentabilidades a largo plazo, asumiendo un nivel de riesgo elevado. Su estrategia de inversión se basa en buscar oportunidades en activos de mayor volatilidad, como acciones de empresas emergentes o sectores en crecimiento, con el objetivo de maximizar el retorno de la inversión.\n\nEste fondo es adecuado para inversores jóvenes y con un horizonte de inversión a largo plazo, que estén dispuestos a soportar oscilaciones en el valor de su inversión en busca de mayores ganancias. Es importante tener en cuenta que, debido a su naturaleza agresiva, este fondo puede presentar fluctuaciones significativas en su valor, por lo que es fundamental contar con una tolerancia al riesgo alta.\n\nEn cuanto a los activos en los que invierte el fondo Bice Agresivo, su composición principal no está disponible públicamente. Sin embargo, es probable que se incluyan acciones de empresas con potencial de crecimiento, bonos corporativos de mayor riesgo y otros instrumentos financieros de alta volatilidad.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con montar una montaña rusa: las ganancias pueden ser emocionantes, pero también existen momentos de caídas bruscas. Por lo tanto, es importante estar preparado para asumir estas fluctuaciones en el valor de la inversión a lo largo del tiempo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores que opten por el fondo Bice Agresivo tengan un plazo de inversión a largo plazo, de al menos 5 a 10 años. Esto se debe a que, a pesar de las posibles fluctuaciones a corto plazo, la estrategia agresiva del fondo tiende a generar mejores resultados en el largo plazo.\n\nUna ventaja de este fondo es su potencial para obtener altas rentabilidades, especialmente en periodos de crecimiento económico. Sin embargo, una posible desventaja es la volatilidad asociada a su perfil agresivo, lo que puede generar estrés en los inversores poco tolerantes al riesgo.\n\nEn resumen, el fondo Bice Agresivo es una opción adecuada para inversores jóvenes y con un perfil de riesgo alto, que buscan maximizar sus ganancias a largo plazo. Es importante tener en cuenta que este fondo no es recomendable para inversores conservadores o con un horizonte de inversión corto, ya que las fluctuaciones en su valor pueden ser significativas. Antes de invertir, es fundamental entender",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8785-8",
+    "rut_admin": "96767630",
+    "nombre": "BICE AGRESIVO",
+    "full_id": "96767630_8785-8",
+    "source": "javascript"
+  }
+}

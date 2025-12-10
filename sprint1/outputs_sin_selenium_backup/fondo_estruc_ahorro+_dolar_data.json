@@ -1,0 +1,23 @@
+{
+  "fondo_id": "estruc ahorro+ dolar",
+  "nombre": "Estruc Ahorro+ Dolar",
+  "nombre_cmf": "ESTRUC AHORRO+ DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Estruc Ahorro+ Dólar es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable, permitiendo diversificar el riesgo y buscar un equilibrio entre seguridad y potencial de crecimiento. Su estrategia de inversión se enfoca en aprovechar las fluctuaciones del tipo de cambio entre el peso chileno y el dólar estadounidense, buscando obtener rentabilidades atractivas a través de la inversión en instrumentos financieros que estén relacionados con ambas monedas.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores rendimientos a mediano plazo. Es ideal para quienes buscan diversificar su cartera y no temen a la exposición a distintos mercados internacionales.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible, pero se espera que tenga una combinación de bonos, acciones y otros instrumentos financieros relacionados con el dólar y el peso chileno. Esto le brinda al fondo una diversificación adicional que puede ayudar a mitigar el riesgo asociado con un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, ya que combina activos de distintas clases que pueden comportarse de manera diferente en diferentes condiciones del mercado. Si bien esto puede ofrecer oportunidades de crecimiento, también implica la posibilidad de pérdidas en momentos de volatilidad.\n\nEl horizonte de inversión recomendado para el Estruc Ahorro+ Dólar es de mediano a largo plazo, ya que las estrategias de inversión que involucran divisas suelen requerir tiempo para madurar y mostrar resultados consistentes. Es importante que los inversionistas comprendan que pueden experimentar fluctuaciones en el valor de sus inversiones en el corto plazo, pero que a largo plazo podrían obtener rendimientos positivos.\n\nEn cuanto a ventajas, este fondo ofrece la posibilidad de diversificar el riesgo cambiario y acceder a mercados internacionales a través de una inversión local. Sin embargo, como desventaja, la volatilidad asociada con las inversiones en divisas puede generar pérdidas en momentos de incertidumbre económica global.\n\nEn resumen, el fondo Estruc Ahorro+ Dólar es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y apostar por la fluctuación de las monedas. Se recomienda a aquellos que t",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10288-1",
+    "rut_admin": "96767630",
+    "nombre": "ESTRUC AHORRO+ DOLAR",
+    "full_id": "96767630_10288-1",
+    "source": "javascript"
+  }
+}

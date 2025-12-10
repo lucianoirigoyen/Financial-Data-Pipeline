@@ -1,0 +1,23 @@
+{
+  "fondo_id": "rendimiento uf",
+  "nombre": "Rendimiento Uf",
+  "nombre_cmf": "RENDIMIENTO UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Rendimiento UF es una opción mixta que combina activos de renta fija y variable para buscar un equilibrio entre seguridad y crecimiento. Su estrategia se basa en diversificar el portafolio de manera que, ante fluctuaciones del mercado, se minimicen los riesgos y se maximice el potencial de retorno a largo plazo.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre seguridad y rentabilidad. Si prefieres no exponerte a riesgos extremos pero estás dispuesto a asumir cierta volatilidad en busca de mayores retornos, este fondo podría ser una buena opción para ti.\n\nAunque la composición exacta del fondo no está disponible, suele invertir en una combinación de instrumentos como bonos, acciones y otros activos financieros. Esto le permite diversificar el riesgo y aprovechar oportunidades en diferentes mercados.\n\nEn términos simples, el nivel de riesgo de este fondo es como caminar por una calle conocida pero con algunas piedras sueltas: hay cierto grado de incertidumbre, pero tomando precauciones y manteniendo un rumbo claro, se pueden sortear los obstáculos.\n\nEl horizonte de inversión recomendado para el fondo Rendimiento UF es a medio y largo plazo. Esto significa que debes estar dispuesto a mantener tu inversión por un período de al menos tres a cinco años para que puedas aprovechar al máximo el potencial de crecimiento y recuperarte de posibles fluctuaciones a corto plazo.\n\nUna ventaja de este fondo es su capacidad para adaptarse a diferentes condiciones del mercado, lo que lo hace atractivo para quienes buscan diversificar su cartera. Sin embargo, como desventaja, su rentabilidad puede variar dependiendo de la evolución de los mercados financieros, por lo que es importante tener paciencia y tomar decisiones informadas.\n\nEn resumen, el fondo Rendimiento UF es ideal para jóvenes inversionistas chilenos con un perfil de riesgo medio que buscan diversificar su cartera y obtener un equilibrio entre seguridad y crecimiento a largo plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y mantener un enfoque a largo plazo para maximizar tus retornos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8853-6",
+    "rut_admin": "96767630",
+    "nombre": "RENDIMIENTO UF",
+    "full_id": "96767630_8853-6",
+    "source": "javascript"
+  }
+}

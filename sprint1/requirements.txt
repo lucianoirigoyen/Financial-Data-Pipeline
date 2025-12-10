@@ -1,3 +1,4 @@
+# Core dependencies
 requests>=2.31.0
 pandas>=2.0.0
 openpyxl>=3.1.0
@@ -6,6 +7,9 @@ pdfplumber>=0.9.0
 deepl>=1.15.0
 openai>=1.0.0
 beautifulsoup4>=4.12.0
-selenium>=4.15.0
 lxml>=4.9.0
 fake_useragent>=1.4.0
+
+# Selenium/ChromeDriver dependencies (CRÍTICO para PDF downloads)
+selenium>=4.36.0
+webdriver-manager>=4.0.2

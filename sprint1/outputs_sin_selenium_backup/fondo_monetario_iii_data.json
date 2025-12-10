@@ -1,0 +1,23 @@
+{
+  "fondo_id": "monetario iii",
+  "nombre": "Monetario Iii",
+  "nombre_cmf": "MONETARIO III",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Monetario III es una opción de inversión mixta que combina características de fondos de renta fija y renta variable, buscando un equilibro entre seguridad y potencial de crecimiento. Su estrategia de inversión se centra en obtener rendimientos a través de activos financieros diversificados, con el objetivo de optimizar la rentabilidad en un horizonte de mediano plazo.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener mayores retornos. Si eres un joven inversor que busca una opción que no sea ni demasiado conservadora ni demasiado agresiva, el Monetario III podría ser una alternativa a considerar.\n\nEn cuanto a los activos en los que invierte, la composición precisa no está disponible públicamente, pero se sabe que este fondo diversifica su cartera en una variedad de instrumentos financieros, como bonos corporativos, acciones de empresas nacionales e internacionales, entre otros. Esta diversificación puede ayudar a reducir el riesgo asociado a la inversión en un solo activo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio entre la seguridad de los fondos de renta fija y el potencial de crecimiento de los fondos de renta variable. Si bien no es tan conservador como un fondo exclusivamente de renta fija, tampoco es tan arriesgado como un fondo de renta variable pura. Es importante tener en cuenta que, si bien el riesgo es moderado, siempre existe la posibilidad de pérdidas en el valor de la inversión.\n\nEl horizonte de inversión recomendado para el fondo Monetario III es de mediano plazo, lo que significa que se espera que los inversionistas mantengan su dinero invertido por un periodo de al menos varios años para poder beneficiarse de manera óptima de la estrategia del fondo y mitigar posibles fluctuaciones a corto plazo.\n\nEn resumen, el fondo Monetario III puede ser una opción atractiva para jóvenes inversores con un perfil de riesgo medio que buscan diversificar su cartera y obtener un equilibrio entre seguridad y potencial de crecimiento. Sin embargo, es importante recordar que todas las inversiones conllevan un cierto nivel de riesgo, por lo que es fundamental realizar un análisis detallado de tus objetivos financieros antes de tomar una decisión de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8837-4",
+    "rut_admin": "96767630",
+    "nombre": "MONETARIO III",
+    "full_id": "96767630_8837-4",
+    "source": "javascript"
+  }
+}

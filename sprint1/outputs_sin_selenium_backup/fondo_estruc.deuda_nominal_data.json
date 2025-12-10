@@ -1,0 +1,23 @@
+{
+  "fondo_id": "estruc.deuda nominal",
+  "nombre": "Estruc.Deuda Nominal",
+  "nombre_cmf": "ESTRUC.DEUDA NOMINAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo de Inversión \"Estruc.Deuda Nominal\" es una excelente opción para jóvenes inversores en Chile que buscan un equilibrio entre riesgo y rentabilidad. Este fondo, de tipo mixto, combina activos de renta fija y variable para diversificar la cartera y potenciar el rendimiento a mediano plazo. Su estrategia se enfoca en invertir principalmente en instrumentos de deuda nominativa, lo que brinda estabilidad y seguridad a los inversionistas.\n\nEste fondo es adecuado para aquellos inversionistas con un perfil de riesgo medio, es decir, que buscan un equilibrio entre seguridad y potencial de crecimiento. Si buscas obtener un rendimiento superior a la inversión en instrumentos de renta fija tradicionales, pero sin asumir un riesgo excesivo, este fondo puede ser una excelente alternativa.\n\nLos principales activos en los que invierte el Fondo \"Estruc.Deuda Nominal\" son instrumentos de deuda nominativa emitidos por entidades sólidas y con buenos antecedentes crediticios, como bonos de empresas consolidadas o bonos gubernamentales. Esto proporciona estabilidad a la cartera, ya que estos activos suelen tener un riesgo crediticio menor en comparación con otros instrumentos financieros.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de caminar por una acera bien iluminada y en buen estado. Aunque siempre existe un riesgo inherente en cualquier inversión, el enfoque equilibrado de este fondo busca minimizar los sobresaltos y ofrecer una trayectoria de crecimiento estable a lo largo del tiempo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener una perspectiva a mediano plazo, es decir, al menos 3 a 5 años. Esto permite que el fondo se beneficie de las fluctuaciones del mercado y se recupere de posibles periodos de volatilidad, maximizando así el potencial de rendimiento a largo plazo.\n\nEntre las ventajas de este fondo se encuentran la diversificación de la cartera, la estabilidad proporcionada por los activos de renta fija y la posibilidad de obtener un rendimiento atractivo sin asumir un riesgo excesivo. Sin embargo, es importante tener en cuenta que, al tratarse de un fondo mixto, la rentabilidad puede variar en función de las condiciones del mercado, por lo que es fundamental mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones a corto plazo.\n\nEn resumen, el Fondo \"Estruc.Deuda Nominal\" es una opción sólida para jó",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10411-6",
+    "rut_admin": "96767630",
+    "nombre": "ESTRUC.DEUDA NOMINAL",
+    "full_id": "96767630_10411-6",
+    "source": "javascript"
+  }
+}

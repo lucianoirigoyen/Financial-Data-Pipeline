@@ -1,0 +1,23 @@
+{
+  "fondo_id": "acciones eeuu",
+  "nombre": "Acciones Eeuu",
+  "nombre_cmf": "ACCIONES EEUU",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo mutuo \"Acciones EEUU\" es una alternativa de inversión agresiva diseñada para aquellos inversionistas que buscan obtener altos rendimientos a través de la inversión en acciones de empresas estadounidenses. Su estrategia se basa en aprovechar el potencial de crecimiento de compañías líderes en diversos sectores de la economía norteamericana.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo alto, es decir, aquellos que están dispuestos a asumir mayores fluctuaciones en el valor de su inversión a cambio de la posibilidad de obtener mayores ganancias a largo plazo. Si eres un joven inversor chileno con un horizonte temporal amplio y una tolerancia al riesgo considerable, este fondo podría ser una opción a considerar dentro de tu cartera de inversiones.\n\nEn cuanto a los activos en los que invierte, el fondo \"Acciones EEUU\" generalmente canaliza sus recursos en empresas de renombre en sectores como tecnología, salud, consumo y finanzas en Estados Unidos. Algunos ejemplos de compañías en las que podría invertir son Apple, Amazon, Microsoft, Johnson & Johnson, entre otras. Estas empresas suelen tener un alto potencial de crecimiento, pero también están expuestas a mayores riesgos y volatilidades en comparación con otras inversiones más conservadoras.\n\nEn términos simples, el nivel de riesgo de este fondo se traduce en la posibilidad de experimentar variaciones significativas en el valor de la inversión en el corto plazo, debido a la naturaleza volátil de las acciones en las que invierte. Es importante entender que, si bien esta volatilidad puede generar ganancias atractivas, también implica la posibilidad de pérdidas significativas en momentos de turbulencia en los mercados financieros.\n\nEl horizonte de inversión recomendado para el fondo \"Acciones EEUU\" es a largo plazo, idealmente más de cinco años. Esto se debe a que, a pesar de las fluctuaciones a corto plazo, las inversiones en acciones tienden a generar mejores rendimientos cuando se mantienen durante períodos extendidos, permitiendo así aprovechar el potencial de crecimiento de las empresas subyacentes.\n\nEntre las ventajas de este fondo se encuentran la posibilidad de obtener altas rentabilidades en el largo plazo, gracias al potencial de crecimiento de las empresas estadounidenses en las que invierte. Sin embargo, es importante tener en cuenta que también existen desventajas, como la exposición a riesgos macroeconómicos y de mercado que pueden impactar negativamente en la inversión.\n\nEn resumen, si eres un",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10521-K",
+    "rut_admin": "96767630",
+    "nombre": "ACCIONES EEUU",
+    "full_id": "96767630_10521-K",
+    "source": "javascript"
+  }
+}

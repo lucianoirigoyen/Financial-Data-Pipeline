@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm cc renta uf 2029",
+  "nombre": "Fm Cc Renta Uf 2029",
+  "nombre_cmf": "FM CC RENTA UF 2029",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Fm Cc Renta UF 2029 es una opción de inversión mixta que combina activos de renta fija y renta variable, buscando generar retornos atractivos en un horizonte de tiempo específico. Este fondo se caracteriza por tener un perfil de riesgo medio, lo que significa que puede ofrecer un equilibrio entre riesgo y potencial de retorno para los inversionistas.\n\nEste tipo de fondo es adecuado para aquellos inversionistas que buscan diversificar su cartera y están dispuestos a asumir un nivel moderado de riesgo en busca de mayores rendimientos. Es importante tener en cuenta que, al ser un fondo mixto, la composición exacta de sus activos puede variar según las decisiones del gestor de inversiones.\n\nEn términos simples, el Fondo Mutuo Fm Cc Renta UF 2029 puede invertir en una variedad de instrumentos financieros, como bonos corporativos, acciones de empresas locales e internacionales, y otros activos de renta fija y variable. Esta diversificación puede ayudar a reducir el riesgo asociado a la volatilidad de los mercados financieros.\n\nEn cuanto al nivel de riesgo, al ser un fondo mixto con perfil medio, los inversionistas deben estar preparados para enfrentar fluctuaciones en el valor de su inversión en el corto plazo, pero con la expectativa de obtener rendimientos más atractivos en el largo plazo. Es importante recordar que no existe inversión sin riesgo, y que la clave está en entender y gestionar adecuadamente este riesgo.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Fm Cc Renta UF 2029 suele ser de mediano a largo plazo, considerando que la estrategia de inversión del fondo puede requerir tiempo para madurar y generar retornos consistentes. Por lo tanto, es fundamental que los inversionistas tengan una visión a largo plazo y estén dispuestos a mantener su inversión a lo largo del tiempo.\n\nEn resumen, el Fondo Mutuo Fm Cc Renta UF 2029 ofrece a los inversionistas la oportunidad de diversificar su cartera, asumiendo un nivel moderado de riesgo en busca de rendimientos atractivos. Es importante que los inversionistas evalúen su perfil de riesgo y sus objetivos financieros antes de invertir en este tipo de fondo, y que busquen asesoramiento profesional si es necesario.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10755-7",
+    "rut_admin": "96767630",
+    "nombre": "FM CC RENTA UF 2029",
+    "full_id": "96767630_10755-7",
+    "source": "javascript"
+  }
+}

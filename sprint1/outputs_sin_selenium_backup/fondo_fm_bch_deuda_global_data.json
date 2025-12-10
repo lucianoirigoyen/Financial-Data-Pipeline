@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch deuda global",
+  "nombre": "Fm Bch Deuda Global",
+  "nombre_cmf": "FM BCH DEUDA GLOBAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch Deuda Global es una opción de inversión mixta que combina activos de renta fija y variable a nivel internacional. Su estrategia se enfoca en diversificar el riesgo al invertir en una variedad de instrumentos financieros, buscando obtener rendimientos atractivos a mediano plazo. Aunque la composición precisa no está disponible, se espera que tenga una distribución equilibrada entre diferentes clases de activos para maximizar la rentabilidad.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener mayores ganancias. Si bien no garantiza retornos elevados, tampoco implica asumir riesgos extremadamente altos, lo que lo convierte en una opción atractiva para quienes desean diversificar su cartera de forma moderada.\n\nLos activos en los que invierte el Fondo Mutuo Bch Deuda Global pueden incluir bonos soberanos de diferentes países, acciones de empresas internacionales, así como otros instrumentos financieros de deuda y renta variable a nivel global. Esta diversificación geográfica y sectorial contribuye a reducir la exposición a riesgos específicos y a aprovechar oportunidades en distintos mercados.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que implica que, si bien existe la posibilidad de fluctuaciones en el valor de la inversión, estas no suelen ser tan extremas como en fondos de mayor riesgo. Es importante recordar que toda inversión conlleva un cierto grado de riesgo, y en el caso de este fondo, el riesgo se encuentra en un nivel moderado en comparación con otros productos financieros.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere a los inversionistas mantener una visión a mediano o largo plazo, ya que esto les permitirá aprovechar al máximo las oportunidades de crecimiento y recuperarse de posibles fluctuaciones a corto plazo. Es importante tener en cuenta que el rendimiento de este fondo puede variar en el corto plazo, por lo que la paciencia y la disciplina son clave para obtener resultados satisfactorios.\n\nEn resumen, el Fondo Mutuo Bch Deuda Global ofrece a los inversionistas la posibilidad de diversificar sus inversiones a nivel internacional, con un nivel de riesgo moderado y un potencial de retorno atractivo a mediano plazo. Es ideal para aquellos que buscan un equilibrio entre seguridad y rentabilidad en sus inversiones. Como recomendación, se aconseja a los inversionistas mantener una visión",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8249-K",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH DEUDA GLOBAL",
+    "full_id": "96767630_8249-K",
+    "source": "javascript"
+  }
+}

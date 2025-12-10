@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bice mp liquidez",
+  "nombre": "Bice Mp Liquidez",
+  "nombre_cmf": "BICE MP LIQUIDEZ",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Bice Mp Liquidez es un fondo mutuo de tipo mixto, lo que significa que combina inversiones en instrumentos de renta fija y liquidez para buscar un equilibrio entre seguridad y rendimiento. Su estrategia de inversión se enfoca en mantener una parte de sus activos en instrumentos de corto plazo con alta liquidez, como depósitos a plazo y bonos de corto plazo, y otra parte en instrumentos de renta fija de mayor plazo que ofrecen un mayor potencial de retorno.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener un rendimiento superior al de una cuenta de ahorro tradicional. Si eres un joven inversor que busca diversificar tu cartera y obtener un retorno moderado, el Bice Mp Liquidez podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, el Bice Mp Liquidez no ofrece una composición detallada, pero generalmente se espera que tenga una mayor proporción de activos de renta fija de corto plazo, lo que le brinda estabilidad y liquidez a la cartera. Esto significa que gran parte de los recursos del fondo estarán invertidos en bonos de corto plazo emitidos por entidades con buena reputación crediticia.\n\nEn términos simples, el nivel de riesgo de este fondo es moderado. Aunque invierte en instrumentos de renta fija que suelen ser más seguros que las acciones, aún existe un riesgo asociado a posibles variaciones en las tasas de interés o cambios en las condiciones del mercado financiero. Sin embargo, al tener una parte significativa de sus activos en instrumentos de corto plazo, el fondo busca minimizar este riesgo en comparación con fondos más orientados hacia la renta variable.\n\nEl horizonte de inversión recomendado para el Bice Mp Liquidez es a mediano plazo, es decir, entre uno y tres años. Esto se debe a que al tener una estrategia de inversión que combina liquidez con activos de renta fija de corto y mediano plazo, se espera que el fondo genere rendimientos de manera constante a lo largo del tiempo, sin necesidad de mantener la inversión por un plazo muy extenso.\n\nEn resumen, el Bice Mp Liquidez es un fondo mutuo mixto adecuado para inversionistas jóvenes con un perfil de riesgo medio que buscan diversificar su cartera y obtener un rendimiento moderado. Aunque su nivel de riesgo es moderado, ofrece",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10517-1",
+    "rut_admin": "96767630",
+    "nombre": "BICE MP LIQUIDEZ",
+    "full_id": "96767630_10517-1",
+    "source": "javascript"
+  }
+}

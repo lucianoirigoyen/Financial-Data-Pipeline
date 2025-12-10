@@ -1,0 +1,86 @@
+{
+  "fondo_id": "est uf v",
+  "nombre": "Est Uf V",
+  "nombre_cmf": "EST UF V",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Est Uf V es una excelente opción para aquellos inversores que buscan un equilibrio entre seguridad y potencial de crecimiento. Este fondo tiene un enfoque mixto, lo que significa que combina inversiones tanto en activos de renta fija como variable. Su estrategia de inversión se centra en diversificar el portafolio entre diferentes instrumentos financieros, con un énfasis significativo en activos chilenos y deuda.\n\nPara los jóvenes inversores chilenos con un perfil de riesgo medio, el fondo Est Uf V puede ser una alternativa atractiva. Al tener una composición que incluye un 95.0% en activos locales, 83.4% en Chile y 80.1% en deuda, este fondo ofrece una exposición diversificada al mercado nacional, lo que puede ayudar a mitigar riesgos. Sin embargo, es importante tener en cuenta que, si bien el riesgo es moderado, siempre existe la posibilidad de fluctuaciones en el valor de las inversiones.\n\nLos principales activos en los que invierte este fondo mutuo incluyen instrumentos de deuda y acciones chilenas, con un enfoque particular en el mercado local. Esto significa que los inversionistas pueden beneficiarse de la estabilidad de la economía chilena, así como de las oportunidades de crecimiento que ofrece el mercado de valores nacional. Por otro lado, esta concentración en activos locales también puede implicar cierta exposición a los riesgos específicos del país, como variaciones en el tipo de cambio o eventos políticos.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con caminar por una acera bien mantenida: hay cierto grado de riesgo de tropezar, pero es menos probable que suceda en comparación con caminar en terreno irregular. Es decir, si bien existe un riesgo inherente en cualquier inversión, el fondo Est Uf V está diseñado para ofrecer un equilibrio entre seguridad y potencial de crecimiento.\n\nPara los jóvenes inversores chilenos que buscan una alternativa de inversión a mediano plazo, el horizonte de inversión recomendado para el fondo Est Uf V es de al menos 3 a 5 años. Esto permite aprovechar el potencial de crecimiento de las inversiones a largo plazo, al tiempo que se minimizan los efectos de las fluctuaciones a corto plazo en el mercado.\n\nEn resumen, el fondo mutuo Est Uf V ofrece una combinación atractiva de diversificación y potencial de crecimiento para los jóvenes inversores chilenos con un perfil de riesgo medio. Si bien presenta ventajas como la exposición a activos",
+  "composicion_portafolio": [
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 0.8343
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.8009999999999999
+    },
+    {
+      "activo": "aplicará sobre el",
+      "porcentaje": 0.5
+    },
+    {
+      "activo": "manteniendo invertido como máximo el",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Dólar",
+      "porcentaje": 0.2477
+    },
+    {
+      "activo": "Peso chileno",
+      "porcentaje": 0.20329999999999998
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.1852
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "EEUU",
+      "porcentaje": 0.0667
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0537
+    },
+    {
+      "activo": "Otros",
+      "porcentaje": 0.050499999999999996
+    },
+    {
+      "activo": "Brasil",
+      "porcentaje": 0.0332
+    },
+    {
+      "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+      "porcentaje": 0.033
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0329
+    }
+  ],
+  "rentabilidad_anual": 0.0926,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10430-2",
+    "rut_admin": "96767630",
+    "nombre": "EST UF V",
+    "full_id": "96767630_10430-2",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Mediano Plazo",
+  "comision_administracion": 0.0151
+}

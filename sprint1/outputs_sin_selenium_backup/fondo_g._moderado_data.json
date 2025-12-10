@@ -1,0 +1,23 @@
+{
+  "fondo_id": "g. moderado",
+  "nombre": "G. Moderado",
+  "nombre_cmf": "G. MODERADO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión G. Moderado es una excelente opción para aquellos inversores que buscan un equilibrio entre riesgo y rendimiento. Este fondo, clasificado como mixto, combina activos de renta fija y variable para diversificar el portafolio y reducir la exposición a movimientos bruscos del mercado. Su estrategia de inversión se enfoca en obtener un crecimiento moderado a través de una selección cuidadosa de instrumentos financieros.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en busca de mayores retornos a largo plazo. Si buscas un equilibrio entre seguridad y potencial de crecimiento, el fondo G. Moderado puede ser una opción atractiva para ti.\n\nEn cuanto a los activos en los que invierte, la composición principal no está disponible públicamente, pero se espera que el fondo diversifique sus inversiones en una variedad de instrumentos financieros como bonos, acciones y posiblemente otros fondos mutuos. Esta diversificación ayuda a mitigar el riesgo inherente a cada clase de activo y a maximizar las oportunidades de rendimiento.\n\nEn términos simples, el nivel de riesgo del fondo G. Moderado se encuentra en un punto intermedio. Aunque no es tan conservador como un fondo de renta fija pura, tampoco es tan arriesgado como un fondo de renta variable pura. Esto significa que, si bien puede experimentar fluctuaciones en el corto plazo, se espera que brinde un rendimiento estable a lo largo del tiempo.\n\nPara maximizar los beneficios de este fondo, se recomienda un horizonte de inversión a mediano o largo plazo. Esto permitirá al fondo sortear posibles volatilidades del mercado y aprovechar mejor las oportunidades de crecimiento a lo largo del tiempo.\n\nEntre las ventajas del fondo G. Moderado se encuentran su capacidad para adaptarse a diferentes condiciones del mercado y su potencial de crecimiento moderado. Sin embargo, es importante tener en cuenta que, al ser un fondo mixto, su rendimiento puede no ser tan alto como el de fondos más arriesgados en periodos de bonanza del mercado.\n\nEn resumen, el fondo G. Moderado es ideal para inversores que buscan un equilibrio entre riesgo y rendimiento, con un horizonte de inversión a mediano o largo plazo. Si estás dispuesto a asumir cierta volatilidad en busca de un crecimiento moderado, este fondo puede ser una excelente opción para diversificar tu cartera de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8992-3",
+    "rut_admin": "96767630",
+    "nombre": "G. MODERADO",
+    "full_id": "96767630_8992-3",
+    "source": "javascript"
+  }
+}

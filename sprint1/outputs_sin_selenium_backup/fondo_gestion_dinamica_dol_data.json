@@ -1,0 +1,23 @@
+{
+  "fondo_id": "gestion dinamica dol",
+  "nombre": "Gestion Dinamica Dol",
+  "nombre_cmf": "GESTION DINAMICA DOL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Gestion Dinamica Dol es una opción mixta que combina diferentes activos para buscar un equilibrio entre rentabilidad y riesgo. Su estrategia se enfoca en adaptarse dinámicamente a las condiciones del mercado, buscando oportunidades de inversión tanto en renta fija como variable. Aunque su composición específica no está disponible, se puede esperar una diversificación que busque maximizar las ganancias a largo plazo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre seguridad y potencial de rendimiento. Si estás dispuesto a asumir cierto nivel de riesgo para obtener mayores ganancias que con instrumentos más conservadores, este fondo podría ser una buena opción para ti.\n\nEn términos simples, el nivel de riesgo de Gestion Dinamica Dol se encuentra en un punto intermedio. Esto significa que, si bien existe la posibilidad de obtener rendimientos superiores a la media, también hay un nivel de incertidumbre asociado a la volatilidad de los activos en los que invierte el fondo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener una visión a medio-largo plazo. Dado que este fondo busca adaptarse a las condiciones del mercado, es importante darle tiempo para que sus estrategias puedan dar frutos y superar posibles periodos de volatilidad.\n\nUna ventaja de este fondo es su capacidad para ajustarse a las condiciones del mercado, lo que puede proporcionar oportunidades de obtener ganancias significativas en diferentes escenarios económicos. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de sus activos, lo que puede dificultar la evaluación precisa de su desempeño.\n\nEn resumen, el fondo Gestion Dinamica Dol es ideal para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rendimiento, dispuestos a mantener una visión a medio y largo plazo. Si estás interesado en diversificar tu cartera y estás dispuesto a asumir un nivel moderado de riesgo, este fondo podría ser una opción a considerar para tus inversiones.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8503-0",
+    "rut_admin": "96767630",
+    "nombre": "GESTION DINAMICA DOL",
+    "full_id": "96767630_8503-0",
+    "source": "javascript"
+  }
+}

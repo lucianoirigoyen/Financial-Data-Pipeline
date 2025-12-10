@@ -1,0 +1,23 @@
+{
+  "fondo_id": "chile long-short",
+  "nombre": "Chile Long-Short",
+  "nombre_cmf": "CHILE LONG-SHORT",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Chile Long-Short es una opción de inversión mixta que busca obtener rendimientos a través de una estrategia que combina posiciones largas y cortas en distintos activos del mercado. En términos simples, esto significa que el fondo puede invertir tanto en activos que se espera que aumenten de valor (posiciones largas) como en activos que se espera que disminuyan de valor (posiciones cortas). Esta estrategia flexible le permite al fondo adaptarse a diferentes condiciones del mercado y buscar rendimientos incluso en entornos volátiles.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener mayores retornos y la tolerancia a posibles fluctuaciones en el valor de su inversión. Si bien no se conocen con precisión los activos en los que invierte el fondo, su enfoque mixto sugiere una diversificación que puede incluir acciones, bonos u otros instrumentos financieros, lo que podría ser atractivo para quienes desean diversificar su cartera sin la necesidad de realizar selecciones individuales de activos.\n\nEn términos de riesgo, el fondo Chile Long-Short se sitúa en un nivel medio. Esto implica que, si bien existe la posibilidad de obtener rendimientos atractivos, también puede experimentar fluctuaciones en su valor debido a las variaciones en los precios de los activos en los que invierte. Es importante que los inversionistas comprendan que asumir un riesgo moderado puede ser necesario para buscar mayores retornos, pero siempre teniendo en cuenta su capacidad de tolerar dichas fluctuaciones.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondos suele ser más adecuado para inversionistas con un horizonte a medio o largo plazo, ya que la estrategia de inversión puede requerir tiempo para madurar y generar resultados consistentes. Idealmente, se recomienda que los inversionistas mantengan su inversión en este tipo de fondos durante al menos varios años para permitir que la estrategia dé frutos.\n\nEn resumen, el fondo mutuo Chile Long-Short ofrece una estrategia mixta que busca aprovechar oportunidades en diferentes condiciones de mercado, siendo adecuado para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera. Si bien presenta un nivel de riesgo moderado, su estrategia flexible puede brindar posibilidades de rendimientos atractivos a largo plazo. Es importante que los inversionistas evalúen sus objetivos financieros y su tolerancia al riesgo antes de invertir en este tipo de fondos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8756-4",
+    "rut_admin": "96767630",
+    "nombre": "CHILE LONG-SHORT",
+    "full_id": "96767630_8756-4",
+    "source": "javascript"
+  }
+}

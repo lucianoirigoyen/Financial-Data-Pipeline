@@ -1,0 +1,23 @@
+{
+  "fondo_id": "dolar bond",
+  "nombre": "Dolar Bond",
+  "nombre_cmf": "DOLAR BOND",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Dolar Bond es una alternativa de inversión mixta que combina activos de renta fija y variable, buscando un equilibrio entre seguridad y potencial de crecimiento. Su estrategia se centra en invertir principalmente en instrumentos financieros denominados en dólares, lo que puede ofrecer una diversificación adicional a tu cartera de inversiones.\n\nEste fondo se considera de perfil de riesgo medio, lo que significa que, si bien puede presentar fluctuaciones en su valor, también tiene la posibilidad de generar retornos atractivos a mediano plazo. Es importante tener en cuenta que, al invertir en dólares, el valor de la inversión puede verse afectado por cambios en el tipo de cambio, por lo que es fundamental estar atento a este factor.\n\nEn cuanto al perfil de inversionista adecuado para el fondo Dolar Bond, se recomienda a aquellos que buscan un equilibrio entre seguridad y potencial de crecimiento, sin asumir un nivel de riesgo demasiado alto. Si estás dispuesto a aceptar cierta volatilidad en el corto plazo a cambio de mayores rendimientos potenciales, este fondo podría ser una opción interesante para ti.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, ya que combina activos de renta fija y variable. Esto significa que, si bien no es tan conservador como un fondo de renta fija pura, tampoco es tan arriesgado como un fondo de renta variable pura. Es importante recordar que todo tipo de inversión conlleva un riesgo, y es fundamental diversificar tu cartera para mitigar posibles pérdidas.\n\nEl horizonte de inversión recomendado para el fondo Dolar Bond es a mediano o largo plazo, ya que su estrategia busca aprovechar oportunidades de crecimiento a lo largo del tiempo. Si tienes un objetivo financiero a varios años vista, este fondo podría ser una pieza clave en tu cartera de inversiones.\n\nEntre las ventajas de invertir en el fondo Dolar Bond se encuentran la posibilidad de diversificar tus inversiones en dólares, lo que puede proteger tu patrimonio de fluctuaciones en el tipo de cambio. Sin embargo, es importante tener en cuenta que, al tratarse de un fondo mixto, su rentabilidad podría variar en función de las condiciones del mercado.\n\nEn resumen, el fondo Dolar Bond es una opción atractiva para invertir en dólares con un enfoque de equilibrio entre seguridad y potencial de crecimiento. Si buscas diversificar tu cartera y estás dispuesto a asumir un nivel de riesgo medio, este fondo podría ser",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8229-5",
+    "rut_admin": "96767630",
+    "nombre": "DOLAR BOND",
+    "full_id": "96767630_8229-5",
+    "source": "javascript"
+  }
+}

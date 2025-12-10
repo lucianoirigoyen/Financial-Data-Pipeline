@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm cartera pat cons",
+  "nombre": "Fm Cartera Pat Cons",
+  "nombre_cmf": "FM CARTERA PAT CONS",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Cartera Patrimonial Conservadora (Fm Cartera Pat Cons) es una opción de inversión mixta que combina activos de renta fija y variable para buscar un equilibrio entre seguridad y potencial de crecimiento. Su estrategia se enfoca en preservar el capital del inversionista mientras busca obtener rendimientos consistentes a mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera sin exponerse a altos niveles de volatilidad. Es ideal para aquellos que desean obtener un retorno razonable sin asumir grandes riesgos, como jóvenes que están comenzando a invertir y prefieren una estrategia conservadora pero con potencial de crecimiento moderado.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible públicamente, pero es probable que incluya bonos, acciones y otros instrumentos financieros de bajo y mediano riesgo. Esto permite al fondo aprovechar las oportunidades de diferentes mercados y sectores, manteniendo un enfoque en la seguridad de los activos.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con conducir a una velocidad moderada en una carretera bien mantenida. Aunque existen riesgos inherentes a cualquier inversión, la combinación de activos conservadores y de mayor potencial de crecimiento ayuda a mitigar la volatilidad, ofreciendo un equilibrio entre seguridad y rendimiento.\n\nEl horizonte de inversión recomendado para el Fm Cartera Pat Cons es a mediano plazo, generalmente entre 3 a 5 años. Esto brinda al fondo el tiempo necesario para superar posibles fluctuaciones del mercado y aprovechar el potencial de crecimiento de sus activos, sin la presión de tener que vender en momentos desfavorables.\n\nEntre las ventajas de este fondo se encuentran la diversificación de la cartera, la gestión profesional de los activos y la posibilidad de obtener rendimientos consistentes. Sin embargo, una posible desventaja podría ser que su enfoque conservador limite el potencial de crecimiento en comparación con fondos más agresivos.\n\nEn resumen, el Fm Cartera Patrimonial Conservadora es una opción atractiva para jóvenes inversores chilenos con un perfil de riesgo medio que buscan equilibrar seguridad y potencial de crecimiento en su cartera de inversiones a mediano plazo. Es importante siempre analizar el fondo en relación con tus objetivos financieros y consultar con un asesor antes de invertir.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10664-K",
+    "rut_admin": "96767630",
+    "nombre": "FM CARTERA PAT CONS",
+    "full_id": "96767630_10664-K",
+    "source": "javascript"
+  }
+}

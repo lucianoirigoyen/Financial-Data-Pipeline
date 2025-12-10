@@ -1,0 +1,23 @@
+{
+  "fondo_id": "super fondo 105",
+  "nombre": "Super Fondo 105",
+  "nombre_cmf": "SUPER FONDO 105",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Super Fondo 105 es una excelente opción para jóvenes inversores chilenos que buscan un equilibrio entre rendimiento y riesgo. Como fondo mixto, combina diferentes tipos de activos, como acciones, bonos y efectivo, con el objetivo de diversificar y maximizar las oportunidades de ganancias, manteniendo un nivel de riesgo moderado.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en busca de mayores retornos a mediano plazo. Si prefieres no arriesgar demasiado, pero tampoco conformarte con rendimientos muy bajos, el Super Fondo 105 podría ser el indicado para ti.\n\nAunque la composición exacta no está disponible, este fondo probablemente invierte en una combinación de acciones de empresas nacionales e internacionales, bonos gubernamentales y corporativos, así como instrumentos de renta fija. Esta diversificación ayuda a reducir el riesgo asociado con la variabilidad de los mercados financieros.\n\nEn términos simples, el nivel de riesgo del Super Fondo 105 se asemeja a dar un paseo en bicicleta por un terreno ligeramente accidentado: puede haber algunos baches en el camino, pero en general, se espera un viaje suave y sin sobresaltos extremos. Aunque no está exento de riesgos, su enfoque diversificado ayuda a mitigar las fluctuaciones bruscas que podrían experimentar fondos más agresivos.\n\nEn cuanto al horizonte de inversión recomendado, este fondo es ideal para aquellos que buscan mantener su inversión durante al menos tres a cinco años. Aunque siempre es importante recordar que el valor de las inversiones puede variar en el corto plazo, a largo plazo, este fondo ofrece la posibilidad de obtener rendimientos superiores a los instrumentos de ahorro tradicionales.\n\nUna ventaja del Super Fondo 105 es su potencial de crecimiento moderado, que puede superar la inflación y generar ganancias consistentes en el tiempo. Sin embargo, una posible desventaja podría ser una rentabilidad más baja en comparación con fondos de mayor riesgo, lo que podría no satisfacer a inversionistas que buscan retornos más agresivos.\n\nEn resumen, el Super Fondo 105 es una opción atractiva para jóvenes inversores chilenos que desean un equilibrio entre riesgo y rendimiento. Si estás dispuesto a asumir cierta volatilidad a cambio de mayores oportunidades de crecimiento, este fondo mixto podría ser una excelente elección para diversificar tu cartera de inversiones y alcan",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8330-5",
+    "rut_admin": "96767630",
+    "nombre": "SUPER FONDO 105",
+    "full_id": "96767630_8330-5",
+    "source": "javascript"
+  }
+}

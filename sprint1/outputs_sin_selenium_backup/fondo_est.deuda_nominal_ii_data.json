@@ -1,0 +1,23 @@
+{
+  "fondo_id": "est.deuda nominal ii",
+  "nombre": "Est.Deuda Nominal Ii",
+  "nombre_cmf": "EST.DEUDA NOMINAL II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Est.Deuda Nominal II es una alternativa de inversión mixta que combina activos de renta fija y variable. Su estrategia se enfoca en obtener rendimientos a través de la inversión en instrumentos financieros de deuda nominal, lo que significa que principalmente invierte en bonos emitidos por entidades públicas o privadas. Al no contar con información sobre su composición principal, se sugiere que el fondo se centra en diversificar su cartera para reducir riesgos y maximizar ganancias.\n\nEste fondo se considera de perfil de riesgo medio, lo que implica que ofrece un equilibrio entre seguridad y potencial de retorno. Es ideal para inversores que buscan un crecimiento moderado de sus inversiones sin asumir riesgos excesivos. Un perfil de riesgo medio se ajusta a aquellos que desean obtener rendimientos superiores a los de un depósito a plazo, pero manteniendo un nivel de seguridad aceptable.\n\nEn cuanto a los activos en los que invierte, al tratarse de un fondo mixto, es probable que tenga una combinación de bonos corporativos, bonos soberanos, instrumentos del mercado monetario y posiblemente acciones de empresas. Esta diversificación puede ayudar a reducir la volatilidad y brindar estabilidad a la cartera.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Si bien no es tan conservador como un fondo de renta fija pura, tampoco es tan arriesgado como un fondo de renta variable. Por lo tanto, se considera apropiado para aquellos inversores que buscan un equilibrio entre seguridad y potencial de crecimiento.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Est.Deuda Nominal II suele ser a mediano o largo plazo. Esto significa que es importante mantener la inversión por un período prolongado para permitir que el fondo alcance su máximo potencial de rentabilidad. Se aconseja a los inversionistas tener paciencia y no dejarse llevar por fluctuaciones a corto plazo.\n\nUna ventaja de este fondo es su diversificación, que puede ayudar a mitigar riesgos y aprovechar oportunidades en diferentes clases de activos. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a su composición específica, lo que dificulta evaluar el nivel de riesgo de manera precisa.\n\nEn resumen, el Fondo Mutuo Est.Deuda Nominal II es una opción atractiva para inversores con un perfil de riesgo medio que buscan un equilibrio entre seguridad y potencial de crecimiento. Se recomienda mantener una visión a largo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10460-4",
+    "rut_admin": "96767630",
+    "nombre": "EST.DEUDA NOMINAL II",
+    "full_id": "96767630_10460-4",
+    "source": "javascript"
+  }
+}

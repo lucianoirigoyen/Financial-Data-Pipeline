@@ -1,0 +1,23 @@
+{
+  "fondo_id": "indice chile",
+  "nombre": "Indice Chile",
+  "nombre_cmf": "INDICE CHILE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Indice Chile es una excelente opción para aquellos jóvenes inversores que buscan diversificar su cartera de forma equilibrada. Se clasifica como un fondo mixto, lo que significa que combina tanto activos de renta fija como de renta variable en su cartera. Su perfil de riesgo se considera medio, lo que implica que, si bien puede tener fluctuaciones en su valor, no se espera que sea tan volátil como fondos de mayor riesgo.\n\nLa estrategia de inversión del fondo Indice Chile busca replicar el comportamiento de un índice específico del mercado chileno, lo que le permite estar expuesto a una amplia gama de empresas y sectores. Al seguir un índice, el fondo busca obtener rendimientos similares a los del mercado en su conjunto, sin depender de la gestión activa de un equipo de administración. Este enfoque pasivo puede resultar atractivo para inversores que prefieren una estrategia más sencilla y de bajo costo.\n\nEste fondo es adecuado para aquellos inversionistas jóvenes que buscan un equilibrio entre riesgo y potencial de retorno. Al tener un perfil de riesgo medio, es una opción interesante para quienes desean obtener ganancias a largo plazo sin exponerse a una alta volatilidad en el corto plazo. Es importante tener en cuenta que, si bien el nivel de riesgo es moderado, siempre existe la posibilidad de que el valor de las inversiones fluctúe en función de las condiciones del mercado.\n\nEn cuanto a los activos en los que invierte el fondo Indice Chile, al no estar disponible la composición principal, se puede inferir que se encuentra diversificado en empresas chilenas de diversos sectores, lo que contribuye a reducir el riesgo asociado a la concentración en un solo tipo de activo. Esta diversificación puede ser una ventaja para los inversionistas al disminuir la exposición a eventos específicos que afecten a una sola empresa o sector.\n\nEn términos simples, el nivel de riesgo del fondo Indice Chile se sitúa en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Si bien no es tan conservador como un fondo exclusivamente de renta fija, tampoco es tan arriesgado como uno que invierte únicamente en acciones. Es fundamental que los inversores comprendan que, aunque el riesgo es moderado, siempre existe la posibilidad de que las inversiones no alcancen los resultados esperados.\n\nPara los jóvenes inversores chilenos que consideren invertir en el fondo Indice Chile, se recomienda un horizonte de inversión a",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8398-4",
+    "rut_admin": "96767630",
+    "nombre": "INDICE CHILE",
+    "full_id": "96767630_8398-4",
+    "source": "javascript"
+  }
+}

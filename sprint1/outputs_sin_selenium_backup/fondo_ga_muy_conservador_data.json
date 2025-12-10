@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ga muy conservador",
+  "nombre": "Ga Muy Conservador",
+  "nombre_cmf": "GA MUY CONSERVADOR",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo mutuo Ga Muy Conservador es una opción de inversión diseñada para aquellos inversores que prefieren una estrategia conservadora y buscan minimizar el riesgo en sus carteras. Este fondo se caracteriza por priorizar la preservación del capital y la generación de rendimientos estables a largo plazo, evitando exposiciones significativas a activos de mayor volatilidad.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo bajo, que valoran la seguridad y la estabilidad en sus inversiones por sobre la posibilidad de obtener altas rentabilidades en el corto plazo. Si eres un joven inversor que está empezando a construir su patrimonio y prefieres no asumir riesgos elevados, el fondo Ga Muy Conservador podría ser una alternativa a considerar.\n\nEn cuanto a los activos en los que invierte este fondo, la composición exacta no está disponible públicamente, pero es probable que se concentre en instrumentos financieros de renta fija de alta calidad crediticia, como bonos del Estado o bonos corporativos con bajo riesgo de impago. También es posible que incluya una porción de su cartera en instrumentos del mercado monetario, como depósitos a plazo o instrumentos de alta liquidez.\n\nEn términos simples, el nivel de riesgo asociado a este fondo es bajo, lo que significa que las fluctuaciones en su valoración suelen ser menores en comparación con fondos más agresivos. Si bien esto proporciona una mayor estabilidad en el corto plazo, también puede limitar el potencial de ganancias en momentos de fuerte crecimiento del mercado. Es importante tener en cuenta que, si bien el riesgo es menor, no está exento de riesgos como la inflación o cambios en las tasas de interés que pueden afectar su rentabilidad.\n\nPara este tipo de fondo, el horizonte de inversión recomendado es a mediano o largo plazo, ya que la estrategia conservadora busca generar rendimientos consistentes a lo largo del tiempo. Si buscas obtener ganancias rápidas o especular en el corto plazo, este fondo puede no ser el más adecuado para tus objetivos.\n\nEn resumen, el fondo Ga Muy Conservador es una alternativa segura y estable para inversores jóvenes que buscan preservar su capital y generar rendimientos moderados a largo plazo. Es importante tener en cuenta que, si bien ofrece una mayor seguridad, también puede limitar el potencial de ganancias en comparación con fondos más arriesgados. Antes de invertir, es recomendable evaluar tu perfil de riesgo y objetivos financieros para determinar si este",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9596-6",
+    "rut_admin": "96767630",
+    "nombre": "GA MUY CONSERVADOR",
+    "full_id": "96767630_9596-6",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "booster brasil iii",
+  "nombre": "Booster Brasil Iii",
+  "nombre_cmf": "BOOSTER BRASIL III",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Booster Brasil III es una opción de inversión mixta que busca combinar distintos activos para maximizar el rendimiento y diversificar el riesgo. En términos simples, esto significa que el fondo invierte tanto en acciones como en bonos u otros instrumentos financieros, lo que le permite adaptarse a diferentes condiciones del mercado. Aunque no disponemos de información detallada sobre su composición principal, podemos inferir que se enfoca en el mercado brasilero, lo que brinda exposición a una economía emergente con potencial de crecimiento.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de riesgo en busca de mayores rendimientos, pero que también valoran la estabilidad en sus inversiones. Si bien el riesgo es inherente a cualquier inversión, el Booster Brasil III busca equilibrar la posibilidad de obtener ganancias con la necesidad de proteger el capital invertido.\n\nEn cuanto a los activos en los que invierte, al estar orientado hacia Brasil, es probable que el fondo tenga posiciones en empresas brasileñas, bonos soberanos del gobierno brasileño u otros instrumentos financieros relacionados con el país. Esto le da al inversor la oportunidad de participar en el crecimiento económico de Brasil, aunque también implica ciertos riesgos asociados a la volatilidad de dicho mercado.\n\nEl nivel de riesgo en términos simples se puede comparar con conducir un auto en una carretera con curvas. Aunque se puede disfrutar del viaje y llegar a destinos emocionantes, siempre existe la posibilidad de enfrentar obstáculos en el camino. Por lo tanto, es importante estar preparado para manejar esas eventualidades y tener una visión a largo plazo.\n\nPara invertir en el Booster Brasil III, se recomienda un horizonte de inversión a mediano o largo plazo. Esto significa que los inversores deben estar dispuestos a mantener su dinero invertido durante un período de tiempo prolongado para permitir que el fondo crezca y se recupere de posibles fluctuaciones temporales en el mercado.\n\nEn cuanto a recomendaciones, este fondo puede ser una buena opción para jóvenes inversores chilenos que buscan diversificar su cartera y explorar oportunidades en mercados internacionales. Sin embargo, es importante recordar que cualquier inversión conlleva riesgos, por lo que se aconseja realizar un análisis detallado de su situación financiera y objetivos antes de tomar una decisión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9839-6",
+    "rut_admin": "96767630",
+    "nombre": "BOOSTER BRASIL III",
+    "full_id": "96767630_9839-6",
+    "source": "javascript"
+  }
+}

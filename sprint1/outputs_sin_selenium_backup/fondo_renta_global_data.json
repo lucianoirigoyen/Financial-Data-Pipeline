@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta global",
+  "nombre": "Renta Global",
+  "nombre_cmf": "RENTA GLOBAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Renta Global es una opción de inversión mixta que combina activos de renta fija y variable, con el objetivo de obtener rendimientos atractivos a mediano plazo. Su estrategia de inversión busca diversificar el riesgo a través de la inversión en diversos mercados internacionales, lo que puede brindar oportunidades de crecimiento y protección ante posibles fluctuaciones.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la obtención de rendimientos y la preservación de su capital. Si eres un joven inversor chileno que está dispuesto a asumir cierto nivel de riesgo en busca de mayores retornos, el fondo Renta Global podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición principal del fondo no está disponible públicamente. Sin embargo, es probable que invierta en una variedad de instrumentos financieros internacionales, como acciones, bonos y otros valores, con el objetivo de diversificar el riesgo y maximizar los rendimientos.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que implica que puede experimentar ciertas fluctuaciones en su valor, pero también ofrece la posibilidad de obtener mayores ganancias en comparación con opciones más conservadoras. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles pérdidas en el corto plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas consideren mantener su posición en el fondo Renta Global a mediano o largo plazo, idealmente más de 3 años. Esto permite que la estrategia de inversión tenga tiempo para desplegarse y potencialmente generar rendimientos positivos a lo largo del tiempo, a pesar de las fluctuaciones a corto plazo que puedan ocurrir en los mercados financieros.\n\nEntre las ventajas de este fondo se encuentran la diversificación internacional, que puede ayudar a reducir el riesgo asociado a la inversión en un solo mercado, y la posibilidad de obtener rendimientos atractivos. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición del fondo, lo que puede dificultar la evaluación precisa de su desempeño.\n\nEn resumen, el fondo mutuo Renta Global es una opción atractiva para jóvenes inversores chilenos con un perfil de riesgo medio que buscan diversificar su cartera y acceder a oportunidades internacionales. Es importante tener en cuenta el horizonte de inversión recomend",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8404-2",
+    "rut_admin": "96767630",
+    "nombre": "RENTA GLOBAL",
+    "full_id": "96767630_8404-2",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "fondo_id": "renta dinamica globa",
+  "nombre": "Renta Dinamica Globa",
+  "nombre_cmf": "RENTA DINAMICA GLOBA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Renta Dinámica Global es una opción de inversión mixta que combina activos de renta fija y variable a nivel global, buscando maximizar los rendimientos en diferentes mercados. Su estrategia se enfoca en diversificar la cartera de inversiones para reducir el riesgo y aprovechar oportunidades de crecimiento en distintas regiones del mundo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, que buscan obtener rendimientos superiores a los de la renta fija tradicional, pero que no están dispuestos a asumir un riesgo elevado. Es importante tener en cuenta que, al ser un fondo mixto, la volatilidad de su valoración puede ser mayor que la de un fondo de renta fija pura, pero también ofrece la posibilidad de obtener mayores ganancias.\n\nLos principales activos en los que invierte el fondo Renta Dinámica Global son variados, con una fuerte presencia en Chile y en deuda tanto local como global. Por ejemplo, puede invertir en bonos chilenos, acciones de empresas internacionales y fondos de inversión diversificados. Esto le permite tener un portafolio diversificado que se beneficia de diferentes fuentes de rentabilidad.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con caminar por una calle con algunas piedras sueltas. Puede haber pequeños obstáculos en el camino, pero con una buena gestión y diversificación, se pueden sortear sin mayores problemas. Es importante estar preparado para posibles fluctuaciones en el valor de la inversión, pero manteniendo una visión a largo plazo.\n\nSe recomienda un horizonte de inversión a medio-largo plazo para este fondo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Es importante tener paciencia y no dejarse llevar por la volatilidad a corto plazo, manteniendo una estrategia de inversión consistente a lo largo del tiempo.\n\nEn cuanto a ventajas, el fondo Renta Dinámica Global ofrece la posibilidad de diversificar la cartera de inversiones a nivel global, lo que puede reducir el riesgo y aumentar las oportunidades de rendimiento. Sin embargo, una posible desventaja es que la rentabilidad puede variar según las condiciones del mercado, por lo que es importante mantenerse informado y revisar periódicamente la estrategia de inversión.\n\nEn resumen, el fondo Renta Dinámica Global es ideal para inversores con un perfil de riesgo medio que buscan diversificar su cartera a nivel global, con una estrategia a medio-largo plazo y una tolerancia moderada a la volatilidad.",
+  "composicion_portafolio": [
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 0.8343
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.8009999999999999
+    },
+    {
+      "activo": "aplicará sobre el",
+      "porcentaje": 0.5
+    },
+    {
+      "activo": "manteniendo invertido como máximo el",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Dólar",
+      "porcentaje": 0.2477
+    },
+    {
+      "activo": "Peso chileno",
+      "porcentaje": 0.20329999999999998
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.1852
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "EEUU",
+      "porcentaje": 0.0667
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0537
+    },
+    {
+      "activo": "Otros",
+      "porcentaje": 0.050499999999999996
+    },
+    {
+      "activo": "Brasil",
+      "porcentaje": 0.0332
+    },
+    {
+      "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+      "porcentaje": 0.033
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0329
+    }
+  ],
+  "rentabilidad_anual": 0.0926,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9834-5",
+    "rut_admin": "96767630",
+    "nombre": "RENTA DINAMICA GLOBA",
+    "full_id": "96767630_9834-5",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Mediano Plazo",
+  "comision_administracion": 0.0151
+}

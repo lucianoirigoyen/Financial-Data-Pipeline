@@ -1,0 +1,23 @@
+{
+  "fondo_id": "confianza",
+  "nombre": "Confianza",
+  "nombre_cmf": "CONFIANZA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Confianza es una opción de inversión mixta que busca combinar diferentes activos con el objetivo de obtener un rendimiento equilibrado en el mediano plazo. Su estrategia de inversión se basa en diversificar el portafolio entre instrumentos de renta fija y renta variable, lo que le permite adaptarse a diferentes condiciones del mercado y minimizar riesgos. A pesar de que no disponemos de información específica sobre su composición principal, este enfoque mixto suele ofrecer una combinación de seguridad y potencial de crecimiento.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener rendimientos superiores al promedio y la necesidad de proteger su capital. Si eres un joven inversor chileno que desea diversificar su cartera y está dispuesto a asumir cierto nivel de riesgo en busca de mayores ganancias, Confianza podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, Confianza puede destinar su capital a una amplia gama de instrumentos financieros, como bonos, acciones, instrumentos del mercado monetario, entre otros. Esta diversificación permite aprovechar las oportunidades de distintos mercados y sectores, lo que puede contribuir a reducir la volatilidad del fondo y potenciar los rendimientos a largo plazo.\n\nEn términos simples, el nivel de riesgo de Confianza se sitúa en un punto intermedio. Esto significa que, si bien existe la posibilidad de experimentar fluctuaciones en el valor de la inversión, el fondo busca mantener un equilibrio entre rentabilidad y seguridad. Es importante recordar que todo tipo de inversión conlleva cierto grado de riesgo, por lo que es fundamental estar informado y tener claros tus objetivos financieros antes de invertir en este fondo.\n\nEl horizonte de inversión recomendado para el fondo Confianza es de mediano a largo plazo. Esto significa que, si decides invertir en él, es aconsejable mantener tu dinero invertido durante al menos varios años para permitir que la estrategia del fondo dé sus frutos y puedas aprovechar al máximo las oportunidades de crecimiento a largo plazo.\n\nEntre las ventajas de este fondo se encuentra su diversificación, que puede ayudar a reducir el riesgo y maximizar los rendimientos en el tiempo. Sin embargo, una posible desventaja podría ser una rentabilidad variable, ya que al combinar diferentes activos, el desempeño del fondo puede fluctuar en función de las condiciones del mercado.\n\nEn resumen,",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8463-8",
+    "rut_admin": "96767630",
+    "nombre": "CONFIANZA",
+    "full_id": "96767630_8463-8",
+    "source": "javascript"
+  }
+}

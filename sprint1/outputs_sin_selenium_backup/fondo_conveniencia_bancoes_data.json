@@ -1,0 +1,23 @@
+{
+  "fondo_id": "conveniencia bancoes",
+  "nombre": "Conveniencia Bancoes",
+  "nombre_cmf": "CONVENIENCIA BANCOES",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes una descripción del fondo mutuo Conveniencia Bancoes, dirigida a jóvenes inversores chilenos:\n\n1. **Qué es este fondo y su estrategia de inversión:** El fondo mutuo Conveniencia Bancoes es un fondo mixto que combina inversiones en renta fija y renta variable. Esto significa que invierte tanto en bonos y depósitos como en acciones de empresas. Su estrategia busca diversificar el riesgo y aprovechar las oportunidades de crecimiento en diferentes activos.\n\n2. **Para qué perfil de inversionista es adecuado:** Este fondo es adecuado para inversores con un perfil de riesgo medio que buscan un equilibrio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Es ideal para aquellos que desean obtener rendimientos superiores a los de un depósito a plazo, pero sin asumir un riesgo demasiado alto.\n\n3. **Principales activos en los que invierte:** Aunque la composición principal del fondo no está disponible, podemos esperar que invierta en bonos corporativos, bonos del Estado, acciones de empresas nacionales e internacionales, y posiblemente en otros instrumentos financieros. Esta diversificación ayuda a mitigar el riesgo y aprovechar oportunidades de crecimiento en diferentes mercados.\n\n4. **Nivel de riesgo en términos simples:** El nivel de riesgo de este fondo se considera medio, lo que significa que existe la posibilidad de obtener rendimientos más altos que la renta fija tradicional, pero también implica un mayor riesgo de volatilidad en el valor de la inversión. Es importante entender que, aunque el riesgo es mayor que en un depósito a plazo, se mantiene en un nivel moderado en comparación con otros fondos de mayor riesgo.\n\n5. **Horizonte de inversión recomendado:** Se recomienda tener un horizonte de inversión a mediano o largo plazo al invertir en este fondo. Esto significa que debes estar dispuesto a mantener tu dinero invertido por al menos varios años para poder aprovechar el potencial de crecimiento de las inversiones en renta variable y superar posibles fluctuaciones a corto plazo en el mercado.\n\nEn resumen, el fondo mutuo Conveniencia Bancoes ofrece una opción equilibrada para inversores jóvenes que buscan diversificar su cartera y obtener rendimientos superiores a la renta fija tradicional. Es importante tener en cuenta tu tolerancia al riesgo y horizonte de inversión al considerar este fondo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8320-8",
+    "rut_admin": "96767630",
+    "nombre": "CONVENIENCIA BANCOES",
+    "full_id": "96767630_8320-8",
+    "source": "javascript"
+  }
+}

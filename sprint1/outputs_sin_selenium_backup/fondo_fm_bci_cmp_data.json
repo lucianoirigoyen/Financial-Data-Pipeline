@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci cmp",
+  "nombre": "Fm Bci Cmp",
+  "nombre_cmf": "FM BCI CMP",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo Fm Bci Cmp:\n\nEl Fondo Mutuo Bci Complementario (Fm Bci Cmp) es un fondo mixto que combina diferentes tipos de activos en su cartera de inversión. Su estrategia se basa en diversificar el riesgo al invertir en una variedad de instrumentos financieros, como acciones, bonos, y otros activos. Esto busca maximizar el rendimiento a largo plazo, manteniendo un nivel de riesgo medio para los inversionistas.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener un rendimiento superior al promedio. Es importante tener en cuenta que, al tratarse de un fondo mixto, la rentabilidad puede variar según el comportamiento de los mercados financieros.\n\nEn cuanto a los activos en los que invierte el Fm Bci Cmp, la información sobre su composición principal no está disponible públicamente. Sin embargo, es común que los fondos mixtos inviertan en una combinación de acciones de empresas, bonos corporativos y gubernamentales, así como en instrumentos del mercado monetario.\n\nEl nivel de riesgo de este fondo se considera medio, lo que significa que existe la posibilidad de obtener tanto ganancias como pérdidas moderadas en el corto plazo. Es importante recordar que, en el mundo de las inversiones, el riesgo y la rentabilidad suelen ir de la mano: a mayor riesgo, mayor potencial de ganancias, pero también de pérdidas.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversionistas con un horizonte de inversión a mediano o largo plazo. Esto se debe a que, al estar expuesto a diferentes clases de activos, puede tomar tiempo para que la estrategia de diversificación genere resultados consistentes y equilibrados.\n\nEn resumen, el Fm Bci Cmp es una opción a considerar para inversionistas chilenos con un perfil de riesgo medio que buscan diversificar su cartera de inversión. Siempre es recomendable asesorarse con un profesional antes de tomar decisiones financieras y tener en cuenta que, como en cualquier inversión, existen ventajas y desventajas potenciales que deben ser evaluadas en función de los objetivos y la tolerancia al riesgo de cada inversionista.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8976-1",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI CMP",
+    "full_id": "96767630_8976-1",
+    "source": "javascript"
+  }
+}

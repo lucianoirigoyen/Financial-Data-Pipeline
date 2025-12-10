@@ -1,0 +1,23 @@
+{
+  "fondo_id": "itau cash dollar",
+  "nombre": "Itau Cash Dollar",
+  "nombre_cmf": "ITAU CASH DOLLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Itau Cash Dollar es una alternativa de inversión mixta que combina activos de renta fija y renta variable, con el objetivo de ofrecer un equilibrio entre la seguridad y el potencial de crecimiento. Su estrategia de inversión se centra en mantener una proporción adecuada de activos en dólares, lo que puede ayudar a proteger el capital de los inversionistas ante posibles fluctuaciones del tipo de cambio.\n\nEste fondo es ideal para inversionistas con un perfil de riesgo medio, que buscan obtener rendimientos a mediano plazo sin asumir un nivel de riesgo extremadamente alto. Si bien no se dispone de información detallada sobre la composición principal de los activos en los que invierte, es probable que incluya bonos corporativos, acciones de empresas internacionales y instrumentos del mercado monetario.\n\nEn términos simples, el nivel de riesgo del Itau Cash Dollar se puede comparar con el de caminar por una calle transitada pero bien iluminada: existe cierto riesgo de encontrar obstáculos en el camino, pero en general, se puede avanzar con confianza. Los movimientos del mercado pueden afectar el valor de la inversión, pero la diversificación de activos del fondo ayuda a mitigar este riesgo en cierta medida.\n\nEl horizonte de inversión recomendado para el Itau Cash Dollar es de al menos 3 a 5 años, ya que este plazo permite aprovechar los ciclos económicos y superar posibles fluctuaciones a corto plazo en los mercados financieros. Es importante recordar que la inversión en fondos mutuos siempre implica cierto grado de riesgo, por lo que es fundamental tener paciencia y mantener una visión a largo plazo.\n\nEntre las ventajas de este fondo se encuentran la diversificación de activos en dólares, que puede servir como un refugio ante la volatilidad de la moneda local, así como la posibilidad de acceder a mercados internacionales sin la necesidad de una gran cantidad de capital inicial. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera de inversiones, lo que puede generar incertidumbre en algunos inversionistas.\n\nEn resumen, el Itau Cash Dollar es una opción atractiva para inversionistas chilenos con un perfil de riesgo medio, que buscan diversificar sus inversiones en dólares y obtener rendimientos a mediano plazo. Se recomienda a los inversionistas que estén dispuestos a asumir cierto nivel de riesgo y que tengan una visión a largo plazo considerar este fondo como parte de su cartera de inversion",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8333-K",
+    "rut_admin": "96767630",
+    "nombre": "ITAU CASH DOLLAR",
+    "full_id": "96767630_8333-K",
+    "source": "javascript"
+  }
+}

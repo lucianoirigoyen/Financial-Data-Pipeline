@@ -1,0 +1,23 @@
+{
+  "fondo_id": "g. ultra deposito",
+  "nombre": "G. Ultra Deposito",
+  "nombre_cmf": "G. ULTRA DEPOSITO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo G. Ultra Deposito es una alternativa de inversión mixta que combina activos de renta fija y variable con el objetivo de lograr un equilibrio entre seguridad y potencial de crecimiento. Su estrategia se enfoca en diversificar el portafolio para disminuir el riesgo y aprovechar oportunidades en distintos mercados. Aunque la composición exacta no está disponible, se espera que el fondo invierta en instrumentos como bonos, acciones y otros activos financieros.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan obtener un rendimiento superior a la renta fija tradicional sin asumir una exposición excesiva a la volatilidad del mercado de acciones. Por lo tanto, es adecuado para personas que desean equilibrar la seguridad de su inversión con la posibilidad de obtener mayores ganancias.\n\nEn cuanto a los activos en los que invierte, el G. Ultra Deposito diversifica su cartera en distintos instrumentos financieros. Por ejemplo, podría tener una parte de sus recursos invertidos en bonos emitidos por el Estado chileno para asegurar una renta fija estable, y otra parte en acciones de empresas con potencial de crecimiento para obtener rendimientos adicionales.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Si bien no está exento de posibles fluctuaciones en su valor, al combinar activos de diferentes clases, se busca reducir la exposición a eventos adversos en un solo mercado. Es importante recordar que, si bien el riesgo es moderado, no se garantiza la rentabilidad y el valor de la inversión puede variar.\n\nEl horizonte de inversión recomendado para el G. Ultra Deposito es a medio o largo plazo. Dado que se trata de un fondo mixto que busca generar ganancias a lo largo del tiempo, es fundamental mantener la inversión durante un periodo suficiente para permitir que la estrategia de diversificación y crecimiento de los activos dé frutos.\n\nEn resumen, el fondo mutuo G. Ultra Deposito ofrece una opción atractiva para inversionistas con un perfil moderado que buscan equilibrar la seguridad con el potencial de rendimiento. Sin embargo, es importante tener en cuenta que, como en todo fondo de inversión, existen riesgos inherentes y es recomendable consultar con un asesor financiero antes de tomar decisiones.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8551-0",
+    "rut_admin": "96767630",
+    "nombre": "G. ULTRA DEPOSITO",
+    "full_id": "96767630_8551-0",
+    "source": "javascript"
+  }
+}

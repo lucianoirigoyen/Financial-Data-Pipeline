@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci est inv ufiii",
+  "nombre": "Fm Bci Est Inv Ufiii",
+  "nombre_cmf": "FM BCI EST INV UFIII",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Estabilidad Inversión en Unidades de Fomento III (Fm Bci Est Inv Ufiii) es un fondo mixto que busca mantener un equilibrio entre la rentabilidad y el riesgo. Su estrategia de inversión combina activos de renta fija y renta variable para diversificar el portafolio y reducir la volatilidad. Esto significa que, en términos simples, el fondo invierte en una mezcla de instrumentos financieros como bonos, acciones y otros activos, con el objetivo de obtener ganancias a mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener mayores rendimientos. Si eres un joven inversor con cierta tolerancia al riesgo y un horizonte de inversión de mediano plazo, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, lamentablemente la información sobre la composición principal no está disponible públicamente. Sin embargo, es probable que el fondo diversifique su cartera invirtiendo en diferentes sectores de la economía, tanto a nivel nacional como internacional, para reducir el riesgo asociado a la concentración en un solo tipo de activo.\n\nEn términos de riesgo, este fondo se considera de nivel medio. Esto significa que existe la posibilidad de enfrentar cierta volatilidad en el valor de la inversión, pero también la oportunidad de obtener rendimientos superiores a largo plazo. Es importante recordar que todas las inversiones conllevan un cierto grado de riesgo, por lo que es fundamental tener un horizonte de inversión adecuado y no dejarse llevar por movimientos a corto plazo del mercado.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener la inversión en este fondo por al menos 3 a 5 años para poder beneficiarse de su estrategia a mediano plazo. Es importante tener paciencia y no dejarse llevar por la volatilidad a corto plazo, ya que los rendimientos pueden fluctuar en el corto plazo, pero tienden a estabilizarse y crecer a medida que pasa el tiempo.\n\nEn resumen, el Fm Bci Est Inv Ufiii es un fondo mixto adecuado para inversionistas jóvenes con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos a mediano plazo. Si estás dispuesto a asumir cierta volatilidad en pos de potenciales ganancias, este fondo podría ser una opción a considerar en tu estr",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10508-2",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI EST INV UFIII",
+    "full_id": "96767630_10508-2",
+    "source": "javascript"
+  }
+}

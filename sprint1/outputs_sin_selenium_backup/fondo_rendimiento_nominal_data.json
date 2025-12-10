@@ -1,0 +1,23 @@
+{
+  "fondo_id": "rendimiento nominal",
+  "nombre": "Rendimiento Nominal",
+  "nombre_cmf": "RENDIMIENTO NOMINAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión \"Rendimiento Nominal\" es una alternativa mixta diseñada para aquellos inversores que buscan un equilibrio entre riesgo y rentabilidad. Su estrategia de inversión combina tanto activos de renta fija como de renta variable, lo que le permite diversificar su cartera y adaptarse a diferentes condiciones del mercado.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, para aquellos que están dispuestos a asumir cierto nivel de riesgo en busca de mayores rendimientos, pero que prefieren no exponerse a fluctuaciones extremas en el valor de sus inversiones. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles pérdidas.\n\nEn cuanto a los principales activos en los que invierte, debido a la falta de información detallada sobre su composición, podemos inferir que el fondo podría estar distribuido entre bonos, acciones y otros instrumentos financieros. Esta diversificación ayuda a reducir la exposición a riesgos específicos y a aprovechar oportunidades de crecimiento en diferentes sectores.\n\nEn términos simples, el nivel de riesgo del fondo \"Rendimiento Nominal\" se puede comparar con el de un viaje en automóvil: puede haber baches en el camino, pero con una conducción cuidadosa y atención constante, se puede llegar a destino de manera segura. Es importante tener en cuenta que el riesgo está presente, pero se encuentra dentro de ciertos límites.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversiones a medio y largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Por lo tanto, se recomienda a los inversionistas mantener una visión a largo plazo y no dejarse llevar por movimientos a corto plazo en el mercado.\n\nEn resumen, el fondo \"Rendimiento Nominal\" ofrece una oportunidad de inversión equilibrada para aquellos que buscan un rendimiento moderado con un nivel de riesgo controlado. Es importante que los inversionistas consideren su tolerancia al riesgo y sus objetivos financieros antes de decidir si este fondo es adecuado para ellos. Recuerda siempre diversificar tus inversiones y consultar con un asesor financiero antes de tomar decisiones importantes.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8411-5",
+    "rut_admin": "96767630",
+    "nombre": "RENDIMIENTO NOMINAL",
+    "full_id": "96767630_8411-5",
+    "source": "javascript"
+  }
+}

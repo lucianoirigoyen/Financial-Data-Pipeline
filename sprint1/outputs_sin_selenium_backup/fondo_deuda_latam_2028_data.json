@@ -1,0 +1,86 @@
+{
+  "fondo_id": "deuda latam 2028",
+  "nombre": "Deuda Latam 2028",
+  "nombre_cmf": "DEUDA LATAM 2028",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Deuda Latam 2028 es una opción de inversión mixta que combina activos de renta fija de distintos países de América Latina, con un enfoque especial en Chile y en instrumentos de deuda. Su estrategia busca obtener rendimientos atractivos a través de la diversificación geográfica y sectorial, manteniendo un equilibrio entre la seguridad y el potencial de crecimiento.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan una inversión que les permita obtener retornos superiores a los depósitos a plazo, sin exponerse a riesgos extremos. Es importante tener en cuenta que, si bien el fondo ofrece cierta estabilidad, no está exento de variaciones en su valoración.\n\nLos principales activos en los que invierte Deuda Latam 2028 son bonos soberanos y corporativos de países latinoamericanos, con un enfoque significativo en Chile. Además, gran parte de su cartera está compuesta por instrumentos de deuda de distintos plazos, lo que le otorga cierta flexibilidad para adaptarse a las condiciones del mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se podría comparar con el de un viaje en automóvil por una carretera sinuosa: es posible que haya curvas y baches en el camino, pero si se conduce con precaución, se puede llegar a destino de manera segura.\n\nSe recomienda un horizonte de inversión a medio plazo para este fondo, ya que permite aprovechar las oportunidades de crecimiento a lo largo del tiempo. Es importante tener en cuenta que las inversiones en renta fija suelen requerir cierta paciencia para ver resultados concretos.\n\nEntre las ventajas de Deuda Latam 2028 se encuentran la diversificación geográfica y sectorial que ofrece, así como la posibilidad de obtener rendimientos atractivos en un contexto de tipos de interés bajos. Sin embargo, es importante tener en cuenta que, como cualquier inversión, está sujeto a fluctuaciones del mercado y a posibles variaciones en los precios de los activos.\n\nEn resumen, este fondo es ideal para inversionistas jóvenes que buscan un equilibrio entre seguridad y potencial de crecimiento a medio plazo. Es importante tener en cuenta que, si bien ofrece oportunidades interesantes, también implica ciertos riesgos que deben ser evaluados en función de los objetivos y la tolerancia al riesgo de cada inversionista.",
+  "composicion_portafolio": [
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 0.8343
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.8009999999999999
+    },
+    {
+      "activo": "aplicará sobre el",
+      "porcentaje": 0.5
+    },
+    {
+      "activo": "manteniendo invertido como máximo el",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Dólar",
+      "porcentaje": 0.2477
+    },
+    {
+      "activo": "Peso chileno",
+      "porcentaje": 0.20329999999999998
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.1852
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "EEUU",
+      "porcentaje": 0.0667
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0537
+    },
+    {
+      "activo": "Otros",
+      "porcentaje": 0.050499999999999996
+    },
+    {
+      "activo": "Brasil",
+      "porcentaje": 0.0332
+    },
+    {
+      "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+      "porcentaje": 0.033
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0329
+    }
+  ],
+  "rentabilidad_anual": 0.0926,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10722-0",
+    "rut_admin": "96767630",
+    "nombre": "DEUDA LATAM 2028",
+    "full_id": "96767630_10722-0",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Mediano Plazo",
+  "comision_administracion": 0.0151
+}

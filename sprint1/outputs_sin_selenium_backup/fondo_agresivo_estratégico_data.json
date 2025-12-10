@@ -1,0 +1,23 @@
+{
+  "fondo_id": "agresivo estratégico",
+  "nombre": "Agresivo Estratégico",
+  "nombre_cmf": "AGRESIVO ESTRATÉGICO",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El Fondo Mutuo Agresivo Estratégico es una opción de inversión diseñada para aquellos inversores que buscan obtener altos rendimientos a largo plazo, pero están dispuestos a asumir un nivel de riesgo significativamente mayor. Como su nombre lo indica, este fondo adopta una estrategia agresiva en la selección de activos con el objetivo de maximizar el crecimiento del capital invertido. \n\nEste tipo de fondo es adecuado para inversores jóvenes que tienen una tolerancia alta al riesgo y un horizonte de inversión a largo plazo. Por ejemplo, si eres un joven profesional que recién comienza a invertir y estás dispuesto a asumir la posibilidad de pérdidas a corto plazo con la esperanza de obtener ganancias significativas en el futuro, este fondo podría ser una opción a considerar.\n\nEn términos de los activos en los que invierte, el Fondo Agresivo Estratégico puede tener una composición diversificada que incluye acciones de empresas de alto potencial de crecimiento, bonos corporativos de mayor riesgo, commodities o incluso inversiones internacionales. Esta diversificación busca maximizar los rendimientos potenciales, pero también implica un mayor nivel de volatilidad en comparación con fondos más conservadores.\n\nEl nivel de riesgo asociado con este fondo es alto, lo cual significa que las fluctuaciones en el valor de las inversiones pueden ser significativas en el corto plazo. Es importante tener en cuenta que, si bien un mayor riesgo puede traducirse en mayores rendimientos, también existe la posibilidad de sufrir pérdidas importantes en momentos de turbulencia en los mercados financieros.\n\nPara invertir en el Fondo Agresivo Estratégico, se recomienda tener un horizonte de inversión a largo plazo, idealmente de al menos cinco años. Esto se debe a que, dado el enfoque agresivo de la estrategia de inversión, es probable que se experimenten períodos de volatilidad en los que el valor de la inversión pueda fluctuar significativamente. Mantener la calma y permanecer enfocado en los objetivos a largo plazo es clave para obtener los beneficios de este tipo de fondo.\n\nEn resumen, el Fondo Mutuo Agresivo Estratégico es una opción a considerar para inversores jóvenes con un alto apetito por el riesgo y un horizonte de inversión a largo plazo. Si estás dispuesto a asumir la volatilidad asociada con este tipo de fondo y tienes la paciencia necesaria para esperar a que la estrategia agresiva se traduzca en rendimientos atractivos, este fondo podría",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8435-2",
+    "rut_admin": "96767630",
+    "nombre": "AGRESIVO ESTRATÉGICO",
+    "full_id": "96767630_8435-2",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta corto plazo uf",
+  "nombre": "Renta Corto Plazo Uf",
+  "nombre_cmf": "RENTA CORTO PLAZO UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Renta Corto Plazo Uf es una opción de inversión mixta que busca proporcionar rendimientos atractivos en un horizonte de tiempo relativamente corto, manteniendo un nivel de riesgo medio. Este tipo de fondo invierte en una combinación de activos de renta fija y variable, lo que le permite adaptarse a las condiciones del mercado para maximizar el retorno de inversión.\n\nEste fondo es adecuado para inversores que buscan un equilibrio entre riesgo y rentabilidad, es decir, aquellos que no desean asumir riesgos extremos pero que tampoco quieren limitar sus posibilidades de ganancia. Por lo tanto, se recomienda para inversionistas con un perfil moderado, que buscan preservar su capital mientras obtienen un rendimiento superior al de un depósito a plazo.\n\nEn términos simples, los activos en los que este fondo invierte pueden incluir bonos del Estado, instrumentos de deuda corporativa, acciones de empresas sólidas e incluso instrumentos del mercado monetario. Esta diversificación ayuda a reducir el riesgo y a maximizar las oportunidades de ganancia a corto plazo.\n\nEn cuanto al nivel de riesgo, al ser considerado de perfil medio, implica que existe la posibilidad de enfrentar fluctuaciones en el valor de la inversión, pero estas no deberían ser tan pronunciadas como en fondos de mayor riesgo. Es importante tener en cuenta que el riesgo está presente en cualquier inversión, pero en este caso se mantiene en un nivel controlado.\n\nEl horizonte de inversión recomendado para el fondo Renta Corto Plazo Uf es de corto a mediano plazo, lo que significa que es ideal para aquellos inversionistas que tienen metas financieras a un plazo de uno a tres años. Es importante recordar que la inversión a corto plazo puede implicar menor volatilidad, pero también menores rendimientos potenciales en comparación con inversiones a largo plazo.\n\nEn resumen, este fondo ofrece una opción equilibrada para inversores que buscan un rendimiento atractivo sin exponerse a riesgos extremos. Entre las ventajas se encuentra la diversificación de activos y la posibilidad de obtener rendimientos superiores a los de un depósito a plazo, mientras que como desventaja podría mencionarse que los rendimientos no están garantizados y pueden variar según las condiciones del mercado. Es importante que el inversionista ideal para este fondo sea consciente de su perfil moderado y de sus objetivos financieros a corto y mediano plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10261-K",
+    "rut_admin": "96767630",
+    "nombre": "RENTA CORTO PLAZO UF",
+    "full_id": "96767630_10261-K",
+    "source": "javascript"
+  }
+}

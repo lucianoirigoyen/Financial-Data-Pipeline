@@ -1,0 +1,23 @@
+{
+  "fondo_id": "index fund us",
+  "nombre": "Index Fund Us",
+  "nombre_cmf": "INDEX FUND US",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Index Fund Us es un fondo mutuo mixto que combina inversiones en acciones y bonos de empresas estadounidenses. Su estrategia de inversión se basa en replicar el comportamiento de un índice bursátil de EE. UU., lo que significa que busca obtener rendimientos similares a los del mercado de valores de ese país. Este enfoque diversificado permite al fondo aprovechar el potencial de crecimiento de las acciones, al tiempo que reduce el riesgo al incluir bonos en su cartera.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener buenos rendimientos y la protección de su capital. Si eres un joven inversor en Chile que está dispuesto a asumir cierto nivel de riesgo para obtener crecimiento a largo plazo, el Index Fund Us podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, el Index Fund Us principalmente coloca su dinero en acciones y bonos de empresas de Estados Unidos. Esto significa que estarás invirtiendo en compañías como Apple, Amazon, Microsoft, así como en bonos emitidos por el gobierno estadounidense. Al diversificar en diferentes sectores y tipos de activos, el fondo busca minimizar el impacto de posibles caídas en un sector específico.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Si bien invertir en acciones implica cierto grado de volatilidad, la presencia de bonos en la cartera ayuda a mitigar ese riesgo. Es importante recordar que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de tus inversiones.\n\nEl horizonte de inversión recomendado para el Index Fund Us es a medio y largo plazo. Esto significa que, si estás dispuesto a mantener tu dinero invertido durante varios años, tendrás más tiempo para que tus inversiones se recuperen de posibles caídas temporales y puedas beneficiarte de un potencial crecimiento a largo plazo. Es fundamental tener paciencia y no dejarse llevar por la volatilidad a corto plazo del mercado.\n\nEn resumen, el Index Fund Us es una opción interesante para jóvenes inversores chilenos que buscan diversificar su cartera y obtener un equilibrio entre riesgo y rendimiento a largo plazo. Sin embargo, es importante tener en cuenta que, al invertir en el mercado estadounidense, estás expuesto a factores externos que pueden afectar tus inversiones. Como recomendación, es fundamental realizar un análisis personalizado de tu perfil de riesgo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8987-7",
+    "rut_admin": "96767630",
+    "nombre": "INDEX FUND US",
+    "full_id": "96767630_8987-7",
+    "source": "javascript"
+  }
+}

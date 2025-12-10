@@ -1,0 +1,23 @@
+{
+  "fondo_id": "globales i",
+  "nombre": "Globales I",
+  "nombre_cmf": "GLOBALES I",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Globales I es una opción de inversión mixta que combina activos de renta fija y variable, buscando maximizar los rendimientos a través de una estrategia diversificada. Este fondo se caracteriza por tener un perfil de riesgo medio, lo que implica que puede experimentar fluctuaciones moderadas en su valor, pero con la posibilidad de obtener mayores retornos a largo plazo.\n\nEste tipo de fondo es adecuado para inversores que buscan un equilibrio entre riesgo y rendimiento, aquellos que están dispuestos a asumir cierta volatilidad en pos de obtener mayores ganancias. Es ideal para jóvenes que desean comenzar a invertir y que tienen un horizonte temporal de mediano a largo plazo, ya que permite aprovechar el potencial de crecimiento de los mercados globales.\n\nEn cuanto a los activos en los que invierte el fondo Globales I, su composición exacta no está disponible, pero se puede esperar que incluya una variedad de instrumentos financieros internacionales, como acciones de empresas globales, bonos corporativos y gubernamentales de distintos países, así como otros activos diversificados para mitigar el riesgo.\n\nEl nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que existe la posibilidad de que el valor de la inversión fluctúe, pero sin alcanzar niveles extremos de volatilidad. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles pérdidas, por lo que es fundamental tener paciencia y mantener una visión a largo plazo.\n\nEn términos simples, el horizonte de inversión recomendado para el fondo Globales I es de al menos 3 a 5 años, ya que permite aprovechar los ciclos económicos y financieros a largo plazo, teniendo en cuenta que las fluctuaciones a corto plazo pueden ser parte del proceso de inversión.\n\nUna ventaja de este fondo es su diversificación global, lo que reduce el riesgo de concentrar los recursos en un solo mercado o sector, mientras que una posible desventaja podría ser la falta de información detallada sobre su composición exacta, lo que puede dificultar la evaluación precisa de su desempeño.\n\nEn resumen, el fondo Globales I es una opción atractiva para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y retorno, con una visión a mediano y largo plazo. Es importante recordar que la diversificación y la paciencia son clave al invertir en este tipo de fondos, manteniendo siempre un enfoque estratégico y prudente en el camino hacia el crecimiento",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8427-1",
+    "rut_admin": "96767630",
+    "nombre": "GLOBALES I",
+    "full_id": "96767630_8427-1",
+    "source": "javascript"
+  }
+}

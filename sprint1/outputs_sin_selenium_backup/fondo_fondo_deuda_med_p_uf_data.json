@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fondo deuda med p uf",
+  "nombre": "Fondo Deuda Med P Uf",
+  "nombre_cmf": "FONDO DEUDA MED P UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Deuda Med P Uf es una alternativa de inversión mixta que se caracteriza por su perfil de riesgo medio. Este tipo de fondo combina tanto instrumentos de renta fija como de renta variable, buscando un equilibrio entre la estabilidad de los bonos y la posibilidad de obtener mayores rendimientos a través de acciones u otros activos. Su estrategia de inversión se enfoca en diversificar el portafolio para mitigar el riesgo y aprovechar las oportunidades que ofrece el mercado.\n\nEste fondo es adecuado para inversores con un perfil moderado que buscan un balance entre riesgo y retorno. Si bien no se dispone de información detallada sobre la composición principal del fondo, se espera que invierta en una variedad de instrumentos financieros que se ajusten a su nivel de riesgo. Por lo tanto, es importante que los inversionistas comprendan que pueden experimentar fluctuaciones en el valor de su inversión, pero con la expectativa de obtener rendimientos superiores a la renta fija tradicional.\n\nEn términos simples, el nivel de riesgo del Fondo Deuda Med P Uf se encuentra en un punto intermedio entre la seguridad de los bonos y la volatilidad de las acciones. Esto significa que si bien existe la posibilidad de obtener mayores ganancias, también se corre el riesgo de sufrir pérdidas en momentos de turbulencia en los mercados financieros. Es fundamental que los inversionistas estén dispuestos a asumir esta volatilidad y mantengan una visión a largo plazo para alcanzar sus objetivos financieros.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas consideren este fondo como parte de una estrategia a mediano o largo plazo. Dado su perfil de riesgo medio, es importante mantener la inversión durante un periodo suficiente para que el portafolio tenga la oportunidad de generar rendimientos consistentes y superar posibles periodos de volatilidad en el corto plazo.\n\nEn resumen, el Fondo Deuda Med P Uf ofrece a los inversores la oportunidad de diversificar sus inversiones y acceder a una combinación de activos que buscan un equilibrio entre riesgo y retorno. Si bien presenta la posibilidad de obtener rendimientos atractivos, también implica cierto nivel de volatilidad. Por lo tanto, es importante que los inversionistas analicen su perfil de riesgo y objetivos financieros antes de decidir si este fondo se ajusta a sus necesidades.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9597-4",
+    "rut_admin": "96767630",
+    "nombre": "FONDO DEUDA MED P UF",
+    "full_id": "96767630_9597-4",
+    "source": "javascript"
+  }
+}

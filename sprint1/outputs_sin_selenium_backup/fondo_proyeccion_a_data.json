@@ -1,0 +1,23 @@
+{
+  "fondo_id": "proyeccion a",
+  "nombre": "Proyeccion A",
+  "nombre_cmf": "PROYECCION A",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Proyección A es una excelente opción para aquellos jóvenes inversores chilenos que buscan una alternativa con un perfil de riesgo medio y potencial de crecimiento a largo plazo. Este fondo se clasifica como mixto, lo que significa que combina inversiones tanto en renta fija como en renta variable, diversificando así su cartera y buscando maximizar los rendimientos.\n\nPara un perfil de inversionista joven que está dispuesto a asumir un nivel moderado de riesgo en busca de mayores retornos, Proyección A puede ser una inversión adecuada. Su estrategia de inversión busca aprovechar las oportunidades tanto en el mercado de valores como en instrumentos de deuda, equilibrando así la exposición al riesgo.\n\nSi bien la composición exacta del fondo no está disponible, generalmente los fondos mixtos como Proyección A invierten en una variedad de activos, como acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, y posiblemente otros instrumentos financieros. Esta diversificación contribuye a reducir la exposición a riesgos específicos y a potenciar los rendimientos a lo largo del tiempo.\n\nEn términos simples, el nivel de riesgo de Proyección A se encuentra en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Si bien puede experimentar fluctuaciones en su valor en el corto plazo debido a los movimientos del mercado, su enfoque diversificado ayuda a mitigar el impacto de eventos adversos.\n\nPara aquellos jóvenes inversores chilenos que tienen un horizonte de inversión a largo plazo, Proyección A puede ser una opción atractiva. Al tener la capacidad de mantener la inversión durante varios años, se pueden aprovechar los ciclos del mercado y permitir que las inversiones alcancen su máximo potencial de rendimiento.\n\nEntre las ventajas de este fondo se encuentran la diversificación de la cartera, la gestión profesional de los activos y la posibilidad de obtener rendimientos atractivos a largo plazo. Sin embargo, es importante tener en cuenta que, al tratarse de un fondo mixto, puede verse afectado por la volatilidad del mercado y no garantiza ganancias constantes en el corto plazo.\n\nEn resumen, Proyección A es una opción a considerar para jóvenes inversores chilenos que buscan una alternativa con un perfil de riesgo medio y un potencial de crecimiento a largo plazo. Recomendamos que antes de invertir, se analice detenidamente el prospecto del fondo, se entienda su estrategia de inversión y se consulte",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8694-0",
+    "rut_admin": "96767630",
+    "nombre": "PROYECCION A",
+    "full_id": "96767630_8694-0",
+    "source": "javascript"
+  }
+}

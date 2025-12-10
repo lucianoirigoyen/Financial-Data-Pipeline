@@ -1,0 +1,23 @@
+{
+  "fondo_id": "itau gestionado acci",
+  "nombre": "Itau Gestionado Acci",
+  "nombre_cmf": "ITAU GESTIONADO ACCI",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Itau Gestionado Acci es un fondo mutuo mixto que busca combinar activos de renta fija y variable para obtener un equilibrio entre riesgo y rendimiento. Su estrategia de inversión se centra en diversificar el portafolio, invirtiendo en una variedad de instrumentos financieros que buscan maximizar las ganancias a largo plazo. Aunque la composición exacta del fondo no está disponible, se puede inferir que busca un balance entre estabilidad y potencial de crecimiento.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre seguridad y potencial de retorno. Si eres un joven inversor chileno que desea diversificar su cartera y asumir cierto nivel de riesgo para obtener mayores ganancias, este fondo puede ser una opción a considerar.\n\nEl Itau Gestionado Acci invierte en una combinación de activos de renta fija y variable, lo que significa que puede tener exposición a bonos, acciones, depósitos a plazo, entre otros instrumentos financieros. Esta diversificación reduce el impacto de posibles caídas en un solo tipo de activo, lo que puede ayudar a mitigar el riesgo.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con caminar por un sendero moderadamente empinado: puede haber subidas y bajadas, pero en general se espera que el camino sea manejable. Es importante recordar que, si bien el riesgo es moderado, no está exento de pérdidas potenciales, especialmente en periodos de volatilidad del mercado.\n\nEl horizonte de inversión recomendado para el Itau Gestionado Acci es a medio y largo plazo, idealmente más de 3 a 5 años. Esto se debe a que, al combinar activos de diferentes clases, el fondo puede necesitar tiempo para mostrar su potencial de crecimiento y recuperarse de posibles fluctuaciones a corto plazo en los mercados financieros.\n\nEn resumen, el Itau Gestionado Acci es una opción atractiva para inversores jóvenes chilenos que buscan diversificar su cartera y asumir un riesgo moderado en busca de rendimientos atractivos a largo plazo. Sin embargo, como desventaja, la falta de información detallada sobre su composición puede generar incertidumbre. Se recomienda a los inversores revisar regularmente su cartera y ajustar sus inversiones según sus objetivos financieros y tolerancia al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8960-5",
+    "rut_admin": "96767630",
+    "nombre": "ITAU GESTIONADO ACCI",
+    "full_id": "96767630_8960-5",
+    "source": "javascript"
+  }
+}

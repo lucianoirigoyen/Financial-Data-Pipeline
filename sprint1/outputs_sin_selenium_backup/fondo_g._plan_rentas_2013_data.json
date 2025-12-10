@@ -1,0 +1,23 @@
+{
+  "fondo_id": "g. plan rentas 2013",
+  "nombre": "G. Plan Rentas 2013",
+  "nombre_cmf": "G. PLAN RENTAS 2013",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo G. Plan Rentas 2013 es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable. Su estrategia de inversión busca proporcionar un equilibrio entre la estabilidad de los activos de renta fija y el potencial de crecimiento de los activos de renta variable. Esto significa que parte de los recursos se destinan a instrumentos financieros como bonos y depósitos a plazo, mientras que otra parte se invierte en acciones u otros instrumentos de renta variable.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los de instrumentos puramente conservadores. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de los activos, especialmente en periodos de volatilidad del mercado.\n\nEn cuanto a los activos en los que invierte, la composición exacta del G. Plan Rentas 2013 no está disponible. Sin embargo, es probable que incluya una diversificación de bonos corporativos, bonos soberanos, acciones de empresas locales e internacionales, entre otros. Esta diversificación ayuda a reducir el riesgo asociado a la inversión, ya que no se concentra en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio entre la seguridad de los instrumentos de renta fija y el potencial de crecimiento de la renta variable. Aunque no es tan arriesgado como invertir únicamente en acciones, tampoco es tan conservador como optar solo por bonos de bajo rendimiento. Por lo tanto, se espera que los inversores estén dispuestos a asumir cierto nivel de volatilidad en busca de mayores rendimientos.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser adecuado para inversionistas que buscan un horizonte de mediano a largo plazo, generalmente de al menos 3 a 5 años. Esto se debe a que, a pesar de que el fondo puede experimentar fluctuaciones en el corto plazo, se espera que a lo largo del tiempo logre un crecimiento consistente.\n\nEn resumen, el fondo mutuo G. Plan Rentas 2013 ofrece a los inversionistas la oportunidad de diversificar su cartera con una combinación de activos de renta fija y renta variable, adecuada para aquellos con un perfil de riesgo medio. Sin embargo, es importante recordar que, si bien puede proporcion",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8816-1",
+    "rut_admin": "96767630",
+    "nombre": "G. PLAN RENTAS 2013",
+    "full_id": "96767630_8816-1",
+    "source": "javascript"
+  }
+}

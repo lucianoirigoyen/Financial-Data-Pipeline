@@ -1,0 +1,23 @@
+{
+  "fondo_id": "top 50",
+  "nombre": "Top 50",
+  "nombre_cmf": "TOP 50",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Top 50 es una opción de inversión mixta que combina activos de renta fija y renta variable para buscar un equilibrio entre rendimiento y seguridad. Su estrategia se basa en diversificar el portafolio invirtiendo en una amplia gama de instrumentos financieros, lo que puede ayudar a reducir el riesgo y maximizar el potencial de retorno a largo plazo. Aunque la composición principal del fondo no está disponible públicamente, se espera que incluya una selección de acciones, bonos y otros activos para diversificar el riesgo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre seguridad y rendimiento. Si eres un joven inversor que está dispuesto a asumir cierto nivel de riesgo en busca de mayores ganancias, el fondo Top 50 podría ser una buena opción para ti. Sin embargo, si prefieres una estrategia más conservadora, quizás sea mejor buscar fondos con un perfil de riesgo más bajo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en el punto intermedio de la escala, lo que significa que puede experimentar fluctuaciones en su valor, pero también ofrece la posibilidad de obtener rendimientos más atractivos que los fondos conservadores. Es importante tener en cuenta que, como cualquier inversión en el mercado financiero, el valor de tus participaciones en el fondo puede subir o bajar, dependiendo de la evolución de los activos en los que invierte.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores que elijan el fondo Top 50 tengan un enfoque a largo plazo. Esto significa que debes estar preparado para mantener tus inversiones durante al menos varios años para aprovechar al máximo el potencial de crecimiento y mitigar los posibles impactos de la volatilidad a corto plazo.\n\nUna de las ventajas de este fondo es su capacidad para ofrecer una diversificación efectiva a través de diferentes clases de activos, lo que puede ayudar a reducir el riesgo y maximizar las oportunidades de rendimiento. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta del portafolio, lo que puede dificultar la evaluación precisa de los riesgos asociados.\n\nEn resumen, el fondo mutuo Top 50 es una opción atractiva para jóvenes inversionistas chilenos con un perfil de riesgo medio que buscan diversificar sus inversiones y obtener rendimientos atractivos a largo plazo. Recuerda siempre consultar con un asesor financiero antes de tomar",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8340-2",
+    "rut_admin": "96767630",
+    "nombre": "TOP 50",
+    "full_id": "96767630_8340-2",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bbva chile +",
+  "nombre": "Bbva Chile +",
+  "nombre_cmf": "BBVA CHILE +",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Bbva Chile + es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable. Su estrategia busca obtener un equilibrio entre la estabilidad de los bonos y la posibilidad de rendimientos mayores a través de acciones. Aunque la composición exacta del fondo no está disponible, se puede inferir que busca diversificar el riesgo al invertir en diferentes clases de activos.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de los bonos y el potencial de crecimiento de las acciones. Si bien no es tan conservador como un fondo exclusivamente de renta fija, tampoco asume el mismo nivel de riesgo que uno de renta variable pura.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Mientras que los bonos pueden proporcionar estabilidad, las acciones pueden experimentar fluctuaciones en su valor. Por lo tanto, aunque se espera una mayor rentabilidad potencial que con un fondo de renta fija, también se deben considerar los riesgos asociados con la volatilidad de las acciones.\n\nEl horizonte de inversión recomendado para el fondo Bbva Chile + es a mediano o largo plazo. Dado su enfoque mixto, es importante tener una visión a largo plazo para permitir que las inversiones se desarrollen y se beneficien de los ciclos del mercado. Un inversor que busca resultados a corto plazo podría verse afectado por las fluctuaciones normales del mercado en el corto plazo.\n\nAlgunas ventajas de este fondo incluyen la diversificación que ofrece al combinar diferentes clases de activos, lo que puede ayudar a mitigar el riesgo. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta del fondo, lo que dificulta la evaluación precisa de la cartera.\n\nEn resumen, el fondo mutuo Bbva Chile + es una opción interesante para inversionistas con un perfil medio que buscan un equilibrio entre la estabilidad de los bonos y el potencial de crecimiento de las acciones. Se recomienda tener una visión a mediano o largo plazo para aprovechar al máximo las oportunidades de inversión que ofrece este fondo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8508-1",
+    "rut_admin": "96767630",
+    "nombre": "BBVA CHILE +",
+    "full_id": "96767630_8508-1",
+    "source": "javascript"
+  }
+}

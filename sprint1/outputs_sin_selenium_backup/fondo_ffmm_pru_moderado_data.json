@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ffmm pru moderado",
+  "nombre": "Ffmm Pru Moderado",
+  "nombre_cmf": "FFMM PRU MODERADO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Pru Moderado es una opción de inversión que combina activos de renta fija y renta variable para buscar un equilibrio entre la estabilidad y el potencial de crecimiento. Su estrategia se centra en diversificar el riesgo a través de una cartera mixta, lo que significa que parte de los recursos se invierten en instrumentos de deuda y otra parte en acciones de empresas, buscando una rentabilidad moderada en el mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener rendimientos superiores a los ofrecidos por instrumentos más conservadores. Si estás dispuesto a asumir un nivel moderado de riesgo en busca de mayores ganancias, este fondo podría ser adecuado para ti.\n\nEn cuanto a los activos en los que invierte el Fondo Mutuo Pru Moderado, la información específica sobre su composición principal no está disponible. Sin embargo, es probable que incluya bonos, acciones de empresas locales e internacionales, y otros instrumentos financieros que permitan diversificar el portafolio y reducir la exposición a riesgos específicos.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que implica que puede haber fluctuaciones en el valor de la inversión en el corto plazo, pero se espera que a largo plazo genere rendimientos superiores a los instrumentos de renta fija tradicionales. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles pérdidas en momentos de volatilidad en los mercados financieros.\n\nPara maximizar los beneficios de este fondo, se recomienda un horizonte de inversión a mediano y largo plazo, es decir, mantener la inversión por al menos unos años para permitir que el fondo se recupere de posibles caídas temporales y aprovechar el potencial de crecimiento de los activos en los que invierte.\n\nEn resumen, el Fondo Mutuo Pru Moderado es una opción equilibrada para inversionistas jóvenes que buscan diversificar su cartera y obtener rendimientos superiores a los ofrecidos por instrumentos más conservadores, siempre manteniendo en mente el horizonte de inversión y la tolerancia al riesgo personal. Es importante recordar que, como en cualquier inversión, existen riesgos potenciales que deben ser evaluados con cuidado antes de tomar una decisión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10727-1",
+    "rut_admin": "96767630",
+    "nombre": "FFMM PRU MODERADO",
+    "full_id": "96767630_10727-1",
+    "source": "javascript"
+  }
+}

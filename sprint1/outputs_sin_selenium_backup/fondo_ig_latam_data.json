@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ig latam",
+  "nombre": "Ig Latam",
+  "nombre_cmf": "IG LATAM",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Ig Latam es una excelente opción para aquellos inversores que buscan diversificar su cartera de forma equilibrada. Se trata de un fondo mixto, lo que significa que invierte tanto en acciones como en bonos u otros instrumentos financieros, buscando optimizar rendimientos a largo plazo. Aunque la composición exacta del fondo no está disponible, su enfoque diversificado ayuda a mitigar riesgos y aprovechar oportunidades en diferentes áreas del mercado latinoamericano.\n\nEste fondo se considera de perfil de riesgo medio, lo que implica que ofrece un equilibrio entre posibles ganancias y pérdidas. Para un joven inversor chileno que busca crecimiento moderado pero estable en su cartera, Ig Latam puede ser adecuado. Es importante recordar que, aunque el riesgo es moderado, siempre existe la posibilidad de fluctuaciones en el valor de la inversión, por lo que es fundamental tener paciencia y mirar a largo plazo.\n\nEn cuanto a los activos en los que invierte, al ser un fondo latinoamericano, es probable que tenga exposición a empresas de diferentes sectores en la región, como retail, energía, tecnología, entre otros. Esta diversificación sectorial puede ayudar a reducir el impacto de eventuales caídas en un solo sector y potenciar el potencial de crecimiento del fondo en su conjunto.\n\nEn términos simples, el nivel de riesgo de Ig Latam se asemeja a un paseo en bicicleta por terreno ondulado: es posible enfrentar algunas subidas y bajadas, pero, en general, se espera un recorrido más suave en comparación con fondos de mayor riesgo. Es esencial tener en cuenta que la inversión conlleva cierto grado de incertidumbre, por lo que es clave mantener una visión a largo plazo y evitar decisiones basadas en movimientos a corto plazo del mercado.\n\nEl horizonte de inversión recomendado para el fondo Ig Latam es a medio y largo plazo. Dado su enfoque equilibrado y diversificado, es ideal para aquellos inversores jóvenes que buscan construir un patrimonio sólido a lo largo del tiempo. Se sugiere mantener la inversión durante al menos 3 a 5 años para permitir que el fondo se desenvuelva y potencialmente alcance su máximo rendimiento.\n\nEn resumen, Ig Latam ofrece una oportunidad atractiva para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rendimiento. Su enfoque diversificado, perfil de riesgo medio y potencial de crecimiento a largo plazo lo convierten en una opción a",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9345-9",
+    "rut_admin": "96767630",
+    "nombre": "IG LATAM",
+    "full_id": "96767630_9345-9",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "capital moderado",
+  "nombre": "Capital Moderado",
+  "nombre_cmf": "CAPITAL MODERADO",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo mutuo \"Capital Moderado\" es una excelente opción para inversores que buscan una estrategia conservadora con un perfil de riesgo bajo. Este tipo de fondo se enfoca en preservar el capital y obtener rendimientos estables a través de inversiones en activos de menor riesgo. Su objetivo principal es ofrecer una combinación equilibrada de rentabilidad y seguridad para los inversionistas que prefieren evitar grandes fluctuaciones en el valor de sus inversiones.\n\nEste fondo es ideal para jóvenes inversores que buscan un equilibrio entre seguridad y rendimiento. Si eres un inversor que valora la estabilidad y la tranquilidad financiera, el fondo \"Capital Moderado\" podría adaptarse perfectamente a tus necesidades. Es importante tener en cuenta que, si bien la rentabilidad histórica del fondo puede ser más moderada en comparación con fondos de mayor riesgo, ofrece una mayor protección frente a posibles pérdidas en periodos de volatilidad del mercado.\n\nEn términos de composición de activos, el \"Capital Moderado\" puede invertir en una variedad de instrumentos financieros como bonos corporativos, bonos del Estado, depósitos a plazo y otros activos de renta fija. Estos activos suelen ser considerados menos riesgosos en comparación con acciones o instrumentos más especulativos, lo que contribuye a la estabilidad del fondo.\n\nEn cuanto al nivel de riesgo, este fondo se caracteriza por ser conservador, lo que significa que la exposición a activos de riesgo es limitada. Si bien no se espera obtener altas rentabilidades en periodos de fuerte crecimiento del mercado, el \"Capital Moderado\" busca proteger el capital de los inversionistas ante posibles caídas significativas.\n\nEl horizonte de inversión recomendado para el fondo \"Capital Moderado\" es a medio y largo plazo, ya que su estrategia se enfoca en generar rendimientos consistentes a lo largo del tiempo. Es importante tener en cuenta que, si bien el fondo puede experimentar variaciones en su valor en el corto plazo, su enfoque a largo plazo busca minimizar los riesgos asociados con la volatilidad del mercado.\n\nEn resumen, el fondo \"Capital Moderado\" ofrece una opción segura y estable para inversores que buscan un equilibrio entre rendimiento y seguridad. Es importante recordar que, si bien este tipo de fondos puede no ofrecer las mismas ganancias potenciales que fondos más arriesgados, proporciona una mayor protección frente a posibles pérdidas. Si eres un joven inversor que valora la estabilidad y la tranquilidad financiera, este fondo podría ser una excelente opción para ti.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9017-4",
+    "rut_admin": "96767630",
+    "nombre": "CAPITAL MODERADO",
+    "full_id": "96767630_9017-4",
+    "source": "javascript"
+  }
+}

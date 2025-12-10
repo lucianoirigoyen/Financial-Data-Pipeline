@@ -1,0 +1,23 @@
+{
+  "fondo_id": "mercados emergentes",
+  "nombre": "Mercados Emergentes",
+  "nombre_cmf": "mercados emergentes",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Mercados Emergentes es una opción de inversión mixta que busca generar rendimientos a través de la diversificación en mercados emergentes. Su estrategia se basa en invertir en una combinación de acciones y bonos de países en desarrollo con potencial de crecimiento, lo cual puede ofrecer mayores oportunidades de rentabilidad a mediano y largo plazo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores retornos. Si eres un joven inversor chileno que busca diversificar tu cartera y estás dispuesto a aceptar fluctuaciones moderadas en el valor de tu inversión, este fondo podría ser una buena opción para ti.\n\nLos principales activos en los que invierte el fondo Mercados Emergentes incluyen acciones de empresas situadas en países en desarrollo y bonos emitidos por gobiernos de dichos países. Por ejemplo, podría tener participaciones en compañías tecnológicas de China o bonos emitidos por Brasil. Esta diversificación geográfica y sectorial busca reducir el riesgo asociado con la inversión en un solo mercado o sector.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Si bien las inversiones en mercados emergentes pueden ofrecer oportunidades de crecimiento atractivas, también están expuestas a mayores riesgos políticos, económicos y de mercado en comparación con mercados más desarrollados.\n\nSe recomienda un horizonte de inversión a medio y largo plazo para este fondo, ya que las inversiones en mercados emergentes suelen requerir paciencia y tiempo para que las estrategias de inversión se materialicen y generen retornos significativos. Es importante recordar que la volatilidad a corto plazo es parte inherente de este tipo de inversiones, por lo que es importante mantener una visión de largo plazo y no dejarse llevar por movimientos temporales del mercado.\n\nEn cuanto a ventajas, el fondo Mercados Emergentes ofrece la posibilidad de diversificar tu cartera a nivel global y acceder a mercados en crecimiento. Sin embargo, es importante tener en cuenta que la volatilidad de estos mercados puede afectar el valor de tu inversión en el corto plazo. Por ello, es fundamental tener una estrategia de inversión clara y mantener una visión a largo plazo.\n\nEn resumen, el fondo Mercados Emergentes es una opción a considerar para jóvenes inversores chilenos con un perfil de riesgo medio que buscan diversificar su cartera y acceder a oportunidades de crecimiento en mercados en desarrollo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8828-5",
+    "rut_admin": "96767630",
+    "nombre": "mercados emergentes",
+    "full_id": "96767630_8828-5",
+    "source": "javascript"
+  }
+}

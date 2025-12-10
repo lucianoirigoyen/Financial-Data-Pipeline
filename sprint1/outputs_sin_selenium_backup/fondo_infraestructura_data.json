@@ -1,0 +1,23 @@
+{
+  "fondo_id": "infraestructura",
+  "nombre": "Infraestructura",
+  "nombre_cmf": "INFRAESTRUCTURA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Infraestructura\" es una opción de inversión mixta que combina diferentes activos para buscar un equilibrio entre rentabilidad y riesgo. Este fondo invierte en una variedad de instrumentos financieros, como acciones, bonos y otros valores, con el objetivo de obtener ganancias a través de la participación en proyectos de infraestructura y desarrollo.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan un rendimiento atractivo sin asumir una exposición excesiva a la volatilidad del mercado. Es importante destacar que, al no contar con información específica sobre la composición principal del fondo, la diversificación de activos juega un papel fundamental en la gestión del riesgo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que puede experimentar fluctuaciones en su valor, pero con un potencial de retorno que compensa este riesgo. Es importante recordar que, como en cualquier inversión, existen riesgos inherentes que deben ser considerados, y diversificar la cartera es clave para mitigarlos.\n\nEn cuanto al horizonte de inversión recomendado, para maximizar los beneficios potenciales de este fondo, se aconseja a los inversionistas mantener una visión a mediano a largo plazo, generalmente de al menos 3 a 5 años. Esto permitirá que el fondo se beneficie de los ciclos económicos y el crecimiento a largo plazo de los proyectos de infraestructura en los que invierte.\n\nUna ventaja de este fondo es su potencial para generar rendimientos interesantes a través de la participación en proyectos de infraestructura clave para el desarrollo del país, lo que puede atraer a inversionistas interesados en apoyar el crecimiento económico. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que puede dificultar la evaluación precisa de los riesgos asociados.\n\nEn resumen, el fondo mutuo \"Infraestructura\" es una opción atractiva para inversionistas con un perfil de riesgo medio, interesados en participar en proyectos de infraestructura a través de una inversión diversificada. Se recomienda a los inversionistas con un horizonte de inversión a mediano a largo plazo considerar este fondo como parte de su cartera, siempre manteniendo un enfoque prudente y diversificado en sus inversiones.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8793-9",
+    "rut_admin": "96767630",
+    "nombre": "INFRAESTRUCTURA",
+    "full_id": "96767630_8793-9",
+    "source": "javascript"
+  }
+}

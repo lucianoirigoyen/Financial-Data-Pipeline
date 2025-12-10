@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm cc heavy metal",
+  "nombre": "Fm Cc Heavy Metal",
+  "nombre_cmf": "FM CC HEAVY METAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "Fondo Mutuo Cc Heavy Metal: Una Opción Mixta para Inversiones con Moderado Riesgo\n\nEl Fondo Mutuo Cc Heavy Metal es una alternativa de inversión mixta que busca combinar la estabilidad de activos de renta fija con el potencial de crecimiento de acciones en el mercado. Su estrategia de inversión se enfoca en diversificar el portafolio para reducir riesgos y aprovechar oportunidades de crecimiento. Esto significa que, si bien no se conocen los activos principales en los que invierte, se puede esperar una combinación equilibrada entre acciones y bonos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la estabilidad de sus inversiones y la posibilidad de obtener rendimientos más altos que los ofrecidos por la renta fija tradicional. Si eres un joven inversor que busca un crecimiento moderado de su capital sin asumir riesgos extremos, el Fondo Mutuo Cc Heavy Metal podría ser una opción a considerar.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Aunque las inversiones en renta fija proporcionan cierta estabilidad, las acciones pueden experimentar fluctuaciones en su valor en el corto plazo. Por lo tanto, se recomienda tener una visión a mediano plazo para permitir que el fondo se recupere de posibles caídas en el mercado.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Cc Heavy Metal es de al menos 3 a 5 años. Esto se debe a que, a pesar de que el fondo busca minimizar riesgos a través de la diversificación, las inversiones en acciones pueden requerir tiempo para mostrar su verdadero potencial de crecimiento. Además, un plazo más largo permite superar posibles volatilidades del mercado y maximizar el rendimiento de la inversión.\n\nUna ventaja de este fondo es su enfoque diversificado, que puede ayudar a suavizar los efectos de la volatilidad del mercado. Sin embargo, una posible desventaja es la falta de transparencia en cuanto a la composición exacta del portafolio, lo que puede generar incertidumbre en los inversionistas.\n\nEn resumen, el Fondo Mutuo Cc Heavy Metal es una opción mixta que brinda un equilibrio entre riesgo y potencial de crecimiento para inversionistas con un perfil moderado. Si estás dispuesto a invertir a mediano plazo y buscas diversificación, este fondo podría ser adecuado para ti. Recuerda siempre consultar con un asesor financiero",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10136-2",
+    "rut_admin": "96767630",
+    "nombre": "FM CC HEAVY METAL",
+    "full_id": "96767630_10136-2",
+    "source": "javascript"
+  }
+}

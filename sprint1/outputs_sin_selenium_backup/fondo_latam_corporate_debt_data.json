@@ -1,0 +1,23 @@
+{
+  "fondo_id": "latam corporate debt",
+  "nombre": "Latam Corporate Debt",
+  "nombre_cmf": "LATAM CORPORATE DEBT",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Latam Corporate Debt es una alternativa de inversión mixta que combina tanto instrumentos de renta fija como de renta variable en América Latina, específicamente en deuda corporativa. Su estrategia de inversión se centra en obtener rendimientos atractivos a través de la compra de bonos emitidos por empresas de la región, diversificando así el riesgo y buscando maximizar el potencial de ganancias.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener mayores retornos a largo plazo. Es ideal para quienes desean diversificar su cartera de inversiones y están dispuestos a asumir un nivel moderado de riesgo.\n\nLos principales activos en los que invierte el fondo Latam Corporate Debt son bonos emitidos por empresas latinoamericanas de diferentes sectores económicos, como energía, tecnología, finanzas, entre otros. Al invertir en deuda corporativa, el fondo está expuesto al riesgo crediticio de las empresas emisoras, lo que significa que la rentabilidad puede variar en función de la solidez financiera de las compañías.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, ya que si bien la inversión en deuda corporativa puede ofrecer rendimientos atractivos, también implica la posibilidad de pérdidas si las empresas emisoras no cumplen con sus obligaciones de pago. Es importante tener en cuenta que el riesgo en este tipo de activos está relacionado con la calidad crediticia de las empresas en las que se invierte.\n\nEl horizonte de inversión recomendado para el fondo Latam Corporate Debt es a mediano y largo plazo, ya que la estrategia de inversión se enfoca en obtener beneficios a lo largo del tiempo, aprovechando las oportunidades que ofrece el mercado de deuda corporativa en América Latina. Se aconseja a los inversionistas mantener sus posiciones en el fondo durante al menos 3 a 5 años para poder ver resultados significativos.\n\nEn cuanto a ventajas, este fondo proporciona acceso a un mercado diversificado de deuda corporativa latinoamericana, lo que puede ofrecer rendimientos interesantes a los inversionistas que buscan diversificar su cartera. Sin embargo, una posible desventaja podría ser la volatilidad asociada a los movimientos del mercado de deuda corporativa, lo que puede afectar la rentabilidad del fondo en el corto plazo.\n\nEn resumen, el fondo Latam Corporate Debt es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9102-2",
+    "rut_admin": "96767630",
+    "nombre": "LATAM CORPORATE DEBT",
+    "full_id": "96767630_9102-2",
+    "source": "javascript"
+  }
+}

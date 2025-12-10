@@ -1,0 +1,23 @@
+{
+  "fondo_id": "g. conservador",
+  "nombre": "G. Conservador",
+  "nombre_cmf": "G. CONSERVADOR",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo mutuo G. Conservador es una excelente opción para aquellos inversores que buscan una estrategia de inversión segura y con un bajo nivel de riesgo. Este tipo de fondo se caracteriza por invertir en activos de baja volatilidad, como bonos de deuda pública o instrumentos del mercado monetario. Su principal objetivo es preservar el capital y ofrecer rendimientos estables a lo largo del tiempo.\n\nEste fondo es adecuado para inversionistas con un perfil conservador que prefieren minimizar los riesgos y priorizan la seguridad de su inversión por sobre la posibilidad de obtener altas ganancias a corto plazo. Si eres joven y estás iniciando tu camino en el mundo de las inversiones, el fondo G. Conservador puede ser una buena opción para comenzar a construir tu portafolio de manera segura y gradual.\n\nEn términos simples, los activos en los que invierte este fondo se centran en instrumentos financieros de bajo riesgo, como bonos soberanos o depósitos a plazo. Estos activos suelen ofrecer una rentabilidad más estable en comparación con otros fondos que invierten en activos de mayor riesgo, como acciones o commodities.\n\nEl nivel de riesgo asociado con el fondo G. Conservador es bajo, lo que significa que las fluctuaciones en su valor son mínimas y es poco probable que experimente pérdidas significativas en el corto plazo. Sin embargo, es importante tener en cuenta que, si bien este fondo ofrece una mayor seguridad, también puede limitar el potencial de ganancias en comparación con fondos de mayor riesgo.\n\nEn cuanto al horizonte de inversión recomendado, el fondo G. Conservador es ideal para inversionistas a largo plazo que buscan estabilidad y seguridad en sus inversiones. Si tu objetivo es preservar tu capital y obtener rendimientos consistentes a lo largo del tiempo, este fondo puede ser una buena opción para ti.\n\nEn resumen, el fondo mutuo G. Conservador es una alternativa segura y estable para aquellos jóvenes inversores que buscan minimizar los riesgos y construir un portafolio de inversión gradualmente. Aunque ofrece una menor rentabilidad potencial en comparación con fondos de mayor riesgo, su enfoque conservador brinda una mayor seguridad y estabilidad a lo largo del tiempo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y asegúrate de que el fondo se alinee con tus objetivos financieros y tolerancia al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8994-K",
+    "rut_admin": "96767630",
+    "nombre": "G. CONSERVADOR",
+    "full_id": "96767630_8994-K",
+    "source": "javascript"
+  }
+}

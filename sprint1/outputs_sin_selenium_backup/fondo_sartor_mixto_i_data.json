@@ -1,0 +1,23 @@
+{
+  "fondo_id": "sartor mixto i",
+  "nombre": "Sartor Mixto I",
+  "nombre_cmf": "SARTOR MIXTO I",
+  "tipo_fondo": "Balanceado",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Sartor Mixto I es una excelente opción para aquellos inversores jóvenes que buscan un equilibrio entre riesgo y rendimiento en sus inversiones. Este fondo, clasificado como balanceado, tiene un perfil de riesgo medio, lo que significa que combina activos de renta fija y renta variable para buscar un crecimiento moderado a lo largo del tiempo.\n\nEste tipo de fondo es adecuado para inversores que buscan diversificar su cartera y obtener rendimientos atractivos sin asumir un riesgo excesivo. Por lo tanto, es ideal para aquellos que desean crecer sus ahorros a mediano plazo sin comprometer la estabilidad de su inversión.\n\nSi bien la composición exacta del fondo no está disponible, generalmente los fondos balanceados como Sartor Mixto I invierten en una variedad de activos, como bonos, acciones y otros instrumentos financieros. Esta diversificación ayuda a reducir el riesgo y maximizar el potencial de rendimiento a lo largo del tiempo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que puede experimentar cierta volatilidad en el corto plazo, pero tiende a ofrecer rendimientos más estables en el largo plazo. Es importante tener en cuenta que, aunque el riesgo es moderado, no está exento de fluctuaciones en el mercado.\n\nPara aprovechar al máximo el potencial de este fondo, se recomienda un horizonte de inversión a mediano o largo plazo. Esto significa que los inversores jóvenes que buscan hacer crecer su patrimonio a lo largo de los años pueden beneficiarse más de Sartor Mixto I que aquellos que buscan resultados rápidos.\n\nEntre las ventajas de este fondo se encuentran la diversificación inherente que ofrece, lo que ayuda a reducir el riesgo de pérdida en momentos de volatilidad del mercado. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que puede dificultar la comprensión total de dónde se está invirtiendo el dinero.\n\nEn resumen, el fondo Sartor Mixto I es una opción sólida para inversores jóvenes que buscan un equilibrio entre riesgo y rendimiento. Si estás dispuesto a mantener tu dinero invertido a mediano o largo plazo y tolerar cierta volatilidad en el corto plazo, este fondo podría ser una excelente elección para diversificar tu cartera y alcanzar tus objetivos financieros a largo plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10385-3",
+    "rut_admin": "96767630",
+    "nombre": "SARTOR MIXTO I",
+    "full_id": "96767630_10385-3",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ahorro a plazo",
+  "nombre": "Ahorro A Plazo",
+  "nombre_cmf": "AHORRO A PLAZO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Ahorro A Plazo es una alternativa mixta que combina distintos activos para buscar un equilibrio entre rentabilidad y riesgo. Su estrategia de inversión se enfoca en diversificar el portafolio, invirtiendo en una combinación de instrumentos financieros como acciones, bonos y efectivo. Aunque la composición principal del fondo no está disponible, su objetivo es generar rendimientos atractivos en el mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores retornos que los ofrecidos por instrumentos de menor riesgo como los depósitos a plazo. Si eres un joven inversor con un horizonte temporal de inversión a mediano plazo y estás dispuesto a aceptar fluctuaciones en el valor de tu inversión, este fondo podría ser una opción interesante para diversificar tu cartera.\n\nEn cuanto a los activos en los que invierte, el fondo Ahorro A Plazo podría distribuir su capital entre acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como instrumentos de renta fija y efectivo. Esta diversificación busca reducir el impacto de posibles caídas en un solo mercado o sector, mitigando así el riesgo asociado a la inversión en un solo activo.\n\nEn términos simples, el nivel de riesgo de este fondo es moderado. Aunque puede experimentar fluctuaciones en su valor, la diversificación de activos busca limitar las caídas significativas. Es importante tener en cuenta que, si bien el riesgo es mayor que en instrumentos de renta fija, la posibilidad de obtener mayores rendimientos también es más elevada.\n\nEl horizonte de inversión recomendado para el fondo Ahorro A Plazo es de mediano a largo plazo, ya que permite aprovechar las fluctuaciones del mercado a lo largo del tiempo. Si tienes un objetivo financiero a largo plazo, como la compra de una vivienda o la jubilación, este fondo podría ser una opción a considerar.\n\nEn cuanto a ventajas, la diversificación del fondo puede reducir el riesgo asociado a la inversión en un solo activo, brindando una mayor estabilidad a la cartera. Sin embargo, es importante tener en cuenta que, al tratarse de un fondo mixto, su rendimiento puede variar en función de las condiciones del mercado.\n\nEn resumen, el fondo Ahorro A Plazo es una alternativa adecuada para jóvenes inversores chilenos con un perfil de riesgo medio, que buscan diversificar su cartera a través de una combinación de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8124-8",
+    "rut_admin": "96767630",
+    "nombre": "AHORRO A PLAZO",
+    "full_id": "96767630_8124-8",
+    "source": "javascript"
+  }
+}

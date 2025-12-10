@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch pa usd conser",
+  "nombre": "Fm Bch Pa Usd Conser",
+  "nombre_cmf": "FM BCH PA USD CONSER",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch Pa Usd Conser es una alternativa de inversión mixta que busca combinar la seguridad de activos de renta fija con el potencial de crecimiento de activos de renta variable. Su estrategia de inversión se centra en mantener un equilibrio entre ambos tipos de activos para ofrecer un rendimiento estable a lo largo del tiempo. \n\nEste fondo es adecuado para inversores con un perfil de riesgo medio que buscan obtener un retorno moderado sin exponerse a grandes fluctuaciones en el valor de su inversión. Es ideal para aquellos que desean diversificar su cartera y no están dispuestos a asumir un riesgo excesivo en busca de altas rentabilidades.\n\nEn cuanto a los activos en los que invierte, el Fm Bch Pa Usd Conser no especifica su composición principal, lo que puede dificultar la evaluación detallada de su cartera. Sin embargo, es probable que tenga una proporción significativa de bonos y acciones de empresas sólidas y estables.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de caminar por una calle bien iluminada y segura en lugar de aventurarse en un terreno desconocido y peligroso. Si bien existe cierto riesgo asociado a las inversiones en renta variable, la combinación con activos de renta fija ayuda a mitigar este riesgo y proporciona una mayor estabilidad a la inversión.\n\nEl horizonte de inversión recomendado para el Fm Bch Pa Usd Conser es a medio y largo plazo, ya que permite que la estrategia del fondo se desarrolle y potencialmente genere rendimientos consistentes a lo largo del tiempo. Es importante tener en cuenta que las inversiones a corto plazo pueden no reflejar adecuadamente la verdadera naturaleza de este tipo de fondos.\n\nUna ventaja de este fondo es su enfoque equilibrado entre activos de renta fija y variable, lo que puede brindar una protección adicional frente a la volatilidad del mercado. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que podría generar incertidumbre entre los inversores.\n\nEn resumen, el Fondo Mutuo Bch Pa Usd Conser es una opción adecuada para inversionistas con un perfil moderado que buscan diversificar su cartera y obtener rendimientos estables a lo largo del tiempo. Es importante siempre consultar con un asesor financiero antes de tomar decisiones de inversión y mantener una visión a largo plazo para maximizar los benef",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10152-4",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH PA USD CONSER",
+    "full_id": "96767630_10152-4",
+    "source": "javascript"
+  }
+}

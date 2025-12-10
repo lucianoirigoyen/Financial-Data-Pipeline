@@ -1,0 +1,23 @@
+{
+  "fondo_id": "future wealth",
+  "nombre": "Future Wealth",
+  "nombre_cmf": "FUTURE WEALTH",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "Future Wealth es un fondo mutuo mixto que ofrece a los inversionistas la oportunidad de diversificar sus inversiones en diferentes clases de activos. Su estrategia de inversión se basa en combinar tanto activos de renta fija, como bonos y depósitos, con activos de renta variable, como acciones, con el objetivo de maximizar el rendimiento a largo plazo. Al tener una composición mixta, este fondo busca equilibrar el riesgo y la rentabilidad, lo que lo convierte en una opción atractiva para aquellos que buscan un nivel de riesgo medio en sus inversiones.\n\nEste fondo es adecuado para inversores con un perfil moderado, que buscan un equilibrio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Si bien no se dispone de información detallada sobre la composición principal del fondo, se puede inferir que invierte en una variedad de activos para diversificar el riesgo y maximizar las oportunidades de rendimiento.\n\nEn términos simples, el nivel de riesgo de Future Wealth se podría comparar con caminar por un sendero con terreno variado. Aunque puede haber algunas subidas y bajadas en el camino, en general se espera que el fondo proporcione un rendimiento estable a lo largo del tiempo. Es importante recordar que, al tratarse de un fondo mixto, la volatilidad podría ser mayor que en fondos exclusivamente de renta fija, pero también se espera un potencial de crecimiento más alto.\n\nEn cuanto al horizonte de inversión recomendado, Future Wealth es ideal para inversionistas que tengan un horizonte a medio y largo plazo. Dado su enfoque en la diversificación y la combinación de diferentes clases de activos, este fondo es más adecuado para aquellos que pueden permitirse mantener sus inversiones durante varios años para aprovechar al máximo su potencial de crecimiento.\n\nEntre las ventajas de Future Wealth se encuentran la posibilidad de diversificar las inversiones en un solo fondo, lo que simplifica la gestión de la cartera para los inversionistas. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición del fondo, lo que podría dificultar la evaluación precisa de los riesgos asociados.\n\nEn resumen, Future Wealth es un fondo mutuo mixto que ofrece a los inversionistas la oportunidad de diversificar sus inversiones en diferentes clases de activos, con un enfoque en el equilibrio entre riesgo y rendimiento. Recomendamos este fondo para inversionistas con un perfil moderado que buscan un horizonte de inversión a medio y largo plazo, dispuestos a asumir ci",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10057-9",
+    "rut_admin": "96767630",
+    "nombre": "FUTURE WEALTH",
+    "full_id": "96767630_10057-9",
+    "source": "javascript"
+  }
+}

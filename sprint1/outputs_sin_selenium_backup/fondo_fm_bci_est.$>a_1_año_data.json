@@ -1,0 +1,86 @@
+{
+  "fondo_id": "fm bci est.$>a 1 año",
+  "nombre": "Fm Bci Est.$>A 1 Año",
+  "nombre_cmf": "FM BCI EST.$>a 1 año",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes una descripción del fondo de inversión Fm Bci Est.$>A 1 Año, dirigida a jóvenes inversores chilenos:\n\n1. **Qué es este fondo y su estrategia de inversión**: El fondo Fm Bci Est.$>A 1 Año es un fondo mixto que invierte en una combinación de activos de renta fija y renta variable, buscando obtener rendimientos a través de la diversificación. Su estrategia se centra en mantener una proporción mayoritaria de sus inversiones en activos chilenos y deuda, con un enfoque equilibrado entre ambos para minimizar riesgos y maximizar ganancias a mediano plazo.\n\n2. **Para qué perfil de inversionista es adecuado**: Este fondo es adecuado para inversores con un perfil de riesgo medio, que buscan un equilibrio entre seguridad y potencial de rentabilidad. Es ideal para aquellos jóvenes que desean invertir a largo plazo y que están dispuestos a asumir un nivel moderado de riesgo en busca de un crecimiento sostenido de su capital.\n\n3. **Principales activos en los que invierte**: El fondo Fm Bci Est.$>A 1 Año tiene una composición principal donde un alto porcentaje de sus inversiones se concentra en activos chilenos y deuda, lo que proporciona una exposición significativa al mercado local. Esto significa que gran parte de los recursos del fondo se destinan a empresas y bonos chilenos, lo que puede ofrecer estabilidad y potencial de crecimiento en un entorno económico nacional.\n\n4. **Nivel de riesgo en términos simples**: En términos simples, el nivel de riesgo de este fondo se considera moderado. Si bien existe la posibilidad de pérdidas, al tener una diversificación en distintos tipos de activos, se busca reducir la volatilidad y proteger el capital de los inversionistas en el largo plazo.\n\n5. **Horizonte de inversión recomendado**: Se recomienda tener un horizonte de inversión a mediano y largo plazo para este fondo, ya que al mantener una estrategia equilibrada y diversificada, se espera que los rendimientos se materialicen gradualmente con el tiempo. Para jóvenes inversores que buscan construir un patrimonio sólido a lo largo de los años, este fondo puede ser una opción atractiva.\n\nEn resumen, el fondo Fm Bci Est.$>A 1 Año ofrece una combinación equilibrada de activos chilenos y deuda con un perfil de riesgo medio, ideal para jóvenes inversores que bus",
+  "composicion_portafolio": [
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 0.8343
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.8009999999999999
+    },
+    {
+      "activo": "aplicará sobre el",
+      "porcentaje": 0.5
+    },
+    {
+      "activo": "manteniendo invertido como máximo el",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Dólar",
+      "porcentaje": 0.2477
+    },
+    {
+      "activo": "Peso chileno",
+      "porcentaje": 0.20329999999999998
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.1852
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "EEUU",
+      "porcentaje": 0.0667
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0537
+    },
+    {
+      "activo": "Otros",
+      "porcentaje": 0.050499999999999996
+    },
+    {
+      "activo": "Brasil",
+      "porcentaje": 0.0332
+    },
+    {
+      "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+      "porcentaje": 0.033
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0329
+    }
+  ],
+  "rentabilidad_anual": 0.0926,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8174-4",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI EST.$>a 1 año",
+    "full_id": "96767630_8174-4",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Mediano Plazo",
+  "comision_administracion": 0.0151
+}

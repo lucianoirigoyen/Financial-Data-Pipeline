@@ -1,0 +1,23 @@
+{
+  "fondo_id": "solidez",
+  "nombre": "Solidez",
+  "nombre_cmf": "SOLIDEZ",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Solidez\" es una opción de inversión mixta diseñada para inversores con un perfil de riesgo medio que buscan un equilibrio entre la seguridad y el potencial de rendimiento. Este fondo combina tanto activos de renta fija como de renta variable, lo que le permite diversificar su cartera y adaptarse a diferentes condiciones del mercado.\n\nPara jóvenes inversores chilenos que buscan una opción que les brinde cierta estabilidad sin renunciar por completo al crecimiento, el fondo \"Solidez\" puede ser una alternativa atractiva. Al combinar diferentes clases de activos, este fondo ofrece la posibilidad de obtener ganancias tanto en periodos de bonanza en el mercado de acciones como en momentos de mayor incertidumbre.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Aunque la combinación de activos puede ayudar a reducir la volatilidad en comparación con fondos de renta variable pura, aún existe la posibilidad de experimentar pérdidas en momentos de turbulencia en los mercados. Sin embargo, la diversificación que ofrece \"Solidez\" puede ayudar a suavizar dichas caídas.\n\nEl horizonte de inversión recomendado para el fondo \"Solidez\" es a medio y largo plazo, ya que permite aprovechar el potencial de crecimiento de sus inversiones a lo largo del tiempo. Para jóvenes inversores que buscan construir un patrimonio sólido a lo largo de los años, este fondo puede ser una herramienta útil para alcanzar sus objetivos financieros a largo plazo.\n\nEn cuanto a los activos en los que invierte el fondo \"Solidez\", la información específica sobre su composición principal no está disponible públicamente. Sin embargo, es probable que incluya una combinación de bonos corporativos, acciones de empresas locales e internacionales, y posiblemente otros instrumentos financieros. Esta diversificación puede ayudar a mitigar el riesgo asociado con la inversión en un solo tipo de activo.\n\nVentajas de invertir en el fondo \"Solidez\" incluyen la diversificación de la cartera, que puede reducir el riesgo total de la inversión, y la posibilidad de obtener un rendimiento atractivo a lo largo del tiempo. Por otro lado, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de la cartera, lo que puede dificultar la evaluación precisa de los riesgos involucrados.\n\nEn resumen, el fondo mutuo \"Solidez\" puede ser adecuado para jóvenes inversores chilenos con un perfil de riesgo medio",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8149-3",
+    "rut_admin": "96767630",
+    "nombre": "SOLIDEZ",
+    "full_id": "96767630_8149-3",
+    "source": "javascript"
+  }
+}

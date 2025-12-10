@@ -1,0 +1,23 @@
+{
+  "fondo_id": "digital renta uf",
+  "nombre": "Digital Renta Uf",
+  "nombre_cmf": "DIGITAL RENTA UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Digital Renta UF es una opción de inversión mixta que combina activos de renta fija y renta variable, buscando diversificar el riesgo y maximizar el rendimiento a mediano plazo. Su estrategia de inversión se enfoca en adaptarse a las fluctuaciones del mercado, aprovechando oportunidades tanto en bonos como en acciones para obtener un equilibrio entre estabilidad y crecimiento.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener mayores rendimientos. Si eres joven y estás dispuesto a asumir cierto nivel de riesgo en busca de un crecimiento moderado de tu dinero, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, el fondo no especifica una composición principal, lo que puede significar una mayor flexibilidad para el gestor del fondo en la selección de oportunidades de inversión. En general, se espera que invierta tanto en instrumentos de deuda como en acciones de empresas locales e internacionales, diversificando así el riesgo y maximizando las oportunidades de crecimiento.\n\nEn términos simples, el nivel de riesgo de este fondo puede compararse con manejar un automóvil en una carretera con curvas suaves. Si bien hay cierta volatilidad en el camino, el objetivo es llegar a destino de manera segura y con una buena velocidad. Es importante recordar que, si bien el riesgo es moderado, siempre existe la posibilidad de pérdidas temporales, por lo que es fundamental mantener una visión a largo plazo.\n\nEn cuanto al horizonte de inversión recomendado, este fondo suele ser más adecuado para inversiones a mediano plazo, es decir, entre 3 y 5 años. Esto se debe a que la estrategia de inversión busca aprovechar las oportunidades a lo largo del tiempo, por lo que es importante tener paciencia y estar dispuesto a mantener la inversión durante un período razonable para lograr resultados satisfactorios.\n\nEn resumen, el Fondo Mutuo Digital Renta UF puede ser una opción atractiva para jóvenes inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener un crecimiento moderado a mediano plazo. Es importante tener en cuenta que, si bien ofrece la posibilidad de obtener rendimientos interesantes, también implica cierto nivel de riesgo, por lo que es fundamental estar bien informado y contar con asesoramiento adecuado antes de invertir.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10367-5",
+    "rut_admin": "96767630",
+    "nombre": "DIGITAL RENTA UF",
+    "full_id": "96767630_10367-5",
+    "source": "javascript"
+  }
+}

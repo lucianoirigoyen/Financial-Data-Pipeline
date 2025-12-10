@@ -1,0 +1,23 @@
+{
+  "fondo_id": "brazil equity",
+  "nombre": "Brazil Equity",
+  "nombre_cmf": "BRAZIL EQUITY",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Brazil Equity es una opción de inversión mixta que busca generar rendimientos a través de la diversificación en activos de mercado brasileño. Su estrategia se basa en invertir tanto en acciones como en bonos, lo que le otorga un equilibrio entre la búsqueda de crecimiento y la estabilidad de renta fija. Aunque no se dispone de información detallada sobre su composición principal, se puede inferir que su enfoque está en el mercado de valores de Brasil.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener mayores rendimientos y la tolerancia a cierto nivel de volatilidad en su inversión. Si bien no se tiene información específica sobre los activos en los que invierte, se puede suponer que el Brazil Equity tiene una exposición significativa al mercado de acciones brasileño, lo que puede ofrecer oportunidades de crecimiento atractivas, pero también implica cierto nivel de riesgo.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de caminar por una calle con baches: puede haber altibajos en el camino, pero siguiendo una estrategia a largo plazo y diversificada, se pueden sortear los obstáculos y llegar a destinos financieros favorables. Es importante tener en cuenta que, si bien el riesgo es moderado, existen posibilidades de pérdida en el corto plazo, por lo que es fundamental mantener una visión a largo plazo y no dejarse llevar por fluctuaciones momentáneas.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas consideren un plazo de al menos 3 a 5 años para aprovechar al máximo el potencial de crecimiento del fondo. Dado que el mercado brasileño puede ser volátil en el corto plazo, tener una visión a largo plazo permite amortiguar posibles fluctuaciones y beneficiarse de las oportunidades de crecimiento a largo plazo que ofrece la economía de Brasil.\n\nEn resumen, el fondo Brazil Equity es una opción interesante para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera con exposición al mercado brasileño. Si bien ofrece oportunidades de crecimiento, es importante ser consciente de los riesgos asociados y mantener una estrategia de inversión a largo plazo para maximizar los beneficios. Antes de invertir, se recomienda consultar con un asesor financiero para determinar si este fondo se adecua a tus objetivos y tolerancia al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8791-2",
+    "rut_admin": "96767630",
+    "nombre": "BRAZIL EQUITY",
+    "full_id": "96767630_8791-2",
+    "source": "javascript"
+  }
+}

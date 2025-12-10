@@ -1,0 +1,23 @@
+{
+  "fondo_id": "super  110 dolar",
+  "nombre": "Super  110 Dolar",
+  "nombre_cmf": "SUPER  110 DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Super 110 Dolar es una opción de inversión mixta que busca combinar la rentabilidad de activos en dólares con una estrategia diversificada para potenciar los rendimientos. Su perfil de riesgo se considera medio, lo que implica que puede tener fluctuaciones moderadas en su valor, pero con potencial de obtener retornos atractivos a largo plazo.\n\nEste fondo es adecuado para aquellos inversionistas que buscan un equilibrio entre riesgo y retorno, teniendo la disposición de asumir cierta volatilidad en el corto plazo a cambio de mayores posibilidades de crecimiento en el largo plazo. Es importante destacar que este fondo no está dirigido a perfiles conservadores que buscan una mayor estabilidad en su inversión.\n\nEn términos de activos en los que invierte, la composición principal del Super 110 Dolar no está disponible públicamente, lo que puede dificultar la evaluación de su cartera específica. Sin embargo, es común que los fondos mixtos inviertan en una combinación de acciones, bonos, instrumentos del mercado monetario y otros activos financieros para diversificar el riesgo y maximizar los rendimientos.\n\nEn cuanto al nivel de riesgo, es importante entender que al tener una clasificación de perfil medio, este fondo puede experimentar variaciones en su valor en el corto plazo debido a la volatilidad de los mercados. Es fundamental que los inversionistas estén preparados para posibles fluctuaciones y tengan una perspectiva a largo plazo para aprovechar el potencial de crecimiento.\n\nEl horizonte de inversión recomendado para el Super 110 Dolar es a mediano y largo plazo, ya que permite que los activos tengan tiempo de madurar y potenciar su rendimiento. Es importante que los inversionistas tengan una visión a largo plazo y no se dejen llevar por movimientos a corto plazo en el mercado, manteniendo la calma ante posibles fluctuaciones.\n\nEn cuanto a ventajas, este fondo ofrece la posibilidad de diversificar la cartera de inversión y acceder a activos en dólares, lo que puede ser atractivo para protegerse de posibles fluctuaciones en la moneda local. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición de la cartera, lo que puede generar incertidumbre en los inversionistas.\n\nEn resumen, el fondo Super 110 Dolar es una opción mixta con un perfil de riesgo medio, adecuado para inversionistas dispuestos a asumir cierta volatilidad a cambio de potenciales retornos atractivos a largo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8339-9",
+    "rut_admin": "96767630",
+    "nombre": "SUPER  110 DOLAR",
+    "full_id": "96767630_8339-9",
+    "source": "javascript"
+  }
+}

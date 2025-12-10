@@ -1,0 +1,23 @@
+{
+  "fondo_id": "lifetime 2050",
+  "nombre": "Lifetime 2050",
+  "nombre_cmf": "LIFETIME 2050",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Lifetime 2050 es una opción de inversión mixta diseñada para jóvenes inversores chilenos que buscan un equilibrio entre rendimiento y seguridad. Este fondo tiene como objetivo principal invertir en una combinación de activos de renta fija y variable, adaptándose al horizonte temporal de quienes desean alcanzar sus metas financieras a largo plazo.\n\nPara aquellos inversionistas con un perfil de riesgo medio que buscan diversificar su cartera de inversiones de manera sencilla, el Lifetime 2050 puede ser una alternativa atractiva. Este fondo es adecuado para quienes desean obtener una rentabilidad potencialmente más alta que la ofrecida por instrumentos de renta fija, sin asumir un riesgo excesivo en el corto plazo.\n\nLos activos en los que invierte el fondo Lifetime 2050 pueden incluir acciones de empresas chilenas e internacionales, bonos corporativos y gubernamentales, así como instrumentos de mercado monetario. Esta diversificación busca reducir la volatilidad del fondo y maximizar el potencial de crecimiento a lo largo del tiempo.\n\nEn términos simples, el nivel de riesgo del fondo Lifetime 2050 se encuentra en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Si bien existe la posibilidad de fluctuaciones en el valor de la inversión en el corto plazo, se espera que a largo plazo se obtengan rendimientos superiores a los de instrumentos conservadores.\n\nPara aprovechar al máximo las ventajas de este fondo, se recomienda un horizonte de inversión a largo plazo, idealmente de 10 años o más. Esto permitirá a los inversionistas superar posibles períodos de volatilidad y aprovechar el potencial de crecimiento de los activos en los que invierte el fondo.\n\nUna ventaja del fondo Lifetime 2050 es su enfoque en el largo plazo, lo que lo hace adecuado para jóvenes inversores que buscan construir un patrimonio sólido a lo largo del tiempo. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de los activos del fondo, lo que puede dificultar la evaluación de su desempeño.\n\nEn resumen, el fondo mutuo Lifetime 2050 es una opción atractiva para jóvenes inversionistas chilenos con un perfil de riesgo medio, que buscan diversificar sus inversiones a largo plazo y obtener rendimientos potencialmente superiores a los de la renta fija tradicional. Es importante recordar que toda inversión implica riesgos, por lo que es fundamental",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9687-3",
+    "rut_admin": "96767630",
+    "nombre": "LIFETIME 2050",
+    "full_id": "96767630_9687-3",
+    "source": "javascript"
+  }
+}

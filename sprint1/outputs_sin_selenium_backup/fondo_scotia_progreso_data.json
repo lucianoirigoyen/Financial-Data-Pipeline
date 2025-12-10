@@ -1,0 +1,23 @@
+{
+  "fondo_id": "scotia progreso",
+  "nombre": "Scotia Progreso",
+  "nombre_cmf": "SCOTIA PROGRESO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Scotia Progreso es una excelente opción para aquellos inversores que buscan un equilibrio entre riesgo y rendimiento. Se clasifica como un fondo mixto, lo que significa que combina inversiones tanto en renta fija como en renta variable, con el objetivo de maximizar ganancias a largo plazo. Aunque no disponemos de información detallada sobre su composición principal, podemos inferir que diversifica su cartera para reducir riesgos y aprovechar oportunidades en diferentes mercados.\n\nEste fondo se ajusta principalmente a un perfil de riesgo medio, lo que implica que ofrece un equilibrio entre la posibilidad de obtener buenos retornos y la exposición a cierta volatilidad en el corto plazo. Es ideal para inversores que buscan crecimiento moderado de su capital sin asumir riesgos extremos. Por ejemplo, si eres una persona joven que está dispuesta a asumir un nivel de riesgo moderado para obtener potencialmente mayores rendimientos que los depósitos a plazo, Scotia Progreso podría ser una excelente opción para ti.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, es probable que tenga una combinación de bonos corporativos, acciones de empresas nacionales e internacionales, y posiblemente otros instrumentos financieros. Esta diversificación contribuye a su perfil de riesgo medio, ya que distribuye la exposición a diferentes clases de activos.\n\nEn términos simples, el nivel de riesgo de Scotia Progreso se encuentra en un punto intermedio entre la seguridad de los instrumentos de renta fija y el potencial de crecimiento de la renta variable. Si bien puede experimentar fluctuaciones en su valor, el objetivo es obtener una rentabilidad superior a la inflación a largo plazo. Es importante recordar que, como con cualquier inversión, existen riesgos inherentes que deben ser considerados antes de tomar una decisión.\n\nPara maximizar los beneficios de este fondo, se recomienda un horizonte de inversión a largo plazo, es decir, mantener la inversión durante varios años para permitir que las fluctuaciones del mercado se compensen y se obtengan rendimientos consistentes. Si estás buscando una inversión a corto plazo con poca volatilidad, este fondo podría no ser la mejor opción para ti.\n\nEn resumen, Scotia Progreso es un fondo mixto adecuado para inversores con un perfil de riesgo medio que buscan crecimiento a largo plazo. Su diversificación y estrategia equilibrada lo convierten en una opción atractiva para aquellos que desean obtener rendimientos superiores a los instrumentos de renta fija tradicionales, sin asumir riesgos exces",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9156-1",
+    "rut_admin": "96767630",
+    "nombre": "SCOTIA PROGRESO",
+    "full_id": "96767630_9156-1",
+    "source": "javascript"
+  }
+}

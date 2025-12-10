@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ahorro uf",
+  "nombre": "Ahorro Uf",
+  "nombre_cmf": "AHORRO UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Ahorro UF es una opción atractiva para aquellos jóvenes inversores chilenos que buscan una alternativa mixta con un nivel de riesgo medio. Este tipo de fondo combina activos de renta fija y renta variable, lo que le permite diversificar su cartera y potencialmente obtener rendimientos atractivos a largo plazo.\n\nEste fondo es adecuado para inversionistas que buscan un equilibrio entre la seguridad y el crecimiento de su capital, por lo que es ideal para aquellos que tienen un horizonte de inversión a medio plazo, generalmente entre 3 a 5 años. Si bien el nivel de riesgo es moderado, es importante tener en cuenta que, como en cualquier inversión, existen fluctuaciones en el valor de los activos que componen el fondo.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo Ahorro UF no está disponible públicamente, pero en general, los fondos mixtos suelen invertir en bonos, acciones, instrumentos de deuda y otros activos financieros. Esta diversificación contribuye a reducir el riesgo asociado con la inversión en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio entre la seguridad de los fondos de renta fija y el potencial de crecimiento de los fondos de renta variable. Aunque no garantiza ganancias constantes, tampoco implica un riesgo excesivo que pueda poner en peligro el capital invertido.\n\nPara sacar el máximo provecho de este fondo, se recomienda a los inversionistas mantener una visión a largo plazo y ser pacientes en caso de que los rendimientos no sean inmediatos. Es importante recordar que el valor de las inversiones puede fluctuar en el corto plazo, pero históricamente, los fondos mixtos han demostrado ser una opción sólida para aquellos que buscan un equilibrio entre riesgo y rendimiento.\n\nEn resumen, el fondo Ahorro UF ofrece a los jóvenes inversores chilenos la oportunidad de diversificar su cartera y potencialmente obtener rendimientos interesantes a mediano plazo. Si bien presenta un nivel de riesgo moderado, su estrategia de inversión equilibrada lo convierte en una opción atractiva para aquellos que buscan crecimiento sin exponerse a riesgos extremos. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10243-1",
+    "rut_admin": "96767630",
+    "nombre": "AHORRO UF",
+    "full_id": "96767630_10243-1",
+    "source": "javascript"
+  }
+}

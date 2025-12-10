@@ -1,0 +1,23 @@
+{
+  "fondo_id": "latam pacific",
+  "nombre": "Latam Pacific",
+  "nombre_cmf": "LATAM PACIFIC",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Latam Pacific es una alternativa de inversión mixta que combina tanto activos de renta fija como de renta variable, con el objetivo de diversificar el portafolio y buscar un equilibrio entre riesgo y rendimiento a mediano plazo. Esta estrategia de inversión se enfoca en aprovechar las oportunidades de crecimiento en la región del Pacífico latinoamericano, con un enfoque en compañías y bonos de países como Chile, Perú y Colombia.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener rendimientos superiores a los instrumentos tradicionales de ahorro. Es importante tener en cuenta que, si bien el riesgo es moderado, como en toda inversión en mercados financieros, existe la posibilidad de pérdidas en el corto plazo debido a la volatilidad de los activos en los que invierte el fondo.\n\nEn cuanto a los activos en los que invierte el fondo Latam Pacific, la composición exacta no está disponible públicamente, pero se sabe que se enfoca en acciones y bonos de empresas y gobiernos de la región del Pacífico latinoamericano. Esto brinda a los inversionistas la oportunidad de participar en el crecimiento económico de la región a través de un portafolio diversificado.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de los instrumentos de renta fija y el potencial de ganancias de la renta variable. Es importante recordar que, a pesar de que se considera un fondo de riesgo moderado, la posibilidad de pérdidas siempre está presente en el mercado financiero.\n\nEl horizonte de inversión recomendado para el fondo Latam Pacific es de al menos 3 a 5 años. Esto se debe a que, al ser un fondo mixto que invierte en diferentes tipos de activos, es importante permitir que la estrategia de inversión se desarrolle a lo largo del tiempo y se puedan aprovechar las oportunidades de crecimiento a mediano plazo.\n\nEn resumen, el fondo Latam Pacific ofrece a los inversionistas la posibilidad de diversificar su portafolio y participar en el crecimiento económico de la región del Pacífico latinoamericano, con un nivel de riesgo moderado. Es importante que los inversionistas conozcan sus objetivos financieros y su tolerancia al riesgo antes de invertir en este fondo, y siempre consulten con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8891-9",
+    "rut_admin": "96767630",
+    "nombre": "LATAM PACIFIC",
+    "full_id": "96767630_8891-9",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "deuda m. plazo uf",
+  "nombre": "Deuda M. Plazo Uf",
+  "nombre_cmf": "DEUDA M. PLAZO UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Deuda M. Plazo Uf es una opción de inversión mixta que combina activos de renta fija y variable, diseñada para aquellos inversores con un perfil de riesgo medio. Su estrategia de inversión busca obtener rendimientos a través de la diversificación en distintos instrumentos financieros, lo que puede incluir bonos corporativos, bonos de gobierno y otros instrumentos de deuda.\n\nEste fondo es adecuado para inversores que buscan un equilibrio entre riesgo y potencial de ganancia, ya que al combinar distintos tipos de activos, se busca minimizar la volatilidad de la inversión. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de los activos subyacentes.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con caminar por una senda conocida pero con terreno algo irregular. Aunque pueden existir pequeñas subidas y bajadas en el valor de la inversión, la estrategia diversificada busca suavizar estos movimientos y brindar estabilidad a largo plazo.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondos suele ser más adecuado para aquellos inversores que tienen un horizonte de inversión a medio o largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos a lo largo del tiempo.\n\nUna ventaja de este fondo es la diversificación que ofrece, lo que puede reducir el impacto de posibles caídas en un sector específico del mercado. Sin embargo, una posible desventaja es que al diversificar en distintos activos, es probable que no se alcancen rendimientos tan altos como si se invirtiera en activos más riesgosos.\n\nEl perfil ideal para invertir en Deuda M. Plazo Uf sería aquel inversor que busca un equilibrio entre riesgo y retorno, dispuesto a asumir cierto grado de volatilidad en aras de obtener una rentabilidad atractiva a mediano o largo plazo.\n\nEn resumen, el fondo Deuda M. Plazo Uf ofrece una opción de inversión equilibrada para aquellos inversores que buscan diversificar su portafolio y obtener rendimientos atractivos con un nivel de riesgo moderado. Es importante siempre consultar con un asesor financiero antes de tomar decisiones de inversión y revisar periódicamente el desempeño del fondo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8106-K",
+    "rut_admin": "96767630",
+    "nombre": "DEUDA M. PLAZO UF",
+    "full_id": "96767630_8106-K",
+    "source": "javascript"
+  }
+}

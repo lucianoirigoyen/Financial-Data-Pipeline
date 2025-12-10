@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ga agresiva",
+  "nombre": "Ga Agresiva",
+  "nombre_cmf": "GA AGRESIVA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Ga Agresiva es una opción de inversión mixta que busca obtener un rendimiento atractivo a través de una combinación de activos tanto de renta fija como de renta variable. Esta estrategia de inversión equilibrada tiene como objetivo principal maximizar los retornos a largo plazo, manteniendo un nivel de riesgo medio. Aunque la composición exacta del fondo no está disponible públicamente, se puede inferir que invierte en una diversidad de instrumentos financieros para lograr sus objetivos.\n\nEste fondo es adecuado para inversionistas con un perfil moderadamente arriesgado, que buscan obtener rendimientos superiores a los de una inversión conservadora, pero que a su vez desean mantener un nivel de riesgo controlado. Si eres un joven inversor en Chile que está dispuesto a asumir cierto nivel de riesgo en busca de mayores ganancias, el fondo Ga Agresiva podría ser una opción a considerar.\n\nLos principales activos en los que invierte este fondo pueden incluir acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como otros instrumentos financieros. Al diversificar su cartera de esta manera, el fondo busca mitigar parte del riesgo asociado con la volatilidad de los mercados financieros.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de una inversión conservadora y el potencial de ganancias más altas de una inversión agresiva. Esto significa que, si bien existe la posibilidad de obtener retornos significativos, también se debe estar preparado para enfrentar cierta fluctuación en el valor de la inversión en el corto plazo.\n\nPara maximizar los beneficios de este fondo, se recomienda mantener una perspectiva de inversión a mediano o largo plazo. Dado que el objetivo principal es obtener rendimientos a lo largo del tiempo, es importante tener paciencia y no dejarse llevar por las fluctuaciones del mercado a corto plazo. \n\nVentajas: La diversificación de activos y la estrategia equilibrada pueden ayudar a reducir el riesgo total de la cartera, mientras se busca obtener rendimientos atractivos.\n\nDesventajas: La rentabilidad a corto plazo puede fluctuar y no está garantizada, por lo que es importante tener expectativas realistas y estar preparado para posibles periodos de bajo desempeño.\n\nEn resumen, el fondo mutuo Ga Agresiva es una opción interesante para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y retorno en su cartera de inversiones. Si estás dispuesto a asumir cierto nivel de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9648-2",
+    "rut_admin": "96767630",
+    "nombre": "GA AGRESIVA",
+    "full_id": "96767630_9648-2",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm cc retorno nomina",
+  "nombre": "Fm Cc Retorno Nomina",
+  "nombre_cmf": "FM CC RETORNO NOMINA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Crecimiento y Capitalización Retorno Nomina es una alternativa de inversión mixta que combina diferentes tipos de activos con el objetivo de obtener un rendimiento atractivo en el mediano plazo. Su estrategia de inversión se basa en diversificar el portafolio entre instrumentos de renta fija y renta variable, buscando maximizar ganancias y reducir riesgos.\n\nEste fondo es adecuado para un perfil de inversor con un nivel de tolerancia al riesgo medio, es decir, para aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener mayores retornos que los instrumentos financieros más conservadores. Por ejemplo, si eres un joven inversor que está dispuesto a asumir cierto nivel de volatilidad en su cartera con el objetivo de incrementar su patrimonio a largo plazo, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible públicamente, pero se puede esperar que el fondo diversifique su cartera entre bonos, acciones y otros instrumentos financieros, tanto en el mercado local como internacional. Esta diversificación puede ayudar a reducir el impacto de posibles fluctuaciones en un solo mercado o sector.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de los instrumentos de renta fija y el potencial de crecimiento de la renta variable. Esto significa que, si bien existe la posibilidad de obtener mayores rendimientos, también se debe estar preparado para enfrentar cierta volatilidad en el valor de la inversión en el corto plazo.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Crecimiento y Capitalización Retorno Nomina es de mediano a largo plazo, idealmente más de un año. Esto se debe a que, al combinar diferentes tipos de activos, el fondo puede tardar un tiempo en mostrar resultados consistentes y en alinear su desempeño con los objetivos de inversión planteados.\n\nEn cuanto a ventajas, este fondo ofrece la posibilidad de diversificar el riesgo a través de diferentes clases de activos, lo que puede ayudar a suavizar la volatilidad de la cartera. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que dificulta la evaluación detallada de los activos en los que se invierte.\n\nEn resumen, el Fondo Mutuo Crecimiento y Capitalización Retorno Nomina es una opción a considerar para inversores jóvenes con un perfil de riesgo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10378-0",
+    "rut_admin": "96767630",
+    "nombre": "FM CC RETORNO NOMINA",
+    "full_id": "96767630_10378-0",
+    "source": "javascript"
+  }
+}

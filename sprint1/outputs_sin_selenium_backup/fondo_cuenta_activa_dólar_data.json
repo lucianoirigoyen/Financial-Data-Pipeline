@@ -1,0 +1,86 @@
+{
+  "fondo_id": "cuenta activa dólar",
+  "nombre": "Cuenta Activa Dólar",
+  "nombre_cmf": "CUENTA ACTIVA DÓLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Cuenta Activa Dólar es una opción de inversión mixta que combina activos en distintos mercados para buscar un equilibrio entre rentabilidad y seguridad. Su estrategia se enfoca en invertir principalmente en instrumentos financieros de renta fija en Chile, con un pequeño porcentaje destinado a activos de renta variable y una exposición controlada al mercado de deuda internacional. Esto significa que el fondo busca obtener ganancias a través de la diversificación de su cartera, manteniendo un enfoque conservador pero con potencial de crecimiento.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan un equilibrio entre seguridad y oportunidades de rentabilidad. Si tienes un horizonte de inversión a mediano plazo y prefieres no asumir riesgos extremos, este fondo puede ser una opción interesante para diversificar tu portafolio.\n\nLos principales activos en los que invierte el fondo Cuenta Activa Dólar son principalmente bonos y otros instrumentos de deuda emitidos por entidades chilenas, lo que le otorga una exposición significativa al mercado local. Además, tiene una pequeña porción destinada a activos internacionales, lo que le brinda cierta diversificación geográfica y reduce la dependencia exclusiva del mercado nacional.\n\nEn términos simples, el nivel de riesgo de este fondo se considera medio debido a su exposición a activos de renta fija, que suelen ser menos volátiles que los activos de renta variable. Sin embargo, como cualquier inversión, existen riesgos asociados, como el riesgo de crédito de los emisores de los bonos o la fluctuación de los tipos de cambio en el caso de activos en moneda extranjera.\n\nSe recomienda un horizonte de inversión a mediano plazo para este fondo, ya que su composición y estrategia buscan generar resultados a lo largo del tiempo, aprovechando las oportunidades que ofrecen los diferentes mercados en los que invierte. Es importante tener paciencia y mantener una visión a largo plazo para maximizar los beneficios de esta inversión.\n\nEn cuanto a ventajas, el fondo Cuenta Activa Dólar ofrece una diversificación tanto en activos como en mercados, lo que puede ayudar a mitigar el riesgo asociado a la volatilidad de un solo mercado. Sin embargo, una posible desventaja podría ser su rentabilidad moderada en comparación con fondos más arriesgados que invierten en renta variable.\n\nEn resumen, si eres un inversionista con un perfil moderado, que busca diversificar tu cartera y obtener rendimientos a mediano plazo,",
+  "composicion_portafolio": [
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 0.8343
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.8009999999999999
+    },
+    {
+      "activo": "aplicará sobre el",
+      "porcentaje": 0.5
+    },
+    {
+      "activo": "manteniendo invertido como máximo el",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Dólar",
+      "porcentaje": 0.2477
+    },
+    {
+      "activo": "Peso chileno",
+      "porcentaje": 0.20329999999999998
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.1852
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "EEUU",
+      "porcentaje": 0.0667
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0537
+    },
+    {
+      "activo": "Otros",
+      "porcentaje": 0.050499999999999996
+    },
+    {
+      "activo": "Brasil",
+      "porcentaje": 0.0332
+    },
+    {
+      "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+      "porcentaje": 0.033
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0329
+    }
+  ],
+  "rentabilidad_anual": 0.0926,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9816-7",
+    "rut_admin": "96767630",
+    "nombre": "CUENTA ACTIVA DÓLAR",
+    "full_id": "96767630_9816-7",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Mediano Plazo",
+  "comision_administracion": 0.0151
+}

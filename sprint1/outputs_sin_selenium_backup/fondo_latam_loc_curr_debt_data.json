@@ -1,0 +1,23 @@
+{
+  "fondo_id": "latam loc curr debt",
+  "nombre": "Latam Loc Curr Debt",
+  "nombre_cmf": "LATAM LOC CURR DEBT",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Latam Loc Curr Debt es una excelente opción para aquellos inversores que buscan diversificar su cartera de manera equilibrada. Este fondo, de tipo mixto, combina inversiones en deuda local de América Latina con el objetivo de obtener rendimientos a mediano plazo. Aunque la composición exacta no está disponible, se espera que invierta principalmente en bonos y otros instrumentos de deuda emitidos en moneda local de la región.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto grado de volatilidad en busca de mayores retornos. Si bien no se dispone de información sobre la rentabilidad en los últimos 12 meses, es importante recordar que los fondos de deuda local pueden estar sujetos a fluctuaciones en el valor de mercado debido a cambios en las tasas de interés y la situación económica de cada país.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de los instrumentos de renta fija y el potencial de crecimiento de los activos de renta variable. Esto significa que si bien puede ofrecer rendimientos superiores a los bonos tradicionales, también conlleva cierto grado de incertidumbre en cuanto a la evolución de los mercados locales.\n\nPara maximizar los beneficios de invertir en el fondo Latam Loc Curr Debt, se recomienda un horizonte de inversión a mediano plazo, generalmente entre 3 y 5 años. Esto permite aprovechar los ciclos económicos de la región y mitigar posibles fluctuaciones a corto plazo. Es importante tener en cuenta que, debido a la naturaleza de los activos en los que invierte, los resultados pueden variar en el corto plazo, por lo que la paciencia y la disciplina son clave para obtener buenos resultados.\n\nEntre las ventajas de este fondo se encuentra la diversificación geográfica que ofrece, permitiendo a los inversores acceder a diferentes mercados emergentes de América Latina a través de una sola inversión. Sin embargo, una posible desventaja podría ser la exposición a riesgos cambiarios y políticos propios de la región, que pueden afectar el desempeño del fondo en determinados momentos.\n\nEn resumen, el fondo Latam Loc Curr Debt es una opción atractiva para inversores con un perfil de riesgo medio que buscan diversificar su cartera con inversiones en deuda local de América Latina. Se recomienda un horizonte de inversión a mediano plazo y mantener una visión a largo plazo para aprovechar las oportunidades de crecimiento en",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9162-6",
+    "rut_admin": "96767630",
+    "nombre": "LATAM LOC CURR DEBT",
+    "full_id": "96767630_9162-6",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta más largo plaz",
+  "nombre": "Renta Más Largo Plaz",
+  "nombre_cmf": "RENTA MÁS LARGO PLAZ",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Renta Más Largo Plaz es una opción de inversión mixta que combina activos de renta fija y variable, buscando un equilibrio entre estabilidad y potencial de crecimiento. Su estrategia se enfoca en obtener rendimientos a largo plazo, aprovechando las oportunidades que ofrece el mercado a lo largo del tiempo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su capital y la posibilidad de obtener retornos superiores a la inflación. Si eres un joven inversionista en Chile que está dispuesto a asumir cierto nivel de riesgo en busca de mayores ganancias, este fondo podría ser una opción a considerar.\n\nAunque la composición exacta del fondo no está disponible, por lo general los fondos mixtos como este suelen invertir en una variedad de activos, como bonos corporativos, acciones de empresas locales e internacionales, y otros instrumentos financieros diversificados. Esta diversificación ayuda a reducir el riesgo asociado con la volatilidad de un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que existe la posibilidad de que el valor de tu inversión fluctúe en el corto plazo, pero con la expectativa de obtener retornos atractivos a lo largo del tiempo. Es importante tener en cuenta que el riesgo siempre está presente en cualquier inversión, por lo que es fundamental estar preparado para posibles fluctuaciones en el valor de tu inversión.\n\nPara este tipo de fondo mixto, se recomienda un horizonte de inversión a largo plazo, idealmente más de cinco años. Esto se debe a que las inversiones a largo plazo tienden a suavizar las fluctuaciones del mercado y permiten aprovechar el potencial de crecimiento de los activos subyacentes.\n\nEn cuanto a ventajas, este fondo ofrece la posibilidad de diversificar tu cartera de inversión de manera sencilla, sin la necesidad de seleccionar activos individuales. Sin embargo, como desventaja, es importante tener en cuenta que el rendimiento pasado no garantiza resultados futuros, por lo que siempre existe el riesgo de que el fondo no alcance las expectativas de rentabilidad esperadas.\n\nEn resumen, el fondo Renta Más Largo Plaz es una opción atractiva para jóvenes inversores chilenos con un perfil de riesgo medio que buscan diversificar su cartera a largo plazo. Recuerda siempre realizar un análisis detallado de tus objetivos financieros y tolerancia al riesgo antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9934-1",
+    "rut_admin": "96767630",
+    "nombre": "RENTA MÁS LARGO PLAZ",
+    "full_id": "96767630_9934-1",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "plan rentas 2013",
+  "nombre": "Plan Rentas 2013",
+  "nombre_cmf": "PLAN RENTAS 2013",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Plan Rentas 2013 es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable. Su estrategia busca obtener rendimientos atractivos en el mediano plazo, manteniendo un nivel de riesgo moderado. Esto significa que el fondo busca equilibrar la posibilidad de obtener ganancias con la necesidad de proteger el capital invertido.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores rendimientos. Si eres un joven inversor que busca una opción que ofrezca un equilibrio entre riesgo y retorno, el Plan Rentas 2013 podría ser una alternativa a considerar.\n\nEn términos de activos en los que invierte, la composición principal del fondo no está disponible públicamente, pero generalmente los fondos mixtos como este suelen diversificar su cartera entre bonos, acciones y otros instrumentos financieros. Esta diversificación ayuda a reducir el riesgo asociado con la volatilidad de los mercados.\n\nEn cuanto al nivel de riesgo, al ser un fondo mixto con perfil de riesgo medio, es importante entender que si bien puede experimentar fluctuaciones en su valor, estas tienden a ser menores en comparación con fondos de mayor riesgo. Es como conducir a una velocidad moderada en una autopista: es posible que haya baches en el camino, pero no se espera que sean tan bruscos como en una ruta de montaña.\n\nEl horizonte de inversión recomendado para el Plan Rentas 2013 suele ser de mediano a largo plazo, ya que permite que los activos del fondo tengan el tiempo suficiente para generar rendimientos consistentes. Si tienes un objetivo financiero a largo plazo, como ahorrar para la compra de una vivienda en unos años, este fondo podría ser una opción a considerar.\n\nEn cuanto a ventajas, la diversificación de activos puede ayudar a reducir el riesgo y la rentabilidad del fondo puede ser atractiva en el mediano plazo. Sin embargo, es importante tener en cuenta que, al igual que cualquier inversión, este fondo también está sujeto a riesgos y su rentabilidad puede variar.\n\nEn resumen, el Fondo Mutuo Plan Rentas 2013 es una alternativa atractiva para jóvenes inversionistas con un perfil de riesgo medio que buscan un equilibrio entre riesgo y retorno. Si estás dispuesto a asumir cierta volatilidad en busca de rendimientos atractivos a mediano plazo, este fondo podría ser una opción a considerar en",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8769-6",
+    "rut_admin": "96767630",
+    "nombre": "PLAN RENTAS 2013",
+    "full_id": "96767630_8769-6",
+    "source": "javascript"
+  }
+}

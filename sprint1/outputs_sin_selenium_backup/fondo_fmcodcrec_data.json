@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fmcodcrec",
+  "nombre": "Fmcodcrec",
+  "nombre_cmf": "FMCODCREC",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes una descripción amigable del fondo mutuo Fmcodcrec para jóvenes inversores chilenos:\n\nEl fondo mutuo Fmcodcrec es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable. Su estrategia de inversión se enfoca en buscar un equilibrio entre la estabilidad de los instrumentos de renta fija y el potencial de crecimiento de las acciones en el mercado. Esto significa que busca obtener rendimientos atractivos sin asumir un nivel extremo de riesgo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener mayores retornos. Si eres una persona que está dispuesta a asumir cierto nivel de riesgo en busca de mayores ganancias, este fondo podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, lamentablemente la composición principal del fondo no está disponible públicamente. Sin embargo, es importante tener en cuenta que al ser un fondo mixto, probablemente incluya tanto bonos y pagarés como acciones de empresas locales e internacionales.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Esto significa que, si bien existe la posibilidad de obtener buenos rendimientos, también hay un riesgo moderado de pérdida, especialmente en periodos de volatilidad en los mercados financieros.\n\nEl horizonte de inversión recomendado para el fondo Fmcodcrec es a mediano y largo plazo. Es importante tener en cuenta que los fondos mixtos suelen requerir un tiempo mayor para que su estrategia de inversión se desarrolle y genere resultados significativos. Por lo tanto, si estás buscando invertir tus ahorros a corto plazo, este fondo podría no ser la mejor opción para ti.\n\nEn cuanto a ventajas, este fondo ofrece la posibilidad de diversificar tu cartera de inversiones al combinar diferentes tipos de activos. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del fondo, lo que puede dificultar la evaluación precisa de su desempeño.\n\nEn resumen, el fondo mutuo Fmcodcrec es una opción interesante para inversionistas con un perfil de riesgo medio que buscan un equilibrio entre estabilidad y crecimiento. Si estás dispuesto a asumir un riesgo moderado y tienes un horizonte de inversión a mediano o largo plazo, este fondo podría ser una alternativa a considerar en tu estrategia",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9431-5",
+    "rut_admin": "96767630",
+    "nombre": "FMCODCREC",
+    "full_id": "96767630_9431-5",
+    "source": "javascript"
+  }
+}

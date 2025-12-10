@@ -1,0 +1,23 @@
+{
+  "fondo_id": "deposito total",
+  "nombre": "Deposito Total",
+  "nombre_cmf": "DEPOSITO TOTAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Depósito Total\" es una opción mixta diseñada para inversores con un perfil de riesgo medio que buscan diversificar su cartera. Este fondo invierte en una combinación de activos de renta fija y variable, lo que le permite adaptarse a diferentes condiciones del mercado y potencialmente obtener ganancias a largo plazo.\n\nEste tipo de fondo es ideal para aquellos inversores que desean obtener un equilibrio entre seguridad y potencial de crecimiento. Por ejemplo, si eres un joven inversionista que está dispuesto a asumir cierto nivel de riesgo para obtener rendimientos superiores a los de un depósito a plazo, \"Depósito Total\" podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, \"Depósito Total\" puede tener una combinación de bonos, acciones, instrumentos del mercado monetario, entre otros. Esta diversificación ayuda a reducir la volatilidad de la inversión y a mitigar posibles pérdidas en caso de un mal desempeño de algún activo en particular.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Esto significa que, si bien existe la posibilidad de obtener ganancias atractivas, también implica un cierto grado de riesgo de pérdida. Es importante tener en cuenta que, al invertir en fondos mixtos, la rentabilidad puede variar y no está garantizada.\n\nPara obtener los mejores resultados con \"Depósito Total\", se recomienda tener un horizonte de inversión a medio o largo plazo. Esto se debe a que, al combinar activos de diferentes clases, el fondo puede experimentar fluctuaciones en el corto plazo, pero tiende a mostrar un mejor desempeño a medida que pasa el tiempo.\n\nEntre las ventajas de este fondo se encuentra la posibilidad de diversificar la cartera de inversión de forma sencilla, sin necesidad de seleccionar individualmente cada activo. Además, al ser un fondo mixto, ofrece un equilibrio entre riesgo y rendimiento. Sin embargo, una posible desventaja podría ser que, al ser un fondo gestionado por profesionales, existen costos asociados que pueden afectar la rentabilidad final.\n\nEn resumen, \"Depósito Total\" es una alternativa interesante para jóvenes inversores chilenos con un perfil de riesgo medio que buscan diversificar su cartera y obtener potenciales rendimientos a largo plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8161-2",
+    "rut_admin": "96767630",
+    "nombre": "DEPOSITO TOTAL",
+    "full_id": "96767630_8161-2",
+    "source": "javascript"
+  }
+}

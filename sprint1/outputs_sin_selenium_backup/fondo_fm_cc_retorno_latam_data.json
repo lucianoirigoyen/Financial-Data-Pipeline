@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm cc retorno latam",
+  "nombre": "Fm Cc Retorno Latam",
+  "nombre_cmf": "FM CC RETORNO LATAM",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Cc Retorno Latam es una opción de inversión mixta que busca combinar activos de renta fija y renta variable en América Latina. Su estrategia se enfoca en diversificar el portafolio para obtener rendimientos atractivos a mediano plazo. Aunque no se dispone de información detallada sobre su composición principal, se puede inferir que el fondo busca aprovechar las oportunidades de crecimiento en la región.\n\nEste fondo se considera de perfil de riesgo medio, lo que significa que combina riesgos y rendimientos en un equilibrio adecuado para inversores que buscan un crecimiento moderado de su capital sin asumir riesgos excesivos. Es importante destacar que, si bien no ofrece garantías de rendimiento, su nivel de riesgo es gestionable para aquellos que buscan un equilibrio entre seguridad y potencial de ganancias.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, podría incluir bonos corporativos, acciones de empresas latinoamericanas, e incluso instrumentos financieros derivados. Esta diversificación puede brindar una protección adicional ante posibles fluctuaciones en los mercados financieros locales e internacionales.\n\nEl nivel de riesgo de este fondo, al ser medio, implica que existe la posibilidad de ver fluctuaciones en el valor de la inversión, pero sin llegar a extremos de volatilidad que caracterizan a fondos de mayor riesgo. Es importante entender que, en el mundo de las inversiones, el riesgo y la rentabilidad suelen estar relacionados: a mayor riesgo, mayor potencial de ganancias, pero también de pérdidas.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondos suele ser adecuado para inversores con un horizonte de inversión a mediano plazo, es decir, entre 3 y 5 años. Esto se debe a que la estrategia de inversión del fondo busca generar rendimientos a través de la diversificación a largo plazo, por lo que es importante tener paciencia y no dejarse llevar por las fluctuaciones a corto plazo del mercado.\n\nEn resumen, el Fondo Mutuo Cc Retorno Latam ofrece una opción interesante para aquellos inversores que buscan un equilibrio entre riesgo y rendimiento en el mercado latinoamericano. Aunque no se puede garantizar la rentabilidad, su estrategia diversificada y perfil de riesgo medio lo hacen atractivo para aquellos que buscan crecimiento moderado a mediano plazo. Es importante siempre consultar con un asesor financiero antes de tomar decisiones de inversión y asegurarse de que el fondo se al",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9107-3",
+    "rut_admin": "96767630",
+    "nombre": "FM CC RETORNO LATAM",
+    "full_id": "96767630_9107-3",
+    "source": "javascript"
+  }
+}

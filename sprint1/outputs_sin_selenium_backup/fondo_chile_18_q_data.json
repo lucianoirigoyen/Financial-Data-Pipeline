@@ -1,0 +1,23 @@
+{
+  "fondo_id": "chile 18 q",
+  "nombre": "Chile 18 Q",
+  "nombre_cmf": "CHILE 18 Q",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Chile 18 Q es una opción de inversión mixta que busca brindar a los inversionistas una combinación equilibrada de rendimiento y diversificación. Su estrategia de inversión se basa en la diversificación de los activos en los que invierte, lo que significa que distribuye el capital entre distintos instrumentos financieros, como acciones, bonos y otros activos, con el objetivo de reducir el riesgo y maximizar el retorno a largo plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener ganancias. Ideal para aquellos que buscan mantener un nivel de riesgo controlado sin renunciar por completo a la posibilidad de obtener rendimientos atractivos.\n\nSi bien la composición principal del fondo no está disponible, es importante destacar que suele invertir en una variedad de activos, lo que puede incluir acciones de empresas locales e internacionales, bonos gubernamentales y corporativos, entre otros instrumentos financieros. Esta diversificación contribuye a reducir la exposición a riesgos específicos de un activo en particular, aumentando la estabilidad de la cartera.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que implica que existe la posibilidad de enfrentar fluctuaciones en el valor de la inversión, pero con un riesgo moderado en comparación con fondos de mayor riesgo. Es importante tener en cuenta que, aunque el riesgo es controlado, no está exento de variaciones en el mercado que pueden afectar el desempeño del fondo.\n\nEn cuanto al horizonte de inversión recomendado, para sacar el máximo provecho de este fondo es aconsejable mantener una perspectiva a largo plazo, ya que los movimientos del mercado a corto plazo pueden generar volatilidad en la inversión. Por lo tanto, se recomienda a los inversionistas que tengan un horizonte temporal de al menos 3 a 5 años para aprovechar al máximo las oportunidades de crecimiento y minimizar los impactos de la volatilidad a corto plazo.\n\nEn resumen, el fondo mutuo Chile 18 Q ofrece a los inversionistas la oportunidad de diversificar su cartera de inversión y obtener un equilibrio entre riesgo y rendimiento. Si bien presenta un nivel de riesgo moderado, es importante considerar el horizonte de inversión recomendado y tener en cuenta las posibles fluctuaciones del mercado a corto plazo. Es fundamental que los inversionistas analicen su perfil de riesgo y objetivos financieros antes",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8789-0",
+    "rut_admin": "96767630",
+    "nombre": "CHILE 18 Q",
+    "full_id": "96767630_8789-0",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "mas valor",
+  "nombre": "Mas Valor",
+  "nombre_cmf": "MAS VALOR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Mutuo Mas Valor es una opción de inversión mixta diseñada para aquellos inversores que buscan un equilibrio entre riesgo y retorno. Este tipo de fondo combina tanto activos de renta variable como de renta fija, lo que le permite diversificar su cartera y buscar oportunidades de crecimiento a largo plazo. Su estrategia de inversión se enfoca en obtener rendimientos atractivos sin asumir un nivel de riesgo extremadamente alto.\n\nPara aquellos inversores jóvenes con un perfil de riesgo medio y que buscan mantener un equilibrio entre seguridad y potencial de ganancia, Mas Valor puede ser una opción interesante. Este fondo es adecuado para aquellos que están dispuestos a asumir cierto nivel de riesgo en busca de mayores retornos, pero que no quieren exponerse a fluctuaciones extremas en el mercado.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, Mas Valor puede tener una combinación diversificada que incluya acciones de empresas locales e internacionales, bonos corporativos, instrumentos de deuda pública y otros activos financieros. Esta diversificación busca reducir la volatilidad y minimizar el impacto de eventuales caídas en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de Mas Valor se puede comparar con caminar por un sendero con algunas piedras en el camino. Puedes encontrar obstáculos que requieran cierto esfuerzo adicional para sortear, pero en general, el recorrido es seguro y con oportunidades de disfrutar el paisaje. Es importante recordar que cualquier inversión conlleva un cierto grado de riesgo, y es fundamental contar con un horizonte de inversión a mediano o largo plazo para permitir que el fondo alcance su potencial de crecimiento.\n\nEn cuanto al horizonte de inversión recomendado, Mas Valor es ideal para aquellos inversores que buscan mantener su dinero invertido por al menos 3 a 5 años. Esto les permitirá aprovechar el potencial de crecimiento a largo plazo de la cartera del fondo y mitigar posibles fluctuaciones a corto plazo.\n\nVentajas de invertir en Mas Valor incluyen la diversificación de activos, la gestión profesional de la cartera y la posibilidad de acceder a diferentes clases de activos en un solo fondo. Sin embargo, es importante tener en cuenta que el rendimiento pasado no garantiza resultados futuros, y que en periodos de volatilidad del mercado, el valor de la inversión puede fluctuar.\n\nEn resumen, Mas Valor es una opción atractiva para inversores jóvenes con un perfil de riesgo medio que",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8286-4",
+    "rut_admin": "96767630",
+    "nombre": "MAS VALOR",
+    "full_id": "96767630_8286-4",
+    "source": "javascript"
+  }
+}

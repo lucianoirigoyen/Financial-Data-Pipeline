@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch dep plus xiv",
+  "nombre": "Fm Bch Dep Plus Xiv",
+  "nombre_cmf": "FM BCH DEP PLUS XIV",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch Dep Plus Xiv es una alternativa de inversión mixta que combina tanto activos de renta fija como de renta variable. Su estrategia de inversión busca obtener rendimientos atractivos en el mediano plazo, manteniendo un equilibrio entre la estabilidad de los activos de renta fija y el potencial de crecimiento de los activos de renta variable.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener ganancias superiores a la inflación y la exposición a cierto nivel de volatilidad en el mercado. Idealmente, este fondo sería apropiado para jóvenes inversores que buscan diversificar su cartera y están dispuestos a asumir un nivel moderado de riesgo en busca de mayores rendimientos.\n\nEn cuanto a los activos en los que invierte, la composición principal del Fondo Mutuo Bch Dep Plus Xiv no está disponible para el público en general. Sin embargo, es común que los fondos mixtos inviertan en una variedad de instrumentos financieros, como bonos corporativos, acciones de empresas locales e internacionales, entre otros.\n\nEl nivel de riesgo de este fondo, al ser de perfil medio, implica que existe la posibilidad tanto de obtener ganancias como de sufrir pérdidas en el valor de la inversión. Es importante tener en cuenta que la volatilidad del mercado puede afectar el desempeño del fondo, por lo que es recomendable mantener una visión a mediano plazo para permitir que la estrategia de inversión se desarrolle.\n\nEn términos simples, el horizonte de inversión recomendado para el Fondo Mutuo Bch Dep Plus Xiv sería de al menos 3 a 5 años. Esto se debe a que, al tratarse de un fondo mixto con una estrategia de inversión que busca rendimientos a mediano plazo, es importante permitir que los activos se desarrollen y se ajusten a las condiciones del mercado a lo largo del tiempo.\n\nEn resumen, el Fondo Mutuo Bch Dep Plus Xiv ofrece a los jóvenes inversores la oportunidad de diversificar su cartera y buscar rendimientos atractivos con un nivel de riesgo moderado. Si bien presenta la posibilidad de obtener ganancias, también existe la posibilidad de enfrentar pérdidas en el corto plazo debido a la volatilidad del mercado. Por lo tanto, es importante que los inversionistas comprendan su perfil de riesgo y mantengan una visión a mediano plazo para aprovechar al máximo las ventajas de este fondo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10446-9",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH DEP PLUS XIV",
+    "full_id": "96767630_10446-9",
+    "source": "javascript"
+  }
+}

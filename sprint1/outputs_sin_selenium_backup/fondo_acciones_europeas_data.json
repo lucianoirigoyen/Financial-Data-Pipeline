@@ -1,0 +1,23 @@
+{
+  "fondo_id": "acciones europeas",
+  "nombre": "Acciones Europeas",
+  "nombre_cmf": "ACCIONES EUROPEAS",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo de inversión \"Acciones Europeas\" es una opción agresiva diseñada para aquellos inversores que buscan altos rendimientos a largo plazo, pero están dispuestos a asumir un nivel de riesgo considerable. Su estrategia de inversión se centra en adquirir acciones de empresas europeas con potencial de crecimiento y rentabilidad, lo que implica que las fluctuaciones en el mercado pueden ser significativas.\n\nEste tipo de fondo es adecuado para inversionistas jóvenes y con un horizonte de inversión a largo plazo, que buscan maximizar sus ganancias a través de la diversificación en el mercado europeo. Sin embargo, debido a su nivel de riesgo alto, no es recomendable para aquellos con un perfil conservador o que necesitan liquidez a corto plazo.\n\nEn cuanto a los activos en los que invierte, el fondo de \"Acciones Europeas\" se enfoca principalmente en empresas europeas de diversos sectores, como tecnología, salud, energía, entre otros. Esto brinda una exposición diversificada a diferentes industrias y regiones, lo cual puede ser una ventaja para reducir el riesgo específico de cada empresa.\n\nEn términos simples, el nivel de riesgo de este fondo es alto debido a la volatilidad del mercado de acciones europeas. Esto significa que las ganancias potenciales son altas, pero también existe la posibilidad de pérdidas significativas en el corto plazo. Es importante tener en cuenta que el riesgo está asociado a la posibilidad de obtener mayores rendimientos, por lo que es fundamental estar preparado para asumir estas fluctuaciones.\n\nEn cuanto al horizonte de inversión recomendado, se aconseja mantener una visión a largo plazo, preferiblemente de al menos cinco años, para permitir que las inversiones se desarrollen y se recuperen de posibles caídas temporales en el mercado. Este enfoque a largo plazo ayuda a mitigar el impacto de la volatilidad y maximizar el potencial de rendimiento del fondo.\n\nEn resumen, el fondo \"Acciones Europeas\" ofrece la oportunidad de invertir en empresas europeas con potencial de crecimiento, pero requiere un perfil de inversor arriesgado y con horizonte a largo plazo. Es importante entender y aceptar el nivel de riesgo asociado, así como diversificar adecuadamente la cartera para mitigar posibles pérdidas. Si estás dispuesto a asumir este riesgo y tienes un horizonte de inversión a largo plazo, este fondo podría ser adecuado para ti.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8167-1",
+    "rut_admin": "96767630",
+    "nombre": "ACCIONES EUROPEAS",
+    "full_id": "96767630_8167-1",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "deuda latam dolar",
+  "nombre": "Deuda Latam Dolar",
+  "nombre_cmf": "DEUDA LATAM DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Deuda Latam Dólar es una excelente opción para aquellos inversores que buscan diversificar su cartera con un enfoque mixto. Este tipo de fondo combina tanto activos de renta fija como de renta variable, lo que le brinda cierta flexibilidad en su estrategia de inversión. Por lo tanto, su objetivo principal es obtener rendimientos atractivos a través de la inversión en instrumentos financieros de América Latina denominados en dólares.\n\nEn cuanto al perfil de riesgo, este fondo se ubica en un nivel medio. Esto significa que, si bien puede haber fluctuaciones en el valor de la inversión, el riesgo asumido no es tan elevado como en fondos de perfil más agresivo. Es importante tener en cuenta que, al invertir en mercados emergentes como América Latina, existen ciertos riesgos asociados a la volatilidad de las divisas y a la situación económica de los países de la región.\n\nEl Deuda Latam Dólar invierte principalmente en bonos y otros instrumentos de deuda emitidos por gobiernos y empresas de la región. Estos activos ofrecen la posibilidad de obtener ingresos fijos a través de los pagos de intereses, lo que puede resultar atractivo para inversores que buscan estabilidad en sus inversiones. Sin embargo, es importante tener en cuenta que los rendimientos de la deuda pueden variar en función de factores como la calificación crediticia de los emisores y las condiciones económicas globales.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que implica que puede haber cierta volatilidad en el valor de la inversión, pero sin llegar a niveles extremos. Para un joven inversor chileno que está empezando a adentrarse en el mundo de las inversiones, este fondo podría ser una buena opción para diversificar su cartera y obtener rendimientos atractivos a mediano plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener una visión a largo plazo, ya que los activos de renta fija suelen tener plazos más largos y requieren paciencia para ver resultados. Es importante recordar que, en el mundo de las inversiones, la constancia y la disciplina son clave para alcanzar los objetivos financieros a largo plazo.\n\nEn resumen, el fondo Deuda Latam Dólar ofrece una oportunidad interesante para aquellos inversores chilenos que buscan diversificar su cartera con un enfoque mixto y un nivel de riesgo medio. Si bien presenta ciertas ventajas en términos de estabilidad y pot",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8244-9",
+    "rut_admin": "96767630",
+    "nombre": "DEUDA LATAM DOLAR",
+    "full_id": "96767630_8244-9",
+    "source": "javascript"
+  }
+}

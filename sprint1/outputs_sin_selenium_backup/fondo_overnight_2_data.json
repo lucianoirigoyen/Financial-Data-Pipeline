@@ -1,0 +1,23 @@
+{
+  "fondo_id": "overnight 2",
+  "nombre": "Overnight 2",
+  "nombre_cmf": "OVERNIGHT 2",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Overnight 2 es una opción de inversión mixta que busca combinar la estabilidad de activos de renta fija con el potencial de crecimiento de activos de renta variable. Su estrategia de inversión se enfoca en diversificar el portafolio para reducir el riesgo y maximizar los rendimientos a mediano plazo. Aunque la composición principal del fondo no está disponible públicamente, se puede inferir que invierte en una variedad de instrumentos financieros para lograr sus objetivos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener rendimientos superiores a los de una inversión conservadora. Si eres un joven inversor que busca crecimiento moderado pero con cierta estabilidad, el fondo Overnight 2 podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, el fondo probablemente tenga una combinación de bonos, acciones y otros instrumentos financieros. Esto le brinda una diversificación que ayuda a mitigar el riesgo asociado a la volatilidad de los mercados. Al diversificar, el fondo busca proteger el capital invertido y maximizar las oportunidades de crecimiento a lo largo del tiempo.\n\nEn términos simples, el nivel de riesgo del fondo Overnight 2 se encuentra en un punto intermedio entre la seguridad de una inversión conservadora y el potencial de mayores ganancias de una inversión más arriesgada. Esto significa que puede experimentar fluctuaciones en su valor, pero con la expectativa de obtener rendimientos superiores a largo plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener una perspectiva a mediano plazo, es decir, entre 3 a 5 años. Esto permite al fondo tener el tiempo suficiente para cumplir con su estrategia de inversión y superar eventuales fluctuaciones del mercado.\n\nEntre las ventajas del fondo Overnight 2 se encuentran la diversificación de activos, que ayuda a reducir el riesgo, y la posibilidad de obtener rendimientos atractivos. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del portafolio, lo que dificulta evaluar completamente los riesgos asociados.\n\nEn resumen, si eres un joven inversionista con un perfil moderado en busca de crecimiento con cierta estabilidad, el fondo mutuo Overnight 2 podría ser una opción interesante a considerar. Recuerda siempre revisar tu tolerancia al riesgo y objetivos financieros antes de tomar cualquier decisión de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8585-5",
+    "rut_admin": "96767630",
+    "nombre": "OVERNIGHT 2",
+    "full_id": "96767630_8585-5",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "latin equity",
+  "nombre": "Latin Equity",
+  "nombre_cmf": "LATIN EQUITY",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Latin Equity es una alternativa de inversión mixta que combina activos de renta variable y renta fija, con el objetivo de buscar un equilibrio entre rendimiento y riesgo. Su estrategia de inversión se enfoca en diversificar el portafolio a través de inversiones en empresas latinoamericanas, permitiendo a los inversionistas acceder a un amplio espectro de oportunidades en la región.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener mayores rendimientos y la exposición a cierto nivel de riesgo. Ideal para jóvenes inversores que buscan diversificar su cartera y no temen asumir cierto grado de volatilidad en el corto plazo.\n\nLatin Equity invierte principalmente en acciones de empresas latinoamericanas, así como en bonos corporativos y gubernamentales de la región. Esto brinda la oportunidad de participar en el crecimiento económico de países como Chile, Brasil, México y Colombia, diversificando el riesgo a nivel geográfico y sectorial.\n\nEn términos simples, el nivel de riesgo de Latin Equity se sitúa en un punto intermedio. Si bien las inversiones en renta variable pueden experimentar variaciones en su valor en el corto plazo, la inclusión de activos de renta fija ayuda a mitigar parte de este riesgo. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el mercado que pueden afectar el valor de la inversión.\n\nEl horizonte de inversión recomendado para Latin Equity es a medio y largo plazo, ya que permite aprovechar el potencial de crecimiento de las empresas latinoamericanas a lo largo del tiempo. Se aconseja a los inversores mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones a corto plazo, manteniendo una estrategia de inversión disciplinada y diversificada.\n\nEntre las ventajas de este fondo se encuentran la diversificación geográfica y sectorial que ofrece, así como la posibilidad de acceder a mercados emergentes con potencial de crecimiento. Sin embargo, es importante tener en cuenta que la rentabilidad pasada no garantiza resultados futuros, por lo que es fundamental realizar un seguimiento constante de la evolución del fondo y ajustar la estrategia si es necesario.\n\nEn resumen, Latin Equity es una opción atractiva para jóvenes inversores chilenos con un perfil de riesgo medio, que buscan diversificar su cartera a través de inversiones en empresas latinoamericanas. Se recomienda mantener una visión a largo plazo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8194-9",
+    "rut_admin": "96767630",
+    "nombre": "LATIN EQUITY",
+    "full_id": "96767630_8194-9",
+    "source": "javascript"
+  }
+}

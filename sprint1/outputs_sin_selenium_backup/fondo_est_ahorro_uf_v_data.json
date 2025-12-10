@@ -1,0 +1,23 @@
+{
+  "fondo_id": "est ahorro uf v",
+  "nombre": "Est Ahorro Uf V",
+  "nombre_cmf": "EST AHORRO UF V",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo Est Ahorro UF V de manera clara y amigable para jóvenes inversores chilenos:\n\n1. **¿Qué es este fondo y su estrategia de inversión?**\n   El fondo Est Ahorro UF V es un fondo mutuo de tipo mixto, lo que significa que combina inversiones tanto en activos de renta fija como de renta variable. Su objetivo principal es buscar un equilibrio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable para maximizar el rendimiento a mediano plazo.\n\n2. **¿Para qué perfil de inversionista es adecuado?**\n   Este fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su inversión y la posibilidad de obtener un rendimiento mayor que el promedio del mercado.\n\n3. **Principales activos en los que invierte:**\n   Aunque la composición principal del fondo no está disponible, se espera que invierta en una combinación de bonos, acciones y otros instrumentos financieros tanto locales como internacionales.\n\n4. **Nivel de riesgo en términos simples:**\n   En términos simples, el nivel de riesgo de este fondo es moderado. Esto significa que, si bien existe la posibilidad de pérdidas en el corto plazo debido a fluctuaciones del mercado, a largo plazo se espera obtener un rendimiento superior al de una inversión conservadora.\n\n5. **Horizonte de inversión recomendado:**\n   Se recomienda tener un horizonte de inversión a mediano plazo, es decir, mantener la inversión por al menos 3 a 5 años. Esto permitirá aprovechar el potencial de crecimiento de las inversiones en el fondo y mitigar posibles fluctuaciones a corto plazo.\n\n**Ventajas y desventajas:**\nUna ventaja de este fondo es su diversificación, al invertir en diferentes tipos de activos, lo que ayuda a reducir el riesgo. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que dificulta una evaluación precisa de los activos en los que se invierte.\n\n**Recomendaciones sobre el perfil del inversionista ideal:**\nEl perfil ideal para invertir en el fondo Est Ahorro UF V sería un joven inversor chileno que busca un equilibrio entre seguridad y potencial de crecimiento en su cartera de inversiones. Es importante que este inversionista esté dispuesto a asumir un nivel moderado de riesgo a cambio de la posibilidad de obtener rendimientos superiores a largo pl",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10533-3",
+    "rut_admin": "96767630",
+    "nombre": "EST AHORRO UF V",
+    "full_id": "96767630_10533-3",
+    "source": "javascript"
+  }
+}

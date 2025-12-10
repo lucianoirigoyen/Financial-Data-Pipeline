@@ -1,0 +1,23 @@
+{
+  "fondo_id": "cartera defensivo",
+  "nombre": "Cartera Defensivo",
+  "nombre_cmf": "CARTERA DEFENSIVO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Cartera Defensivo es una excelente opción para aquellos inversores que buscan un equilibrio entre riesgo y rendimiento. Este fondo, clasificado como mixto, combina activos de renta fija y renta variable, lo que le otorga una estrategia diversificada para enfrentar distintas condiciones de mercado. Su perfil de riesgo se considera medio, lo que implica que puede experimentar fluctuaciones en su valor, pero en menor medida que fondos de perfil más agresivo.\n\nPara los jóvenes inversores chilenos que desean comenzar a construir un portafolio de inversión, la Cartera Defensivo puede ser una opción atractiva. Su enfoque equilibrado ofrece la oportunidad de obtener rendimientos moderados sin exponerse a un riesgo excesivo. Este fondo es adecuado para aquellos que buscan crecimiento a largo plazo, pero que también valoran la estabilidad en sus inversiones.\n\nEn cuanto a los activos en los que invierte, la composición principal de la Cartera Defensivo no está disponible públicamente, pero se espera que incluya una combinación de bonos, acciones y otros instrumentos financieros. Esta diversificación contribuye a mitigar el riesgo y a proteger el capital de los inversores en diferentes escenarios del mercado.\n\nEl nivel de riesgo de este fondo se puede comparar con el de conducir un automóvil a una velocidad moderada en una carretera bien pavimentada. Aunque existen ciertos riesgos asociados, como cambios en las tasas de interés o la volatilidad de los mercados, estos son manejables y no suelen representar un peligro inminente para la inversión.\n\nEn términos de horizonte de inversión recomendado, la Cartera Defensivo es ideal para aquellos inversores que tienen un horizonte a mediano o largo plazo. Dado su enfoque equilibrado y diversificado, este fondo puede ser una opción atractiva para quienes buscan mantener una exposición constante al mercado sin asumir riesgos excesivos.\n\nUna ventaja de este fondo es su capacidad para adaptarse a diferentes condiciones de mercado, lo que puede ayudar a proteger el capital de los inversores en momentos de incertidumbre. Sin embargo, una posible desventaja es que, al ser un fondo mixto, su rendimiento puede ser inferior en comparación con fondos de perfil más agresivo en periodos de fuerte crecimiento del mercado.\n\nEn resumen, la Cartera Defensivo es una opción sólida para jóvenes inversores que buscan un equilibrio entre riesgo y rendimiento. Se recomienda",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10021-8",
+    "rut_admin": "96767630",
+    "nombre": "CARTERA DEFENSIVO",
+    "full_id": "96767630_10021-8",
+    "source": "javascript"
+  }
+}

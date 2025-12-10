@@ -1,0 +1,23 @@
+{
+  "fondo_id": "index fund s&p ipsa",
+  "nombre": "Index Fund S&P Ipsa",
+  "nombre_cmf": "INDEX FUND S&P IPSA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Index Fund S&P Ipsa es un fondo mutuo mixto que busca replicar el comportamiento del índice S&P Ipsa, el cual agrupa a las principales acciones de la Bolsa de Santiago. Esta estrategia de inversión diversificada permite a los inversores participar en el rendimiento de un amplio grupo de empresas chilenas, sin tener que seleccionar individualmente cada acción. Aunque la composición exacta del fondo no está disponible, se espera que esté compuesto por una combinación de acciones, bonos y otros activos financieros.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, que buscan obtener rendimientos a mediano plazo sin asumir una exposición excesiva a la volatilidad del mercado. Si bien no se dispone de información sobre la rentabilidad en los últimos 12 meses, históricamente los fondos indexados han mostrado un desempeño competitivo en comparación con otros tipos de fondos.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de inversiones de bajo riesgo, como los depósitos a plazo, y la volatilidad de acciones individuales. Si bien existe la posibilidad de que el valor de las inversiones fluctúe en el corto plazo, a largo plazo se espera que siga la tendencia general de la economía chilena.\n\nPara los jóvenes inversores chilenos que buscan invertir de forma diversificada y sin la necesidad de monitorear constantemente su cartera, el Index Fund S&P Ipsa puede ser una buena opción. Sin embargo, es importante tener en cuenta que, al replicar un índice, el fondo no busca superar el mercado, sino seguir su evolución. Por lo tanto, si el objetivo es obtener rendimientos más altos que la media, puede que sea necesario considerar otras alternativas de inversión más activas.\n\nSe recomienda un horizonte de inversión a mediano o largo plazo para este fondo, ya que permite aprovechar el potencial de crecimiento de la economía chilena a lo largo del tiempo. Es importante tener paciencia y no dejarse llevar por fluctuaciones a corto plazo, ya que la estrategia de inversión se basa en la confianza en el desarrollo a largo plazo de las empresas chilenas.\n\nEn resumen, el Index Fund S&P Ipsa es una opción atractiva para inversores jóvenes con un perfil de riesgo medio que buscan diversificar sus inversiones en el mercado chileno. Ofrece la posibilidad de participar en el crecimiento de la economía local, aunque es importante tener expectativas realistas en cuanto a su",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8912-5",
+    "rut_admin": "96767630",
+    "nombre": "INDEX FUND S&P IPSA",
+    "full_id": "96767630_8912-5",
+    "source": "javascript"
+  }
+}

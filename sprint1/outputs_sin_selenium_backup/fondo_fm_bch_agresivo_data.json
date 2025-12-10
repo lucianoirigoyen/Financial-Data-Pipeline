@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch agresivo",
+  "nombre": "Fm Bch Agresivo",
+  "nombre_cmf": "FM BCH AGRESIVO",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo mutuo FM Bch Agresivo se caracteriza por su enfoque agresivo en la inversión, lo que significa que busca obtener altos rendimientos a través de la exposición a activos de mayor riesgo. Este fondo está diseñado para inversores que tienen un perfil de riesgo alto y que buscan maximizar su potencial de ganancias a largo plazo. \n\nAunque la composición principal del fondo no está disponible públicamente, generalmente los fondos agresivos invierten en una combinación de acciones, bonos de alto rendimiento e instrumentos financieros derivados. Esto implica que el dinero de los inversores se destina a empresas con alto potencial de crecimiento, así como a activos que pueden generar retornos significativos pero también pueden ser volátiles.\n\nEn términos simples, el nivel de riesgo asociado con el fondo mutuo FM Bch Agresivo es alto. Esto significa que los inversores pueden experimentar fluctuaciones importantes en el valor de sus inversiones, tanto al alza como a la baja. Es importante tener en cuenta que a mayor riesgo, también puede haber mayores oportunidades de ganancias, pero también existe la posibilidad de pérdidas significativas.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversionistas jóvenes que tienen un horizonte temporal a largo plazo, es decir, que no necesitan retirar su dinero en el corto plazo. Dado que el fondo invierte en activos de mayor riesgo, es importante tener una perspectiva a largo plazo para permitir que las inversiones se desarrollen y superen posibles periodos de volatilidad.\n\nVentajas de invertir en el fondo mutuo FM Bch Agresivo incluyen el potencial de obtener altas ganancias a largo plazo si los activos subyacentes tienen un rendimiento positivo. Sin embargo, es importante tener en cuenta que, al ser un fondo agresivo, las fluctuaciones en el valor de las inversiones pueden ser significativas, lo que puede generar cierta ansiedad en los inversores menos experimentados.\n\nEn resumen, el fondo mutuo FM Bch Agresivo es una opción adecuada para inversores jóvenes con un alto tolerancia al riesgo y un horizonte de inversión a largo plazo. Si estás dispuesto a aceptar la volatilidad en busca de rendimientos potencialmente altos, este fondo podría ser una opción a considerar. Es fundamental tener una comprensión clara de tus objetivos financieros y de tu tolerancia al riesgo antes de invertir en este tipo de fondo agresivo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10058-7",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH AGRESIVO",
+    "full_id": "96767630_10058-7",
+    "source": "javascript"
+  }
+}

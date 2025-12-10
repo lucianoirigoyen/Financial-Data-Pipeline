@@ -1,0 +1,23 @@
+{
+  "fondo_id": "liquidez xi",
+  "nombre": "Liquidez Xi",
+  "nombre_cmf": "LIQUIDEZ XI",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Liquidez Xi es una opción de inversión mixta que combina activos de renta fija y renta variable, buscando un equilibrio entre la estabilidad y el crecimiento. Su estrategia de inversión se centra en diversificar el portafolio para mitigar el riesgo y aprovechar oportunidades tanto en el mercado de deuda como en acciones. Esto significa que, en términos simples, el fondo busca obtener rendimientos atractivos sin exponerse en exceso a la volatilidad del mercado.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener rendimientos superiores a los de una inversión tradicional. Si eres un joven inversor que está dispuesto a asumir un nivel moderado de riesgo en busca de mayores retornos, Liquidez Xi podría ser una opción a considerar.\n\nEn cuanto a los principales activos en los que invierte este fondo, lamentablemente la composición exacta no está disponible públicamente. Sin embargo, es probable que incluya bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos del mercado monetario. Esta diversificación ayuda a reducir la exposición a un solo tipo de activo y a aprovechar las oportunidades que ofrece el mercado en diferentes clases de activos.\n\nEn términos de riesgo, este fondo se sitúa en un nivel medio, lo que implica que existe cierta posibilidad de pérdida, pero también la oportunidad de obtener mayores retornos en comparación con inversiones más conservadoras. Es importante recordar que, si bien el riesgo es parte inherente de cualquier inversión, en este caso se encuentra en un punto intermedio que puede resultar adecuado para muchos jóvenes inversores que buscan un equilibrio entre seguridad y rentabilidad.\n\nEl horizonte de inversión recomendado para Liquidez Xi suele ser a medio o largo plazo, ya que permite aprovechar al máximo las fluctuaciones del mercado y potenciales oportunidades de crecimiento. Es importante tener en cuenta que, como en cualquier inversión, los resultados a corto plazo pueden variar, por lo que es fundamental mantener una visión a largo plazo y no dejarse llevar por la volatilidad del mercado.\n\nEn resumen, Liquidez Xi es un fondo mixto adecuado para inversores jóvenes con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos atractivos a mediano-largo plazo. Si estás dispuesto a asumir cierto nivel de riesgo en busca de mayores retornos, este fondo podría ser una opción a considerar.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10607-0",
+    "rut_admin": "96767630",
+    "nombre": "LIQUIDEZ XI",
+    "full_id": "96767630_10607-0",
+    "source": "javascript"
+  }
+}

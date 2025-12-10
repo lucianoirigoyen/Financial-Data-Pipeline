@@ -1,0 +1,23 @@
+{
+  "fondo_id": "balanceado dólar",
+  "nombre": "Balanceado Dólar",
+  "nombre_cmf": "BALANCEADO DÓLAR",
+  "tipo_fondo": "Balanceado",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Balanceado Dólar es una opción de inversión que combina activos de renta fija y variable, con el objetivo de buscar un equilibrio entre la estabilidad y el potencial de crecimiento. Su estrategia se basa en diversificar la cartera de inversiones para reducir el riesgo y aprovechar oportunidades tanto en el mercado nacional como internacional.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los instrumentos de renta fija tradicionales. Si eres un joven inversor que desea crecer tu capital a mediano plazo sin asumir un riesgo excesivo, el Balanceado Dólar podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente, pero se espera que incluya una combinación de bonos, acciones y posiblemente otros instrumentos financieros. Esto permite diversificar el riesgo entre diferentes clases de activos y sectores, lo que puede ayudar a mitigar las fluctuaciones del mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que existe la posibilidad de obtener retornos más altos que la renta fija tradicional, pero también implica la exposición a posibles pérdidas en momentos de volatilidad del mercado. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de variaciones en el valor de la inversión.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversiones a mediano plazo, generalmente de al menos tres a cinco años. Esto se debe a que, al tener una combinación de activos de renta fija y variable, el Balanceado Dólar puede necesitar un tiempo razonable para mostrar su potencial de crecimiento y estabilizar posibles fluctuaciones a corto plazo.\n\nEntre las ventajas de este fondo se encuentran la diversificación de la cartera, que ayuda a reducir el riesgo y la posibilidad de obtener retornos atractivos. Sin embargo, es importante tener en cuenta que las fluctuaciones del mercado pueden afectar el valor de la inversión, por lo que es fundamental mantener una visión a largo plazo y no dejarse llevar por movimientos a corto plazo.\n\nEn resumen, el Fondo Mutuo Balanceado Dólar es una opción interesante para jóvenes inversores que buscan un equilibrio entre riesgo y rendimiento",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10184-2",
+    "rut_admin": "96767630",
+    "nombre": "BALANCEADO DÓLAR",
+    "full_id": "96767630_10184-2",
+    "source": "javascript"
+  }
+}

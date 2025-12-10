@@ -1,0 +1,23 @@
+{
+  "fondo_id": "inversion peru",
+  "nombre": "Inversion Peru",
+  "nombre_cmf": "INVERSION PERU",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Inversión Perú es una opción de inversión mixta que combina activos de renta fija y renta variable, buscando generar rendimientos atractivos a través de una estrategia diversificada. Su perfil de riesgo se considera medio, lo que significa que existe un equilibrio entre la posibilidad de obtener ganancias y el riesgo asumido.\n\nEste fondo es adecuado para inversores que buscan un equilibrio entre seguridad y rentabilidad, teniendo en cuenta que al invertir en una combinación de activos, se puede reducir la exposición a movimientos bruscos del mercado. Por lo tanto, es ideal para aquellos que buscan crecimiento moderado de su capital a mediano plazo.\n\nEn cuanto a los activos en los que invierte Inversión Perú, no disponemos de información específica sobre su composición principal. Sin embargo, es probable que incluya una variedad de instrumentos financieros, como bonos, acciones y otros activos tanto locales como internacionales, con el objetivo de diversificar el riesgo y maximizar los rendimientos.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Esto significa que si bien existe la posibilidad de obtener mayores ganancias en comparación con activos de menor riesgo, también implica la posibilidad de enfrentar pérdidas en periodos de volatilidad del mercado. Es importante tener en cuenta que el riesgo forma parte de cualquier inversión, y que la diversificación puede ayudar a mitigar su impacto.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere un plazo de al menos 3 a 5 años para permitir que la estrategia del fondo se desarrolle y se materialicen los rendimientos esperados. A largo plazo, la volatilidad del mercado tiende a suavizarse, lo que puede favorecer la rentabilidad de la inversión.\n\nVentajas de Inversión Perú:\n- Diversificación de activos: reduce el riesgo concentrando la inversión en diferentes instrumentos financieros.\n- Potencial de rendimiento: al combinar renta fija y renta variable, se pueden obtener ganancias interesantes.\n\nDesventajas de Inversión Perú:\n- Posibilidad de pérdidas: al tener exposición a activos de mayor riesgo, se puede experimentar volatilidad en el valor de la inversión.\n- Costos asociados: es importante considerar las comisiones y gastos que pueden afectar la rentabilidad final.\n\nEn resumen, Inversión Perú es un fondo mixto que ofrece un equilibrio entre riesgo y rendimiento, siendo adecuado para inversionistas con un",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8654-1",
+    "rut_admin": "96767630",
+    "nombre": "INVERSION PERU",
+    "full_id": "96767630_8654-1",
+    "source": "javascript"
+  }
+}

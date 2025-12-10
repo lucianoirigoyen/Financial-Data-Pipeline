@@ -1,0 +1,23 @@
+{
+  "fondo_id": "energias alternativa",
+  "nombre": "Energias Alternativa",
+  "nombre_cmf": "ENERGIAS ALTERNATIVA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Energías Alternativas\" es una opción de inversión mixta que busca combinar activos de distintas clases para lograr un equilibrio entre rentabilidad y riesgo. Su estrategia de inversión se enfoca en empresas relacionadas con energías renovables y sostenibles, como la solar, eólica o la tecnología verde. Esto lo convierte en una alternativa atractiva para quienes desean contribuir al cuidado del medio ambiente a través de sus inversiones.\n\nEste tipo de fondo es adecuado para inversores con un perfil de riesgo medio, que buscan diversificar su cartera con un enfoque en sectores emergentes y con potencial de crecimiento a largo plazo. Idealmente, deberían tener un horizonte de inversión de al menos 3 a 5 años para poder aprovechar las fluctuaciones del mercado y permitir que las estrategias del fondo surtan efecto.\n\nEn cuanto a los activos en los que invierte el fondo \"Energías Alternativas\", se concentra en empresas que operan en el sector de las energías limpias, como fabricantes de paneles solares, desarrolladores de parques eólicos o empresas de tecnología verde. Estas inversiones pueden ofrecer un potencial de crecimiento significativo, aunque también conllevan cierto nivel de riesgo asociado a la volatilidad de estos sectores en desarrollo.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con un viaje en auto: no es tan tranquilo como tomar un bus, pero tampoco tan emocionante como hacer puenting. Es decir, hay cierta dosis de riesgo involucrada, pero se mantiene en un nivel moderado en comparación con otros tipos de inversión más arriesgados.\n\nUna de las ventajas de invertir en el fondo \"Energías Alternativas\" es la posibilidad de participar en un sector en crecimiento con beneficios potenciales a largo plazo. Sin embargo, es importante tener en cuenta que las empresas en las que invierte pueden estar sujetas a cambios regulatorios, fluctuaciones en los precios de la energía o riesgos geopolíticos que podrían afectar su rendimiento.\n\nEn resumen, el fondo \"Energías Alternativas\" es una opción interesante para inversores que buscan combinar rentabilidad con impacto ambiental positivo. Se recomienda a aquellos con un perfil de riesgo medio, que estén dispuestos a mantener su inversión a largo plazo y que entiendan los riesgos asociados a este tipo de activos. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8703-3",
+    "rut_admin": "96767630",
+    "nombre": "ENERGIAS ALTERNATIVA",
+    "full_id": "96767630_8703-3",
+    "source": "javascript"
+  }
+}

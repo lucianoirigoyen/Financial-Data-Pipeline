@@ -1,0 +1,23 @@
+{
+  "fondo_id": "millenium",
+  "nombre": "Millenium",
+  "nombre_cmf": "MILLENIUM",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Millenium es una opción atractiva para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y potencial de retorno. Este fondo, clasificado como mixto, combina una variedad de activos como acciones, bonos y otros instrumentos financieros para diversificar la cartera y potenciar los resultados a largo plazo.\n\nSu estrategia de inversión se centra en aprovechar las oportunidades de distintos mercados, tanto locales como internacionales, con el objetivo de obtener rendimientos atractivos ajustados al nivel de riesgo asumido. Aunque la composición exacta de sus activos principales no está disponible públicamente, se espera que Millenium mantenga un enfoque diversificado para minimizar la volatilidad y maximizar el potencial de crecimiento.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener retornos superiores a los ofrecidos por inversiones más conservadoras. Si bien el riesgo asociado a Millenium no es tan alto como en fondos de renta variable pura, es importante tener en cuenta que existe la posibilidad de pérdidas en el corto plazo debido a la naturaleza variable de los mercados.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con un viaje en automóvil: aunque se pueden presentar baches en el camino, en general se espera llegar a destino de manera segura y con la posibilidad de disfrutar del paisaje en el trayecto. Es importante recordar que la rentabilidad pasada no garantiza resultados futuros, por lo que es fundamental mantener una visión a largo plazo y no dejarse llevar por fluctuaciones temporales en el mercado.\n\nEl horizonte de inversión recomendado para el fondo Millenium es de al menos 3 a 5 años, ya que permite aprovechar el potencial de crecimiento de los activos subyacentes y superar posibles períodos de volatilidad a corto plazo. Este plazo es ideal para permitir que la estrategia de inversión del fondo se desarrolle y genere resultados consistentes con el perfil de riesgo asumido.\n\nEn resumen, el fondo Millenium ofrece una oportunidad atractiva para jóvenes inversores chilenos que buscan diversificar su cartera y obtener rendimientos atractivos en el mediano plazo. Su perfil de riesgo medio lo hace adecuado para aquellos que buscan un equilibrio entre seguridad y potencial de crecimiento. Es importante mantener una visión a largo plazo y no dejarse llevar por fluctuaciones",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8184-1",
+    "rut_admin": "96767630",
+    "nombre": "MILLENIUM",
+    "full_id": "96767630_8184-1",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch renta lp",
+  "nombre": "Fm Bch Renta Lp",
+  "nombre_cmf": "FM BCH RENTA LP",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch Renta Largo Plazo es una alternativa de inversión mixta que busca combinar la estabilidad de renta fija con el potencial de crecimiento de renta variable. Su estrategia de inversión se basa en diversificar el portafolio entre instrumentos de deuda y acciones, con el objetivo de obtener rendimientos a largo plazo. Este fondo se orienta a jóvenes inversores chilenos que buscan un equilibrio entre seguridad y crecimiento en sus inversiones, ya que su perfil de riesgo se considera medio.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Aunque no se dispone de información específica sobre la composición principal del portafolio, es importante tener en cuenta que al invertir en renta variable, se asume un mayor riesgo comparado con la inversión en renta fija. Sin embargo, al combinar ambos tipos de activos, se busca minimizar la exposición a eventos adversos del mercado.\n\nPara los jóvenes inversionistas chilenos que deseen diversificar su cartera y asumir un nivel de riesgo moderado, el Fondo Mutuo Bch Renta Largo Plazo puede ser una opción atractiva. Al destinar parte de sus recursos a este fondo, podrán participar en el potencial de crecimiento de la bolsa de valores, al mismo tiempo que se benefician de la estabilidad de los instrumentos de deuda.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener una perspectiva a largo plazo, ya que este fondo está diseñado para generar rendimientos consistentes en un periodo extendido. Es importante recordar que las inversiones en fondos mutuos no son recomendables para objetivos de corto plazo, ya que pueden estar sujetas a fluctuaciones del mercado.\n\nEntre las ventajas de este fondo se encuentran la diversificación del portafolio, que ayuda a reducir el riesgo asociado a la inversión en un solo activo, así como la posibilidad de obtener rendimientos atractivos a largo plazo. Por otro lado, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de los activos en los que invierte, lo que puede dificultar la evaluación precisa de su desempeño.\n\nEn resumen, el Fondo Mutuo Bch Renta Largo Plazo es una opción adecuada para jóvenes inversores chilenos con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos a largo plazo. Es importante realizar un análisis detallado de las características del fondo y considerar la adecuación a los objetivos financieros personales antes",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10061-7",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH RENTA LP",
+    "full_id": "96767630_10061-7",
+    "source": "javascript"
+  }
+}

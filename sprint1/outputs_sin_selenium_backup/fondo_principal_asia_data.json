@@ -1,0 +1,23 @@
+{
+  "fondo_id": "principal asia",
+  "nombre": "Principal Asia",
+  "nombre_cmf": "PRINCIPAL ASIA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Principal Asia es una alternativa de inversión mixta que busca aprovechar las oportunidades en el mercado asiático. Su estrategia de inversión combina tanto activos de renta variable como de renta fija, lo que le otorga un equilibrio entre riesgo y potencial de retorno. Aunque la composición exacta del fondo no está disponible públicamente, se espera que tenga una exposición significativa a empresas y bonos emitidos en países de la región asiática.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los productos financieros más conservadores. Si bien presenta un nivel de riesgo moderado, también ofrece la posibilidad de beneficiarse de la dinámica economía asiática, con un potencial de crecimiento a mediano y largo plazo.\n\nLos principales activos en los que invierte el Fondo Mutuo Principal Asia pueden incluir acciones de empresas líderes en sectores como tecnología, consumo o finanzas en países como China, Japón o Corea del Sur. Además, es probable que tenga posiciones en bonos soberanos o corporativos de la región. Esta diversificación geográfica y sectorial busca reducir la exposición a riesgos específicos y aprovechar las oportunidades de crecimiento en Asia.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de inversiones más conservadoras y la volatilidad de activos más agresivos. Si bien no está exento de fluctuaciones en su valor, la combinación de acciones y bonos le proporciona una mayor estabilidad en comparación con fondos de renta variable pura.\n\nPara aquellos inversores que buscan obtener rendimientos a mediano y largo plazo, el horizonte de inversión recomendado para el Fondo Mutuo Principal Asia es de al menos 3 a 5 años. Esto permite que el fondo se beneficie de las tendencias económicas y empresariales en Asia, así como de eventuales ciclos de crecimiento en la región.\n\nEn cuanto a las ventajas, este fondo ofrece a los inversionistas la posibilidad de diversificar su cartera con activos asiáticos, que pueden tener un desempeño diferenciado respecto a los mercados locales. Sin embargo, es importante tener en cuenta que la rentabilidad pasada no garantiza resultados futuros, y la volatilidad inherente a los mercados asiáticos puede afectar el rendimiento del fondo en el corto plazo.\n\nEn resumen, el Fondo Mutuo Principal Asia es una opción atractiva para inversion",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8438-7",
+    "rut_admin": "96767630",
+    "nombre": "PRINCIPAL ASIA",
+    "full_id": "96767630_8438-7",
+    "source": "javascript"
+  }
+}

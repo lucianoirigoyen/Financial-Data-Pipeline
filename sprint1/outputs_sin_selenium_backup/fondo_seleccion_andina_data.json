@@ -1,0 +1,23 @@
+{
+  "fondo_id": "seleccion andina",
+  "nombre": "Seleccion Andina",
+  "nombre_cmf": "SELECCION ANDINA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Seleccion Andina es una opción mixta que combina diferentes activos, como acciones, bonos y otros instrumentos financieros, con el objetivo de diversificar el riesgo y potenciar la rentabilidad a mediano plazo. Su estrategia busca aprovechar las oportunidades tanto en el mercado de renta variable como en el de renta fija, adaptándose a las condiciones del mercado para maximizar los rendimientos.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre seguridad y potencial de crecimiento. Si estás dispuesto a asumir cierto nivel de riesgo en busca de mayores retornos que los ofrecidos por instrumentos más conservadores, como depósitos a plazo, Seleccion Andina puede ser una buena opción para diversificar tu cartera de inversiones.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible públicamente, pero típicamente un fondo mixto como este puede estar distribuido entre acciones de empresas nacionales e internacionales, bonos corporativos y gubernamentales, así como instrumentos de mercado monetario. Esta diversificación reduce la exposición a un solo tipo de activo, lo que puede mitigar pérdidas en caso de que un sector específico del mercado se vea afectado.\n\nEn términos simples, el nivel de riesgo de Seleccion Andina se encuentra en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Aunque no está exento de variaciones en su valor, su enfoque diversificado busca suavizar las fluctuaciones del mercado a largo plazo.\n\nEl horizonte de inversión recomendado para este fondo es de al menos tres a cinco años. Esto se debe a que, al tratarse de un fondo mixto, es importante permitir que la estrategia de inversión se desarrolle y se vean los frutos de la diversificación a lo largo del tiempo. Además, un plazo más extendido puede ayudar a compensar posibles fluctuaciones temporales en el valor de la inversión.\n\nEn cuanto a ventajas, Seleccion Andina ofrece la posibilidad de diversificar tu cartera de inversiones de manera sencilla, sin necesidad de seleccionar individualmente cada activo. Sin embargo, es importante considerar que la rentabilidad pasada no garantiza rendimientos futuros, por lo que es fundamental mantener una visión a largo plazo y estar preparado para posibles fluctuaciones en el valor de la inversión. Es recomendable para inversores jóvenes que buscan un equilibrio entre riesgo y rendimiento a mediano plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8870-6",
+    "rut_admin": "96767630",
+    "nombre": "SELECCION ANDINA",
+    "full_id": "96767630_8870-6",
+    "source": "javascript"
+  }
+}

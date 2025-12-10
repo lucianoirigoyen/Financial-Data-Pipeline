@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci neg dolar",
+  "nombre": "Fm Bci Neg Dolar",
+  "nombre_cmf": "FM BCI NEG DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Negocios en Dólares es una excelente opción para aquellos jóvenes inversores chilenos que buscan diversificar su cartera en un entorno internacional. Este fondo, clasificado como mixto, combina tanto activos de renta fija como de renta variable, permitiendo aprovechar las oportunidades que ofrece el mercado de divisas en dólares.\n\nLa estrategia de inversión de este fondo se centra en buscar un equilibrio entre la estabilidad que ofrecen los instrumentos de renta fija y el potencial de crecimiento de los activos de renta variable. Esto significa que, si bien se busca minimizar el riesgo, también se persigue obtener rendimientos superiores a los de una inversión puramente conservadora.\n\nEn cuanto al perfil de riesgo, este fondo se considera de nivel medio. Esto implica que, si bien existe la posibilidad de obtener rendimientos más atractivos que con inversiones conservadoras, también conlleva un mayor nivel de incertidumbre. Es importante tener en cuenta que, a mayor potencial de retorno, suele asociarse un mayor riesgo.\n\nEn términos simples, este fondo invierte en una variedad de activos en dólares, como bonos corporativos, acciones de empresas internacionales, y otros instrumentos financieros relacionados con el mercado de divisas. La diversificación en diferentes tipos de activos busca reducir la exposición a riesgos específicos y maximizar las oportunidades de crecimiento.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los jóvenes inversores consideren mantener su dinero invertido en este fondo por un período de al menos 3 a 5 años. Esto permitirá aprovechar los ciclos del mercado y dar tiempo a que las inversiones puedan madurar y potencialmente generar rendimientos favorables.\n\nEn cuanto a ventajas, este fondo ofrece la posibilidad de diversificar la cartera en una moneda fuerte como el dólar, lo que puede actuar como un seguro frente a posibles fluctuaciones en el mercado local. Sin embargo, es importante tener en cuenta que, al tratarse de un fondo mixto, los rendimientos pueden variar dependiendo de la evolución de los mercados internacionales.\n\nEn resumen, el Fondo Mutuo Bci Negocios en Dólares es una opción interesante para jóvenes inversores chilenos que buscan diversificar su cartera y aprovechar las oportunidades del mercado internacional. Es importante tener en cuenta el nivel de riesgo asociado y mantener un horizonte de inversión a mediano plazo para maximizar los beneficios potenciales. Siempre es recomendable consultar con un asesor financiero antes de tomar decisiones de inversión",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9412-9",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI NEG DOLAR",
+    "full_id": "96767630_9412-9",
+    "source": "javascript"
+  }
+}

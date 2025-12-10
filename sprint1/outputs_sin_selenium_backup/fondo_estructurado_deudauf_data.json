@@ -1,0 +1,23 @@
+{
+  "fondo_id": "estructurado deudauf",
+  "nombre": "Estructurado Deudauf",
+  "nombre_cmf": "ESTRUCTURADO DEUDAUF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Estructurado Deudauf es una opción de inversión mixta que combina activos de renta fija y variable, con un enfoque principalmente en deuda. Su estrategia de inversión busca ofrecer un equilibrio entre la seguridad de los instrumentos de deuda y el potencial de crecimiento de los activos variables, con el objetivo de obtener rendimientos atractivos en el mediano plazo.\n\nEste fondo se considera adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener mayores retornos. Los jóvenes inversores chilenos que buscan diversificar sus carteras y no temen asumir un cierto nivel de riesgo podrían encontrar en Estructurado Deudauf una opción interesante.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible, pero se espera que el fondo tenga una diversificación adecuada entre instrumentos de deuda soberana, corporativa y activos variables locales e internacionales. Esta diversificación puede ayudar a mitigar riesgos y aprovechar oportunidades en diferentes mercados.\n\nEn términos simples, el nivel de riesgo de este fondo se podría equiparar a caminar por una calle con desniveles. Aunque no es tan seguro como caminar por una acera plana, tampoco es tan arriesgado como escalar una montaña. Es decir, existe la posibilidad de fluctuaciones en el valor de la inversión, pero se busca minimizar los riesgos a través de una gestión cuidadosa de los activos.\n\nEl horizonte de inversión recomendado para Estructurado Deudauf es a mediano plazo, es decir, al menos de 3 a 5 años. Esto se debe a que, al combinar activos de renta fija y variable, el fondo puede necesitar tiempo para mostrar su verdadero potencial de rendimiento y superar posibles fluctuaciones a corto plazo en los mercados.\n\nUna ventaja de este fondo es su capacidad para ofrecer una combinación equilibrada de seguridad y potencial de crecimiento, lo que lo hace atractivo para inversionistas que buscan diversificar sus portafolios. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición de los activos, lo que podría dificultar la evaluación precisa de los riesgos asociados.\n\nEn resumen, el fondo Estructurado Deudauf es una opción mixta adecuada para jóvenes inversores chilenos con un perfil de riesgo medio, que buscan diversificar sus inversiones y obtener rendimientos atractivos a mediano plazo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10342-K",
+    "rut_admin": "96767630",
+    "nombre": "ESTRUCTURADO DEUDAUF",
+    "full_id": "96767630_10342-K",
+    "source": "javascript"
+  }
+}

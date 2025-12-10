@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bice acciones europa",
+  "nombre": "Bice Acciones Europa",
+  "nombre_cmf": "BICE ACCIONES EUROPA",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo mutuo Bice Acciones Europa es una opción agresiva para aquellos inversionistas que buscan obtener altos rendimientos a largo plazo a través de la inversión en acciones de empresas europeas. La estrategia de inversión de este fondo se enfoca en aprovechar las oportunidades de crecimiento y rentabilidad que ofrece el mercado europeo, diversificando así el riesgo entre diferentes compañías y sectores.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo alto, es decir, aquellos que están dispuestos a asumir mayores fluctuaciones en el valor de su inversión a cambio de la posibilidad de obtener mayores ganancias. Si eres un joven inversor con una visión a largo plazo y una tolerancia al riesgo elevada, Bice Acciones Europa podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte este fondo, su composición principal no está disponible, pero se espera que esté compuesto principalmente por acciones de empresas europeas de diversos sectores, como tecnología, salud, consumo, entre otros. Al invertir en una cartera diversificada de acciones, se busca maximizar el potencial de retorno, aunque esto conlleva un nivel de riesgo mayor comparado con fondos menos agresivos.\n\nEn términos simples, el nivel de riesgo de Bice Acciones Europa se relaciona con la volatilidad propia de las inversiones en acciones, lo cual implica que el valor de tu inversión puede fluctuar considerablemente en el corto plazo. Sin embargo, a largo plazo, la exposición a empresas europeas con potencial de crecimiento puede ofrecer rendimientos atractivos para aquellos que estén dispuestos a asumir dicha volatilidad.\n\nPara maximizar los beneficios de este fondo, se recomienda un horizonte de inversión a largo plazo, idealmente de al menos cinco años. Esto se debe a que las inversiones en acciones tienden a ser más rentables en el largo plazo, permitiendo a los inversionistas superar posibles fluctuaciones del mercado en el corto plazo y beneficiarse de la apreciación de las acciones a lo largo del tiempo.\n\nEn resumen, Bice Acciones Europa es una opción agresiva para jóvenes inversionistas chilenos que buscan diversificar su cartera con exposición al mercado europeo. Si estás dispuesto a asumir un nivel de riesgo alto a cambio de la posibilidad de obtener mayores rendimientos a largo plazo, este fondo podría ser adecuado para ti. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y mantener un enfoque a largo plazo para aprovechar al máximo el potencial de este tipo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8114-0",
+    "rut_admin": "96767630",
+    "nombre": "BICE ACCIONES EUROPA",
+    "full_id": "96767630_8114-0",
+    "source": "javascript"
+  }
+}

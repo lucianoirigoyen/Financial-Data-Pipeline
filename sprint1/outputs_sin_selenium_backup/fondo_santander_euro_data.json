@@ -1,0 +1,23 @@
+{
+  "fondo_id": "santander euro",
+  "nombre": "Santander Euro",
+  "nombre_cmf": "SANTANDER EURO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Santander Euro es una opción de inversión mixta que combina activos de renta fija y renta variable en un portafolio diversificado. Su estrategia se enfoca en buscar un equilibrio entre la estabilidad de los bonos y el potencial de crecimiento de acciones europeas, permitiendo así aprovechar las oportunidades de ambos mercados. Aunque la composición exacta no está disponible, se puede esperar que este fondo tenga una proporción significativa de activos europeos en su cartera.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de la inversión y la posibilidad de obtener rendimientos superiores a los instrumentos de renta fija tradicionales. Si bien no ofrece garantías de ganancias fijas, su nivel de riesgo moderado lo hace atractivo para quienes buscan diversificar su cartera sin asumir una exposición excesiva a la volatilidad del mercado de acciones.\n\nEn cuanto a los activos en los que invierte, el Santander Euro probablemente tenga una parte de su cartera en bonos europeos de calidad, así como en acciones de empresas europeas de diferentes sectores. Esta combinación busca aprovechar las oportunidades de crecimiento en la región europea, diversificando el riesgo entre diferentes tipos de activos.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que puede experimentar fluctuaciones en su valor, pero no tan pronunciadas como un fondo de renta variable pura. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles pérdidas, especialmente en entornos económicos adversos.\n\nPara aquellos inversores jóvenes con un horizonte de inversión a medio y largo plazo, el Santander Euro puede ser una opción a considerar. Aunque no se garantiza una rentabilidad específica, este fondo puede ser una forma de diversificar la cartera y acceder a oportunidades de crecimiento en el mercado europeo.\n\nVentajas de este fondo incluyen la posibilidad de obtener rendimientos superiores a los bonos tradicionales, así como la diversificación geográfica que ofrece al invertir en Europa. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que puede dificultar la evaluación precisa de los riesgos asociados.\n\nEn resumen, el fondo Santander Euro es una opción atractiva para inversores chilenos jóvenes con un perfil de riesgo medio que buscan diversificar su cartera y acceder a oportun",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8267-8",
+    "rut_admin": "96767630",
+    "nombre": "SANTANDER EURO",
+    "full_id": "96767630_8267-8",
+    "source": "javascript"
+  }
+}

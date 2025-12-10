@@ -1,0 +1,23 @@
+{
+  "fondo_id": "brazil",
+  "nombre": "Brazil",
+  "nombre_cmf": "BRAZIL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Brazil\" es una opción de inversión mixta que combina activos de renta variable y renta fija, con el objetivo de lograr un equilibrio entre riesgo y rentabilidad. Su estrategia de inversión busca aprovechar las oportunidades que ofrece el mercado brasileño, diversificando el portafolio para reducir la exposición a un solo tipo de activo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores rendimientos a mediano plazo. Si eres un joven inversor chileno con un horizonte de inversión a largo plazo y buscas diversificar tu cartera con exposición al mercado brasileño, el fondo \"Brazil\" podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, el fondo \"Brazil\" puede tener una amplia gama de instrumentos financieros, incluyendo acciones de empresas brasileñas, bonos del gobierno brasileño, e incluso derivados financieros. Esta diversificación busca minimizar el riesgo asociado a la volatilidad de un solo activo, permitiendo al inversor beneficiarse de las oportunidades que ofrece el mercado brasileño.\n\nEn términos simples, el nivel de riesgo del fondo \"Brazil\" se encuentra en un punto intermedio entre fondos más conservadores y fondos más agresivos. Esto significa que si bien puede experimentar fluctuaciones en su valor, también ofrece la posibilidad de obtener rendimientos superiores a los activos de renta fija tradicionales.\n\nSe recomienda un horizonte de inversión a mediano o largo plazo para el fondo \"Brazil\", ya que esto permite aprovechar el potencial de crecimiento del mercado brasileño y minimizar el impacto de las fluctuaciones a corto plazo en el valor de la inversión.\n\nEn cuanto a ventajas, el fondo \"Brazil\" ofrece la oportunidad de diversificar la cartera con exposición a un mercado emergente como Brasil, lo cual puede traer rendimientos atractivos a largo plazo. Sin embargo, es importante tener en cuenta que la economía brasileña puede ser volátil y estar sujeta a factores políticos y económicos que pueden afectar el desempeño del fondo.\n\nEn resumen, el fondo mutuo \"Brazil\" es una opción adecuada para inversionistas chilenos jóvenes con un perfil de riesgo medio, que buscan diversificar su cartera con exposición al mercado brasileño. Es importante mantener una visión a largo plazo y monitorear de cerca el desempeño del fondo para tomar decisiones informadas sobre la inversión. Recuerda que la",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8538-3",
+    "rut_admin": "96767630",
+    "nombre": "BRAZIL",
+    "full_id": "96767630_8538-3",
+    "source": "javascript"
+  }
+}

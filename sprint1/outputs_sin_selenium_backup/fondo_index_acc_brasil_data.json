@@ -1,0 +1,23 @@
+{
+  "fondo_id": "index acc brasil",
+  "nombre": "Index Acc Brasil",
+  "nombre_cmf": "INDEX ACC BRASIL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Index Acc Brasil es una opción de inversión mixta que busca combinar activos de renta fija y renta variable en el mercado brasileño. Su estrategia se centra en replicar un índice específico de Brasil, lo que significa que su cartera se compone de una selección de acciones y bonos de empresas brasileñas, así como activos de deuda del gobierno de Brasil. Aunque no se dispone de información sobre la composición exacta del fondo, su objetivo es seguir de cerca el desempeño del mercado brasileño.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, que buscan obtener rendimientos a mediano plazo asumiendo un nivel de riesgo moderado. Si bien no ofrece la seguridad de un fondo de renta fija, tampoco tiene la volatilidad extrema de un fondo de renta variable pura. Es importante que los inversores comprendan que, al combinar diferentes clases de activos, el fondo busca diversificar el riesgo y ofrecer un equilibrio entre potencial de ganancias y protección contra pérdidas significativas.\n\nEn cuanto a los principales activos en los que invierte el fondo Index Acc Brasil, se espera que tenga una ponderación significativa en acciones de empresas brasileñas líderes en diversos sectores, así como bonos del gobierno brasileño. Esto le brinda exposición a la economía brasileña y diversificación a través de diferentes sectores, lo que puede ayudar a mitigar el riesgo asociado con la inversión en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con conducir a una velocidad moderada en una autopista bien mantenida. Aunque existen ciertos riesgos inherentes a la inversión en el mercado brasileño, la diversificación del fondo y su enfoque equilibrado buscan proporcionar un viaje más suave en comparación con inversiones más arriesgadas.\n\nEl horizonte de inversión recomendado para el fondo Index Acc Brasil es a mediano y largo plazo, idealmente de al menos 3 a 5 años. Esto se debe a que, al ser un fondo mixto con exposición a la renta variable, puede experimentar fluctuaciones en el corto plazo. Sin embargo, a medida que el mercado brasileño evoluciona a lo largo del tiempo, se espera que el fondo genere rendimientos consistentes para los inversores que mantienen su posición a largo plazo.\n\nEn resumen, el fondo Index Acc Brasil ofrece a los inversores chilenos con un perfil de riesgo medio la oportunidad de diversificar su cartera con activos brasileños. Si bien presenta la ventaja de un equilibrio entre riesgo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9757-8",
+    "rut_admin": "96767630",
+    "nombre": "INDEX ACC BRASIL",
+    "full_id": "96767630_9757-8",
+    "source": "javascript"
+  }
+}

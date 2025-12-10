@@ -1,0 +1,23 @@
+{
+  "fondo_id": "tesoreria",
+  "nombre": "Tesoreria",
+  "nombre_cmf": "TESORERIA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Tesorería es una opción de inversión mixta, lo que significa que combina activos de renta fija y variable para buscar un equilibrio entre la estabilidad y el potencial de crecimiento. Su estrategia se centra en diversificar el portafolio, invirtiendo en una variedad de instrumentos financieros que pueden incluir bonos, acciones, y otros activos, aunque la composición específica no está disponible públicamente. Esta diversificación ayuda a reducir el riesgo asociado con la volatilidad del mercado, ofreciendo una inversión más estable en comparación con fondos más enfocados en un solo tipo de activo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad y la posibilidad de mayores ganancias a largo plazo. Si bien no ofrece garantías de rentabilidad, su enfoque diversificado lo hace una opción atractiva para aquellos que desean una exposición equilibrada a diferentes clases de activos.\n\nEn términos simples, el nivel de riesgo del fondo Tesorería se encuentra en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Si bien puede experimentar fluctuaciones en su valor, la diversificación de sus inversiones ayuda a mitigar los riesgos asociados con la volatilidad del mercado.\n\nEn cuanto al horizonte de inversión recomendado, el fondo Tesorería es ideal para inversionistas a largo plazo que buscan generar rendimientos consistentes a lo largo del tiempo. Para aquellos que buscan una inversión a corto plazo, puede no ser la mejor opción debido a la posibilidad de fluctuaciones en el valor de las inversiones.\n\nUna ventaja de invertir en el fondo Tesorería es la diversificación que ofrece, lo que puede reducir el impacto de los movimientos bruscos del mercado en el valor de la inversión. Sin embargo, una posible desventaja es que al ser un fondo mixto, puede no ofrecer el mismo potencial de crecimiento que un fondo más orientado hacia la renta variable en momentos de fuerte crecimiento del mercado.\n\nEn resumen, el fondo Tesorería es una opción adecuada para inversionistas con un perfil de riesgo medio que buscan diversificar su portafolio y obtener rendimientos estables a largo plazo. Es importante considerar su horizonte de inversión y tolerancia al riesgo antes de tomar una decisión. Si tienes dudas sobre si este fondo es adecuado para ti, es recomendable consultar con un asesor financiero para recibir orientación personalizada.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8209-0",
+    "rut_admin": "96767630",
+    "nombre": "TESORERIA",
+    "full_id": "96767630_8209-0",
+    "source": "javascript"
+  }
+}

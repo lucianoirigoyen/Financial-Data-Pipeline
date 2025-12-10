@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bice chile activo",
+  "nombre": "Bice Chile Activo",
+  "nombre_cmf": "BICE CHILE ACTIVO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Bice Chile Activo es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable con el objetivo de obtener un equilibrio entre rendimiento y riesgo. Su estrategia de inversión se enfoca en diversificar el portafolio para aprovechar las oportunidades que ofrece el mercado chileno, buscando maximizar los retornos a mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los productos de renta fija tradicionales. Si bien el riesgo no es tan alto como en fondos de renta variable pura, tampoco es tan bajo como en fondos de renta fija, por lo que se recomienda a aquellos que estén dispuestos a asumir un nivel moderado de riesgo.\n\nEn cuanto a los activos en los que invierte, la composición exacta del fondo no está disponible públicamente, pero se espera que tenga una combinación de bonos, acciones y otros instrumentos financieros locales. Esto le permite al fondo diversificar su cartera y reducir el impacto de posibles fluctuaciones en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo del fondo Bice Chile Activo se puede comparar con el hecho de tener una variedad de cartas para jugar en una mesa de póker: no estás apostando todo a una sola carta, pero tampoco estás jugando a lo seguro con una mano débil. Es un equilibrio entre la posibilidad de obtener ganancias mayores y la exposición a posibles pérdidas.\n\nEl horizonte de inversión recomendado para este fondo es a mediano plazo, lo que significa que es ideal para aquellos que estén dispuestos a mantener su dinero invertido durante al menos unos años para poder aprovechar al máximo el potencial de crecimiento de sus activos.\n\nEn cuanto a ventajas, el fondo Bice Chile Activo ofrece la posibilidad de diversificación y potencial de retorno superior a la renta fija tradicional. Sin embargo, como desventaja, es importante considerar que al tener una exposición a la renta variable, está sujeto a la volatilidad del mercado, lo que puede implicar pérdidas temporales en momentos de crisis económicas.\n\nEn resumen, el fondo mutuo Bice Chile Activo es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su portafolio con una combinación de activos locales. Es importante recordar que toda inversión conlleva riesgos, por lo que es",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8819-6",
+    "rut_admin": "96767630",
+    "nombre": "BICE CHILE ACTIVO",
+    "full_id": "96767630_8819-6",
+    "source": "javascript"
+  }
+}

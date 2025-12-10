@@ -1,0 +1,23 @@
+{
+  "fondo_id": "proyeccion e",
+  "nombre": "Proyeccion E",
+  "nombre_cmf": "PROYECCION E",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Proyección E es una opción de inversión mixta en la que se combinan activos de renta fija y renta variable, buscando un equilibrio entre la seguridad y el potencial de crecimiento. Su estrategia se basa en diversificar la cartera de inversiones para reducir el riesgo y aprovechar las oportunidades de mercado. Aunque no disponemos de información detallada sobre su composición principal, es importante destacar que este fondo ofrece una alternativa para aquellos inversionistas que desean obtener rendimientos moderados sin asumir un riesgo excesivo.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener retornos superiores a los instrumentos de renta fija tradicionales. Si bien no garantiza ganancias elevadas, tampoco expone al inversionista a un riesgo extremadamente alto, lo que lo convierte en una opción atractiva para aquellos que buscan un crecimiento moderado de su capital a mediano plazo.\n\nEn cuanto a los activos en los que invierte el fondo Proyección E, al no contar con información detallada, podemos suponer que se diversifica en una variedad de instrumentos financieros, como bonos corporativos, acciones de empresas locales e internacionales, entre otros. Esta diversificación ayuda a reducir la exposición a un solo tipo de activo y a mitigar los riesgos asociados.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de la renta fija y la volatilidad de la renta variable. Esto significa que si bien existe la posibilidad de que el valor de la inversión fluctúe en el corto plazo, a largo plazo se espera que genere rendimientos superiores a los activos de menor riesgo, como los depósitos a plazo.\n\nEl horizonte de inversión recomendado para el fondo Proyección E es a mediano plazo, es decir, entre 3 y 5 años. Esto se debe a que, al tener una estrategia mixta, es importante permitir que los activos se desarrollen y se ajusten a las condiciones del mercado a lo largo del tiempo para maximizar el potencial de rendimiento.\n\nEn resumen, el fondo Proyección E ofrece a los inversionistas la oportunidad de diversificar sus inversiones y obtener un equilibrio entre riesgo y rendimiento. Para aquellos con un perfil de riesgo medio y un horizonte de inversión a mediano plazo, este fondo puede ser una opción atractiva. Es importante tener en cuenta que, si",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8696-7",
+    "rut_admin": "96767630",
+    "nombre": "PROYECCION E",
+    "full_id": "96767630_8696-7",
+    "source": "javascript"
+  }
+}

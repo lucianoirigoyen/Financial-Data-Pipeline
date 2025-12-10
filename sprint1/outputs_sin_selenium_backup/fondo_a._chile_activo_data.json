@@ -1,0 +1,23 @@
+{
+  "fondo_id": "a. chile activo",
+  "nombre": "A. Chile Activo",
+  "nombre_cmf": "A. CHILE ACTIVO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión A. Chile Activo es una opción mixta que combina tanto activos de renta fija como de renta variable, lo que le permite diversificar su portafolio y buscar un equilibrio entre riesgo y rendimiento. Su estrategia de inversión se enfoca en aprovechar las oportunidades tanto en el mercado de valores como en instrumentos de deuda, con el objetivo de maximizar la rentabilidad a mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores ganancias, pero que también desean mantener una cierta estabilidad en su cartera de inversión. Es importante tener en cuenta que, si bien el nivel de riesgo es moderado, no está exento de posibles fluctuaciones en el valor de sus activos.\n\nEn cuanto a los principales activos en los que invierte el fondo A. Chile Activo, no contamos con información específica sobre su composición. Sin embargo, es probable que tenga una diversificación en distintas industrias y sectores, tanto a nivel nacional como internacional, buscando así minimizar el impacto de eventos adversos en un solo mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de conducir un automóvil en una carretera en buenas condiciones, donde hay cierta posibilidad de encontrarse con baches o curvas cerradas, pero con una conducción prudente se puede llegar a destino sin contratiempos mayores.\n\nEl horizonte de inversión recomendado para el fondo A. Chile Activo es a mediano plazo, lo que significa que es ideal para aquellos inversionistas que buscan obtener rendimientos en un periodo de tiempo de al menos 3 a 5 años. Esto les permitirá aprovechar el potencial de crecimiento de sus inversiones, sin necesidad de estar preocupados por las fluctuaciones a corto plazo.\n\nEn cuanto a ventajas, este fondo ofrece una diversificación de activos que puede ayudar a reducir el impacto de eventos adversos en un solo mercado, así como la posibilidad de obtener rendimientos atractivos a mediano plazo. Sin embargo, es importante considerar que, al igual que cualquier inversión, no está exento de riesgos y es posible que no alcance los resultados esperados.\n\nEn resumen, el fondo A. Chile Activo es una opción interesante para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos a mediano plazo. Se recomienda a los jóvenes inversores chilenos que buscan crecimiento moderado en sus inversiones, siempre manteniendo una",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8812-9",
+    "rut_admin": "96767630",
+    "nombre": "A. CHILE ACTIVO",
+    "full_id": "96767630_8812-9",
+    "source": "javascript"
+  }
+}

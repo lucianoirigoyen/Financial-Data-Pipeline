@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bice liquidez pesos",
+  "nombre": "Bice Liquidez Pesos",
+  "nombre_cmf": "BICE LIQUIDEZ PESOS",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Bice Liquidez Pesos es una opción de inversión mixta que busca combinar la seguridad de activos de bajo riesgo con la posibilidad de obtener rendimientos superiores a los tradicionales depósitos a plazo. Su estrategia de inversión se centra en mantener una liquidez adecuada para responder a las necesidades de los inversionistas, invirtiendo en instrumentos financieros de corto plazo y alta calidad crediticia.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan una alternativa de inversión con una rentabilidad potencialmente superior a la de la renta fija tradicional, pero sin asumir un riesgo excesivo. Es ideal para aquellos que desean mantener un equilibrio entre seguridad y rendimiento en sus inversiones.\n\nLos principales activos en los que invierte el fondo Bice Liquidez Pesos suelen ser instrumentos financieros de corto plazo como bonos emitidos por empresas o el gobierno, así como depósitos a plazo en instituciones financieras reconocidas. Estos activos ofrecen una combinación de seguridad y liquidez que permite al fondo mantener un nivel de riesgo controlado.\n\nEn términos simples, el nivel de riesgo de este fondo es moderado, ya que si bien busca obtener rendimientos superiores a los depósitos a plazo, su enfoque en activos de corto plazo y alta calidad crediticia reduce la exposición a riesgos significativos. Sin embargo, como cualquier inversión, existe la posibilidad de que los rendimientos no sean los esperados, especialmente en entornos económicos adversos.\n\nEl horizonte de inversión recomendado para el fondo Bice Liquidez Pesos es de corto a mediano plazo, ya que su estrategia se basa en inversiones de corto plazo que pueden ofrecer rendimientos atractivos en un período relativamente breve. Es importante tener en cuenta que este fondo no está diseñado para inversiones a largo plazo, ya que su enfoque en activos de corto plazo limita el potencial de crecimiento a largo plazo.\n\nEn resumen, el fondo Bice Liquidez Pesos es una opción atractiva para inversionistas chilenos con un perfil de riesgo medio que buscan una alternativa de inversión segura y con potencial de rendimiento. Su enfoque en activos de corto plazo y liquidez lo convierte en una opción interesante para quienes buscan diversificar su cartera de inversiones y obtener rendimientos superiores a los depósitos a plazo tradicionales. Sin embargo, es importante recordar que, como cualquier inversión, existen riesgos inherentes y es fundamental consultar con",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8063-2",
+    "rut_admin": "96767630",
+    "nombre": "BICE LIQUIDEZ PESOS",
+    "full_id": "96767630_8063-2",
+    "source": "javascript"
+  }
+}

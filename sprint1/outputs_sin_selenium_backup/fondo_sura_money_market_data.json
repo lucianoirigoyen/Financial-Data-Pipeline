@@ -1,0 +1,23 @@
+{
+  "fondo_id": "sura money market",
+  "nombre": "Sura Money Market",
+  "nombre_cmf": "SURA MONEY MARKET",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Sura Money Market es una opción de inversión mixta en el mercado financiero chileno. Su estrategia se enfoca en ofrecer a los inversionistas la posibilidad de obtener rendimientos mediante la inversión en distintos instrumentos financieros, buscando un equilibrio entre la rentabilidad y el riesgo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un rendimiento superior al de una cuenta de ahorro tradicional, pero que no están dispuestos a asumir altos niveles de volatilidad en su inversión. Es una alternativa interesante para quienes desean diversificar su cartera sin comprometerse con un riesgo elevado.\n\nSi bien la composición principal del fondo no está disponible, generalmente los fondos money market invierten en instrumentos de renta fija de corto plazo, como bonos del Estado, letras de crédito hipotecario, depósitos a plazo y otros instrumentos de bajo riesgo, con el objetivo de preservar el capital y generar un rendimiento moderado.\n\nEn términos simples, el nivel de riesgo de este fondo es moderado, ya que si bien invierte en activos de bajo riesgo, como bonos del Estado, existe la posibilidad de que estos activos fluctúen en valor en el corto plazo. Sin embargo, en comparación con fondos de renta variable, el riesgo es menor.\n\nEl horizonte de inversión recomendado para el fondo Sura Money Market es a corto y mediano plazo. Es ideal para aquellos inversionistas que buscan obtener rendimientos en un plazo de uno a tres años, sin la necesidad de comprometer su capital por largos períodos de tiempo.\n\nEntre las ventajas de este fondo se encuentran la posibilidad de diversificar la cartera de inversiones, la liquidez que ofrece al poder rescatar el dinero en cualquier momento y la estabilidad que brinda al invertir en activos de bajo riesgo. En cuanto a desventajas, puede presentar rendimientos más bajos en comparación con fondos de mayor riesgo.\n\nEn resumen, el fondo Sura Money Market es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan un equilibrio entre rentabilidad y seguridad en sus inversiones a corto y mediano plazo. Es importante analizar detenidamente las características del fondo y verificar si se ajusta a tus objetivos financieros antes de invertir en él.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10282-2",
+    "rut_admin": "96767630",
+    "nombre": "SURA MONEY MARKET",
+    "full_id": "96767630_10282-2",
+    "source": "javascript"
+  }
+}

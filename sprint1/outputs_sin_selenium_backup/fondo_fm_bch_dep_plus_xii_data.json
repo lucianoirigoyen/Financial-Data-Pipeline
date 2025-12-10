@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch dep plus xii",
+  "nombre": "Fm Bch Dep Plus Xii",
+  "nombre_cmf": "FM BCH DEP PLUS XII",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch Dep Plus XII es un vehículo de inversión mixto que combina tanto activos de renta fija como de renta variable. Su estrategia de inversión busca generar rendimientos a través de una diversificación en diferentes tipos de activos, lo que le otorga cierta flexibilidad para adaptarse a las condiciones del mercado. Aunque no se especifica la composición principal del fondo, su enfoque mixto sugiere que puede invertir en bonos, acciones u otros instrumentos financieros.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener rendimientos superiores a los instrumentos de renta fija tradicionales. Es importante destacar que, si bien el riesgo es moderado, como en toda inversión en mercados financieros, existe la posibilidad de pérdidas en el corto plazo.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, puede distribuir su cartera entre bonos gubernamentales, corporativos, acciones de empresas locales o extranjeras, entre otros. Esta diversificación puede ayudar a reducir la exposición a riesgos específicos de un solo activo, lo que contribuye a mitigar la volatilidad de la inversión.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que, si bien existe la posibilidad de fluctuaciones en el valor de la inversión, se espera que en el largo plazo genere rendimientos superiores a la inflación. Es fundamental que los inversionistas comprendan que el valor de sus participaciones puede variar en función de las condiciones del mercado.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bch Dep Plus XII es a mediano o largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Se aconseja a los inversionistas jóvenes que buscan diversificar su portafolio y están dispuestos a asumir cierto nivel de riesgo que consideren este fondo como una opción para alcanzar sus objetivos financieros a futuro.\n\nEn resumen, el Fondo Mutuo Bch Dep Plus XII ofrece una alternativa de inversión mixta con un enfoque equilibrado entre renta fija y variable, ideal para inversores con un perfil de riesgo medio y un horizonte de inversión a mediano o largo plazo. Aunque no se dispone de información sobre su rentabilidad a 12 meses, es importante que los inversionistas evalúen detenidamente sus objetivos y tolerancia al ries",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10359-4",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH DEP PLUS XII",
+    "full_id": "96767630_10359-4",
+    "source": "javascript"
+  }
+}

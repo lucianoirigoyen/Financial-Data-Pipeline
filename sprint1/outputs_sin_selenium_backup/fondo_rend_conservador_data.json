@@ -1,0 +1,23 @@
+{
+  "fondo_id": "rend conservador",
+  "nombre": "Rend Conservador",
+  "nombre_cmf": "REND CONSERVADOR",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo mutuo \"Rend Conservador\" para inversores jóvenes en Chile:\n\n1. El fondo mutuo \"Rend Conservador\" es una opción de inversión diseñada para aquellos que buscan preservar su capital y asumir un riesgo bajo. Su estrategia de inversión se basa en colocar el dinero en instrumentos financieros de bajo riesgo, como bonos y depósitos a plazo, con el objetivo de obtener una rentabilidad estable a lo largo del tiempo.\n\n2. Este fondo es adecuado para inversionistas con un perfil conservador, es decir, aquellas personas que prefieren evitar grandes fluctuaciones en el valor de su inversión y priorizan la seguridad sobre la posibilidad de altas ganancias. Si prefieres una inversión segura y tranquila, el \"Rend Conservador\" puede ser una buena alternativa para ti.\n\n3. Los principales activos en los que invierte este fondo son bonos del Estado, bonos corporativos de empresas sólidas y depósitos a plazo en instituciones financieras confiables. Estos activos suelen ofrecer una rentabilidad moderada pero constante, lo que contribuye a mantener la estabilidad del fondo.\n\n4. En términos simples, el nivel de riesgo del fondo \"Rend Conservador\" es bajo. Esto significa que las probabilidades de sufrir pérdidas significativas son menores en comparación con otros fondos de mayor riesgo. Si bien la rentabilidad esperada puede ser más moderada, la seguridad que ofrece en momentos de volatilidad en los mercados puede ser una ventaja para algunos inversionistas.\n\n5. El horizonte de inversión recomendado para el \"Rend Conservador\" es a mediano o largo plazo, ya que su estrategia se enfoca en obtener rendimientos estables a lo largo del tiempo. Si buscas una inversión a corto plazo con altas ganancias potenciales, este fondo puede no ser la mejor opción para ti.\n\nEn resumen, el fondo mutuo \"Rend Conservador\" es una alternativa segura y estable para inversionistas conservadores que buscan preservar su capital a largo plazo. Si priorizas la seguridad y la estabilidad en tus inversiones, este fondo puede ser una buena elección. Recuerda siempre evaluar tu perfil de riesgo y objetivos financieros antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10782-4",
+    "rut_admin": "96767630",
+    "nombre": "REND CONSERVADOR",
+    "full_id": "96767630_10782-4",
+    "source": "javascript"
+  }
+}

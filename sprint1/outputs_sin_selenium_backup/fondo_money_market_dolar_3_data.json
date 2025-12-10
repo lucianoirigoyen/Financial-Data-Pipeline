@@ -1,0 +1,23 @@
+{
+  "fondo_id": "money market dolar 3",
+  "nombre": "Money Market Dolar 3",
+  "nombre_cmf": "MONEY MARKET DOLAR 3",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Money Market Dólar 3 es una opción de inversión mixta que busca combinar la seguridad de activos de baja volatilidad con la posibilidad de obtener rendimientos superiores a los de una cuenta de ahorro tradicional. Su estrategia de inversión se centra en aprovechar las oportunidades tanto en el mercado de dinero como en el mercado de divisas, principalmente en dólares.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener retornos interesantes en el mediano plazo. Si eres un joven inversionista que no está dispuesto a asumir grandes riesgos pero busca una alternativa a la tradicional cuenta de ahorro, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta del Money Market Dólar 3 no está disponible públicamente, pero podemos inferir que se enfoca en instrumentos financieros de corto plazo, como bonos del gobierno, depósitos a plazo y otros instrumentos del mercado monetario. Además, al tratarse de un fondo en dólares, también puede tener exposición a la moneda extranjera.\n\nEn términos simples, el nivel de riesgo de este fondo se considera medio debido a su combinación de activos de bajo riesgo y la posibilidad de invertir en divisas. Esto implica que, si bien existe la posibilidad de obtener rendimientos superiores a una inversión conservadora, también se asume un nivel de volatilidad mayor. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de los activos.\n\nEl horizonte de inversión recomendado para el Money Market Dólar 3 es de mediano a largo plazo. Esto significa que, si estás dispuesto a mantener tu dinero invertido por un periodo de al menos un par de años, podrías beneficiarte de un potencial crecimiento de tus fondos. Sin embargo, es importante tener en cuenta que, como en cualquier inversión, es fundamental tener paciencia y no dejarse llevar por movimientos a corto plazo.\n\nEn resumen, el Money Market Dólar 3 es una alternativa atractiva para jóvenes inversores chilenos que buscan un equilibrio entre seguridad y rendimiento. Si estás dispuesto a asumir un nivel moderado de riesgo y tienes un horizonte de inversión a mediano plazo, este fondo podría ser una opción interesante para diversificar tu cartera. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8675-4",
+    "rut_admin": "96767630",
+    "nombre": "MONEY MARKET DOLAR 3",
+    "full_id": "96767630_8675-4",
+    "source": "javascript"
+  }
+}

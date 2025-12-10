@@ -1,0 +1,23 @@
+{
+  "fondo_id": "deposito internacion",
+  "nombre": "Deposito Internacion",
+  "nombre_cmf": "DEPOSITO INTERNACION",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "Depósito Internacional es un fondo mutuo mixto que combina inversiones en distintos activos, tanto nacionales como extranjeros, con el objetivo de diversificar el riesgo y maximizar el rendimiento a mediano plazo. Su estrategia de inversión busca aprovechar las oportunidades que ofrecen los mercados internacionales, permitiendo a los inversionistas acceder a una cartera diversificada sin la necesidad de elegir individualmente cada activo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que busquen obtener un retorno atractivo sin asumir una exposición excesiva a la volatilidad del mercado. Es ideal para aquellos jóvenes inversores que deseen diversificar sus inversiones más allá de las fronteras chilenas y estén dispuestos a asumir un nivel moderado de riesgo en busca de mayores rendimientos.\n\nLos principales activos en los que invierte Depósito Internacional pueden incluir acciones de empresas extranjeras, bonos internacionales, instrumentos del mercado monetario y otros activos financieros diversificados. Esta diversificación permite reducir el riesgo asociado a la volatilidad de un solo mercado o sector, brindando una mayor estabilidad a la cartera del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que existe la posibilidad de obtener rendimientos superiores a la media, pero también se puede experimentar cierta volatilidad en el corto plazo. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles fluctuaciones en el valor de la inversión.\n\nEl horizonte de inversión recomendado para Depósito Internacional es a mediano y largo plazo, ya que permite aprovechar el potencial de crecimiento de los mercados internacionales a lo largo del tiempo. Se aconseja a los inversionistas mantener una visión a largo plazo y ser pacientes ante posibles fluctuaciones en el valor de su inversión, con el objetivo de maximizar los retornos a lo largo del tiempo.\n\nVentajas de este fondo incluyen la diversificación internacional, la posibilidad de obtener rendimientos atractivos y la gestión profesional de la cartera. Por otro lado, una posible desventaja podría ser la exposición a cambios en los mercados internacionales y la volatilidad asociada a estos. \n\nEn resumen, Depósito Internacional es una opción atractiva para jóvenes inversionistas que buscan diversificar su cartera más allá de las fronteras chilenas, asumiendo un nivel moderado de riesgo en busca de mayores rendimientos a mediano y largo plazo. Es importante recordar que, como",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8166-3",
+    "rut_admin": "96767630",
+    "nombre": "DEPOSITO INTERNACION",
+    "full_id": "96767630_8166-3",
+    "source": "javascript"
+  }
+}

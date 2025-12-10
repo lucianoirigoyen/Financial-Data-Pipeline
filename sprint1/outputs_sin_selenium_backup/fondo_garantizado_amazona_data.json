@@ -1,0 +1,23 @@
+{
+  "fondo_id": "garantizado amazona",
+  "nombre": "Garantizado Amazona",
+  "nombre_cmf": "GARANTIZADO AMAZONA",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo Garantizado Amazona:\n\n1. **¿Qué es el fondo Garantizado Amazona y su estrategia de inversión?**\n   El fondo Garantizado Amazona es un fondo mutuo de tipo conservador, lo que significa que busca preservar el capital invertido y generar rendimientos estables a través de inversiones en activos de bajo riesgo. Su estrategia de inversión se centra en proteger el dinero de los inversionistas mientras busca obtener un retorno modesto pero seguro a lo largo del tiempo.\n\n2. **¿Para qué perfil de inversionista es adecuado?**\n   Este fondo es ideal para inversionistas que prefieren una estrategia conservadora y buscan proteger su capital sin asumir grandes riesgos. Es adecuado para aquellos que buscan estabilidad en sus inversiones y están dispuestos a aceptar retornos más moderados a cambio de una menor exposición al riesgo.\n\n3. **Principales activos en los que invierte**\n   Aunque la composición principal del fondo no está disponible, los fondos conservadores como Garantizado Amazona suelen invertir en instrumentos financieros de bajo riesgo, como bonos del Estado, depósitos a plazo y otros activos de renta fija. Estos activos ofrecen una mayor seguridad y estabilidad en comparación con inversiones más arriesgadas en acciones u otros instrumentos de renta variable.\n\n4. **Nivel de riesgo en términos simples**\n   El nivel de riesgo de Garantizado Amazona es bajo, lo que significa que las posibilidades de pérdida de capital son menores en comparación con fondos más arriesgados. Aunque la rentabilidad esperada puede ser más moderada, la estabilidad y seguridad que ofrece este fondo lo hacen atractivo para inversores que priorizan la preservación del capital.\n\n5. **Horizonte de inversión recomendado**\n   Se recomienda un horizonte de inversión a medio y largo plazo para el fondo Garantizado Amazona. Dado su enfoque conservador y la búsqueda de estabilidad, los inversionistas pueden esperar obtener rendimientos consistentes a lo largo del tiempo si mantienen su inversión durante períodos prolongados.\n\nEn resumen, Garantizado Amazona es una opción atractiva para inversionistas que buscan proteger su capital y obtener rendimientos estables a través de inversiones conservadoras. Aunque puede ofrecer menor rentabilidad que fondos más arriesgados, su baja exposición al riesgo lo convierte en una opción sólida para aquellos que valoran la seguridad en sus inversiones a largo plazo. Es importante recordar que, si bien este fondo ofrece est",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8642-8",
+    "rut_admin": "96767630",
+    "nombre": "GARANTIZADO AMAZONA",
+    "full_id": "96767630_8642-8",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "custodia",
+  "nombre": "Custodia",
+  "nombre_cmf": "CUSTODIA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Custodia es una excelente opción para aquellos inversores chilenos que buscan un equilibrio entre riesgo y rendimiento. Como fondo mixto, combina inversiones tanto en acciones como en bonos, lo que permite diversificar el riesgo y aprovechar oportunidades en diferentes clases de activos. Su estrategia de inversión se basa en buscar un crecimiento moderado a largo plazo, manteniendo una proporción equilibrada entre activos de riesgo y activos de renta fija.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto grado de volatilidad en busca de mayores retornos. Si eres un joven inversor que busca crecimiento en su dinero sin exponerse a riesgos extremos, Custodia puede ser una opción a considerar.\n\nCustodia invierte en una variedad de activos, aunque la composición exacta no está disponible públicamente. Sin embargo, es probable que tenga una diversificación entre acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como otros instrumentos financieros. Esta diversificación ayuda a reducir el riesgo asociado con la volatilidad del mercado.\n\nEn términos simples, el nivel de riesgo de Custodia se puede comparar con conducir un automóvil a una velocidad moderada en una carretera bien mantenida. Aunque puede haber fluctuaciones en el camino, el fondo está diseñado para mantener un equilibrio entre riesgo y retorno, evitando tanto la excesiva cautela como la excesiva especulación.\n\nPara maximizar los beneficios de Custodia, se recomienda un horizonte de inversión a mediano o largo plazo. Esto significa que es importante mantener la inversión por varios años para permitir que el fondo crezca y supere posibles fluctuaciones a corto plazo en el mercado.\n\nVentajas de Custodia incluyen su diversificación de activos, que puede reducir el riesgo de pérdida en momentos de volatilidad, y su enfoque equilibrado en busca de un crecimiento sostenible. Sin embargo, una posible desventaja podría ser una menor rentabilidad en comparación con fondos más arriesgados, lo cual es un compromiso necesario para mantener un nivel de riesgo moderado.\n\nEn resumen, el fondo mutuo Custodia es una opción atractiva para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rendimiento. Con una estrategia de inversión diversificada y un perfil de riesgo medio, puede ser una herramienta útil para construir un portafolio a largo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8856-0",
+    "rut_admin": "96767630",
+    "nombre": "CUSTODIA",
+    "full_id": "96767630_8856-0",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta uf",
+  "nombre": "Renta Uf",
+  "nombre_cmf": "RENTA UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Renta Uf es una alternativa mixta que combina activos de renta fija y variable, buscando diversificar y equilibrar los riesgos asociados a cada clase de activo. Su estrategia de inversión se enfoca en obtener un rendimiento atractivo a mediano plazo, manteniendo un nivel de riesgo moderado. Esto significa que, si bien puede experimentar variaciones en su valoración, se espera que en general ofrezca una rentabilidad estable en el tiempo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en sus inversiones a cambio de la posibilidad de obtener mayores rendimientos que los instrumentos de renta fija tradicionales. Es importante que el inversionista tenga en cuenta que, si bien el nivel de riesgo es moderado, no está exento de fluctuaciones en el valor de sus activos, por lo que se recomienda una visión a mediano plazo para aprovechar al máximo su potencial de crecimiento.\n\nEn cuanto a los activos en los que invierte el fondo Renta Uf, la composición exacta no está disponible, pero se espera que incluya una combinación de bonos, acciones y otros instrumentos financieros tanto locales como internacionales. Esta diversificación ayuda a reducir el impacto de eventos adversos en un solo mercado o sector, aumentando la estabilidad y el potencial de rendimiento del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el equilibrio entre arriesgar un poco para obtener mayores ganancias, pero sin exponerse a riesgos extremos. Es como conducir a una velocidad moderada en una carretera segura, donde se pueden disfrutar de paisajes interesantes sin correr el riesgo de tener un accidente grave.\n\nPara aquellos jóvenes inversores chilenos que estén interesados en invertir en el fondo Renta Uf, se recomienda un horizonte de inversión a mediano plazo, generalmente de al menos 3 a 5 años. Esto les permitirá aprovechar el potencial de crecimiento del fondo y mitigar cualquier volatilidad a corto plazo que pueda surgir en los mercados.\n\nVentajas de este fondo incluyen la posibilidad de obtener rendimientos superiores a los instrumentos de renta fija tradicionales, así como la diversificación que ofrece al invertir en diferentes clases de activos. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que puede dificultar la evaluación precisa de los riesgos asociados",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10634-8",
+    "rut_admin": "96767630",
+    "nombre": "RENTA UF",
+    "full_id": "96767630_10634-8",
+    "source": "javascript"
+  }
+}

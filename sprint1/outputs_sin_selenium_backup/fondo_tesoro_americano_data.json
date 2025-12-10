@@ -1,0 +1,23 @@
+{
+  "fondo_id": "tesoro americano",
+  "nombre": "Tesoro Americano",
+  "nombre_cmf": "TESORO AMERICANO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Tesoro Americano es una excelente opción para aquellos inversores chilenos que buscan diversificar su cartera de manera equilibrada. Este fondo, de tipo mixto, combina inversiones en instrumentos de renta fija y variable, lo que le permite adaptarse a diversas condiciones del mercado. Su estrategia de inversión busca maximizar el rendimiento a mediano plazo, manteniendo un nivel de riesgo moderado.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la obtención de rendimientos y la protección de su capital. Si eres un joven inversionista que busca crecimiento a un ritmo constante sin asumir riesgos extremos, Tesoro Americano puede ser una buena opción para ti.\n\nLos activos en los que principalmente invierte este fondo no están disponibles públicamente, lo que puede dificultar la evaluación de su cartera exacta. Sin embargo, es probable que incluya una combinación de bonos, acciones y otros instrumentos financieros tanto locales como internacionales.\n\nEn términos simples, el nivel de riesgo de Tesoro Americano se encuentra en un punto intermedio. Aunque puede fluctuar en el corto plazo debido a las variaciones del mercado, en general se considera un fondo estable que busca proteger el capital de sus inversionistas.\n\nEl horizonte de inversión recomendado para este fondo es a mediano plazo, es decir, entre 3 y 5 años. Esto se debe a que su estrategia busca optimizar el rendimiento en un periodo suficiente para superar posibles fluctuaciones del mercado.\n\nUna ventaja de Tesoro Americano es su capacidad para adaptarse a diferentes condiciones del mercado, lo que lo hace un fondo versátil y equilibrado. Sin embargo, una posible desventaja es la falta de transparencia en cuanto a la composición exacta de su cartera, lo que puede generar incertidumbre en algunos inversionistas.\n\nEn resumen, si eres un joven inversor en Chile con un perfil de riesgo medio y un horizonte de inversión a mediano plazo, el fondo mutuo Tesoro Americano puede ser una opción a considerar. Recuerda siempre analizar tu situación financiera personal y consultar con un asesor antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8646-0",
+    "rut_admin": "96767630",
+    "nombre": "TESORO AMERICANO",
+    "full_id": "96767630_8646-0",
+    "source": "javascript"
+  }
+}

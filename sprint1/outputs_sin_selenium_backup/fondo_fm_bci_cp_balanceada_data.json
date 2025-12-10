@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci cp balanceada",
+  "nombre": "Fm Bci Cp Balanceada",
+  "nombre_cmf": "FM BCI CP BALANCEADA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Cp Balanceada es una excelente opción para aquellos inversores que buscan una combinación equilibrada entre rentabilidad y riesgo. Este fondo pertenece a la categoría mixta, lo que significa que combina tanto activos de renta fija como de renta variable en su cartera. Su estrategia de inversión se enfoca en diversificar el riesgo a través de una mezcla de diferentes tipos de activos, lo que puede ayudar a mitigar posibles pérdidas en momentos de volatilidad del mercado.\n\nEste fondo se considera de perfil de riesgo medio, lo que lo hace adecuado para inversionistas que buscan un equilibrio entre la estabilidad de la renta fija y el potencial de crecimiento de la renta variable. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles fluctuaciones en su valor.\n\nEn cuanto a los activos en los que invierte, la composición principal del Fm Bci Cp Balanceada no está disponible públicamente, pero se espera que incluya una combinación de bonos, acciones y otros instrumentos financieros. Esta diversificación contribuye a reducir la exposición a un solo tipo de activo, lo que puede ser beneficioso para la cartera en su conjunto.\n\nEn términos simples, el nivel de riesgo de este fondo se podría equiparar a caminar por una calle con baches: es posible que encuentres algunos obstáculos en el camino, pero en general, el recorrido es bastante seguro. Sin embargo, es fundamental recordar que todos los fondos de inversión conllevan un cierto grado de riesgo, por lo que es importante estar preparado para posibles fluctuaciones en el valor de la inversión.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo mixto suele ser más adecuado para inversores a medio y largo plazo, es decir, aquellos que pueden mantener su dinero invertido durante al menos tres a cinco años. Esto se debe a que las fluctuaciones del mercado a corto plazo pueden afectar el valor del fondo, pero a medida que pasa el tiempo, es más probable que se obtengan rendimientos positivos.\n\nEn resumen, el Fondo Mutuo Bci Cp Balanceada es una opción atractiva para inversionistas que buscan un equilibrio entre riesgo y rendimiento. Al diversificar su cartera y mantener un perfil de riesgo medio, este fondo puede ser una herramienta útil para construir una cartera de inversión sólida a largo plazo. Sin embargo, es fundamental que cada inversionista evalúe su perfil de riesgo y objetivos financieros antes de tomar una decisión",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9062-K",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI CP BALANCEADA",
+    "full_id": "96767630_9062-K",
+    "source": "javascript"
+  }
+}

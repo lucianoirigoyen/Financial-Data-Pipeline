@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch dep plus ix",
+  "nombre": "Fm Bch Dep Plus Ix",
+  "nombre_cmf": "FM BCH DEP PLUS IX",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "**Fondo Mutuo Bch Depósito Plus IX**  \n\nEl Fondo Mutuo Bch Depósito Plus IX es un fondo mixto que combina inversiones en activos de renta fija y renta variable. Su estrategia de inversión busca obtener rendimientos atractivos a través de una diversificación cuidadosa en diferentes tipos de instrumentos financieros. En términos simples, esto significa que el fondo invierte en una variedad de activos para equilibrar el riesgo y maximizar las oportunidades de ganancias.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan un equilibrio entre la seguridad y el potencial de crecimiento de su dinero. Si eres un joven inversor chileno que está dispuesto a asumir un nivel moderado de riesgo en busca de mayores retornos que los depósitos a plazo, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte el Fondo Mutuo Bch Depósito Plus IX, la composición exacta no está disponible públicamente. Sin embargo, es común que los fondos mixtos como este inviertan en bonos corporativos, acciones de empresas locales e internacionales, así como en instrumentos de deuda emitidos por entidades gubernamentales.\n\nEn términos de riesgo, este fondo se considera de nivel medio. Esto significa que existe la posibilidad de experimentar fluctuaciones en el valor de la inversión, pero en general, se espera que el riesgo sea menor que el de un fondo de renta variable puro. Es importante recordar que toda inversión conlleva cierto grado de riesgo, y es fundamental entender y estar cómodo con el nivel de riesgo asociado a cada fondo.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bch Depósito Plus IX es a medio y largo plazo. Esto significa que se espera que los inversionistas mantengan su dinero invertido en el fondo durante al menos algunos años para tener la oportunidad de beneficiarse de su estrategia de inversión diversificada.\n\nEn resumen, el Fondo Mutuo Bch Depósito Plus IX puede ser una opción atractiva para jóvenes inversionistas chilenos que buscan un equilibrio entre seguridad y potencial de crecimiento en sus inversiones. Es importante recordar que antes de invertir en cualquier fondo, es recomendable consultar con un asesor financiero para asegurarse de que se alinea con tus objetivos financieros y tolerancia al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10226-1",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH DEP PLUS IX",
+    "full_id": "96767630_10226-1",
+    "source": "javascript"
+  }
+}

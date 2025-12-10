@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci deuda lat. ig",
+  "nombre": "Fm Bci Deuda Lat. Ig",
+  "nombre_cmf": "FM BCI deuda lat. ig",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Deuda Latinoamericana Ig es un fondo mixto que combina inversiones en deuda y acciones de empresas latinoamericanas. Su estrategia de inversión se centra en buscar un equilibrio entre la estabilidad que brinda la deuda y el potencial de crecimiento que ofrecen las acciones en la región.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los productos tradicionales de renta fija. Si bien no se dispone de información sobre la composición principal del fondo, se puede inferir que invierte en bonos y acciones de empresas latinoamericanas.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Esto significa que, si bien existe la posibilidad de obtener buenos rendimientos, también se debe estar preparado para enfrentar cierta volatilidad en el valor de la inversión en el corto plazo.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bci Deuda Latinoamericana Ig es a medio o largo plazo. Dado que combina activos de deuda y renta variable, es importante tener en cuenta que los movimientos del mercado pueden influir en su desempeño a corto plazo. Por lo tanto, es fundamental mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones diarias del mercado.\n\nEntre las ventajas de este fondo se encuentra la diversificación geográfica que ofrece al invertir en empresas de toda Latinoamérica, lo que puede reducir el riesgo asociado a la concentración en un solo país. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de la cartera, lo que podría dificultar la evaluación de la calidad de los activos en los que se invierte.\n\nEn resumen, el Fondo Mutuo Bci Deuda Latinoamericana Ig es una opción interesante para inversores con un perfil de riesgo medio que buscan exposición a la deuda y acciones de empresas latinoamericanas. Se recomienda tener una visión a largo plazo y estar preparado para enfrentar cierta volatilidad en el corto plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9231-2",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI deuda lat. ig",
+    "full_id": "96767630_9231-2",
+    "source": "javascript"
+  }
+}

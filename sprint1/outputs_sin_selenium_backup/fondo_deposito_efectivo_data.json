@@ -1,0 +1,23 @@
+{
+  "fondo_id": "deposito efectivo",
+  "nombre": "Deposito Efectivo",
+  "nombre_cmf": "DEPOSITO EFECTIVO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Depósito Efectivo\" es una opción de inversión mixta disponible para los inversores chilenos que buscan un equilibrio entre riesgo y rentabilidad. Este fondo combina tanto activos de renta fija como de renta variable, lo que significa que parte de su capital se destina a instrumentos de deuda seguros, como bonos del Estado, y otra parte se invierte en acciones de empresas con potencial de crecimiento.\n\nEste tipo de fondo mixto suele ser adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan obtener mayores rendimientos que los ofrecidos por inversiones conservadoras, pero que a la vez no están dispuestos a asumir un riesgo excesivo en el mercado de valores. Por lo tanto, si eres una persona que está dispuesta a aceptar cierta volatilidad en tus inversiones a cambio de mayores posibilidades de crecimiento, este fondo podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte el fondo \"Depósito Efectivo\", lamentablemente no contamos con información específica sobre su composición principal. Sin embargo, es probable que incluya una variedad de instrumentos financieros como bonos corporativos, acciones de empresas locales e internacionales, y posiblemente otros fondos mutuos o ETFs.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de la renta fija y la volatilidad de la renta variable. Esto significa que, si bien existe la posibilidad de obtener rendimientos superiores a los de una inversión puramente conservadora, también se corre el riesgo de experimentar pérdidas en momentos de turbulencia en los mercados financieros.\n\nEn cuanto al horizonte de inversión recomendado para el fondo \"Depósito Efectivo\", es importante tener en cuenta que, dado su enfoque mixto y nivel de riesgo medio, se sugiere una perspectiva a medio y largo plazo. Esto significa que es conveniente invertir en este fondo con la intención de mantener la inversión durante al menos varios años, permitiendo así que los activos del fondo se desarrollen y se adapten a las condiciones del mercado.\n\nEn resumen, el fondo mutuo \"Depósito Efectivo\" ofrece a los inversores chilenos la oportunidad de diversificar su cartera con una combinación equilibrada de activos de renta fija y variable. Aunque presenta la posibilidad de obtener rendimientos atractivos, es importante tener en cuenta el nivel de riesgo asociado y mantener una visión a largo plazo en la inversión. Si estás dispuesto a asumir un ries",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8037-3",
+    "rut_admin": "96767630",
+    "nombre": "DEPOSITO EFECTIVO",
+    "full_id": "96767630_8037-3",
+    "source": "javascript"
+  }
+}

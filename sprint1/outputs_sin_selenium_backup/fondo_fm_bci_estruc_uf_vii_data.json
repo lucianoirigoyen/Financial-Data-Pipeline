@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci estruc uf vii",
+  "nombre": "Fm Bci Estruc Uf Vii",
+  "nombre_cmf": "FM BCI ESTRUC UF VII",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Estructurado UF VII es una alternativa de inversión mixta que combina activos de renta fija y renta variable. Su estrategia se centra en diversificar el riesgo y buscar un equilibrio entre la estabilidad de los bonos y el potencial de crecimiento de acciones u otros instrumentos financieros. Esto significa que, si bien puede tener fluctuaciones en su valor, busca maximizar rendimientos en el mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre seguridad y potencial de crecimiento. Si estás dispuesto a asumir cierto nivel de volatilidad en pos de obtener mayores retornos que los ofrecidos por los instrumentos de renta fija tradicionales, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la información sobre la composición principal del fondo no está disponible públicamente. Sin embargo, es probable que tenga una combinación de bonos corporativos, bonos del gobierno, acciones de empresas locales e internacionales, entre otros. Esta diversificación puede ayudar a reducir el riesgo asociado con la inversión en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Esto quiere decir que, si bien puede experimentar fluctuaciones en su valor, no se espera que tenga movimientos extremadamente bruscos en corto plazo. Es importante recordar que todo fondo de inversión conlleva cierto nivel de riesgo, por lo que es crucial entender y aceptar las posibles pérdidas que podrían ocurrir en el camino.\n\nEl horizonte de inversión recomendado para este tipo de fondo suele ser de mediano a largo plazo, es decir, al menos entre tres a cinco años. Esto se debe a que, al tener una estrategia mixta, es probable que requiera tiempo para que las inversiones se desarrollen y generen retornos consistentes. Por lo tanto, es importante tener paciencia y mantener una visión a largo plazo al invertir en este fondo.\n\nEn resumen, el Fondo Mutuo Bci Estructurado UF VII puede ser una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar sus inversiones y obtener rendimientos potenciales a mediano plazo. Sin embargo, es fundamental realizar un análisis detallado de tus objetivos financieros, tolerancia al riesgo y horizonte de inversión antes de tomar una decisión. Recuerda que la diversificación y la paciencia son clave en el mundo de las inversiones.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10735-2",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI ESTRUC UF VII",
+    "full_id": "96767630_10735-2",
+    "source": "javascript"
+  }
+}

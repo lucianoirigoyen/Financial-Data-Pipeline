@@ -1,0 +1,23 @@
+{
+  "fondo_id": "gar. top pacifico 10",
+  "nombre": "Gar. Top Pacifico 10",
+  "nombre_cmf": "GAR. TOP PACIFICO 10",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Gar. Top Pacífico 10 es una opción de inversión mixta que busca combinar activos de renta fija y renta variable para buscar un equilibrio entre rendimiento y riesgo. Su estrategia se basa en diversificar la cartera entre diferentes tipos de activos, lo que puede ayudar a reducir la volatilidad y aumentar la estabilidad a largo plazo.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener un rendimiento superior al promedio del mercado. Es importante tener en cuenta que, si bien el riesgo es moderado, siempre existe la posibilidad de que el valor de la inversión fluctúe en el corto plazo.\n\nEn cuanto a los principales activos en los que invierte el fondo, la información específica sobre su composición no está disponible. Sin embargo, es probable que incluya una combinación de bonos, acciones y otros instrumentos financieros que permitan diversificar el riesgo y aprovechar oportunidades en diferentes mercados.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con caminar por una calle transitada: hay cierto riesgo de que algo inesperado suceda, pero si se toman precauciones y se sigue un camino establecido, las probabilidades de llegar a destino de manera segura son altas.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondos suelen ser más adecuados para inversionistas que tienen un horizonte a medio y largo plazo, es decir, aquellos que están dispuestos a mantener su inversión durante al menos varios años para poder aprovechar el potencial de crecimiento de los activos en los que invierte el fondo.\n\nVentajas de este fondo incluyen la diversificación automática que ofrece al invertir en una variedad de activos, lo que puede ayudar a reducir el riesgo total de la cartera. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición exacta del fondo, lo que puede dificultar la evaluación precisa de su desempeño.\n\nEn resumen, el fondo mutuo Gar. Top Pacífico 10 es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan un equilibrio entre riesgo y rendimiento. Se recomienda a aquellos que tengan un horizonte de inversión a medio y largo plazo y estén dispuestos a aceptar cierta volatilidad en el corto plazo en busca de mayores retornos a largo plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8489-1",
+    "rut_admin": "96767630",
+    "nombre": "GAR. TOP PACIFICO 10",
+    "full_id": "96767630_8489-1",
+    "source": "javascript"
+  }
+}

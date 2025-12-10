@@ -1,0 +1,45 @@
+{
+  "fondo_id": "booster china stocks",
+  "nombre": "FONDO MUTUO BOOSTER CHINA STOCKS",
+  "nombre_cmf": "BOOSTER CHINA STOCKS",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Booster China Stocks es una alternativa de inversión mixta que busca combinar la rentabilidad potencial de las acciones chinas con una gestión activa de los riesgos. Su estrategia de inversión se centra en aprovechar las oportunidades presentes en el mercado de valores de China, diversificando el portafolio con una combinación de acciones y otros activos que buscan maximizar los rendimientos a mediano y largo plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan exposición al mercado chino y están dispuestos a asumir cierto nivel de volatilidad en busca de mayores retornos. Es importante tener en cuenta que al invertir en China, se pueden enfrentar riesgos específicos asociados a la economía y regulación del país, por lo que se recomienda a aquellos con un horizonte de inversión a medio y largo plazo.\n\nLos principales activos en los que invierte el Fondo Mutuo Booster China Stocks son acciones de empresas chinas cotizadas en bolsa, así como otros instrumentos financieros que reflejan el desempeño del mercado chino. Algunas de las empresas en las que puede invertir incluyen gigantes tecnológicos como Alibaba, empresas de consumo como Tencent o empresas de energía renovable como BYD.\n\nEn cuanto al nivel de riesgo, este fondo se considera de riesgo medio debido a la naturaleza volátil del mercado chino y la posibilidad de fluctuaciones significativas en el valor de las inversiones. Es importante tener en cuenta que el riesgo siempre está presente en cualquier inversión, pero en este caso, se busca equilibrar la exposición al potencial de crecimiento con una gestión activa de los riesgos.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Booster China Stocks es a medio y largo plazo, ya que permite a los inversionistas aprovechar el potencial de crecimiento del mercado chino a lo largo del tiempo. Se recomienda a los inversionistas jóvenes que buscan diversificar su portafolio e incrementar su exposición a mercados emergentes considerar este fondo como una opción a largo plazo.\n\nEn resumen, el Fondo Mutuo Booster China Stocks ofrece la posibilidad de invertir en el mercado chino a través de una estrategia diversificada y gestionada activamente. Es importante tener en cuenta el perfil de riesgo y el horizonte de inversión al considerar este fondo, ya que puede ofrecer oportunidades de crecimiento a largo plazo, pero también conlleva ciertos riesgos asociados al mercado chino. Siempre es recomendable consultar a un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "symbol": "FFMM-BANCHILE-8985",
+  "category": "mutual_fund",
+  "currency": null,
+  "run": "8985-0",
+  "rut_base": "8985",
+  "conceptual_asset_id": "2224",
+  "data_source": "http://www.cmfchile.cl",
+  "series": [
+    {
+      "serie": "UNICA",
+      "name": "FONDO MUTUO BOOSTER CHINA STOCKS",
+      "symbol": "FFMM-BANCHILE-8985-UNICA",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2014-10-13",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    }
+  ],
+  "fecha_valor_cuota": "2014-10-13",
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8985-0",
+    "rut_admin": "96767630",
+    "nombre": "BOOSTER CHINA STOCKS",
+    "full_id": "96767630_8985-0",
+    "source": "javascript"
+  }
+}

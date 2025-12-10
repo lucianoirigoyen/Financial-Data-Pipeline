@@ -1,0 +1,23 @@
+{
+  "fondo_id": "pesos abril 2025",
+  "nombre": "Pesos Abril 2025",
+  "nombre_cmf": "PESOS ABRIL 2025",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Pesos Abril 2025 es una excelente opción para aquellos inversores jóvenes en Chile que buscan un equilibrio entre rendimiento y riesgo. Este fondo se clasifica como mixto, lo que significa que combina tanto activos de renta fija como de renta variable en su cartera. Su perfil de riesgo se sitúa en un nivel medio, lo que implica que puede experimentar fluctuaciones en el valor de sus activos, pero con una probabilidad moderada de obtener rendimientos más altos.\n\nEste fondo es adecuado para inversores que buscan un crecimiento gradual de su capital a mediano plazo, sin asumir riesgos extremos. Es ideal para aquellos que desean diversificar su cartera de inversiones y no están buscando obtener beneficios a corto plazo. Si eres un joven inversionista que desea mantener un equilibrio entre riesgo y retorno, el Pesos Abril 2025 podría ser una opción a considerar.\n\nEn cuanto a sus activos subyacentes, la información específica sobre la composición principal no está disponible públicamente. Sin embargo, es probable que este fondo invierta en una combinación de acciones, bonos y otros instrumentos financieros para lograr sus objetivos de inversión.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que existe cierta volatilidad en su desempeño, pero controlada en comparación con fondos de mayor riesgo. Es importante recordar que, aunque el riesgo es moderado, no se trata de una inversión libre de riesgos, por lo que es fundamental estar preparado para posibles fluctuaciones en el valor de la inversión en el corto plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores mantengan su posición en el Pesos Abril 2025 por al menos unos años para poder beneficiarse de su estrategia de inversión mixta. Es importante tener en cuenta que, dado el enfoque a mediano plazo, este fondo puede no ser la mejor opción para aquellos que buscan resultados rápidos o que necesitan liquidez inmediata en sus inversiones.\n\nEn resumen, el fondo Pesos Abril 2025 ofrece a los jóvenes inversores chilenos la oportunidad de acceder a una cartera diversificada con un nivel de riesgo moderado, ideal para quienes buscan un crecimiento gradual de su capital a mediano plazo. Sin embargo, es fundamental recordar que toda inversión conlleva riesgos, por lo que es crucial comprender la naturaleza del fondo y estar preparado para posibles fluctuaciones en el valor",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10512-0",
+    "rut_admin": "96767630",
+    "nombre": "PESOS ABRIL 2025",
+    "full_id": "96767630_10512-0",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "u.s.a.",
+  "nombre": "U.S.A.",
+  "nombre_cmf": "U.S.A.",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo U.S.A. es una opción de inversión mixta que combina diferentes activos, como acciones y bonos, con el objetivo de obtener un rendimiento equilibrado. Su estrategia de inversión busca diversificar el riesgo al invertir en distintos mercados y sectores, lo que puede ofrecer cierta estabilidad en épocas de volatilidad. Aunque la composición principal del fondo no está disponible públicamente, su enfoque mixto sugiere que busca aprovechar las oportunidades tanto de renta variable como fija.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto grado de volatilidad en busca de mayores retornos a largo plazo. Si bien no es tan conservador como un fondo de renta fija, tampoco es tan arriesgado como un fondo de renta variable pura. Por lo tanto, es una opción equilibrada para quienes buscan un crecimiento moderado de su capital sin exponerse a riesgos extremos.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, es probable que contenga una combinación de acciones de empresas estadounidenses, bonos corporativos y/o gubernamentales, así como posiblemente otros instrumentos financieros. Esta diversificación puede ayudar a mitigar el riesgo y maximizar las oportunidades de rendimiento.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que, si bien puede experimentar fluctuaciones en su valor, no se espera que sea tan volátil como un fondo de renta variable puro. Es importante tener en cuenta que, aunque el riesgo es moderado, no está exento de posibles pérdidas, especialmente en periodos de crisis económicas o cambios bruscos en los mercados.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversionistas a largo plazo, es decir, aquellos que no necesitan el dinero en el corto plazo y pueden permitirse mantener su inversión durante varios años. Esto se debe a que, al combinar diferentes activos, el fondo puede necesitar tiempo para que su estrategia se materialice y genere rendimientos consistentes.\n\nEn resumen, el fondo U.S.A. es una opción equilibrada para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener un rendimiento moderado a largo plazo. Si bien ofrece la posibilidad de obtener ganancias, también conlleva ciertos riesgos inherentes a los mercados financieros. Es importante analizar det",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8360-7",
+    "rut_admin": "96767630",
+    "nombre": "U.S.A.",
+    "full_id": "96767630_8360-7",
+    "source": "javascript"
+  }
+}

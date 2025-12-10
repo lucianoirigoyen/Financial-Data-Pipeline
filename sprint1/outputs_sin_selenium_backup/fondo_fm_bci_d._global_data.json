@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci d. global",
+  "nombre": "Fm Bci D. Global",
+  "nombre_cmf": "FM BCI D. global",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci D. Global es una alternativa de inversión mixta que combina activos de renta fija y renta variable a nivel internacional. Su estrategia de inversión busca maximizar los rendimientos a través de la diversificación en distintos mercados globales, lo que brinda la oportunidad de acceder a diferentes sectores económicos y geografías, reduciendo así el riesgo asociado a la volatilidad de un solo mercado.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener mayores rendimientos y la preservación del capital invertido. Ideal para jóvenes inversores que buscan diversificar sus inversiones a nivel internacional sin asumir un riesgo extremadamente alto.\n\nEn cuanto a los activos en los que invierte, el Fondo Mutuo Bci D. Global no especifica su composición principal, lo que puede representar tanto una ventaja como una desventaja. Por un lado, la diversificación en distintos activos y regiones puede mitigar el riesgo de concentración, pero por otro, la falta de transparencia en la composición puede dificultar la evaluación precisa de la cartera.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Aunque no es tan conservador como un fondo de renta fija pura, tampoco es tan arriesgado como uno de renta variable pura. Esto significa que existe la posibilidad de fluctuaciones en el valor de la inversión, pero con un potencial de rendimiento mayor que un fondo conservador.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bci D. Global es a mediano o largo plazo, ya que permite aprovechar las oportunidades de crecimiento a nivel global y superar posibles fluctuaciones a corto plazo. Es importante tener en cuenta que, como cualquier inversión, es fundamental mantener un enfoque a largo plazo para maximizar los beneficios y reducir los impactos de la volatilidad del mercado.\n\nEn resumen, el Fondo Mutuo Bci D. Global ofrece a los jóvenes inversores chilenos la posibilidad de diversificar sus inversiones a nivel internacional con un nivel de riesgo moderado. Es importante evaluar si este fondo se ajusta a tu perfil de riesgo y objetivos financieros, considerando siempre la importancia de la diversificación y el horizonte de inversión a largo plazo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9371-8",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI D. global",
+    "full_id": "96767630_9371-8",
+    "source": "javascript"
+  }
+}

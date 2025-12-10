@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci pb us hy",
+  "nombre": "Fm Bci Pb Us Hy",
+  "nombre_cmf": "FM BCI PB US HY",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Fm Bci Pb Us Hy es una opción de inversión mixta que combina diferentes activos con el objetivo de obtener rendimientos atractivos. Su estrategia de inversión se basa en diversificar el portafolio entre instrumentos de renta fija y renta variable, tanto a nivel nacional como internacional. Esto permite al fondo aprovechar oportunidades de crecimiento y minimizar riesgos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre rentabilidad y seguridad. Si bien no se dispone de información detallada sobre la composición principal del fondo, se puede inferir que invierte en bonos corporativos de empresas estadounidenses de alta calidad crediticia, así como en acciones de compañías de sectores diversos.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de caminar por una calle transitada: hay cierto riesgo de accidente, pero también se pueden alcanzar destinos interesantes. Es importante tener en cuenta que, al combinar distintos tipos de activos, se busca reducir la volatilidad y proteger el capital de los inversionistas.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere un plazo de al menos 3 a 5 años para permitir que las estrategias de diversificación y crecimiento de los activos surtan efecto. Es importante recordar que, en el mundo de las inversiones, la paciencia suele ser recompensada a largo plazo.\n\nUna ventaja de este fondo es la posibilidad de acceder a mercados internacionales y a sectores específicos que pueden no estar disponibles en otros fondos locales. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición de la cartera, lo que podría generar incertidumbre en algunos inversionistas.\n\nEn resumen, el fondo Fm Bci Pb Us Hy es una opción atractiva para inversionistas chilenos con un perfil moderado que buscan diversificar su portafolio y acceder a oportunidades internacionales. Se recomienda a aquellos que estén dispuestos a asumir un nivel de riesgo moderado y a mantener una visión a largo plazo en sus inversiones. Antes de tomar una decisión, siempre es recomendable consultar con un asesor financiero para evaluar si este fondo se ajusta a tus objetivos y tolerancia al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9456-0",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI PB US HY",
+    "full_id": "96767630_9456-0",
+    "source": "javascript"
+  }
+}

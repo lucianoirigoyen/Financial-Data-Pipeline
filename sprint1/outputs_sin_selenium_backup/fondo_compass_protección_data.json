@@ -1,0 +1,23 @@
+{
+  "fondo_id": "compass protección",
+  "nombre": "Compass Protección",
+  "nombre_cmf": "COMPASS PROTECCIÓN",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Compass Protección es una opción de inversión mixta diseñada para brindar un equilibrio entre riesgo y rendimiento. Su estrategia se basa en invertir en una combinación de activos de renta fija y renta variable, lo que significa que parte de los recursos se destinan a instrumentos de deuda, como bonos, mientras que otra parte se destina a acciones u otros instrumentos de mayor riesgo. Esta diversificación busca aprovechar oportunidades de crecimiento, al tiempo que protege el capital de los inversionistas en momentos de volatilidad en los mercados financieros.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, personas que buscan obtener un rendimiento superior al de instrumentos de renta fija tradicionales, pero que están dispuestas a asumir cierto nivel de riesgo en su cartera. Idealmente, quienes buscan un equilibrio entre seguridad y potencial de crecimiento a mediano plazo encontrarán en Compass Protección una alternativa interesante.\n\nEn cuanto a los activos en los que invierte, aunque la composición exacta no está disponible, es probable que el fondo tenga una combinación de bonos de empresas, bonos soberanos y acciones de empresas nacionales e internacionales. Esta diversificación reduce la exposición a riesgos específicos y contribuye a la estabilidad del fondo en diferentes escenarios del mercado.\n\nEn términos simples, el nivel de riesgo de Compass Protección se puede comparar con conducir a una velocidad moderada en una carretera bien señalizada. Si bien existen algunos riesgos inherentes a la inversión en activos financieros, la diversificación y la gestión profesional del fondo buscan minimizar los impactos negativos en caso de fluctuaciones en los mercados.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversionistas que tienen un horizonte a mediano plazo, es decir, que no pretenden necesitar el dinero invertido en el corto plazo. Se recomienda mantener la inversión durante al menos 3 a 5 años para permitir que la estrategia del fondo se desarrolle y se materialice.\n\nUna ventaja de Compass Protección es su capacidad para adaptarse a diferentes condiciones del mercado, gracias a su diversificación de activos. Sin embargo, una posible desventaja podría ser que, en períodos de alta volatilidad, el rendimiento del fondo pueda ser afectado por movimientos bruscos en los mercados financieros.\n\nEn resumen, Compass Protección es una alternativa interesante para inversionistas con un perfil de riesgo medio que buscan equilibrar seguridad y potencial de crecimiento a med",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10235-0",
+    "rut_admin": "96767630",
+    "nombre": "COMPASS PROTECCIÓN",
+    "full_id": "96767630_10235-0",
+    "source": "javascript"
+  }
+}

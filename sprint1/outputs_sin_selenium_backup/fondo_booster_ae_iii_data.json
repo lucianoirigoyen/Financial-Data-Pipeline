@@ -1,0 +1,23 @@
+{
+  "fondo_id": "booster ae iii",
+  "nombre": "Booster Ae Iii",
+  "nombre_cmf": "BOOSTER AE III",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Booster Ae III es una alternativa de inversión mixta que busca combinar tanto activos de renta fija como de renta variable para aprovechar las oportunidades del mercado. Su estrategia se enfoca en diversificar el riesgo a través de una amplia gama de instrumentos financieros, lo que puede generar un equilibrio entre la estabilidad de las inversiones en renta fija y el potencial de crecimiento de las inversiones en renta variable.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su capital y la posibilidad de obtener rendimientos superiores a los instrumentos de renta fija tradicionales. Por lo tanto, es ideal para jóvenes inversores que desean comenzar a construir un portafolio diversificado sin asumir un nivel de riesgo excesivo.\n\nEn cuanto a los principales activos en los que invierte el fondo Booster Ae III, su composición exacta no está disponible públicamente. Sin embargo, generalmente los fondos mixtos como este pueden incluir bonos corporativos, acciones de empresas locales e internacionales, instrumentos del mercado monetario, entre otros. Esta diversificación en distintos tipos de activos contribuye a reducir el riesgo y potenciar el rendimiento a largo plazo.\n\nEn términos simples, el nivel de riesgo del fondo Booster Ae III se encuentra en un punto intermedio entre la prudencia de la renta fija y la volatilidad de la renta variable. Esto significa que si bien existe la posibilidad de obtener mayores ganancias que con inversiones conservadoras, también se debe estar preparado para enfrentar cierta fluctuación en el valor de la inversión en el corto plazo.\n\nPara maximizar los beneficios de este fondo, se recomienda un horizonte de inversión a medio o largo plazo. Esto se debe a que las inversiones mixtas suelen requerir tiempo para que sus estrategias se materialicen y se alcancen los objetivos planteados. Por lo tanto, es importante tener paciencia y mantener una visión a largo plazo para aprovechar al máximo el potencial de crecimiento del fondo.\n\nEn resumen, el fondo Booster Ae III ofrece a los jóvenes inversores la oportunidad de diversificar su portafolio de manera equilibrada, buscando un rendimiento atractivo sin asumir un riesgo excesivo. Sin embargo, es importante tener en cuenta que, como cualquier inversión, existen riesgos inherentes que pueden afectar el desempeño del fondo en el corto plazo. Por tanto, se recomienda a los inversionistas interesados evaluar su tolerancia al riesgo y",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9672-5",
+    "rut_admin": "96767630",
+    "nombre": "BOOSTER AE III",
+    "full_id": "96767630_9672-5",
+    "source": "javascript"
+  }
+}

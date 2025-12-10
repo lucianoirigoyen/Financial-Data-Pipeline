@@ -1,0 +1,23 @@
+{
+  "fondo_id": "estructurado uf ix",
+  "nombre": "Estructurado Uf Ix",
+  "nombre_cmf": "ESTRUCTURADO UF IX",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Estructurado Uf Ix es una opción de inversión mixta en el mercado chileno, diseñada para aquellos inversionistas que buscan un equilibrio entre riesgo y rentabilidad. Este fondo combina activos de renta fija y variable, lo que le permite diversificar su cartera y adaptarse a diferentes condiciones del mercado. Su estrategia de inversión se enfoca en obtener ganancias a través de la combinación de estos dos tipos de activos, buscando maximizar el rendimiento a mediano plazo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, personas que están dispuestas a asumir cierto nivel de volatilidad en su inversión a cambio de obtener mayores retornos potenciales. Si eres un joven inversor chileno que busca un equilibrio entre seguridad y crecimiento de tu capital, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte el fondo Estructurado Uf Ix, la información detallada sobre su composición principal no está disponible públicamente. Sin embargo, es probable que incluya una combinación de bonos, acciones y otros instrumentos financieros tanto locales como internacionales, con el objetivo de diversificar el riesgo y aprovechar oportunidades en diferentes mercados.\n\nEn términos simples, el nivel de riesgo de este fondo se ubica en un punto intermedio, lo que significa que existe la posibilidad de enfrentar fluctuaciones en el valor de la inversión, pero sin llegar a extremos de inestabilidad. Es importante tener en cuenta que, aunque el riesgo es moderado, no está exento de posibles pérdidas en el corto plazo, especialmente en momentos de volatilidad en los mercados financieros.\n\nEl horizonte de inversión recomendado para el fondo Estructurado Uf Ix es a mediano y largo plazo, idealmente más de 3 a 5 años. Esto se debe a que, al ser un fondo mixto, puede tomar tiempo para que las estrategias de inversión se materialicen y generen rendimientos consistentes. Es importante tener paciencia y mantener una visión a largo plazo para poder aprovechar al máximo el potencial de este fondo.\n\nEn resumen, el fondo Estructurado Uf Ix ofrece a los jóvenes inversores chilenos la oportunidad de diversificar sus inversiones, obtener rendimientos potenciales a mediano y largo plazo, y equilibrar el riesgo asumido. Sin embargo, es fundamental evaluar tu tolerancia al riesgo y objetivos financieros antes de invertir en este fondo, ya que cada inversor tiene necesidades y preferencias únicas",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10537-6",
+    "rut_admin": "96767630",
+    "nombre": "ESTRUCTURADO UF IX",
+    "full_id": "96767630_10537-6",
+    "source": "javascript"
+  }
+}

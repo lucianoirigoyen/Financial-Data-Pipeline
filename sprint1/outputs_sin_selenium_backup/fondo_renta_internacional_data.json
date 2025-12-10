@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta internacional",
+  "nombre": "Renta Internacional",
+  "nombre_cmf": "RENTA INTERNACIONAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Renta Internacional es una opción de inversión mixta que busca obtener ganancias a través de una combinación de activos tanto de renta fija como de renta variable a nivel global. Su estrategia de inversión se enfoca en diversificar el riesgo al invertir en diferentes mercados internacionales, permitiendo así a los inversionistas beneficiarse de oportunidades en distintas regiones del mundo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la generación de retorno y la exposición al riesgo. Si bien no se dispone de información precisa sobre la composición principal del fondo, se espera que contenga una variedad de activos internacionales que pueden incluir acciones de empresas extranjeras, bonos de gobiernos de distintos países, entre otros.\n\nEn términos simples, el nivel de riesgo del fondo Renta Internacional se encuentra en un punto intermedio, ya que al invertir en mercados internacionales se pueden experimentar fluctuaciones en el valor de los activos debido a factores como cambios en las tasas de interés, políticas gubernamentales, condiciones económicas y eventos geopolíticos. Sin embargo, al diversificar la cartera a nivel global, se busca mitigar parte de este riesgo.\n\nEl horizonte de inversión recomendado para este fondo es a medio o largo plazo, ya que así se pueden aprovechar los ciclos económicos y permitir que las inversiones se desarrollen y generen rendimientos significativos a lo largo del tiempo. Es importante tener en cuenta que en el corto plazo, el valor de la inversión puede fluctuar, por lo que es fundamental mantener una visión a largo plazo.\n\nUna ventaja de este fondo es la posibilidad de acceder a oportunidades de inversión en mercados internacionales que pueden tener un potencial de crecimiento superior al mercado local, lo que puede resultar en mayores retornos para los inversionistas. Sin embargo, una posible desventaja es la exposición a riesgos cambiantes en diferentes economías y mercados, lo cual puede generar volatilidad en el valor de la inversión.\n\nEn resumen, el fondo Renta Internacional es una opción atractiva para inversionistas con un perfil moderado que buscan diversificar su cartera a nivel global. Se recomienda a aquellos que tengan un horizonte de inversión a medio o largo plazo y estén dispuestos a asumir cierto nivel de riesgo en busca de rendimientos potenciales más elevados. Es importante tener en cuenta que la rentabilidad pasada no garantiza resultados futuros, por lo que se recomienda analizar detenidamente el fondo y consultar con un asesor financiero antes de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8776-9",
+    "rut_admin": "96767630",
+    "nombre": "RENTA INTERNACIONAL",
+    "full_id": "96767630_8776-9",
+    "source": "javascript"
+  }
+}

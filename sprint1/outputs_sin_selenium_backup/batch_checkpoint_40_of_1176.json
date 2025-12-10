@@ -1,0 +1,2993 @@
+{
+  "exitosos": [
+    {
+      "fondo_id": "consorcio ahorro din",
+      "nombre": "Consorcio Ahorro Din",
+      "nombre_cmf": "CONSORCIO AHORRO DIN",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo Consorcio Ahorro Din es una excelente opción para aquellos inversores chilenos que buscan una combinación equilibrada entre rentabilidad y seguridad. Este fondo, de tipo mixto, destaca por su estrategia de inversión diversificada, que busca maximizar ganancias a través de una distribución inteligente de los activos.\n\nPara los jóvenes inversores que buscan un perfil de riesgo medio, este fondo puede ser adecuado. Su composición principal, con un enfoque significativo en Chile y en deuda, proporciona estabilidad y potencial de crecimiento a largo plazo. Por ejemplo, al invertir en empresas chilenas consolidadas, como retail o energía, se pueden obtener retornos interesantes sin exponerse a riesgos excesivos.\n\nEn cuanto a los activos en los que invierte, el Consorcio Ahorro Din mantiene una diversificación prudente, con un énfasis en bonos corporativos chilenos y activos de renta fija. Esto brinda una base sólida para la cartera, aunque también puede limitar el potencial de ganancias en comparación con fondos más agresivos.\n\nEn términos de riesgo, este fondo se sitúa en un nivel medio. Si bien la mayoría de sus inversiones se realizan en instrumentos de deuda seguros, existe la posibilidad de que fluctuaciones en los mercados financieros impacten su desempeño. Es importante tener en cuenta que, aunque el riesgo es moderado, no está exento de posibles pérdidas en el corto plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere un enfoque a mediano y largo plazo. Dado su perfil mixto y la estabilidad que ofrece, este fondo es ideal para aquellos inversores que buscan un equilibrio entre crecimiento y seguridad a lo largo del tiempo. Es importante recordar que, como en cualquier inversión, la paciencia y la disciplina son clave para obtener resultados satisfactorios.\n\nEn resumen, el Consorcio Ahorro Din es una alternativa atractiva para jóvenes inversores chilenos que desean diversificar su cartera de manera prudente. Si bien ofrece una combinación equilibrada de riesgo y rendimiento, es importante tener en cuenta que su potencial de crecimiento puede ser limitado en comparación con fondos más agresivos. En última instancia, la elección de este fondo dependerá del perfil de cada inversor y de sus objetivos financieros a largo plazo.",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8375-5",
+        "rut_admin": "96767630",
+        "nombre": "CONSORCIO AHORRO DIN",
+        "full_id": "96767630_8375-5",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "patrimonio acciones",
+      "nombre": "Patrimonio Acciones",
+      "nombre_cmf": "PATRIMONIO ACCIONES",
+      "tipo_fondo": "Agresivo",
+      "perfil_riesgo": "Alto",
+      "descripcion_amigable": "El Fondo Mutuo Patrimonio Acciones es una alternativa de inversión agresiva que busca obtener altos rendimientos a través de la inversión en acciones de empresas chilenas y en instrumentos de deuda. Su estrategia se enfoca en mantener un 95% de su cartera en acciones, principalmente en el mercado local (83.4%), con una exposición considerable a instrumentos de deuda (80.1%). Además, aplica un porcentaje del 50% en ciertos activos, sin superar el 30% de la inversión total.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo alto, es decir, aquellos que están dispuestos a asumir la posibilidad de pérdidas significativas a cambio de la posibilidad de obtener mayores rendimientos a largo plazo. Si eres un joven inversor con una mentalidad audaz y un horizonte de inversión a largo plazo, este fondo podría ser adecuado para ti.\n\nLos principales activos en los que invierte el Fondo Patrimonio Acciones son acciones de empresas chilenas, lo que le permite obtener exposición al crecimiento económico y al desempeño del mercado local. Asimismo, su posición en instrumentos de deuda contribuye a diversificar la cartera y reducir el riesgo global de la inversión.\n\nEn términos simples, el nivel de riesgo de este fondo es alto debido a su exposición principalmente a acciones y a la volatilidad inherente al mercado de valores. Esto significa que las fluctuaciones en el valor de las inversiones pueden ser significativas, por lo que es importante tener en cuenta que pueden existir periodos de pérdidas.\n\nEl horizonte de inversión recomendado para el Fondo Patrimonio Acciones es a largo plazo, idealmente superior a cinco años. Esto se debe a que, dado su perfil agresivo, es probable que la cartera experimente altibajos a corto plazo, pero puede generar rendimientos atractivos en el largo plazo si se mantiene la inversión a lo largo del tiempo.\n\nEn cuanto a ventajas, este fondo ofrece la posibilidad de obtener altos rendimientos en el largo plazo, especialmente en un contexto de crecimiento económico. Sin embargo, como desventaja, es importante tener en cuenta que las pérdidas también pueden ser significativas en periodos de volatilidad del mercado.\n\nEn resumen, el Fondo Patrimonio Acciones es una opción a considerar para inversionistas jóvenes con un alto nivel de tolerancia al riesgo y un horizonte de inversión a largo plazo. Si estás dispuesto a asumir la volatilidad del mercado accionario chileno y buscas potencialmente mayores",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8068-3",
+        "rut_admin": "96767630",
+        "nombre": "PATRIMONIO ACCIONES",
+        "full_id": "96767630_8068-3",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "garantizado 2008",
+      "nombre": "Garantizado 2008",
+      "nombre_cmf": "GARANTIZADO 2008",
+      "tipo_fondo": "Conservador",
+      "perfil_riesgo": "Bajo",
+      "descripcion_amigable": "El fondo mutuo Garantizado 2008 es una opción conservadora para aquellos inversores que buscan proteger su capital y obtener rendimientos estables a lo largo del tiempo. Su estrategia de inversión se caracteriza por priorizar la preservación del capital y minimizar los riesgos asociados a la volatilidad del mercado.\n\nEste fondo es ideal para inversionistas con un perfil de riesgo bajo que prefieren evitar sobresaltos en sus inversiones y priorizan la seguridad sobre la rentabilidad potencial. Si eres un joven inversor que busca una alternativa segura y estable para tu dinero, el Garantizado 2008 podría ser una excelente opción para ti.\n\nAunque la composición principal del fondo no está disponible públicamente, generalmente los fondos conservadores como este suelen invertir en activos de bajo riesgo, como bonos del gobierno, depósitos a plazo y otros instrumentos financieros de renta fija. Estos activos ofrecen una menor rentabilidad potencial en comparación con inversiones más arriesgadas, pero proporcionan una mayor estabilidad y seguridad en el capital invertido.\n\nEn términos simples, el nivel de riesgo asociado al Garantizado 2008 es bajo debido a su enfoque conservador y a la naturaleza de los activos en los que invierte. Esto significa que, si bien es poco probable que experimentes grandes pérdidas, también es importante tener en cuenta que las ganancias potenciales pueden ser limitadas en comparación con fondos más arriesgados.\n\nEn cuanto al horizonte de inversión recomendado, este fondo es adecuado para aquellos inversionistas que buscan mantener su dinero invertido a mediano o largo plazo, ya que su estrategia se basa en la estabilidad y la protección del capital a lo largo del tiempo. Si estás planeando invertir para un objetivo a corto plazo, es posible que otros fondos más agresivos sean más adecuados para ti.\n\nEntre las ventajas del Garantizado 2008 se encuentran su bajo nivel de riesgo, la protección del capital invertido y la estabilidad de los rendimientos a lo largo del tiempo. Sin embargo, es importante tener en cuenta que, debido a su enfoque conservador, es posible que la rentabilidad potencial sea limitada en comparación con fondos más arriesgados.\n\nEn resumen, si eres un joven inversor con un perfil conservador que valora la seguridad y la estabilidad en sus inversiones, el fondo mutuo Garantizado 2008 puede ser una excelente opción para ti. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y asegurarte de que el fondo se alinea con",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8420-4",
+        "rut_admin": "96767630",
+        "nombre": "GARANTIZADO 2008",
+        "full_id": "96767630_8420-4",
+        "source": "javascript"
+      }
+    },
+    {
+      "fondo_id": "estructurado uf vi",
+      "nombre": "Estructurado Uf Vi",
+      "nombre_cmf": "ESTRUCTURADO UF VI",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El Fondo Mutuo Estructurado UF VI es una alternativa de inversión mixta que busca combinar activos de renta fija y variable para obtener rendimientos equilibrados. Su estrategia se enfoca en invertir principalmente en instrumentos financieros en Chile, con un enfoque significativo en deuda. Además, aplica un porcentaje sobre el capital invertido y mantiene un límite máximo de exposición para mitigar riesgos.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, que buscan un equilibrio entre seguridad y potencial de crecimiento. Su composición principal en activos de renta fija como bonos chilenos y deuda, brinda estabilidad a la cartera, mientras que la exposición a instrumentos de renta variable puede ofrecer oportunidades de crecimiento a largo plazo.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con conducir a una velocidad moderada en una carretera bien pavimentada. Aunque existen riesgos inherentes en los mercados financieros, la diversificación de activos y la gestión activa del fondo ayudan a controlar posibles pérdidas.\n\nEl horizonte de inversión recomendado para el Fondo Estructurado UF VI es a medio-largo plazo, idealmente más de un año. Esto permite que la estrategia de inversión se desarrolle y se materialicen potenciales ganancias, sin preocuparse por fluctuaciones a corto plazo.\n\nUna ventaja de este fondo es su enfoque equilibrado que combina diferentes tipos de activos, lo que puede ofrecer una protección ante volatilidades del mercado. Sin embargo, una posible desventaja es que, al tener una exposición limitada a ciertos sectores, puede perder oportunidades de crecimiento en áreas específicas.\n\nPara los jóvenes inversores chilenos que buscan diversificar su cartera de manera prudente y moderada, el Fondo Mutuo Estructurado UF VI puede ser una opción a considerar. Es importante recordar que, como en cualquier inversión, es clave mantener un monitoreo constante y ajustar la estrategia según las condiciones del mercado. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "10415-9",
+        "rut_admin": "96767630",
+        "nombre": "ESTRUCTURADO UF VI",
+        "full_id": "96767630_10415-9",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "acc. latinoamericana",
+      "nombre": "Acc. Latinoamericana",
+      "nombre_cmf": "ACC. LATINOAMERICANA",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo Acc. Latinoamericana es una opción de inversión mixta que combina activos de renta variable y deuda, principalmente enfocado en Chile y en la región latinoamericana. Su estrategia de inversión se basa en mantener una composición de cartera en la que el 95.0% de los activos estén en Latinoamérica, con un enfoque mayoritario en Chile (83.4%) y en instrumentos de deuda (80.1%). Además, aplicará sobre el 50.0% de los activos y mantendrá invertido como máximo el 30.0% de su cartera.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, ya que combina la estabilidad de la deuda con el potencial de crecimiento de la renta variable en la región. Esto significa que es ideal para aquellos que buscan un equilibrio entre seguridad y rendimiento. \n\nLos principales activos en los que invierte el fondo son bonos de empresas chilenas, bonos soberanos de países latinoamericanos, y acciones de compañías de la región. Estos activos ofrecen diversificación geográfica y sectorial, lo que puede ayudar a mitigar riesgos y maximizar oportunidades de crecimiento.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Aunque la inversión en deuda puede proporcionar estabilidad, la exposición a acciones latinoamericanas implica cierto grado de volatilidad. Es importante tener en cuenta que, si bien el riesgo es moderado, las fluctuaciones en los mercados pueden afectar el desempeño del fondo en el corto plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores consideren mantener su dinero en Acc. Latinoamericana a mediano y largo plazo, idealmente más de un año. Esto permitirá aprovechar el potencial de crecimiento de los activos de renta variable y superar posibles fluctuaciones a corto plazo.\n\nEn resumen, el fondo Acc. Latinoamericana ofrece una combinación equilibrada de renta fija y variable en la región, adecuada para invertir a mediano y largo plazo. Para aquellos inversores que buscan diversificar su cartera y están dispuestos a asumir un nivel de riesgo moderado, este fondo puede ser una opción atractiva. Es importante recordar que, si bien ofrece la posibilidad de mayores rendimientos, también conlleva cierta volatilidad inherente a los mercados latinoamericanos.",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8206-6",
+        "rut_admin": "96767630",
+        "nombre": "ACC. LATINOAMERICANA",
+        "full_id": "96767630_8206-6",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "top picks",
+      "nombre": "Top Picks",
+      "nombre_cmf": "TOP PICKS",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo Top Picks es una excelente opción para aquellos inversores que buscan una combinación equilibrada de rentabilidad y seguridad. Este fondo se clasifica como mixto, lo que significa que invierte tanto en acciones como en bonos, buscando diversificar el riesgo y maximizar el potencial de ganancias a largo plazo.\n\nLa estrategia de inversión de Top Picks se centra en mantener un alto porcentaje de su cartera en activos chilenos, especialmente en el mercado de deuda. Esto implica que aproximadamente el 95% de los fondos se invierten en Chile, con un enfoque significativo en bonos gubernamentales y corporativos. Además, el fondo aplica un porcentaje considerable en el sector de la deuda, llegando hasta el 80.1%. Esto brinda estabilidad a la cartera y reduce la exposición a la volatilidad del mercado de acciones.\n\nEn términos simples, el nivel de riesgo de este fondo se considera medio. Aunque la inversión en bonos puede proporcionar cierta estabilidad, la exposición a activos de renta variable como acciones implica un grado de riesgo inherente. Sin embargo, al mantener un enfoque equilibrado y diversificado, el Top Picks busca mitigar este riesgo y ofrecer un rendimiento atractivo en el largo plazo.\n\nEste fondo es adecuado para inversionistas que buscan un equilibrio entre riesgo y rentabilidad. Idealmente, se recomienda para aquellos inversores con un horizonte de inversión a medio y largo plazo, ya que la estrategia diversificada y las inversiones en bonos pueden tardar en generar resultados significativos.\n\nAlgunas de las ventajas de invertir en el fondo Top Picks incluyen su enfoque diversificado, que ayuda a reducir el riesgo asociado con la volatilidad del mercado de acciones. Por otro lado, una posible desventaja podría ser que, al tener una exposición limitada a activos internacionales, el fondo podría perder oportunidades de crecimiento en mercados extranjeros.\n\nEn resumen, el fondo mutuo Top Picks es una opción atractiva para inversionistas que buscan un equilibrio entre riesgo y rentabilidad. Su estrategia de inversión diversificada y su enfoque en activos locales lo hacen adecuado para aquellos con un perfil de riesgo medio y un horizonte de inversión a largo plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8787-4",
+        "rut_admin": "96767630",
+        "nombre": "TOP PICKS",
+        "full_id": "96767630_8787-4",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "futuro 2030",
+      "nombre": "Futuro 2030",
+      "nombre_cmf": "FUTURO 2030",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo Futuro 2030 es una opción de inversión mixta diseñada para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rendimiento a largo plazo. Su estrategia de inversión combina activos de renta fija y renta variable, lo que significa que parte de su dinero se destina a bonos y otra parte a acciones. Esta diversificación busca aprovechar las oportunidades de crecimiento de la bolsa de valores, al tiempo que reduce la exposición a posibles fluctuaciones del mercado.\n\nEste tipo de fondo es adecuado para inversores con un perfil de riesgo medio que buscan obtener rendimientos superiores a los ofrecidos por instrumentos de renta fija tradicionales, como los depósitos a plazo. Si estás dispuesto a asumir cierto nivel de riesgo a cambio de mayores posibilidades de rentabilidad, el fondo Futuro 2030 puede ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, aunque no disponemos de información detallada, es probable que el fondo tenga una distribución de sus inversiones en bonos corporativos, bonos del Estado y acciones de empresas locales e internacionales. Esta diversificación sectorial y geográfica contribuye a reducir el riesgo asociado a la volatilidad de un solo mercado o industria.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio entre la seguridad de los instrumentos de renta fija y el potencial de crecimiento de las acciones. Aunque existe la posibilidad de que el valor de tu inversión varíe en el corto plazo debido a los movimientos del mercado, a largo plazo se espera que obtengas rendimientos atractivos.\n\nPara obtener los mejores resultados con el fondo Futuro 2030, se recomienda tener un horizonte de inversión a largo plazo, de al menos 5 a 10 años. Esto se debe a que, si bien el fondo puede experimentar fluctuaciones en el corto plazo, a medida que pasa el tiempo, el impacto de estas variaciones tiende a suavizarse y se favorece la captura de potenciales ganancias.\n\nEn resumen, el fondo mutuo Futuro 2030 ofrece una oportunidad para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rendimiento a largo plazo. Si estás dispuesto a asumir cierto nivel de riesgo y tienes un horizonte de inversión a largo plazo, este fondo puede ser una opción atractiva para diversificar tu cartera y buscar mayores rendimientos en el futuro.",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8683-5",
+        "rut_admin": "96767630",
+        "nombre": "FUTURO 2030",
+        "full_id": "96767630_8683-5",
+        "source": "javascript"
+      }
+    },
+    {
+      "fondo_id": "acc. selectas brasil",
+      "nombre": "Acc. Selectas Brasil",
+      "nombre_cmf": "ACC. SELECTAS BRASIL",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo de inversión Acc. Selectas Brasil es una opción mixta que combina activos de renta variable y renta fija, con el objetivo de generar rendimientos atractivos a mediano plazo. Su estrategia de inversión se centra principalmente en el mercado brasileño, aprovechando las oportunidades que ofrece este país en sectores como tecnología, energía y consumo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan diversificar su portafolio con exposición al mercado brasileño. Es importante tener en cuenta que al invertir en mercados extranjeros como Brasil, se pueden experimentar fluctuaciones en el valor de la inversión debido a factores económicos y políticos propios de ese país.\n\nLos principales activos en los que invierte el fondo Acc. Selectas Brasil incluyen acciones de empresas brasileñas líderes en sus respectivos sectores, así como bonos y otros instrumentos de renta fija emitidos por entidades brasileñas. Esta combinación busca equilibrar el riesgo y la rentabilidad potencial del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con caminar por una calle con baches: puede haber altibajos en el camino, pero si se mantiene una visión a largo plazo, es posible sortear los obstáculos y llegar a un destino satisfactorio. Es importante recordar que el riesgo siempre está presente en cualquier inversión, y diversificar es clave para mitigarlo.\n\nEl horizonte de inversión recomendado para el fondo Acc. Selectas Brasil es de al menos 3 a 5 años, ya que esto permite superar posibles periodos de volatilidad en el mercado y aprovechar el potencial de crecimiento a largo plazo de las empresas brasileñas en las que invierte el fondo. Es importante tener paciencia y mantener una visión a futuro para obtener los mejores resultados.\n\nEn cuanto a ventajas, este fondo ofrece la posibilidad de diversificar el portafolio con exposición a un mercado emergente como Brasil, que tiene un alto potencial de crecimiento. Sin embargo, como desventaja, es importante tener en cuenta que la economía brasileña puede verse afectada por factores externos e internos que pueden impactar la rentabilidad del fondo.\n\nEn resumen, el fondo Acc. Selectas Brasil es una opción interesante para inversionistas con un perfil de riesgo medio que buscan diversificar su portafolio con exposición al mercado brasileño. Se recomienda tener un horizonte de inversión a mediano plazo y estar preparado para posibles fluctuaciones en el valor de la inversión. Siempre es recomendable consultar con un asesor financiero antes de tomar decisiones de",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8593-6",
+        "rut_admin": "96767630",
+        "nombre": "ACC. SELECTAS BRASIL",
+        "full_id": "96767630_8593-6",
+        "source": "javascript"
+      }
+    },
+    {
+      "fondo_id": "indice mexico",
+      "nombre": "Indice Mexico",
+      "nombre_cmf": "INDICE MEXICO",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo \"Índice México\" es una opción de inversión mixta que busca combinar activos de renta variable y renta fija para diversificar el riesgo y potenciar el rendimiento. Este fondo sigue el desempeño de un índice específico relacionado con el mercado mexicano, lo que significa que sus inversiones se alinean con la evolución de dicho índice.\n\nEste tipo de fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener mayores retornos y la preservación de su capital. Si eres un joven inversor chileno que está dispuesto a asumir cierto nivel de riesgo en busca de crecimiento, este fondo podría ser una alternativa a considerar.\n\nEn cuanto a los activos en los que invierte, al ser un fondo indexado a México, probablemente contenga acciones de empresas mexicanas cotizadas en bolsa, así como bonos del gobierno mexicano u otras entidades. Al diversificar entre distintos tipos de activos, el fondo busca minimizar las fluctuaciones en su valor y potenciar su desempeño a largo plazo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que implica que es posible experimentar variaciones en el valor de la inversión, pero sin llegar a extremos significativos. Es importante tener en cuenta que, si bien el riesgo es moderado, siempre existe la posibilidad de pérdidas, especialmente en el corto plazo, debido a la volatilidad de los mercados.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para quienes tienen un horizonte a medio y largo plazo, es decir, para inversores que pueden mantener su dinero invertido durante varios años. Esto se debe a que las inversiones a largo plazo suelen ser menos afectadas por la volatilidad a corto plazo y permiten aprovechar el potencial de crecimiento de los activos.\n\nEn resumen, el fondo mutuo \"Índice México\" ofrece a los inversores chilenos la posibilidad de diversificar sus inversiones a través de una estrategia mixta que sigue el desempeño del mercado mexicano. Si buscas un equilibrio entre riesgo y rendimiento, tienes un horizonte de inversión a medio o largo plazo y estás dispuesto a aceptar cierta volatilidad en el camino, este fondo podría ser una opción a considerar. Sin embargo, es importante siempre evaluar tu perfil de riesgo y objetivos financieros antes de tomar una decis",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8562-6",
+        "rut_admin": "96767630",
+        "nombre": "INDICE MEXICO",
+        "full_id": "96767630_8562-6",
+        "source": "javascript"
+      }
+    },
+    {
+      "fondo_id": "estruct pesos ii cl",
+      "nombre": "Estruct Pesos Ii Cl",
+      "nombre_cmf": "ESTRUCT PESOS II CL",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo Estruct Pesos II CL es una opción de inversión mixta que combina activos tanto en renta fija como variable. Su estrategia se enfoca en invertir principalmente en instrumentos financieros en Chile, con un énfasis significativo en deuda, lo que significa que gran parte de los recursos se destinan a bonos y otros valores de deuda emitidos por entidades chilenas. Además, se aplica un límite del 50% en instrumentos derivados, lo que permite una cierta flexibilidad en la gestión de riesgos. En términos sencillos, este fondo busca obtener rendimientos a través de una combinación equilibrada de activos locales.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la rentabilidad potencial y la volatilidad de sus inversiones. Si bien existe un nivel de riesgo asociado a la inversión en instrumentos de deuda y derivados, la diversificación y la gestión activa del fondo buscan mitigar este riesgo en la medida de lo posible. Así, se recomienda a inversores que estén dispuestos a asumir un cierto grado de volatilidad en busca de mayores retornos a mediano plazo.\n\nLos principales activos en los que invierte este fondo incluyen bonos emitidos por entidades chilenas, así como posiciones en instrumentos derivados que pueden utilizarse para gestionar riesgos o aprovechar oportunidades en el mercado local. Al tener una exposición significativa a la deuda chilena, los movimientos en las tasas de interés locales pueden impactar la rentabilidad del fondo.\n\nEn cuanto al riesgo, este fondo se considera de nivel medio debido a la combinación de activos en renta fija y variable, así como a la exposición a la deuda chilena. Si bien se busca diversificar el riesgo a través de diferentes activos, es importante tener en cuenta que las fluctuaciones en los mercados financieros pueden afectar el desempeño del fondo en el corto plazo.\n\nEl horizonte de inversión recomendado para el fondo Estruct Pesos II CL es a mediano plazo, generalmente entre 3 y 5 años. Esto se debe a que las estrategias de inversión en renta fija y variable pueden tardar un tiempo en materializarse y generar rendimientos consistentes. Por lo tanto, se aconseja a los inversores que tengan una visión a largo plazo y estén dispuestos a mantener sus inversiones durante un periodo suficiente para capturar el potencial de crecimiento.\n\nEn resumen, el fondo mutuo Estruct Pesos II",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "10314-4",
+        "rut_admin": "96767630",
+        "nombre": "ESTRUCT PESOS II CL",
+        "full_id": "96767630_10314-4",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "fm cartera pat cons",
+      "nombre": "Fm Cartera Pat Cons",
+      "nombre_cmf": "FM CARTERA PAT CONS",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El Fondo Mutuo Cartera Patrimonial Conservadora es una opción de inversión mixta que busca equilibrar rentabilidad y seguridad. Su estrategia se enfoca en invertir principalmente en instrumentos financieros de renta fija, como bonos y letras, con una exposición considerable al mercado chileno y a activos de deuda. Esto significa que el fondo busca obtener ganancias a través de la estabilidad de estos activos, manteniendo un nivel moderado de riesgo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan un equilibrio entre seguridad y potencial de crecimiento. Si buscas una inversión estable a mediano plazo, este fondo podría ser una buena opción para ti.\n\nLos principales activos en los que invierte este fondo son bonos chilenos y activos de deuda, lo que le brinda una base sólida y estable para generar ganancias. Al tener una exposición significativa al mercado local, el fondo se beneficia de la economía chilena y de la estabilidad de sus activos financieros.\n\nEn términos simples, el nivel de riesgo de este fondo se considera medio. Aunque existe la posibilidad de pérdidas, el enfoque conservador y la diversificación de sus activos ayudan a mitigar este riesgo en comparación con fondos más agresivos.\n\nPara este tipo de fondo mixto, se recomienda un horizonte de inversión a mediano plazo, generalmente de al menos 3 a 5 años. Esto permite que el fondo se beneficie de la estabilidad de sus activos y pueda superar posibles fluctuaciones a corto plazo en los mercados financieros.\n\nUna ventaja de este fondo es su enfoque conservador, que brinda estabilidad a los inversionistas y les permite mantener un nivel medio de riesgo. Sin embargo, una posible desventaja podría ser su rentabilidad relativamente baja en comparación con fondos más arriesgados, pero esto es compensado por la seguridad y estabilidad que ofrece.\n\nEn resumen, el Fondo Mutuo Cartera Patrimonial Conservadora es una opción sólida para inversionistas con un perfil de riesgo medio que buscan equilibrar seguridad y potencial de crecimiento. Si buscas una inversión estable y estás dispuesto a mantener tu inversión a mediano plazo, este fondo podría ser adecuado para ti. Recuerda consultar con un asesor financiero antes de tomar decisiones de inversión.",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "10664-K",
+        "rut_admin": "96767630",
+        "nombre": "FM CARTERA PAT CONS",
+        "full_id": "96767630_10664-K",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "fmbaj ii",
+      "nombre": "Fmbaj Ii",
+      "nombre_cmf": "FMBAJ II",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El Fondo de Inversión Fmbaj II es una opción mixta diseñada para inversores con un perfil de riesgo medio que buscan diversificar su cartera con una combinación de activos tanto en Chile como en el extranjero. La estrategia de inversión de este fondo se enfoca en la inversión en instrumentos de deuda, manteniendo un equilibrio entre la rentabilidad y el riesgo asumido.\n\nEste fondo puede ser adecuado para jóvenes inversores que buscan un equilibrio entre seguridad y potencial de crecimiento a mediano plazo. Al tener una composición principal en deuda y una exposición moderada a acciones, es ideal para aquellos que desean construir un portafolio diversificado sin asumir un riesgo excesivo.\n\nLos principales activos en los que invierte el Fmbaj II incluyen instrumentos de deuda tanto en Chile como en el extranjero, lo que brinda una exposición a diferentes mercados y sectores. Con un enfoque en mantener un porcentaje significativo en deuda, el fondo busca minimizar la volatilidad y ofrecer una rentabilidad estable a sus inversores.\n\nEn términos simples, el nivel de riesgo de este fondo se puede considerar moderado, ya que combina la estabilidad de la deuda con el potencial de crecimiento de las acciones. Si bien no está exento de riesgos, como la fluctuación de los mercados o los cambios en las tasas de interés, su composición equilibrada ayuda a mitigar posibles pérdidas significativas.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores mantengan una visión a mediano plazo, de al menos 3 a 5 años, para permitir que el fondo alcance su potencial máximo de rentabilidad. Es importante tener en cuenta que, como con cualquier inversión, es fundamental mantenerse informado sobre el desempeño del fondo y ajustar la estrategia según sea necesario.\n\nEn resumen, el Fondo de Inversión Fmbaj II ofrece a los jóvenes inversores la oportunidad de diversificar su cartera de manera equilibrada, con un enfoque en la estabilidad y el crecimiento a mediano plazo. Si bien presenta ventajas como la diversificación y la gestión profesional de los activos, es importante considerar que, como cualquier inversión, existen riesgos asociados que deben ser evaluados cuidadosamente. Recomendamos a los inversores que buscan un equilibrio entre riesgo y rentabilidad considerar este fondo como parte de su estrategia de inversión a mediano plazo.",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "9547-8",
+        "rut_admin": "96767630",
+        "nombre": "FMBAJ II",
+        "full_id": "96767630_9547-8",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "tecnologia global",
+      "nombre": "Tecnologia Global",
+      "nombre_cmf": "TECNOLOGIA GLOBAL",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo \"Tecnología Global\" es una excelente opción para aquellos inversores jóvenes que buscan diversificar su cartera con un enfoque en tecnología a nivel mundial. Este fondo tiene un perfil de riesgo medio, lo que significa que ofrece un equilibrio entre la posibilidad de obtener buenos retornos y la exposición a ciertos riesgos.\n\nLa estrategia de inversión de este fondo mixto se basa en invertir en empresas tecnológicas líderes a nivel global, tanto en mercados desarrollados como emergentes. Esto significa que al adquirir participaciones en el fondo, estarás invirtiendo en compañías innovadoras y con potencial de crecimiento en el sector tecnológico, como por ejemplo Apple, Amazon o Alibaba.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con montar en bicicleta: es más emocionante que caminar, pero menos arriesgado que practicar paracaidismo. Si bien las inversiones en tecnología pueden ser volátiles en el corto plazo debido a la naturaleza cambiante de la industria, a largo plazo suelen ofrecer rendimientos atractivos.\n\nEl horizonte de inversión recomendado para el fondo \"Tecnología Global\" es a medio y largo plazo, ya que el sector tecnológico tiende a mostrar su verdadero potencial en ciclos más extensos. Por lo tanto, este fondo es ideal para inversores jóvenes que buscan crecimiento a largo plazo y están dispuestos a tolerar cierta volatilidad en el corto plazo.\n\nEn cuanto a ventajas, invertir en el fondo \"Tecnología Global\" te brinda la oportunidad de participar en el crecimiento de empresas tecnológicas líderes a nivel mundial, diversificando tu cartera y aprovechando las tendencias globales. Sin embargo, es importante tener en cuenta que la volatilidad del sector tecnológico puede generar fluctuaciones en el valor de tus inversiones en el corto plazo.\n\nEn resumen, si eres un inversor joven con un horizonte de inversión a medio y largo plazo, interesado en el sector tecnológico y dispuesto a asumir cierto nivel de riesgo, el fondo mutuo \"Tecnología Global\" puede ser una excelente opción para diversificar tu cartera y buscar rendimientos atractivos a largo plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8147-7",
+        "rut_admin": "96767630",
+        "nombre": "TECNOLOGIA GLOBAL",
+        "full_id": "96767630_8147-7",
+        "source": "javascript"
+      }
+    },
+    {
+      "fondo_id": "selectivo",
+      "nombre": "Selectivo",
+      "nombre_cmf": "SELECTIVO",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo \"Selectivo\" es una opción de inversión mixta que busca un equilibrio entre la rentabilidad y el riesgo, con un perfil de riesgo medio. Su estrategia de inversión se centra en diversificar su cartera principalmente en activos locales, como acciones chilenas y bonos de deuda, con un enfoque del 50% en acciones y un límite máximo del 30% en deuda.\n\nEste fondo puede ser adecuado para inversores que buscan un crecimiento moderado de su capital, sin asumir un riesgo excesivo. Es ideal para aquellos que desean participar en el mercado financiero chileno, pero prefieren una exposición equilibrada entre acciones y bonos.\n\nLos principales activos en los que invierte el fondo \"Selectivo\" son acciones chilenas, representando el 83.4% de su cartera, y bonos de deuda, con un peso del 80.1%. Estos activos ofrecen la posibilidad de obtener rendimientos atractivos, aunque el nivel de riesgo se mantiene en un punto intermedio.\n\nEn términos simples, el nivel de riesgo del fondo \"Selectivo\" se encuentra en un punto medio, lo que significa que existe la posibilidad de obtener ganancias, pero también de enfrentar pérdidas en determinadas circunstancias. Es importante recordar que toda inversión conlleva un cierto grado de riesgo, y en este caso, el perfil de riesgo medio busca equilibrar la posibilidad de ganancias con la protección del capital invertido.\n\nEl horizonte de inversión recomendado para el fondo \"Selectivo\" es a mediano y largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Se aconseja a los inversores mantener una visión a largo plazo y no dejarse llevar por fluctuaciones a corto plazo en el mercado.\n\nEn cuanto a ventajas, el fondo \"Selectivo\" ofrece una diversificación adecuada en activos locales, lo que puede reducir el riesgo de la cartera. Sin embargo, una posible desventaja podría ser una rentabilidad moderada en comparación con fondos más arriesgados.\n\nEn resumen, el fondo mutuo \"Selectivo\" es una opción atractiva para inversores con un perfil de riesgo medio que buscan diversificar su cartera en el mercado chileno. Se recomienda a aquellos que buscan un equilibrio entre riesgo y rentabilidad, con una visión a mediano y largo plazo.",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8490-5",
+        "rut_admin": "96767630",
+        "nombre": "SELECTIVO",
+        "full_id": "96767630_8490-5",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "futuro",
+      "nombre": "Futuro",
+      "nombre_cmf": "FUTURO",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo \"Futuro\" es una opción mixta que combina activos de renta fija y variable, con el objetivo de diversificar y buscar un equilibrio entre riesgo y rentabilidad. Su estrategia de inversión se centra en invertir principalmente en activos chilenos, tanto en renta fija como variable, con un enfoque en la deuda y aplicando un porcentaje significativo en el mercado local.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, que buscan obtener un rendimiento potencialmente superior al de una inversión conservadora, pero sin asumir un riesgo excesivo. Es importante destacar que, si bien el riesgo es moderado, existe la posibilidad de fluctuaciones en el valor de la inversión debido a la variabilidad de los mercados.\n\nLos principales activos en los que invierte el fondo \"Futuro\" incluyen bonos emitidos por entidades chilenas, acciones de empresas locales y otros instrumentos de deuda del país. Al tener una exposición significativa al mercado chileno, los movimientos económicos y políticos en Chile pueden tener un impacto directo en la rentabilidad del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se podría comparar con el de caminar por una calle con algunas piedras sueltas. Existe la posibilidad de tropezar, pero si se camina con precaución y se mantienen los ojos abiertos, se puede avanzar de manera segura. Es importante recordar que, en el mundo de las inversiones, el riesgo siempre está presente, pero con una estrategia adecuada y una visión a largo plazo, se pueden minimizar sus efectos.\n\nEl horizonte de inversión recomendado para el fondo \"Futuro\" es a medio y largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Se aconseja a los inversores que mantengan una visión a largo plazo y eviten decisiones impulsivas basadas en movimientos a corto plazo del mercado.\n\nEn resumen, el fondo \"Futuro\" ofrece una oportunidad para los inversores con un perfil de riesgo moderado que buscan diversificar su cartera y obtener un rendimiento competitivo. Sin embargo, es importante tener en cuenta que, como cualquier inversión, existen riesgos inherentes que deben ser considerados. Se recomienda a los inversores jóvenes que buscan un equilibrio entre riesgo y rentabilidad considerar este fondo como parte de su estrategia de inversión a largo plazo.",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8105-1",
+        "rut_admin": "96767630",
+        "nombre": "FUTURO",
+        "full_id": "96767630_8105-1",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "ig latam",
+      "nombre": "Ig Latam",
+      "nombre_cmf": "IG LATAM",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo Ig Latam es una alternativa de inversión mixta diseñada para aquellos inversionistas que buscan un equilibrio entre riesgo y rentabilidad. Su estrategia se basa en diversificar el portafolio invirtiendo tanto en acciones como en bonos, lo que le permite adaptarse a diferentes condiciones del mercado. A pesar de que no disponemos de información sobre su composición principal, podemos inferir que su enfoque mixto busca maximizar ganancias a través de la diversificación.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, para aquellos que están dispuestos a asumir cierta volatilidad en busca de mayores rendimientos. Si eres un joven inversor chileno que busca un equilibrio entre riesgo y retorno, Ig Latam podría ser una opción a considerar.\n\nEn términos de los activos en los que invierte, al ser un fondo mixto, es probable que tenga una combinación de acciones de empresas latinoamericanas y bonos de la región. Esto le permite aprovechar el potencial de crecimiento de las empresas en la región, al tiempo que reduce el riesgo al incluir activos más estables como bonos.\n\nEn cuanto al nivel de riesgo, podemos decir que, dado su perfil mixto, es moderado en comparación con fondos de renta variable pura. Aunque puede experimentar cierta volatilidad, la diversificación en diferentes activos ayuda a mitigar los riesgos asociados con la inversión en un solo tipo de activo.\n\nEl horizonte de inversión recomendado para este fondo es a medio y largo plazo, es decir, idealmente más de 3 a 5 años. Esto se debe a que, al ser un fondo mixto, puede tomar tiempo para que las inversiones maduren y se reflejen en los retornos.\n\nEntre las ventajas de este fondo se encuentran la diversificación que ofrece al combinar acciones y bonos, lo que puede reducir el riesgo total de la cartera. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a su composición principal, lo que puede dificultar la evaluación precisa de sus posibles rendimientos.\n\nEn resumen, Ig Latam es un fondo mixto adecuado para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera. Se recomienda tener un horizonte de inversión a medio y largo plazo para aprovechar al máximo las ventajas de este tipo de fondo. Si estás dispuesto a asumir cierta volatilidad en busca de mayores rendimientos, este fondo podría ser una opción a considerar en tu estrategia de inversión.",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "9345-9",
+        "rut_admin": "96767630",
+        "nombre": "IG LATAM",
+        "full_id": "96767630_9345-9",
+        "source": "javascript"
+      }
+    },
+    {
+      "fondo_id": "est uf iii",
+      "nombre": "Est Uf Iii",
+      "nombre_cmf": "EST UF III",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo Est Uf Iii es una opción de inversión mixta que combina activos de renta fija y variable, con un enfoque predominante en activos chilenos y deuda. Su estrategia de inversión se centra en mantener un equilibrio entre la seguridad de la deuda y el potencial de crecimiento de las inversiones en Chile. Esto se traduce en que aproximadamente el 80.1% del fondo está compuesto por instrumentos de deuda, mientras que el 83.4% se invierte en activos chilenos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan un equilibrio entre seguridad y potencial de ganancia. Es importante tener en cuenta que al menos el 50.0% del fondo se aplicará en activos de renta fija, lo que proporciona estabilidad al capital invertido. Sin embargo, existe un límite del 30.0% en la inversión máxima en un solo activo, lo que ayuda a diversificar el riesgo.\n\nLos principales activos en los que invierte el fondo Est Uf Iii son los instrumentos de deuda chilenos, como bonos corporativos y gubernamentales, así como acciones de empresas locales. Esto permite al fondo beneficiarse de la estabilidad de la economía chilena y diversificar el riesgo a través de diferentes sectores.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con caminar por una calle transitada: hay cierto riesgo de que ocurra algo inesperado, pero en general se considera seguro. Es importante tener en cuenta que, como en cualquier inversión, existe la posibilidad de que el valor de los activos fluctúe, pero la combinación de renta fija y variable ayuda a mitigar este riesgo.\n\nPara los jóvenes inversores chilenos, se recomienda un horizonte de inversión a medio y largo plazo. Dado el equilibrio entre renta fija y variable, este fondo es ideal para aquellos que buscan un crecimiento moderado con un nivel de riesgo controlado. Es importante tener paciencia y ser consciente de que los resultados pueden variar a lo largo del tiempo.\n\nEn cuanto a ventajas, el fondo Est Uf Iii ofrece una diversificación de activos chilenos y deuda, lo que puede reducir la volatilidad de la inversión. Sin embargo, es importante tener en cuenta que, debido a su enfoque mixto, es posible que no genere rendimientos tan altos como fondos más agresivos de renta variable. Es fundamental que los inversionistas evalúen sus objetivos y tolerancia al riesgo antes de invertir",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "10315-2",
+        "rut_admin": "96767630",
+        "nombre": "EST UF III",
+        "full_id": "96767630_10315-2",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "acc.sustentables",
+      "nombre": "Acc.Sustentables",
+      "nombre_cmf": "ACC.SUSTENTABLES",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "¡Claro! Aquí tienes una descripción del fondo Acc.Sustentables, diseñada para jóvenes inversores chilenos:\n\n**1. ¿Qué es Acc.Sustentables y cuál es su estrategia de inversión?**\nAcc.Sustentables es un fondo mutuo mixto que busca inversiones en empresas y bonos que promuevan la sostenibilidad y el cuidado del medio ambiente. Su estrategia consiste en diversificar su cartera entre acciones de empresas chilenas, bonos de deuda local y activos internacionales, manteniendo una proporción equilibrada para reducir el riesgo y potenciar las oportunidades de crecimiento a largo plazo.\n\n**2. ¿Para qué perfil de inversionista es adecuado?**\nEste fondo es ideal para inversores con un perfil de riesgo medio, que buscan un equilibrio entre la rentabilidad y la estabilidad de su inversión. Si estás interesado en apoyar empresas comprometidas con la sustentabilidad y prefieres un nivel de riesgo moderado, Acc.Sustentables puede ser una excelente opción para ti.\n\n**3. Principales activos en los que invierte**\nAcc.Sustentables invierte principalmente en acciones de empresas chilenas comprometidas con la sostenibilidad, bonos de deuda emitidos por entidades locales y algunos activos internacionales seleccionados. Por ejemplo, podría tener participaciones en empresas del sector de energías renovables en Chile, bonos verdes emitidos por el gobierno nacional, y acciones de compañías globales líderes en responsabilidad social corporativa.\n\n**4. Nivel de riesgo en términos simples**\nEn términos simples, el nivel de riesgo de Acc.Sustentables se considera medio. Esto significa que, si bien existe la posibilidad de obtener ganancias superiores a la media, también hay un riesgo moderado de que el valor de la inversión pueda fluctuar en el corto plazo. Sin embargo, al mantener una diversificación adecuada, se busca mitigar este riesgo y maximizar el potencial de crecimiento a largo plazo.\n\n**5. Horizonte de inversión recomendado**\nSe recomienda un horizonte de inversión a medio o largo plazo para Acc.Sustentables, ya que este fondo está diseñado para generar beneficios sostenibles a lo largo del tiempo. Si estás dispuesto a invertir tu dinero durante al menos 3 a 5 años, podrás aprovechar al máximo el potencial de crecimiento de las empresas sustentables en las que invierte el fondo.\n\nEn resumen, Acc.Sustentables es una opción atractiva para los jóvenes inversores chilenos que buscan combinar rentabilidad con impacto social y",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8822-6",
+        "rut_admin": "96767630",
+        "nombre": "ACC.SUSTENTABLES",
+        "full_id": "96767630_8822-6",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "bonos latam",
+      "nombre": "Bonos Latam",
+      "nombre_cmf": "BONOS LATAM",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo Bonos Latam es una opción de inversión mixta que busca combinar la estabilidad de los bonos con la posibilidad de obtener rendimientos adicionales a través de la inversión en activos latinoamericanos. Su estrategia se centra en mantener un 95% de su cartera en bonos, principalmente de Chile, con un enfoque en deuda, aplicando hasta un 50% en operaciones de compra y hasta un 30% en operaciones de venta.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan un equilibrio entre seguridad y potencial de crecimiento. Es ideal para aquellos que buscan diversificar su cartera con bonos de países latinoamericanos, como Chile, y que desean aprovechar las oportunidades de inversión en deuda.\n\nLos principales activos en los que invierte Bonos Latam son los bonos chilenos, representando el 83.4% de su cartera, y la deuda en general, que constituye el 80.1%. Estos activos ofrecen estabilidad y previsibilidad en los rendimientos, aunque también pueden estar sujetos a fluctuaciones en el mercado de deuda.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Si bien la inversión en bonos y deuda suele ser menos riesgosa que otras opciones, la exposición a activos latinoamericanos puede presentar cierta volatilidad. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles fluctuaciones en el valor de los activos.\n\nEl horizonte de inversión recomendado para Bonos Latam es a medio y largo plazo, ya que la estrategia del fondo se enfoca en obtener rendimientos sostenibles a lo largo del tiempo. Se recomienda a los inversionistas que tengan una visión a largo plazo y que estén dispuestos a mantener sus inversiones durante períodos prolongados para maximizar su potencial de crecimiento.\n\nEn resumen, Bonos Latam ofrece a los inversionistas la oportunidad de diversificar su cartera con bonos latinoamericanos, manteniendo un equilibrio entre seguridad y potencial de crecimiento. Si bien presenta un nivel de riesgo moderado, su enfoque a largo plazo puede ser atractivo para aquellos que buscan estabilidad y rentabilidad en sus inversiones. Es importante siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8502-2",
+        "rut_admin": "96767630",
+        "nombre": "BONOS LATAM",
+        "full_id": "96767630_8502-2",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "competitivo",
+      "nombre": "Competitivo",
+      "nombre_cmf": "COMPETITIVO",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo Competitivo es una excelente opción para aquellos inversores jóvenes que buscan un equilibrio entre riesgo y rendimiento. Este fondo pertenece a la categoría mixta, lo que significa que combina activos de renta fija y renta variable para diversificar el riesgo y buscar oportunidades de crecimiento a largo plazo.\n\nLa estrategia de inversión de Competitivo se enfoca en invertir principalmente en instrumentos financieros locales, con un enfoque significativo en bonos y acciones chilenas. Esto proporciona una exposición diversificada al mercado nacional, lo que puede ayudar a mitigar el riesgo asociado con la volatilidad de un solo activo.\n\nPara los inversionistas con un perfil de riesgo medio, este fondo puede ser una opción atractiva. Si bien existe la posibilidad de obtener rendimientos superiores a la media, también se debe considerar la posibilidad de fluctuaciones en el valor de la inversión. Es importante recordar que el riesgo y la rentabilidad van de la mano, por lo que es fundamental tener una visión a largo plazo y ser capaz de tolerar cierto grado de volatilidad en el corto plazo.\n\nEn términos simples, el nivel de riesgo de Competitivo se puede comparar con el de conducir un automóvil en una carretera con curvas: puede haber momentos de aceleración y desaceleración, pero si se mantiene una velocidad constante y se sigue el camino con cuidado, se puede llegar a destino de manera segura.\n\nEl horizonte de inversión recomendado para el fondo Competitivo es a medio y largo plazo, idealmente más de 3 años. Esto se debe a que, dado su enfoque en activos de renta variable y renta fija, puede llevar tiempo para que las inversiones maduren y generen rendimientos consistentes. Por lo tanto, es importante tener paciencia y mantener una visión a largo plazo para aprovechar al máximo el potencial de crecimiento.\n\nEn cuanto a las ventajas de este fondo, se destaca su diversificación a nivel local y su enfoque en un perfil de riesgo medio, lo que lo hace adecuado para inversores jóvenes que buscan un equilibrio entre riesgo y rendimiento. Sin embargo, una posible desventaja podría ser su exposición limitada a mercados internacionales, lo que podría limitar las oportunidades de crecimiento en entornos económicos globales más dinámicos.\n\nEn resumen, el fondo mutuo Competitivo es una opción atractiva para inversores jóvenes con un perfil de riesgo medio que buscan diversificar sus inversiones en el mercado chileno. Es importante",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8107-8",
+        "rut_admin": "96767630",
+        "nombre": "COMPETITIVO",
+        "full_id": "96767630_8107-8",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "perfil  a",
+      "nombre": "Perfil  A",
+      "nombre_cmf": "PERFIL  A",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo Perfil A es una excelente opción para aquellos inversores chilenos que buscan un equilibrio entre riesgo y rendimiento. Este fondo tiene un perfil de riesgo medio, lo que significa que combina inversiones en activos de renta fija y variable para diversificar y reducir la exposición a movimientos bruscos del mercado.\n\nLa estrategia de inversión de Perfil A se enfoca en mantener una composición diversificada en diferentes activos. En este caso, el fondo invierte principalmente en activos chilenos, especialmente en instrumentos de deuda, con un límite máximo de inversión del 30%. Esto permite al fondo aprovechar el potencial de crecimiento de la economía local mientras controla el riesgo a través de la inversión en instrumentos de renta fija.\n\nEste fondo es adecuado para inversores que buscan obtener rendimientos moderados sin asumir un nivel de riesgo excesivo. Es ideal para aquellos que tienen un horizonte de inversión a mediano plazo y están dispuestos a aceptar cierta volatilidad en el valor de sus inversiones.\n\nLos principales activos en los que invierte Perfil A incluyen bonos corporativos chilenos, bonos del gobierno y acciones de empresas locales. Esta combinación de activos busca generar un equilibrio entre estabilidad y potencial de crecimiento, lo que puede beneficiar a los inversionistas a lo largo del tiempo.\n\nEn términos simples, el nivel de riesgo de Perfil A se sitúa en un punto intermedio. Si bien existe la posibilidad de que el valor de las inversiones fluctúe en el corto plazo, la diversificación de los activos ayuda a mitigar este riesgo y a maximizar el potencial de retorno a largo plazo.\n\nSe recomienda a los inversionistas con un horizonte de inversión a mediano plazo, de al menos 3 a 5 años, considerar Perfil A como parte de su cartera. Es importante tener en cuenta que los fondos mutuos, incluido Perfil A, están sujetos a fluctuaciones del mercado y es fundamental mantener una visión a largo plazo para superar posibles periodos de volatilidad.\n\nEn resumen, Perfil A ofrece una opción atractiva para inversores que buscan un equilibrio entre riesgo y rendimiento. Si bien no está exento de riesgos, su estrategia diversificada y su enfoque en activos locales lo convierten en una alternativa interesante para aquellos que buscan crecimiento moderado a mediano plazo.",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8844-7",
+        "rut_admin": "96767630",
+        "nombre": "PERFIL  A",
+        "full_id": "96767630_8844-7",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "penta renta chile",
+      "nombre": "Penta Renta Chile",
+      "nombre_cmf": "PENTA RENTA CHILE",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo Penta Renta Chile es una opción mixta que combina tanto activos de renta fija como de renta variable en su cartera. Su estrategia de inversión busca obtener rendimientos atractivos a través de la diversificación en distintos mercados, lo que puede ayudar a reducir la volatilidad a la que está expuesto el fondo. Aunque la composición principal de sus activos no está disponible públicamente, se espera que invierta en una combinación de bonos, acciones y otros instrumentos financieros.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores rendimientos. Si eres joven y estás dispuesto a mantener tus inversiones a largo plazo, este fondo podría ser una buena opción para diversificar tu portafolio y potencialmente obtener retornos interesantes.\n\nEn cuanto al nivel de riesgo, en términos simples, este fondo se sitúa en un punto intermedio entre la seguridad de la renta fija y el mayor potencial de crecimiento de la renta variable. Aunque no ofrece garantías de rentabilidad, puede proporcionar un equilibrio entre riesgo y rendimiento para aquellos que buscan un crecimiento moderado de su capital.\n\nSe recomienda un horizonte de inversión a medio y largo plazo para el fondo Penta Renta Chile. Es importante tener en cuenta que, al tratarse de un fondo mixto, su desempeño puede variar en el corto plazo debido a las fluctuaciones de los mercados, pero a medida que se prolonga el tiempo de inversión, se espera que se alcancen resultados más consistentes.\n\nEntre las ventajas de este fondo se encuentran la diversificación que ofrece al invertir en distintos tipos de activos, lo que puede ayudar a reducir el riesgo total de la cartera. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de sus activos, lo que dificulta una evaluación detallada de su desempeño.\n\nEn resumen, el fondo Penta Renta Chile es una alternativa interesante para jóvenes inversionistas con un perfil de riesgo medio que buscan diversificar sus inversiones y obtener un equilibrio entre seguridad y potencial de crecimiento. Es importante recordar que toda inversión conlleva ciertos riesgos, por lo que es fundamental realizar un análisis personalizado de acuerdo a tus objetivos financieros y tolerancia al riesgo antes de tomar cualquier decisión.",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8312-7",
+        "rut_admin": "96767630",
+        "nombre": "PENTA RENTA CHILE",
+        "full_id": "96767630_8312-7",
+        "source": "javascript"
+      }
+    },
+    {
+      "fondo_id": "acciones usa",
+      "nombre": "Acciones Usa",
+      "nombre_cmf": "ACCIONES USA",
+      "tipo_fondo": "Agresivo",
+      "perfil_riesgo": "Alto",
+      "descripcion_amigable": "El fondo de inversión \"Acciones Usa\" es una opción agresiva destinada a aquellos inversores que buscan maximizar su rentabilidad a largo plazo asumiendo un alto nivel de riesgo. Su estrategia se centra en invertir principalmente en acciones de empresas estadounidenses, con un enfoque especial en el mercado chileno y en deuda corporativa. Esto significa que la mayor parte de los activos del fondo se encuentran en acciones de empresas de Estados Unidos, seguido de inversiones en Chile y en bonos corporativos.\n\nEste fondo es adecuado para inversores con un perfil de riesgo alto, es decir, aquellos dispuestos a soportar fluctuaciones significativas en el valor de su inversión a cambio de la posibilidad de obtener rendimientos más elevados. Si eres un inversor joven con un horizonte de inversión a largo plazo y una alta tolerancia al riesgo, este fondo podría ser una opción a considerar.\n\nEn cuanto al nivel de riesgo, es importante tener en cuenta que al ser un fondo agresivo, la volatilidad de los mercados puede afectar de manera significativa el valor de tus inversiones. Esto significa que podrías experimentar pérdidas importantes en el corto plazo, pero también tienes la oportunidad de obtener ganancias sustanciales a lo largo del tiempo si las inversiones tienen un buen desempeño.\n\nEl horizonte de inversión recomendado para este fondo es a largo plazo, ya que las inversiones en acciones tienden a ser más volátiles en el corto plazo, pero tienden a ofrecer mejores rendimientos a medida que el tiempo avanza. Por lo tanto, si estás dispuesto a mantener tu inversión durante varios años y a no dejarte llevar por las fluctuaciones del mercado, este fondo podría ser una buena opción para ti.\n\nEn cuanto a sus ventajas, el fondo \"Acciones Usa\" ofrece la posibilidad de obtener rendimientos atractivos gracias a su enfoque en acciones de empresas estadounidenses, que suelen tener un potencial de crecimiento elevado. Sin embargo, como desventaja, es importante tener en cuenta que este fondo conlleva un alto nivel de riesgo, por lo que es posible que experimentes pérdidas significativas en determinados momentos.\n\nEn resumen, el fondo de inversión \"Acciones Usa\" es una opción agresiva dirigida a inversores jóvenes con un alto nivel de tolerancia al riesgo y un horizonte de inversión a largo plazo. Si estás dispuesto a asumir la volatilidad del mercado y buscas obtener rendimientos atractivos, este fondo podría ser adecuado para ti. Recuerda siempre diversificar tu cartera y consultar con",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8205-8",
+        "rut_admin": "96767630",
+        "nombre": "ACCIONES USA",
+        "full_id": "96767630_8205-8",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "s&m cap latam",
+      "nombre": "S&M Cap Latam",
+      "nombre_cmf": "S&M CAP LATAM",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo S&M Cap Latam es una opción de inversión mixta que busca combinar la rentabilidad de acciones con la estabilidad de bonos y otros instrumentos de deuda. Su estrategia se enfoca en invertir principalmente en empresas de América Latina, con un enfoque especial en Chile. Además, destina un porcentaje significativo a instrumentos de deuda, lo que le brinda cierto nivel de seguridad en momentos de volatilidad en los mercados.\n\nEste fondo está dirigido a inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener rendimientos atractivos y la preservación del capital invertido. Es ideal para quienes buscan diversificar su cartera a través de una combinación de activos de distintas clases.\n\nLos principales activos en los que invierte el fondo S&M Cap Latam incluyen acciones de empresas latinoamericanas, con un enfoque particular en Chile, y bonos y otros instrumentos de deuda emitidos por entidades tanto públicas como privadas. Estos activos le proporcionan una exposición diversificada a diferentes sectores de la economía, lo que puede ayudar a mitigar el riesgo asociado a la inversión en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Si bien la inversión en acciones puede presentar cierta volatilidad a corto plazo, la presencia de instrumentos de deuda contribuye a suavizar esta fluctuación. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles pérdidas, especialmente en contextos adversos para los mercados financieros.\n\nPara aquellos que estén considerando invertir en el fondo S&M Cap Latam, se recomienda tener un horizonte de inversión a mediano o largo plazo. Dado su enfoque mixto y diversificado, es posible que los resultados más significativos se vean a lo largo del tiempo, a medida que los activos subyacentes maduran y generan rendimientos.\n\nEn resumen, el fondo S&M Cap Latam ofrece a los inversores la oportunidad de acceder a una cartera diversificada de acciones y bonos de América Latina, con un enfoque particular en Chile. Si bien su nivel de riesgo es moderado, se recomienda a los inversores con un perfil equilibrado que buscan obtener rendimientos atractivos con una cierta estabilidad en el valor de su inversión. Sin embargo, es importante recordar que ninguna inversión está libre de riesgos, por lo que se aconseja siempre consultar con un asesor financiero",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8968-0",
+        "rut_admin": "96767630",
+        "nombre": "S&M CAP LATAM",
+        "full_id": "96767630_8968-0",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "garantizado panda",
+      "nombre": "Garantizado Panda",
+      "nombre_cmf": "GARANTIZADO PANDA",
+      "tipo_fondo": "Conservador",
+      "perfil_riesgo": "Bajo",
+      "descripcion_amigable": "El fondo Garantizado Panda es una opción de inversión conservadora diseñada para aquellos inversores que buscan preservar su capital y obtener un rendimiento estable a lo largo del tiempo. Su estrategia de inversión se basa en la seguridad y la estabilidad, invirtiendo en activos de bajo riesgo que ofrecen una rentabilidad moderada. Este fondo es ideal para inversores con un perfil de riesgo bajo, que prefieren la seguridad sobre la posibilidad de obtener altas ganancias en el corto plazo.\n\nEn cuanto a los activos en los que invierte el fondo Garantizado Panda, la composición exacta no está disponible públicamente. Sin embargo, es común que este tipo de fondos conservadores inviertan en instrumentos financieros de renta fija, como bonos del Estado chileno o depósitos a plazo en instituciones financieras sólidas. Estos activos suelen ofrecer una rentabilidad predecible y estable en el tiempo, aunque menor en comparación con fondos de mayor riesgo.\n\nEn términos simples, el nivel de riesgo asociado con el fondo Garantizado Panda es bajo. Esto significa que las fluctuaciones en el valor de la inversión suelen ser mínimas, brindando una mayor tranquilidad a los inversores que prefieren evitar grandes riesgos. Si bien esto puede limitar el potencial de ganancias, también reduce la posibilidad de pérdidas significativas en momentos de volatilidad en los mercados financieros.\n\nPara aquellos jóvenes inversores chilenos que buscan una opción segura y estable para hacer crecer su dinero a largo plazo, el fondo Garantizado Panda puede ser una alternativa atractiva. Su horizonte de inversión recomendado es a medio y largo plazo, ya que su estrategia se enfoca en la preservación del capital y la obtención de rendimientos consistentes a lo largo del tiempo. Es importante tener en cuenta que, si bien este fondo ofrece seguridad, es probable que su rentabilidad sea más modesta en comparación con fondos de mayor riesgo.\n\nEn resumen, el fondo Garantizado Panda es una opción adecuada para inversores jóvenes que priorizan la estabilidad y la seguridad en sus inversiones a largo plazo. Si bien su rentabilidad puede ser más moderada, ofrece la tranquilidad de saber que su capital está protegido en un entorno de baja volatilidad. Como recomendación, es importante diversificar la cartera de inversiones y considerar este fondo como parte de una estrategia global que combine diferentes niveles de riesgo para maximizar el potencial de crecimiento a lo largo del tiempo.",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8505-7",
+        "rut_admin": "96767630",
+        "nombre": "GARANTIZADO PANDA",
+        "full_id": "96767630_8505-7",
+        "source": "javascript"
+      }
+    },
+    {
+      "fondo_id": "fm bci est. deu. cal",
+      "nombre": "Fm Bci Est. Deu. Cal",
+      "nombre_cmf": "FM BCI EST. DEU. CAL",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El Fondo Mutuo Bci Estabilidad Deuda Cal es una opción de inversión mixta que combina activos de renta fija chilenos y extranjeros, con el objetivo de obtener una rentabilidad estable en el mediano plazo. Su estrategia se centra en mantener un equilibrio entre diferentes tipos de activos, con un enfoque predominante en bonos de deuda tanto nacional como internacional. Esto significa que la mayor parte de los recursos del fondo se destinarán a instrumentos financieros de renta fija, lo que brinda seguridad y estabilidad a la inversión.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener rendimientos superiores a los de una inversión conservadora. Para aquellos jóvenes inversores que desean diversificar su cartera y obtener una rentabilidad moderada, este fondo puede ser una buena opción.\n\nLos principales activos en los que invierte el Fondo Mutuo Bci Estabilidad Deuda Cal son los bonos de deuda tanto emitidos por entidades chilenas como extranjeras. Esto significa que gran parte de los recursos se destinarán a financiar deudas de gobiernos, empresas o instituciones financieras, lo que otorga una seguridad adicional a la inversión. Sin embargo, es importante tener en cuenta que al concentrarse en este tipo de activos, la rentabilidad del fondo puede estar sujeta a las fluctuaciones de los mercados de deuda.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con caminar por una acera ancha y bien iluminada en lugar de aventurarse por un camino estrecho y con obstáculos. Aunque no es completamente libre de riesgos, al invertir en bonos de deuda, se reduce la exposición a la volatilidad del mercado de acciones, lo que lo convierte en una opción más estable pero no exenta de riesgos.\n\nEn cuanto al horizonte de inversión recomendado, este fondo es ideal para aquellos inversores que buscan mantener su inversión por un periodo de al menos uno a tres años. Esto permitirá que se aprovechen las características de estabilidad y potencial de crecimiento que ofrece, evitando los impactos a corto plazo de posibles fluctuaciones del mercado.\n\nEn resumen, el Fondo Mutuo Bci Estabilidad Deuda Cal ofrece una oportunidad de inversión equilibrada para jóvenes inversionistas chilenos que buscan diversificar su cartera y obtener una rentabilidad moderada. Aunque brinda seguridad y estabilidad a través de su enfoque en bonos de deuda, es",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "9981-3",
+        "rut_admin": "96767630",
+        "nombre": "FM BCI EST. DEU. CAL",
+        "full_id": "96767630_9981-3",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "top 50 dolar",
+      "nombre": "Top 50 Dolar",
+      "nombre_cmf": "TOP 50 DOLAR",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo Top 50 Dólar es una opción mixta que combina activos de renta fija y renta variable con el objetivo de lograr un equilibrio entre seguridad y potencial de crecimiento. Este fondo invierte en una selección diversificada de instrumentos financieros, buscando oportunidades tanto en el mercado local como internacional. Aunque la composición exacta de sus activos no está disponible públicamente, su enfoque diversificado suele ofrecer una protección adicional contra la volatilidad del mercado.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su capital y la posibilidad de obtener rendimientos atractivos a mediano plazo. Si bien no es tan conservador como un fondo de renta fija pura, tampoco es tan arriesgado como un fondo de renta variable pura. Por lo tanto, es ideal para jóvenes inversores que buscan crecimiento moderado con cierto margen de seguridad.\n\nEn términos simples, el nivel de riesgo del fondo Top 50 Dólar se encuentra en un punto intermedio en comparación con otros fondos disponibles en el mercado. Esto significa que, si bien existe la posibilidad de obtener rendimientos más altos que los fondos conservadores, también se asume un riesgo moderado de pérdida de capital. Es importante tener en cuenta que, en el mundo de las inversiones, el riesgo y la rentabilidad suelen estar estrechamente relacionados.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores mantengan su posición en el fondo Top 50 Dólar por al menos 3 a 5 años. Esto se debe a que, al tratarse de un fondo mixto, su desempeño puede variar en el corto plazo debido a fluctuaciones del mercado. Sin embargo, a medida que el tiempo pasa, se espera que la estrategia diversificada del fondo genere resultados más estables y consistentes.\n\nEn resumen, el fondo Top 50 Dólar ofrece a los jóvenes inversores chilenos la oportunidad de acceder a una cartera diversificada que busca un equilibrio entre seguridad y crecimiento. Si bien presenta un nivel de riesgo moderado, puede ser una opción atractiva para aquellos que buscan obtener rendimientos superiores a los de un fondo conservador sin exponerse a un riesgo excesivo. Es importante recordar que, como en toda inversión, es fundamental mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones del mercado a corto plazo. ¡Buena suerte en tu camino hacia la inversión financiera",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8341-0",
+        "rut_admin": "96767630",
+        "nombre": "TOP 50 DOLAR",
+        "full_id": "96767630_8341-0",
+        "source": "javascript"
+      }
+    },
+    {
+      "fondo_id": "investment d",
+      "nombre": "Investment D",
+      "nombre_cmf": "INVESTMENT D",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "¡Por supuesto! Aquí tienes una descripción clara y amigable del fondo Investment D para jóvenes inversores chilenos:\n\n1. Investment D es un fondo mutuo mixto que combina inversiones en acciones y bonos, con el objetivo de lograr un equilibrio entre rendimiento y riesgo. Su estrategia de inversión se centra en diversificar el portafolio principalmente en activos de Chile y deuda, con un enfoque conservador al aplicar al menos el 50% en estos instrumentos y manteniendo un límite máximo del 30% en inversiones más arriesgadas. Esta estrategia busca ofrecer estabilidad a los inversionistas a través de una combinación de activos que pueden tener distintos comportamientos en el mercado.\n\n2. Este fondo es adecuado para inversores con un perfil de riesgo medio que buscan un equilibrio entre seguridad y potencial de retorno. Si prefieres no asumir riesgos extremos, pero estás dispuesto a aceptar una cierta volatilidad en pos de mayores rendimientos, Investment D podría ser una opción a considerar en tu cartera de inversión.\n\n3. Los principales activos en los que invierte Investment D son empresas chilenas (83.4%) y bonos de deuda (80.1%). Al tener una fuerte exposición al mercado local, los movimientos económicos y políticos en Chile pueden influir en el desempeño del fondo. Esto significa que, si las empresas chilenas tienen un buen desempeño, el fondo también podría verse beneficiado, pero si la economía nacional enfrenta desafíos, el impacto podría reflejarse en el rendimiento del fondo.\n\n4. En términos simples, el nivel de riesgo de Investment D se considera medio. Esto significa que, si bien el fondo busca mantener cierta estabilidad a través de inversiones más seguras como bonos, la exposición a acciones y la dependencia del entorno económico chileno pueden generar cierta volatilidad en el valor de la inversión a corto plazo. Es importante tener en cuenta que, aunque el riesgo es moderado, no está exento de fluctuaciones en el mercado.\n\n5. El horizonte de inversión recomendado para Investment D es a medio y largo plazo. Dado su enfoque equilibrado y la diversificación de activos, los inversores deberían considerar mantener su inversión por un período de al menos 3 a 5 años para permitir que el fondo se ajuste a las condiciones del mercado y potencialmente obtenga mejores rendimientos.\n\nEn resumen, Investment D es un fondo mutuo mixto con una estrategia de inversión equilibrada que",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "9015-8",
+        "rut_admin": "96767630",
+        "nombre": "INVESTMENT D",
+        "full_id": "96767630_9015-8",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "bi liquidez",
+      "nombre": "Bi Liquidez",
+      "nombre_cmf": "BI LIQUIDEZ",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo Bi Liquidez:\n\nEl fondo Bi Liquidez es una opción de inversión mixta que busca combinar la estabilidad de la deuda con la posibilidad de obtener rendimientos adicionales a través de inversiones en instrumentos financieros. Su estrategia se centra en mantener un equilibrio entre activos de renta fija y variable, con un enfoque principalmente en el mercado chileno.\n\nEste fondo es ideal para inversores con un perfil de riesgo medio que buscan diversificar su cartera, ya que combina la seguridad de la inversión en deuda con la posibilidad de obtener retornos adicionales a través de inversiones en activos de renta variable. Es importante tener en cuenta que, si bien el nivel de riesgo es moderado, como en cualquier inversión, existen posibilidades de pérdida de capital.\n\nLos principales activos en los que invierte el fondo Bi Liquidez son principalmente instrumentos de deuda chilena, con un porcentaje significativo destinado a inversiones en el mercado local. Esto proporciona una cierta estabilidad a la cartera, aunque también limita en cierta medida la exposición a oportunidades internacionales.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que existe la posibilidad de obtener retornos superiores a la deuda tradicional, pero también implica un cierto grado de volatilidad en el valor de la inversión. Es importante estar preparado para posibles fluctuaciones en el valor del fondo a corto plazo, aunque a largo plazo se espera que genere rendimientos positivos.\n\nEn cuanto al horizonte de inversión recomendado, para aprovechar al máximo el potencial de este fondo, se aconseja mantener una perspectiva a mediano y largo plazo. Dado su enfoque mixto y la composición de su cartera, los inversores pueden beneficiarse más de mantener sus inversiones durante un período prolongado, permitiendo que la estrategia de inversión se desarrolle y genere rendimientos consistentes.\n\nEn resumen, el fondo Bi Liquidez ofrece a los inversores la oportunidad de diversificar su cartera con una combinación equilibrada de activos de renta fija y variable, adecuada para perfiles de riesgo moderado. Aunque presenta cierta volatilidad, puede ser una opción atractiva para aquellos que buscan un equilibrio entre seguridad y potencial de rendimiento. ¡Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión!",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "9690-3",
+        "rut_admin": "96767630",
+        "nombre": "BI LIQUIDEZ",
+        "full_id": "96767630_9690-3",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "capital trust chile",
+      "nombre": "Capital Trust Chile",
+      "nombre_cmf": "CAPITAL TRUST CHILE",
+      "tipo_fondo": "Conservador",
+      "perfil_riesgo": "Bajo",
+      "descripcion_amigable": "¡Claro! Aquí tienes una descripción del fondo Capital Trust Chile:\n\n**Capital Trust Chile es un fondo mutuo conservador diseñado para inversores que buscan preservar su capital a largo plazo con un riesgo bajo. Su estrategia de inversión se centra en activos de baja volatilidad y seguridad, como bonos gubernamentales y corporativos de alta calificación crediticia. Este fondo es ideal para inversores que prefieren una estrategia más defensiva y buscan un crecimiento estable en sus inversiones.**\n\nEn términos simples, el nivel de riesgo de este fondo es bajo, lo que significa que la posibilidad de pérdida de capital es reducida. Por ejemplo, si un inversor decide colocar parte de su dinero en Capital Trust Chile, es poco probable que experimente fluctuaciones bruscas en el valor de su inversión, ya que la mayoría de los activos en los que invierte son considerados seguros y estables.\n\n**En cuanto al horizonte de inversión recomendado, Capital Trust Chile es ideal para inversores a largo plazo que buscan una estrategia conservadora y no tienen prisa por obtener ganancias rápidas. Se sugiere mantener la inversión por un período de al menos 3 a 5 años para aprovechar al máximo los beneficios de este fondo.**\n\nAlgunas de las ventajas de invertir en Capital Trust Chile incluyen la seguridad y estabilidad que ofrece debido a su enfoque conservador, lo que lo convierte en una opción atractiva para inversores que buscan proteger su capital. Sin embargo, una posible desventaja podría ser que, al ser un fondo conservador, las oportunidades de obtener altos rendimientos a corto plazo pueden ser limitadas en comparación con fondos más arriesgados.\n\n**En resumen, este fondo es adecuado para inversores que priorizan la seguridad y estabilidad de sus inversiones a largo plazo. Si buscas preservar tu capital y estás dispuesto a asumir un riesgo bajo, Capital Trust Chile podría ser una opción a considerar en tu cartera de inversiones. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.**",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8527-8",
+        "rut_admin": "96767630",
+        "nombre": "CAPITAL TRUST CHILE",
+        "full_id": "96767630_8527-8",
+        "source": "javascript"
+      }
+    },
+    {
+      "fondo_id": "ahorro activo",
+      "nombre": "Ahorro Activo",
+      "nombre_cmf": "AHORRO ACTIVO",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo Ahorro Activo es una excelente opción para aquellos inversores jóvenes que buscan un equilibrio entre riesgo y retorno. Este fondo, de tipo mixto, invierte principalmente en activos nacionales, con un enfoque significativo en instrumentos de deuda, lo que le otorga estabilidad a la cartera.\n\nLa estrategia de inversión del fondo Ahorro Activo se basa en diversificar su cartera entre distintos activos, con un enfoque del 95% en Chile y un 80.1% en instrumentos de deuda. Esto significa que gran parte de los recursos se destinan a inversiones locales, lo cual puede ser ventajoso al tener un buen conocimiento del mercado chileno y sus condiciones económicas.\n\nEn términos simples, el nivel de riesgo de este fondo se considera medio, ya que si bien invierte una parte importante en deuda que suele ser menos volátil, también destina un porcentaje a instrumentos de mayor riesgo como acciones, lo que puede generar fluctuaciones en su valor.\n\nEste fondo es adecuado para inversores con un horizonte de inversión a medio plazo, que estén dispuestos a asumir cierto nivel de riesgo en busca de una rentabilidad potencialmente mayor. Idealmente, aquellos que buscan un equilibrio entre seguridad y crecimiento en sus inversiones podrían encontrar en Ahorro Activo una alternativa interesante.\n\nEn cuanto a la rentabilidad, en los últimos 12 meses el fondo ha tenido un rendimiento del 0.0926, lo que indica un desempeño positivo en ese período. Es importante recordar que la rentabilidad pasada no garantiza rendimientos futuros, por lo que es fundamental evaluar de manera continua la evolución del fondo.\n\nComo recomendación, es importante que los inversores jóvenes diversifiquen sus inversiones y mantengan un horizonte de inversión a largo plazo para aprovechar al máximo el potencial de crecimiento de fondos como Ahorro Activo. Sin embargo, es crucial monitorear de cerca el desempeño del fondo y ajustar la estrategia de inversión según las condiciones del mercado.",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8726-2",
+        "rut_admin": "96767630",
+        "nombre": "AHORRO ACTIVO",
+        "full_id": "96767630_8726-2",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "benefit",
+      "nombre": "Benefit",
+      "nombre_cmf": "BENEFIT",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo mutuo \"Benefit\" para jóvenes inversores chilenos:\n\n1. **Qué es este fondo y su estrategia de inversión:** El fondo mutuo \"Benefit\" es un fondo mixto que combina inversiones en distintos activos, como acciones, bonos y efectivo. Su objetivo es obtener un rendimiento atractivo a través de una diversificación adecuada, aprovechando las oportunidades que ofrecen diferentes clases de activos. Esto significa que tu dinero estará distribuido en distintas inversiones para reducir el riesgo y maximizar el potencial de ganancias.\n\n2. **Para qué perfil de inversionista es adecuado:** Este fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de riesgo a cambio de mayores posibilidades de rentabilidad. Si buscas un equilibrio entre seguridad y crecimiento de tu dinero, \"Benefit\" puede ser una buena opción para ti.\n\n3. **Principales activos en los que invierte:** Aunque la composición exacta no está disponible, el fondo \"Benefit\" probablemente invierte en una combinación de acciones de empresas locales e internacionales, bonos gubernamentales y corporativos, así como en instrumentos de mercado monetario. Esta diversificación ayuda a mitigar el riesgo asociado con la volatilidad de los mercados.\n\n4. **Nivel de riesgo en términos simples:** En términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Aunque existe la posibilidad de que el valor de tus inversiones fluctúe, la diversificación de activos busca minimizar ese riesgo en comparación con invertir en un solo tipo de activo, como solo acciones.\n\n5. **Horizonte de inversión recomendado:** Se recomienda tener un horizonte de inversión a mediano o largo plazo al invertir en el fondo \"Benefit\". Esto significa que debes estar dispuesto a mantener tus inversiones durante al menos algunos años para permitir que las estrategias del fondo se desarrollen y para superar posibles fluctuaciones a corto plazo en el mercado.\n\nEn resumen, el fondo mutuo \"Benefit\" es una opción atractiva para jóvenes inversores chilenos con un perfil de riesgo medio que buscan diversificar sus inversiones y obtener un crecimiento moderado de su dinero. Recuerda que, como en cualquier inversión, es importante entender tu tolerancia al riesgo y tus objetivos financieros antes de decidir en qué fondo invertir. ¡Buena suerte en tu camino hacia la inversión!",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "8080-2",
+        "rut_admin": "96767630",
+        "nombre": "BENEFIT",
+        "full_id": "96767630_8080-2",
+        "source": "javascript"
+      }
+    },
+    {
+      "fondo_id": "ca agresiva dólar",
+      "nombre": "Ca Agresiva Dólar",
+      "nombre_cmf": "CA AGRESIVA DÓLAR",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo Ca Agresiva Dólar es una excelente opción para aquellos inversores que buscan un equilibrio entre riesgo y potencial de ganancia. Como fondo mixto, combina inversiones en instrumentos de renta fija y variable, lo que le brinda flexibilidad para adaptarse a diversas condiciones del mercado. Su estrategia se enfoca en diversificar el portafolio, invirtiendo principalmente en activos locales como acciones chilenas y bonos de deuda, con una pequeña porción en activos extranjeros, especialmente en dólares. \n\nEste fondo es ideal para inversionistas con un perfil de riesgo medio, que buscan obtener rendimientos atractivos sin exponerse a riesgos extremos. Si bien tiene una exposición considerable a la deuda chilena, su diversificación en otros activos reduce en cierta medida la volatilidad. Es importante tener en cuenta que, al ser un fondo agresivo, puede experimentar fluctuaciones en su valor, por lo que es recomendable tener un horizonte de inversión a mediano o largo plazo para aprovechar su potencial de crecimiento.\n\nLos principales activos en los que invierte el fondo Ca Agresiva Dólar son acciones chilenas, bonos de deuda chilena y activos denominados en dólares. Por ejemplo, podría invertir en empresas líderes del mercado chileno como SQM o Enel, así como en bonos emitidos por el gobierno de Chile. La combinación de estos activos busca maximizar los rendimientos, aprovechando las oportunidades tanto en el mercado local como en el internacional.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con dar un paseo en montaña rusa: emocionante y con altibajos, pero con la posibilidad de alcanzar alturas emocionantes. Aunque su rentabilidad puede variar en el corto plazo debido a la volatilidad de los mercados, a largo plazo se espera que genere rendimientos atractivos para los inversores que estén dispuestos a asumir cierto nivel de riesgo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener una visión a largo plazo, de al menos 3 a 5 años, para permitir que el fondo alcance su máximo potencial de crecimiento. Es importante recordar que, en el mundo de las inversiones, la paciencia suele ser recompensada, y los altibajos a corto plazo son parte natural del proceso.\n\nEn resumen, el fondo Ca Agresiva Dólar ofrece una oportunidad atractiva para inversores con un perfil de riesgo medio que buscan diversificar su",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "10002-1",
+        "rut_admin": "96767630",
+        "nombre": "CA AGRESIVA DÓLAR",
+        "full_id": "96767630_10002-1",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "estruc ahorro+ uf ii",
+      "nombre": "Estruc Ahorro+ Uf Ii",
+      "nombre_cmf": "ESTRUC AHORRO+ UF II",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo Estruc Ahorro+ Uf II es una opción de inversión mixta en Chile que busca combinar activos de renta fija y renta variable para obtener un equilibrio entre seguridad y potencial de crecimiento. Su estrategia de inversión se enfoca en mantener un 95.0% de su cartera en Chile, de los cuales un 80.1% está en deuda y un 50.0% se aplica sobre un límite máximo del 30.0% de inversión. Esto significa que el fondo busca diversificar su cartera principalmente en activos chilenos, con un enfoque especial en deuda, limitando la exposición a ciertos sectores.\n\nEste fondo es adecuado para aquellos inversores jóvenes en Chile que buscan un equilibrio entre riesgo y rendimiento. Su perfil de riesgo medio sugiere que es una opción para quienes están dispuestos a asumir cierto nivel de volatilidad en busca de mayores rendimientos que los productos de renta fija tradicionales. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de la inversión.\n\nLos principales activos en los que invierte el fondo Estruc Ahorro+ Uf II se encuentran en el mercado chileno, con una fuerte presencia en instrumentos de deuda. Esto significa que gran parte de los recursos del fondo se destinan a bonos y otros instrumentos de renta fija emitidos en Chile, lo que puede ofrecer cierta estabilidad a la cartera, aunque también limita el potencial de crecimiento comparado con inversiones más arriesgadas en renta variable.\n\nEn términos simples, el nivel de riesgo de este fondo puede compararse con conducir a una velocidad moderada en una carretera bien pavimentada: existe la posibilidad de encontrar baches o curvas inesperadas, pero en general, se espera un viaje relativamente tranquilo. Es decir, el fondo puede experimentar fluctuaciones en su valor, pero se espera que mantenga un nivel de estabilidad general a lo largo del tiempo.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo mixto suele ser más adecuado para inversores a medio y largo plazo, ya que permite aprovechar el potencial de crecimiento a lo largo del tiempo, a la vez que ofrece cierta protección ante posibles fluctuaciones del mercado a corto plazo. Se recomienda a los inversores jóvenes que mantengan una visión a largo plazo y estén dispuestos a mantener su inversión durante varios años para aprovechar al máximo los beneficios de este tipo de fondo.\n\nEn resumen, el fondo Estruc Ahorro",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "10424-8",
+        "rut_admin": "96767630",
+        "nombre": "ESTRUC AHORRO+ UF II",
+        "full_id": "96767630_10424-8",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    },
+    {
+      "fondo_id": "liquidez vi",
+      "nombre": "Liquidez Vi",
+      "nombre_cmf": "LIQUIDEZ VI",
+      "tipo_fondo": "Mixto",
+      "perfil_riesgo": "Medio",
+      "descripcion_amigable": "El fondo mutuo Liquidez VI es una excelente opción para aquellos inversores que buscan una combinación equilibrada entre riesgo y rentabilidad. Este fondo, clasificado como mixto, invierte principalmente en instrumentos financieros de corto plazo, como bonos y letras de tesorería, con un enfoque significativo en el mercado chileno y en instrumentos de deuda. Su estrategia se centra en mantener un nivel de liquidez del 50%, lo que significa que al menos la mitad de sus activos están disponibles para ser convertidos en efectivo rápidamente, lo cual puede brindar cierta seguridad en caso de necesitar retirar fondos de manera urgente.\n\nEl perfil de riesgo de Liquidez VI se considera medio, lo que implica que si bien existe una posibilidad de obtener retornos superiores a la media del mercado, también conlleva un nivel de riesgo moderado. En términos simples, este fondo busca un equilibrio entre seguridad y potencial de crecimiento, lo que lo hace adecuado para inversores que buscan una inversión con cierta estabilidad, pero que están dispuestos a asumir un riesgo controlado en busca de mayores rendimientos.\n\nLos principales activos en los que invierte Liquidez VI se encuentran en el mercado chileno, con un enfoque en instrumentos de deuda. Esto significa que gran parte de los recursos del fondo se destinan a bonos emitidos por entidades públicas y privadas en Chile, lo que puede ofrecer una diversificación limitada pero una exposición significativa al mercado local.\n\nEn cuanto al horizonte de inversión recomendado, este fondo es ideal para inversores que buscan mantener su dinero invertido a mediano plazo, generalmente entre 1 a 3 años. Si bien su nivel de riesgo es moderado, es importante recordar que cualquier inversión tiene un componente de incertidumbre, por lo que es recomendable mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones a corto plazo del mercado.\n\nEn resumen, Liquidez VI es una opción atractiva para inversores jóvenes que buscan un equilibrio entre riesgo y rentabilidad. Sus principales ventajas radican en su enfoque en instrumentos de corto plazo y su nivel de liquidez, que brinda cierta flexibilidad en momentos de necesidad. Sin embargo, es importante tener en cuenta que al concentrarse en el mercado chileno y en deuda, la diversificación puede ser limitada. Se recomienda a los inversores que tengan un perfil moderado de riesgo y un horizonte de inversión a mediano plazo considerar este fondo como parte",
+      "composicion_portafolio": [
+        {
+          "activo": "que indica que el",
+          "porcentaje": 0.95
+        },
+        {
+          "activo": "Chile",
+          "porcentaje": 0.8343
+        },
+        {
+          "activo": "Deuda",
+          "porcentaje": 0.8009999999999999
+        },
+        {
+          "activo": "aplicará sobre el",
+          "porcentaje": 0.5
+        },
+        {
+          "activo": "manteniendo invertido como máximo el",
+          "porcentaje": 0.3
+        },
+        {
+          "activo": "Dólar",
+          "porcentaje": 0.2477
+        },
+        {
+          "activo": "Peso chileno",
+          "porcentaje": 0.20329999999999998
+        },
+        {
+          "activo": "Renta Var.",
+          "porcentaje": 0.1852
+        },
+        {
+          "activo": "ni aquellos para los cuales más del",
+          "porcentaje": 0.1
+        },
+        {
+          "activo": "EEUU",
+          "porcentaje": 0.0667
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0537
+        },
+        {
+          "activo": "Otros",
+          "porcentaje": 0.050499999999999996
+        },
+        {
+          "activo": "Brasil",
+          "porcentaje": 0.0332
+        },
+        {
+          "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+          "porcentaje": 0.033
+        },
+        {
+          "activo": "Meses",
+          "porcentaje": 0.0329
+        }
+      ],
+      "rentabilidad_anual": 0.0926,
+      "fuente_cmf": true,
+      "scraping_success": true,
+      "error": null,
+      "rut_cmf": null,
+      "rut_completo_cmf": null,
+      "url_cmf": null,
+      "cmf_fund_info": {
+        "rut_fondo": "10476-0",
+        "rut_admin": "96767630",
+        "nombre": "LIQUIDEZ VI",
+        "full_id": "96767630_10476-0",
+        "source": "javascript"
+      },
+      "horizonte_inversion": "Mediano Plazo",
+      "comision_administracion": 0.0151
+    }
+  ],
+  "fallidos": [
+    {
+      "fondo_id": "latina accionario",
+      "nombre": "FONDO MUTUO AMERICA LATINA ACCIONARIO",
+      "nombre_cmf": "",
+      "tipo_fondo": "",
+      "perfil_riesgo": "",
+      "descripcion_amigable": "",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": false,
+      "scraping_success": false,
+      "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
+      "symbol": "FFMM-BANCHILE-8086",
+      "category": "mutual_fund",
+      "currency": null,
+      "run": "8086-1",
+      "rut_base": "8086",
+      "conceptual_asset_id": "2090",
+      "data_source": "http://www.cmfchile.cl",
+      "series": [
+        {
+          "serie": "UNICA",
+          "name": "FONDO MUTUO AMERICA LATINA ACCIONARIO",
+          "symbol": "FFMM-BANCHILE-8086-UNICA",
+          "valor_cuota": null,
+          "fecha_valor_cuota": null,
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "F",
+          "name": "FONDO MUTUO AMERICA LATINA ACCIONARIO",
+          "symbol": "FFMM-BANCHILE-8086-F",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2008-08-05",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "APV",
+          "name": "FONDO MUTUO AMERICA LATINA ACCIONARIO",
+          "symbol": "FFMM-BANCHILE-8086-APV",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2011-11-25",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "I",
+          "name": "FONDO MUTUO AMERICA LATINA ACCIONARIO",
+          "symbol": "FFMM-BANCHILE-8086-I",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2011-11-25",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "A",
+          "name": "FONDO MUTUO AMERICA LATINA ACCIONARIO",
+          "symbol": "FFMM-BANCHILE-8086-A",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2014-03-27",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "B",
+          "name": "FONDO MUTUO AMERICA LATINA ACCIONARIO",
+          "symbol": "FFMM-BANCHILE-8086-B",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2014-03-27",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "C",
+          "name": "FONDO MUTUO AMERICA LATINA ACCIONARIO",
+          "symbol": "FFMM-BANCHILE-8086-C",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2014-03-27",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "E",
+          "name": "FONDO MUTUO AMERICA LATINA ACCIONARIO",
+          "symbol": "FFMM-BANCHILE-8086-E",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2014-03-27",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "S",
+          "name": "FONDO MUTUO AMERICA LATINA ACCIONARIO",
+          "symbol": "FFMM-BANCHILE-8086-S",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2014-03-27",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        }
+      ]
+    },
+    {
+      "fondo_id": "nominal",
+      "nombre": "FONDO MUTUO BANCHILE AHORRO NOMINAL",
+      "nombre_cmf": "",
+      "tipo_fondo": "",
+      "perfil_riesgo": "",
+      "descripcion_amigable": "",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": false,
+      "scraping_success": false,
+      "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
+      "symbol": "FFMM-BANCHILE-10802",
+      "category": "mutual_fund",
+      "currency": "CLP",
+      "run": "10802-2",
+      "rut_base": "10802",
+      "conceptual_asset_id": "8662",
+      "data_source": "http://www.cmfchile.cl",
+      "series": [
+        {
+          "serie": "BPLUS",
+          "name": "FONDO MUTUO BANCHILE AHORRO NOMINAL",
+          "symbol": "FFMM-BANCHILE-10802-BPLUS",
+          "valor_cuota": null,
+          "fecha_valor_cuota": null,
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "BCH",
+          "name": "FONDO MUTUO BANCHILE AHORRO NOMINAL",
+          "symbol": "FFMM-BANCHILE-10802-BCH",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "B",
+          "name": "FONDO MUTUO BANCHILE AHORRO NOMINAL",
+          "symbol": "FFMM-BANCHILE-10802-B",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "L",
+          "name": "FONDO MUTUO BANCHILE AHORRO NOMINAL",
+          "symbol": "FFMM-BANCHILE-10802-L",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "P1",
+          "name": "FONDO MUTUO BANCHILE AHORRO NOMINAL",
+          "symbol": "FFMM-BANCHILE-10802-P1",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        }
+      ]
+    },
+    {
+      "fondo_id": "renta corto plazo",
+      "nombre": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+      "nombre_cmf": "",
+      "tipo_fondo": "",
+      "perfil_riesgo": "",
+      "descripcion_amigable": "",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": false,
+      "scraping_success": false,
+      "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
+      "symbol": "FFMM-BANCHILE-8274",
+      "category": "mutual_fund",
+      "currency": "CLP",
+      "run": "8274-0",
+      "rut_base": "8274",
+      "conceptual_asset_id": "1768",
+      "data_source": "http://www.cmfchile.cl",
+      "series": [
+        {
+          "serie": "APVDIGITAL",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-APVDIGITAL",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "L",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-L",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "BCH",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-BCH",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "M",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-M",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "DIGITAL",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-DIGITAL",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "IT",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-IT",
+          "valor_cuota": null,
+          "fecha_valor_cuota": null,
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "UNICA",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-UNICA",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2007-06-30",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "A",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-A",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2020-02-18",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "B",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-B",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "P1",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-P1",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "E",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-E",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2020-02-18",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "BPLUS",
+          "name": "FONDO MUTUO BANCHILE RENTA CORTO PLAZO",
+          "symbol": "FFMM-BANCHILE-8274-BPLUS",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        }
+      ],
+      "fecha_valor_cuota": "2025-12-02"
+    },
+    {
+      "fondo_id": "corporate dollar",
+      "nombre": "FONDO MUTUO BANCHILE CORPORATE DOLLAR",
+      "nombre_cmf": "",
+      "tipo_fondo": "",
+      "perfil_riesgo": "",
+      "descripcion_amigable": "",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": false,
+      "scraping_success": false,
+      "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
+      "symbol": "FFMM-BANCHILE-8248",
+      "category": "mutual_fund",
+      "currency": "USD",
+      "run": "8248-1",
+      "rut_base": "8248",
+      "conceptual_asset_id": "1767",
+      "data_source": "http://www.cmfchile.cl",
+      "series": [
+        {
+          "serie": "A",
+          "name": "FONDO MUTUO BANCHILE CORPORATE DOLLAR",
+          "symbol": "FFMM-BANCHILE-8248-A",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "IE",
+          "name": "FONDO MUTUO BANCHILE CORPORATE DOLLAR",
+          "symbol": "FFMM-BANCHILE-8248-IE",
+          "valor_cuota": null,
+          "fecha_valor_cuota": null,
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "UNICA",
+          "name": "FONDO MUTUO BANCHILE CORPORATE DOLLAR",
+          "symbol": "FFMM-BANCHILE-8248-UNICA",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2018-08-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "P",
+          "name": "FONDO MUTUO BANCHILE CORPORATE DOLLAR",
+          "symbol": "FFMM-BANCHILE-8248-P",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "BPLUS",
+          "name": "FONDO MUTUO BANCHILE CORPORATE DOLLAR",
+          "symbol": "FFMM-BANCHILE-8248-BPLUS",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "BCH",
+          "name": "FONDO MUTUO BANCHILE CORPORATE DOLLAR",
+          "symbol": "FFMM-BANCHILE-8248-BCH",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "IT",
+          "name": "FONDO MUTUO BANCHILE CORPORATE DOLLAR",
+          "symbol": "FFMM-BANCHILE-8248-IT",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        }
+      ],
+      "fecha_valor_cuota": "2025-12-02"
+    },
+    {
+      "fondo_id": "asiatico",
+      "nombre": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+      "nombre_cmf": "",
+      "tipo_fondo": "",
+      "perfil_riesgo": "",
+      "descripcion_amigable": "",
+      "composicion_portafolio": [],
+      "rentabilidad_anual": null,
+      "fuente_cmf": false,
+      "scraping_success": false,
+      "error": "unsupported operand type(s) for +: 'NoneType' and 'str'",
+      "symbol": "FFMM-BANCHILE-8517",
+      "category": "mutual_fund",
+      "currency": "CLP",
+      "run": "8517-0",
+      "rut_base": "8517",
+      "conceptual_asset_id": "1617",
+      "data_source": "http://www.cmfchile.cl",
+      "series": [
+        {
+          "serie": "L",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-L",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "V",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-V",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "C",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-C",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2020-02-12",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "S",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-S",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2014-12-10",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "F",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-F",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2008-08-05",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "I",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-I",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2011-11-25",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "APV",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-APV",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2011-11-25",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "BPLUS",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-BPLUS",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "M",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-M",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "B",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-B",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "BCH",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-BCH",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2025-12-02",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "A",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-A",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2020-02-12",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        },
+        {
+          "serie": "E",
+          "name": "FONDO MUTUO BANCHILE ASIATICO EMERGENTE",
+          "symbol": "FFMM-BANCHILE-8517-E",
+          "valor_cuota": null,
+          "fecha_valor_cuota": "2020-02-12",
+          "patrimonio_total": null,
+          "patrimonio_neto": null,
+          "comision_administracion": null,
+          "comision_rescate": null,
+          "participes": null
+        }
+      ],
+      "fecha_valor_cuota": "2025-12-02"
+    }
+  ],
+  "resumen": {
+    "total": 1176,
+    "exitosos": 35,
+    "fallidos": 5
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "solvente bancoestado",
+  "nombre": "Solvente Bancoestado",
+  "nombre_cmf": "SOLVENTE BANCOESTADO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Solvente Bancoestado es una alternativa de inversión mixta que combina tanto activos de renta fija como de renta variable. Su estrategia busca obtener rendimientos atractivos en el mediano plazo, manteniendo un nivel de riesgo moderado. Este fondo es ideal para inversionistas que buscan un equilibrio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable.\n\nEn términos simples, un fondo mixto como Solvente Bancoestado invierte en una variedad de activos, lo que le permite diversificar el riesgo. Por ejemplo, parte de los recursos pueden estar destinados a bonos de empresas chilenas, mientras que otra parte se invierte en acciones de compañías locales o extranjeras. Esta diversificación ayuda a reducir la volatilidad del fondo y a mitigar las pérdidas en caso de que un tipo de activo no tenga un buen desempeño.\n\nEl nivel de riesgo de este fondo se considera medio, lo que significa que puede experimentar fluctuaciones en su valor, pero en menor medida que fondos de mayor riesgo. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles pérdidas. Por ello, es fundamental que el inversionista tenga un horizonte de inversión a mediano o largo plazo para permitir que el fondo se recupere de posibles caídas en el corto plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere un plazo de al menos 3 a 5 años para permitir que el fondo cumpla con su estrategia y se puedan capturar posibles ganancias a lo largo del tiempo. Es importante recordar que, en el mercado financiero, los resultados a corto plazo pueden ser volátiles, pero a largo plazo suelen suavizarse.\n\nEntre las ventajas de invertir en el fondo Solvente Bancoestado se encuentra la diversificación de activos, lo que puede reducir el riesgo global de la cartera. Sin embargo, una posible desventaja es que al combinar diferentes tipos de activos, la rentabilidad del fondo puede no ser tan alta como la de fondos más arriesgados que invierten exclusivamente en renta variable.\n\nEn resumen, el fondo mutuo Solvente Bancoestado es una opción atractiva para inversionistas con un perfil de riesgo moderado que buscan obtener rendimientos atractivos a mediano plazo. Es importante tener en cuenta la diversificación de activos, el horizonte de inversión recomendado y estar preparados para posibles fluctuaciones en el valor del fondo. Siempre es recomendable consultar con un asesor financ",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8319-4",
+    "rut_admin": "96767630",
+    "nombre": "SOLVENTE BANCOESTADO",
+    "full_id": "96767630_8319-4",
+    "source": "javascript"
+  }
+}

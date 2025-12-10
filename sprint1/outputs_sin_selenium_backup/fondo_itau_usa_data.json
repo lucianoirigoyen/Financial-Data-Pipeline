@@ -1,0 +1,23 @@
+{
+  "fondo_id": "itau usa",
+  "nombre": "Itau Usa",
+  "nombre_cmf": "ITAU USA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Itau USA es una opción de inversión mixta que combina activos de renta fija y renta variable en el mercado estadounidense. Su estrategia de inversión busca aprovechar las oportunidades de crecimiento en diferentes sectores de la economía de Estados Unidos, diversificando así el riesgo de la cartera.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener retornos atractivos y la tolerancia a posibles fluctuaciones en el valor de su inversión. Si eres un joven inversor que está dispuesto a asumir un nivel moderado de riesgo en busca de mayores rendimientos, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, aunque la composición principal no está disponible, se espera que el fondo tenga una diversificación entre acciones de empresas estadounidenses, bonos del gobierno y posiblemente otros instrumentos financieros. Esta diversificación puede ayudar a reducir el riesgo asociado a la volatilidad de los mercados.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que existe la posibilidad de obtener retornos superiores a los de una inversión conservadora, pero también conlleva la posibilidad de sufrir pérdidas temporales en el valor de la inversión. Es importante tener en cuenta que el riesgo está presente en cualquier inversión, y en este caso, se busca encontrar un equilibrio entre riesgo y retorno.\n\nSe recomienda un horizonte de inversión a medio o largo plazo para este tipo de fondo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Es importante mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones a corto plazo del mercado.\n\nEntre las ventajas de invertir en el fondo mutuo Itau USA se encuentran la diversificación internacional que ofrece, la posibilidad de acceder a empresas líderes en el mercado estadounidense y la gestión profesional de los activos por parte del equipo de expertos de Itaú. Sin embargo, es importante tener en cuenta que la rentabilidad pasada no garantiza resultados futuros y que el valor de la inversión puede fluctuar en función de las condiciones del mercado.\n\nEn resumen, el fondo mutuo Itau USA es una opción adecuada para jóvenes inversores con un perfil de riesgo medio que buscan diversificar su cartera a nivel internacional. Es importante mantener una visión a largo plazo y estar dispuesto a aceptar cierto nivel de riesgo en busca de mayores rend",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8233-3",
+    "rut_admin": "96767630",
+    "nombre": "ITAU USA",
+    "full_id": "96767630_8233-3",
+    "source": "javascript"
+  }
+}

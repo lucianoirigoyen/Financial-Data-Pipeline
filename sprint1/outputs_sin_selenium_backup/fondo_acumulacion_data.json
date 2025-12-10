@@ -1,0 +1,23 @@
+{
+  "fondo_id": "acumulacion",
+  "nombre": "Acumulacion",
+  "nombre_cmf": "ACUMULACION",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Acumulacion\" es una opción de inversión mixta que busca combinar diferentes activos para lograr un equilibrio entre rentabilidad y riesgo. Su estrategia de inversión se basa en diversificar el portafolio entre acciones, bonos y otros instrumentos financieros, con el objetivo de obtener rendimientos atractivos a mediano plazo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, para aquellos que buscan un equilibrio entre la posibilidad de obtener ganancias y la tolerancia a posibles pérdidas. Si eres un joven inversor chileno que está dispuesto a asumir cierto nivel de riesgo en busca de rentabilidad, el fondo \"Acumulacion\" puede ser una opción a considerar.\n\nEn cuanto a los principales activos en los que invierte, lamentablemente no disponemos de información detallada sobre la composición específica de la cartera de este fondo. Sin embargo, es probable que incluya una combinación de acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como otros instrumentos financieros diversificados.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que puede experimentar fluctuaciones en su valor, pero también ofrece la posibilidad de obtener rendimientos superiores a los de inversiones más conservadoras. Es importante tener en cuenta que el riesgo está presente en toda inversión y que es fundamental diversificar para mitigar posibles pérdidas.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores mantengan su dinero invertido en el fondo \"Acumulacion\" por al menos un periodo de tiempo medio a largo plazo, idealmente de tres a cinco años. Esto permitirá aprovechar el potencial de crecimiento de los activos en los que invierte el fondo y minimizar los efectos de la volatilidad a corto plazo en el mercado.\n\nEn resumen, el fondo mutuo \"Acumulacion\" es una alternativa interesante para jóvenes inversores chilenos que buscan diversificar su cartera y obtener rendimientos atractivos a mediano plazo. Si bien presenta un nivel de riesgo moderado, puede ser una opción atractiva para aquellos que están dispuestos a asumir cierta volatilidad en busca de mayores ganancias. Es importante recordar que antes de invertir, es fundamental realizar un análisis detallado de tus objetivos financieros y consultar con un asesor especializado para tomar decisiones informadas.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8061-6",
+    "rut_admin": "96767630",
+    "nombre": "ACUMULACION",
+    "full_id": "96767630_8061-6",
+    "source": "javascript"
+  }
+}

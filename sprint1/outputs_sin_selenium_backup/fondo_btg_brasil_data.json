@@ -1,0 +1,23 @@
+{
+  "fondo_id": "btg brasil",
+  "nombre": "Btg Brasil",
+  "nombre_cmf": "BTG BRASIL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro que sí! Aquí tienes la descripción del fondo de inversión \"Btg Brasil\":\n\n1. **Qué es este fondo y su estrategia de inversión:**\nEl fondo \"Btg Brasil\" es un fondo mutuo mixto que invierte tanto en acciones como en bonos en el mercado brasileño. Su principal objetivo es lograr un equilibrio entre la búsqueda de rentabilidad a través de la inversión en acciones y la estabilidad que ofrecen los bonos. Esto significa que combina activos de mayor y menor riesgo para diversificar la cartera y reducir la volatilidad.\n\n2. **Para qué perfil de inversionista es adecuado:**\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan un equilibrio entre la posibilidad de obtener ganancias atractivas y la protección de su capital. Es importante destacar que, al tratarse de un fondo mixto, es ideal para aquellos jóvenes inversores que desean diversificar su cartera sin asumir un riesgo extremadamente alto.\n\n3. **Principales activos en los que invierte:**\nAunque la composición principal del fondo no está disponible, se sabe que invierte en acciones y bonos del mercado brasileño. Esto significa que puede tener posiciones en empresas brasileñas cotizadas en la bolsa de valores y en bonos del gobierno brasileño u otras entidades.\n\n4. **Nivel de riesgo en términos simples:**\nEl nivel de riesgo de este fondo se considera medio, lo que implica que existe la posibilidad de fluctuaciones en el valor de la inversión a corto plazo. Sin embargo, al combinar activos de diferentes tipos, se busca reducir el impacto de las variaciones del mercado en la cartera. Es importante tener en cuenta que, a pesar de ser un fondo de riesgo moderado, no está exento de posibles pérdidas.\n\n5. **Horizonte de inversión recomendado:**\nSe recomienda a los inversores tener un horizonte de inversión a mediano o largo plazo al considerar este fondo. Dado que combina activos de renta variable y fija, es importante tener paciencia y mantener la inversión durante un periodo suficiente para que la estrategia del fondo pueda dar frutos.\n\n**Ventajas:**\n- Diversificación de la cartera a través de diferentes tipos de activos.\n- Potencial para obtener rendimientos atractivos.\n- Adecuado para inversores con un perfil moderado de riesgo.\n\n**Desventajas:**\n- Posibilidad de fluctuaciones en el valor de la inversión a corto plazo.\n- Rentabilidad variable y sujeta a las condiciones del mercado brasileño.\n\nEn res",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8575-8",
+    "rut_admin": "96767630",
+    "nombre": "BTG BRASIL",
+    "full_id": "96767630_8575-8",
+    "source": "javascript"
+  }
+}

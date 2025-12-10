@@ -1,0 +1,23 @@
+{
+  "fondo_id": "gestion flexible",
+  "nombre": "Gestion Flexible",
+  "nombre_cmf": "GESTION FLEXIBLE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Gestion Flexible es una opción de inversión mixta que combina activos de renta fija y renta variable, con el objetivo de maximizar el rendimiento a mediano plazo. Su estrategia se basa en adaptar la cartera a las condiciones del mercado, permitiendo al gestor ajustar la proporción de activos en función de las oportunidades que se presenten. Esto brinda flexibilidad y diversificación, lo que puede ayudar a mitigar riesgos y aprovechar potenciales ganancias.\n\nEste fondo suele ser adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener mayores rendimientos. Si bien no se conoce la composición principal de los activos en los que invierte Gestion Flexible, su mixtura entre renta fija y variable sugiere una estrategia diversificada que puede beneficiar a quienes desean un crecimiento moderado de su capital.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Aunque la renta fija proporciona estabilidad, la renta variable puede implicar fluctuaciones en el valor de la inversión. Por lo tanto, es importante que los inversionistas comprendan que, si bien pueden obtener mayores rendimientos, también existe la posibilidad de sufrir pérdidas temporales.\n\nEl horizonte de inversión recomendado para el fondo Gestion Flexible suele ser de mediano a largo plazo. Esto significa que los inversionistas deben estar dispuestos a mantener su dinero invertido por un periodo de tiempo considerable, permitiendo que la estrategia del fondo se desarrolle y se materialicen los potenciales beneficios.\n\nUna ventaja de este fondo es su capacidad para adaptarse a las condiciones del mercado, lo que puede ayudar a maximizar rendimientos. Sin embargo, una posible desventaja es la falta de transparencia en cuanto a la composición de activos, lo que podría generar incertidumbre en los inversionistas más conservadores.\n\nEn resumen, el fondo mutuo Gestion Flexible es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos equilibrados. Se recomienda a los jóvenes inversores chilenos que estén dispuestos a asumir cierto nivel de riesgo y que tengan un horizonte de inversión a mediano o largo plazo considerar este fondo como parte de su estrategia de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8813-7",
+    "rut_admin": "96767630",
+    "nombre": "GESTION FLEXIBLE",
+    "full_id": "96767630_8813-7",
+    "source": "javascript"
+  }
+}

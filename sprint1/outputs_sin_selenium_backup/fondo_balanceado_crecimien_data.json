@@ -1,0 +1,23 @@
+{
+  "fondo_id": "balanceado crecimien",
+  "nombre": "Balanceado Crecimien",
+  "nombre_cmf": "BALANCEADO CRECIMIEN",
+  "tipo_fondo": "Balanceado",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo Balanceado Crecimien:\n\nEl fondo Balanceado Crecimien es una opción de inversión que combina tanto activos de renta fija como de renta variable, buscando un equilibrio entre la estabilidad de los primeros y el potencial de crecimiento de los segundos. Su estrategia de inversión se enfoca en diversificar el portafolio, de manera que se minimicen los riesgos asociados a la volatilidad del mercado, al mismo tiempo que se busque obtener rendimientos atractivos a largo plazo.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su capital y la posibilidad de obtener ganancias atractivas. Es ideal para aquellos que desean obtener un crecimiento constante de su inversión sin asumir riesgos excesivos.\n\nDentro de los principales activos en los que invierte el fondo Balanceado Crecimien se encuentran bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos de deuda emitidos por el gobierno. Esta diversificación permite mitigar el impacto de posibles fluctuaciones en un solo tipo de activo, brindando mayor estabilidad al portafolio.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de caminar por una acera en una ciudad con desniveles leves. Aunque existen ciertos riesgos asociados a las fluctuaciones del mercado, se busca mantener un equilibrio que permita obtener rendimientos consistentes sin exponer el capital a riesgos demasiado elevados.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversionistas consideren un plazo de al menos 3 a 5 años para poder aprovechar al máximo las oportunidades de crecimiento y compensar posibles fluctuaciones a corto plazo en el mercado.\n\nAlgunas ventajas de este fondo incluyen la diversificación de activos, que reduce el riesgo asociado a la volatilidad del mercado, y la posibilidad de obtener rendimientos atractivos a largo plazo. Sin embargo, una posible desventaja podría ser que, al tener una exposición a diferentes tipos de activos, los rendimientos podrían no ser tan altos como en fondos de mayor riesgo.\n\nEn resumen, el fondo Balanceado Crecimien es una excelente opción para inversionistas con un perfil de riesgo medio que buscan un equilibrio entre estabilidad y crecimiento en sus inversiones a largo plazo. Se recomienda a aquellos que desean diversificar su portafolio y obtener rendimientos consistentes sin asumir ries",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8310-0",
+    "rut_admin": "96767630",
+    "nombre": "BALANCEADO CRECIMIEN",
+    "full_id": "96767630_8310-0",
+    "source": "javascript"
+  }
+}

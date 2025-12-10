@@ -1,0 +1,23 @@
+{
+  "fondo_id": "santander deudadólar",
+  "nombre": "Santander Deudadólar",
+  "nombre_cmf": "SANTANDER DEUDADÓLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Santander Deudadólar es una opción de inversión mixta que combina activos de renta fija y renta variable, con el objetivo de buscar un equilibrio entre rendimiento y riesgo. Su estrategia de inversión se basa en diversificar el portafolio para aprovechar oportunidades en diferentes mercados y sectores, lo que puede ayudar a mitigar posibles pérdidas en momentos de volatilidad.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la generación de retornos y la preservación del capital invertido. Si bien no se dispone de información detallada sobre la composición principal del fondo, se espera que invierta tanto en bonos como en acciones, lo que le otorga cierta flexibilidad para adaptarse a las condiciones del mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que implica que puede experimentar fluctuaciones en su valor, pero generalmente en menor medida que fondos de mayor riesgo. Es importante entender que toda inversión conlleva riesgos, por lo que es fundamental tener claridad sobre las expectativas de rendimiento y la capacidad de asumir posibles pérdidas.\n\nEl horizonte de inversión recomendado para el fondo Santander Deudadólar es a mediano o largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Es importante tener paciencia y no dejarse llevar por movimientos a corto plazo, ya que la verdadera rentabilidad de este tipo de fondos se materializa con el tiempo.\n\nEntre las ventajas de este fondo se encuentran su diversificación, que puede reducir el impacto de eventos adversos en un solo mercado, y su potencial de crecimiento a largo plazo. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que puede dificultar la evaluación detallada de los activos en los que se invierte.\n\nEn resumen, el fondo Santander Deudadólar es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su portafolio a través de una combinación de activos de renta fija y renta variable. Se recomienda a aquellos inversores que buscan un equilibrio entre riesgo y retorno, y que tienen un horizonte de inversión a mediano o largo plazo. Siempre es importante consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9490-0",
+    "rut_admin": "96767630",
+    "nombre": "SANTANDER DEUDADÓLAR",
+    "full_id": "96767630_9490-0",
+    "source": "javascript"
+  }
+}

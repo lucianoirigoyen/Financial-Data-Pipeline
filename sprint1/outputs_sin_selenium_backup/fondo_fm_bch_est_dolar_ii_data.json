@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch est dolar ii",
+  "nombre": "Fm Bch Est Dolar Ii",
+  "nombre_cmf": "FM BCH EST DOLAR II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo de inversión Fm Bch Est Dolar II:\n\nEl Fondo Mutuo Bch Est Dolar II es un fondo mixto que combina inversiones en instrumentos de renta fija y renta variable, con el objetivo de obtener rendimientos atractivos a mediano plazo. Su estrategia de inversión busca diversificar el riesgo al invertir en diferentes activos, lo que puede ayudar a reducir la volatilidad de la inversión.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de riesgo en busca de mayores retornos, pero que también valoran la estabilidad en sus inversiones. Es importante tener en cuenta que, al tratarse de un fondo mixto, la rentabilidad puede variar dependiendo de las condiciones del mercado.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible, pero se espera que el fondo diversifique su cartera entre bonos, acciones y otros instrumentos financieros, tanto locales como internacionales. Esta diversificación puede contribuir a mitigar los riesgos asociados con la volatilidad de los mercados.\n\nEn términos simples, el nivel de riesgo de este fondo puede compararse con el de caminar por una calle transitada en lugar de una calle desierta. Si bien puede haber altibajos en el camino, la diversificación de activos busca suavizar esos movimientos y brindar una trayectoria más predecible.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bch Est Dolar II es a mediano plazo, lo que significa que los inversionistas deberían tener un horizonte temporal de al menos 3 a 5 años. Esto permite que las inversiones tengan tiempo suficiente para madurar y potencialmente superar las fluctuaciones a corto plazo del mercado.\n\nEn cuanto a las ventajas, la diversificación del fondo puede ayudar a reducir el riesgo de pérdida en comparación con invertir en un solo activo. Sin embargo, una posible desventaja es la falta de transparencia en la composición exacta de la cartera, lo que puede dificultar la evaluación precisa de los riesgos.\n\nEn resumen, el Fondo Mutuo Bch Est Dolar II es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar sus inversiones a través de un fondo mixto. Se recomienda a aquellos que buscan un equilibrio entre riesgo y retorno a mediano plazo y que están dispuestos a aceptar cierta volatilidad en sus inversiones.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10556-2",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH EST DOLAR II",
+    "full_id": "96767630_10556-2",
+    "source": "javascript"
+  }
+}

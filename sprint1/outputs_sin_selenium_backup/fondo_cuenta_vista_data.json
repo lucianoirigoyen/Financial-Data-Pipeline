@@ -1,0 +1,23 @@
+{
+  "fondo_id": "cuenta vista",
+  "nombre": "Cuenta Vista",
+  "nombre_cmf": "CUENTA VISTA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Cuenta Vista\" es una opción atractiva para aquellos inversores que buscan diversificar su cartera de manera equilibrada. Se clasifica como un fondo mixto, lo que significa que combina activos de renta fija y renta variable para buscar un rendimiento moderado a mediano plazo. Aunque la composición exacta de sus principales activos no está disponible de manera pública, se espera que mantenga una distribución adecuada entre distintos instrumentos financieros para mitigar el riesgo y potenciar la rentabilidad.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener ganancias atractivas. Si eres un joven inversor en Chile con una tolerancia moderada al riesgo y un horizonte de inversión a mediano plazo, \"Cuenta Vista\" podría ser una alternativa interesante para diversificar tus activos.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, es probable que \"Cuenta Vista\" tenga una combinación de bonos, acciones y otros instrumentos financieros. Esto le permite aprovechar las oportunidades tanto en el mercado de deuda como en el mercado de valores, diversificando el riesgo y potenciando la rentabilidad. Al invertir en una variedad de activos, el fondo busca minimizar la exposición a movimientos bruscos en un solo mercado.\n\nEn términos simples, el nivel de riesgo de \"Cuenta Vista\" se sitúa en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Si bien puede experimentar fluctuaciones en su valor, la diversificación de activos busca suavizar los impactos negativos y maximizar las oportunidades de retorno a largo plazo.\n\nPara maximizar los beneficios de este fondo, se recomienda un horizonte de inversión a mediano plazo, generalmente entre 3 y 5 años. Esto proporciona el tiempo suficiente para que la estrategia del fondo se desarrolle y se refleje en su rentabilidad, permitiendo al inversor aprovechar al máximo las oportunidades de crecimiento.\n\nEn resumen, \"Cuenta Vista\" es una opción atractiva para inversionistas jóvenes en Chile que buscan diversificar su cartera de manera equilibrada. Su enfoque mixto, combinado con un nivel de riesgo moderado, lo convierte en una alternativa interesante para aquellos que buscan un equilibrio entre seguridad y potencial de retorno. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8060-8",
+    "rut_admin": "96767630",
+    "nombre": "CUENTA VISTA",
+    "full_id": "96767630_8060-8",
+    "source": "javascript"
+  }
+}

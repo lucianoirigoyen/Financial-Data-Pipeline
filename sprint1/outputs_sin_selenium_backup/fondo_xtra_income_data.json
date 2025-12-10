@@ -1,0 +1,23 @@
+{
+  "fondo_id": "xtra income",
+  "nombre": "Xtra Income",
+  "nombre_cmf": "XTRA INCOME",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo mutuo Xtra Income para jóvenes inversores chilenos:\n\nEl fondo mutuo Xtra Income es una opción de inversión mixta adecuada para aquellos inversores con un perfil de riesgo medio que buscan obtener un equilibrio entre rentabilidad y seguridad. Este fondo adopta una estrategia de inversión diversificada, invirtiendo en una combinación de activos de renta fija y variable para maximizar el potencial de generación de ingresos a lo largo del tiempo.\n\nPara los jóvenes inversores chilenos que buscan construir un portafolio sólido y diversificado, el Xtra Income puede ser una excelente opción. Su nivel de riesgo moderado lo hace adecuado para aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener rendimientos atractivos en el mediano plazo.\n\nEn cuanto a los activos en los que invierte, el fondo Xtra Income no especifica su composición principal, lo que puede limitar la transparencia para algunos inversores. Sin embargo, suele diversificar su cartera entre bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos del mercado monetario.\n\nEn términos simples, el nivel de riesgo del fondo Xtra Income se sitúa en un punto intermedio en comparación con otros fondos disponibles en el mercado. Esto significa que, si bien existe la posibilidad de obtener rendimientos superiores a la media, también conlleva un cierto grado de volatilidad que puede afectar el valor de la inversión en el corto plazo.\n\nPara aprovechar al máximo las ventajas de este fondo mutuo, se recomienda a los inversores jóvenes mantener un horizonte de inversión a medio y largo plazo, lo que les permitirá superar posibles fluctuaciones del mercado y beneficiarse de la estrategia diversificada del Xtra Income.\n\nEn resumen, el fondo mutuo Xtra Income ofrece a los jóvenes inversores chilenos la oportunidad de acceder a una cartera diversificada y equilibrada, con un nivel de riesgo moderado que puede ser adecuado para aquellos que buscan generar ingresos a lo largo del tiempo. Sin embargo, la falta de transparencia en cuanto a su composición principal puede ser una desventaja para algunos inversores que prefieren conocer en detalle dónde se está invirtiendo su dinero. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8291-0",
+    "rut_admin": "96767630",
+    "nombre": "XTRA INCOME",
+    "full_id": "96767630_8291-0",
+    "source": "javascript"
+  }
+}

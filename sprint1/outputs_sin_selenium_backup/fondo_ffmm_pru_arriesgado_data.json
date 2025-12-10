@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ffmm pru arriesgado",
+  "nombre": "Ffmm Pru Arriesgado",
+  "nombre_cmf": "FFMM PRU ARRIESGADO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Pru Arriesgado es una alternativa de inversión mixta que busca combinar activos de renta fija y renta variable para obtener un rendimiento atractivo a mediano plazo. Su estrategia se enfoca en diversificar la cartera de inversiones para mitigar riesgos y aprovechar oportunidades de crecimiento en diferentes mercados.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, que buscan obtener un equilibrio entre seguridad y potencial de rentabilidad. Si estás dispuesto a asumir un cierto nivel de riesgo en busca de mayores retornos, este fondo podría ser una opción interesante para ti.\n\nEn términos simples, el Ffmm Pru Arriesgado invierte en una variedad de activos, tales como bonos, acciones, y otros instrumentos financieros. Esta diversificación ayuda a reducir la exposición a riesgos específicos y a aprovechar el crecimiento potencial de diferentes sectores de la economía.\n\nEn cuanto al nivel de riesgo, es importante tener en cuenta que al ser un fondo mixto, la volatilidad de los mercados puede influir en su desempeño. Sin embargo, al tener una combinación de activos, se busca minimizar el impacto de eventos adversos en un solo tipo de inversión.\n\nEl horizonte de inversión recomendado para el Ffmm Pru Arriesgado es a mediano plazo, lo que significa que se esperan resultados positivos después de un periodo de al menos un par de años. Es importante tener paciencia y mantener una visión a largo plazo para permitir que la estrategia de inversión del fondo dé sus frutos.\n\nUna ventaja de este fondo es la diversificación que ofrece, lo que puede ayudar a reducir la exposición a riesgos específicos y a suavizar la volatilidad de la cartera. Sin embargo, una posible desventaja es que al combinar diferentes tipos de activos, los retornos podrían no ser tan altos como los de fondos más arriesgados que invierten solo en renta variable, por ejemplo.\n\nEn resumen, el Ffmm Pru Arriesgado es un fondo mixto adecuado para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener un equilibrio entre seguridad y potencial de rentabilidad a mediano plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10729-8",
+    "rut_admin": "96767630",
+    "nombre": "FFMM PRU ARRIESGADO",
+    "full_id": "96767630_10729-8",
+    "source": "javascript"
+  }
+}

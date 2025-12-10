@@ -1,0 +1,23 @@
+{
+  "fondo_id": "monetario xviii",
+  "nombre": "Monetario Xviii",
+  "nombre_cmf": "MONETARIO XVIII",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Monetario Xviii es una opción de inversión mixta que combina distintos activos para buscar un equilibrio entre rentabilidad y riesgo. Su estrategia se enfoca en invertir en instrumentos financieros que proveen liquidez a corto plazo, lo que lo convierte en una alternativa interesante para aquellos inversionistas que buscan una inversión segura y con cierto potencial de rentabilidad. Aunque la composición exacta del fondo no está disponible, su enfoque mixto sugiere que podría estar distribuido entre instrumentos de renta fija y posiblemente algunos instrumentos de renta variable de bajo riesgo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener un rendimiento superior al de inversiones más conservadoras. Si bien el riesgo asociado a este fondo no es tan alto como en fondos de renta variable pura, tampoco es tan bajo como en fondos exclusivamente de renta fija. Por lo tanto, es importante que el inversionista esté dispuesto a asumir cierto grado de volatilidad en busca de una mayor rentabilidad.\n\nEn cuanto a los activos en los que invierte el fondo Monetario Xviii, como mencionamos anteriormente, su composición exacta no está especificada. Sin embargo, es probable que esté compuesto por instrumentos como depósitos a plazo, bonos corporativos de corto plazo y posiblemente acciones de empresas con perfiles de riesgo moderado. Estos activos proporcionan al fondo una diversificación que busca mitigar el riesgo inherente a cada uno de ellos.\n\nEn términos simples, el nivel de riesgo de este fondo puede compararse con caminar por una calle con algunos obstáculos en lugar de hacerlo por un terreno completamente llano. Existe la posibilidad de encontrar pequeños desafíos en el camino, pero en general, se espera que la trayectoria sea relativamente estable y predecible.\n\nEl horizonte de inversión recomendado para el fondo Monetario Xviii es a medio plazo, es decir, entre uno y tres años. Esto se debe a que, al tratarse de un fondo mixto, se espera que genere rendimientos de manera constante en este periodo, permitiendo al inversionista alcanzar sus objetivos financieros a un plazo razonable.\n\nEn resumen, el fondo Monetario Xviii es una opción interesante para inversionistas con un perfil de riesgo medio que buscan una inversión equilibrada entre seguridad y potencial de rentabilidad a corto y medio pl",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9065-4",
+    "rut_admin": "96767630",
+    "nombre": "MONETARIO XVIII",
+    "full_id": "96767630_9065-4",
+    "source": "javascript"
+  }
+}

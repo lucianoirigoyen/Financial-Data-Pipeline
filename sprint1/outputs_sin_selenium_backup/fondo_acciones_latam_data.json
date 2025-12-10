@@ -1,0 +1,23 @@
+{
+  "fondo_id": "acciones latam",
+  "nombre": "Acciones Latam",
+  "nombre_cmf": "ACCIONES LATAM",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "¡Claro que sí! Aquí tienes la descripción del fondo de inversión Acciones Latam, diseñada especialmente para jóvenes inversores chilenos.\n\n1. **¿Qué es el fondo Acciones Latam y cuál es su estrategia de inversión?**\nAcciones Latam es un fondo mutuo de tipo agresivo que invierte en acciones de empresas latinoamericanas. Su estrategia se centra en obtener altas rentabilidades a largo plazo a través de la compra y venta de acciones en mercados emergentes de la región latinoamericana.\n\n2. **¿Para qué perfil de inversionista es adecuado?**\nEste fondo es ideal para inversores con un perfil de riesgo alto, es decir, aquellos dispuestos a asumir volatilidad en sus inversiones a cambio de la posibilidad de obtener mayores rendimientos en el futuro. Si estás dispuesto a aceptar fluctuaciones en el valor de tu inversión a corto plazo en busca de un crecimiento significativo a largo plazo, este fondo puede ser adecuado para ti.\n\n3. **¿En qué principales activos invierte el fondo Acciones Latam?**\nAcciones Latam invierte principalmente en acciones de empresas latinoamericanas, lo que le brinda exposición a diversos sectores como tecnología, energía, finanzas, entre otros. Algunas de las empresas en las que podría invertir son grandes compañías como MercadoLibre, Petrobras o Cencosud.\n\n4. **¿Cuál es el nivel de riesgo en términos simples?**\nEl nivel de riesgo de Acciones Latam es alto debido a la naturaleza agresiva de su estrategia de inversión. Esto significa que las fluctuaciones en el valor de la inversión pueden ser significativas en el corto plazo, pero también existe el potencial de obtener retornos atractivos a largo plazo.\n\n5. **¿Cuál es el horizonte de inversión recomendado?**\nSe recomienda tener un horizonte de inversión a largo plazo al considerar Acciones Latam, ya que las inversiones en acciones pueden experimentar altibajos en el corto plazo. Idealmente, se aconseja mantener la inversión por al menos 5 años para permitir que la estrategia del fondo se desarrolle y se materialice.\n\nEn resumen, Acciones Latam es un fondo mutuo agresivo que busca obtener altas rentabilidades a largo plazo a través de la inversión en acciones de empresas latinoamericanas. Aunque ofrece la posibilidad de obtener rendimientos atractivos, es importante recordar que este tipo de inversión conlleva un mayor nivel de riesgo. Por lo tanto, es fundamental que los",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9926-0",
+    "rut_admin": "96767630",
+    "nombre": "ACCIONES LATAM",
+    "full_id": "96767630_9926-0",
+    "source": "javascript"
+  }
+}

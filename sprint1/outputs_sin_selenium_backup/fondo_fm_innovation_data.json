@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm innovation",
+  "nombre": "Fm Innovation",
+  "nombre_cmf": "FM INNOVATION",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Innovation (Fm Innovation) es una opción mixta de inversión que combina activos de renta fija y renta variable con el objetivo de obtener un balance entre rentabilidad y riesgo. Este fondo busca aprovechar oportunidades de crecimiento en diferentes mercados, diversificando así el riesgo de la inversión.\n\nEste tipo de fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener mayores rendimientos y la exposición a cierto nivel de riesgo. Si eres un joven inversor con horizonte de inversión a medio plazo y estás dispuesto a asumir cierto riesgo en busca de mayores ganancias, este fondo podría ser una opción adecuada para ti.\n\nEn cuanto a los activos en los que invierte, la composición exacta de Fm Innovation no está disponible públicamente, pero suele diversificar su cartera en acciones, bonos y otros instrumentos financieros. Esto permite una exposición a diferentes sectores y geografías, lo que puede contribuir a reducir la volatilidad de la inversión.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con conducir a una velocidad moderada en una autopista bien mantenida: hay cierto riesgo de imprevistos, pero también la posibilidad de avanzar más rápido hacia tu destino. Es decir, existe la posibilidad de que el valor de tu inversión fluctúe, pero en un rango que no debería ser excesivamente alto ni bajo.\n\nSe recomienda un horizonte de inversión a mediano plazo para este fondo, es decir, al menos 3 a 5 años. Esto se debe a que, al combinar activos de distintas categorías, Fm Innovation puede requerir tiempo para mostrar su verdadero potencial de rentabilidad y superar posibles fluctuaciones a corto plazo.\n\nUna ventaja de este tipo de fondo es la diversificación que ofrece, lo que puede ayudar a reducir el riesgo al distribuir la inversión en diferentes activos. Sin embargo, una posible desventaja es que, al no tener visibilidad sobre la composición exacta de la cartera, los inversionistas pueden sentir cierta incertidumbre sobre dónde se está invirtiendo su dinero.\n\nEn resumen, el Fondo Mutuo Innovation es una opción mixta que puede resultar atractiva para jóvenes inversionistas con un perfil de riesgo medio y un horizonte de inversión a mediano plazo. Si estás dispuesto a asumir cierto nivel de riesgo en búsqueda de potenciales ganancias, este fondo podría ser una alternativa a considerar en tu",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10085-4",
+    "rut_admin": "96767630",
+    "nombre": "FM INNOVATION",
+    "full_id": "96767630_10085-4",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci estruc uf mas",
+  "nombre": "Fm Bci Estruc Uf Mas",
+  "nombre_cmf": "FM BCI ESTRUC UF MAS",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Estruc Uf Mas es una opción de inversión mixta que combina tanto activos de renta fija como variable, con el objetivo de diversificar el riesgo y buscar un equilibrio entre seguridad y potencial de crecimiento. Esta estrategia de inversión busca aprovechar las oportunidades que ofrecen distintos tipos de activos, adaptándose a las condiciones del mercado para maximizar el rendimiento.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan obtener un retorno superior a la inflación a largo plazo sin asumir riesgos excesivos. Es ideal para jóvenes que están dispuestos a aceptar cierto nivel de volatilidad en su cartera a cambio de mayores posibilidades de rentabilidad.\n\nEn cuanto a los activos en los que invierte, al no contar con información específica sobre su composición principal, podemos inferir que probablemente esté distribuido en instrumentos como bonos, acciones y otros valores, tanto locales como internacionales, con el objetivo de diversificar el riesgo y aprovechar las oportunidades de distintos mercados.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que puede experimentar cierta volatilidad en su valor, pero sin llegar a ser tan arriesgado como otros fondos de renta variable pura. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de la inversión.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bci Estruc Uf Mas es a medio y largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos subyacentes y superar la volatilidad a lo largo del tiempo. Es importante tener paciencia y mantener una visión a largo plazo para beneficiarse de las oportunidades que ofrece este fondo.\n\nEn resumen, el Fondo Mutuo Bci Estruc Uf Mas es una opción atractiva para jóvenes inversores con un perfil de riesgo medio que buscan diversificar su cartera y obtener un retorno atractivo a largo plazo. Si bien presenta cierta volatilidad, su estrategia de inversión mixta ofrece un equilibrio entre seguridad y potencial de crecimiento. Es importante revisar periódicamente el desempeño del fondo y ajustar la estrategia de inversión según las condiciones del mercado.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9632-6",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI ESTRUC UF MAS",
+    "full_id": "96767630_9632-6",
+    "source": "javascript"
+  }
+}

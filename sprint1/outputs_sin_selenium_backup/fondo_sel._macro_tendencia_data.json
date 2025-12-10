@@ -1,0 +1,23 @@
+{
+  "fondo_id": "sel. macro tendencia",
+  "nombre": "Sel. Macro Tendencia",
+  "nombre_cmf": "SEL. MACRO TENDENCIA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Sel. Macro Tendencia es una opción de inversión mixta que combina activos de distintas clases, como acciones, bonos y otros instrumentos financieros, con el objetivo de diversificar el riesgo y buscar rendimientos atractivos a largo plazo. Su estrategia se basa en identificar tendencias macroeconómicas y ajustar la cartera en consecuencia, lo que le permite adaptarse a cambios del mercado y aprovechar oportunidades de crecimiento.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener retornos superiores y la preservación del capital invertido. Si estás dispuesto a asumir cierto nivel de riesgo en busca de mayores ganancias, pero sin exponerte a movimientos extremos del mercado, Sel. Macro Tendencia puede ser una opción interesante para ti.\n\nAunque la composición principal del fondo no está disponible, se espera que invierta en una variedad de activos, incluyendo acciones de empresas locales e internacionales, bonos corporativos o gubernamentales, y posiblemente otros instrumentos financieros. Esta diversificación puede reducir la volatilidad de la cartera y ofrecer un potencial de crecimiento sostenido.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que puede experimentar fluctuaciones en su valor, pero no tan extremas como un fondo de alto riesgo. Es importante recordar que ninguna inversión está libre de riesgos, pero diversificar y mantener un horizonte de inversión a largo plazo puede ayudar a mitigar posibles pérdidas.\n\nEl horizonte de inversión recomendado para Sel. Macro Tendencia es de al menos 3 a 5 años, ya que esto permite aprovechar las tendencias macroeconómicas identificadas por el gestor del fondo y superar posibles periodos de volatilidad a corto plazo. Es importante tener paciencia y no dejarse llevar por movimientos bruscos del mercado, ya que la estrategia de este fondo se enfoca en el crecimiento a largo plazo.\n\nEn resumen, Sel. Macro Tendencia ofrece una oportunidad de inversión diversificada y equilibrada para aquellos inversionistas con un perfil de riesgo medio que buscan crecimiento a largo plazo. Su estrategia macroeconómica puede ser atractiva, pero es importante tener en cuenta los riesgos asociados y mantener un horizonte de inversión adecuado para maximizar los retornos potenciales.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8569-3",
+    "rut_admin": "96767630",
+    "nombre": "SEL. MACRO TENDENCIA",
+    "full_id": "96767630_8569-3",
+    "source": "javascript"
+  }
+}

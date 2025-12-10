@@ -1,0 +1,23 @@
+{
+  "fondo_id": "inversion brasil",
+  "nombre": "Inversion Brasil",
+  "nombre_cmf": "INVERSION BRASIL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "Inversión Brasil es un fondo mutuo mixto que ofrece a los inversores la oportunidad de diversificar sus inversiones en el mercado brasileño. Su estrategia de inversión combina tanto activos de renta variable como de renta fija, lo que le otorga un equilibrio entre riesgo y potencial retorno. Aunque no disponemos de información específica sobre la composición principal del fondo, generalmente los fondos mixtos como este suelen invertir en una combinación de acciones, bonos y otros instrumentos financieros.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener retornos atractivos y la protección de su capital. Si eres un joven inversor en Chile que está dispuesto a asumir un nivel moderado de riesgo en busca de potenciales rendimientos, Inversión Brasil podría ser una opción a considerar.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la alta volatilidad de acciones puras y la estabilidad de bonos. Esto significa que, si bien existe la posibilidad de experimentar fluctuaciones en el valor de tu inversión a corto plazo, a largo plazo podría ofrecer un rendimiento superior al de inversiones más conservadoras.\n\nEl horizonte de inversión recomendado para Inversión Brasil es a medio y largo plazo. Dado que la volatilidad del mercado brasileño puede influir en el desempeño del fondo en el corto plazo, es importante tener una visión a largo plazo y mantener la calma durante posibles periodos de turbulencia.\n\nUna ventaja de este fondo es su potencial para obtener rendimientos atractivos al invertir en el mercado brasileño, que es uno de los mercados emergentes más grandes y dinámicos a nivel mundial. Sin embargo, una posible desventaja podría ser la exposición a la volatilidad de dicho mercado, lo que podría llevar a fluctuaciones en el valor de la inversión.\n\nPara los jóvenes inversores chilenos que buscan diversificar su cartera y están dispuestos a asumir un nivel moderado de riesgo, Inversión Brasil podría ser una opción interesante. Recuerda siempre evaluar tu tolerancia al riesgo y tus objetivos financieros antes de invertir en este tipo de fondos mixtos. ¡Buena suerte en tu viaje hacia la inversión!",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8533-2",
+    "rut_admin": "96767630",
+    "nombre": "INVERSION BRASIL",
+    "full_id": "96767630_8533-2",
+    "source": "javascript"
+  }
+}

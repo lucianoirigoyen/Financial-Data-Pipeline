@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ahorro estable i g.",
+  "nombre": "Ahorro Estable I G.",
+  "nombre_cmf": "AHORRO ESTABLE I G.",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Ahorro Estable I G es una excelente opción para aquellos inversores que buscan un equilibrio entre riesgo y rentabilidad. Se clasifica como un fondo mixto, lo que significa que combina tanto activos de renta fija como de renta variable en su cartera. Su estrategia de inversión se centra en diversificar los activos para reducir el riesgo y maximizar los rendimientos a mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, personas que están dispuestas a asumir cierto nivel de volatilidad en busca de mayores retornos. Si eres un joven inversor que busca un crecimiento moderado de tu capital sin exponerte a riesgos extremos, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible públicamente, pero podemos inferir que el fondo diversifica su cartera en acciones, bonos y otros instrumentos financieros. Esta diversificación ayuda a mitigar el riesgo al no depender únicamente de un tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Esto significa que, si bien existe la posibilidad de ver fluctuaciones en el valor de la inversión a corto plazo, a largo plazo se espera obtener un rendimiento favorable. Es importante recordar que, en el mundo de las inversiones, el riesgo y la rentabilidad suelen estar estrechamente relacionados.\n\nEl horizonte de inversión recomendado para el Ahorro Estable I G es de mediano a largo plazo, idealmente más de 3 años. Esto se debe a que, al tratarse de un fondo mixto, los retornos pueden tardar en materializarse completamente y es importante permitir que la estrategia del fondo se desarrolle a lo largo del tiempo.\n\nVentajas de este fondo incluyen su diversificación, lo que ayuda a reducir el riesgo, y su potencial de crecimiento a mediano y largo plazo. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que puede generar incertidumbre en algunos inversores.\n\nEn resumen, el Ahorro Estable I G es una opción atractiva para jóvenes inversores con un perfil de riesgo medio que buscan un equilibrio entre seguridad y potencial de crecimiento. Si estás dispuesto a mantener tu inversión a largo plazo y asumir cierto nivel de volatilidad en el corto plazo, este fondo podría ser una pieza clave en tu cartera de inversiones",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8868-4",
+    "rut_admin": "96767630",
+    "nombre": "AHORRO ESTABLE I G.",
+    "full_id": "96767630_8868-4",
+    "source": "javascript"
+  }
+}

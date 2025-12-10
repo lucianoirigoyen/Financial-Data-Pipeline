@@ -1,0 +1,23 @@
+{
+  "fondo_id": "activo 2025",
+  "nombre": "Activo 2025",
+  "nombre_cmf": "ACTIVO 2025",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Activo 2025 es una opción de inversión mixta, lo que significa que combina la inversión en distintos tipos de activos, como acciones, bonos y efectivo, con el objetivo de lograr un equilibrio entre riesgo y rentabilidad. Su estrategia de inversión se enfoca en alcanzar un rendimiento adecuado para el horizonte temporal previsto, que en este caso se proyecta hasta el año 2025. Aunque la composición principal del fondo no está disponible públicamente, se puede inferir que busca diversificar en distintas clases de activos para reducir el riesgo y potencialmente maximizar el retorno a largo plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener un rendimiento superior al de las inversiones más conservadoras. Para un joven inversor chileno que esté dispuesto a asumir un nivel moderado de riesgo en busca de mayores oportunidades de crecimiento, el Fondo Activo 2025 podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, es probable que el Activo 2025 tenga una diversificación entre acciones de empresas locales e internacionales, bonos gubernamentales y corporativos, así como posiblemente instrumentos del mercado monetario. Esta diversificación ayuda a mitigar el riesgo asociado con la volatilidad de un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que implica que existe la posibilidad de enfrentar cierta volatilidad en el valor de la inversión, pero también la oportunidad de obtener un mayor rendimiento en comparación con fondos más conservadores. Es importante recordar que toda inversión conlleva riesgos y que el nivel de riesgo asumido debe estar en línea con los objetivos y la tolerancia al riesgo de cada inversor.\n\nEn cuanto al horizonte de inversión recomendado, dado que este fondo tiene como referencia el año 2025, sería aconsejable que los inversores consideren mantener su inversión por un período de al menos varios años para poder beneficiarse de su estrategia a largo plazo. Es importante tener en cuenta que, a medida que se acerque el año objetivo, es posible que la composición del fondo se ajuste para alinearse con los objetivos de liquidez y rentabilidad esperados.\n\nEn resumen, el Fondo Mutuo Activo 2025 ofrece una oportunidad de inversión mixta para jóvenes",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9607-5",
+    "rut_admin": "96767630",
+    "nombre": "ACTIVO 2025",
+    "full_id": "96767630_9607-5",
+    "source": "javascript"
+  }
+}

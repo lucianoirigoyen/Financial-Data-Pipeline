@@ -1,0 +1,23 @@
+{
+  "fondo_id": "mandarin",
+  "nombre": "Mandarin",
+  "nombre_cmf": "MANDARIN",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Mandarin es una opción de inversión mixta que busca combinar activos de renta fija y renta variable para lograr un equilibrio entre riesgo y retorno. Su estrategia de inversión se basa en diversificar el portafolio entre distintos tipos de activos, lo que puede ayudar a reducir la volatilidad y mejorar la estabilidad de los rendimientos a largo plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de riesgo en busca de rendimientos superiores a los de inversiones más conservadoras. Por lo tanto, es importante que los inversionistas comprendan que pueden experimentar fluctuaciones en el valor de su inversión a corto plazo, pero que a largo plazo podrían obtener mayores ganancias.\n\nEn cuanto a los activos en los que invierte el fondo Mandarin, la información sobre su composición principal no está disponible públicamente. Sin embargo, es probable que invierta en una variedad de instrumentos financieros, como acciones, bonos, y otros valores, con el objetivo de diversificar el riesgo y maximizar el potencial de ganancias.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el de conducir un automóvil a una velocidad moderada en una carretera bien mantenida. Si bien puede haber algunos baches en el camino y curvas inesperadas, en general se espera que el viaje sea seguro y cómodo, siempre y cuando se mantenga una actitud vigilante.\n\nEl horizonte de inversión recomendado para el fondo Mandarin es a medio y largo plazo, idealmente de al menos 3 a 5 años. Esto se debe a que las inversiones mixtas suelen requerir tiempo para madurar y para que la estrategia de diversificación muestre sus beneficios a lo largo del tiempo.\n\nEntre las ventajas de invertir en el fondo Mandarin se encuentra la posibilidad de acceder a diferentes clases de activos en un solo producto, lo que puede simplificar la gestión de la inversión y ofrecer una mayor diversificación. Sin embargo, una posible desventaja es que la rentabilidad pasada no garantiza resultados futuros, por lo que los inversionistas deben estar preparados para posibles fluctuaciones en el valor de sus inversiones.\n\nEn resumen, el fondo mutuo Mandarin es una opción a considerar para inversionistas con un perfil de riesgo medio que buscan diversificar su portafolio y obtener rendimientos atractivos a medio y largo plazo. Es importante que los inversionistas evalúen su tolerancia al riesgo y su horizonte de inversión antes de decidir si este fondo se ajust",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8499-9",
+    "rut_admin": "96767630",
+    "nombre": "MANDARIN",
+    "full_id": "96767630_8499-9",
+    "source": "javascript"
+  }
+}

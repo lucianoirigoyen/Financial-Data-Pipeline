@@ -38,3 +38,7 @@ temp/
 !outputs/.gitkeep
 !cache/.gitkeep
 !logs/.gitkeep
+
+audit1.md
+audit2.md
+PORTFOLIO_SUMMARY.md

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ahorro corporativo",
+  "nombre": "Ahorro Corporativo",
+  "nombre_cmf": "AHORRO CORPORATIVO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Ahorro Corporativo\" es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable. Su estrategia de inversión se enfoca en diversificar el portafolio para buscar un equilibrio entre el crecimiento y la estabilidad de los activos. Esto significa que parte de los recursos se destinan a instrumentos de deuda, brindando cierta seguridad, mientras que otra parte se invierte en acciones u otros activos de mayor potencial de crecimiento.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan obtener rendimientos superiores a los de un instrumento de renta fija tradicional, pero que están dispuestos a asumir cierto nivel de volatilidad en sus inversiones. Si bien el nivel de riesgo es moderado, es importante tener en cuenta que las fluctuaciones del mercado pueden afectar el valor de la inversión en el corto plazo.\n\nEn cuanto a los activos en los que invierte, la composición exacta del portafolio del fondo \"Ahorro Corporativo\" no está disponible públicamente. Sin embargo, es probable que incluya una combinación de bonos corporativos, acciones de empresas locales e internacionales, así como posiblemente otros instrumentos financieros. Esta diversificación ayuda a reducir el riesgo asociado a la concentración en un solo tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Si bien puede experimentar fluctuaciones en su valor, se considera una opción equilibrada para aquellos que buscan un rendimiento superior al de instrumentos conservadores sin asumir un riesgo excesivo.\n\nEl horizonte de inversión recomendado para el fondo \"Ahorro Corporativo\" es a mediano a largo plazo. Esto significa que los inversionistas deberían estar dispuestos a mantener su dinero invertido por un periodo de al menos varios años para aprovechar el potencial de crecimiento de sus activos. Es importante recordar que las inversiones a corto plazo pueden estar más expuestas a la volatilidad del mercado.\n\nEn resumen, el fondo mutuo \"Ahorro Corporativo\" ofrece una oportunidad para diversificar y buscar un equilibrio entre crecimiento y estabilidad en las inversiones. Es ideal para inversionistas con un perfil de riesgo medio que buscan obtener rendimientos atractivos a mediano y largo plazo. Recuerda siempre consultar con un profesional de las finanzas antes de tomar decisiones de inversión y mantener un enfo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8315-1",
+    "rut_admin": "96767630",
+    "nombre": "AHORRO CORPORATIVO",
+    "full_id": "96767630_8315-1",
+    "source": "javascript"
+  }
+}

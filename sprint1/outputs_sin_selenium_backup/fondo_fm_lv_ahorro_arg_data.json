@@ -1,0 +1,86 @@
+{
+  "fondo_id": "fm lv ahorro arg",
+  "nombre": "Fm Lv Ahorro Arg",
+  "nombre_cmf": "FM LV AHORRO ARG",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo Fm Lv Ahorro Arg:\n\n1. **¿Qué es este fondo y su estrategia de inversión?**\nEl fondo Fm Lv Ahorro Arg es un fondo mutuo mixto que busca combinar inversiones en instrumentos de renta fija y variable para obtener un equilibrio entre riesgo y rendimiento. Su estrategia se basa en invertir principalmente en activos de renta fija en Chile, con un enfoque en deuda, manteniendo una parte de la cartera invertida en acciones con un límite máximo del 30%.\n\n2. **¿Para qué perfil de inversionista es adecuado?**\nEste fondo es adecuado para inversores con un perfil de riesgo medio, que buscan obtener un rendimiento superior al de un depósito a plazo sin asumir un riesgo excesivo. Es ideal para aquellos que buscan diversificar sus inversiones y están dispuestos a asumir cierto nivel de volatilidad en busca de mayores rendimientos a mediano plazo.\n\n3. **Principales activos en los que invierte**\nEl fondo Fm Lv Ahorro Arg invierte principalmente en instrumentos de renta fija en Chile, como bonos y pagarés, representando un 83.4% de la composición principal. Además, tiene una exposición significativa a deuda, con un 80.1% de la cartera invertida en este tipo de activos.\n\n4. **Nivel de riesgo en términos simples**\nEn términos simples, el nivel de riesgo de este fondo se considera medio. Aunque tiene una parte de la cartera invertida en acciones, el enfoque en renta fija y la diversificación en deuda ayudan a mitigar parte del riesgo asociado a la volatilidad del mercado de acciones.\n\n5. **Horizonte de inversión recomendado**\nSe recomienda un horizonte de inversión a mediano plazo para este fondo, ya que al combinar activos de renta fija y variable, puede tomar cierto tiempo para que la estrategia de inversión se desarrolle y genere rendimientos consistentes. Un plazo de inversión de al menos 2 a 5 años podría ser apropiado para aprovechar al máximo el potencial de este fondo.\n\nEn resumen, el fondo Fm Lv Ahorro Arg es una opción atractiva para inversionistas que buscan un equilibrio entre riesgo y rendimiento, con una estrategia diversificada que combina renta fija y variable. Es importante tener en cuenta el perfil de riesgo medio y el horizonte de inversión recomendado al considerar este fondo para tu cartera de inversiones.",
+  "composicion_portafolio": [
+    {
+      "activo": "que indica que el",
+      "porcentaje": 0.95
+    },
+    {
+      "activo": "Chile",
+      "porcentaje": 0.8343
+    },
+    {
+      "activo": "Deuda",
+      "porcentaje": 0.8009999999999999
+    },
+    {
+      "activo": "aplicará sobre el",
+      "porcentaje": 0.5
+    },
+    {
+      "activo": "manteniendo invertido como máximo el",
+      "porcentaje": 0.3
+    },
+    {
+      "activo": "Dólar",
+      "porcentaje": 0.2477
+    },
+    {
+      "activo": "Peso chileno",
+      "porcentaje": 0.20329999999999998
+    },
+    {
+      "activo": "Renta Var.",
+      "porcentaje": 0.1852
+    },
+    {
+      "activo": "ni aquellos para los cuales más del",
+      "porcentaje": 0.1
+    },
+    {
+      "activo": "EEUU",
+      "porcentaje": 0.0667
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0537
+    },
+    {
+      "activo": "Otros",
+      "porcentaje": 0.050499999999999996
+    },
+    {
+      "activo": "Brasil",
+      "porcentaje": 0.0332
+    },
+    {
+      "activo": "anterior. El indicador fue impactado a la baja por la caída de",
+      "porcentaje": 0.033
+    },
+    {
+      "activo": "Meses",
+      "porcentaje": 0.0329
+    }
+  ],
+  "rentabilidad_anual": 0.0926,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9557-5",
+    "rut_admin": "96767630",
+    "nombre": "FM LV AHORRO ARG",
+    "full_id": "96767630_9557-5",
+    "source": "javascript"
+  },
+  "horizonte_inversion": "Mediano Plazo",
+  "comision_administracion": 0.0151
+}

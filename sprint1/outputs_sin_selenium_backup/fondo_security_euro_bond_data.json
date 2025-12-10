@@ -1,0 +1,23 @@
+{
+  "fondo_id": "security euro bond",
+  "nombre": "Security Euro Bond",
+  "nombre_cmf": "SECURITY EURO BOND",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Security Euro Bond es una opción de inversión mixta que combina activos de renta fija y variable, diseñada para inversores que buscan un equilibrio entre riesgo y rendimiento. Su estrategia se centra en invertir en bonos emitidos en euros y otros instrumentos financieros europeos, con el objetivo de obtener ganancias a través del crecimiento de capital y el pago de intereses.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores retornos a largo plazo. Si eres un joven inversor chileno que busca diversificar tu cartera y obtener exposición a mercados internacionales, el Security Euro Bond podría ser una opción a considerar.\n\nEn cuanto a los principales activos en los que invierte este fondo, se enfoca en bonos corporativos y soberanos europeos, así como en otros instrumentos de deuda de la región. Estos activos ofrecen una combinación de seguridad y potencial de crecimiento, lo que puede ser atractivo para aquellos que buscan estabilidad con cierto grado de riesgo controlado.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Si bien no está exento de fluctuaciones en el corto plazo, su enfoque diversificado y su gestión profesional buscan minimizar los riesgos y maximizar los rendimientos a lo largo del tiempo.\n\nPara los jóvenes inversores chilenos que consideren invertir en el Security Euro Bond, se recomienda tener un horizonte de inversión a mediano o largo plazo. Dado que este fondo combina activos de diferentes clases y geografías, es importante mantener una visión a largo plazo para permitir que la estrategia de inversión se desarrolle y genere resultados positivos.\n\nEn resumen, el Security Euro Bond ofrece a los inversores chilenos la oportunidad de diversificar su cartera con activos europeos, equilibrando riesgo y rendimiento. Si bien presenta la ventaja de acceso a mercados internacionales y potencial de crecimiento, es importante tener en cuenta que las fluctuaciones del mercado pueden afectar su desempeño a corto plazo. En última instancia, el perfil del inversionista ideal para este fondo sería aquel que busca un equilibrio entre seguridad y crecimiento, con una visión a largo plazo y una tolerancia moderada al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8337-2",
+    "rut_admin": "96767630",
+    "nombre": "SECURITY EURO BOND",
+    "full_id": "96767630_8337-2",
+    "source": "javascript"
+  }
+}

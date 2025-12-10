@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ga muy arriesgado",
+  "nombre": "Ga Muy Arriesgado",
+  "nombre_cmf": "GA MUY ARRIESGADO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Ga Muy Arriesgado es una opción de inversión mixta que busca obtener rendimientos a través de una combinación de activos de distintas clases, como acciones, bonos u otros instrumentos financieros. Su estrategia de inversión se caracteriza por asumir un nivel de riesgo medio, lo que implica la posibilidad de obtener mayores ganancias a cambio de una mayor exposición a la volatilidad del mercado.\n\nEste fondo puede ser adecuado para inversores que buscan un equilibrio entre riesgo y rendimiento, es decir, para aquellos que están dispuestos a asumir cierto grado de incertidumbre en busca de mayores retornos a largo plazo. Es importante tener en cuenta que, si bien el fondo puede ofrecer oportunidades de crecimiento, también conlleva el riesgo de sufrir pérdidas en momentos de turbulencia en los mercados.\n\nEn cuanto a los activos en los que invierte, la composición principal del fondo Ga Muy Arriesgado no está disponible públicamente, lo que puede dificultar la evaluación detallada de su cartera. Sin embargo, suele diversificar sus inversiones en diferentes clases de activos para mitigar el riesgo y aprovechar oportunidades en distintos sectores del mercado.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que, si bien no es tan arriesgado como otros fondos de mayor riesgo, como los de renta variable pura, tampoco es tan conservador como los de renta fija. Por lo tanto, los inversores deben estar preparados para enfrentar posibles fluctuaciones en el valor de sus inversiones a lo largo del tiempo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores que elijan este fondo tengan un enfoque a largo plazo, es decir, que estén dispuestos a mantener sus inversiones durante un período de al menos cinco años o más. Esto les permitirá superar posibles periodos de volatilidad y aprovechar el potencial de crecimiento a largo plazo de los activos en los que invierte el fondo.\n\nEn resumen, el fondo mutuo Ga Muy Arriesgado puede ser una opción interesante para inversores con un perfil moderadamente arriesgado que buscan diversificar sus inversiones y obtener rendimientos potenciales a mediano y largo plazo. Sin embargo, es fundamental que los inversionistas comprendan los riesgos asociados a este tipo de fondo y estén dispuestos a asumir la volatilidad que pueda presentarse en el camino hacia sus objetivos financieros.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8824-2",
+    "rut_admin": "96767630",
+    "nombre": "GA MUY ARRIESGADO",
+    "full_id": "96767630_8824-2",
+    "source": "javascript"
+  }
+}

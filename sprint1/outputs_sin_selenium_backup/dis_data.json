@@ -1,0 +1,60 @@
+{
+  "symbol": "DIS",
+  "name": "Walt Disney Company",
+  "description_es": "The Walt Disney Company (DIS) es un preeminente conglomerado multinacional diversificado de entretenimiento y medios de comunicación con sede en Burbank, California. Cuenta con una impresionante cartera de marcas emblemáticas, como Disney, Pixar, Marvel, Lucasfilm y ESPN, y opera en una amplia gama de segmentos como la televisión, la producción cinematográfica, los parques temáticos y los servicios de streaming directo al consumidor, con Disney+ y ESPN+ a la cabeza de su oferta digital. Con una rica biblioteca de contenidos y una sólida presencia global, Disney está estratégicamente preparada para aprovechar los cambiantes comportamientos de los consumidores en un panorama mediático en rápida evolución, reforzando su estatus como actor clave en la industria global del entretenimiento.",
+  "sector_es": "SERVICIOS DE COMUNICACIÓN",
+  "industry_es": "ENTRETENIMIENTO",
+  "market_cap": 190113513000.0,
+  "pe_ratio": 15.32,
+  "dividend_yield": 0.0143,
+  "beta": 1.491,
+  "country": "USA",
+  "currency": "USD",
+  "exchange": "NYSE",
+  "roe": 0.122,
+  "profit_margin": 0.131,
+  "revenue_ttm": 94424998000.0,
+  "eps": 6.9,
+  "fecha_procesamiento": "2025-12-04 21:42:13",
+  "analisis_completo": {
+    "valoracion": {
+      "pe_ratio": 15.32,
+      "pe_trailing": 15.32,
+      "pe_forward": 16.1,
+      "peg_ratio": 5.03,
+      "price_to_book": 1.735,
+      "price_to_sales": 2.013,
+      "ev_to_revenue": 2.434,
+      "ev_to_ebitda": 12.01,
+      "valoracion_resumen": "Valoración Razonable"
+    },
+    "rentabilidad": {
+      "profit_margin": 0.131,
+      "operating_margin": 0.119,
+      "roa": 0.0447,
+      "roe": 0.122,
+      "eps": 6.9,
+      "diluted_eps": 6.9,
+      "revenue_per_share": 52.34,
+      "rentabilidad_clasificacion": "Rentabilidad Moderada"
+    },
+    "tecnico": {
+      "beta": 1.491,
+      "volatilidad_clasificacion": "Volatilidad Moderada",
+      "precio_52w_alto": 124.69,
+      "precio_52w_bajo": 79.76,
+      "media_movil_50d": 110.29,
+      "media_movil_200d": 109.73
+    },
+    "analistas": {
+      "precio_objetivo": 132.5,
+      "strong_buy": 4.0,
+      "buy": 21.0,
+      "hold": 6.0,
+      "sell": 1.0,
+      "strong_sell": 0,
+      "total_analistas": 32.0,
+      "consenso": "Fuertemente Positivo"
+    }
+  }
+}

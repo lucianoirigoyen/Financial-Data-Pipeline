@@ -1,0 +1,23 @@
+{
+  "fondo_id": "vision money market",
+  "nombre": "Vision Money Market",
+  "nombre_cmf": "VISION MONEY MARKET",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Vision Money Market es una excelente opción para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rendimiento. Se clasifica como un fondo mixto, lo que significa que combina diferentes tipos de activos para buscar una rentabilidad estable en el mercado financiero. Aunque no disponemos de información sobre su composición principal, generalmente los fondos mixtos invierten en una variedad de instrumentos financieros como acciones, bonos y efectivo.\n\nEste fondo, con un perfil de riesgo medio, es adecuado para inversores que desean obtener ganancias moderadas sin exponerse a una volatilidad extrema en sus inversiones. Si eres un joven inversor que busca un equilibrio entre riesgo y retorno, el Vision Money Market podría ser una opción a considerar.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Esto significa que, si bien existe la posibilidad de que el valor del fondo fluctúe en el corto plazo, se espera que a largo plazo genere rendimientos superiores a los instrumentos de menor riesgo, como los depósitos a plazo. Es importante tener en cuenta que ningún fondo está exento de riesgos, por lo que es fundamental diversificar tu cartera para mitigar posibles pérdidas.\n\nEn cuanto al horizonte de inversión recomendado, el Vision Money Market es ideal para aquellos inversores que tienen un plazo de inversión a medio o largo plazo. Si estás buscando construir un patrimonio a lo largo de los años y estás dispuesto a asumir cierto nivel de riesgo, este fondo puede ser una buena opción para ti.\n\nUna ventaja de este fondo es su potencial de rendimiento moderado, que puede superar las tasas de interés ofrecidas por instrumentos de bajo riesgo. Sin embargo, una posible desventaja es que, al ser un fondo mixto, su desempeño puede variar dependiendo de las condiciones del mercado, lo que puede llevar a fluctuaciones en el valor de tu inversión.\n\nEn resumen, el Vision Money Market es una alternativa atractiva para jóvenes inversores que desean diversificar su cartera y obtener rendimientos moderados. Es importante recordar que todo inversor debe evaluar su tolerancia al riesgo y objetivos financieros antes de tomar decisiones de inversión. ¡Invertir es el arte de equilibrar riesgos y recompensas para alcanzar tus metas financieras!",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8011-K",
+    "rut_admin": "96767630",
+    "nombre": "VISION MONEY MARKET",
+    "full_id": "96767630_8011-K",
+    "source": "javascript"
+  }
+}

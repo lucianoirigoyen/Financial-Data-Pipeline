@@ -1,0 +1,23 @@
+{
+  "fondo_id": "filv quant",
+  "nombre": "Filv Quant",
+  "nombre_cmf": "FILV QUANT",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Filv Quant es una alternativa mixta que busca combinar activos de renta fija y renta variable para generar rendimientos atractivos a lo largo del tiempo. Su estrategia se enfoca en utilizar algoritmos y análisis cuantitativo para tomar decisiones de inversión, lo que le otorga un enfoque más automatizado y objetivo en la gestión de los recursos de sus partícipes.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la obtención de rendimientos y la preservación del capital invertido. Si bien no conocemos la composición principal del fondo, se puede inferir que su diversificación en distintos tipos de activos puede ayudar a mitigar los riesgos asociados a la volatilidad del mercado.\n\nEn términos simples, el nivel de riesgo de Filv Quant se encuentra en un punto intermedio entre la prudencia de los fondos de renta fija y la exposición al mercado de los fondos de renta variable. Esto implica que, si bien hay posibilidades de obtener rendimientos superiores a los de un fondo conservador, también existe la posibilidad de sufrir pérdidas en momentos de turbulencia en los mercados financieros.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversionistas con un horizonte a medio plazo, es decir, aquellos que pueden mantener su inversión durante al menos 3 a 5 años. Esto se debe a que la estrategia del fondo puede requerir cierto tiempo para mostrar resultados consistentes y para superar posibles periodos de volatilidad.\n\nAlgunas ventajas de invertir en Filv Quant pueden ser la diversificación de activos que ofrece, la posibilidad de acceder a estrategias de inversión más sofisticadas y la gestión profesional que busca maximizar los rendimientos ajustados al riesgo. Sin embargo, como desventaja, es importante considerar que la rentabilidad pasada no garantiza resultados futuros, por lo que siempre existe un grado de incertidumbre asociado a cualquier inversión en el mercado financiero.\n\nEn resumen, el fondo Filv Quant puede ser una opción atractiva para inversionistas chilenos que buscan un equilibrio entre riesgo y rentabilidad, siempre y cuando estén dispuestos a asumir la volatilidad propia de los mercados financieros y tengan un horizonte de inversión a medio plazo. Es importante recordar que la clave para invertir de manera exitosa es la diversificación y la paciencia a lo largo del tiempo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9298-3",
+    "rut_admin": "96767630",
+    "nombre": "FILV QUANT",
+    "full_id": "96767630_9298-3",
+    "source": "javascript"
+  }
+}

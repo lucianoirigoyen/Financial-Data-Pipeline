@@ -1,0 +1,58 @@
+{
+  "fondo_id": "inversion",
+  "nombre": "FONDO DE INVERSION BANCHILE MARKETPLUS ASIA EMERGENTE",
+  "nombre_cmf": "Información de Fiscalizados y otras instituciones registradas",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo de Inversión Banchile Marketplus Asia Emergente es una opción a considerar para aquellos inversores que buscan diversificar su cartera a través de la inversión en mercados emergentes de Asia. Se trata de un fondo mixto, lo que significa que combina tanto activos de renta fija como de renta variable, con el objetivo de obtener rendimientos atractivos a mediano plazo.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir un cierto nivel de volatilidad en búsqueda de mayores retornos. Es importante tener en cuenta que, si bien el riesgo es moderado, siempre existe la posibilidad de que el valor de las inversiones fluctúe en función de las condiciones del mercado.\n\nEn cuanto a los activos en los que invierte el fondo, lamentablemente la composición principal no está disponible públicamente. Sin embargo, es probable que esté orientado hacia empresas y bonos emitidos por países de la región de Asia emergente, como China, India o Corea del Sur. Estos mercados pueden ofrecer oportunidades de crecimiento interesantes, pero también conllevan ciertos riesgos geopolíticos y de divisa que deben ser considerados.\n\nEn términos simples, el nivel de riesgo de este fondo se puede equiparar a dar un paseo en bicicleta por terreno irregular: es posible encontrar obstáculos en el camino, pero con la debida precaución y atención, se puede disfrutar del recorrido. Es importante recordar que el riesgo siempre está presente en cualquier inversión, y diversificar adecuadamente puede ayudar a mitigarlo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores consideren mantener su dinero invertido en este fondo por al menos 3 a 5 años. Esto se debe a que las inversiones en mercados emergentes tienden a requerir un tiempo mayor para madurar y ofrecer retornos significativos, por lo que la paciencia es clave.\n\nEntre las ventajas de este fondo se encuentran la posibilidad de acceder a mercados en crecimiento y diversificar la cartera, mientras que entre las desventajas se pueden mencionar los riesgos asociados a la volatilidad de los mercados emergentes y la falta de información detallada sobre la composición de la cartera.\n\nEn resumen, el Fondo de Inversión Banchile Marketplus Asia Emergente puede ser adecuado para inversores que buscan diversificar su cartera y están dispuestos a asumir un nivel moderado de riesgo a cambio de potenciales rendimientos atractivos. Es importante siempre consultar con un as",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "symbol": "FINV-10468",
+  "category": "investment_fund",
+  "currency": null,
+  "run": "10468-k",
+  "rut_base": "10468",
+  "conceptual_asset_id": "4378",
+  "data_source": "http://www.cmfchile.cl",
+  "series": [
+    {
+      "serie": "A",
+      "name": "FONDO DE INVERSION BANCHILE MARKETPLUS ASIA EMERGENTE",
+      "symbol": "FINV-10468-A",
+      "valor_cuota": null,
+      "fecha_valor_cuota": null,
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    },
+    {
+      "serie": "BCH",
+      "name": "FONDO DE INVERSION BANCHILE MARKETPLUS ASIA EMERGENTE",
+      "symbol": "FINV-10468-BCH",
+      "valor_cuota": null,
+      "fecha_valor_cuota": "2024-03-05",
+      "patrimonio_total": null,
+      "patrimonio_neto": null,
+      "comision_administracion": null,
+      "comision_rescate": null,
+      "participes": null
+    }
+  ],
+  "rut_cmf": "10468",
+  "rut_completo_cmf": null,
+  "url_cmf": "https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=10468&tipoentidad=RGFMU",
+  "cmf_fund_info": {
+    "rut": "10468",
+    "rut_completo": null,
+    "nombre": "Información de Fiscalizados y otras instituciones registradas",
+    "url_cmf": "https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=10468&tipoentidad=RGFMU",
+    "fuente": "cmf_directo"
+  },
+  "fecha_valor_cuota": "2021-10-22",
+  "estado_fondo": "Desconocido"
+}

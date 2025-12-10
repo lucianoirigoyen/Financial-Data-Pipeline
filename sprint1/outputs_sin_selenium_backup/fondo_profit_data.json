@@ -1,0 +1,23 @@
+{
+  "fondo_id": "profit",
+  "nombre": "Profit",
+  "nombre_cmf": "PROFIT",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Profit es una excelente opción para aquellos inversores chilenos que buscan un equilibrio entre riesgo y rentabilidad. Este fondo se clasifica como mixto, lo que significa que combina inversiones en diferentes clases de activos, como acciones, bonos y otros instrumentos financieros, con el objetivo de diversificar el riesgo y maximizar el retorno a largo plazo.\n\nSu perfil de riesgo se considera medio, lo que implica que puede experimentar fluctuaciones en su valor, pero con una probabilidad relativamente baja de pérdidas significativas a corto plazo. Esto lo hace adecuado para inversores que buscan un crecimiento moderado de su capital sin asumir riesgos extremos.\n\nSi bien la composición exacta de los activos en los que invierte el fondo Profit no está disponible públicamente, se puede inferir que probablemente incluye una combinación de acciones de empresas locales e internacionales, bonos gubernamentales y corporativos, así como otros instrumentos financieros diversificados.\n\nEn términos simples, el nivel de riesgo del fondo Profit se puede comparar con el hecho de conducir un automóvil a una velocidad moderada en una carretera bien mantenida. Existe la posibilidad de encontrar baches en el camino, pero el riesgo de un accidente grave es relativamente bajo si se mantiene una conducción prudente y se siguen las indicaciones del conductor experto, en este caso, el gestor del fondo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores que elijan el fondo Profit tengan una visión a mediano y largo plazo, preferiblemente de al menos 3 a 5 años. Esto permite al fondo aprovechar las oportunidades del mercado y superar posibles periodos de volatilidad a corto plazo.\n\nEntre las ventajas del fondo Profit se encuentran su diversificación, que ayuda a reducir el riesgo total de la cartera, y su potencial de crecimiento moderado. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de sus inversiones, lo que podría generar incertidumbre en algunos inversores.\n\nEn resumen, el fondo mutuo Profit es una opción atractiva para inversionistas chilenos con un perfil de riesgo moderado que buscan crecimiento a largo plazo. Se recomienda a aquellos que puedan mantener su inversión durante varios años y que estén dispuestos a aceptar cierta volatilidad en el corto plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8182-5",
+    "rut_admin": "96767630",
+    "nombre": "PROFIT",
+    "full_id": "96767630_8182-5",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ameris liquidez ii",
+  "nombre": "Ameris Liquidez Ii",
+  "nombre_cmf": "AMERIS LIQUIDEZ II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Ameris Liquidez II es una excelente opción para aquellos inversores que buscan una combinación equilibrada entre seguridad y potencial de crecimiento. Este fondo se clasifica como mixto, lo que significa que invierte en una variedad de activos, como bonos, acciones y efectivo, con el objetivo de obtener rendimientos atractivos a mediano plazo.\n\nEste tipo de fondo es ideal para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores retornos. Si bien no se dispone de información detallada sobre la composición principal del fondo, se espera que diversifique sus inversiones de manera estratégica para reducir riesgos y maximizar ganancias.\n\nEn términos simples, el nivel de riesgo de Ameris Liquidez II se sitúa en un punto intermedio entre la seguridad de los activos de renta fija y el potencial de crecimiento de los activos de renta variable. Esto significa que si bien existe la posibilidad de obtener rendimientos más altos que los instrumentos de renta fija tradicionales, también se debe estar preparado para enfrentar cierta fluctuación en el valor de la inversión.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversiones a mediano plazo, generalmente entre 3 a 5 años. Es importante tener en cuenta que los fondos mixtos como Ameris Liquidez II pueden experimentar variaciones en su desempeño en el corto plazo, por lo que es fundamental mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones del mercado.\n\nEntre las ventajas de este fondo se encuentran la diversificación de las inversiones, que ayuda a reducir el riesgo, y la posibilidad de obtener rendimientos superiores a los instrumentos de renta fija tradicionales. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que puede generar incertidumbre en algunos inversores.\n\nEn resumen, Ameris Liquidez II es una opción atractiva para inversionistas chilenos con un perfil de riesgo medio que buscan un equilibrio entre seguridad y potencial de crecimiento. Se recomienda una inversión a mediano plazo y mantener una visión a largo plazo para aprovechar al máximo las oportunidades de este fondo mixto.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10622-4",
+    "rut_admin": "96767630",
+    "nombre": "AMERIS LIQUIDEZ II",
+    "full_id": "96767630_10622-4",
+    "source": "javascript"
+  }
+}

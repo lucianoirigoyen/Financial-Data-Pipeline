@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta extra lp uf",
+  "nombre": "Renta Extra Lp Uf",
+  "nombre_cmf": "RENTA EXTRA LP UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Renta Extra Lp Uf es una alternativa de inversión mixta que combina activos de renta fija y renta variable, buscando maximizar los rendimientos a largo plazo. Su estrategia de inversión se centra en diversificar el portafolio para reducir el riesgo y aprovechar las oportunidades de crecimiento. Aunque la composición exacta de sus activos principales no está disponible, se espera que incluya una mezcla de bonos, acciones y otros instrumentos financieros.\n\nEste fondo está diseñado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la rentabilidad potencial y la volatilidad de sus inversiones. Es adecuado para jóvenes inversores que están dispuestos a asumir cierto nivel de riesgo en busca de mayores retornos a largo plazo, pero que también valoran la estabilidad en sus inversiones.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con conducir un automóvil a una velocidad moderada en una carretera bien mantenida. Aunque existen riesgos inherentes en el camino, como cambios en las condiciones del mercado, el gestor del fondo está preparado para sortear los obstáculos y maximizar las oportunidades de crecimiento.\n\nAunque la rentabilidad del último año no está disponible, es importante recordar que los resultados pasados no garantizan rendimientos futuros. Si la rentabilidad del fondo es negativa, esto podría deberse a factores macroeconómicos, eventos imprevistos en los mercados o cambios en las condiciones del entorno financiero. Es crucial mantener una perspectiva a largo plazo y no dejarse llevar por las fluctuaciones a corto plazo.\n\nPara los jóvenes inversores chilenos interesados en este fondo, se recomienda un horizonte de inversión a medio o largo plazo, ya que esto les permitirá aprovechar al máximo el potencial de crecimiento y recuperarse de posibles caídas en el corto plazo. Es importante mantener una visión a largo plazo y no dejarse llevar por la volatilidad del mercado.\n\nEn resumen, el fondo Renta Extra Lp Uf ofrece una opción atractiva para jóvenes inversores con un perfil de riesgo medio que buscan diversificar su portafolio y maximizar sus rendimientos a largo plazo. Aunque presenta ciertos riesgos, su estrategia de inversión equilibrada y su enfoque a largo plazo lo convierten en una opción atractiva para aquellos que buscan un equilibrio entre riesgo y rendimiento.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8387-9",
+    "rut_admin": "96767630",
+    "nombre": "RENTA EXTRA LP UF",
+    "full_id": "96767630_8387-9",
+    "source": "javascript"
+  }
+}

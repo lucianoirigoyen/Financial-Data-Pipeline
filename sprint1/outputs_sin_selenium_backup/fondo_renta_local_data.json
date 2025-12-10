@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta local",
+  "nombre": "Renta Local",
+  "nombre_cmf": "RENTA LOCAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Renta Local es una opción mixta que combina diferentes tipos de activos, como acciones, bonos y otros instrumentos financieros. Su estrategia de inversión busca obtener rendimientos atractivos a través de la diversificación en el mercado financiero local. A pesar de no contar con información específica sobre su composición principal, este fondo suele buscar un equilibrio entre la rentabilidad y el riesgo, buscando maximizar los retornos sin exponerse a riesgos extremadamente altos.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la posibilidad de obtener ganancias y la tolerancia al riesgo. Si eres un joven inversor que está dispuesto a asumir cierto nivel de riesgo en busca de mayores rendimientos, el fondo Renta Local podría ser una opción a considerar.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Al invertir en una combinación de activos, como acciones y bonos, el fondo ofrece la posibilidad de obtener rendimientos atractivos, pero también implica cierto grado de volatilidad en el corto plazo. Es importante tener en cuenta que, a medida que el mercado fluctúa, el valor de tus inversiones en el fondo también puede variar.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversores a largo plazo que buscan construir un patrimonio sólido a lo largo del tiempo. Si estás dispuesto a mantener tu inversión durante varios años y no te dejas llevar por las fluctuaciones del mercado a corto plazo, el fondo Renta Local podría ser una opción interesante para ti.\n\nUna ventaja de este fondo es su capacidad para diversificar el riesgo al invertir en diferentes tipos de activos, lo que puede ayudar a suavizar las fluctuaciones del mercado. Sin embargo, una posible desventaja es que, al combinar distintos tipos de activos, el rendimiento del fondo puede no ser tan alto como el de fondos más especializados en un solo tipo de activo.\n\nEn resumen, el fondo mutuo Renta Local es una opción mixta que busca un equilibrio entre rentabilidad y riesgo. Adecuado para inversores con un perfil de riesgo medio y un horizonte de inversión a largo plazo, este fondo puede ser una parte importante de una cartera diversificada. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8897-8",
+    "rut_admin": "96767630",
+    "nombre": "RENTA LOCAL",
+    "full_id": "96767630_8897-8",
+    "source": "javascript"
+  }
+}

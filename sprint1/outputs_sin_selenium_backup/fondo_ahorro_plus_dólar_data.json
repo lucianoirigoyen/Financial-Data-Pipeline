@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ahorro plus dólar",
+  "nombre": "Ahorro Plus Dólar",
+  "nombre_cmf": "AHORRO PLUS DÓLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Ahorro Plus Dólar es una opción de inversión mixta que combina activos de renta fija y renta variable, con el objetivo de generar un equilibrio entre seguridad y potencial de ganancias. Su estrategia se basa en diversificar la cartera de inversiones para optimizar el rendimiento a mediano plazo.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre seguridad y rentabilidad. Si estás dispuesto a asumir cierto nivel de riesgo en busca de mayores rendimientos que los ofrecidos por fondos conservadores, Ahorro Plus Dólar podría ser adecuado para ti.\n\nEn cuanto a los activos en los que invierte, la composición principal no está disponible públicamente. Sin embargo, suele incluir bonos, acciones y otros instrumentos financieros tanto locales como internacionales. Esto permite al fondo diversificar el riesgo y aprovechar oportunidades de crecimiento en diferentes mercados.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio. Aunque puede experimentar fluctuaciones en su valor debido a movimientos en los mercados financieros, la diversificación de activos busca mitigar dichas variaciones y proteger la inversión en el largo plazo.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Ahorro Plus Dólar es a mediano o largo plazo, idealmente más de 3 a 5 años. Esto se debe a que, al tratarse de un fondo mixto, puede llevar tiempo que la estrategia de diversificación muestre sus frutos y se refleje en los rendimientos obtenidos.\n\nEntre las ventajas de este fondo se encuentran la posibilidad de diversificar la inversión en diferentes clases de activos y mercados, lo que reduce el riesgo asociado a la volatilidad de un solo tipo de inversión. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición exacta de la cartera, lo que podría generar incertidumbre en algunos inversionistas.\n\nEn resumen, el Fondo Mutuo Ahorro Plus Dólar es una opción a considerar para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos a mediano plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y asegurarte de entender completamente los riesgos y beneficios asociados a este tipo de fondos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10027-7",
+    "rut_admin": "96767630",
+    "nombre": "AHORRO PLUS DÓLAR",
+    "full_id": "96767630_10027-7",
+    "source": "javascript"
+  }
+}

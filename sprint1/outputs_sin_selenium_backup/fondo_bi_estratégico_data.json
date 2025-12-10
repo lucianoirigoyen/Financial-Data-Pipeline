@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bi estratégico",
+  "nombre": "Bi Estratégico",
+  "nombre_cmf": "BI ESTRATÉGICO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Bi Estratégico es una opción de inversión mixta que combina activos de renta fija y variable, diseñado para ofrecer un equilibrio entre riesgo y rendimiento. Su estrategia se centra en diversificar la cartera de inversiones para reducir la volatilidad y maximizar los retornos a largo plazo. Aunque no contamos con información específica sobre su composición, se espera que tenga una distribución equilibrada entre distintos tipos de activos.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio que buscan obtener rendimientos superiores a los de una inversión puramente conservadora, sin asumir una exposición excesiva a la volatilidad del mercado de acciones. Es ideal para aquellos que desean diversificar su portafolio y están dispuestos a aceptar cierto nivel de riesgo a cambio de mayores oportunidades de crecimiento.\n\nEn términos simples, el nivel de riesgo del fondo Bi Estratégico se sitúa en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Esto significa que, si bien existe la posibilidad de obtener ganancias significativas, también se enfrenta a cierto riesgo de pérdida de capital, especialmente en entornos de mercado adversos.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere una perspectiva a largo plazo para aprovechar al máximo el potencial de crecimiento del fondo. Si bien puede experimentar fluctuaciones en el corto plazo, mantener una visión a largo plazo ayuda a suavizar los impactos de la volatilidad y a beneficiarse de la composición diversificada del fondo.\n\nEntre las ventajas de invertir en el fondo Bi Estratégico se encuentran la posibilidad de obtener rendimientos atractivos sin asumir un riesgo excesivo, así como la diversificación automática proporcionada por su composición mixta. Por otro lado, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de la cartera, lo que podría dificultar la evaluación precisa de los activos subyacentes.\n\nEn resumen, el fondo Bi Estratégico es una opción adecuada para inversores chilenos con un perfil de riesgo medio que buscan diversificar su portafolio y obtener rendimientos atractivos a largo plazo. Se recomienda mantener una visión a largo plazo y estar preparado para asumir cierto nivel de riesgo en busca de mayores oportunidades de crecimiento financiero.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9905-8",
+    "rut_admin": "96767630",
+    "nombre": "BI ESTRATÉGICO",
+    "full_id": "96767630_9905-8",
+    "source": "javascript"
+  }
+}

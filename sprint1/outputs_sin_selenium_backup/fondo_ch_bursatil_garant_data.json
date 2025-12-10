@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ch bursatil garant",
+  "nombre": "Ch Bursatil Garant",
+  "nombre_cmf": "CH BURSATIL GARANT",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Ch Bursátil Garant es una opción de inversión mixta que busca combinar la estabilidad de activos de renta fija con el potencial de crecimiento de activos de renta variable. Su estrategia de inversión se centra en diversificar el portafolio entre estos dos tipos de activos para mitigar riesgos y buscar rendimientos atractivos en el mercado financiero.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre seguridad y potencial de ganancia. Si estás dispuesto a asumir cierto nivel de riesgo en busca de mayores retornos que los ofrecidos por activos de renta fija tradicionales, Ch Bursátil Garant puede ser una buena opción para ti.\n\nEn cuanto a los principales activos en los que invierte, la composición exacta no está disponible públicamente, pero se puede esperar que incluya una mezcla de bonos, acciones y otros instrumentos financieros tanto locales como internacionales. Esto brinda una diversificación adicional al portafolio, lo que puede ayudar a reducir la exposición a riesgos específicos de un solo mercado o sector.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de los activos de renta fija y la volatilidad de las acciones. Esto significa que, si bien existe la posibilidad de fluctuaciones en el valor de tu inversión, también hay potencial de obtener rendimientos superiores a los de una inversión conservadora.\n\nEl horizonte de inversión recomendado para el fondo Ch Bursátil Garant es a mediano plazo, es decir, entre 3 a 5 años. Esto se debe a que, al combinar activos de diferentes naturalezas, se busca obtener beneficios a lo largo del tiempo a medida que el mercado evoluciona y se ajusta.\n\nUna ventaja de este fondo es su potencial de crecimiento gracias a la diversificación de activos, lo que puede ofrecer oportunidades interesantes para el inversor. Por otro lado, una posible desventaja podría ser la falta de transparencia en la composición exacta del portafolio, lo que puede limitar la capacidad de tomar decisiones informadas.\n\nEn resumen, el fondo Ch Bursátil Garant es ideal para inversores jóvenes chilenos con un perfil de riesgo moderado que buscan un equilibrio entre seguridad y potencial de ganancia a mediano plazo. Recuerda siempre diversificar tu portafolio y consultar con un asesor financiero antes de realizar cualquier inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8964-8",
+    "rut_admin": "96767630",
+    "nombre": "CH BURSATIL GARANT",
+    "full_id": "96767630_8964-8",
+    "source": "javascript"
+  }
+}

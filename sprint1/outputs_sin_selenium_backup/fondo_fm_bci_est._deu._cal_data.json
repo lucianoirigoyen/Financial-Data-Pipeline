@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci est. deu. cal",
+  "nombre": "Fm Bci Est. Deu. Cal",
+  "nombre_cmf": "FM BCI EST. DEU. CAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Estratégico Deuda Calificado es una excelente opción para aquellos inversores que desean diversificar su cartera y obtener un equilibrio entre riesgo y rentabilidad. Este fondo pertenece a la categoría mixta, lo que significa que combina inversiones en renta fija y variable para buscar un mayor rendimiento a largo plazo.\n\nLa estrategia de inversión de este fondo se centra en buscar oportunidades tanto en el mercado de deuda como en el de acciones, con el objetivo de maximizar la rentabilidad ajustada al riesgo. Al invertir en una combinación de activos, el fondo busca reducir la volatilidad y mejorar la estabilidad de la cartera.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener un mayor rendimiento. Si eres un joven inversor que busca diversificar tu cartera y estás dispuesto a asumir un nivel moderado de riesgo, este fondo podría ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, la composición principal de este fondo no está disponible públicamente. Sin embargo, es probable que incluya bonos corporativos, acciones de empresas locales e internacionales, entre otros instrumentos financieros.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la prudencia de la renta fija y la potencial rentabilidad de la renta variable. Esto significa que si bien existe cierto riesgo de pérdida, también hay oportunidad de obtener rendimientos superiores a los de una inversión puramente conservadora.\n\nEl horizonte de inversión recomendado para este fondo es a medio y largo plazo, ya que la estrategia de inversión busca maximizar el rendimiento a lo largo del tiempo. Es importante tener en cuenta que, como en cualquier inversión, es fundamental mantener una visión a largo plazo y no dejarse llevar por las fluctuaciones del mercado a corto plazo.\n\nEn resumen, el Fondo Mutuo Bci Estratégico Deuda Calificado es una opción atractiva para los jóvenes inversores chilenos que buscan diversificar su cartera y obtener un equilibrio entre riesgo y rentabilidad. Si estás dispuesto a asumir un nivel moderado de riesgo y tienes un horizonte de inversión a medio o largo plazo, este fondo podría ser una excelente alternativa para ti. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9981-3",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI EST. DEU. CAL",
+    "full_id": "96767630_9981-3",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "protección uf",
+  "nombre": "Protección Uf",
+  "nombre_cmf": "PROTECCIÓN UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Protección Uf es una opción de inversión mixta que combina activos de renta fija y variable, buscando un equilibrio entre la estabilidad y el potencial de crecimiento. Su estrategia de inversión diversificada le permite adaptarse a diferentes condiciones del mercado, lo que lo convierte en una alternativa interesante para aquellos inversores que buscan un nivel de riesgo medio.\n\nEste fondo es adecuado para inversionistas que se sienten cómodos asumiendo un cierto nivel de riesgo en pos de obtener mayores rendimientos que los ofrecidos por instrumentos de renta fija tradicionales. Si bien no se dispone de información detallada sobre su composición principal, se puede inferir que invierte en una variedad de activos tanto en Chile como en el extranjero, lo que contribuye a diversificar el riesgo y potencialmente maximizar los retornos.\n\nEn términos simples, el nivel de riesgo asociado con el fondo Protección Uf se sitúa en un punto intermedio. Esto significa que si bien existe la posibilidad de obtener ganancias significativas, también existe un nivel de incertidumbre que puede resultar en pérdidas en el corto plazo. Es importante tener en cuenta que el riesgo está inherentemente ligado a la posibilidad de obtener mayores rendimientos, por lo que es fundamental que los inversores comprendan y estén dispuestos a asumir esta volatilidad.\n\nEn cuanto al horizonte de inversión recomendado para este fondo, se aconseja a los inversores tener una perspectiva a mediano o largo plazo. Dado su perfil mixto y nivel de riesgo medio, es probable que se requiera cierto tiempo para que la estrategia de inversión se materialice y se refleje en los retornos. Por lo tanto, aquellos que estén dispuestos a mantener su inversión durante varios años podrían beneficiarse más de las fluctuaciones del mercado en el largo plazo.\n\nUna de las ventajas de este fondo es su capacidad para adaptarse a diferentes condiciones del mercado, lo que puede ofrecer cierta protección contra la volatilidad. Sin embargo, una posible desventaja podría ser la falta de transparencia en cuanto a la composición exacta de sus activos, lo que puede generar cierta incertidumbre en los inversores más conservadores.\n\nEn resumen, el fondo Protección Uf es una opción atractiva para aquellos inversionistas que buscan un equilibrio entre riesgo y retorno, y que están dispuestos a mantener su inversión a mediano o largo plazo. Es importante recordar que la diversificación y la paciencia son clave al invertir en este tipo de fond",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10169-9",
+    "rut_admin": "96767630",
+    "nombre": "PROTECCIÓN UF",
+    "full_id": "96767630_10169-9",
+    "source": "javascript"
+  }
+}

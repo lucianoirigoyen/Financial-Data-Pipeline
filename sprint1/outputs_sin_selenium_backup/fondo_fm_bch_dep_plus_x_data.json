@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch dep plus x",
+  "nombre": "Fm Bch Dep Plus X",
+  "nombre_cmf": "FM BCH DEP PLUS X",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bch Dep Plus X es una alternativa de inversión mixta que busca combinar activos de renta fija y renta variable para buscar un equilibrio entre rendimiento y riesgo. Su estrategia se basa en diversificar la cartera entre diferentes tipos de activos, lo que puede ayudar a mitigar los riesgos asociados con la volatilidad del mercado.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, para aquellos que están dispuestos a asumir cierto nivel de riesgo en busca de una mayor rentabilidad a mediano plazo. Si eres un joven inversor chileno que desea comenzar a invertir y estás dispuesto a aceptar cierta incertidumbre en tus inversiones, este fondo podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte el Fondo Mutuo Bch Dep Plus X, la composición exacta no está disponible públicamente, pero podemos inferir que invierte tanto en bonos y otros instrumentos de renta fija como en acciones u otros activos de renta variable. Esta diversificación puede ayudar a reducir la exposición a riesgos específicos de cada tipo de activo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, lo que significa que puede experimentar cierta volatilidad en su valor, pero también ofrecer oportunidades de rendimiento superiores a las inversiones más conservadoras. Es importante tener en cuenta que, aunque el riesgo es mayor que en fondos conservadores, también lo es el potencial de ganancias.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bch Dep Plus X es a mediano o largo plazo, ya que las inversiones en activos de renta variable pueden fluctuar en el corto plazo. Si tienes un objetivo financiero a largo plazo, como ahorrar para la jubilación o para comprar una casa en el futuro, este fondo podría ser una opción a considerar.\n\nEntre las ventajas de este fondo se encuentra su potencial de rendimiento superior al de fondos conservadores, así como la diversificación de la cartera que puede ayudar a reducir el riesgo. Sin embargo, una posible desventaja podría ser la volatilidad del mercado, que podría afectar el valor de tus inversiones en el corto plazo.\n\nEn resumen, el Fondo Mutuo Bch Dep Plus X es una opción de inversión mixta adecuada para jóvenes inversores chilenos con un perfil de riesgo medio que buscan un equilibrio entre rendimiento y riesgo. Recuerda que antes de invertir, es importante que enti",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10269-5",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH DEP PLUS X",
+    "full_id": "96767630_10269-5",
+    "source": "javascript"
+  }
+}

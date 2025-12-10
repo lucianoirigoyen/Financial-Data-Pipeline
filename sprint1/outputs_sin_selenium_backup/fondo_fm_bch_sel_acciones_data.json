@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch sel acciones",
+  "nombre": "Fm Bch Sel Acciones",
+  "nombre_cmf": "FM BCH SEL ACCIONES",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "¡Hola jóvenes inversores chilenos! Hoy les hablaré sobre el fondo mutuo Fm Bch Sel Acciones, un fondo agresivo con un alto perfil de riesgo. Este fondo busca obtener altas ganancias a través de la inversión en acciones de empresas con potencial de crecimiento a largo plazo.\n\nEste tipo de fondo es ideal para inversionistas que buscan maximizar sus ganancias y están dispuestos a asumir un mayor riesgo en busca de mayores retornos. Si eres una persona joven con un horizonte de inversión a largo plazo y una tolerancia alta al riesgo, este fondo podría ser adecuado para ti.\n\nAunque la composición principal del fondo no está disponible, es probable que invierta en acciones de empresas de sectores como tecnología, salud, energía o consumo, que suelen ofrecer un mayor potencial de crecimiento pero también mayor volatilidad en comparación con otros activos como bonos o depósitos a plazo.\n\nEn términos simples, el nivel de riesgo de este fondo se relaciona con la posibilidad de que el valor de las acciones en las que invierte fluctúe significativamente, lo que puede resultar en pérdidas temporales o incluso permanentes si el mercado no evoluciona como se espera. Es importante tener en cuenta que, si bien el riesgo es alto, también existe la posibilidad de obtener rendimientos más elevados que compensen dicho riesgo a largo plazo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere mantener una visión a largo plazo de al menos 5 a 10 años. Esto se debe a que, a pesar de las fluctuaciones a corto plazo, las inversiones en acciones tienden a generar mejores resultados cuando se mantienen a lo largo del tiempo, permitiendo superar periodos de volatilidad y aprovechar el potencial de crecimiento de las empresas en las que se invierte.\n\nEntre las ventajas de este fondo se encuentran la posibilidad de obtener rendimientos atractivos a largo plazo, diversificación en diferentes sectores económicos y la oportunidad de participar en el crecimiento de empresas líderes en sus industrias. Por otro lado, las posibles desventajas incluyen la volatilidad del mercado, la posibilidad de pérdidas en el corto plazo y la necesidad de estar preparado psicológicamente para soportar periodos de incertidumbre.\n\nEn resumen, el fondo mutuo Fm Bch Sel Acciones es una opción interesante para jóvenes inversores chilenos que buscan maximizar sus ganancias a través de la inversión en acciones de empresas con potencial de crecimiento. Si estás dispuesto a asumir un alto nivel",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8380-1",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH SEL ACCIONES",
+    "full_id": "96767630_8380-1",
+    "source": "javascript"
+  }
+}

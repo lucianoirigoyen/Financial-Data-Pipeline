@@ -1,0 +1,23 @@
+{
+  "fondo_id": "ea agresivo",
+  "nombre": "Ea Agresivo",
+  "nombre_cmf": "EA AGRESIVO",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El fondo Ea Agresivo es una opción de inversión destinada a inversores que buscan altas oportunidades de rentabilidad a través de una estrategia agresiva. Este fondo se caracteriza por invertir en activos de mayor riesgo, como acciones de empresas emergentes o sectores volátiles, con el objetivo de obtener rendimientos significativamente superiores a la media del mercado.\n\nEste tipo de fondo es adecuado para inversionistas con un alto perfil de riesgo, es decir, aquellos que están dispuestos a asumir la posibilidad de pérdidas significativas a cambio de la oportunidad de obtener ganancias sustanciales a largo plazo. Idealmente, este fondo sería adecuado para jóvenes inversores que cuentan con un horizonte de inversión a largo plazo y que tienen la capacidad de tolerar la volatilidad del mercado.\n\nEn cuanto a los activos en los que invierte el fondo Ea Agresivo, su composición específica no está disponible públicamente. Sin embargo, es probable que incluya una combinación de acciones de empresas de alto potencial de crecimiento, bonos corporativos de mayor riesgo, y posiblemente inversiones en mercados internacionales. Estos activos, si bien ofrecen un potencial de alta rentabilidad, también conllevan un mayor nivel de riesgo debido a su naturaleza volátil.\n\nEn términos simples, el nivel de riesgo de este fondo agresivo se traduce en la posibilidad de experimentar fluctuaciones significativas en el valor de la inversión en el corto plazo. En momentos de incertidumbre o turbulencia en los mercados, es probable que se observen caídas pronunciadas en el valor del fondo. Por lo tanto, es importante que los inversores comprendan y acepten este riesgo antes de decidir invertir en el fondo Ea Agresivo.\n\nEn cuanto al horizonte de inversión recomendado, se aconseja que los inversores que opten por este fondo tengan una perspectiva a largo plazo, de al menos 5 a 10 años. Dado el carácter volátil de los activos en los que invierte el fondo, es fundamental mantener una visión a largo plazo para permitir que las inversiones se recuperen de posibles caídas y se beneficien de periodos de crecimiento sostenido en el mercado.\n\nEn resumen, el fondo Ea Agresivo ofrece a los inversores la oportunidad de obtener rendimientos potencialmente altos, pero a cambio de asumir un riesgo considerable. Es importante que los inversionistas jóvenes con un alto perfil de riesgo y un horizonte de inversión a largo plazo consideren cuidadosamente si",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9576-1",
+    "rut_admin": "96767630",
+    "nombre": "EA AGRESIVO",
+    "full_id": "96767630_9576-1",
+    "source": "javascript"
+  }
+}

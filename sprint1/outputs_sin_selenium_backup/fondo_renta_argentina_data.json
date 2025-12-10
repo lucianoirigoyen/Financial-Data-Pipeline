@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta argentina",
+  "nombre": "Renta Argentina",
+  "nombre_cmf": "RENTA ARGENTINA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Renta Argentina es una opción de inversión mixta que busca generar ganancias a través de una combinación de activos en el mercado argentino. Su estrategia de inversión se centra en diversificar el portafolio entre diferentes instrumentos financieros, como acciones, bonos y otros valores, con el objetivo de obtener rendimientos atractivos a mediano plazo.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierta volatilidad en busca de mayores retornos. Si bien no se dispone de información específica sobre la composición principal del fondo, se espera que tenga una distribución equilibrada entre distintas clases de activos para mitigar el riesgo y aprovechar oportunidades de crecimiento.\n\nEn términos simples, el riesgo asociado a este fondo se encuentra en la fluctuación de los precios de los activos en los que invierte, lo que puede afectar tanto positiva como negativamente su rentabilidad. Es importante tener en cuenta que, si bien se considera un fondo de riesgo medio, la coyuntura económica y política en Argentina puede influir en su desempeño.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores mantengan una perspectiva a mediano o largo plazo, ya que esto permitirá aprovechar el potencial de crecimiento de los activos en los que invierte el fondo. Es importante tener paciencia y no dejarse llevar por movimientos a corto plazo en el mercado.\n\nUna ventaja de invertir en el fondo Renta Argentina es la posibilidad de diversificar el riesgo al acceder a diferentes oportunidades de inversión en el mercado argentino. Sin embargo, una posible desventaja podría ser la exposición a la volatilidad y a los riesgos asociados con la economía y la política del país sudamericano.\n\nEn resumen, el fondo Renta Argentina es una opción interesante para inversores con un perfil de riesgo medio que buscan diversificar su portafolio y obtener ganancias a mediano plazo. Se recomienda a los inversionistas que estén dispuestos a asumir cierta volatilidad y tengan un horizonte de inversión de al menos algunos años para maximizar el potencial de rendimiento de este fondo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9541-9",
+    "rut_admin": "96767630",
+    "nombre": "RENTA ARGENTINA",
+    "full_id": "96767630_9541-9",
+    "source": "javascript"
+  }
+}

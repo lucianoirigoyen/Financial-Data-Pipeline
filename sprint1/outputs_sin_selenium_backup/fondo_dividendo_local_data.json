@@ -1,0 +1,23 @@
+{
+  "fondo_id": "dividendo local",
+  "nombre": "Dividendo Local",
+  "nombre_cmf": "DIVIDENDO LOCAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo \"Dividendo Local\" es una excelente opción para aquellos inversores que buscan un equilibrio entre riesgo y rentabilidad. Se clasifica como un fondo mixto, lo que significa que invierte tanto en instrumentos de renta fija como variable, buscando maximizar los dividendos y mantener un nivel de riesgo medio. Aunque no disponemos de la composición principal del fondo, su nombre sugiere que probablemente se enfoque en empresas locales que reparten dividendos atractivos.\n\nEste fondo es adecuado para inversores con un perfil moderado, que buscan un rendimiento superior al de los instrumentos de renta fija tradicionales, pero que también desean mantener un nivel de riesgo controlado. Si eres un joven inversor que tiene un horizonte de inversión a mediano plazo y estás dispuesto a asumir cierto nivel de riesgo para obtener mejores rendimientos, \"Dividendo Local\" podría ser una buena elección.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Al invertir en una combinación de instrumentos de renta fija y variable, existen riesgos asociados tanto a fluctuaciones en los mercados de valores como a posibles cambios en las tasas de interés. Sin embargo, al diversificar sus inversiones, el fondo busca mitigar parte de ese riesgo.\n\nEl horizonte de inversión recomendado para \"Dividendo Local\" es a mediano plazo, generalmente entre 3 a 5 años. Esto se debe a que, al tratarse de un fondo mixto que invierte en una variedad de activos, es importante darle tiempo para que su estrategia pueda dar frutos y superar posibles fluctuaciones a corto plazo en los mercados.\n\nEntre las ventajas de este fondo se encuentra la posibilidad de obtener rendimientos atractivos a través de la combinación de activos de renta fija y variable, lo que puede ofrecer una mayor diversificación y potencial de crecimiento. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del fondo, lo que puede dificultar la evaluación precisa de su desempeño.\n\nEn resumen, si eres un joven inversor con un perfil moderado, que busca un equilibrio entre riesgo y rentabilidad a mediano plazo, el fondo mutuo \"Dividendo Local\" puede ser una opción interesante a considerar en tu cartera de inversiones. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8918-4",
+    "rut_admin": "96767630",
+    "nombre": "DIVIDENDO LOCAL",
+    "full_id": "96767630_8918-4",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "corp dolar",
+  "nombre": "Corp Dolar",
+  "nombre_cmf": "CORP DOLAR",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Corp Dólar es una alternativa de inversión mixta que busca combinar la estabilidad del mercado de dinero con el potencial de crecimiento de instrumentos de renta variable. Su estrategia de inversión se centra en diversificar los recursos entre diferentes activos financieros, con el objetivo de obtener un equilibrio entre riesgo y retorno.\n\nEste fondo es adecuado para aquellos inversionistas con un perfil de riesgo medio, es decir, para personas que buscan un balance entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a las inversiones más conservadoras. Si eres un joven inversor que está dispuesto a asumir cierto nivel de riesgo en busca de mayores ganancias, Corp Dólar podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, la composición principal del fondo no está disponible públicamente, lo cual puede limitar la transparencia para los inversores. Sin embargo, es probable que Corp Dólar invierta en una combinación de instrumentos del mercado de dinero y valores de renta variable, lo que le permite diversificar el riesgo.\n\nEn términos simples, el nivel de riesgo de Corp Dólar se encuentra en un punto intermedio, lo que significa que existe la posibilidad de enfrentar ciertas fluctuaciones en el valor de la inversión, pero también la oportunidad de obtener mayores retornos en comparación con inversiones más conservadoras. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles pérdidas en el corto plazo.\n\nEl horizonte de inversión recomendado para este fondo es a mediano o largo plazo, ya que permite aprovechar el potencial de crecimiento de los activos en los que invierte. Si estás pensando en invertir en Corp Dólar, es aconsejable tener en mente tus objetivos financieros a largo plazo y estar preparado para mantener la inversión durante un período suficiente para que pueda madurar y generar rendimientos significativos.\n\nEn resumen, Corp Dólar puede ser una opción interesante para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y retorno en sus inversiones. Sin embargo, es importante consultar con un asesor financiero antes de tomar cualquier decisión de inversión, para asegurarse de que este fondo se ajusta a tu perfil y objetivos financieros.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8243-0",
+    "rut_admin": "96767630",
+    "nombre": "CORP DOLAR",
+    "full_id": "96767630_8243-0",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "capitalisa-acc.",
+  "nombre": "Capitalisa-Acc.",
+  "nombre_cmf": "CAPITALISA-ACC.",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo mutuo Capitalisa-Acc es una opción diseñada para inversores conservadores que buscan proteger su capital y obtener rendimientos estables a largo plazo. Este fondo se caracteriza por su estrategia de inversión prudente, que prioriza la preservación del capital y la diversificación de riesgos. Esto significa que el fondo invierte en activos de bajo riesgo, como bonos gubernamentales o instrumentos de renta fija, con el objetivo de generar retornos moderados y consistentes en el tiempo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo bajo, es decir, aquellos que prefieren la seguridad y la estabilidad por sobre la posibilidad de obtener altas ganancias en el corto plazo. Si eres un joven inversor que valora la tranquilidad y la previsibilidad en tus inversiones, Capitalisa-Acc podría ser una excelente opción para ti.\n\nEn cuanto a los activos en los que invierte, el fondo Capitalisa-Acc suele concentrarse en bonos de deuda soberana, instrumentos del mercado monetario y otros activos de bajo riesgo. Estos activos ofrecen una menor volatilidad en comparación con acciones u otros instrumentos financieros más arriesgados, lo que contribuye a la estabilidad de los retornos del fondo.\n\nEn términos simples, el nivel de riesgo asociado a este fondo es bajo, lo que significa que las fluctuaciones en el valor de la inversión suelen ser menores en comparación con fondos de mayor riesgo. Si bien esto puede limitar el potencial de ganancias, también reduce la posibilidad de pérdidas significativas en momentos de volatilidad del mercado.\n\nEn cuanto al horizonte de inversión recomendado, Capitalisa-Acc es ideal para inversores que buscan mantener su dinero invertido a mediano o largo plazo, generalmente de al menos 3 a 5 años. Este horizonte temporal permite al fondo capitalizar las oportunidades de crecimiento de los activos en los que invierte y minimizar los efectos de la volatilidad a corto plazo.\n\nEntre las ventajas de este fondo se encuentran la estabilidad de los retornos, la diversificación de riesgos y la posibilidad de obtener un rendimiento constante a lo largo del tiempo. Sin embargo, es importante tener en cuenta que la rentabilidad puede ser limitada en comparación con fondos de mayor riesgo, lo que podría no ser adecuado para inversores que buscan altos retornos en el corto plazo.\n\nEn resumen, el fondo mutuo Capitalisa-Acc es una opción atractiva para inversores jóvenes con un perfil conservador que buscan proteger su capital y obtener retornos estables a",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8001-2",
+    "rut_admin": "96767630",
+    "nombre": "CAPITALISA-ACC.",
+    "full_id": "96767630_8001-2",
+    "source": "javascript"
+  }
+}

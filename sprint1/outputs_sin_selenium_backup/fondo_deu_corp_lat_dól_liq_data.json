@@ -1,0 +1,23 @@
+{
+  "fondo_id": "deu corp lat dól liq",
+  "nombre": "Deu Corp Lat Dól Liq",
+  "nombre_cmf": "DEU CORP LAT DÓL LIQ",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Deu Corp Lat Dól Liq es una opción de inversión mixta que combina diferentes tipos de activos, como acciones y bonos, con el objetivo de obtener un rendimiento equilibrado a mediano plazo. Su estrategia se centra en diversificar el portafolio para minimizar el riesgo y aprovechar oportunidades tanto en el mercado de valores como en el de deuda. A pesar de que no contamos con información detallada sobre su composición principal, se puede inferir que busca un equilibrio entre la rentabilidad y la seguridad de los activos.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan obtener rendimientos superiores a los instrumentos de renta fija tradicionales, pero que están dispuestos a asumir cierto nivel de volatilidad en su inversión. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de fluctuaciones en el valor de la inversión, especialmente en periodos de alta volatilidad en los mercados financieros.\n\nEn cuanto a los principales activos en los que invierte el fondo, es probable que incluya una combinación de acciones de empresas latinoamericanas, bonos corporativos y soberanos de la región, así como posiblemente inversiones en instrumentos de renta fija en dólares. Esta diversificación ayuda a mitigar el riesgo y a aprovechar las oportunidades de crecimiento en diferentes sectores y países de la región.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con manejar un automóvil en una carretera con curvas pronunciadas. Si bien el camino puede ser sinuoso en ocasiones, con subidas y bajadas en el valor de la inversión, se espera llegar a destino con un rendimiento positivo en el mediano plazo.\n\nEl horizonte de inversión recomendado para el fondo Deu Corp Lat Dól Liq es de al menos 3 a 5 años, ya que esto permite superar posibles fluctuaciones a corto plazo y aprovechar el potencial de crecimiento de los activos subyacentes. Es importante tener paciencia y perseverancia para mantener la inversión durante este periodo y no dejarse llevar por movimientos bruscos del mercado.\n\nEn resumen, este fondo mixto ofrece a los inversionistas la oportunidad de diversificar su portafolio y obtener un rendimiento equilibrado a mediano plazo, adecuado para aquellos con un perfil de riesgo medio que buscan crecimiento con cierta estabilidad. Sin embargo, es fundamental realizar un análisis detallado de su composición y compararlo con otros",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10559-7",
+    "rut_admin": "96767630",
+    "nombre": "DEU CORP LAT DÓL LIQ",
+    "full_id": "96767630_10559-7",
+    "source": "javascript"
+  }
+}

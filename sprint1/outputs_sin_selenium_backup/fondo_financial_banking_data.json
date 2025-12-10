@@ -1,0 +1,23 @@
+{
+  "fondo_id": "financial banking",
+  "nombre": "Financial Banking",
+  "nombre_cmf": "FINANCIAL BANKING",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Financial Banking es una alternativa de inversión mixta diseñada para aquellos inversionistas que buscan un equilibrio entre riesgo y rendimiento. Este fondo combina diferentes tipos de activos, como acciones, bonos y otros instrumentos financieros, con el objetivo de maximizar la rentabilidad a mediano plazo. Su estrategia de inversión se basa en diversificar el portafolio de manera inteligente para reducir la exposición a riesgos específicos y aprovechar oportunidades de crecimiento en varios sectores del mercado.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan obtener rendimientos superiores a los de una inversión conservadora, pero sin asumir un nivel de riesgo excesivo. Es ideal para aquellos que desean participar en el mercado financiero de manera equilibrada, sin estar expuestos a variaciones extremas en el valor de sus inversiones.\n\nFinancial Banking invierte principalmente en acciones de empresas líderes en diversos sectores, bonos corporativos de alta calidad crediticia y otros instrumentos financieros que ofrecen un potencial de crecimiento moderado. Al diversificar su cartera de esta manera, el fondo busca minimizar el impacto de eventos imprevistos en un solo sector o activo, lo que contribuye a reducir la volatilidad en el rendimiento del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la seguridad de una inversión conservadora y el potencial de crecimiento de una inversión más arriesgada. Si bien existen riesgos inherentes a cualquier inversión, Financial Banking busca equilibrar la posibilidad de obtener mayores rendimientos con la necesidad de proteger el capital invertido.\n\nSe recomienda un horizonte de inversión a mediano plazo para este fondo, ya que permite aprovechar al máximo las oportunidades de crecimiento de los activos en los que invierte. Es importante tener en cuenta que el valor de las inversiones puede fluctuar en el corto plazo, por lo que es fundamental mantener una visión a largo plazo y no dejarse llevar por movimientos temporales del mercado.\n\nEn resumen, Financial Banking es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos competitivos. Si bien ofrece la posibilidad de crecimiento, es importante tener en cuenta los riesgos asociados y mantener una estrategia de inversión disciplinada a lo largo del tiempo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8268-6",
+    "rut_admin": "96767630",
+    "nombre": "FINANCIAL BANKING",
+    "full_id": "96767630_8268-6",
+    "source": "javascript"
+  }
+}

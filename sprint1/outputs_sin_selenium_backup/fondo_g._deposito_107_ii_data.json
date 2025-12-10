@@ -1,0 +1,23 @@
+{
+  "fondo_id": "g. deposito 107 ii",
+  "nombre": "G. Deposito 107 Ii",
+  "nombre_cmf": "G. DEPOSITO 107 II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo G. Deposito 107 II es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable. Su estrategia de inversión se centra en diversificar el riesgo al invertir en distintos tipos de instrumentos financieros, lo que puede proporcionar un equilibrio entre estabilidad y potencial de crecimiento. Aunque la composición principal del fondo no está disponible públicamente, su perfil de riesgo se considera medio, lo que significa que puede experimentar fluctuaciones moderadas en su valor.\n\nEste fondo puede ser adecuado para inversores jóvenes que buscan un equilibrio entre seguridad y potencial de rendimiento a mediano plazo. Al diversificar en distintos activos, el fondo busca minimizar los impactos negativos que podrían surgir en un solo tipo de inversión. Sin embargo, es importante tener en cuenta que al ser un fondo mixto, su rentabilidad puede variar dependiendo de las condiciones del mercado.\n\nEn cuanto a los activos en los que invierte, al ser un fondo mixto, puede incluir bonos, acciones, instrumentos de deuda y otros activos financieros. Esta diversificación le permite adaptarse a diferentes escenarios económicos, lo que puede ser una ventaja en un mercado cambiante. Por otro lado, la diversificación también puede limitar el potencial de ganancias en comparación con fondos más arriesgados que invierten exclusivamente en renta variable.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que implica que puede haber cierta volatilidad en el valor de la inversión, pero sin llegar a extremos. Para un joven inversor chileno con un horizonte de inversión a mediano plazo, este fondo puede ser una opción a considerar, siempre y cuando se entienda y se acepte el nivel de riesgo asociado.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores mantengan su posición en el fondo durante al menos unos años para permitir que se materialicen los beneficios de la diversificación y se compensen posibles fluctuaciones a corto plazo. Es importante recordar que el rendimiento pasado no garantiza resultados futuros, por lo que la paciencia y la disciplina son clave al invertir en fondos mixtos como este.\n\nEn resumen, el fondo G. Deposito 107 II ofrece a los jóvenes inversores chilenos la oportunidad de diversificar sus inversiones con un nivel de riesgo moderado. Si estás dispuesto a asumir cierta volatilidad en busca de un equilibrio entre seguridad y potencial de crecimiento, este fondo podría ser",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9009-3",
+    "rut_admin": "96767630",
+    "nombre": "G. DEPOSITO 107 II",
+    "full_id": "96767630_9009-3",
+    "source": "javascript"
+  }
+}

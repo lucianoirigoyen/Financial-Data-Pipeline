@@ -1,0 +1,23 @@
+{
+  "fondo_id": "select prudente",
+  "nombre": "Select Prudente",
+  "nombre_cmf": "SELECT PRUDENTE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Select Prudente es una opción de inversión mixta diseñada para aquellos inversores que buscan un equilibrio entre riesgo y rendimiento. Su estrategia se basa en diversificar la cartera entre distintos activos, como acciones, bonos y otros instrumentos financieros, con el objetivo de obtener ganancias a mediano plazo. \n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto grado de volatilidad en busca de mayores rendimientos. Si bien no conocemos la composición exacta de sus activos principales, podemos inferir que busca combinar la estabilidad de los bonos con el potencial de crecimiento de las acciones para maximizar el retorno.\n\nEn términos simples, el nivel de riesgo del fondo Select Prudente se encuentra en un punto intermedio. Aunque no es tan conservador como un fondo de renta fija, tampoco es tan arriesgado como un fondo de renta variable pura. Esto significa que el valor de tu inversión puede fluctuar, pero con la diversificación de activos se busca minimizar dichas fluctuaciones.\n\nEn cuanto al horizonte de inversión recomendado, este fondo es ideal para aquellos que buscan mantener su dinero invertido por al menos un par de años. Dado su enfoque en el mediano plazo, es importante tener paciencia y no dejarse llevar por las fluctuaciones a corto plazo del mercado.\n\nUna ventaja de este fondo es que ofrece la posibilidad de diversificar la cartera sin la necesidad de realizar un seguimiento constante de los mercados. Sin embargo, una posible desventaja podría ser que, al no tener visibilidad sobre la composición exacta de sus activos, los inversores podrían no estar al tanto de los riesgos específicos a los que se exponen.\n\nEn resumen, el fondo mutuo Select Prudente es una opción atractiva para inversionistas con un perfil moderado que buscan un equilibrio entre riesgo y rendimiento a mediano plazo. Se recomienda a aquellos que puedan mantener su inversión por al menos un par de años y estén dispuestos a asumir cierta volatilidad en el valor de sus activos. Antes de invertir, es importante consultar con un asesor financiero para determinar si este fondo se ajusta a tus objetivos y tolerancia al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8997-4",
+    "rut_admin": "96767630",
+    "nombre": "SELECT PRUDENTE",
+    "full_id": "96767630_8997-4",
+    "source": "javascript"
+  }
+}

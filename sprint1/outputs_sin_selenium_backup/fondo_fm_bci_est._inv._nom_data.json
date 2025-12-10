@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bci est. inv. nom",
+  "nombre": "Fm Bci Est. Inv. Nom",
+  "nombre_cmf": "FM BCI EST. INV. NOM",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Bci Estilo de Inversión Nominal es una opción de inversión mixta que combina elementos de renta fija y variable. Su estrategia busca obtener rendimientos atractivos en un nivel de riesgo moderado. Este tipo de fondo es ideal para inversores con un perfil de riesgo medio, que buscan un equilibrio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable.\n\nEn cuanto a los activos en los que invierte este fondo, la información sobre la composición principal no está disponible públicamente. Sin embargo, es común que los fondos mixtos inviertan en una variedad de instrumentos financieros, como bonos, acciones, y otros activos diversificados para maximizar la rentabilidad y minimizar el riesgo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que existe la posibilidad de obtener mayores rendimientos que la renta fija tradicional, pero también implica cierto grado de volatilidad en el valor de la inversión. Es importante recordar que todos los tipos de inversión conllevan un riesgo y es fundamental evaluar tu tolerancia a este riesgo antes de invertir en un fondo mixto como este.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondo suele ser más adecuado para inversiones a mediano o largo plazo, ya que permite aprovechar el potencial de crecimiento a lo largo del tiempo. Si estás buscando una inversión a corto plazo, es posible que este fondo no sea la mejor opción para ti.\n\nAlgunas ventajas de invertir en un fondo mixto como el Fm Bci Est. Inv. Nom. incluyen la diversificación de la cartera, que puede ayudar a reducir el riesgo y la posibilidad de obtener rendimientos atractivos. Sin embargo, es importante tener en cuenta que las fluctuaciones del mercado pueden afectar el valor de la inversión, por lo que es recomendable mantener una visión a largo plazo y no dejarse llevar por las variaciones a corto plazo.\n\nEn resumen, este fondo mutuo mixto puede ser una buena opción para inversores con un perfil de riesgo medio que buscan un equilibrio entre seguridad y crecimiento. Antes de invertir, es importante asesorarse con un profesional financiero para evaluar si este fondo se adapta a tus objetivos y tolerancia al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10267-9",
+    "rut_admin": "96767630",
+    "nombre": "FM BCI EST. INV. NOM",
+    "full_id": "96767630_10267-9",
+    "source": "javascript"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fondo_id": "mi ahorro",
+  "nombre": "Mi Ahorro",
+  "nombre_cmf": "MI AHORRO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo \"Mi Ahorro\":\n\n**¿Qué es \"Mi Ahorro\" y su estrategia de inversión?**\nEl fondo \"Mi Ahorro\" es un fondo mutuo de tipo mixto que combina inversiones en instrumentos de renta fija y renta variable. Su objetivo es buscar un equilibrio entre la estabilidad de la renta fija y el potencial de crecimiento de la renta variable. Esto significa que parte de tu dinero estará invertido en bonos u otros activos de deuda, mientras que otra parte estará en acciones o instrumentos de renta variable.\n\n**¿Para qué perfil de inversionista es adecuado?**\nEste fondo es ideal para inversionistas con un perfil de riesgo medio que buscan un balance entre la seguridad de la renta fija y la posibilidad de obtener mayores rendimientos con la renta variable. Si estás dispuesto a asumir un riesgo moderado a cambio de potencialmente mayores ganancias, este fondo podría ser adecuado para ti.\n\n**Principales activos en los que invierte:**\nLa composición exacta de los activos en los que invierte el fondo \"Mi Ahorro\" no está disponible públicamente. Sin embargo, como es un fondo mixto, puedes esperar que parte de tu dinero se invierta en bonos emitidos por empresas o el gobierno, así como en acciones de compañías locales o internacionales.\n\n**Nivel de riesgo en términos simples:**\nEl nivel de riesgo de \"Mi Ahorro\" se considera medio, lo que significa que hay un equilibrio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Aunque puede haber fluctuaciones en el valor de tu inversión, no se espera que sean tan altas como en fondos de renta variable pura.\n\n**Horizonte de inversión recomendado:**\nSe recomienda que los inversionistas que elijan el fondo \"Mi Ahorro\" tengan un horizonte de inversión a mediano o largo plazo. Esto significa que debes estar dispuesto a mantener tu dinero invertido durante al menos algunos años para aprovechar el potencial de crecimiento de las inversiones en renta variable.\n\n**Ventajas y desventajas:**\nUna ventaja de este fondo es que ofrece una diversificación entre renta fija y variable, lo que puede ayudar a reducir el riesgo. Sin embargo, una posible desventaja es que al no conocer la composición exacta de sus inversiones, puede resultar difícil evaluar su desempeño de manera precisa.\n\nEn resumen, el fondo \"Mi Ahorro\" es una opción atractiva para inversionistas con un perfil de riesgo medio que",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8718-1",
+    "rut_admin": "96767630",
+    "nombre": "MI AHORRO",
+    "full_id": "96767630_8718-1",
+    "source": "javascript"
+  }
+}

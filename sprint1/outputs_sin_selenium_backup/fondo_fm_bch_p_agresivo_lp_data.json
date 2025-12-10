@@ -1,0 +1,23 @@
+{
+  "fondo_id": "fm bch p agresivo lp",
+  "nombre": "Fm Bch P Agresivo Lp",
+  "nombre_cmf": "FM BCH P Agresivo LP",
+  "tipo_fondo": "Agresivo",
+  "perfil_riesgo": "Alto",
+  "descripcion_amigable": "El Fondo Mutuo Bch P Agresivo Largo Plazo es una alternativa de inversión que busca obtener altas ganancias a largo plazo a través de una estrategia agresiva. Este tipo de fondo se caracteriza por invertir en activos de mayor riesgo, como acciones de empresas con potencial de crecimiento significativo o instrumentos financieros más volátiles. Su objetivo principal es maximizar la rentabilidad a largo plazo, asumiendo mayores riesgos en el camino.\n\nEste fondo está diseñado para inversionistas con un perfil de riesgo alto, es decir, aquellos que están dispuestos a asumir la posibilidad de pérdidas significativas a cambio de la oportunidad de obtener rendimientos más elevados. Si eres un inversor joven con un horizonte temporal de inversión a largo plazo y una tolerancia alta al riesgo, este fondo podría ser adecuado para ti.\n\nEn cuanto a los activos en los que invierte, la composición específica del fondo no está disponible, pero se espera que tenga una mayor exposición a acciones y otros instrumentos financieros de mayor volatilidad. Por ejemplo, puede tener posiciones en empresas tecnológicas emergentes, sectores en crecimiento o mercados internacionales con potencial de retorno elevado.\n\nEn términos simples, el nivel de riesgo asociado a este fondo es alto, lo que significa que las fluctuaciones en su valor pueden ser más pronunciadas en comparación con fondos de menor riesgo, como los fondos conservadores o moderados. Es importante tener en cuenta que, si bien este tipo de fondos ofrecen la posibilidad de obtener mayores ganancias, también conllevan un mayor riesgo de pérdida de capital.\n\nEl horizonte de inversión recomendado para el Fondo Mutuo Bch P Agresivo Largo Plazo es a largo plazo, idealmente más de cinco años. Esto se debe a que, al invertir en activos de mayor riesgo, es probable que se experimenten fluctuaciones en el corto plazo, pero a medida que el tiempo avanza, se espera que la volatilidad se suavice y se obtengan rendimientos más consistentes.\n\nEn resumen, este fondo puede ser una opción atractiva para jóvenes inversores chilenos con un perfil de riesgo alto que buscan maximizar sus rendimientos a largo plazo. Sin embargo, es importante tener en cuenta los riesgos asociados y asegurarse de contar con un horizonte temporal adecuado para aprovechar al máximo las oportunidades de crecimiento que ofrece este tipo de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8448-4",
+    "rut_admin": "96767630",
+    "nombre": "FM BCH P Agresivo LP",
+    "full_id": "96767630_8448-4",
+    "source": "javascript"
+  }
+}

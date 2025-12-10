@@ -1,0 +1,23 @@
+{
+  "fondo_id": "booster smal cap usa",
+  "nombre": "Booster Smal Cap Usa",
+  "nombre_cmf": "BOOSTER SMAL CAP USA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Booster Small Cap USA es un fondo mutuo mixto que ofrece a los inversionistas chilenos la posibilidad de diversificar su cartera invirtiendo en empresas de mediana capitalización con potencial de crecimiento en Estados Unidos. Su estrategia de inversión se centra en buscar oportunidades en el segmento de pequeñas y medianas empresas estadounidenses, conocidas como \"small caps\", que suelen tener un alto potencial de crecimiento pero también un mayor nivel de riesgo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan obtener rendimientos superiores a los que ofrecen las inversiones más conservadoras, como los bonos o los depósitos a plazo. Es importante tener en cuenta que, dado su enfoque en empresas de mediana capitalización, el Booster Small Cap USA puede experimentar mayores fluctuaciones en su valor en comparación con fondos que invierten en empresas más grandes y consolidadas.\n\nEn términos simples, el Booster Small Cap USA invierte principalmente en acciones de empresas de mediana capitalización que cotizan en bolsa en Estados Unidos. Estas empresas suelen tener un alto potencial de crecimiento, pero también están expuestas a mayores riesgos debido a su tamaño y a la competencia del mercado. Algunos ejemplos de sectores en los que este fondo podría invertir incluyen tecnología, salud, energía y consumo discrecional.\n\nEn cuanto al nivel de riesgo, es importante tener en cuenta que, si bien el Booster Small Cap USA ofrece la posibilidad de obtener rendimientos atractivos, también conlleva un mayor riesgo en comparación con fondos más conservadores. Las fluctuaciones en el mercado pueden afectar su valor de manera más pronunciada, por lo que es importante estar preparado para posibles periodos de volatilidad.\n\nEn cuanto al horizonte de inversión recomendado, este fondo es más adecuado para inversionistas con un horizonte a largo plazo, ya que permite aprovechar el potencial de crecimiento de las empresas de mediana capitalización a lo largo del tiempo. Se recomienda tener una visión a largo plazo y mantener una estrategia de inversión disciplinada, evitando reacciones impulsivas a corto plazo ante fluctuaciones en el mercado.\n\nEn resumen, el Booster Small Cap USA es una opción atractiva para inversionistas con un perfil de riesgo medio que buscan diversificar su cartera y obtener rendimientos atractivos a largo plazo. Sin embargo, es importante tener en cuenta su mayor nivel de riesgo y estar preparado para posibles fluctuaciones en el valor de la inversión. Se recomienda consultar con un asesor financiero antes de tomar una decisión de inversión y asegur",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8866-8",
+    "rut_admin": "96767630",
+    "nombre": "BOOSTER SMAL CAP USA",
+    "full_id": "96767630_8866-8",
+    "source": "javascript"
+  }
+}

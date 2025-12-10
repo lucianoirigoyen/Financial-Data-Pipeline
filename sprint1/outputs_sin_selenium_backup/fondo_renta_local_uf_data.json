@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta local uf",
+  "nombre": "Renta Local Uf",
+  "nombre_cmf": "RENTA LOCAL UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo de inversión Renta Local Uf es una excelente opción para aquellos inversores jóvenes que buscan diversificar su portafolio de forma equilibrada. Se trata de un fondo mixto, lo que significa que combina inversiones en instrumentos de renta fija y variable, permitiendo así obtener rendimientos atractivos con un nivel de riesgo moderado.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los instrumentos de renta fija tradicionales. Si bien el nivel de riesgo es mayor que en un fondo conservador, también ofrece la oportunidad de obtener mayores ganancias a largo plazo.\n\nEn cuanto a los activos en los que invierte, lamentablemente la composición principal no está disponible públicamente. Sin embargo, es común que un fondo mixto como Renta Local Uf invierta en una variedad de instrumentos como bonos corporativos, acciones de empresas locales e internacionales, y posiblemente en otros fondos de inversión. Esta diversificación contribuye a reducir el riesgo y maximizar las oportunidades de rendimiento.\n\nEn términos simples, el nivel de riesgo de este fondo se puede comparar con el acto de equilibrarse en una cuerda floja: requiere cierta habilidad y concentración, pero si se hace correctamente, se pueden obtener buenos resultados. Aunque existe la posibilidad de que el valor de la inversión fluctúe en el corto plazo, a largo plazo se espera que genere rendimientos superiores a los activos de renta fija convencionales.\n\nEn cuanto al horizonte de inversión recomendado, es importante tener en cuenta que un fondo mixto como Renta Local Uf suele ser más adecuado para inversiones a medio y largo plazo. Esto se debe a que, al combinar diferentes tipos de activos, se beneficia de la diversificación a lo largo del tiempo, lo que ayuda a suavizar la volatilidad del mercado y a maximizar los rendimientos a largo plazo.\n\nEn resumen, el fondo Renta Local Uf ofrece a los jóvenes inversores chilenos la oportunidad de diversificar su portafolio de forma equilibrada, con un nivel de riesgo moderado y la posibilidad de obtener rendimientos atractivos a largo plazo. Es importante recordar que, como todo fondo de inversión, tiene sus ventajas y desventajas, por lo que es fundamental que el inversor entienda su perfil de riesgo y objetivos antes de tomar una decisión.\n\nEn conclusión, para aquellos inversores jóvenes",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9084-0",
+    "rut_admin": "96767630",
+    "nombre": "RENTA LOCAL UF",
+    "full_id": "96767630_9084-0",
+    "source": "javascript"
+  }
+}

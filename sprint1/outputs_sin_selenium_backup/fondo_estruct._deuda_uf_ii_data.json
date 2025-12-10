@@ -1,0 +1,23 @@
+{
+  "fondo_id": "estruct. deuda uf ii",
+  "nombre": "Estruct. Deuda Uf Ii",
+  "nombre_cmf": "ESTRUCT. DEUDA UF II",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El Fondo Mutuo Estructura Deuda UF II es una alternativa de inversión mixta que busca obtener rendimientos a través de la combinación de activos de renta fija y variable. Su estrategia de inversión se centra en diversificar el portafolio para reducir el riesgo y maximizar la rentabilidad a largo plazo. A pesar de que la composición principal del fondo no está disponible, se espera que esté compuesto por una variedad de instrumentos financieros que se ajusten a su perfil mixto.\n\nEste fondo es adecuado para inversores con un perfil de riesgo medio, aquellos que buscan un equilibrio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Es importante tener en cuenta que, si bien el riesgo es moderado, como en cualquier inversión, existen fluctuaciones en el valor de los activos que pueden impactar los retornos.\n\nEn términos simples, el nivel de riesgo del Fondo Mutuo Estructura Deuda UF II se encuentra en un punto intermedio entre la seguridad de la renta fija y la volatilidad de la renta variable. Esto significa que si bien puede haber cierta incertidumbre en el corto plazo, a largo plazo se espera obtener rendimientos superiores a los instrumentos conservadores.\n\nEl horizonte de inversión recomendado para este fondo es a mediano y largo plazo, ya que permite aprovechar las oportunidades de crecimiento y superar posibles fluctuaciones a lo largo del tiempo. Es importante tener paciencia y mantener una visión a largo plazo para maximizar los beneficios de esta inversión.\n\nEntre las ventajas de este fondo se encuentran la diversificación del portafolio, que reduce el riesgo de pérdida, y la posibilidad de obtener rendimientos atractivos. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta de los activos del fondo, lo que puede limitar la capacidad de tomar decisiones informadas.\n\nEn resumen, el Fondo Mutuo Estructura Deuda UF II es una opción atractiva para inversores con un perfil de riesgo medio que buscan un equilibrio entre la seguridad y el potencial de crecimiento. Se recomienda tener un horizonte de inversión a mediano y largo plazo para aprovechar al máximo las oportunidades que ofrece este fondo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10661-5",
+    "rut_admin": "96767630",
+    "nombre": "ESTRUCT. DEUDA UF II",
+    "full_id": "96767630_10661-5",
+    "source": "javascript"
+  }
+}

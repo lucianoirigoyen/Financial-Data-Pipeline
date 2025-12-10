@@ -1,0 +1,23 @@
+{
+  "fondo_id": "nominal 2024",
+  "nombre": "Nominal 2024",
+  "nombre_cmf": "NOMINAL 2024",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Nominal 2024 es una opción de inversión mixta diseñada para ofrecer un equilibrio entre riesgo y retorno. Su estrategia de inversión combina activos de renta fija y variable, lo que le permite adaptarse a diferentes condiciones del mercado. Aunque la composición exacta del fondo no está disponible públicamente, su enfoque diversificado busca maximizar las oportunidades de crecimiento a través de una gestión activa de cartera.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan obtener rendimientos superiores a los de instrumentos tradicionales como depósitos a plazo, pero que no están dispuestos a asumir un riesgo elevado. Si eres un joven inversor en Chile con un horizonte de inversión a mediano plazo y buscas una alternativa que combine seguridad y potencial de crecimiento, el Nominal 2024 podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte, el fondo puede tener una distribución diversificada que incluya bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos del mercado monetario. Esta diversificación ayuda a reducir el riesgo asociado a la volatilidad de un solo activo y puede ofrecer una mayor estabilidad en el desempeño del fondo.\n\nEn términos simples, el nivel de riesgo del Nominal 2024 se sitúa en un punto intermedio, lo que significa que existe la posibilidad de obtener retornos más altos que los activos de baja volatilidad, pero también implica la exposición a fluctuaciones en el valor de la inversión. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles pérdidas en el corto plazo, especialmente en entornos económicos adversos.\n\nPara maximizar los beneficios de este fondo, se recomienda un horizonte de inversión a mediano plazo, que podría oscilar entre 3 a 5 años. Esto permitirá aprovechar el potencial de crecimiento de los activos subyacentes y mitigar posibles variaciones temporales en el valor del fondo. Es fundamental tener paciencia y mantener una visión a largo plazo para obtener los mejores resultados.\n\nEn resumen, el fondo mutuo Nominal 2024 ofrece una opción equilibrada para inversionistas jóvenes en Chile que buscan diversificar su cartera y obtener rendimientos atractivos sin asumir un riesgo excesivo. Aunque no se dispone de información detallada sobre su composición, su enfoque mixto y nivel de riesgo medio lo convierten en una alternativa a considerar",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10457-4",
+    "rut_admin": "96767630",
+    "nombre": "NOMINAL 2024",
+    "full_id": "96767630_10457-4",
+    "source": "javascript"
+  }
+}

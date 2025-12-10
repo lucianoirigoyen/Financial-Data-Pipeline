@@ -1,0 +1,23 @@
+{
+  "fondo_id": "gestionado conservad",
+  "nombre": "Gestionado Conservad",
+  "nombre_cmf": "GESTIONADO CONSERVAD",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Gestionado Conservad es una excelente opción para aquellos inversores chilenos que buscan una estrategia de inversión equilibrada y de riesgo medio. Este fondo mixto combina una diversificación de activos que buscan maximizar la rentabilidad a largo plazo, manteniendo un nivel de riesgo controlado.\n\nEste tipo de fondo es adecuado para inversores que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los de un fondo conservador. Si eres un joven inversor que busca crecimiento moderado de tu capital sin asumir riesgos extremos, Gestionado Conservad podría ser una opción a considerar.\n\nEn cuanto a los activos en los que invierte este fondo, su composición exacta no está disponible, pero generalmente los fondos mixtos como este suelen invertir en una combinación de acciones, bonos y otros instrumentos financieros. Esto permite diversificar el riesgo y aprovechar las oportunidades de diferentes clases de activos.\n\nEn términos simples, el nivel de riesgo de Gestionado Conservad se encuentra en un punto intermedio entre fondos conservadores y fondos de mayor riesgo. Esto significa que, si bien existe la posibilidad de obtener rendimientos más altos que un fondo conservador, también se asume un nivel de riesgo moderado que puede resultar en fluctuaciones en el valor de la inversión.\n\nPara obtener los mejores resultados con este fondo, se recomienda un horizonte de inversión a medio o largo plazo. Esto se debe a que, al tratarse de un fondo mixto con una estrategia equilibrada, es importante permitir que los activos se desarrollen y se ajusten a lo largo del tiempo para maximizar los rendimientos.\n\nEn cuanto a las ventajas de Gestionado Conservad, destacan la diversificación de activos que ofrece, lo que ayuda a reducir el riesgo de pérdida en comparación con invertir en un solo tipo de activo. Además, su enfoque equilibrado puede ser adecuado para inversores que buscan un equilibrio entre riesgo y rentabilidad.\n\nPor otro lado, una posible desventaja de este fondo podría ser que, al tener un nivel de riesgo medio, es posible que los rendimientos no sean tan altos como los de un fondo de mayor riesgo en períodos de alto crecimiento del mercado.\n\nEn resumen, si eres un joven inversor chileno que busca una opción de inversión equilibrada con potencial de crecimiento moderado, un nivel de riesgo controlado y un horizonte de inversión a medio o largo plazo, el fondo Gestionado Conservad podría ser una alternativa",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8927-3",
+    "rut_admin": "96767630",
+    "nombre": "GESTIONADO CONSERVAD",
+    "full_id": "96767630_8927-3",
+    "source": "javascript"
+  }
+}

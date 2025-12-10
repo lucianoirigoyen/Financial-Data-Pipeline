@@ -827,10 +827,38 @@ class FondosMutuosProcessor:
             chrome_options.add_argument('--window-size=1920,1080')
             chrome_options.add_argument('user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36')
 
-            # Set Chrome binary location
-            chrome_binary = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
-            if os.path.exists(chrome_binary):
+            # Set Chrome binary location (cross-platform)
+            # Check environment variable first, then fallback to platform defaults
+            chrome_binary = os.getenv('CHROME_BINARY_PATH')
+
+            if not chrome_binary:
+                # Auto-detect based on platform
+                import platform
+                system = platform.system()
+
+                if system == 'Darwin':  # macOS
+                    chrome_binary = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+                elif system == 'Linux':
+                    # Try common Linux locations
+                    for path in ['/usr/bin/google-chrome', '/usr/bin/chromium-browser', '/usr/bin/chromium']:
+                        if os.path.exists(path):
+                            chrome_binary = path
+                            break
+                elif system == 'Windows':
+                    # Try common Windows locations
+                    for path in [
+                        r'C:\Program Files\Google\Chrome\Application\chrome.exe',
+                        r'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+                    ]:
+                        if os.path.exists(path):
+                            chrome_binary = path
+                            break
+
+            if chrome_binary and os.path.exists(chrome_binary):
                 chrome_options.binary_location = chrome_binary
+                logger.info(f"[SELENIUM] Using Chrome binary: {chrome_binary}")
+            else:
+                logger.warning(f"[SELENIUM] Chrome binary not found, using system default")
 
             # Directorio de descargas
             download_dir = os.path.abspath('temp')
@@ -3093,14 +3121,20 @@ class FondosMutuosProcessor:
                 rut_para_status = cmf_fund.get('rut') or resultado.get('rut_base')
                 if rut_para_status:
                     status_data = self._scrape_fund_status_from_cmf(rut_para_status)
+
+                    # FIX CRÍTICO: Guardar estado_fondo SIEMPRE, no solo si hay fecha_valor_cuota
+                    # Esto permite detectar fondos cerrados (Liquidado/Fusionado) y skip PDFs
+                    resultado['estado_fondo'] = status_data.get('estado_fondo', 'Desconocido')
+
                     if status_data.get('fecha_valor_cuota'):
                         # Only update if not already set by Fintual
                         if not resultado.get('fecha_valor_cuota'):
                             resultado['fecha_valor_cuota'] = status_data['fecha_valor_cuota']
-                        resultado['estado_fondo'] = status_data['estado_fondo']
                         if status_data.get('valor_cuota'):
                             resultado['valor_cuota_cmf'] = status_data['valor_cuota']
                         logger.info(f" Datos de estado obtenidos: fecha={status_data['fecha_valor_cuota']}, estado={status_data['estado_fondo']}")
+                    else:
+                        logger.info(f" Estado fondo obtenido: {resultado['estado_fondo']} (sin fecha_valor_cuota)")
 
                 # Verificar que el RUT de Fintual coincide con el RUT de CMF
                 if resultado.get('rut_base') and cmf_fund.get('rut'):

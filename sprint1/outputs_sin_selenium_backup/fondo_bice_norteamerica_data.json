@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bice norteamerica",
+  "nombre": "Bice Norteamerica",
+  "nombre_cmf": "BICE NORTEAMERICA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Bice Norteamérica es una opción de inversión mixta que combina tanto activos de renta fija como de renta variable, con el objetivo de diversificar el riesgo y buscar un equilibrio entre la estabilidad y el potencial de crecimiento. Su estrategia de inversión se enfoca en aprovechar las oportunidades del mercado norteamericano, tanto en acciones como en bonos, buscando obtener rendimientos atractivos a mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener mayores ganancias. Si eres un joven inversor que busca diversificar tu cartera y estás dispuesto a asumir un nivel moderado de riesgo, el fondo Bice Norteamérica podría ser una buena opción para ti.\n\nEn cuanto a los principales activos en los que invierte este fondo, al no contar con información específica sobre su composición, podemos inferir que se centrará en empresas y bonos emitidos en Estados Unidos o en el mercado norteamericano en general. Esto te permitirá acceder a la economía más grande del mundo y diversificar tus inversiones geográficamente.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio, lo que significa que puede experimentar cierta volatilidad en el corto plazo, pero también ofrece la posibilidad de obtener rendimientos superiores a los de inversiones más conservadoras. Es importante que entiendas que, si bien puedes obtener ganancias, también existe la posibilidad de sufrir pérdidas en el valor de tu inversión.\n\nEn cuanto al horizonte de inversión recomendado, para este tipo de fondo mixto y con un perfil de riesgo medio, lo ideal es tener una perspectiva a mediano y largo plazo. Esto significa que debes estar dispuesto a mantener tu inversión durante al menos unos años para permitir que la estrategia del fondo se desarrolle y puedas aprovechar sus beneficios potenciales.\n\nEn resumen, el fondo Bice Norteamérica es una opción atractiva para jóvenes inversores chilenos que desean diversificar su cartera y están dispuestos a asumir un nivel moderado de riesgo. Si estás en la búsqueda de un equilibrio entre estabilidad y potencial de crecimiento, este fondo podría ser una buena alternativa para ti. Es importante recordar que, como en toda inversión, es fundamental realizar un análisis detallado de tus objetivos financieros y consultar con un asesor antes de tomar decisiones.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8183-3",
+    "rut_admin": "96767630",
+    "nombre": "BICE NORTEAMERICA",
+    "full_id": "96767630_8183-3",
+    "source": "javascript"
+  }
+}

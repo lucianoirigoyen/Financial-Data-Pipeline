@@ -1,0 +1,23 @@
+{
+  "fondo_id": "capital trust chile",
+  "nombre": "Capital Trust Chile",
+  "nombre_cmf": "CAPITAL TRUST CHILE",
+  "tipo_fondo": "Conservador",
+  "perfil_riesgo": "Bajo",
+  "descripcion_amigable": "El fondo de inversión Capital Trust Chile es una excelente opción para aquellos inversores que buscan una estrategia conservadora y de bajo riesgo. Este tipo de fondo se caracteriza por invertir en activos financieros que ofrecen una mayor estabilidad y seguridad en comparación con fondos de mayor riesgo. Aunque la composición principal de este fondo no está disponible, su enfoque conservador sugiere que probablemente esté compuesto por instrumentos de renta fija de baja volatilidad.\n\nEste tipo de fondo es ideal para inversores que prefieren preservar su capital y no están dispuestos a asumir grandes riesgos en busca de altas rentabilidades. Por lo tanto, si eres un joven inversor chileno que valora la seguridad y la estabilidad de tus inversiones por encima de obtener ganancias potencialmente altas pero con mayor riesgo, el fondo Capital Trust Chile podría ser una excelente opción para ti.\n\nEn términos simples, el nivel de riesgo de este fondo es bajo, lo que significa que las fluctuaciones en su valor son menores en comparación con fondos más agresivos. Esto se traduce en una menor posibilidad de pérdida de capital, lo que brinda tranquilidad a los inversores conservadores.\n\nEn cuanto al horizonte de inversión recomendado, este tipo de fondos suelen ser adecuados para inversiones a corto y mediano plazo, ya que ofrecen una mayor estabilidad y previsibilidad en términos de rendimiento. Sin embargo, es importante tener en cuenta que las inversiones a largo plazo también pueden beneficiarse de la estabilidad que proporciona un fondo conservador como Capital Trust Chile.\n\nUna ventaja de este tipo de fondos es su capacidad para proteger el capital de los inversores en entornos económicos volátiles, lo que los hace ideales para la diversificación de carteras. Por otro lado, una posible desventaja podría ser que, debido a su enfoque conservador, es probable que las ganancias potenciales sean menores en comparación con fondos de mayor riesgo.\n\nEn resumen, el fondo Capital Trust Chile es una excelente opción para inversores jóvenes que buscan una estrategia conservadora y de bajo riesgo. Si valoras la estabilidad y la seguridad de tus inversiones por encima de las altas rentabilidades, este fondo puede ser una buena alternativa para ti. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8527-8",
+    "rut_admin": "96767630",
+    "nombre": "CAPITAL TRUST CHILE",
+    "full_id": "96767630_8527-8",
+    "source": "javascript"
+  }
+}

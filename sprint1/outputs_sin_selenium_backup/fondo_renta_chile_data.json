@@ -1,0 +1,23 @@
+{
+  "fondo_id": "renta chile",
+  "nombre": "Renta Chile",
+  "nombre_cmf": "RENTA CHILE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Renta Chile es una opción de inversión mixta que combina diferentes activos, como acciones, bonos y efectivo, con el objetivo de obtener un equilibrio entre rendimiento y riesgo. Su estrategia busca aprovechar las oportunidades de crecimiento en el mercado local, diversificando la cartera para reducir la volatilidad y proteger el capital invertido.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un balance entre la seguridad de su inversión y la posibilidad de obtener rendimientos superiores a los ofrecidos por inversiones más conservadoras, como depósitos a plazo. Si estás dispuesto a asumir cierto nivel de riesgo a cambio de mayores posibilidades de rentabilidad, Renta Chile podría ser una opción a considerar.\n\nEn cuanto a los principales activos en los que invierte el fondo, la información específica no está disponible. Sin embargo, es probable que tenga una exposición significativa a empresas chilenas, bonos emitidos por el gobierno o empresas locales, y posiblemente también incluya inversiones en el extranjero para diversificar el riesgo.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Esto significa que si bien existe la posibilidad de obtener mayores ganancias en comparación con inversiones más conservadoras, también hay un nivel de incertidumbre y fluctuaciones en el valor de la inversión. Es importante tener en cuenta que el valor de mercado de los activos en los que invierte el fondo puede variar, por lo que es fundamental contar con un horizonte de inversión adecuado.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores que elijan Renta Chile tengan un enfoque a medio o largo plazo. Esto se debe a que, en el corto plazo, la volatilidad del mercado puede afectar el valor de la inversión, pero a medida que transcurre el tiempo, es más probable que los rendimientos se estabilicen y se materialicen los objetivos de inversión.\n\nEntre las posibles ventajas de invertir en este fondo se encuentran la diversificación de la cartera, la posibilidad de acceder a oportunidades de crecimiento en el mercado local y la gestión profesional de los activos. Sin embargo, es importante tener en cuenta que el rendimiento pasado no garantiza resultados futuros y que existen riesgos asociados a la inversión en mercados financieros.\n\nEn resumen, Renta Chile es un fondo mixto con un nivel de riesgo medio, adecuado para inversionistas que buscan un equilibrio entre seguridad y potencial de rent",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8408-5",
+    "rut_admin": "96767630",
+    "nombre": "RENTA CHILE",
+    "full_id": "96767630_8408-5",
+    "source": "javascript"
+  }
+}

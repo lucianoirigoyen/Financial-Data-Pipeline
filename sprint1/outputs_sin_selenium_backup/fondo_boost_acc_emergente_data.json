@@ -1,0 +1,23 @@
+{
+  "fondo_id": "boost acc emergente",
+  "nombre": "Boost Acc Emergente",
+  "nombre_cmf": "BOOST ACC EMERGENTE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Boost Acc Emergente es una opción de inversión mixta diseñada para aquellos inversores que buscan un equilibrio entre riesgo y potencial de rentabilidad. Su estrategia de inversión combina activos de renta fija y renta variable, lo que le permite diversificar el portafolio y aprovechar oportunidades en mercados emergentes.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio que buscan obtener un rendimiento atractivo a mediano plazo. Es importante tener en cuenta que, al tratarse de un fondo mixto, su desempeño puede variar dependiendo de las condiciones del mercado global y local.\n\nEn cuanto a los activos en los que invierte, la composición principal del fondo Boost Acc Emergente no está disponible públicamente, lo que puede dificultar la evaluación detallada de su cartera. Sin embargo, es probable que incluya una combinación de bonos corporativos, acciones de empresas emergentes y otros instrumentos financieros.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio, ya que combina activos de distintas clases que pueden fluctuar en valor en función de factores como la economía global, la política internacional y otros eventos macroeconómicos. Aunque no es tan arriesgado como invertir únicamente en acciones, tampoco es tan conservador como optar exclusivamente por bonos de bajo riesgo.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores consideren mantener su posición en el fondo Boost Acc Emergente por al menos 3 a 5 años para poder beneficiarse de los ciclos del mercado y permitir que las inversiones alcancen su potencial de rendimiento.\n\nUna ventaja de este fondo es su capacidad para diversificar el riesgo al invertir en diferentes tipos de activos, lo que puede ayudar a mitigar posibles pérdidas en momentos de volatilidad. Sin embargo, una desventaja es la falta de transparencia en cuanto a la composición exacta de su cartera, lo que puede generar incertidumbre entre los inversionistas.\n\nEn resumen, el fondo mutuo Boost Acc Emergente es una opción a considerar para inversionistas con un perfil moderado que buscan diversificar su portafolio y obtener rendimientos atractivos a mediano plazo. Es importante realizar un análisis detallado de sus características y consultar con un asesor financiero antes de tomar una decisión de inversión.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "9447-1",
+    "rut_admin": "96767630",
+    "nombre": "BOOST ACC EMERGENTE",
+    "full_id": "96767630_9447-1",
+    "source": "javascript"
+  }
+}

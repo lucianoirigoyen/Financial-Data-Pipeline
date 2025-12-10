@@ -1,0 +1,23 @@
+{
+  "fondo_id": "deuda nominal",
+  "nombre": "Deuda Nominal",
+  "nombre_cmf": "DEUDA NOMINAL",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Deuda Nominal es una alternativa de inversión mixta que combina activos de renta fija y variable, buscando un equilibrio entre estabilidad y potencial de crecimiento. Su estrategia se enfoca en invertir en instrumentos financieros que ofrecen un retorno predecible, como bonos y letras, así como en acciones que pueden generar mayores rendimientos a largo plazo. Aunque la composición exacta del fondo no está disponible, su objetivo es mantener un perfil de riesgo medio, lo que significa que puede experimentar fluctuaciones moderadas en su valor, pero con la expectativa de obtener una rentabilidad superior a la inflación.\n\nEste fondo es adecuado para inversionistas con un perfil moderado, que buscan un equilibrio entre seguridad y potencial de crecimiento en sus inversiones. Si eres un joven inversor que está dispuesto a asumir un nivel de riesgo mediano a cambio de obtener rendimientos superiores a los instrumentos de renta fija tradicionales, Deuda Nominal podría ser una opción a considerar. Es importante tener en cuenta que, si bien el riesgo es moderado, no está exento de posibles fluctuaciones en el valor de la inversión.\n\nEn cuanto a los activos en los que invierte este fondo, se espera que tenga una combinación de bonos corporativos, bonos gubernamentales, acciones de empresas nacionales e internacionales, entre otros. Estos activos ofrecen diversificación, lo que ayuda a reducir el impacto de eventos adversos en un solo sector o mercado. Al diversificar la cartera, se busca mitigar el riesgo y maximizar las oportunidades de rendimiento a largo plazo.\n\nEn términos simples, el nivel de riesgo de Deuda Nominal se sitúa en un punto intermedio entre la seguridad de la renta fija y el potencial de crecimiento de la renta variable. Aunque puede haber fluctuaciones en el valor del fondo en el corto plazo, se espera que a largo plazo genere rendimientos superiores a los instrumentos conservadores. Es importante tener en cuenta que el riesgo está presente en cualquier inversión, y en este caso, se busca encontrar un equilibrio entre riesgo y retorno.\n\nEl horizonte de inversión recomendado para Deuda Nominal es a mediano y largo plazo, ya que se espera que la estrategia de inversión genere rendimientos significativos a lo largo del tiempo. Para maximizar los beneficios de este fondo, es importante mantener una visión a largo plazo y no dejarse llevar por fluctuaciones temporales en el mercado. A medida que el fondo se consolide y genere rendimientos, los inversionistas podrán ver los frutos de su invers",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8620-7",
+    "rut_admin": "96767630",
+    "nombre": "DEUDA NOMINAL",
+    "full_id": "96767630_8620-7",
+    "source": "javascript"
+  }
+}

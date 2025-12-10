@@ -1,0 +1,23 @@
+{
+  "fondo_id": "equilibrio",
+  "nombre": "Equilibrio",
+  "nombre_cmf": "EQUILIBRIO",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Equilibrio es una opción mixta diseñada para inversores que buscan un equilibrio entre rendimiento y riesgo. Su estrategia de inversión combina activos de renta fija y renta variable, lo que le permite adaptarse a diferentes condiciones de mercado. Este tipo de fondos suelen tener una distribución de activos que puede variar según las decisiones del gestor del fondo, con el objetivo de maximizar la rentabilidad a largo plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que están dispuestos a asumir cierto nivel de volatilidad en busca de mayores rendimientos. Si eres un joven inversor que busca diversificar tu cartera sin exponerte demasiado a riesgos extremos, Equilibrio podría ser una opción a considerar.\n\nEn cuanto a los principales activos en los que invierte, Equilibrio puede incluir bonos corporativos, acciones de empresas locales e internacionales, así como instrumentos de mercado monetario. Esta diversificación ayuda a mitigar el riesgo y a aprovechar oportunidades en diferentes clases de activos.\n\nEn términos simples, el nivel de riesgo de este fondo se sitúa en un punto intermedio. Aunque puede experimentar fluctuaciones en su valor, no se espera que sea tan volátil como un fondo de renta variable pura. Es importante tener en cuenta que, a medida que crece el potencial de rentabilidad, también aumenta el nivel de riesgo asociado.\n\nPara obtener los mejores resultados, se recomienda tener un horizonte de inversión a medio o largo plazo al invertir en el fondo Equilibrio. Esto significa que debes estar dispuesto a mantener tu inversión durante al menos varios años para permitir que el fondo se recupere de posibles fluctuaciones a corto plazo y pueda generar rendimientos.\n\nUna ventaja de este fondo es su capacidad para adaptarse a diferentes condiciones de mercado, lo que puede brindar estabilidad a tu cartera en momentos de incertidumbre. Sin embargo, una posible desventaja es que su rentabilidad puede no ser tan alta como la de fondos más agresivos en períodos de fuerte crecimiento del mercado.\n\nEn resumen, si eres un joven inversor con un perfil de riesgo medio y buscas diversificar tu cartera a través de un fondo equilibrado, Equilibrio podría ser una opción adecuada para ti. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y asegurarte de entender completamente los riesgos y beneficios asociados con este tipo de fondos.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10275-K",
+    "rut_admin": "96767630",
+    "nombre": "EQUILIBRIO",
+    "full_id": "96767630_10275-K",
+    "source": "javascript"
+  }
+}

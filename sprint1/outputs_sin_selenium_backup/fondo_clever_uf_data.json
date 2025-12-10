@@ -1,0 +1,23 @@
+{
+  "fondo_id": "clever uf",
+  "nombre": "Clever Uf",
+  "nombre_cmf": "CLEVER UF",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Clever UF es una opción atractiva para quienes buscan un equilibrio entre riesgo y rendimiento. Se clasifica como mixto, lo que significa que combina diferentes tipos de activos, como acciones, bonos y efectivo, con el objetivo de diversificar y obtener ganancias a largo plazo. Su estrategia de inversión busca aprovechar las oportunidades del mercado y gestionar el riesgo de manera eficiente.\n\nEste fondo es ideal para inversores con un perfil de riesgo medio, es decir, aquellos que buscan un crecimiento moderado de su capital sin asumir demasiadas fluctuaciones en el valor de sus inversiones. Si eres un joven inversor chileno que está dispuesto a aceptar cierto nivel de incertidumbre a cambio de mayores posibilidades de rendimiento, Clever UF puede ser una buena opción para ti.\n\nEn cuanto a los activos en los que invierte, la composición exacta no está disponible, pero podemos esperar que incluya una combinación de acciones de empresas locales e internacionales, bonos corporativos y gubernamentales, así como instrumentos de renta fija. Esta diversificación contribuye a reducir el riesgo asociado a la volatilidad de un solo activo.\n\nEn términos simples, el nivel de riesgo de Clever UF se sitúa en un punto intermedio. Esto significa que, si bien existe la posibilidad de obtener retornos atractivos, también hay un cierto grado de exposición a la fluctuación de los mercados. Es importante recordar que todo inversión conlleva cierto nivel de riesgo, y en este caso, la clave es mantener una visión a largo plazo y no dejarse llevar por las variaciones a corto plazo.\n\nEn cuanto al horizonte de inversión recomendado, Clever UF es más adecuado para aquellos que pueden mantener su dinero invertido durante al menos tres a cinco años. Esto permite que el fondo se beneficie de las fluctuaciones a corto plazo y pueda alcanzar su potencial de rendimiento a largo plazo.\n\nEn resumen, Clever UF es una opción atractiva para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y rendimiento. Sus ventajas incluyen la diversificación de activos y la posibilidad de obtener retornos atractivos, mientras que sus posibles desventajas pueden ser la volatilidad de los mercados y la necesidad de mantener una perspectiva a largo plazo. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de inversión y asegurarte de que el perfil de riesgo del fondo se alinee con tus objetivos y tolerancia al riesgo.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "10300-4",
+    "rut_admin": "96767630",
+    "nombre": "CLEVER UF",
+    "full_id": "96767630_10300-4",
+    "source": "javascript"
+  }
+}

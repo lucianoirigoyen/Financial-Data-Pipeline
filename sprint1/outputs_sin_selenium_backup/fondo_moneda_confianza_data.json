@@ -1,0 +1,23 @@
+{
+  "fondo_id": "moneda confianza",
+  "nombre": "Moneda Confianza",
+  "nombre_cmf": "MONEDA CONFIANZA",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! A continuación, te presento la descripción del fondo de inversión \"Moneda Confianza\":\n\n1. \"Moneda Confianza es un fondo mutuo de tipo mixto que combina inversiones en renta fija y renta variable con el objetivo de obtener un crecimiento moderado a mediano plazo. Su estrategia de inversión busca diversificar el riesgo al invertir en diferentes activos, lo que puede ayudar a mitigar las fluctuaciones del mercado y maximizar el potencial de ganancias.\"\n\n2. \"Este fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su capital y la posibilidad de obtener rendimientos superiores a los productos financieros tradicionales, como los depósitos a plazo. Si estás dispuesto a asumir un nivel moderado de riesgo para buscar mayores retornos, Moneda Confianza podría ser una opción a considerar.\"\n\n3. \"Si bien la composición exacta de los activos en los que invierte no está disponible, podemos esperar que Moneda Confianza tenga una combinación de bonos, acciones y otros instrumentos financieros. Esto permite diversificar el portafolio y aprovechar las oportunidades que ofrece tanto el mercado de renta fija como el de renta variable.\"\n\n4. \"En términos simples, el nivel de riesgo de Moneda Confianza se sitúa en un punto intermedio. Esto significa que, si bien existe la posibilidad de experimentar fluctuaciones en el valor de la inversión, estas no suelen ser tan pronunciadas como en fondos de mayor riesgo. Es importante tener en cuenta que, en el mundo de las inversiones, el riesgo y la rentabilidad suelen estar relacionados: a mayor riesgo, mayor potencial de ganancias, pero también de pérdidas.\"\n\n5. \"El horizonte de inversión recomendado para Moneda Confianza es a mediano plazo, generalmente entre 3 a 5 años. Esto se debe a que, al ser un fondo mixto, puede requerir un tiempo razonable para que las inversiones maduren y generen los retornos esperados. Si tienes un objetivo financiero a corto plazo, tal vez este fondo no sea la mejor opción, ya que las fluctuaciones del mercado podrían afectar tu inversión en el corto plazo.\"\n\nEn cuanto a recomendaciones, para un joven inversor chileno que esté buscando diversificar su portafolio y asumir un riesgo moderado, Moneda Confianza podría ser una alternativa interesante. Sin embargo, es importante tener en cuenta que, como todo fondo de inversión, presenta vent",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8259-7",
+    "rut_admin": "96767630",
+    "nombre": "MONEDA CONFIANZA",
+    "full_id": "96767630_8259-7",
+    "source": "javascript"
+  }
+}

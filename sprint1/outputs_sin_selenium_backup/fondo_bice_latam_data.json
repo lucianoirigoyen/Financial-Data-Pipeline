@@ -1,0 +1,23 @@
+{
+  "fondo_id": "bice latam",
+  "nombre": "Bice Latam",
+  "nombre_cmf": "BICE LATAM",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo Bice Latam es una excelente opción para aquellos inversores chilenos que buscan una alternativa mixta con un perfil de riesgo medio. Este fondo combina inversiones en diferentes activos, como acciones, bonos y otros instrumentos financieros, con el objetivo de obtener un rendimiento equilibrado a largo plazo.\n\nEste tipo de fondo mixto es adecuado para inversionistas que desean diversificar su portafolio y están dispuestos a asumir un nivel moderado de riesgo. Si eres un joven inversor que busca crecimiento con cierta estabilidad, el Bice Latam puede ser una buena opción para ti.\n\nSi bien la composición exacta del fondo no está disponible, generalmente los fondos mixtos como este invierten en empresas de América Latina, bonos gubernamentales, y otros instrumentos financieros de la región. Esto permite obtener una exposición diversificada a diferentes mercados y sectores, reduciendo el riesgo asociado a la volatilidad de un solo activo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre la alta rentabilidad de los fondos de renta variable y la estabilidad de los fondos de renta fija. Esto significa que podrías obtener rendimientos superiores a los de un fondo conservador, pero también enfrentar cierta fluctuación en el valor de tus inversiones.\n\nEn cuanto al horizonte de inversión recomendado, es importante tener en cuenta que los fondos mixtos como el Bice Latam suelen tener un enfoque a medio y largo plazo. Esto significa que es recomendable mantener la inversión por un período de al menos 3 a 5 años para permitir que la estrategia de inversión del fondo se desarrolle y se vean resultados positivos.\n\nUna ventaja de este tipo de fondo es la diversificación que ofrece, lo que puede ayudar a reducir el riesgo total de tu portafolio. Sin embargo, es importante tener en cuenta que, al ser un fondo mixto, los rendimientos pueden variar dependiendo de las condiciones del mercado y la estrategia de inversión del gestor del fondo.\n\nEn resumen, el fondo Bice Latam es una opción atractiva para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y retorno. Si estás dispuesto a asumir un nivel moderado de riesgo y tienes un horizonte de inversión a medio o largo plazo, este fondo mixto podría ser una excelente incorporación a tu portafolio de inversiones.",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8537-5",
+    "rut_admin": "96767630",
+    "nombre": "BICE LATAM",
+    "full_id": "96767630_8537-5",
+    "source": "javascript"
+  }
+}

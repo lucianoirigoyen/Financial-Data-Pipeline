@@ -1,0 +1,23 @@
+{
+  "fondo_id": "acc europa emergente",
+  "nombre": "Acc Europa Emergente",
+  "nombre_cmf": "ACC EUROPA EMERGENTE",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "El fondo mutuo Acc Europa Emergente es una opción de inversión mixta que busca combinar la rentabilidad de mercados emergentes en Europa con un nivel moderado de riesgo. Su estrategia de inversión se centra en diversificar el portafolio a través de la inversión en una variedad de activos, como acciones y bonos, con el objetivo de obtener un crecimiento sostenido a mediano plazo.\n\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la generación de retornos y la protección de su capital. Si eres un joven inversor chileno que está dispuesto a asumir un nivel moderado de riesgo en busca de mayores rendimientos que los activos tradicionales, como depósitos a plazo, este fondo puede ser una opción a considerar.\n\nAunque la composición principal del Acc Europa Emergente no está disponible, se espera que invierta principalmente en empresas con potencial de crecimiento en mercados emergentes de Europa. Esto podría incluir sectores como tecnología, salud, energía o consumo, dependiendo de las oportunidades identificadas por el equipo de gestión del fondo.\n\nEn términos simples, el nivel de riesgo de este fondo se encuentra en un punto intermedio entre inversiones conservadoras y agresivas. Si bien existe la posibilidad de obtener rendimientos significativos, también se deben considerar los posibles riesgos asociados con la volatilidad de los mercados emergentes.\n\nEn cuanto al horizonte de inversión recomendado, se sugiere que los inversores mantengan sus posiciones en el Acc Europa Emergente por al menos 3 a 5 años. Esto permitirá aprovechar el potencial de crecimiento a mediano plazo y reducir el impacto de la volatilidad a corto plazo en el valor de la inversión.\n\nEntre las ventajas de este fondo se encuentra la posibilidad de diversificar el riesgo al invertir en diferentes activos y regiones, lo que puede ayudar a mitigar las pérdidas potenciales en caso de turbulencias en un mercado específico. Sin embargo, una posible desventaja podría ser la falta de transparencia en la composición exacta del portafolio, lo que puede dificultar la evaluación de la calidad de las inversiones realizadas.\n\nEn resumen, el Acc Europa Emergente es una opción atractiva para jóvenes inversores chilenos con un perfil de riesgo moderado que buscan diversificar sus inversiones y obtener potencial de crecimiento a mediano plazo en mercados emergentes de Europa. Recuerda siempre consultar con un asesor financiero antes de tomar decisiones de",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8728-9",
+    "rut_admin": "96767630",
+    "nombre": "ACC EUROPA EMERGENTE",
+    "full_id": "96767630_8728-9",
+    "source": "javascript"
+  }
+}

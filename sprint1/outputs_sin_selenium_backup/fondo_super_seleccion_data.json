@@ -1,0 +1,23 @@
+{
+  "fondo_id": "super seleccion",
+  "nombre": "Super Seleccion",
+  "nombre_cmf": "SUPER SELECCION",
+  "tipo_fondo": "Mixto",
+  "perfil_riesgo": "Medio",
+  "descripcion_amigable": "¡Claro! Aquí tienes la descripción del fondo de inversión \"Super Seleccion\" de manera clara y amigable para jóvenes inversores chilenos:\n\n1. **¿Qué es el fondo y su estrategia de inversión?**\nEl fondo \"Super Seleccion\" es un fondo mutuo de tipo mixto, lo que significa que combina diferentes tipos de activos, como acciones y bonos, para buscar un equilibrio entre riesgo y retorno. Su estrategia de inversión se basa en diversificar el portafolio para reducir el impacto de posibles fluctuaciones del mercado.\n\n2. **¿Para qué perfil de inversionista es adecuado?**\nEste fondo es adecuado para inversionistas con un perfil de riesgo medio, es decir, aquellos que buscan un equilibrio entre la seguridad de su inversión y la posibilidad de obtener un retorno mayor que el de inversiones más conservadoras.\n\n3. **¿Principales activos en los que invierte?**\nLa composición principal de los activos en los que invierte el fondo \"Super Seleccion\" no está disponible públicamente. Sin embargo, se espera que diversifique su cartera entre acciones, bonos y posiblemente otros instrumentos financieros para maximizar el potencial de ganancias.\n\n4. **¿Nivel de riesgo en términos simples?**\nEn términos simples, el nivel de riesgo de este fondo se considera medio. Esto significa que existe la posibilidad de que el valor de la inversión fluctúe en el corto plazo, pero se espera que, a largo plazo, brinde rendimientos superiores a opciones de menor riesgo, como los depósitos a plazo.\n\n5. **¿Horizonte de inversión recomendado?**\nSe recomienda un horizonte de inversión a mediano o largo plazo para el fondo \"Super Seleccion\". Esto significa que los inversores deben estar dispuestos a mantener su dinero invertido durante al menos varios años para aprovechar al máximo las oportunidades de crecimiento y compensar posibles fluctuaciones temporales del mercado.\n\n**Recomendaciones:**\n- **Perfil del inversionista ideal:** Este fondo puede ser adecuado para jóvenes inversores chilenos que buscan un equilibrio entre riesgo y retorno en sus inversiones. Si estás dispuesto a asumir cierto nivel de riesgo a cambio de la posibilidad de obtener rendimientos atractivos, \"Super Seleccion\" podría ser una opción a considerar.\n- **Ventajas:** Diversificación de la cartera, potencial de obtener retornos superiores a inversiones más conservadoras.\n- **Desventajas:** Posibles fluctuaciones del mercado, rentabilidad variable.\n\nEn resumen, el fondo",
+  "composicion_portafolio": [],
+  "rentabilidad_anual": null,
+  "fuente_cmf": true,
+  "scraping_success": true,
+  "error": null,
+  "rut_cmf": null,
+  "rut_completo_cmf": null,
+  "url_cmf": null,
+  "cmf_fund_info": {
+    "rut_fondo": "8383-6",
+    "rut_admin": "96767630",
+    "nombre": "SUPER SELECCION",
+    "full_id": "96767630_8383-6",
+    "source": "javascript"
+  }
+}
