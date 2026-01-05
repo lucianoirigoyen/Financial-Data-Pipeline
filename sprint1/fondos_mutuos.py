@@ -171,7 +171,7 @@ def _wait_for_download_complete(download_dir: str, timeout: int = 60, min_size_k
             logger.debug(f"[DOWNLOAD POLL] Error checking: {e}")
             time.sleep(0.5)
 
-    logger.error(f"[DOWNLOAD POLL] ❌ Timeout after {timeout}s")
+    logger.error(f"[DOWNLOAD POLL] Timeout after {timeout}s")
     return None
 
 
@@ -1220,10 +1220,18 @@ class FondosMutuosProcessor:
                 'tipo_fondo': None,
                 'perfil_riesgo': None,
                 'perfil_riesgo_escala': None,  # R1-R7
+                'tolerancia_riesgo': None,  # NUEVO: Baja/Media/Alta
+                'perfil_inversionista_ideal': None,  # NUEVO: Conservador/Moderado/Agresivo
                 'horizonte_inversion': None,
                 'horizonte_inversion_meses': None,
                 'comision_administracion': None,
                 'comision_rescate': None,
+                'fondo_rescatable': None,  # NUEVO: True/False
+                'plazos_rescates': None,  # NUEVO: "X días"
+                'duracion': None,  # NUEVO: "X años" o "Indefinido"
+                'monto_minimo': None,  # NUEVO: "$ XXX CLP" o "XX UF"
+                'monto_minimo_moneda': None,  # NUEVO: CLP, UF, USD
+                'monto_minimo_valor': None,  # NUEVO: valor numérico
                 'rentabilidad_12m': None,
                 'rentabilidad_24m': None,
                 'rentabilidad_36m': None,
@@ -1351,6 +1359,43 @@ class FondosMutuosProcessor:
                             break
 
                 # ============================================================
+                # PATRÓN 2B: TOLERANCIA AL RIESGO (NUEVO)
+                # ============================================================
+                patrones_tolerancia = {
+                    'Baja': ['tolerancia baja', 'baja tolerancia', 'aversión al riesgo', 'averso al riesgo'],
+                    'Media': ['tolerancia media', 'tolerancia moderada', 'moderada tolerancia'],
+                    'Alta': ['tolerancia alta', 'alta tolerancia', 'tolerante al riesgo']
+                }
+
+                for nivel, keywords in patrones_tolerancia.items():
+                    if any(keyword in texto_lower for keyword in keywords):
+                        resultado['tolerancia_riesgo'] = nivel
+                        campos_extraidos += 1
+                        logger.info(f"[PDF EXTENDED] Tolerancia riesgo: {nivel}")
+                        break
+
+                # Buscar también frases como "perfil del inversionista"
+                for linea in lineas:
+                    linea_lower = linea.lower()
+                    if 'perfil del inversionista' in linea_lower or 'perfil inversionista' in linea_lower:
+                        if 'conservador' in linea_lower:
+                            resultado['tolerancia_riesgo'] = 'Baja'
+                            resultado['perfil_inversionista_ideal'] = 'Conservador'
+                            campos_extraidos += 1
+                            logger.info(f"[PDF EXTENDED] Perfil inversionista: Conservador (tolerancia baja)")
+                        elif 'moderado' in linea_lower or 'balanceado' in linea_lower:
+                            resultado['tolerancia_riesgo'] = 'Media'
+                            resultado['perfil_inversionista_ideal'] = 'Moderado'
+                            campos_extraidos += 1
+                            logger.info(f"[PDF EXTENDED] Perfil inversionista: Moderado (tolerancia media)")
+                        elif 'agresivo' in linea_lower or 'arriesgado' in linea_lower:
+                            resultado['tolerancia_riesgo'] = 'Alta'
+                            resultado['perfil_inversionista_ideal'] = 'Agresivo'
+                            campos_extraidos += 1
+                            logger.info(f"[PDF EXTENDED] Perfil inversionista: Agresivo (tolerancia alta)")
+                        break
+
+                # ============================================================
                 # PATRÓN 3: HORIZONTE DE INVERSIÓN
                 # ============================================================
                 for linea in lineas:
@@ -1449,6 +1494,177 @@ class FondosMutuosProcessor:
                                 continue
 
                 # ============================================================
+                # PATRÓN 5B: INFORMACIÓN DE RESCATE (NUEVO)
+                # ============================================================
+                # Buscar si el fondo es rescatable
+                for linea in lineas:
+                    linea_lower = linea.lower()
+                    if 'rescatable' in linea_lower:
+                        if 'no rescatable' in linea_lower or 'sin rescate' in linea_lower:
+                            resultado['fondo_rescatable'] = False
+                            logger.info(f"[PDF EXTENDED] Fondo NO rescatable")
+                        else:
+                            resultado['fondo_rescatable'] = True
+                            logger.info(f"[PDF EXTENDED] Fondo rescatable")
+                        campos_extraidos += 1
+                        break
+                    elif 'liquidez' in linea_lower or 'reembolso' in linea_lower:
+                        resultado['fondo_rescatable'] = True
+                        campos_extraidos += 1
+                        logger.info(f"[PDF EXTENDED] Fondo rescatable (por mención liquidez/reembolso)")
+                        break
+
+                # Buscar plazos de rescate
+                for linea in lineas:
+                    linea_lower = linea.lower()
+                    if 'plazo de rescate' in linea_lower or 'días para rescate' in linea_lower or 'plazo para rescate' in linea_lower:
+                        # Buscar número de días
+                        match_dias = re.search(r'(\d+)\s*días?', linea_lower)
+                        if match_dias:
+                            dias = match_dias.group(1)
+                            resultado['plazos_rescates'] = f"{dias} días"
+                            campos_extraidos += 1
+                            logger.info(f"[PDF EXTENDED] Plazo rescate: {dias} días")
+                            break
+
+                # Buscar duración del fondo
+                for linea in lineas:
+                    linea_lower = linea.lower()
+                    if 'duración' in linea_lower or 'plazo del fondo' in linea_lower or 'vigencia del fondo' in linea_lower:
+                        # Buscar años o meses
+                        match_anos = re.search(r'(\d+)\s*años?', linea_lower)
+                        match_meses = re.search(r'(\d+)\s*meses', linea_lower)
+                        if match_anos:
+                            anos = match_anos.group(1)
+                            resultado['duracion'] = f"{anos} años"
+                            campos_extraidos += 1
+                            logger.info(f"[PDF EXTENDED] Duración: {anos} años")
+                            break
+                        elif match_meses:
+                            meses = match_meses.group(1)
+                            resultado['duracion'] = f"{meses} meses"
+                            campos_extraidos += 1
+                            logger.info(f"[PDF EXTENDED] Duración: {meses} meses")
+                            break
+                    elif 'indefinido' in linea_lower or 'sin plazo' in linea_lower:
+                        resultado['duracion'] = 'Indefinido'
+                        campos_extraidos += 1
+                        logger.info(f"[PDF EXTENDED] Duración: Indefinido")
+                        break
+
+                # ============================================================
+                # PATRÓN 5C: MONTO MÍNIMO DE INVERSIÓN (NUEVO)
+                # ============================================================
+                patrones_monto_minimo = [
+                    'monto mínimo', 'inversión mínima', 'aporte mínimo',
+                    'capital mínimo', 'monto inicial', 'inversión inicial',
+                    'cuota mínima', 'aporte inicial mínimo'
+                ]
+
+                for i, linea in enumerate(lineas):
+                    linea_lower = linea.lower()
+                    if any(patron in linea_lower for patron in patrones_monto_minimo):
+                        # Buscar en línea actual y próximas 3 líneas
+                        texto_busqueda = ' '.join(lineas[i:min(i+4, len(lineas))]).lower()
+
+                        # Patrón 1: UF (común en fondos chilenos)
+                        # Ejemplos: "UF 100", "100 UF", "UF 1.000", "UF100"
+                        match_uf = re.search(r'(?:UF|uf)\s*[:\.]?\s*(\d+(?:[\.,]\d+)*)', texto_busqueda, re.IGNORECASE)
+                        if match_uf:
+                            uf = match_uf.group(1).replace('.', '').replace(',', '.')
+                            try:
+                                uf_num = float(uf)
+                                resultado['monto_minimo'] = f"{uf_num:.2f} UF"
+                                resultado['monto_minimo_moneda'] = 'UF'
+                                resultado['monto_minimo_valor'] = uf_num
+                                campos_extraidos += 1
+                                logger.info(f"[PDF EXTENDED] Monto mínimo: {uf_num:.2f} UF")
+                                break
+                            except ValueError:
+                                pass
+
+                        # Patrón 2: Pesos chilenos con símbolo $
+                        # Ejemplos: "$100.000", "$ 1.000.000", "$100,000"
+                        match_pesos_simbolo = re.search(r'\$\s*(\d{1,3}(?:[\.,]\d{3})*(?:[\.,]\d{1,2})?)', texto_busqueda)
+                        if match_pesos_simbolo:
+                            monto = match_pesos_simbolo.group(1).replace('.', '').replace(',', '')
+                            try:
+                                monto_num = float(monto)
+                                if monto_num > 1000:  # Filtrar valores muy bajos que podrían ser errores
+                                    resultado['monto_minimo'] = f"${monto_num:,.0f} CLP"
+                                    resultado['monto_minimo_moneda'] = 'CLP'
+                                    resultado['monto_minimo_valor'] = monto_num
+                                    campos_extraidos += 1
+                                    logger.info(f"[PDF EXTENDED] Monto mínimo: ${monto_num:,.0f} CLP")
+                                    break
+                            except ValueError:
+                                pass
+
+                        # Patrón 3: Números seguidos de "pesos", "CLP", "pesos chilenos"
+                        # Ejemplos: "100.000 pesos", "1000000 CLP", "500 mil pesos"
+                        match_pesos_texto = re.search(r'(\d{1,3}(?:[\.,]\d{3})*)\s*(?:pesos|clp|peso)', texto_busqueda)
+                        if match_pesos_texto:
+                            monto = match_pesos_texto.group(1).replace('.', '').replace(',', '')
+                            try:
+                                monto_num = float(monto)
+                                if monto_num > 1000:
+                                    resultado['monto_minimo'] = f"${monto_num:,.0f} CLP"
+                                    resultado['monto_minimo_moneda'] = 'CLP'
+                                    resultado['monto_minimo_valor'] = monto_num
+                                    campos_extraidos += 1
+                                    logger.info(f"[PDF EXTENDED] Monto mínimo: ${monto_num:,.0f} CLP")
+                                    break
+                            except ValueError:
+                                pass
+
+                        # Patrón 4: "X mil", "X millones"
+                        # Ejemplos: "100 mil pesos", "1 millón"
+                        match_miles = re.search(r'(\d+(?:[\.,]\d+)?)\s*mil(?:\s+(?:pesos|clp))?', texto_busqueda)
+                        match_millones = re.search(r'(\d+(?:[\.,]\d+)?)\s*mill[oó]n(?:es)?(?:\s+(?:pesos|clp))?', texto_busqueda)
+
+                        if match_millones:
+                            num = match_millones.group(1).replace(',', '.')
+                            try:
+                                num_float = float(num)
+                                monto_num = num_float * 1_000_000
+                                resultado['monto_minimo'] = f"${monto_num:,.0f} CLP"
+                                resultado['monto_minimo_moneda'] = 'CLP'
+                                resultado['monto_minimo_valor'] = monto_num
+                                campos_extraidos += 1
+                                logger.info(f"[PDF EXTENDED] Monto mínimo: ${monto_num:,.0f} CLP ({num_float} millones)")
+                                break
+                            except ValueError:
+                                pass
+                        elif match_miles:
+                            num = match_miles.group(1).replace(',', '.')
+                            try:
+                                num_float = float(num)
+                                monto_num = num_float * 1_000
+                                resultado['monto_minimo'] = f"${monto_num:,.0f} CLP"
+                                resultado['monto_minimo_moneda'] = 'CLP'
+                                resultado['monto_minimo_valor'] = monto_num
+                                campos_extraidos += 1
+                                logger.info(f"[PDF EXTENDED] Monto mínimo: ${monto_num:,.0f} CLP ({num_float} mil)")
+                                break
+                            except ValueError:
+                                pass
+
+                        # Patrón 5: USD (algunos fondos internacionales)
+                        match_usd = re.search(r'(?:USD|US\$|U\.S\.\$)\s*(\d+(?:[\.,]\d+)*)', texto_busqueda, re.IGNORECASE)
+                        if match_usd:
+                            usd = match_usd.group(1).replace(',', '')
+                            try:
+                                usd_num = float(usd)
+                                resultado['monto_minimo'] = f"${usd_num:,.2f} USD"
+                                resultado['monto_minimo_moneda'] = 'USD'
+                                resultado['monto_minimo_valor'] = usd_num
+                                campos_extraidos += 1
+                                logger.info(f"[PDF EXTENDED] Monto mínimo: ${usd_num:,.2f} USD")
+                                break
+                            except ValueError:
+                                pass
+
+                # ============================================================
                 # PATRÓN 6: RENTABILIDAD HISTÓRICA
                 # ============================================================
                 # FIX 4.3: Regex robustificado para rentabilidades (acepta ".5", "9.5", "-2.3")
@@ -1520,13 +1736,13 @@ class FondosMutuosProcessor:
                                 continue
 
                 # ============================================================
-                # PATRÓN 8: COMPOSICIÓN DE PORTAFOLIO (Mejorada)
+                # PATRÓN 8: COMPOSICIÓN DE PORTAFOLIO (Mejorada con patrones alternativos)
                 # ============================================================
                 composicion = []
                 composicion_detallada = []
 
+                # Patrón 1: "Activo XX,XX%" o "Activo XX.XX %"
                 for i, linea in enumerate(lineas):
-                    # Buscar patrón: "Pagarés 77,25%"
                     match = re.search(r'([A-Za-záéíóúñÁÉÍÓÚÑ\s\.]+)\s+(\d+[\.,]?\d*)\s*%', linea)
                     if match:
                         activo_nombre = match.group(1).strip()
@@ -1550,9 +1766,76 @@ class FondosMutuosProcessor:
                                 item_detallado['categoria'] = categoria
                                 composicion_detallada.append(item_detallado)
 
-                                logger.debug(f"[PDF EXTENDED] Encontrado: {activo_nombre} = {porcentaje_decimal:.2%} (cat: {categoria})")
+                                logger.debug(f"[PDF EXTENDED] Encontrado (P1): {activo_nombre} = {porcentaje_decimal:.2%} (cat: {categoria})")
                         except ValueError:
                             continue
+
+                # Patrón 2: Tabla con columnas "Instrumento | Porcentaje" o similar
+                # Buscar sección "Composición de Cartera" o "Inversiones"
+                if not composicion:
+                    logger.info("[PDF EXTENDED] Patrón 1 no encontró composición, intentando Patrón 2 (tabla)...")
+                    en_seccion_composicion = False
+                    for i, linea in enumerate(lineas):
+                        linea_lower = linea.lower()
+
+                        # Detectar inicio de sección de composición
+                        if any(keyword in linea_lower for keyword in ['composición', 'cartera', 'inversiones', 'activos']):
+                            if any(keyword2 in linea_lower for keyword2 in ['portafolio', 'serie', 'fondo']):
+                                en_seccion_composicion = True
+                                logger.debug(f"[PDF EXTENDED] Iniciando sección composición en línea {i}")
+                                continue
+
+                        # Si estamos en la sección, buscar patrones más flexibles
+                        if en_seccion_composicion:
+                            # Buscar líneas con múltiples números: "Bonos BCP  15.234  12,5%"
+                            match_tabla = re.search(r'([A-Za-záéíóúñÁÉÍÓÚÑ\s]+?)\s+[\d.,]+\s+(\d+[\.,]\d+)\s*%', linea)
+                            if match_tabla:
+                                activo_nombre = match_tabla.group(1).strip()
+                                porcentaje_str = match_tabla.group(2).replace(',', '.')
+                                try:
+                                    porcentaje_decimal = float(porcentaje_str) / 100
+                                    if len(activo_nombre) > 3 and porcentaje_decimal > 0:
+                                        item = {'activo': activo_nombre, 'porcentaje': porcentaje_decimal}
+                                        composicion.append(item)
+                                        categoria = self._clasificar_activo(activo_nombre)
+                                        item_detallado = item.copy()
+                                        item_detallado['categoria'] = categoria
+                                        composicion_detallada.append(item_detallado)
+                                        logger.debug(f"[PDF EXTENDED] Encontrado (P2): {activo_nombre} = {porcentaje_decimal:.2%}")
+                                except ValueError:
+                                    continue
+
+                            # Salir si encontramos otra sección
+                            if any(keyword in linea_lower for keyword in ['rentabilidad', 'comisiones', 'factores de riesgo']):
+                                en_seccion_composicion = False
+                                logger.debug(f"[PDF EXTENDED] Finalizando sección composición en línea {i}")
+
+                # Patrón 3: Buscar tabla explícita con headers
+                if not composicion:
+                    logger.info("[PDF EXTENDED] Patrón 2 no encontró composición, intentando Patrón 3 (headers)...")
+                    for i, linea in enumerate(lineas):
+                        if 'instrumento' in linea.lower() and '%' in linea.lower():
+                            # Buscar en las siguientes 30 líneas
+                            for j in range(i+1, min(i+31, len(lineas))):
+                                linea_data = lineas[j]
+                                # Formato: cualquier texto seguido de número con %
+                                match_simple = re.search(r'^([^0-9]+?)\s+(\d+[\.,]\d+)\s*%?', linea_data)
+                                if match_simple:
+                                    activo_nombre = match_simple.group(1).strip()
+                                    porcentaje_str = match_simple.group(2).replace(',', '.')
+                                    try:
+                                        porcentaje_decimal = float(porcentaje_str) / 100
+                                        if len(activo_nombre) > 3 and porcentaje_decimal > 0 and porcentaje_decimal <= 1:
+                                            item = {'activo': activo_nombre, 'porcentaje': porcentaje_decimal}
+                                            composicion.append(item)
+                                            categoria = self._clasificar_activo(activo_nombre)
+                                            item_detallado = item.copy()
+                                            item_detallado['categoria'] = categoria
+                                            composicion_detallada.append(item_detallado)
+                                            logger.debug(f"[PDF EXTENDED] Encontrado (P3): {activo_nombre} = {porcentaje_decimal:.2%}")
+                                    except ValueError:
+                                        continue
+                            break
 
                 # Ordenar por porcentaje descendente
                 composicion.sort(key=lambda x: x['porcentaje'], reverse=True)
@@ -1565,6 +1848,10 @@ class FondosMutuosProcessor:
                     campos_extraidos += 1
                     suma_porcentajes = sum(item['porcentaje'] for item in composicion)
                     logger.info(f"[PDF EXTENDED] Composición: {len(composicion)} activos (suma: {suma_porcentajes:.2%})")
+                else:
+                    # ETL FIX: Logging explícito cuando composición está vacía
+                    logger.warning(f"[PDF EXTENDED] COMPOSICIÓN VACÍA - Ningún patrón encontró activos del portafolio")
+                    logger.warning(f"[PDF EXTENDED] Esto indica un formato de PDF no soportado o datos ausentes")
 
                 # ============================================================
                 # CALCULAR NIVEL DE CONFIANZA
@@ -1976,41 +2263,6 @@ class FondosMutuosProcessor:
                                             })
                                             logger.debug(f"Fondo encontrado: {rut_fondo} - {nombre_fondo} (Admin: {rut_admin})")
 
-                    # Método 2 DESHABILITADO: Select/option extrae administradoras, no fondos
-                    # # Método 2: Buscar en elementos select/option
-                    # selects = soup.find_all('select')
-                    # for select in selects:
-                    #     if select.get('name') and ('fondo' in select.get('name', '').lower() or
-                    #                              'admin' in select.get('name', '').lower()):
-                    #         options = select.find_all('option')
-                    #         for option in options:
-                    #             if option.get('value') and option.text.strip():
-                    #                 funds_list.append({
-                    #                     'administrator_id': 'unknown',
-                    #                     'fund_code': option.get('value'),
-                    #                     'fund_name': option.text.strip(),
-                    #                     'full_id': f"select_{option.get('value')}",
-                    #                     'source': 'select_option'
-                    #                 })
-
-                    # Método 3 DESHABILITADO: Tablas no contienen fondos individuales
-                    # # Método 3: Buscar en tablas
-                    # tables = soup.find_all('table')
-                    # for table in tables:
-                    #     rows = table.find_all('tr')
-                    #     for row in rows:
-                    #         cells = row.find_all(['td', 'th'])
-                    #         if len(cells) >= 2:
-                    #             text_content = ' '.join([cell.get_text().strip() for cell in cells])
-                    #             if 'fondo' in text_content.lower() and len(text_content) > 10:
-                    #                 funds_list.append({
-                    #                     'administrator_id': 'table_extract',
-                    #                     'fund_code': 'table_row',
-                    #                     'fund_name': text_content[:100],  # Limitar longitud
-                    #                     'full_id': f"table_{len(funds_list)}",
-                    #                     'source': 'table_data'
-                    #                 })
-
                     if funds_list:  # Si encontramos fondos, no necesitamos probar más URLs
                         break
 
@@ -2043,19 +2295,7 @@ class FondosMutuosProcessor:
             logger.error(f"ERROR CRÍTICO: Error scrapeando lista CMF: {e}")
             return []  # NO INVENTAR DATOS
 
-    # def _generate_sample_funds_list(self) -> List[Dict]:
-    #     """Generar lista de fondos de ejemplo cuando no se pueden obtener datos reales"""
-    #     return [
-    #         {'administrator_id': '96598160', 'fund_code': 'CONS001', 'fund_name': 'Santander Fondo Mutuo Conservador Pesos', 'full_id': 'sample_sant_cons', 'source': 'sample'},
-    #         {'administrator_id': '96571220', 'fund_code': 'BAL001', 'fund_name': 'BCI Fondo Mutuo Balanceado', 'full_id': 'sample_bci_bal', 'source': 'sample'},
-    #         {'administrator_id': '96574580', 'fund_code': 'AGR001', 'fund_name': 'Security Fondo Mutuo Agresivo', 'full_id': 'sample_sec_agr', 'source': 'sample'},
-    #         {'administrator_id': '96515190', 'fund_code': 'CORP001', 'fund_name': 'Banchile Fondo Mutuo Corporativo', 'full_id': 'sample_ban_corp', 'source': 'sample'},
-    #         {'administrator_id': '81513400', 'fund_code': 'INV001', 'fund_name': 'Principal Fondo de Inversión', 'full_id': 'sample_pri_inv', 'source': 'sample'},
-    #         {'administrator_id': '96659680', 'fund_code': 'REN001', 'fund_name': 'Itau Fondo Mutuo Rentabilidad', 'full_id': 'sample_ita_ren', 'source': 'sample'},
-    #         {'administrator_id': '99571760', 'fund_code': 'CAP001', 'fund_name': 'Scotiabank Capital Fondo Mutuo', 'full_id': 'sample_sco_cap', 'source': 'sample'},
-    #         {'administrator_id': '76645710', 'fund_code': 'DIN001', 'fund_name': 'LarrainVial Fondo Dinámico', 'full_id': 'sample_lv_din', 'source': 'sample'}
-    #     ]
-
+   
     def _search_fund_in_cmf_by_rut(self, rut: str) -> Optional[Dict]:
         """
         Buscar fondo en CMF usando RUT (identificador único)
@@ -2216,7 +2456,7 @@ class FondosMutuosProcessor:
                     'duracion': ['duracion', 'duration', 'plazo'],
                     'volatilidad': ['volatilidad', 'volatility', 'riesgo']
                 }
-
+#sera en esta parte que faltara el perfil de riesgo / tolerancia al riesgo 
                 # Extraer TODOS los datos numéricos encontrados
                 for table in tables:
                     rows = table.find_all('tr')
@@ -2749,22 +2989,21 @@ class FondosMutuosProcessor:
             composicion = data.get('composicion_portafolio', [])
 
             # Clasificación de riesgo detallada - SOLO basada en datos reales
-            perfil_riesgo = data.get('perfil_riesgo', 'N/A')
+            perfil_riesgo = data.get('perfil_riesgo', None)
 
-            # Usar clasificación oficial del CMF si existe
+            # ETL FIX: NO inferir desde nombre del fondo
+            # Usar clasificación oficial del CMF/PDF o dejar como None
             if perfil_riesgo and perfil_riesgo != 'N/A':
                 metrics['clasificacion_riesgo_detallada'] = perfil_riesgo
-            elif 'conservador' in tipo_fondo or 'capital garantizado' in tipo_fondo:
-                metrics['clasificacion_riesgo_detallada'] = 'Bajo (inferido del nombre)'
-            elif 'agresivo' in tipo_fondo or 'acciones' in tipo_fondo:
-                metrics['clasificacion_riesgo_detallada'] = 'Alto (inferido del nombre)'
             else:
-                metrics['clasificacion_riesgo_detallada'] = 'Medio (inferido del nombre)'
+                metrics['clasificacion_riesgo_detallada'] = None
 
             # NO GENERAR PERFILES/HORIZONTES/VENTAJAS GENÉRICAS
             # Estos deben venir del documento oficial del fondo o IA con contexto real
-            metrics['perfil_inversionista_ideal'] = 'N/A - Requiere documento oficial del fondo'
-            metrics['horizonte_inversion_recomendado'] = 'N/A - Requiere documento oficial del fondo'
+            # FIX: Usar datos extraídos del PDF, no hardcodear
+            metrics['perfil_inversionista_ideal'] = data.get('perfil_inversionista_ideal', None)
+            metrics['horizonte_inversion_recomendado'] = data.get('horizonte_inversion', None)
+            metrics['horizonte_inversion_meses'] = data.get('horizonte_inversion_meses', None)
             metrics['ventajas_principales'] = []
             metrics['desventajas_principales'] = []
 
@@ -2848,26 +3087,46 @@ class FondosMutuosProcessor:
                 'Aspecto': [
                     'Nombre del Fondo',
                     'Nombre en CMF',
+                    'RUN del Fondo',
+                    'RUT Base',
+                    'Estado del Fondo',
+                    'Fecha Valor Cuota',
                     'Tipo de Fondo',
                     'Perfil de Riesgo',
+                    'Tolerancia al Riesgo',
                     'Clasificación Detallada',
                     'Rentabilidad Anual',
+                    'Fondo Rescatable',
+                    'Plazo de Rescate',
+                    'Duración del Fondo',
+                    'Monto Mínimo',
                     'Fuente de Datos',
                     'Fecha de Análisis',
                     'Perfil Inversionista Ideal',
-                    'Horizonte Recomendado'
+                    'Horizonte Recomendado',
+                    'Horizonte en Meses'
                 ],
                 'Detalle': [
                     data.get('nombre', 'N/A'),
                     data.get('nombre_cmf', 'N/A'),
+                    data.get('run', 'N/A'),
+                    data.get('rut_base', 'N/A'),
+                    data.get('estado_fondo', 'N/A'),
+                    data.get('fecha_valor_cuota', 'N/A'),
                     data.get('tipo_fondo', 'N/A'),
                     data.get('perfil_riesgo', 'N/A'),
+                    data.get('tolerancia_riesgo', 'N/A'),
                     metrics.get('clasificacion_riesgo_detallada', 'N/A'),
                     f"{data.get('rentabilidad_anual', 0):.2%}" if data.get('rentabilidad_anual') else 'N/A',
+                    'Sí' if data.get('fondo_rescatable') is True else 'No' if data.get('fondo_rescatable') is False else 'N/A',
+                    data.get('plazos_rescates', 'N/A'),
+                    data.get('duracion', 'N/A'),
+                    data.get('monto_minimo', 'N/A'),
                     'CMF Chile + Scraping Web' if data.get('fuente_cmf') else 'ERROR: Datos CMF no disponibles',
                     datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                    metrics.get('perfil_inversionista_ideal', 'N/A - Requiere documento oficial'),
-                    metrics.get('horizonte_inversion_recomendado', 'N/A - Requiere documento oficial')
+                    metrics.get('perfil_inversionista_ideal') if metrics.get('perfil_inversionista_ideal') else 'N/A',
+                    metrics.get('horizonte_inversion_recomendado') if metrics.get('horizonte_inversion_recomendado') else 'N/A',
+                    metrics.get('horizonte_inversion_meses') if metrics.get('horizonte_inversion_meses') else 'N/A'
                 ]
             }
 
@@ -2953,6 +3212,56 @@ class FondosMutuosProcessor:
                 'Contenido': [data.get('descripcion_amigable', 'Descripción no disponible')]
             }
 
+            # Hoja 6: Metadatos de Extracción (NUEVO)
+            # Esta hoja documenta la procedencia de los datos y confiabilidad de la extracción
+            metadata_data = {
+                'Campo': [
+                    'Timestamp Extracción',
+                    'Método Extracción PDF',
+                    'Confianza Extracción',
+                    'PDF Procesado',
+                    'Fuente CMF',
+                    'Fuente Fintual',
+                    'Campos Extraídos PDF',
+                    'Total Páginas PDF',
+                    'Caracteres Extraídos',
+                    'Composición Detectada',
+                    'RUN Validado',
+                    'Estado Fondo',
+                    'Advertencias'
+                ],
+                'Valor': [
+                    datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                    data.get('extraction_method', 'pdfplumber'),
+                    data.get('extraction_confidence', 'unknown'),
+                    'Sí' if data.get('pdf_procesado') else 'No',
+                    'Sí' if data.get('fuente_cmf') else 'No',
+                    'Sí' if data.get('fintual_match') else 'No',
+                    f"{len([k for k, v in data.items() if v and k not in ['texto_completo', 'composicion_portafolio', 'composicion_detallada']])}",
+                    data.get('total_paginas_pdf', 'N/A'),
+                    len(data.get('texto_completo', '')) if data.get('texto_completo') else 0,
+                    f"{len(data.get('composicion_portafolio', []))} activos",
+                    'Sí' if data.get('run') and data.get('rut_base') else 'No',
+                    data.get('estado_fondo', 'Desconocido'),
+                    'Ninguna' if data.get('extraction_confidence') == 'high' else 'Revisar extracción manual'
+                ],
+                'Descripción': [
+                    'Fecha y hora de la extracción de datos',
+                    'Método usado para extraer texto del PDF (pdfplumber u OCR)',
+                    'Nivel de confianza en los datos extraídos (high/medium/low)',
+                    'Si se procesó correctamente el PDF del folleto informativo',
+                    'Si se obtuvieron datos del sitio CMF Chile',
+                    'Si el fondo existe en la API de Fintual',
+                    'Cantidad de campos con datos válidos extraídos del PDF',
+                    'Número total de páginas del PDF procesado',
+                    'Cantidad de caracteres extraídos del PDF (indicador de calidad)',
+                    'Número de activos detectados en la composición del portafolio',
+                    'Si se validó el RUN del fondo contra múltiples fuentes',
+                    'Estado operacional del fondo (Vigente/Liquidado/Fusionado)',
+                    'Indicaciones sobre la calidad de los datos'
+                ]
+            }
+
             # Crear archivo Excel con todas las hojas
             fondo_nombre = data.get('nombre', 'fondo_desconocido').replace(' ', '_').replace('/', '_')
             output_path = f'outputs/analisis_completo_fondo_{fondo_nombre}.xlsx'
@@ -2965,6 +3274,7 @@ class FondosMutuosProcessor:
                 pd.DataFrame(riesgo_rentabilidad_data).to_excel(writer, sheet_name='Riesgo y Rentabilidad', index=False)
                 pd.DataFrame(ventajas_desventajas_data).to_excel(writer, sheet_name='Ventajas y Desventajas', index=False)
                 pd.DataFrame(descripcion_data).to_excel(writer, sheet_name='Descripción IA', index=False)
+                pd.DataFrame(metadata_data).to_excel(writer, sheet_name='Metadatos Extracción', index=False)
 
                 # Ajustar formato
                 for sheet_name in writer.sheets:
@@ -2983,6 +3293,16 @@ class FondosMutuosProcessor:
                         worksheet.column_dimensions[column_letter].width = adjusted_width
 
             logger.info(f"✓ Archivo Excel generado: {output_path}")
+
+            # ETL FIX: Validar que el archivo Excel fue creado correctamente
+            if not os.path.exists(output_path):
+                raise RuntimeError(f"Archivo Excel no fue creado: {output_path}")
+
+            file_size = os.path.getsize(output_path)
+            if file_size == 0:
+                raise RuntimeError(f"Archivo Excel está vacío (0 bytes): {output_path}")
+
+            logger.info(f"✓ Validación exitosa: Archivo Excel existe y tiene {file_size} bytes")
 
         except Exception as e:
             logger.error(f"❌ ERROR CRÍTICO generando Excel: {e}")
@@ -3231,17 +3551,11 @@ class FondosMutuosProcessor:
                         logger.warning(f" Error procesando PDF: {pdf_data.get('error')}")
                 else:
                     logger.warning(" No se pudo descargar el PDF del folleto informativo")
-### Hasta que punto es pertinente poner estos adjetivos ?
-                # Inferir tipo de fondo basado en el nombre CMF
-                fund_name_lower = nombre_cmf.lower()
-                if any(word in fund_name_lower for word in ['conservador', 'garantizado', 'capital']):
-                    resultado.update({'tipo_fondo': 'Conservador', 'perfil_riesgo': 'Bajo'})
-                elif any(word in fund_name_lower for word in ['agresivo', 'acciones', 'growth']):
-                    resultado.update({'tipo_fondo': 'Agresivo', 'perfil_riesgo': 'Alto'})
-                elif any(word in fund_name_lower for word in ['balanceado', 'mixto', 'balanced']):
-                    resultado.update({'tipo_fondo': 'Balanceado', 'perfil_riesgo': 'Medio'})
-                else:
-                    resultado.update({'tipo_fondo': 'Mixto', 'perfil_riesgo': 'Medio'})
+
+                # ETL FIX: NO inferir tipo_fondo ni perfil_riesgo desde nombre
+                # Mantener valores extraídos o None si no se pudo extraer
+                # La inferencia desde nombre es una VIOLACIÓN ETL
+                logger.info(f"[ETL] PDF no disponible. tipo_fondo y perfil_riesgo quedan como extraídos: {resultado.get('tipo_fondo', None)}, {resultado.get('perfil_riesgo', None)}")
  # NO generar portafolio simulado
             else:
                 logger.error(" Fondo no encontrado en CMF - No hay datos reales disponibles")
