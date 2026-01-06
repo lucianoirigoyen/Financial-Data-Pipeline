@@ -901,19 +901,62 @@ class FondosMutuosProcessor:
                 page_title = driver.title
                 logger.info(f"[SELENIUM] ✓ Page loaded: {page_title}")
 
-                # FIX 3.3: Wait for JavaScript tabs to load (aumentado de 10s a 20s)
-                logger.info(f"[SELENIUM] Waiting for JavaScript load...")
+                # IMPROVED: Wait for JavaScript and AJAX to fully load
+                logger.info(f"[SELENIUM] Waiting for JavaScript and AJAX to load...")
+
+                # Wait for tabs element
                 try:
                     WebDriverWait(driver, 20).until(
                         EC.presence_of_element_located((By.ID, "tabs"))
                     )
+                    logger.info(f"[SELENIUM] ✓ Tabs element loaded")
                 except:
-                    logger.warning(f"[SELENIUM] Timeout waiting for tabs, continuando...")
+                    logger.warning(f"[SELENIUM] ⚠️ Timeout waiting for tabs element")
 
-                # FIX 3.2: Scroll page para cargar lazy-loaded content
-                logger.info(f"[SELENIUM] Scrolling page para lazy-load content...")
+                # Wait for jQuery/AJAX to complete (if page uses jQuery)
+                try:
+                    WebDriverWait(driver, 15).until(
+                        lambda d: d.execute_script('return typeof jQuery != "undefined" ? jQuery.active == 0 : true')
+                    )
+                    logger.info(f"[SELENIUM] ✓ AJAX requests completed")
+                except:
+                    logger.debug(f"[SELENIUM] jQuery not detected or AJAX check failed")
+
+                # Wait for document ready state
+                try:
+                    WebDriverWait(driver, 10).until(
+                        lambda d: d.execute_script('return document.readyState') == 'complete'
+                    )
+                    logger.info(f"[SELENIUM] ✓ Document ready state: complete")
+                except:
+                    logger.warning(f"[SELENIUM] ⚠️ Document ready state check failed")
+
+                # Scroll to load lazy content and activate tab navigation
+                logger.info(f"[SELENIUM] Scrolling and activating content...")
                 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                time.sleep(2)  # Esperar que cargue contenido lazy-loaded
+                time.sleep(1)
+                driver.execute_script("window.scrollTo(0, 0);")  # Scroll back to top
+                time.sleep(2)  # Wait for any lazy-loaded content
+
+                # Try to activate the "Folletos" tab if it exists
+                try:
+                    # Common tab activation patterns
+                    tab_activation_scripts = [
+                        "document.querySelector('a[href*=\"pestania=68\"]').click();",
+                        "document.querySelector('a[onclick*=\"pestania=68\"]').click();",
+                        "$('a[href*=\"pestania=68\"]').click();",  # jQuery version
+                    ]
+
+                    for script in tab_activation_scripts:
+                        try:
+                            driver.execute_script(script)
+                            logger.info(f"[SELENIUM] ✓ Tab 'Folletos' activado con script")
+                            time.sleep(2)  # Wait for tab content to load
+                            break
+                        except:
+                            continue
+                except Exception as e:
+                    logger.debug(f"[SELENIUM] No se pudo activar tab Folletos automáticamente: {e}")
 
                 # FIX 3.1: Élargir selectors con fallbacks múltiples
                 logger.info(f"[SELENIUM] Looking for PDF links (múltiples selectors)...")
@@ -944,11 +987,49 @@ class FondosMutuosProcessor:
                 if pdf_links:
                     logger.info(f"[SELENIUM] ✓ Encontrados {len(pdf_links)} enlaces potenciales")
 
-                    # Tomar el primer enlace
-                    first_link = pdf_links[0]
-                    pdf_url = first_link.get_attribute('href')
+                    # CRITICAL FIX: Filter links to find the CORRECT one for this RUT/serie
+                    # When there are multiple links (e.g., 226), we need to find the right one
+                    correct_link = None
 
-                    logger.info(f"[SELENIUM] onclick: {pdf_url[:80]}...")
+                    if len(pdf_links) > 1:
+                        logger.info(f"[SELENIUM] Múltiples enlaces encontrados, filtrando por RUT {rut}...")
+
+                        # Strategy 1: Find link whose onclick contains our RUT
+                        for link in pdf_links:
+                            onclick = link.get_attribute('onclick') or ''
+                            href = link.get_attribute('href') or ''
+
+                            # Check if onclick contains our RUT
+                            if rut in onclick or rut in href:
+                                correct_link = link
+                                logger.info(f"[SELENIUM] ✓ Enlace correcto encontrado (contiene RUT {rut})")
+                                break
+
+                        # Strategy 2: If no match, try to find by proximity (link text or parent text)
+                        if not correct_link:
+                            for link in pdf_links:
+                                # Get surrounding text
+                                try:
+                                    parent_text = link.find_element(By.XPATH, '..').text
+                                    if rut in parent_text:
+                                        correct_link = link
+                                        logger.info(f"[SELENIUM] ✓ Enlace encontrado por texto cercano (RUT {rut})")
+                                        break
+                                except:
+                                    pass
+
+                    # Fallback: use first link if no specific match found
+                    if not correct_link:
+                        if len(pdf_links) > 1:
+                            logger.warning(f"[SELENIUM] ⚠️ No se encontró enlace específico para RUT {rut}, usando primero de {len(pdf_links)}")
+                        correct_link = pdf_links[0]
+
+                    first_link = correct_link
+                    pdf_url = first_link.get_attribute('href') or 'javascript:void(0)'
+                    onclick_attr = first_link.get_attribute('onclick') or 'N/A'
+
+                    logger.info(f"[SELENIUM] Usando enlace - href: {pdf_url[:60]}...")
+                    logger.info(f"[SELENIUM] Usando enlace - onclick: {onclick_attr[:60]}...")
 
                     # FIX CRITICO: Eliminar PDF anterior del mismo RUT si existe
                     # Esto evita conflictos y asegura que siempre tenemos la versión más reciente
@@ -1033,10 +1114,44 @@ class FondosMutuosProcessor:
                     except Exception as e:
                         logger.error(f"[SELENIUM BEAUTIFULSOUP] Error en fallback: {e}")
 
-                    # Guardar screenshot para debugging
+                    # IMPROVED: Guardar FULL PAGE screenshot para debugging
                     screenshot_path = f"temp/debug_screenshot_{rut}.png"
-                    driver.save_screenshot(screenshot_path)
-                    logger.info(f"[SELENIUM] Screenshot guardado: {screenshot_path}")
+
+                    try:
+                        # Method 1: Try full page screenshot (requires specific driver support)
+                        original_size = driver.get_window_size()
+                        required_width = driver.execute_script('return document.body.parentNode.scrollWidth')
+                        required_height = driver.execute_script('return document.body.parentNode.scrollHeight')
+
+                        # Set window to full page size
+                        driver.set_window_size(required_width, required_height)
+
+                        # Wait for resize
+                        time.sleep(0.5)
+
+                        # Take screenshot
+                        driver.save_screenshot(screenshot_path)
+
+                        # Restore original size
+                        driver.set_window_size(original_size['width'], original_size['height'])
+
+                        logger.info(f"[SELENIUM] Full page screenshot guardado ({required_width}x{required_height}px): {screenshot_path}")
+
+                    except Exception as e:
+                        # Fallback: regular screenshot if full page fails
+                        logger.warning(f"[SELENIUM] No se pudo tomar screenshot de página completa: {e}")
+                        driver.save_screenshot(screenshot_path)
+                        logger.info(f"[SELENIUM] Screenshot regular guardado: {screenshot_path}")
+
+                    # Also save page HTML for deeper debugging
+                    try:
+                        html_path = f"temp/debug_page_{rut}.html"
+                        with open(html_path, 'w', encoding='utf-8') as f:
+                            f.write(driver.page_source)
+                        logger.info(f"[SELENIUM] HTML guardado para debugging: {html_path}")
+                    except Exception as e:
+                        logger.debug(f"[SELENIUM] No se pudo guardar HTML: {e}")
+
                     return None
 
             finally:
@@ -1216,7 +1331,54 @@ class FondosMutuosProcessor:
         try:
             logger.info(f"[PDF EXTENDED] Extrayendo datos extendidos de: {pdf_path}")
 
+            # CRITICAL FIX: Extract RUT/RUN from PDF filename, not from content
+            # The filename IS the authoritative RUT/RUN (e.g., "fondo_10446_UNICA.pdf" or "9108_UNICA.pdf")
+            import os
+            filename = os.path.basename(pdf_path)
+            rut_from_filename = None
+            serie_from_filename = None
+
+            # Pattern 1: fondo_{RUT}_{SERIE}.pdf (e.g., "fondo_10446_UNICA.pdf")
+            # Pattern 2: {RUT}_{SERIE}.pdf (e.g., "9108_UNICA.pdf")
+            filename_patterns = [
+                r'fondo_(\d+)(?:_([A-Z]+))?\.pdf',  # fondo_10446_UNICA.pdf
+                r'(\d+)_([A-Z]+)\.pdf',              # 9108_UNICA.pdf
+                r'(\d+)\.pdf',                       # 9108.pdf
+            ]
+
+            for pattern in filename_patterns:
+                filename_match = re.search(pattern, filename, re.IGNORECASE)
+                if filename_match:
+                    rut_from_filename = filename_match.group(1)
+                    serie_from_filename = filename_match.group(2) if len(filename_match.groups()) >= 2 and filename_match.group(2) else 'UNICA'
+                    logger.info(f"[PDF RUT] Extraído del filename: RUT={rut_from_filename}, Serie={serie_from_filename}")
+                    break
+
+            if not rut_from_filename:
+                logger.warning(f"[PDF RUT] No se pudo extraer RUT del filename: {filename}")
+
             resultado = {
+                # CRITICAL: RUT/RUN from filename (authoritative source)
+                'rut': rut_from_filename,
+                'run': rut_from_filename,  # Same as RUT in most cases
+                'serie_fondo': serie_from_filename,
+
+                # Required fields from instructions
+                'administradora': None,
+                'descripcion_fondo': None,
+                'tiempo_rescate': None,
+                'moneda': None,
+                'patrimonio_fondo': None,
+                'patrimonio_sede': None,
+                'TAC': None,
+                'TAC_industria': None,
+                'inversion_minima': None,
+                'rentabilidades_nominales': {},
+                'mejores_rentabilidades': {},
+                'peores_rentabilidades': {},
+                'rentabilidades_anualizadas': {},
+
+                # Existing fields
                 'tipo_fondo': None,
                 'perfil_riesgo': None,
                 'perfil_riesgo_escala': None,  # R1-R7
@@ -1303,7 +1465,235 @@ class FondosMutuosProcessor:
 
                 # Contador de campos extraídos para calcular confianza
                 campos_extraidos = 0
-                campos_totales = 12  # Total de campos clave
+                campos_totales = 20  # Aumentado para incluir nuevos campos críticos
+
+                # ============================================================
+                # EXTRACTION 0: SERIE_FONDO from PDF content (if not from filename)
+                # ============================================================
+                # FIX: If serie not found in filename or is generic, try PDF content
+                # More flexible patterns to catch lowercase, mixed case, alphanumeric
+                if not serie_from_filename or serie_from_filename == 'UNICA':
+                    serie_patterns = [
+                        (r'Serie[:\s]+([A-Za-z0-9]+)', 'direct'),
+                        (r'Clase[:\s]+([A-Za-z0-9]+)', 'clase'),
+                        (r'Tipo\s+de\s+Cuota[:\s]+([A-Za-z0-9]+)', 'tipo_cuota'),
+                        (r'Cuota\s+Serie[:\s]+([A-Za-z0-9]+)', 'cuota_serie'),
+                        # Additional patterns for table formats
+                        (r'(?:Serie|Clase)\s*[\|\s]+([A-Za-z0-9]+)', 'table_format'),
+                    ]
+
+                    for pattern, pattern_name in serie_patterns:
+                        match = re.search(pattern, texto_completo, re.IGNORECASE)
+                        if match:
+                            serie_from_content = match.group(1).upper().strip()
+                            # Only override if found specific series (not generic keywords)
+                            if serie_from_content not in ['UNICA', 'GENERAL', 'SERIE', 'CLASE', 'TIPO']:
+                                resultado['serie_fondo'] = serie_from_content
+                                campos_extraidos += 1
+                                logger.info(f"[PDF] Serie extraída del contenido ({pattern_name}): {serie_from_content}")
+                                break
+
+                # ============================================================
+                # EXTRACTION 1: ADMINISTRADORA (NEW - CRITICAL)
+                # ============================================================
+                # Extract fund administrator name from various sections
+                # FIX: PDFs have admin name on NEXT LINE after "Administradora:", not same line
+                administradora_patterns = [
+                    # Pattern 1: Multi-line capture after "Administradora:" label
+                    (r'Administradora[:\s]*\n\s*([A-ZÁÉÍÓÚÑ][A-Za-záéíóúñ\s\.]+(?:S\.A\.|SA|AGF)[^\n]*(?:\n[A-ZÁÉÍÓÚÑ][A-Za-záéíóúñ\s\.]+)*)', 'multiline_after_label'),
+                    # Pattern 2: Direct capture of company name with AGF suffix
+                    (r'([A-ZÁÉÍÓÚÑ][A-Za-záéíóúñ\s\.]+ADMINISTRADORA\s+GENERAL\s+DE\s+FONDOS)', 'agf_full'),
+                    (r'([A-ZÁÉÍÓÚÑ][A-Za-záéíóúñ\s\.]+(?:S\.A\.|SA)\s+ADMINISTRADORA\s+GENERAL\s+DE\s+FONDOS)', 'sa_agf'),
+                    # Pattern 3: Search for company names ending in "S.A. AGF"
+                    (r'([A-ZÁÉÍÓÚÑ][A-Za-záéíóúñ\s\.]+S\.A\.\s+AGF)', 'sa_agf_compact'),
+                    # Pattern 4: Old patterns as fallback
+                    (r'Razón\s+Social[:\s]+([A-ZÁÉÍÓÚÑ][A-Za-záéíóúñ\s\.]+(?:S\.A\.|SA|AGF)?)', 'razon_social'),
+                    (r'Nombre\s+de\s+la\s+Administradora[:\s]+([A-ZÁÉÍÓÚÑ][A-Za-záéíóúñ\s\.]+)', 'nombre'),
+                ]
+
+                for pattern, pattern_name in administradora_patterns:
+                    match = re.search(pattern, texto_completo, re.IGNORECASE | re.MULTILINE | re.DOTALL)
+                    if match:
+                        admin_name = match.group(1).strip()
+                        # Clean up: remove trailing punctuation, newlines, multiple spaces
+                        admin_name = re.sub(r'\n', ' ', admin_name)
+                        admin_name = re.sub(r'\s+', ' ', admin_name)
+                        admin_name = re.sub(r'[:\.,;]+$', '', admin_name).strip()
+
+                        # Remove garbage prefixes that appear before actual admin name
+                        # E.g., "Rentabilidad en UF CREDICORP CAPITAL..." -> "CREDICORP CAPITAL..."
+                        garbage_prefixes = [
+                            r'^Rentabilidad\s+en\s+\w+\s+',
+                            r'^Información\s+General\s+',
+                            r'^Folleto\s+Informativo\s+',
+                        ]
+                        for prefix_pattern in garbage_prefixes:
+                            admin_name = re.sub(prefix_pattern, '', admin_name, flags=re.IGNORECASE)
+
+                        # Validation: must contain "AGF" or "ADMINISTRADORA" or end with S.A.
+                        if (len(admin_name) > 10 and
+                            ('AGF' in admin_name.upper() or
+                             'ADMINISTRADORA' in admin_name.upper() or
+                             admin_name.endswith('S.A.') or
+                             admin_name.endswith('SA'))):
+                            resultado['administradora'] = admin_name
+                            campos_extraidos += 1
+                            logger.info(f"[PDF] Administradora encontrada ({pattern_name}): {admin_name}")
+                            break
+
+                # ============================================================
+                # EXTRACTION 2: DESCRIPCION_FONDO (NEW - CRITICAL)
+                # ============================================================
+                # Extract fund description from objective/policy sections
+                # FIX: PDFs have "Objetivo" header, then text on next lines (possibly multi-line)
+                descripcion_patterns = [
+                    # Pattern 1: Capture multiple lines after "Objetivo"
+                    (r'Objetivo[:\s]*\n\s*([^\n]+(?:\n[^\n]+){0,5})', 'objetivo_multiline'),
+                    # Pattern 2: Direct "Objetivo del Fondo" with text after
+                    (r'Objetivo\s+del\s+Fondo[:\s]*\n\s*([^\n]+(?:\n[^\n]+){0,5})', 'objetivo_fondo'),
+                    # Pattern 3: Description label
+                    (r'Descripci[oó]n[:\s]*\n\s*([^\n]+(?:\n[^\n]+){0,3})', 'descripcion'),
+                    # Pattern 4: Policy label
+                    (r'Pol[ií]tica\s+de\s+Inversi[oó]n[:\s]*\n\s*([^\n]+(?:\n[^\n]+){0,3})', 'politica'),
+                    # Pattern 5: Freeform capture of objective sentences
+                    (r'(?:El\s+objetivo\s+principal\s+del\s+Fondo|El\s+fondo\s+tiene\s+como\s+objetivo|Este\s+fondo)\s+[^\n.]{30,400}', 'freeform'),
+                ]
+
+                for pattern, pattern_name in descripcion_patterns:
+                    match = re.search(pattern, texto_completo, re.IGNORECASE | re.DOTALL)
+                    if match:
+                        descripcion = match.group(1) if pattern_name != 'freeform' else match.group(0)
+                        descripcion = descripcion.strip()
+                        # Clean: normalize whitespace, remove newlines
+                        descripcion = re.sub(r'\s+', ' ', descripcion)
+                        # Stop at first period or limit to reasonable length
+                        sentences = descripcion.split('.')
+                        if len(sentences) > 0:
+                            # Take first 1-2 sentences
+                            descripcion = '. '.join(sentences[0:2]).strip()
+                            if not descripcion.endswith('.'):
+                                descripcion += '.'
+
+                        if len(descripcion) > 30:
+                            resultado['descripcion_fondo'] = descripcion
+                            campos_extraidos += 1
+                            logger.info(f"[PDF] Descripción encontrada ({pattern_name}): {descripcion[:100]}...")
+                            break
+
+                # ============================================================
+                # EXTRACTION 3: MONEDA (NEW - CRITICAL)
+                # ============================================================
+                # Extract currency denomination from various sections
+                moneda_patterns = [
+                    (r'Moneda[:\s]+(CLP|USD|UF|EUR|Pesos|D[oó]lares?|Unidades? de Fomento)', 'direct'),
+                    (r'Denominaci[oó]n[:\s]+(CLP|USD|UF|EUR|Pesos|D[oó]lares?|Unidades? de Fomento)', 'denominacion'),
+                    (r'Expresado en[:\s]+(CLP|USD|UF|EUR|Pesos|D[oó]lares?)', 'expresado'),
+                ]
+
+                for pattern, pattern_name in moneda_patterns:
+                    match = re.search(pattern, texto_completo, re.IGNORECASE)
+                    if match:
+                        moneda_raw = match.group(1).upper()
+                        # Normalize to standard codes
+                        if 'PESO' in moneda_raw or 'CLP' in moneda_raw:
+                            resultado['moneda'] = 'CLP'
+                        elif 'DOLAR' in moneda_raw or 'DÓLAR' in moneda_raw or 'USD' in moneda_raw:
+                            resultado['moneda'] = 'USD'
+                        elif 'UF' in moneda_raw or 'UNIDAD' in moneda_raw:
+                            resultado['moneda'] = 'UF'
+                        elif 'EUR' in moneda_raw:
+                            resultado['moneda'] = 'EUR'
+
+                        if resultado.get('moneda'):
+                            campos_extraidos += 1
+                            logger.info(f"[PDF] Moneda encontrada ({pattern_name}): {resultado['moneda']}")
+                            break
+
+                # ============================================================
+                # EXTRACTION 4: TIEMPO_RESCATE (NEW - IMPROVED)
+                # ============================================================
+                # Extract redemption time with flexible patterns
+                # FIX: PDFs have "Plazo rescates: A más tardar X días corridos" - need flexibility
+                tiempo_rescate_patterns = [
+                    # Pattern 1: Flexible match with optional text before number
+                    (r'Plazo\s+(?:de\s+)?rescates?[:\s]+.*?(\d+)\s*d[ií]as?', 'plazo_flexible'),
+                    # Pattern 2: Standard patterns
+                    (r'Plazo\s+(?:de\s+)?Rescate[:\s]+(\d+)\s*d[ií]as?', 'plazo_dias'),
+                    (r'Rescate\s+en[:\s]+(\d+)\s*d[ií]as?', 'rescate_en'),
+                    # Pattern 3: T+N notation
+                    (r'T\+(\d+)', 't_plus'),
+                    # Pattern 4: Disponible en
+                    (r'Disponible\s+en[:\s]+(\d+)\s*d[ií]as?', 'disponible'),
+                    # Pattern 5: Immediate redemption (special case)
+                    (r'Rescate\s+inmediato', '0'),
+                    (r'Mismo\s+d[ií]a', '0'),
+                ]
+
+                for pattern, dias_value in tiempo_rescate_patterns:
+                    if isinstance(dias_value, str) and dias_value == '0':
+                        # Immediate redemption patterns
+                        if re.search(pattern, texto_completo, re.IGNORECASE):
+                            resultado['tiempo_rescate'] = '0 días'
+                            campos_extraidos += 1
+                            logger.info(f"[PDF] Tiempo rescate: inmediato (0 días)")
+                            break
+                    else:
+                        match = re.search(pattern, texto_completo, re.IGNORECASE)
+                        if match:
+                            dias = match.group(1)
+                            resultado['tiempo_rescate'] = f"{dias} días"
+                            campos_extraidos += 1
+                            logger.info(f"[PDF] Tiempo rescate: {dias} días")
+                            break
+
+                # ============================================================
+                # EXTRACTION 5: TAC and TAC_INDUSTRIA (NEW - CRITICAL)
+                # ============================================================
+                # Extract Total Annual Cost (Tasa Anual de Costos)
+                tac_patterns = [
+                    (r'TAC\s+Serie[:\s]+([\d,\.]+)\s*%', 'tac_serie'),
+                    (r'Tasa\s+Anual\s+de\s+Costos[:\s]+([\d,\.]+)\s*%', 'tac_full'),
+                    (r'Total\s+Annual\s+Cost[:\s]+([\d,\.]+)\s*%', 'tac_english'),
+                ]
+
+                for pattern, pattern_name in tac_patterns:
+                    match = re.search(pattern, texto_completo, re.IGNORECASE)
+                    if match:
+                        try:
+                            tac_str = match.group(1).replace(',', '.')
+                            tac_value = float(tac_str) / 100  # Convert to decimal
+                            resultado['TAC'] = tac_value
+                            campos_extraidos += 1
+                            logger.info(f"[PDF] TAC encontrado ({pattern_name}): {tac_value:.4f} ({tac_str}%)")
+                            break
+                        except (ValueError, AttributeError) as e:
+                            logger.debug(f"[PDF] Error parseando TAC: {e}")
+
+                # TAC Industria (industry average)
+                tac_industria_patterns = [
+                    (r'TAC\s+(?:Promedio\s+)?Industria[:\s]+([\d,\.]+)\s*%', 'tac_industria'),
+                    (r'Promedio\s+de\s+la\s+Industria[:\s]+([\d,\.]+)\s*%', 'promedio_industria'),
+                ]
+
+                for pattern, pattern_name in tac_industria_patterns:
+                    match = re.search(pattern, texto_completo, re.IGNORECASE)
+                    if match:
+                        try:
+                            tac_ind_str = match.group(1).replace(',', '.')
+                            tac_ind_value = float(tac_ind_str) / 100
+                            resultado['TAC_industria'] = tac_ind_value
+                            campos_extraidos += 1
+                            logger.info(f"[PDF] TAC Industria ({pattern_name}): {tac_ind_value:.4f}")
+                            break
+                        except (ValueError, AttributeError) as e:
+                            logger.debug(f"[PDF] Error parseando TAC industria: {e}")
+
+                # ============================================================
+                # EXTRACTION 6: INVERSION_MINIMA (NEW - COMPREHENSIVE)
+                # ============================================================
+                # Map monto_minimo to inversion_minima for consistency
+                # This will be populated by existing monto_minimo extraction logic below
+                # We'll map it at the end of extraction
 
                 # ============================================================
                 # PATRÓN 1: TIPO DE FONDO (Mejorado)
@@ -1359,89 +1749,130 @@ class FondosMutuosProcessor:
                             break
 
                 # ============================================================
-                # PATRÓN 2B: TOLERANCIA AL RIESGO (NUEVO)
+                # PATRÓN 2B: TOLERANCIA AL RIESGO (NUEVO - MEJORADO)
                 # ============================================================
-                patrones_tolerancia = {
-                    'Baja': ['tolerancia baja', 'baja tolerancia', 'aversión al riesgo', 'averso al riesgo'],
-                    'Media': ['tolerancia media', 'tolerancia moderada', 'moderada tolerancia'],
-                    'Alta': ['tolerancia alta', 'alta tolerancia', 'tolerante al riesgo']
-                }
+                # Buscar tolerancia al riesgo con múltiples variaciones usando regex
+                # FIX: Pattern must match "Tolerancia al riesgo: Moderada" with optional colon
+                tolerancia_patterns = [
+                    (r'Tolerancia\s+al\s+riesgo\s*[:\s]*\s*(Baja|Media|Alta|Moderada|Conservadora|Agresiva)', 'tolerancia_direct'),
+                    (r'\btoleranc[ia]+\s+(?:al\s+)?riesgo\s*[:\s]*\s*(baja|media|alta|conservador[a]?|moderad[oa]|agresiv[oa])',
+                     'tolerancia_keyword'),
+                    (r'\b(conservador[a]?|moderad[oa]|agresiv[oa])\s+(?:perfil|inversionista)',
+                     'perfil_keyword'),
+                    (r'\bperfil\s+de\s+riesgo\s+(?:es\s+)?(bajo|medio|alto|conservador|moderado|agresivo)',
+                     'perfil_riesgo_keyword'),
+                    (r'\binversionista[s]?\s+(conservador[es]?|moderado[s]?|agresivo[s]?)',
+                     'inversionista_keyword'),
+                ]
 
-                for nivel, keywords in patrones_tolerancia.items():
-                    if any(keyword in texto_lower for keyword in keywords):
-                        resultado['tolerancia_riesgo'] = nivel
-                        campos_extraidos += 1
-                        logger.info(f"[PDF EXTENDED] Tolerancia riesgo: {nivel}")
-                        break
+                for pattern, pattern_name in tolerancia_patterns:
+                    match = re.search(pattern, texto_completo, re.IGNORECASE)
+                    if match:
+                        keyword = match.group(1).lower()
 
-                # Buscar también frases como "perfil del inversionista"
-                for linea in lineas:
-                    linea_lower = linea.lower()
-                    if 'perfil del inversionista' in linea_lower or 'perfil inversionista' in linea_lower:
-                        if 'conservador' in linea_lower:
+                        # Mapear a categorías estándar
+                        if 'conserv' in keyword or 'baj' in keyword:
                             resultado['tolerancia_riesgo'] = 'Baja'
                             resultado['perfil_inversionista_ideal'] = 'Conservador'
-                            campos_extraidos += 1
-                            logger.info(f"[PDF EXTENDED] Perfil inversionista: Conservador (tolerancia baja)")
-                        elif 'moderado' in linea_lower or 'balanceado' in linea_lower:
+                        elif 'moder' in keyword or 'medi' in keyword:
                             resultado['tolerancia_riesgo'] = 'Media'
                             resultado['perfil_inversionista_ideal'] = 'Moderado'
-                            campos_extraidos += 1
-                            logger.info(f"[PDF EXTENDED] Perfil inversionista: Moderado (tolerancia media)")
-                        elif 'agresivo' in linea_lower or 'arriesgado' in linea_lower:
+                        elif 'agres' in keyword or 'alt' in keyword:
                             resultado['tolerancia_riesgo'] = 'Alta'
                             resultado['perfil_inversionista_ideal'] = 'Agresivo'
+
+                        if resultado.get('tolerancia_riesgo'):
                             campos_extraidos += 1
-                            logger.info(f"[PDF EXTENDED] Perfil inversionista: Agresivo (tolerancia alta)")
-                        break
-
-                # ============================================================
-                # PATRÓN 3: HORIZONTE DE INVERSIÓN
-                # ============================================================
-                for linea in lineas:
-                    if 'horizonte' in linea.lower():
-                        linea_lower = linea.lower()
-
-                        # Buscar categorías
-                        if 'corto plazo' in linea_lower:
-                            resultado['horizonte_inversion'] = 'Corto Plazo'
-                            resultado['horizonte_inversion_meses'] = 12
-                            campos_extraidos += 1
-                        elif 'mediano plazo' in linea_lower or 'medio plazo' in linea_lower:
-                            resultado['horizonte_inversion'] = 'Mediano Plazo'
-                            resultado['horizonte_inversion_meses'] = 24
-                            campos_extraidos += 1
-                        elif 'largo plazo' in linea_lower:
-                            resultado['horizonte_inversion'] = 'Largo Plazo'
-                            resultado['horizonte_inversion_meses'] = 60
-                            campos_extraidos += 1
-
-                        # Buscar meses/años específicos: "24 meses", "5 años"
-                        match_meses = re.search(r'(\d+)\s*meses', linea_lower)
-                        match_anos = re.search(r'(\d+)\s*años?', linea_lower)
-
-                        if match_meses:
-                            meses = int(match_meses.group(1))
-                            resultado['horizonte_inversion_meses'] = meses
-                            if meses < 12:
-                                resultado['horizonte_inversion'] = 'Corto Plazo'
-                            elif meses <= 36:
-                                resultado['horizonte_inversion'] = 'Mediano Plazo'
-                            else:
-                                resultado['horizonte_inversion'] = 'Largo Plazo'
-                        elif match_anos:
-                            anos = int(match_anos.group(1))
-                            resultado['horizonte_inversion_meses'] = anos * 12
-                            if anos <= 1:
-                                resultado['horizonte_inversion'] = 'Corto Plazo'
-                            elif anos <= 3:
-                                resultado['horizonte_inversion'] = 'Mediano Plazo'
-                            else:
-                                resultado['horizonte_inversion'] = 'Largo Plazo'
-
-                        if resultado['horizonte_inversion']:
-                            logger.info(f"[PDF EXTENDED] Horizonte: {resultado['horizonte_inversion']} ({resultado['horizonte_inversion_meses']} meses)")
+                            logger.info(f"[PDF] Tolerancia al riesgo encontrada ({pattern_name}): {resultado['tolerancia_riesgo']}")
                             break
+
+                # Additional TABLE-AWARE patterns for risk tolerance
+                if not resultado.get('tolerancia_riesgo'):
+                    table_risk_patterns = [
+                        (r'Tolerancia\s+(?:al\s+)?Riesgo\s*[\|\s:]+(Baja|Media|Alta|Moderada)', 'table_direct'),
+                        (r'Perfil\s+de\s+Riesgo\s*[\|\s:]+(Bajo|Medio|Alto|Conservador|Moderado|Agresivo)', 'table_perfil'),
+                        (r'Nivel\s+de\s+Riesgo\s*[\|\s:]+(Bajo|Medio|Alto|[1-7])', 'table_nivel'),
+                    ]
+
+                    for pattern, pattern_name in table_risk_patterns:
+                        match = re.search(pattern, texto_completo, re.IGNORECASE)
+                        if match:
+                            risk_value = match.group(1).strip().capitalize()
+                            # Normalize to standard categories
+                            if risk_value in ['Baja', 'Bajo', 'Conservador', '1', '2']:
+                                resultado['tolerancia_riesgo'] = 'Baja'
+                            elif risk_value in ['Media', 'Medio', 'Moderada', 'Moderado', '3', '4', '5']:
+                                resultado['tolerancia_riesgo'] = 'Media'
+                            elif risk_value in ['Alta', 'Alto', 'Agresivo', '6', '7']:
+                                resultado['tolerancia_riesgo'] = 'Alta'
+
+                            if resultado.get('tolerancia_riesgo'):
+                                campos_extraidos += 1
+                                logger.info(f"[PDF] Tolerancia riesgo ({pattern_name}): {resultado['tolerancia_riesgo']}")
+                                break
+
+                # ============================================================
+                # PATRÓN 3: HORIZONTE DE INVERSIÓN (MEJORADO)
+                # ============================================================
+                # Buscar horizonte de inversión con múltiples variaciones
+                horizonte_patterns = [
+                    (r'horizonte\s+(?:de\s+)?inversi[oó]n\s+(?:recomendad[oa]?\s+)?(?:es\s+)?(?:de\s+)?(corto|mediano|largo)\s+plazo',
+                     'horizonte_keyword'),
+                    (r'plazo\s+(?:de\s+inversi[oó]n\s+)?(?:recomendad[oa]?\s+)?(?:es\s+)?(?:de\s+)?(corto|mediano|largo)',
+                     'plazo_keyword'),
+                    (r'(corto|mediano|largo)\s+plazo\s+(?:de\s+)?inversi[oó]n',
+                     'plazo_inversion'),
+                    (r'inversi[oó]n\s+a\s+(corto|mediano|largo)\s+plazo',
+                     'inversion_plazo'),
+                ]
+
+                for pattern, pattern_name in horizonte_patterns:
+                    match = re.search(pattern, texto_completo, re.IGNORECASE)
+                    if match:
+                        plazo = match.group(1).lower()
+
+                        if 'corto' in plazo:
+                            resultado['horizonte_inversion'] = 'Corto Plazo'
+                            resultado['horizonte_inversion_meses'] = 12  # Default: 1 año
+                        elif 'mediano' in plazo:
+                            resultado['horizonte_inversion'] = 'Mediano Plazo'
+                            resultado['horizonte_inversion_meses'] = 36  # Default: 3 años
+                        elif 'largo' in plazo:
+                            resultado['horizonte_inversion'] = 'Largo Plazo'
+                            resultado['horizonte_inversion_meses'] = 60  # Default: 5 años
+
+                        if resultado.get('horizonte_inversion'):
+                            campos_extraidos += 1
+                            logger.debug(f"[PDF] Horizonte encontrado ({pattern_name}): {resultado['horizonte_inversion']}")
+                            break
+
+                # Buscar también meses/años específicos: "24 meses", "5 años"
+                if not resultado.get('horizonte_inversion'):
+                    match_meses = re.search(r'(\d+)\s*meses', texto_completo, re.IGNORECASE)
+                    match_anos = re.search(r'(\d+)\s*años?', texto_completo, re.IGNORECASE)
+
+                    if match_meses:
+                        meses = int(match_meses.group(1))
+                        resultado['horizonte_inversion_meses'] = meses
+                        if meses < 12:
+                            resultado['horizonte_inversion'] = 'Corto Plazo'
+                        elif meses <= 36:
+                            resultado['horizonte_inversion'] = 'Mediano Plazo'
+                        else:
+                            resultado['horizonte_inversion'] = 'Largo Plazo'
+                        campos_extraidos += 1
+                        logger.info(f"[PDF EXTENDED] Horizonte: {resultado['horizonte_inversion']} ({meses} meses)")
+                    elif match_anos:
+                        anos = int(match_anos.group(1))
+                        resultado['horizonte_inversion_meses'] = anos * 12
+                        if anos <= 1:
+                            resultado['horizonte_inversion'] = 'Corto Plazo'
+                        elif anos <= 3:
+                            resultado['horizonte_inversion'] = 'Mediano Plazo'
+                        else:
+                            resultado['horizonte_inversion'] = 'Largo Plazo'
+                        campos_extraidos += 1
+                        logger.info(f"[PDF EXTENDED] Horizonte: {resultado['horizonte_inversion']} ({anos} años)")
 
                 # ============================================================
                 # PATRÓN 4: COMISIÓN DE ADMINISTRACIÓN
@@ -1490,67 +1921,102 @@ class FondosMutuosProcessor:
                                     campos_extraidos += 1
                                     logger.info(f"[PDF EXTENDED] Comisión rescate: {resultado['comision_rescate']:.4f} ({comision_num}%)")
                                     break
-                            except ValueError:
+                            except ValueError as e:
+                                logger.debug(f"[PDF] Error al parsear comisión rescate: {e}")
                                 continue
 
                 # ============================================================
                 # PATRÓN 5B: INFORMACIÓN DE RESCATE (NUEVO)
                 # ============================================================
-                # Buscar si el fondo es rescatable
-                for linea in lineas:
-                    linea_lower = linea.lower()
-                    if 'rescatable' in linea_lower:
-                        if 'no rescatable' in linea_lower or 'sin rescate' in linea_lower:
-                            resultado['fondo_rescatable'] = False
-                            logger.info(f"[PDF EXTENDED] Fondo NO rescatable")
+                # Detectar si el fondo es rescatable con múltiples patrones
+                texto_completo_lower = texto_completo.lower()
+                rescatable_patterns = [
+                    (r'\brescatable\b', True),
+                    (r'\bsin\s+rescate\b', False),
+                    (r'\bno\s+rescatable\b', False),
+                    (r'\bliquidez\s+(?:diaria|inmediata|disponible)', True),
+                    (r'\breembolso\s+disponible\b', True),
+                    (r'\bplazo\s+(?:de\s+)?rescate[:\s]+(\d+)', True),  # Si menciona plazo, es rescatable
+                    (r'\bcerrado\s+(?:por|hasta|durante)', False),  # Fondo cerrado
+                ]
+
+                for pattern, is_rescatable in rescatable_patterns:
+                    if re.search(pattern, texto_completo_lower, re.IGNORECASE):
+                        resultado['fondo_rescatable'] = is_rescatable
+                        campos_extraidos += 1
+                        logger.info(f"[PDF EXTENDED] Fondo {'rescatable' if is_rescatable else 'NO rescatable'} (patrón: {pattern})")
+                        break
+
+                # Si no se encontró información, dejar como None (desconocido)
+                if resultado.get('fondo_rescatable') is None:
+                    logger.debug("[PDF EXTENDED] No se pudo determinar si el fondo es rescatable")
+
+                # Buscar plazo de rescate con múltiples formatos
+                plazo_patterns = [
+                    (r'plazo\s+(?:de\s+)?rescate[:\s]+(\d+)\s*días?', 'días'),
+                    (r'rescate\s+en\s+(\d+)\s*días?', 'días'),
+                    (r'disponible\s+en\s+(\d+)\s*días?', 'días'),
+                    (r'rescate\s+inmediato', '0'),  # Rescate inmediato = 0 días
+                    (r'rescate\s+(?:el\s+)?mismo\s+día', '0'),
+                    (r'T\+(\d+)', 'días'),  # Formato T+2, T+1, etc.
+                ]
+
+                for pattern, unidad in plazo_patterns:
+                    match = re.search(pattern, texto_completo, re.IGNORECASE)
+                    if match:
+                        if unidad == '0':
+                            resultado['plazos_rescates'] = 'Inmediato (0 días)'
+                            campos_extraidos += 1
+                            logger.info(f"[PDF EXTENDED] Plazo de rescate: Inmediato")
                         else:
-                            resultado['fondo_rescatable'] = True
-                            logger.info(f"[PDF EXTENDED] Fondo rescatable")
-                        campos_extraidos += 1
-                        break
-                    elif 'liquidez' in linea_lower or 'reembolso' in linea_lower:
-                        resultado['fondo_rescatable'] = True
-                        campos_extraidos += 1
-                        logger.info(f"[PDF EXTENDED] Fondo rescatable (por mención liquidez/reembolso)")
+                            try:
+                                dias = int(match.group(1))
+                                resultado['plazos_rescates'] = f"{dias} días"
+                                campos_extraidos += 1
+                                logger.info(f"[PDF EXTENDED] Plazo de rescate encontrado: {dias} días")
+                            except (ValueError, IndexError) as e:
+                                logger.debug(f"[PDF] Error al parsear plazo de rescate: {e}")
+                                pass
                         break
 
-                # Buscar plazos de rescate
-                for linea in lineas:
-                    linea_lower = linea.lower()
-                    if 'plazo de rescate' in linea_lower or 'días para rescate' in linea_lower or 'plazo para rescate' in linea_lower:
-                        # Buscar número de días
-                        match_dias = re.search(r'(\d+)\s*días?', linea_lower)
-                        if match_dias:
-                            dias = match_dias.group(1)
-                            resultado['plazos_rescates'] = f"{dias} días"
-                            campos_extraidos += 1
-                            logger.info(f"[PDF EXTENDED] Plazo rescate: {dias} días")
-                            break
+                # Buscar duración del fondo con múltiples formatos
+                duracion_patterns = [
+                    (r'duraci[oó]n\s+(?:del\s+fondo\s+)?(?:es\s+)?(\d+)\s*años?', 'años'),
+                    (r'plazo\s+(?:del\s+fondo\s+)?(?:es\s+)?(\d+)\s*años?', 'años'),
+                    (r'vigencia\s+(?:de\s+)?(\d+)\s*años?', 'años'),
+                    (r'duraci[oó]n\s+(?:del\s+fondo\s+)?(?:es\s+)?(\d+)\s*meses', 'meses'),
+                    (r'duraci[oó]n\s+(?:es\s+)?indefinida', 'indefinido'),
+                    (r'(?:fondo\s+)?sin\s+(?:fecha\s+de\s+)?vencimiento', 'indefinido'),
+                    (r'(?:fondo\s+)?perpetuo', 'indefinido'),
+                    (r'(?:fondo\s+)?de\s+inversi[oó]n\s+abierto', 'indefinido'),  # Fondos abiertos suelen ser indefinidos
+                ]
 
-                # Buscar duración del fondo
-                for linea in lineas:
-                    linea_lower = linea.lower()
-                    if 'duración' in linea_lower or 'plazo del fondo' in linea_lower or 'vigencia del fondo' in linea_lower:
-                        # Buscar años o meses
-                        match_anos = re.search(r'(\d+)\s*años?', linea_lower)
-                        match_meses = re.search(r'(\d+)\s*meses', linea_lower)
-                        if match_anos:
-                            anos = match_anos.group(1)
-                            resultado['duracion'] = f"{anos} años"
+                for pattern, tipo in duracion_patterns:
+                    match = re.search(pattern, texto_completo, re.IGNORECASE)
+                    if match:
+                        if tipo == 'indefinido':
+                            resultado['duracion'] = 'Indefinido'
                             campos_extraidos += 1
-                            logger.info(f"[PDF EXTENDED] Duración: {anos} años")
+                            logger.info(f"[PDF EXTENDED] Duración del fondo encontrada: Indefinido")
+                        elif tipo == 'años':
+                            try:
+                                anos = int(match.group(1))
+                                resultado['duracion'] = f"{anos} años"
+                                campos_extraidos += 1
+                                logger.info(f"[PDF EXTENDED] Duración: {anos} años")
+                            except (ValueError, IndexError):
+                                pass
+                        elif tipo == 'meses':
+                            try:
+                                meses = int(match.group(1))
+                                resultado['duracion'] = f"{meses} meses"
+                                campos_extraidos += 1
+                                logger.info(f"[PDF EXTENDED] Duración: {meses} meses")
+                            except (ValueError, IndexError):
+                                pass
+
+                        if resultado.get('duracion'):
                             break
-                        elif match_meses:
-                            meses = match_meses.group(1)
-                            resultado['duracion'] = f"{meses} meses"
-                            campos_extraidos += 1
-                            logger.info(f"[PDF EXTENDED] Duración: {meses} meses")
-                            break
-                    elif 'indefinido' in linea_lower or 'sin plazo' in linea_lower:
-                        resultado['duracion'] = 'Indefinido'
-                        campos_extraidos += 1
-                        logger.info(f"[PDF EXTENDED] Duración: Indefinido")
-                        break
 
                 # ============================================================
                 # PATRÓN 5C: MONTO MÍNIMO DE INVERSIÓN (NUEVO)
@@ -1580,7 +2046,8 @@ class FondosMutuosProcessor:
                                 campos_extraidos += 1
                                 logger.info(f"[PDF EXTENDED] Monto mínimo: {uf_num:.2f} UF")
                                 break
-                            except ValueError:
+                            except ValueError as e:
+                                logger.debug(f"[PDF] Error al parsear monto mínimo: {e}")
                                 pass
 
                         # Patrón 2: Pesos chilenos con símbolo $
@@ -1597,7 +2064,8 @@ class FondosMutuosProcessor:
                                     campos_extraidos += 1
                                     logger.info(f"[PDF EXTENDED] Monto mínimo: ${monto_num:,.0f} CLP")
                                     break
-                            except ValueError:
+                            except ValueError as e:
+                                logger.debug(f"[PDF] Error al parsear monto mínimo: {e}")
                                 pass
 
                         # Patrón 3: Números seguidos de "pesos", "CLP", "pesos chilenos"
@@ -1614,7 +2082,8 @@ class FondosMutuosProcessor:
                                     campos_extraidos += 1
                                     logger.info(f"[PDF EXTENDED] Monto mínimo: ${monto_num:,.0f} CLP")
                                     break
-                            except ValueError:
+                            except ValueError as e:
+                                logger.debug(f"[PDF] Error al parsear monto mínimo: {e}")
                                 pass
 
                         # Patrón 4: "X mil", "X millones"
@@ -1633,7 +2102,8 @@ class FondosMutuosProcessor:
                                 campos_extraidos += 1
                                 logger.info(f"[PDF EXTENDED] Monto mínimo: ${monto_num:,.0f} CLP ({num_float} millones)")
                                 break
-                            except ValueError:
+                            except ValueError as e:
+                                logger.debug(f"[PDF] Error al parsear monto mínimo: {e}")
                                 pass
                         elif match_miles:
                             num = match_miles.group(1).replace(',', '.')
@@ -1646,7 +2116,8 @@ class FondosMutuosProcessor:
                                 campos_extraidos += 1
                                 logger.info(f"[PDF EXTENDED] Monto mínimo: ${monto_num:,.0f} CLP ({num_float} mil)")
                                 break
-                            except ValueError:
+                            except ValueError as e:
+                                logger.debug(f"[PDF] Error al parsear monto mínimo: {e}")
                                 pass
 
                         # Patrón 5: USD (algunos fondos internacionales)
@@ -1661,79 +2132,161 @@ class FondosMutuosProcessor:
                                 campos_extraidos += 1
                                 logger.info(f"[PDF EXTENDED] Monto mínimo: ${usd_num:,.2f} USD")
                                 break
-                            except ValueError:
+                            except ValueError as e:
+                                logger.debug(f"[PDF] Error al parsear monto mínimo: {e}")
+                                pass
+
+                        # Patrón 6: "mínimo de $X" o "mínimo: $X"
+                        match_minimo_de = re.search(r'mínimo\s+(?:de\s+)?(?:inversión\s+)?(?:de\s+)?\$\s*(\d{1,3}(?:[\.,]\d{3})*(?:[\.,]\d{1,2})?)', texto_busqueda, re.IGNORECASE)
+                        if match_minimo_de:
+                            try:
+                                monto_str = match_minimo_de.group(1).replace('.', '').replace(',', '.')
+                                monto_float = float(monto_str)
+                                if monto_float > 1000:  # Validar que sea razonable
+                                    resultado['monto_minimo'] = f"${monto_float:,.0f} CLP"
+                                    resultado['monto_minimo_moneda'] = 'CLP'
+                                    resultado['monto_minimo_valor'] = monto_float
+                                    campos_extraidos += 1
+                                    logger.info(f"[PDF EXTENDED] Monto mínimo (patrón 6): ${monto_float:,.0f} CLP")
+                                    break
+                            except ValueError as e:
+                                logger.debug(f"[PDF] Error al parsear monto mínimo: {e}")
+                                pass
+
+                        # Patrón 7: "aporte inicial" como sinónimo de monto mínimo
+                        match_aporte = re.search(r'aporte\s+inicial\s+(?:de\s+)?(?:es\s+)?(?:de\s+)?([A-Z]{2,3})\s*(\d{1,3}(?:[\.,]\d{3})*(?:[\.,]\d+)?)', texto_busqueda, re.IGNORECASE)
+                        if match_aporte:
+                            try:
+                                moneda = match_aporte.group(1).upper()
+                                monto_str = match_aporte.group(2).replace('.', '').replace(',', '.')
+                                monto_float = float(monto_str)
+
+                                if moneda in ['UF', 'CLP', 'USD'] and monto_float > 0:
+                                    resultado['monto_minimo'] = f"{monto_float:,.0f} {moneda}"
+                                    resultado['monto_minimo_moneda'] = moneda
+                                    resultado['monto_minimo_valor'] = monto_float
+                                    campos_extraidos += 1
+                                    logger.info(f"[PDF EXTENDED] Monto mínimo (patrón 7 - aporte): {resultado['monto_minimo']}")
+                                    break
+                            except ValueError as e:
+                                logger.debug(f"[PDF] Error al parsear monto mínimo: {e}")
                                 pass
 
                 # ============================================================
-                # PATRÓN 6: RENTABILIDAD HISTÓRICA
+                # PATRÓN 6: RENTABILIDAD HISTÓRICA (ULTRA-FLEXIBLE)
                 # ============================================================
-                # FIX 4.3: Regex robustificado para rentabilidades (acepta ".5", "9.5", "-2.3")
-                for i, linea in enumerate(lineas):
-                    if 'rentabilidades anualizadas' in linea.lower() or '1 año' in linea.lower():
-                        # Buscar en las siguientes 10 líneas
-                        for j in range(i, min(i + 10, len(lineas))):
-                            linea_busqueda = lineas[j]
+                # Extract rentabilidades with MAXIMUM flexibility:
+                # - Any period (meses/años)
+                # - Any separator (space, |, :, tab, multiple spaces)
+                # - Table or free-text format
+                # - Handles negative returns
 
-                            # Patrón: "1 Año 0,48%" - FIX 4.4: usar regex compilado
-                            match_1ano = REGEX_RENT_1ANO.search(linea_busqueda)
-                            if match_1ano:
-                                try:
-                                    rent_str = match_1ano.group(1).replace(',', '.')
-                                    # FIX 4.2: Validar no vacío
-                                    if rent_str and rent_str not in ['.', '-', '-.']:
-                                        resultado['rentabilidad_12m'] = float(rent_str) / 100
-                                        campos_extraidos += 1
-                                        logger.info(f"[PDF EXTENDED] Rentabilidad 12m: {resultado['rentabilidad_12m']:.2%}")
-                                except ValueError as e:
-                                    logger.debug(f"[PDF EXTENDED] Error parseando rent 12m: {e}")
-                                    pass
+                # Pattern: "NUMBER meses/años [ANYTHING] NUMBER%"
+                # Examples: "12 meses 5,2%", "1 año    | 3,5%", "24 meses: -2,1%"
+                rentabilidad_flexible_pattern = r'(\d+)\s*(?:mes|m)[a-zñáéíóú]*\s*[:\|\s]+([-]?[\d,\.]+)\s*%'
+                for match in re.finditer(rentabilidad_flexible_pattern, texto_completo, re.IGNORECASE):
+                    try:
+                        meses = int(match.group(1))
+                        rent_str = match.group(2).replace(',', '.')
+                        if rent_str and rent_str not in ['.', '-', '-.', ',']:
+                            rent_value = float(rent_str) / 100
 
-                            # Patrón: "2 Años 5,5%" - FIX 4.4: usar regex compilado
-                            match_2anos = REGEX_RENT_2ANOS.search(linea_busqueda)
-                            if match_2anos:
-                                try:
-                                    rent_str = match_2anos.group(1).replace(',', '.')
-                                    if rent_str and rent_str not in ['.', '-', '-.']:
-                                        resultado['rentabilidad_24m'] = float(rent_str) / 100
-                                        campos_extraidos += 1
-                                        logger.info(f"[PDF EXTENDED] Rentabilidad 24m: {resultado['rentabilidad_24m']:.2%}")
-                                except ValueError as e:
-                                    logger.debug(f"[PDF EXTENDED] Error parseando rent 24m: {e}")
-                                    pass
+                            # Map to standard fields
+                            if meses == 12 and not resultado.get('rentabilidad_12m'):
+                                resultado['rentabilidad_12m'] = rent_value
+                                campos_extraidos += 1
+                                logger.info(f"[PDF] Rentabilidad 12m: {rent_value:.2%}")
+                            elif meses == 24 and not resultado.get('rentabilidad_24m'):
+                                resultado['rentabilidad_24m'] = rent_value
+                                campos_extraidos += 1
+                                logger.info(f"[PDF] Rentabilidad 24m: {rent_value:.2%}")
+                            elif meses == 36 and not resultado.get('rentabilidad_36m'):
+                                resultado['rentabilidad_36m'] = rent_value
+                                campos_extraidos += 1
+                                logger.info(f"[PDF] Rentabilidad 36m: {rent_value:.2%}")
 
-                            # Patrón: "3 Años" o "5 Años" - FIX 4.4: usar regex compilado
-                            match_3anos = REGEX_RENT_3ANOS.search(linea_busqueda)
-                            if match_3anos:
-                                try:
-                                    rent_str = match_3anos.group(1).replace(',', '.')
-                                    if rent_str and rent_str not in ['.', '-', '-.']:
-                                        resultado['rentabilidad_36m'] = float(rent_str) / 100
-                                        campos_extraidos += 1
-                                        logger.info(f"[PDF EXTENDED] Rentabilidad 36m: {resultado['rentabilidad_36m']:.2%}")
-                                except ValueError as e:
-                                    logger.debug(f"[PDF EXTENDED] Error parseando rent 36m: {e}")
-                                    pass
+                            # Store ALL in rentabilidades_nominales
+                            resultado['rentabilidades_nominales'][f"{meses}_meses"] = rent_value
+                            logger.debug(f"[PDF] Rentabilidad {meses}m: {rent_value:.2%}")
+                    except (ValueError, IndexError) as e:
+                        logger.debug(f"[PDF] Error parseando rentabilidad: {e}")
+
+                # Pattern for AÑOS format
+                rentabilidad_anos_pattern = r'(\d+)\s*(?:año|a)[ñnos]*\s*[:\|\s]+([-]?[\d,\.]+)\s*%'
+                for match in re.finditer(rentabilidad_anos_pattern, texto_completo, re.IGNORECASE):
+                    try:
+                        anos = int(match.group(1))
+                        rent_str = match.group(2).replace(',', '.')
+                        if rent_str and rent_str not in ['.', '-', '-.', ',']:
+                            rent_value = float(rent_str) / 100
+                            meses_equiv = anos * 12
+
+                            # Map to standard fields
+                            if meses_equiv == 12 and not resultado.get('rentabilidad_12m'):
+                                resultado['rentabilidad_12m'] = rent_value
+                                campos_extraidos += 1
+                                logger.info(f"[PDF] Rentabilidad 12m (1 año): {rent_value:.2%}")
+                            elif meses_equiv == 24 and not resultado.get('rentabilidad_24m'):
+                                resultado['rentabilidad_24m'] = rent_value
+                                campos_extraidos += 1
+                                logger.info(f"[PDF] Rentabilidad 24m (2 años): {rent_value:.2%}")
+                            elif meses_equiv == 36 and not resultado.get('rentabilidad_36m'):
+                                resultado['rentabilidad_36m'] = rent_value
+                                campos_extraidos += 1
+                                logger.info(f"[PDF] Rentabilidad 36m (3 años): {rent_value:.2%}")
+
+                            # Store in rentabilidades_nominales
+                            resultado['rentabilidades_nominales'][f"{anos}_anos"] = rent_value
+                            logger.debug(f"[PDF] Rentabilidad {anos} años: {rent_value:.2%}")
+                    except (ValueError, IndexError) as e:
+                        logger.debug(f"[PDF] Error parseando rentabilidad años: {e}")
 
                 # ============================================================
-                # PATRÓN 7: PATRIMONIO DEL FONDO
+                # PATRÓN 7: PATRIMONIO DEL FONDO (IMPROVED - SEPARATE FONDO vs SEDE)
                 # ============================================================
+                # Distinguish between patrimonio_fondo (total fund) and patrimonio_sede (series/class)
                 for linea in lineas:
-                    if 'patrimonio serie' in linea.lower() or 'patrimonio total' in linea.lower():
-                        # Buscar montos: "$806.202.087", "USD 1.246.638.652"
-                        match_patrimonio = re.search(r'([A-Z]{3})?\s*\$?\s*([\d.,]+)', linea)
-                        if match_patrimonio:
+                    linea_lower = linea.lower()
+
+                    # Pattern A: Patrimonio Serie (specific to this serie/class)
+                    if 'patrimonio serie' in linea_lower or 'patrimonio de la serie' in linea_lower:
+                        match_sede = re.search(r'([A-Z]{3})?\s*\$?\s*([\d.,]+)', linea)
+                        if match_sede:
                             try:
-                                moneda = match_patrimonio.group(1) or 'CLP'
-                                monto_str = match_patrimonio.group(2).replace('.', '').replace(',', '')
+                                moneda = match_sede.group(1) or resultado.get('moneda') or 'CLP'
+                                monto_str = match_sede.group(2).replace('.', '').replace(',', '')
                                 monto = float(monto_str)
 
-                                resultado['patrimonio'] = monto
+                                resultado['patrimonio_sede'] = monto
                                 resultado['patrimonio_moneda'] = moneda
                                 campos_extraidos += 1
-                                logger.info(f"[PDF EXTENDED] Patrimonio: {moneda} {monto:,.0f}")
-                                break
-                            except ValueError:
+                                logger.info(f"[PDF] Patrimonio SEDE: {moneda} {monto:,.0f}")
+                            except ValueError as e:
+                                logger.debug(f"[PDF] Error parseando patrimonio sede: {e}")
                                 continue
+
+                    # Pattern B: Patrimonio Total / Patrimonio Fondo (entire fund)
+                    elif 'patrimonio total' in linea_lower or 'patrimonio del fondo' in linea_lower or 'patrimonio fondo' in linea_lower:
+                        match_fondo = re.search(r'([A-Z]{3})?\s*\$?\s*([\d.,]+)', linea)
+                        if match_fondo:
+                            try:
+                                moneda = match_fondo.group(1) or resultado.get('moneda') or 'CLP'
+                                monto_str = match_fondo.group(2).replace('.', '').replace(',', '')
+                                monto = float(monto_str)
+
+                                resultado['patrimonio_fondo'] = monto
+                                resultado['patrimonio_moneda'] = moneda
+                                campos_extraidos += 1
+                                logger.info(f"[PDF] Patrimonio FONDO: {moneda} {monto:,.0f}")
+                            except ValueError as e:
+                                logger.debug(f"[PDF] Error parseando patrimonio fondo: {e}")
+                                continue
+
+                # Legacy mapping: keep 'patrimonio' for backwards compatibility
+                if resultado.get('patrimonio_fondo'):
+                    resultado['patrimonio'] = resultado['patrimonio_fondo']
+                elif resultado.get('patrimonio_sede'):
+                    resultado['patrimonio'] = resultado['patrimonio_sede']
 
                 # ============================================================
                 # PATRÓN 8: COMPOSICIÓN DE PORTAFOLIO (Mejorada con patrones alternativos)
@@ -1767,8 +2320,13 @@ class FondosMutuosProcessor:
                                 composicion_detallada.append(item_detallado)
 
                                 logger.debug(f"[PDF EXTENDED] Encontrado (P1): {activo_nombre} = {porcentaje_decimal:.2%} (cat: {categoria})")
-                        except ValueError:
+                        except ValueError as e:
+                            logger.debug(f"[PDF] Error al parsear item de composición: {e}")
                             continue
+
+                # Logging cuando Patrón 1 falla
+                if not composicion_detallada:
+                    logger.debug("[PDF] Patrón 1 de composición no encontró matches, probando patrón 2...")
 
                 # Patrón 2: Tabla con columnas "Instrumento | Porcentaje" o similar
                 # Buscar sección "Composición de Cartera" o "Inversiones"
@@ -1802,7 +2360,8 @@ class FondosMutuosProcessor:
                                         item_detallado['categoria'] = categoria
                                         composicion_detallada.append(item_detallado)
                                         logger.debug(f"[PDF EXTENDED] Encontrado (P2): {activo_nombre} = {porcentaje_decimal:.2%}")
-                                except ValueError:
+                                except ValueError as e:
+                                    logger.debug(f"[PDF] Error al parsear item de composición: {e}")
                                     continue
 
                             # Salir si encontramos otra sección
@@ -1833,7 +2392,8 @@ class FondosMutuosProcessor:
                                             item_detallado['categoria'] = categoria
                                             composicion_detallada.append(item_detallado)
                                             logger.debug(f"[PDF EXTENDED] Encontrado (P3): {activo_nombre} = {porcentaje_decimal:.2%}")
-                                    except ValueError:
+                                    except ValueError as e:
+                                        logger.debug(f"[PDF] Error al parsear item de composición: {e}")
                                         continue
                             break
 
@@ -1847,11 +2407,128 @@ class FondosMutuosProcessor:
                 if composicion:
                     campos_extraidos += 1
                     suma_porcentajes = sum(item['porcentaje'] for item in composicion)
-                    logger.info(f"[PDF EXTENDED] Composición: {len(composicion)} activos (suma: {suma_porcentajes:.2%})")
+                    logger.info(f"[PDF] Composición extraída exitosamente: {len(composicion)} activos (suma: {suma_porcentajes:.2%})")
                 else:
                     # ETL FIX: Logging explícito cuando composición está vacía
+                    logger.warning(f"[PDF] No se pudo extraer composición de portafolio con ningún patrón. Texto disponible: {len(texto_completo)} caracteres")
                     logger.warning(f"[PDF EXTENDED] COMPOSICIÓN VACÍA - Ningún patrón encontró activos del portafolio")
                     logger.warning(f"[PDF EXTENDED] Esto indica un formato de PDF no soportado o datos ausentes")
+
+                # ============================================================
+                # EXTRACTION 7: RENTABILIDADES EXTENDED (NEW - COMPREHENSIVE)
+                # ============================================================
+                # Extract rentabilidades nominales, mejores, peores, and anualizadas
+                # These are in ADDITION to the existing rentabilidad_12m, 24m, 36m
+
+                # RENTABILIDADES NOMINALES (period returns)
+                rentabilidades_nominales = {}
+                nominal_patterns = [
+                    (r'(?:Rentabilidad|Retorno)\s+Nominal\s+(\d+)\s*(?:mes|m)[a-z]*[:\s]+([-]?[\d,\.]+)\s*%', 'meses'),
+                    (r'(?:Rentabilidad|Retorno)\s+(\d+)\s*(?:mes|m)[a-z]*[:\s]+([-]?[\d,\.]+)\s*%', 'meses_short'),
+                    (r'(?:Rentabilidad|Retorno)\s+(\d+)\s*(?:año|a)[ños]*[:\s]+([-]?[\d,\.]+)\s*%', 'anos'),
+                ]
+
+                for pattern, pattern_type in nominal_patterns:
+                    matches = re.finditer(pattern, texto_completo, re.IGNORECASE)
+                    for match in matches:
+                        periodo = match.group(1)
+                        valor_str = match.group(2).replace(',', '.')
+                        try:
+                            valor = float(valor_str) / 100  # Convert to decimal
+                            if 'ano' in pattern_type or 'año' in pattern_type:
+                                key = f"{periodo}_anos"
+                            else:
+                                key = f"{periodo}_meses"
+                            rentabilidades_nominales[key] = valor
+                            logger.debug(f"[PDF] Rentabilidad nominal {key}: {valor:.4f}")
+                        except ValueError as e:
+                            logger.debug(f"[PDF] Error parseando rentabilidad nominal: {e}")
+
+                if rentabilidades_nominales:
+                    resultado['rentabilidades_nominales'] = rentabilidades_nominales
+                    campos_extraidos += 1
+                    logger.info(f"[PDF] Rentabilidades nominales: {len(rentabilidades_nominales)} periodos")
+
+                # MEJORES RENTABILIDADES (best returns)
+                mejores_rentabilidades = {}
+                mejor_patterns = [
+                    (r'Mejor\s+(?:Rentabilidad|Retorno)\s+(?:Mensual|Mes)[:\s]+([-]?[\d,\.]+)\s*%', 'mensual'),
+                    (r'Mejor\s+(?:Rentabilidad|Retorno)\s+(?:Anual|Año)[:\s]+([-]?[\d,\.]+)\s*%', 'anual'),
+                    (r'M[aá]xim[oa]\s+(?:Rentabilidad|Retorno)[:\s]+([-]?[\d,\.]+)\s*%', 'maximo'),
+                ]
+
+                for pattern, tipo in mejor_patterns:
+                    match = re.search(pattern, texto_completo, re.IGNORECASE)
+                    if match:
+                        try:
+                            valor_str = match.group(1).replace(',', '.')
+                            valor = float(valor_str) / 100
+                            mejores_rentabilidades[tipo] = valor
+                            logger.debug(f"[PDF] Mejor rentabilidad {tipo}: {valor:.4f}")
+                        except ValueError as e:
+                            logger.debug(f"[PDF] Error parseando mejor rentabilidad: {e}")
+
+                if mejores_rentabilidades:
+                    resultado['mejores_rentabilidades'] = mejores_rentabilidades
+                    campos_extraidos += 1
+                    logger.info(f"[PDF] Mejores rentabilidades: {len(mejores_rentabilidades)} periodos")
+
+                # PEORES RENTABILIDADES (worst returns)
+                peores_rentabilidades = {}
+                peor_patterns = [
+                    (r'Peor\s+(?:Rentabilidad|Retorno)\s+(?:Mensual|Mes)[:\s]+([-]?[\d,\.]+)\s*%', 'mensual'),
+                    (r'Peor\s+(?:Rentabilidad|Retorno)\s+(?:Anual|Año)[:\s]+([-]?[\d,\.]+)\s*%', 'anual'),
+                    (r'M[ií]nim[oa]\s+(?:Rentabilidad|Retorno)[:\s]+([-]?[\d,\.]+)\s*%', 'minimo'),
+                ]
+
+                for pattern, tipo in peor_patterns:
+                    match = re.search(pattern, texto_completo, re.IGNORECASE)
+                    if match:
+                        try:
+                            valor_str = match.group(1).replace(',', '.')
+                            valor = float(valor_str) / 100
+                            peores_rentabilidades[tipo] = valor
+                            logger.debug(f"[PDF] Peor rentabilidad {tipo}: {valor:.4f}")
+                        except ValueError as e:
+                            logger.debug(f"[PDF] Error parseando peor rentabilidad: {e}")
+
+                if peores_rentabilidades:
+                    resultado['peores_rentabilidades'] = peores_rentabilidades
+                    campos_extraidos += 1
+                    logger.info(f"[PDF] Peores rentabilidades: {len(peores_rentabilidades)} periodos")
+
+                # RENTABILIDADES ANUALIZADAS (annualized returns)
+                rentabilidades_anualizadas = {}
+                anualizada_patterns = [
+                    (r'(?:Rentabilidad|Retorno)\s+Anualizada?\s+(\d+)\s*(?:año|a)[ños]*[:\s]+([-]?[\d,\.]+)\s*%', 'anos'),
+                    (r'(?:Rentabilidad|Retorno)\s+Promedio\s+Anual\s+(\d+)\s*(?:año|a)[ños]*[:\s]+([-]?[\d,\.]+)\s*%', 'promedio'),
+                ]
+
+                for pattern, pattern_type in anualizada_patterns:
+                    matches = re.finditer(pattern, texto_completo, re.IGNORECASE)
+                    for match in matches:
+                        periodo = match.group(1)
+                        valor_str = match.group(2).replace(',', '.')
+                        try:
+                            valor = float(valor_str) / 100
+                            key = f"{periodo}_anos"
+                            rentabilidades_anualizadas[key] = valor
+                            logger.debug(f"[PDF] Rentabilidad anualizada {key}: {valor:.4f}")
+                        except ValueError as e:
+                            logger.debug(f"[PDF] Error parseando rentabilidad anualizada: {e}")
+
+                if rentabilidades_anualizadas:
+                    resultado['rentabilidades_anualizadas'] = rentabilidades_anualizadas
+                    campos_extraidos += 1
+                    logger.info(f"[PDF] Rentabilidades anualizadas: {len(rentabilidades_anualizadas)} periodos")
+
+                # ============================================================
+                # EXTRACTION 8: MAP INVERSION_MINIMA (CONSISTENCY FIX)
+                # ============================================================
+                # Map monto_minimo to inversion_minima for output consistency
+                if resultado.get('monto_minimo'):
+                    resultado['inversion_minima'] = resultado['monto_minimo']
+                    logger.debug(f"[PDF] Inversión mínima mapeada: {resultado['inversion_minima']}")
 
                 # ============================================================
                 # CALCULAR NIVEL DE CONFIANZA
@@ -2892,7 +3569,8 @@ class FondosMutuosProcessor:
             if matches:
                 return float(matches[-1])  # Tomar el último número encontrado
             return None
-        except:
+        except Exception as e:
+            logger.debug(f"[UTIL] Error en _extract_numeric_value: {e}, input: {text[:100] if text else 'None'}")
             return None
 
     def _extract_percentage_value(self, text: str) -> Optional[float]:
@@ -3036,9 +3714,17 @@ class FondosMutuosProcessor:
 
             # NO INVENTAR COSTOS - Solo usar datos scrapeados del PDF/CMF
             # Las comisiones deben extraerse de los documentos oficiales del fondo
-            metrics['costos_estimados'] = {
-                'error': 'Costos no disponibles - requieren extracción de PDF oficial del fondo'
-            }
+            # Return actual comisiones if extracted
+            comisiones = {}
+            if data.get('comision_administracion') is not None:
+                comisiones['comision_administracion'] = data['comision_administracion']
+            if data.get('comision_rescate') is not None:
+                comisiones['comision_rescate'] = data['comision_rescate']
+
+            if not comisiones:
+                metrics['costos_estimados'] = {'error': 'Costos no disponibles'}
+            else:
+                metrics['costos_estimados'] = comisiones
 
             # NO INCLUIR benchmarks sin datos reales
             # Los benchmarks requieren cotizaciones en tiempo real
@@ -3076,6 +3762,78 @@ class FondosMutuosProcessor:
         logger.warning("[DATOS INVENTADOS BLOQUEADOS] No se puede estimar volatilidad sin datos históricos")
         return None
 
+    def _calculate_data_quality_score(self, data: Dict) -> Dict:
+        """
+        Calculate a data quality score (0-100) based on field completeness.
+        Returns dict with score, level, and breakdown by category.
+        """
+        # Define critical, important, and optional fields
+        critical_fields = ['nombre', 'run', 'rut_base', 'tipo_fondo', 'perfil_riesgo']
+        important_fields = ['horizonte_inversion', 'tolerancia_riesgo', 'composicion_portafolio',
+                            'rentabilidad_12m', 'comision_administracion']
+        optional_fields = ['patrimonio', 'fondo_rescatable', 'plazos_rescates',
+                           'duracion', 'monto_minimo']
+
+        # Calculate scores
+        critical_score = sum([1 for f in critical_fields if data.get(f)]) / len(critical_fields) * 60
+        important_score = sum([1 for f in important_fields if data.get(f)]) / len(important_fields) * 30
+        optional_score = sum([1 for f in optional_fields if data.get(f)]) / len(optional_fields) * 10
+
+        total_score = critical_score + important_score + optional_score
+
+        # Determine quality level
+        if total_score >= 80:
+            quality_level = 'Excelente'
+        elif total_score >= 60:
+            quality_level = 'Buena'
+        elif total_score >= 40:
+            quality_level = 'Regular'
+        else:
+            quality_level = 'Baja'
+
+        return {
+            'score': round(total_score, 1),
+            'level': quality_level,
+            'critical_pct': round(critical_score / 60 * 100, 1),
+            'important_pct': round(important_score / 30 * 100, 1),
+            'optional_pct': round(optional_score / 10 * 100, 1)
+        }
+
+    def _generate_confidence_warnings(self, data: Dict) -> str:
+        """
+        Generate comprehensive confidence warnings based on data quality.
+        Returns a string with warnings separated by ' | '
+        """
+        confidence_warnings = []
+
+        # Calculate confidence score
+        confidence = data.get('extraction_confidence', 'unknown')
+
+        if confidence == 'low' or confidence == 'unknown':
+            confidence_warnings.append('⚠ Baja confianza en extracción de datos')
+
+        # Check specific critical fields
+        critical_fields = ['run', 'tipo_fondo', 'perfil_riesgo', 'composicion_portafolio']
+        missing_critical = [f for f in critical_fields if not data.get(f)]
+
+        if missing_critical:
+            confidence_warnings.append(f'⚠ Campos críticos faltantes: {", ".join(missing_critical)}')
+
+        # Check if composicion is empty
+        if not data.get('composicion_portafolio') or len(data.get('composicion_portafolio', [])) == 0:
+            confidence_warnings.append('⚠ Composición de portafolio no extraída')
+
+        # Check if RUN is missing
+        if not data.get('run'):
+            confidence_warnings.append('⚠ RUN no disponible - Verificar en CMF manualmente')
+
+        # Check if error exists
+        if data.get('error'):
+            confidence_warnings.append(f'⚠ Error durante extracción: {data["error"]}')
+
+        # Return combined warnings or "Ninguna"
+        return ' | '.join(confidence_warnings) if confidence_warnings else 'Ninguna'
+
     def _generate_excel(self, data: Dict) -> None:
         """Generar archivo Excel AVANZADO con análisis completo del fondo"""
         try:
@@ -3093,9 +3851,15 @@ class FondosMutuosProcessor:
                     'Fecha Valor Cuota',
                     'Tipo de Fondo',
                     'Perfil de Riesgo',
+                    'Escala de Riesgo (R1-R7)',
                     'Tolerancia al Riesgo',
+                    'Patrimonio',
+                    'Comisión Administración (%)',
+                    'Comisión Rescate (%)',
                     'Clasificación Detallada',
-                    'Rentabilidad Anual',
+                    'Rentabilidad 12 Meses (%)',
+                    'Rentabilidad 24 Meses (%)',
+                    'Rentabilidad 36 Meses (%)',
                     'Fondo Rescatable',
                     'Plazo de Rescate',
                     'Duración del Fondo',
@@ -3107,40 +3871,62 @@ class FondosMutuosProcessor:
                     'Horizonte en Meses'
                 ],
                 'Detalle': [
-                    data.get('nombre', 'N/A'),
-                    data.get('nombre_cmf', 'N/A'),
-                    data.get('run', 'N/A'),
-                    data.get('rut_base', 'N/A'),
-                    data.get('estado_fondo', 'N/A'),
-                    data.get('fecha_valor_cuota', 'N/A'),
-                    data.get('tipo_fondo', 'N/A'),
-                    data.get('perfil_riesgo', 'N/A'),
-                    data.get('tolerancia_riesgo', 'N/A'),
-                    metrics.get('clasificacion_riesgo_detallada', 'N/A'),
-                    f"{data.get('rentabilidad_anual', 0):.2%}" if data.get('rentabilidad_anual') else 'N/A',
-                    'Sí' if data.get('fondo_rescatable') is True else 'No' if data.get('fondo_rescatable') is False else 'N/A',
-                    data.get('plazos_rescates', 'N/A'),
-                    data.get('duracion', 'N/A'),
-                    data.get('monto_minimo', 'N/A'),
+                    data.get('nombre', 'Sin nombre'),
+                    data.get('nombre_cmf', 'No registrado en CMF'),
+                    data.get('run', 'No disponible en fuentes'),
+                    data.get('rut_base', 'No disponible en fuentes'),
+                    data.get('estado_fondo', 'Estado desconocido'),
+                    data.get('fecha_valor_cuota', 'Fecha no disponible'),
+                    data.get('tipo_fondo', 'Tipo no extraído'),
+                    data.get('perfil_riesgo', 'Perfil no extraído'),
+                    data.get('perfil_riesgo_escala', 'No disponible'),
+                    data.get('tolerancia_riesgo', 'No especificado en PDF'),
+                    data.get('patrimonio', 'No disponible'),
+                    f"{data.get('comision_administracion', 0):.4f}" if data.get('comision_administracion') else 'No extraída',
+                    f"{data.get('comision_rescate', 0):.4f}" if data.get('comision_rescate') else 'No extraída',
+                    metrics.get('clasificacion_riesgo_detallada', 'No clasificado'),
+                    f"{data.get('rentabilidad_12m', 0):.2%}" if data.get('rentabilidad_12m') else 'No disponible',
+                    f"{data.get('rentabilidad_24m', 0):.2%}" if data.get('rentabilidad_24m') else 'No disponible',
+                    f"{data.get('rentabilidad_36m', 0):.2%}" if data.get('rentabilidad_36m') else 'No disponible',
+                    'Sí' if data.get('fondo_rescatable') is True else 'No' if data.get('fondo_rescatable') is False else 'No especificado',
+                    data.get('plazos_rescates', 'No especificado'),
+                    data.get('duracion', 'No especificada'),
+                    data.get('monto_minimo', 'No especificado'),
                     'CMF Chile + Scraping Web' if data.get('fuente_cmf') else 'ERROR: Datos CMF no disponibles',
                     datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                    metrics.get('perfil_inversionista_ideal') if metrics.get('perfil_inversionista_ideal') else 'N/A',
-                    metrics.get('horizonte_inversion_recomendado') if metrics.get('horizonte_inversion_recomendado') else 'N/A',
-                    metrics.get('horizonte_inversion_meses') if metrics.get('horizonte_inversion_meses') else 'N/A'
+                    metrics.get('perfil_inversionista_ideal') if metrics.get('perfil_inversionista_ideal') else 'No determinado',
+                    metrics.get('horizonte_inversion_recomendado') if metrics.get('horizonte_inversion_recomendado') else 'No especificado en PDF',
+                    metrics.get('horizonte_inversion_meses') if metrics.get('horizonte_inversion_meses') else 'No determinado'
                 ]
             }
 
             # Hoja 2: Composición del Portafolio
             composicion = data.get('composicion_portafolio', [])
-            if composicion:
+            if composicion and len(composicion) > 0:
                 composicion_data = {
-                    'Activo/Instrumento': [item.get('activo', '') for item in composicion],
-                    'Porcentaje': [f"{item.get('porcentaje', 0):.2%}" for item in composicion],
-                    'Porcentaje Decimal': [item.get('porcentaje', 0) for item in composicion],
-                    'Tipo de Inversión': [self._classify_investment_type(item.get('activo', '')) for item in composicion]
+                    'Activo/Instrumento': [item.get('activo', 'Sin nombre') for item in composicion],
+                    'Tipo': [item.get('tipo_activo', 'No clasificado') for item in composicion],
+                    'Porcentaje': [item.get('porcentaje', 0) for item in composicion]
                 }
+
+                # Add summary row
+                total_porcentaje = sum([item.get('porcentaje', 0) for item in composicion])
+                composicion_data['Activo/Instrumento'].append('TOTAL')
+                composicion_data['Tipo'].append('-')
+                composicion_data['Porcentaje'].append(total_porcentaje)
+
+                # Add validation warning if total != 100%
+                if abs(total_porcentaje - 100.0) > 5.0:
+                    composicion_data['Activo/Instrumento'].append('⚠ NOTA')
+                    composicion_data['Tipo'].append('Advertencia')
+                    composicion_data['Porcentaje'].append('')
+                    logger.warning(f"[EXCEL] Composición no suma 100%: {total_porcentaje:.2f}%")
             else:
-                composicion_data = {'Activo/Instrumento': ['Sin datos'], 'Porcentaje': ['N/A'], 'Porcentaje Decimal': [0], 'Tipo de Inversión': ['N/A']}
+                composicion_data = {
+                    'Activo/Instrumento': ['No se pudo extraer composición del PDF'],
+                    'Tipo': ['Verifique el folleto informativo manualmente'],
+                    'Porcentaje': ['']
+                }
 
             # Hoja 3: Análisis de Riesgo y Rentabilidad - SOLO DATOS REALES
             proyeccion = metrics.get('proyeccion_rentabilidad', {})
@@ -3214,50 +4000,78 @@ class FondosMutuosProcessor:
 
             # Hoja 6: Metadatos de Extracción (NUEVO)
             # Esta hoja documenta la procedencia de los datos y confiabilidad de la extracción
+
+            # Build CMF URL if RUT available
+            cmf_url = 'No disponible'
+            if data.get('rut_base'):
+                rut_base = data['rut_base']
+                cmf_url = f"https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut={rut_base}&grupo=&tipoentidad=RGFMU&row=&vig=VI&control=svs&pestania=1&tpl=alt"
+
+            # Calculate data quality score
+            quality = self._calculate_data_quality_score(data)
+
             metadata_data = {
                 'Campo': [
                     'Timestamp Extracción',
                     'Método Extracción PDF',
                     'Confianza Extracción',
+                    'Calidad de Datos (0-100)',
+                    'Nivel de Calidad',
+                    'Campos Críticos (%)',
+                    'Campos Importantes (%)',
                     'PDF Procesado',
                     'Fuente CMF',
                     'Fuente Fintual',
+                    'URL CMF Fondo',
                     'Campos Extraídos PDF',
                     'Total Páginas PDF',
                     'Caracteres Extraídos',
                     'Composición Detectada',
                     'RUN Validado',
                     'Estado Fondo',
+                    'Fuentes de Datos',
                     'Advertencias'
                 ],
                 'Valor': [
                     datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                     data.get('extraction_method', 'pdfplumber'),
                     data.get('extraction_confidence', 'unknown'),
+                    quality['score'],
+                    quality['level'],
+                    quality['critical_pct'],
+                    quality['important_pct'],
                     'Sí' if data.get('pdf_procesado') else 'No',
                     'Sí' if data.get('fuente_cmf') else 'No',
                     'Sí' if data.get('fintual_match') else 'No',
+                    cmf_url,
                     f"{len([k for k, v in data.items() if v and k not in ['texto_completo', 'composicion_portafolio', 'composicion_detallada']])}",
                     data.get('total_paginas_pdf', 'N/A'),
                     len(data.get('texto_completo', '')) if data.get('texto_completo') else 0,
                     f"{len(data.get('composicion_portafolio', []))} activos",
                     'Sí' if data.get('run') and data.get('rut_base') else 'No',
                     data.get('estado_fondo', 'Desconocido'),
-                    'Ninguna' if data.get('extraction_confidence') == 'high' else 'Revisar extracción manual'
+                    ', '.join([f"{k}: {v}" for k, v in data.get('data_sources', {}).items()]) if data.get('data_sources') else 'No rastreado',
+                    self._generate_confidence_warnings(data)
                 ],
                 'Descripción': [
                     'Fecha y hora de la extracción de datos',
                     'Método usado para extraer texto del PDF (pdfplumber u OCR)',
                     'Nivel de confianza en los datos extraídos (high/medium/low)',
+                    'Score cuantitativo de calidad (0-100) basado en completitud',
+                    'Nivel cualitativo: Excelente/Buena/Regular/Baja',
+                    'Porcentaje de campos críticos extraídos (nombre, RUN, tipo, riesgo)',
+                    'Porcentaje de campos importantes extraídos (horizonte, tolerancia, etc)',
                     'Si se procesó correctamente el PDF del folleto informativo',
                     'Si se obtuvieron datos del sitio CMF Chile',
                     'Si el fondo existe en la API de Fintual',
+                    'URL directa a la ficha del fondo en CMF (clickeable)',
                     'Cantidad de campos con datos válidos extraídos del PDF',
                     'Número total de páginas del PDF procesado',
                     'Cantidad de caracteres extraídos del PDF (indicador de calidad)',
                     'Número de activos detectados en la composición del portafolio',
                     'Si se validó el RUN del fondo contra múltiples fuentes',
                     'Estado operacional del fondo (Vigente/Liquidado/Fusionado)',
+                    'Origen de cada campo extraído (trazabilidad completa)',
                     'Indicaciones sobre la calidad de los datos'
                 ]
             }
@@ -3276,6 +4090,42 @@ class FondosMutuosProcessor:
                 pd.DataFrame(descripcion_data).to_excel(writer, sheet_name='Descripción IA', index=False)
                 pd.DataFrame(metadata_data).to_excel(writer, sheet_name='Metadatos Extracción', index=False)
 
+                # Add error sheet if extraction had errors
+                if data.get('error'):
+                    error_data = {
+                        'Tipo de Error': [],
+                        'Descripción': [],
+                        'Recomendación': []
+                    }
+
+                    error_str = data['error']
+
+                    # Parse error string and provide recommendations
+                    if 'Fintual' in error_str:
+                        error_data['Tipo de Error'].append('API Fintual')
+                        error_data['Descripción'].append('Fondo no encontrado en Fintual')
+                        error_data['Recomendación'].append('Datos RUN/RUT pueden estar incompletos. Verificar en CMF.')
+
+                    if 'CMF' in error_str:
+                        error_data['Tipo de Error'].append('CMF Scraping')
+                        error_data['Descripción'].append('Fondo no encontrado en sitio CMF')
+                        error_data['Recomendación'].append('Verificar que el nombre del fondo sea correcto.')
+
+                    if 'PDF' in error_str or data.get('extraction_confidence') == 'low':
+                        error_data['Tipo de Error'].append('Extracción PDF')
+                        error_data['Descripción'].append('Datos extraídos con baja confianza')
+                        error_data['Recomendación'].append('Revisar folleto informativo manualmente.')
+
+                    if error_data['Tipo de Error']:
+                        df_errores = pd.DataFrame(error_data)
+                        df_errores.to_excel(writer, sheet_name='Errores y Advertencias', index=False)
+
+                        # Format error sheet
+                        worksheet_err = writer.sheets['Errores y Advertencias']
+                        worksheet_err.column_dimensions['A'].width = 20
+                        worksheet_err.column_dimensions['B'].width = 50
+                        worksheet_err.column_dimensions['C'].width = 50
+
                 # Ajustar formato
                 for sheet_name in writer.sheets:
                     worksheet = writer.sheets[sheet_name]
@@ -3287,10 +4137,18 @@ class FondosMutuosProcessor:
                                 cell_length = len(str(cell.value))
                                 if cell_length > max_length:
                                     max_length = cell_length
-                            except:
+                            except Exception as e:
+                                logger.debug(f"[EXCEL] Error calculando largo de celda: {e}")
                                 pass
-                        adjusted_width = min(max_length + 2, 100)
-                        worksheet.column_dimensions[column_letter].width = adjusted_width
+                        # Set reasonable defaults if calculation fails
+                        if max_length == 0:
+                            if sheet_name == 'Resumen Ejecutivo':
+                                worksheet.column_dimensions[column_letter].width = 30  # Field names
+                            else:
+                                worksheet.column_dimensions[column_letter].width = 20  # Default
+                        else:
+                            adjusted_width = min(max_length + 2, 100)
+                            worksheet.column_dimensions[column_letter].width = adjusted_width
 
             logger.info(f"✓ Archivo Excel generado: {output_path}")
 
@@ -3353,18 +4211,23 @@ class FondosMutuosProcessor:
         """
         logger.info(f" INICIANDO PROCESAMIENTO CON SCRAPING REAL para: {fondo_id}")
 
+        # FIX: Initialize with None (null in JSON) for missing data, not empty strings
+        # ETL Compliance: Return null for absent fields, not ""
         resultado = {
             'fondo_id': fondo_id,
-            'nombre': '',
-            'nombre_cmf': '',
-            'tipo_fondo': '',
-            'perfil_riesgo': '',
-            'descripcion_amigable': '',
-            'composicion_portafolio': [],
+            'nombre': None,  # Changed from '' to None
+            'nombre_cmf': None,  # Changed from '' to None
+            'run': None,
+            'rut_base': None,
+            'tipo_fondo': None,  # Changed from '' to None
+            'perfil_riesgo': None,  # Changed from '' to None
+            'descripcion_amigable': None,  # Changed from '' to None
+            'composicion_portafolio': [],  # Empty array is correct for lists
             'rentabilidad_anual': None,
             'fuente_cmf': False,
             'scraping_success': False,
-            'error': None
+            'error': None,
+            'data_sources': {}  # Track where each field came from
         }
 
         try:
@@ -3378,23 +4241,40 @@ class FondosMutuosProcessor:
             if fintual_data:
                 resultado.update(fintual_data)
 
+                # Track sources from Fintual
+                for key in fintual_data.keys():
+                    if key not in ['series', 'data_sources']:  # Skip metadata fields
+                        resultado['data_sources'][key] = 'Fintual API'
+
                 # FIX: Extract fecha_valor_cuota from first series if available
                 series = fintual_data.get('series', [])
                 if series and len(series) > 0:
                     primera_serie = series[0]
                     if primera_serie.get('fecha_valor_cuota'):
                         resultado['fecha_valor_cuota'] = primera_serie['fecha_valor_cuota']
+                        resultado['data_sources']['fecha_valor_cuota'] = 'Fintual API'
                         logger.info(f" Fecha valor cuota desde Fintual: {resultado['fecha_valor_cuota']}")
 
                 logger.info(f" Datos de Fintual obtenidos para: {fintual_data.get('nombre', fondo_id)}")
                 logger.info(f" RUN: {fintual_data.get('run')}, RUT base: {fintual_data.get('rut_base')}")
                 logger.info(f" Series encontradas: {len(fintual_data.get('series', []))}")
             else:
-                # Si no hay datos de Fintual, marcar error
+                # Si no hay datos de Fintual, marcar error pero intentar extraer RUN de CMF
                 resultado['nombre'] = fondo_id.replace('_', ' ').title()
                 resultado['rentabilidad_anual'] = None  # NO SIMULAR DATOS
                 resultado['error'] = 'No se obtuvieron datos de Fintual'
                 logger.error(" No se obtuvieron datos de Fintual - No hay datos reales disponibles")
+
+                # Intentar extraer RUN del nombre del fondo si tiene formato estándar
+                # Ejemplo: "Fondo Mutuo Banchile 10446-9" -> extraer "10446-9"
+                import re
+                run_match = re.search(r'\b(\d{4,6}-[\dkK])\b', fondo_id)
+                if run_match:
+                    resultado['run'] = run_match.group(1)
+                    resultado['rut_base'] = resultado['run'].split('-')[0]
+                    resultado['data_sources']['run'] = 'Nombre del fondo'
+                    resultado['data_sources']['rut_base'] = 'Nombre del fondo'
+                    logger.info(f"[RUN] Extraído del nombre: {resultado['run']}")
 
             # Fase 2: SCRAPING REAL de CMF USANDO EL RUT
             logger.info("═" * 60)
@@ -3428,6 +4308,50 @@ class FondosMutuosProcessor:
                     'scraping_success': True,
                     'cmf_fund_info': cmf_fund
                 })
+
+                # Track CMF data sources
+                resultado['data_sources']['nombre_cmf'] = 'CMF Scraping'
+                resultado['data_sources']['rut_cmf'] = 'CMF Scraping'
+                resultado['data_sources']['url_cmf'] = 'CMF Scraping'
+
+                # CRITICAL FIX: Extract RUN from CMF data with improved fallback chain
+                # Priority 1: rut_fondo (most common in cmf_fund_info)
+                # Priority 2: rut field (legacy)
+                # Priority 3: onclick attribute (fallback)
+                run_extracted = None
+                rut_base_extracted = None
+
+                # Priority 1: rut_fondo (most common in cmf_fund_info)
+                if cmf_fund.get('rut_fondo'):
+                    run_extracted = cmf_fund['rut_fondo']
+                    logger.info(f"[RUN CMF] Extraído de rut_fondo: {run_extracted}")
+                # Priority 2: rut field (legacy)
+                elif cmf_fund.get('rut'):
+                    run_extracted = cmf_fund['rut']
+                    logger.info(f"[RUN CMF] Extraído de rut: {run_extracted}")
+                # Priority 3: onclick attribute (fallback)
+                elif cmf_fund.get('onclick'):
+                    onclick_str = cmf_fund['onclick']
+                    run_match = re.search(r'\b(\d{4,6}-[\dkK])\b', onclick_str)
+                    if run_match:
+                        run_extracted = run_match.group(1)
+                        logger.info(f"[RUN CMF] Extraído de onclick: {run_extracted}")
+
+                # If RUN was extracted, populate run and rut_base
+                if run_extracted:
+                    resultado['run'] = run_extracted
+                    # Extract RUT base (without verificator digit)
+                    if '-' in run_extracted:
+                        rut_base_extracted = run_extracted.split('-')[0]
+                    else:
+                        rut_base_extracted = run_extracted
+
+                    resultado['rut_base'] = rut_base_extracted
+                    resultado['data_sources']['run'] = 'CMF Scraping'
+                    resultado['data_sources']['rut_base'] = 'CMF Scraping'
+                    logger.info(f"[RUN CMF] Final: RUN={run_extracted}, RUT_BASE={rut_base_extracted}")
+                else:
+                    logger.warning("[RUN CMF] No se pudo extraer RUN/RUT de los datos de CMF")
 
                 # FIX: Clear Fintual error if CMF data is successfully obtained
                 # A fund is successful if we have CMF data, even without Fintual
@@ -3509,35 +4433,56 @@ class FondosMutuosProcessor:
                     logger.info("═" * 60)
 
                     pdf_data = self._extract_data_from_pdf(pdf_path)
-#### Tener cuidado y revisar si esta cadena de ifs, esta muy hardcodeada y los pdf's estan construidos diferentemenete
+#### CRITICAL FIX: Transfer ALL extracted PDF fields, not just hardcoded subset
                     if pdf_data.get('pdf_procesado'):
-                        # Actualizar resultado con datos del PDF
-                        if pdf_data.get('tipo_fondo'):
-                            resultado['tipo_fondo'] = pdf_data['tipo_fondo']
-                        if pdf_data.get('perfil_riesgo'):
-                            resultado['perfil_riesgo'] = pdf_data['perfil_riesgo']
-                        if pdf_data.get('composicion_portafolio'):
-                            resultado['composicion_portafolio'] = pdf_data['composicion_portafolio']
+                        # COMPREHENSIVE FIELD TRANSFER - All extracted fields from PDF
+                        # This fixes the issue where extracted data was being discarded
 
-                        # FIX: Map rentabilidad_12m to rentabilidad_anual if not already set
+                        # Define fields to transfer (excluding metadata and internal fields)
+                        fields_to_transfer = [
+                            # Required fields from extraction
+                            'administradora', 'descripcion_fondo', 'tiempo_rescate', 'moneda',
+                            'patrimonio_fondo', 'patrimonio_sede', 'TAC', 'TAC_industria',
+                            'inversion_minima', 'rentabilidades_nominales', 'mejores_rentabilidades',
+                            'peores_rentabilidades', 'rentabilidades_anualizadas',
+                            # Standard fields
+                            'tipo_fondo', 'perfil_riesgo', 'perfil_riesgo_escala', 'tolerancia_riesgo',
+                            'perfil_inversionista_ideal', 'horizonte_inversion', 'horizonte_inversion_meses',
+                            'comision_administracion', 'comision_rescate', 'fondo_rescatable',
+                            'plazos_rescates', 'duracion', 'monto_minimo', 'monto_minimo_moneda',
+                            'monto_minimo_valor', 'rentabilidad_12m', 'rentabilidad_24m',
+                            'rentabilidad_36m', 'patrimonio', 'patrimonio_moneda',
+                            'composicion_portafolio', 'composicion_detallada', 'extraction_confidence',
+                            'rut', 'run', 'serie_fondo'
+                        ]
+
+                        # Transfer all available fields
+                        for field in fields_to_transfer:
+                            if pdf_data.get(field) is not None:
+                                # Don't overwrite if already set from higher-priority source (except for PDF-authoritative fields)
+                                pdf_authoritative = field in ['rut', 'run', 'serie_fondo', 'administradora',
+                                                               'descripcion_fondo', 'TAC', 'TAC_industria']
+                                if pdf_authoritative or not resultado.get(field):
+                                    resultado[field] = pdf_data[field]
+                                    resultado['data_sources'][field] = 'PDF'
+                                    logger.debug(f"[PDF TRANSFER] {field}: {pdf_data[field]}")
+
+                        # Special mapping: rentabilidad_12m to rentabilidad_anual if not set
                         if pdf_data.get('rentabilidad_12m') and not resultado.get('rentabilidad_anual'):
                             resultado['rentabilidad_anual'] = pdf_data['rentabilidad_12m']
+                            resultado['data_sources']['rentabilidad_anual'] = 'PDF'
                             logger.info(f" Rentabilidad anual mapeada desde PDF: {resultado['rentabilidad_anual']:.2%}")
 
-                        # FIX: Map composicion_detallada if composicion_portafolio is empty
+                        # Special mapping: composicion_detallada to composicion_portafolio if empty
                         if pdf_data.get('composicion_detallada') and not resultado.get('composicion_portafolio'):
                             resultado['composicion_portafolio'] = pdf_data['composicion_detallada']
+                            resultado['data_sources']['composicion_portafolio'] = 'PDF'
                             logger.info(f" Composición mapeada desde composicion_detallada: {len(resultado['composicion_portafolio'])} activos")
 
-                        # Also map other useful fields from PDF
-                        if pdf_data.get('horizonte_inversion'):
-                            resultado['horizonte_inversion'] = pdf_data['horizonte_inversion']
-                        if pdf_data.get('comision_administracion'):
-                            resultado['comision_administracion'] = pdf_data['comision_administracion']
-                        if pdf_data.get('rentabilidad_24m'):
-                            resultado['rentabilidad_24m'] = pdf_data['rentabilidad_24m']
-                        if pdf_data.get('rentabilidad_36m'):
-                            resultado['rentabilidad_36m'] = pdf_data['rentabilidad_36m']
+                        # Special mapping: monto_minimo to inversion_minima
+                        if pdf_data.get('monto_minimo') and not resultado.get('inversion_minima'):
+                            resultado['inversion_minima'] = pdf_data['monto_minimo']
+                            resultado['data_sources']['inversion_minima'] = 'PDF'
 
                         # FIX: Clear error if we have extracted meaningful data from PDF
                         if (pdf_data.get('tipo_fondo') or pdf_data.get('rentabilidad_12m') or
@@ -3559,12 +4504,16 @@ class FondosMutuosProcessor:
  # NO generar portafolio simulado
             else:
                 logger.error(" Fondo no encontrado en CMF - No hay datos reales disponibles")
+                # Safe error concatenation - handle None case
+                existing_error = resultado.get('error') or ''
+                new_error = 'Fondo no encontrado en CMF'
+                combined_error = f"{existing_error} | {new_error}".strip(' |') if existing_error else new_error
                 resultado.update({
                     'fuente_cmf': False,
                     'tipo_fondo': None,
                     'perfil_riesgo': None,
                     'composicion_portafolio': [],
-                    'error': resultado.get('error', '') + ' | Fondo no encontrado en CMF'
+                    'error': combined_error
                 })
                
 

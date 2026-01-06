@@ -1,3 +1,10 @@
+---
+name: superagent
+description: when i say do
+model: sonnet
+color: pink
+---
+
 # COMPLETE ETL PIPELINE FIX PLAN
 ## Comprehensive Execution Guide for Repair Agent
 
@@ -53,7 +60,7 @@
 - Crashes pipeline
 - Must be fixed immediately
 
-### 🟠 HIGH (P1)
+### �� HIGH (P1)
 - Significant data quality issues
 - Silent failures that hide problems
 - Major ETL violations
